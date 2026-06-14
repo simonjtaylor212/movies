@@ -279,6 +279,24 @@
     "booking_url": "https://www.yelmocines.es/compra-entradas?showtimeId=37886&cinemaId=807"
   },
   {
+    "cinema": "Cine Yelmo Vialia Málaga",
+    "date": "2026-06-27",
+    "movie": "Obsession",
+    "format": "2D",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "time": "19:25",
+    "booking_url": "https://www.yelmocines.es/compra-entradas?showtimeId=37888&cinemaId=807"
+  },
+  {
+    "cinema": "Cine Yelmo Vialia Málaga",
+    "date": "2026-06-27",
+    "movie": "Obsession",
+    "format": "2D",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "time": "21:40",
+    "booking_url": "https://www.yelmocines.es/compra-entradas?showtimeId=37889&cinemaId=807"
+  },
+  {
     "cinema": "Cine Yelmo Plaza Mayor",
     "date": "2026-06-14",
     "movie": "El día de la revelación",
@@ -603,67 +621,40 @@
     "booking_url": "https://www.yelmocines.es/compra-entradas?showtimeId=39381&cinemaId=790"
   },
   {
-    "cinema": "Cine Albéniz",
-    "date": "2026-06-13",
-    "movie": "Backrooms",
+    "cinema": "Cine Yelmo Plaza Mayor",
+    "date": "2026-06-27",
+    "movie": "Supergirl",
     "format": "2D",
-    "language": "V.O.S.E.",
-    "time": "20:00",
-    "booking_url": "https://www.unientradas.es/es/recinto/FC-03"
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "time": "21:35",
+    "booking_url": "https://www.yelmocines.es/compra-entradas?showtimeId=39385&cinemaId=790"
   },
   {
-    "cinema": "Cine Albéniz",
-    "date": "2026-06-13",
-    "movie": "El guardian del árbol de alcanfor",
+    "cinema": "Cine Yelmo Plaza Mayor",
+    "date": "2026-06-27",
+    "movie": "Obsession",
     "format": "2D",
-    "language": "V.O.S.E.",
-    "time": "16:00",
-    "booking_url": "https://www.unientradas.es/es/recinto/FC-03"
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "time": "17:10",
+    "booking_url": "https://www.yelmocines.es/compra-entradas?showtimeId=39377&cinemaId=790"
   },
   {
-    "cinema": "Cine Albéniz",
-    "date": "2026-06-13",
-    "movie": "El guardian del árbol de alcanfor",
+    "cinema": "Cine Yelmo Plaza Mayor",
+    "date": "2026-06-27",
+    "movie": "Obsession",
     "format": "2D",
-    "language": "V.O.S.E.",
-    "time": "20:00",
-    "booking_url": "https://www.unientradas.es/es/recinto/FC-03"
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "time": "19:25",
+    "booking_url": "https://www.yelmocines.es/compra-entradas?showtimeId=39379&cinemaId=790"
   },
   {
-    "cinema": "Cine Albéniz",
-    "date": "2026-06-13",
-    "movie": "Eleonora Duse, la divina",
+    "cinema": "Cine Yelmo Plaza Mayor",
+    "date": "2026-06-27",
+    "movie": "Obsession",
     "format": "2D",
-    "language": "V.O.S.E.",
-    "time": "18:10",
-    "booking_url": "https://www.unientradas.es/es/recinto/FC-03"
-  },
-  {
-    "cinema": "Cine Albéniz",
-    "date": "2026-06-13",
-    "movie": "Eleonora Duse, la divina",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "time": "20:30",
-    "booking_url": "https://www.unientradas.es/es/recinto/FC-03"
-  },
-  {
-    "cinema": "Cine Albéniz",
-    "date": "2026-06-13",
-    "movie": "Rebuilding",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "time": "18:00",
-    "booking_url": "https://www.unientradas.es/es/recinto/FC-03"
-  },
-  {
-    "cinema": "Cine Albéniz",
-    "date": "2026-06-13",
-    "movie": "Rebuilding",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "time": "21:45",
-    "booking_url": "https://www.unientradas.es/es/recinto/FC-03"
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "time": "21:40",
+    "booking_url": "https://www.yelmocines.es/compra-entradas?showtimeId=39378&cinemaId=790"
   },
   {
     "cinema": "Cine Albéniz",
@@ -982,7 +973,7 @@
   },
   {
     "cinema": "mk2 Cinesur Miramar",
-    "date": "2026-06-13",
+    "date": "2026-06-14",
     "movie": "El día de la revelación",
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
@@ -991,7 +982,7 @@
   },
   {
     "cinema": "mk2 Cinesur Miramar",
-    "date": "2026-06-13",
+    "date": "2026-06-14",
     "movie": "El día de la revelación",
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
@@ -1000,7 +991,7 @@
   },
   {
     "cinema": "mk2 Cinesur Miramar",
-    "date": "2026-06-13",
+    "date": "2026-06-14",
     "movie": "El día de la revelación",
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
@@ -1009,7 +1000,7 @@
   },
   {
     "cinema": "mk2 Cinesur Miramar",
-    "date": "2026-06-13",
+    "date": "2026-06-14",
     "movie": "El día de la revelación",
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
@@ -1018,7 +1009,7 @@
   },
   {
     "cinema": "mk2 Cinesur Miramar",
-    "date": "2026-06-13",
+    "date": "2026-06-14",
     "movie": "El drama",
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
@@ -1027,7 +1018,7 @@
   },
   {
     "cinema": "mk2 Cinesur Miramar",
-    "date": "2026-06-13",
+    "date": "2026-06-14",
     "movie": "Backrooms",
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
@@ -1036,7 +1027,7 @@
   },
   {
     "cinema": "mk2 Cinesur Miramar",
-    "date": "2026-06-13",
+    "date": "2026-06-14",
     "movie": "Backrooms",
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
@@ -1045,7 +1036,7 @@
   },
   {
     "cinema": "mk2 Cinesur Miramar",
-    "date": "2026-06-13",
+    "date": "2026-06-14",
     "movie": "He-Man y los masters del universo",
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
@@ -1054,7 +1045,7 @@
   },
   {
     "cinema": "mk2 Cinesur Miramar",
-    "date": "2026-06-13",
+    "date": "2026-06-14",
     "movie": "Michael",
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
@@ -1063,7 +1054,7 @@
   },
   {
     "cinema": "mk2 Cinesur Miramar",
-    "date": "2026-06-13",
+    "date": "2026-06-14",
     "movie": "Michael",
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
@@ -1072,7 +1063,7 @@
   },
   {
     "cinema": "mk2 Cinesur Miramar",
-    "date": "2026-06-14",
+    "date": "2026-06-15",
     "movie": "El día de la revelación",
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
@@ -1081,7 +1072,7 @@
   },
   {
     "cinema": "mk2 Cinesur Miramar",
-    "date": "2026-06-14",
+    "date": "2026-06-15",
     "movie": "El día de la revelación",
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
@@ -1090,7 +1081,7 @@
   },
   {
     "cinema": "mk2 Cinesur Miramar",
-    "date": "2026-06-14",
+    "date": "2026-06-15",
     "movie": "El día de la revelación",
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
@@ -1099,7 +1090,7 @@
   },
   {
     "cinema": "mk2 Cinesur Miramar",
-    "date": "2026-06-14",
+    "date": "2026-06-15",
     "movie": "El drama",
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
@@ -1108,7 +1099,7 @@
   },
   {
     "cinema": "mk2 Cinesur Miramar",
-    "date": "2026-06-14",
+    "date": "2026-06-15",
     "movie": "Backrooms",
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
@@ -1117,7 +1108,7 @@
   },
   {
     "cinema": "mk2 Cinesur Miramar",
-    "date": "2026-06-14",
+    "date": "2026-06-15",
     "movie": "Backrooms",
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
@@ -1126,7 +1117,7 @@
   },
   {
     "cinema": "mk2 Cinesur Miramar",
-    "date": "2026-06-14",
+    "date": "2026-06-15",
     "movie": "He-Man y los masters del universo",
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
@@ -1135,7 +1126,7 @@
   },
   {
     "cinema": "mk2 Cinesur Miramar",
-    "date": "2026-06-14",
+    "date": "2026-06-15",
     "movie": "Michael",
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
@@ -1441,7 +1432,7 @@
   },
   {
     "cinema": "mk2 Cinesur El Ingenio",
-    "date": "2026-06-13",
+    "date": "2026-06-14",
     "movie": "El día de la revelación",
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
@@ -1450,7 +1441,7 @@
   },
   {
     "cinema": "mk2 Cinesur El Ingenio",
-    "date": "2026-06-13",
+    "date": "2026-06-14",
     "movie": "El día de la revelación",
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
@@ -1459,7 +1450,7 @@
   },
   {
     "cinema": "mk2 Cinesur El Ingenio",
-    "date": "2026-06-13",
+    "date": "2026-06-14",
     "movie": "El día de la revelación",
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
@@ -1468,7 +1459,7 @@
   },
   {
     "cinema": "mk2 Cinesur El Ingenio",
-    "date": "2026-06-13",
+    "date": "2026-06-14",
     "movie": "Backrooms",
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
@@ -1477,7 +1468,7 @@
   },
   {
     "cinema": "mk2 Cinesur El Ingenio",
-    "date": "2026-06-14",
+    "date": "2026-06-15",
     "movie": "El día de la revelación",
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
@@ -1486,7 +1477,7 @@
   },
   {
     "cinema": "mk2 Cinesur El Ingenio",
-    "date": "2026-06-14",
+    "date": "2026-06-15",
     "movie": "El día de la revelación",
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
@@ -1495,7 +1486,7 @@
   },
   {
     "cinema": "mk2 Cinesur Málaga Nostrum",
-    "date": "2026-06-13",
+    "date": "2026-06-14",
     "movie": "El día de la revelación",
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
@@ -1504,7 +1495,7 @@
   },
   {
     "cinema": "mk2 Cinesur Málaga Nostrum",
-    "date": "2026-06-13",
+    "date": "2026-06-14",
     "movie": "El día de la revelación",
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
@@ -1513,7 +1504,7 @@
   },
   {
     "cinema": "mk2 Cinesur Málaga Nostrum",
-    "date": "2026-06-13",
+    "date": "2026-06-14",
     "movie": "El día de la revelación",
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
@@ -1522,7 +1513,7 @@
   },
   {
     "cinema": "mk2 Cinesur Málaga Nostrum",
-    "date": "2026-06-13",
+    "date": "2026-06-14",
     "movie": "El día de la revelación",
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
@@ -1531,7 +1522,7 @@
   },
   {
     "cinema": "mk2 Cinesur Málaga Nostrum",
-    "date": "2026-06-13",
+    "date": "2026-06-14",
     "movie": "Backrooms",
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
@@ -1540,7 +1531,7 @@
   },
   {
     "cinema": "mk2 Cinesur Málaga Nostrum",
-    "date": "2026-06-14",
+    "date": "2026-06-15",
     "movie": "El día de la revelación",
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
@@ -1549,7 +1540,7 @@
   },
   {
     "cinema": "mk2 Cinesur Málaga Nostrum",
-    "date": "2026-06-14",
+    "date": "2026-06-15",
     "movie": "El día de la revelación",
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
@@ -1558,7 +1549,7 @@
   },
   {
     "cinema": "mk2 Cinesur Málaga Nostrum",
-    "date": "2026-06-14",
+    "date": "2026-06-15",
     "movie": "El día de la revelación",
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
@@ -1567,7 +1558,7 @@
   },
   {
     "cinema": "mk2 Cinesur Málaga Nostrum",
-    "date": "2026-06-14",
+    "date": "2026-06-15",
     "movie": "Backrooms",
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
