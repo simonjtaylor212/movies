@@ -65,7 +65,7 @@ def scrape_yelmo():
                             # Yelmo booking URL pattern
                             showtime_id = st.get('ShowtimeId', '')
                             vista_cinema_id = st.get('VistaCinemaId', '')
-                            booking_url = f"https://www.yelmocines.es/compra-entradas?showtimeId={showtime_id}&cinemaId={vista_cinema_id}" if showtime_id else ""
+                            booking_url = f"https://compra.yelmocines.es/?cinemaVistaId={vista_cinema_id}&showtimeVistaId={showtime_id}" if showtime_id else ""
                             
                             sessions.append({
                                 "cinema": cinema_name,
