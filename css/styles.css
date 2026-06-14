@@ -290,8 +290,8 @@ a {
 /* --- MOVIE GRID --- */
 .movie-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    gap: 28px;
+    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+    gap: 24px;
 }
 
 /* --- MOVIE CARD --- */
@@ -301,7 +301,7 @@ a {
     border-radius: 20px;
     overflow: hidden;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     transition: var(--transition-smooth);
     backdrop-filter: blur(12px);
     box-shadow: var(--shadow-sm);
@@ -314,7 +314,8 @@ a {
 }
 
 .poster-container {
-    width: 100%;
+    width: 140px;
+    flex-shrink: 0;
     aspect-ratio: 2 / 3;
     overflow: hidden;
     position: relative;
@@ -498,8 +499,16 @@ a {
     }
     
     .movie-grid {
-        grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
         gap: 20px;
+    }
+
+    .movie-card {
+        flex-direction: column;
+    }
+
+    .poster-container {
+        width: 100%;
     }
 }
 
@@ -588,7 +597,7 @@ a {
 }
 
 .movie-grid.list-by-movie {
-    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
 }
 
 .list-by-movie .showtimes-section {
