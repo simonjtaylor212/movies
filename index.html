@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <title>Malaga VOSE - Movie Showtimes in Original Version</title>
+    <meta name="description" content="Find all VOSE (original version with Spanish subtitles) movies and showtimes in Malaga for the next 14 days. Cine Yelmo, Cinesur, and Cine Albéniz.">
+    <meta name="keywords" content="vose, vose movies malaga, subtitled movies malaga, yelmo vose, cinesur vose, albeniz vose, original version malaga">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🎬%3C/text%3E%3C/svg%3E">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="hero">
+        <div class="container">
+            <h1 id="mainTitle">Malaga VOSE</h1>
+            <p>Unified movie showtimes in original version with Spanish subtitles for the next 14 days.</p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container">
+        
+        <!-- View Mode Switcher -->
+        <section class="view-switcher-container">
+            <button class="view-btn active" id="btnViewDay" data-view="day">
+                <i class="fa-solid fa-calendar-day"></i> View by Day
+            </button>
+            <button class="view-btn" id="btnViewMovie" data-view="movie">
+                <i class="fa-solid fa-film"></i> View by Movie
+            </button>
+        </section>
+        
+        <!-- 1. Date Selector Scrollbar (shown only in 'day' view mode) -->
+        <section class="date-selector-container" id="dateSelectorSection">
+            <div class="date-selector-scroll" id="dateSelector">
+                <!-- Date cards will be dynamically generated here -->
+            </div>
+        </section>
+        
+        <!-- 2. Filter Toolbar -->
+        <section class="filter-toolbar">
+            
+            <!-- Search Bar -->
+            <div class="search-container">
+                <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                <input type="text" id="searchInput" class="search-input" placeholder="Search movie title or cinema...">
+            </div>
+            
+            <!-- Cinema Chains Filters -->
+            <div class="filter-group">
+                <span class="filter-title">Filter by Cinema Chain:</span>
+                <div class="cinema-chips" id="cinemaChips">
+                    <button class="chip active all-chip" data-chain="all" id="chipAll">All Cinemas</button>
+                    <button class="chip" data-chain="yelmo" id="chipYelmo">Cine Yelmo</button>
+                    <button class="chip" data-chain="cinesur" id="chipCinesur">mk2 Cinesur</button>
+                    <button class="chip" data-chain="albeniz" id="chipAlbeniz">Cine Albéniz</button>
+                </div>
+            </div>
+            
+        </section>
+
+        <!-- 3. Movie Cards Grid -->
+        <section class="movie-grid" id="movieGrid">
+            <!-- Movie cards and loaders will be rendered here -->
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer style="text-align: center; padding: 40px 0; color: var(--text-muted); font-size: 0.875rem; border-top: 1px solid var(--border-color); margin-top: 60px; background: rgba(0,0,0,0.15);">
+        <p>© 2026 Malaga VOSE. Data updated automatically from official sources.</p>
+        <p style="margin-top: 8px; font-size: 0.75rem;">Designed for informational and cultural purposes.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/app.js"></script>
+</body>
+</html>

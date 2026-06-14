@@ -1,0 +1,10 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Reference data
+malaga_cinemas.json
+
+# OS files
+.DS_Store
+Thumbs.db
