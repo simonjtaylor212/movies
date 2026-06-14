@@ -5,10 +5,19 @@ import requests
 from datetime import datetime, timezone, timedelta
 from bs4 import BeautifulSoup
 
+def get_spain_timezone():
+    try:
+        from zoneinfo import ZoneInfo
+        return ZoneInfo("Europe/Madrid")
+    except Exception:
+        # Fallback to UTC+2 for CEST (Spain summer time)
+        return timezone(timedelta(hours=2))
+
 def get_next_14_days():
-    # Use current UTC date
-    now_utc = datetime.now(timezone.utc)
-    base_date = datetime(now_utc.year, now_utc.month, now_utc.day, tzinfo=timezone.utc)
+    # Use Spain's local timezone since showtimes are in Spanish local time
+    spain_tz = get_spain_timezone()
+    now_local = datetime.now(spain_tz)
+    base_date = datetime(now_local.year, now_local.month, now_local.day, tzinfo=spain_tz)
     return [base_date + timedelta(days=i) for i in range(14)]
 
 def scrape_yelmo():
@@ -228,9 +237,10 @@ def scrape_cinesur_theatre(cinema_slug, cinema_name, base_date):
 
 def scrape_cinesur():
     print("Scraping mk2 Cinesur...")
-    # Use current UTC date
-    now_utc = datetime.now(timezone.utc)
-    base_date = datetime(now_utc.year, now_utc.month, now_utc.day, tzinfo=timezone.utc)
+    # Use Spain's local timezone since showtimes are in Spanish local time
+    spain_tz = get_spain_timezone()
+    now_local = datetime.now(spain_tz)
+    base_date = datetime(now_local.year, now_local.month, now_local.day, tzinfo=spain_tz)
     theatres = [
         ("miramar-fuengirola", "mk2 Cinesur Miramar"),
         ("el-ingenio-velez-malaga", "mk2 Cinesur El Ingenio"),
