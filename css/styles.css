@@ -287,6 +287,29 @@ a {
     box-shadow: 0 4px 12px rgba(255, 255, 255, 0.15);
 }
 
+/* Sub-chips styling matching chain selection */
+.chip.active.active-chain-yelmo {
+    background: var(--yelmo-color);
+    color: white;
+    border-color: transparent;
+    box-shadow: 0 4px 12px rgba(99, 102, 241, 0.3);
+}
+
+.chip.active.active-chain-cinesur {
+    background: var(--cinesur-color);
+    color: white;
+    border-color: transparent;
+    box-shadow: 0 4px 12px rgba(245, 158, 11, 0.3);
+}
+
+.chip.active.active-chain-albeniz {
+    background: var(--albeniz-color);
+    color: white;
+    border-color: transparent;
+    box-shadow: 0 4px 12px rgba(236, 72, 153, 0.3);
+}
+
+
 /* --- MOVIE GRID --- */
 .movie-grid {
     display: grid;

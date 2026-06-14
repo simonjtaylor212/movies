@@ -11,6 +11,7 @@ const STATE = {
     allShowtimes: [],
     selectedDateStr: '', // Format YYYY-MM-DD
     selectedChain: 'all', // 'all', 'yelmo', 'cinesur', 'albeniz'
+    selectedCinema: 'all', // 'all' or specific cinema name
     searchQuery: '',
     viewMode: 'day' // 'day' or 'movie'
 };
@@ -85,12 +86,14 @@ function initFilters() {
     });
     
     // Cinema Chain Chips
-    const chips = document.querySelectorAll('.chip');
+    const chips = document.querySelectorAll('#cinemaChips .chip');
     chips.forEach(chip => {
         chip.addEventListener('click', () => {
             chips.forEach(c => c.classList.remove('active'));
             chip.classList.add('active');
             STATE.selectedChain = chip.getAttribute('data-chain');
+            STATE.selectedCinema = 'all'; // Reset cinema sub-filter
+            updateCinemaSubChips(); // Update sub-chips
             renderShowtimes();
         });
     });
@@ -132,6 +135,7 @@ async function loadShowtimes() {
         const response = await fetch(CONFIG.apiEndpoint);
         if (!response.ok) throw new Error('API fetch failed');
         STATE.allShowtimes = await response.json();
+        updateCinemaSubChips(); // Initialize sub-chips
         renderShowtimes();
     } catch (error) {
         console.error('Error loading showtimes:', error);
@@ -159,13 +163,17 @@ function renderDayView() {
     grid.className = 'movie-grid'; // Reset class
     grid.innerHTML = '';
     
-    // 1. Filter by Date, Chain, Search
+    // 1. Filter by Date, Chain, Cinema, and Search
     const filtered = STATE.allShowtimes.filter(item => {
         if (item.date !== STATE.selectedDateStr) return false;
         
         if (STATE.selectedChain !== 'all') {
             const chainName = getChainFromCinema(item.cinema);
             if (chainName !== STATE.selectedChain) return false;
+        }
+
+        if (STATE.selectedCinema !== 'all') {
+            if (item.cinema !== STATE.selectedCinema) return false;
         }
         
         if (STATE.searchQuery) {
@@ -253,11 +261,15 @@ function renderMovieView() {
     grid.className = 'movie-grid list-by-movie'; // Apply custom movie list layout
     grid.innerHTML = '';
     
-    // 1. Filter only by Chain and Search Query (ALL DATES included)
+    // 1. Filter by Chain, Cinema and Search Query (ALL DATES included)
     const filtered = STATE.allShowtimes.filter(item => {
         if (STATE.selectedChain !== 'all') {
             const chainName = getChainFromCinema(item.cinema);
             if (chainName !== STATE.selectedChain) return false;
+        }
+
+        if (STATE.selectedCinema !== 'all') {
+            if (item.cinema !== STATE.selectedCinema) return false;
         }
         
         if (STATE.searchQuery) {
@@ -371,6 +383,63 @@ function renderMovieView() {
         `;
 
         grid.appendChild(cardElement);
+    });
+}
+
+// --- DYNAMIC SUB-FILTER GENERATION ---
+function updateCinemaSubChips() {
+    const container = document.getElementById('cinemaSubFilterGroup');
+    const subChipsContainer = document.getElementById('cinemaSubChips');
+    
+    if (STATE.selectedChain === 'all') {
+        container.style.display = 'none';
+        return;
+    }
+    
+    // Get unique cinemas for the selected chain from all showtimes
+    const cinemas = [...new Set(STATE.allShowtimes
+        .filter(item => getChainFromCinema(item.cinema) === STATE.selectedChain)
+        .map(item => item.cinema)
+    )].sort();
+    
+    // Hide sub-filters if there is 1 or fewer cinemas to choose from
+    if (cinemas.length <= 1) {
+        container.style.display = 'none';
+        return;
+    }
+    
+    container.style.display = 'flex';
+    subChipsContainer.innerHTML = '';
+    
+    // Create the "All Locations" chip
+    const allChip = document.createElement('button');
+    allChip.className = `chip active-chain-${STATE.selectedChain} ${STATE.selectedCinema === 'all' ? 'active' : ''}`;
+    allChip.textContent = `All ${getDisplayChain(STATE.selectedChain)} Locations`;
+    
+    allChip.addEventListener('click', () => {
+        subChipsContainer.querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
+        allChip.classList.add('active');
+        STATE.selectedCinema = 'all';
+        renderShowtimes();
+    });
+    subChipsContainer.appendChild(allChip);
+    
+    // Create specific location chips
+    cinemas.forEach(cinemaName => {
+        const chip = document.createElement('button');
+        chip.className = `chip active-chain-${STATE.selectedChain} ${STATE.selectedCinema === cinemaName ? 'active' : ''}`;
+        
+        // Clean display name
+        const displayCinema = cinemaName.replace('Cine Yelmo ', '').replace('mk2 Cinesur ', '');
+        chip.textContent = displayCinema;
+        
+        chip.addEventListener('click', () => {
+            subChipsContainer.querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
+            chip.classList.add('active');
+            STATE.selectedCinema = cinemaName;
+            renderShowtimes();
+        });
+        subChipsContainer.appendChild(chip);
     });
 }
 
