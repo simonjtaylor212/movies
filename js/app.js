@@ -14,11 +14,10 @@ const STATE = {
     selectedDateStr: '', // Format YYYY-MM-DD
     selectedChain: 'all', // 'all', 'yelmo', 'cinesur', 'albeniz', 'custom'
     selectedCinemas: [], // Array of selected cinema names. Empty means all.
+    selectedLanguages: [], // Array of selected language names. Empty means all.
     searchQuery: '',
     viewMode: 'day', // 'day' or 'movie'
-    onlyMovies: true,
-    onlyEnglish: false,
-    showUnknown: true
+    onlyMovies: true
 };
 
 // --- MONTH NAMES IN ENGLISH ---
@@ -67,9 +66,10 @@ function generateDateSelector() {
                 if (!isMovie) return false;
             }
 
-            const isUnknown = !item.original_language;
-            if (isUnknown && !STATE.showUnknown) return false;
-            if (STATE.onlyEnglish && !isUnknown && item.original_language !== 'English') return false;
+            if (STATE.selectedLanguages.length > 0) {
+                const itemLang = item.original_language || 'Unknown';
+                if (!STATE.selectedLanguages.includes(itemLang)) return false;
+            }
             
             return true;
         });
@@ -215,26 +215,6 @@ function initFilters() {
             renderShowtimes();
         });
     }
-
-    // Only English filter checkbox
-    const chkOnlyEnglish = document.getElementById('chkOnlyEnglish');
-    if (chkOnlyEnglish) {
-        chkOnlyEnglish.checked = STATE.onlyEnglish;
-        chkOnlyEnglish.addEventListener('change', (e) => {
-            STATE.onlyEnglish = e.target.checked;
-            renderShowtimes();
-        });
-    }
-
-    // Show Unknown filter checkbox
-    const chkShowUnknown = document.getElementById('chkShowUnknown');
-    if (chkShowUnknown) {
-        chkShowUnknown.checked = STATE.showUnknown;
-        chkShowUnknown.addEventListener('change', (e) => {
-            STATE.showUnknown = e.target.checked;
-            renderShowtimes();
-        });
-    }
 }
 
 // --- FETCH DATA FROM STATIC API ---
@@ -266,6 +246,7 @@ async function loadShowtimes() {
         }
         
         updateCinemaSubChips(); // Initialize sub-chips
+        updateLanguageChips(); // Initialize language chips
         renderShowtimes();
     } catch (error) {
         console.error('Error loading showtimes:', error);
@@ -313,9 +294,10 @@ function renderDayView() {
             if (!isMovie) return false;
         }
 
-        const isUnknown = !item.original_language;
-        if (isUnknown && !STATE.showUnknown) return false;
-        if (STATE.onlyEnglish && !isUnknown && item.original_language !== 'English') return false;
+        if (STATE.selectedLanguages.length > 0) {
+            const itemLang = item.original_language || 'Unknown';
+            if (!STATE.selectedLanguages.includes(itemLang)) return false;
+        }
         
         return true;
     });
@@ -434,9 +416,10 @@ function renderMovieView() {
             if (!isMovie) return false;
         }
 
-        const isUnknown = !item.original_language;
-        if (isUnknown && !STATE.showUnknown) return false;
-        if (STATE.onlyEnglish && !isUnknown && item.original_language !== 'English') return false;
+        if (STATE.selectedLanguages.length > 0) {
+            const itemLang = item.original_language || 'Unknown';
+            if (!STATE.selectedLanguages.includes(itemLang)) return false;
+        }
         
         return true;
     });
@@ -715,4 +698,41 @@ function getPosterFallbackUrl(movieTitle) {
     }
     
     return "";
+}
+
+function updateLanguageChips() {
+    const container = document.getElementById('languageChips');
+    if (!container) return;
+    container.innerHTML = '';
+    
+    // Get all unique languages from showtimes
+    const uniqueLangs = [...new Set(STATE.allShowtimes.map(item => item.original_language || 'Unknown'))];
+    
+    // Sort: English first, then others alphabetically, then Unknown last
+    uniqueLangs.sort((a, b) => {
+        if (a === 'English') return -1;
+        if (b === 'English') return 1;
+        if (a === 'Unknown') return 1;
+        if (b === 'Unknown') return -1;
+        return a.localeCompare(b);
+    });
+    
+    uniqueLangs.forEach(langName => {
+        const isSelected = STATE.selectedLanguages.includes(langName);
+        const chip = document.createElement('button');
+        chip.className = `chip ${isSelected ? 'active' : ''}`;
+        chip.textContent = langName;
+        
+        chip.addEventListener('click', () => {
+            const index = STATE.selectedLanguages.indexOf(langName);
+            if (index > -1) {
+                STATE.selectedLanguages.splice(index, 1);
+            } else {
+                STATE.selectedLanguages.push(langName);
+            }
+            updateLanguageChips();
+            renderShowtimes();
+        });
+        container.appendChild(chip);
+    });
 }
