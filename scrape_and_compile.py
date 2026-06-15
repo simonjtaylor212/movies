@@ -7,6 +7,7 @@ from bs4 import BeautifulSoup
 
 
 import urllib.parse
+import re
 
 def fetch_original_title(title):
     search_title = title.replace(" - ÓPERA MET ENCORES 2026", "").replace(" - REPOSICIÓN MET 26-27", "").replace(" REPOSICIÓN - Grabado MET 26-27", "").replace(" - MET LIVE 26-27", "").replace(" - GRAB. MET 26-27", "").replace(" - GRABADO MET 26-27", "")
@@ -346,10 +347,8 @@ def main():
             translations = {}
             
 
-
     updated = False
 
-    # First, let's try to fetch missing translations for existing ones
     for title, orig in translations.items():
         if orig == "":
             print(f"Found empty translation for: {title}. Attempting to fetch original title...")
