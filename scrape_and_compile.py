@@ -440,5 +440,13 @@ def main():
     else:
         print("No new showings found.")
 
+    # Resolve missing movie title translations
+    print("\nResolving missing movie title translations...")
+    try:
+        import find_original_names
+        find_original_names.main()
+    except Exception as e:
+        print(f"Error resolving translations: {e}")
+
 if __name__ == '__main__':
     main()

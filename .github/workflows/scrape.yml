@@ -41,8 +41,11 @@ jobs:
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
         
-        # Add both the API JSON payload and the scrape log
+        # Add the API JSON payload, translations, and the scrape log
         git add api/v1/showtimes.json scrape.log
+        if [ -f movie_title_translations.json ]; then
+          git add movie_title_translations.json
+        fi
         if [ -f new_showtimes.json ]; then
           git add new_showtimes.json
         fi
