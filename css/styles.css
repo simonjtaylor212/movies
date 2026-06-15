@@ -455,6 +455,14 @@ a {
     color: var(--text-primary);
 }
 
+.movie-original-title {
+    font-size: 0.95rem;
+    font-style: italic;
+    color: var(--text-secondary);
+    margin-top: -4px;
+    margin-bottom: 8px;
+}
+
 .movie-meta {
     display: flex;
     gap: 12px;

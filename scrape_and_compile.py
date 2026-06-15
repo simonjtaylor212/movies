@@ -76,7 +76,8 @@ def scrape_yelmo():
                                 "language": lang.strip(),
                                 "time": time_str,
                                 "booking_url": booking_url,
-                                "projection_type": proj_type
+                                "projection_type": proj_type,
+                                "movie_title_language": "ES"
                             })
     print(f"Yelmo scraped: found {len(sessions)} VOSE sessions.")
     return sessions
@@ -153,7 +154,8 @@ def scrape_albeniz():
                                 "language": lang_part,
                                 "time": time_val,
                                 "booking_url": booking_url,
-                                "projection_type": "Movie"
+                                "projection_type": "Movie",
+                                "movie_title_language": "OR"
                             })
                             day_sessions_count += 1
                             
@@ -244,7 +246,8 @@ def scrape_cinesur_theatre(cinema_slug, cinema_name, base_date):
                             "language": "Original con subtítulos (VOSE)",
                             "time": time_str,
                             "booking_url": booking_url,
-                            "projection_type": "Movie"
+                            "projection_type": "Movie",
+                            "movie_title_language": "ES"
                         })
     return sessions
 
@@ -286,10 +289,39 @@ def main():
     today_str = now_local.strftime('%Y-%m-%d')
     filtered_showtimes = [s for s in all_showtimes if s['date'] >= today_str]
     
-    # 4. Create directory structure
+    # 4. Update movie title translations
+    translations_path = "movie_title_translations.json"
+    translations = {}
+    if os.path.exists(translations_path):
+        try:
+            with open(translations_path, "r", encoding="utf-8") as f:
+                translations = json.load(f)
+        except Exception as e:
+            print(f"Error reading {translations_path}: {e}")
+            translations = {}
+            
+    updated = False
+    for s in all_showtimes:
+        if s.get("movie_title_language") != "OR":
+            movie_title = s.get("movie")
+            if movie_title and movie_title not in translations:
+                translations[movie_title] = ""
+                updated = True
+                
+    if updated or not os.path.exists(translations_path):
+        # Sort keys for clean git diffs
+        sorted_translations = dict(sorted(translations.items()))
+        try:
+            with open(translations_path, "w", encoding="utf-8") as f:
+                json.dump(sorted_translations, f, ensure_ascii=False, indent=2)
+            print(f"Updated {translations_path}")
+        except Exception as e:
+            print(f"Error writing to {translations_path}: {e}")
+            
+    # 5. Create directory structure
     os.makedirs("api/v1/showtimes", exist_ok=True)
     
-    # 5. Save output
+    # 6. Save output
     output_path = "api/v1/showtimes.json"
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(filtered_showtimes, f, ensure_ascii=False, indent=2)

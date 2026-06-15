@@ -4,11 +4,13 @@ const CONFIG = {
         const d = new Date();
         return new Date(Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()));
     })(), // Dynamically use today's date at UTC midnight
-    apiEndpoint: 'api/v1/showtimes.json'
+    apiEndpoint: 'api/v1/showtimes.json',
+    translationsEndpoint: 'movie_title_translations.json'
 };
 
 const STATE = {
     allShowtimes: [],
+    translations: {},
     selectedDateStr: '', // Format YYYY-MM-DD
     selectedChain: 'all', // 'all', 'yelmo', 'cinesur', 'albeniz', 'custom'
     selectedCinemas: [], // Array of selected cinema names. Empty means all.
@@ -219,9 +221,24 @@ async function loadShowtimes() {
     `;
     
     try {
-        const response = await fetch(CONFIG.apiEndpoint);
-        if (!response.ok) throw new Error('API fetch failed');
-        STATE.allShowtimes = await response.json();
+        // Fetch showtimes and translations concurrently
+        const [showtimesRes, translationsRes] = await Promise.all([
+            fetch(CONFIG.apiEndpoint),
+            fetch(CONFIG.translationsEndpoint).catch(() => null)
+        ]);
+        
+        if (!showtimesRes.ok) throw new Error('API fetch failed');
+        STATE.allShowtimes = await showtimesRes.json();
+        
+        STATE.translations = {};
+        if (translationsRes && translationsRes.ok) {
+            try {
+                STATE.translations = await translationsRes.json();
+            } catch (err) {
+                console.error('Error parsing translations:', err);
+            }
+        }
+        
         updateCinemaSubChips(); // Initialize sub-chips
         renderShowtimes();
     } catch (error) {
@@ -280,6 +297,7 @@ function renderDayView() {
         if (!grouped[movieTitle]) {
             grouped[movieTitle] = {
                 movie: movieTitle,
+                original_title: (STATE.translations && STATE.translations[movieTitle]) || '',
                 language: session.language,
                 image: session.image || getPosterFallbackUrl(movieTitle),
                 cinemas: {}
@@ -345,6 +363,7 @@ function renderDayView() {
             </div>
             <div class="card-content">
                 <h2 class="movie-title">${cardData.movie}</h2>
+                ${cardData.original_title ? `<div class="movie-original-title">${cardData.original_title}</div>` : ''}
                 <div class="movie-lang" title="${cardData.language}">${cardData.language}</div>
                 <div class="showtimes-section">
                     <span class="showtimes-label">VOSE Showtimes:</span>
@@ -392,6 +411,7 @@ function renderMovieView() {
         if (!moviesGrouped[movieTitle]) {
             moviesGrouped[movieTitle] = {
                 title: movieTitle,
+                original_title: (STATE.translations && STATE.translations[movieTitle]) || '',
                 image: session.image || getPosterFallbackUrl(movieTitle),
                 language: session.language, // Keep language sample
                 dates: {} // Grouped showtimes by date
@@ -476,6 +496,7 @@ function renderMovieView() {
             </div>
             <div class="card-content">
                 <h2 class="movie-title">${movieData.title}</h2>
+                ${movieData.original_title ? `<div class="movie-original-title">${movieData.original_title}</div>` : ''}
                 <div class="movie-lang" title="${movieData.language}">${movieData.language}</div>
                 <div class="showtimes-section">
                     <span class="showtimes-label">All Screenings (VOSE):</span>
