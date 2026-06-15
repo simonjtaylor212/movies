@@ -35,39 +35,82 @@ document.addEventListener('DOMContentLoaded', () => {
 function generateDateSelector() {
     const scrollContainer = document.getElementById('dateSelector');
     if (!scrollContainer) return;
-    scrollContainer.innerHTML = '';
-    
-    // Determine the number of days to show based on the dataset
-    let numDays = 14; // Default/minimum
+
+    let uniqueDates = [];
+
+    // Get today's date string representation (YYYY-MM-DD)
+    const yyyyBase = CONFIG.baseDate.getUTCFullYear();
+    const mmBase = String(CONFIG.baseDate.getUTCMonth() + 1).padStart(2, '0');
+    const ddBase = String(CONFIG.baseDate.getUTCDate()).padStart(2, '0');
+    const baseDateStr = `${yyyyBase}-${mmBase}-${ddBase}`;
+
     if (STATE.allShowtimes && STATE.allShowtimes.length > 0) {
-        const dates = STATE.allShowtimes.map(item => item.date).filter(Boolean);
-        if (dates.length > 0) {
-            dates.sort();
-            const maxDateStr = dates[dates.length - 1];
-            // Use UTC representation to prevent local timezone offset shifts
-            const maxDate = new Date(`${maxDateStr}T00:00:00Z`);
-            const timeDiff = maxDate.getTime() - CONFIG.baseDate.getTime();
-            const diffDays = Math.ceil(timeDiff / (1000 * 3600 * 24)) + 1;
-            if (diffDays > numDays) {
-                numDays = diffDays;
+        // Filter showtimes matching selected cinemas & search query (excluding date filter)
+        const filteredShowtimes = STATE.allShowtimes.filter(item => {
+            if (STATE.selectedCinemas.length > 0) {
+                if (!STATE.selectedCinemas.includes(item.cinema)) return false;
             }
+            
+            if (STATE.searchQuery) {
+                const titleMatch = item.movie.toLowerCase().includes(STATE.searchQuery);
+                const cinemaMatch = item.cinema.toLowerCase().includes(STATE.searchQuery);
+                if (!titleMatch && !cinemaMatch) return false;
+            }
+            
+            return true;
+        });
+        
+        uniqueDates = [...new Set(filteredShowtimes.map(item => item.date).filter(Boolean))]
+            .filter(dateStr => dateStr >= baseDateStr)
+            .sort();
+    }
+
+    // If showtimes are not loaded yet, fallback to generating 14 default days starting from today
+    if (uniqueDates.length === 0 && (!STATE.allShowtimes || STATE.allShowtimes.length === 0)) {
+        for (let i = 0; i < 14; i++) {
+            const date = new Date(CONFIG.baseDate);
+            date.setUTCDate(date.getUTCDate() + i);
+            
+            const yyyy = date.getUTCFullYear();
+            const mm = String(date.getUTCMonth() + 1).padStart(2, '0');
+            const dd = String(date.getUTCDate()).padStart(2, '0');
+            const dateStr = `${yyyy}-${mm}-${dd}`;
+            uniqueDates.push(dateStr);
         }
     }
-    
-    // We want numDays starting from baseDate
-    for (let i = 0; i < numDays; i++) {
-        const date = new Date(CONFIG.baseDate);
-        date.setUTCDate(date.getUTCDate() + i);
-        
-        const yyyy = date.getUTCFullYear();
-        const mm = String(date.getUTCMonth() + 1).padStart(2, '0');
-        const dd = String(date.getUTCDate()).padStart(2, '0');
-        const dateStr = `${yyyy}-${mm}-${dd}`;
-        
-        // Setup initial default selected date (today) if not already set
-        if (i === 0 && !STATE.selectedDateStr) {
-            STATE.selectedDateStr = dateStr;
+
+    // Determine target selected date
+    if (uniqueDates.length > 0) {
+        if (!uniqueDates.includes(STATE.selectedDateStr)) {
+            STATE.selectedDateStr = uniqueDates[0];
         }
+    } else {
+        STATE.selectedDateStr = '';
+    }
+
+    // Check if the rendered dates match uniqueDates to avoid rebuilding DOM and losing scroll position
+    const currentCards = Array.from(scrollContainer.querySelectorAll('.date-card'));
+    const currentDates = currentCards.map(c => c.getAttribute('data-date'));
+    
+    const datesMatch = currentDates.length === uniqueDates.length && 
+                       currentDates.every((d, index) => d === uniqueDates[index]);
+
+    if (datesMatch) {
+        currentCards.forEach(card => {
+            const cardDate = card.getAttribute('data-date');
+            if (cardDate === STATE.selectedDateStr) {
+                card.classList.add('active');
+            } else {
+                card.classList.remove('active');
+            }
+        });
+        return;
+    }
+
+    // Rebuild the DOM
+    scrollContainer.innerHTML = '';
+    uniqueDates.forEach(dateStr => {
+        const date = new Date(`${dateStr}T00:00:00Z`);
         
         const card = document.createElement('div');
         const isActive = (STATE.selectedDateStr === dateStr);
@@ -92,7 +135,7 @@ function generateDateSelector() {
         });
         
         scrollContainer.appendChild(card);
-    }
+    });
 }
 
 // --- INITIALIZE FILTERS & SWITCHERS ---
@@ -164,7 +207,6 @@ async function loadShowtimes() {
         if (!response.ok) throw new Error('API fetch failed');
         STATE.allShowtimes = await response.json();
         updateCinemaSubChips(); // Initialize sub-chips
-        generateDateSelector(); // Dynamically generate date selector cards based on loaded showtimes
         renderShowtimes();
     } catch (error) {
         console.error('Error loading showtimes:', error);
@@ -188,6 +230,7 @@ function renderShowtimes() {
 
 // --- RENDER DAY VIEW MODE ---
 function renderDayView() {
+    generateDateSelector(); // Update the date selector dynamically
     const grid = document.getElementById('movieGrid');
     grid.className = 'movie-grid'; // Reset class
     grid.innerHTML = '';
