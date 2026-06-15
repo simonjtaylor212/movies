@@ -378,12 +378,67 @@ def main():
     # 5. Create directory structure
     os.makedirs("api/v1/showtimes", exist_ok=True)
     
-    # 6. Save output
+    # 6. Save output with date_added timestamps
     output_path = "api/v1/showtimes.json"
-    with open(output_path, "w", encoding="utf-8") as f:
-        json.dump(filtered_showtimes, f, ensure_ascii=False, indent=2)
+    new_showtimes_path = "new_showtimes.json"
+    
+    # Load existing showtimes to preserve their date_added timestamps
+    existing_showtimes_map = {}
+    if os.path.exists(output_path):
+        try:
+            with open(output_path, "r", encoding="utf-8") as f:
+                existing_data = json.load(f)
+                for s in existing_data:
+                    key = (s.get("cinema"), s.get("movie"), s.get("date"), s.get("time"))
+                    # Map the key to the showing so we can retrieve its date_added timestamp
+                    existing_showtimes_map[key] = s
+        except Exception as e:
+            print(f"Error reading {output_path}: {e}")
+            
+    new_showings = []
+    added_time = now_local.strftime('%Y-%m-%d %H:%M:%S')
+    
+    # Process filtered_showtimes to check for new ones and assign/preserve timestamps
+    for s in filtered_showtimes:
+        key = (s.get("cinema"), s.get("movie"), s.get("date"), s.get("time"))
+        if key in existing_showtimes_map:
+            # Preserve original date_added timestamp
+            existing_s = existing_showtimes_map[key]
+            s["date_added"] = existing_s.get("date_added", added_time)
+        else:
+            # New showing found
+            s["date_added"] = added_time
+            new_showings.append(s)
+            # Add to map in case of duplicates within the same run
+            existing_showtimes_map[key] = s
+
+    # Save current active showtimes to api/v1/showtimes.json
+    try:
+        with open(output_path, "w", encoding="utf-8") as f:
+            json.dump(filtered_showtimes, f, ensure_ascii=False, indent=2)
+        print(f"Successfully generated {output_path} with {len(filtered_showtimes)} listings.")
+    except Exception as e:
+        print(f"Error writing to {output_path}: {e}")
         
-    print(f"Successfully generated {output_path} with {len(filtered_showtimes)} listings.")
+    # Append new showings to new_showtimes.json
+    if new_showings:
+        new_showings_list = []
+        if os.path.exists(new_showtimes_path):
+            try:
+                with open(new_showtimes_path, "r", encoding="utf-8") as f:
+                    new_showings_list = json.load(f)
+            except Exception as e:
+                print(f"Error reading {new_showtimes_path}: {e}")
+                
+        new_showings_list.extend(new_showings)
+        try:
+            with open(new_showtimes_path, "w", encoding="utf-8") as f:
+                json.dump(new_showings_list, f, ensure_ascii=False, indent=2)
+            print(f"Appended {len(new_showings)} new showings to {new_showtimes_path}")
+        except Exception as e:
+            print(f"Error writing to {new_showtimes_path}: {e}")
+    else:
+        print("No new showings found.")
 
 if __name__ == '__main__':
     main()

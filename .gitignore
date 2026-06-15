@@ -8,3 +8,7 @@ malaga_cinemas.json
 # OS files
 .DS_Store
 Thumbs.db
+
+# Generated data and logs
+new_showtimes.json
+*.log
