@@ -1,0 +1,12 @@
+Starting Scraper - Local time is 2026-06-15 10:30:00 CEST
+Scraping Cine Yelmo...
+Yelmo scraped: found 198 VOSE sessions.
+Scraping Cine Albéniz...
+Stopping Cine Albéniz scrape after 5 consecutive empty days.
+Cine Albéniz scraped: found 28 VOSE sessions.
+Scraping mk2 Cinesur...
+  mk2 Cinesur Miramar: found 41 sessions.
+  mk2 Cinesur El Ingenio: found 4 sessions.
+  mk2 Cinesur Málaga Nostrum: found 8 sessions.
+mk2 Cinesur scraped: found 53 VOSE sessions.
+Successfully generated api/v1/showtimes.json with 279 listings.
