@@ -299,6 +299,7 @@ function renderDayView() {
                 movie: movieTitle,
                 original_title: (STATE.translations && STATE.translations[movieTitle]) || '',
                 language: session.language,
+                original_language: session.original_language || '',
                 image: session.image || getPosterFallbackUrl(movieTitle),
                 cinemas: {}
             };
@@ -364,7 +365,9 @@ function renderDayView() {
             <div class="card-content">
                 <h2 class="movie-title">${cardData.movie}</h2>
                 ${cardData.original_title ? `<div class="movie-original-title">${cardData.original_title}</div>` : ''}
-                <div class="movie-lang" title="${cardData.language}">${cardData.language}</div>
+                <div class="movie-lang" title="${cardData.language}">
+                    ${cardData.original_language ? `<span class="lang-badge">${cardData.original_language}</span>` : ''}${cardData.language}
+                </div>
                 <div class="showtimes-section">
                     <span class="showtimes-label">VOSE Showtimes:</span>
                     <div class="movie-date-cinemas">
@@ -414,6 +417,7 @@ function renderMovieView() {
                 original_title: (STATE.translations && STATE.translations[movieTitle]) || '',
                 image: session.image || getPosterFallbackUrl(movieTitle),
                 language: session.language, // Keep language sample
+                original_language: session.original_language || '',
                 dates: {} // Grouped showtimes by date
             };
         }
@@ -497,7 +501,9 @@ function renderMovieView() {
             <div class="card-content">
                 <h2 class="movie-title">${movieData.title}</h2>
                 ${movieData.original_title ? `<div class="movie-original-title">${movieData.original_title}</div>` : ''}
-                <div class="movie-lang" title="${movieData.language}">${movieData.language}</div>
+                <div class="movie-lang" title="${movieData.language}">
+                    ${movieData.original_language ? `<span class="lang-badge">${movieData.original_language}</span>` : ''}${movieData.language}
+                </div>
                 <div class="showtimes-section">
                     <span class="showtimes-label">All Screenings (VOSE):</span>
                     <div class="movie-dates-list">

@@ -20,6 +20,37 @@ def get_next_days(num_days):
     base_date = datetime(now_local.year, now_local.month, now_local.day, tzinfo=spain_tz)
     return [base_date + timedelta(days=i) for i in range(num_days)]
 
+def get_language_name(lang_str):
+    if not lang_str:
+        return ""
+    lang_upper = lang_str.upper()
+    if "INGL" in lang_upper:
+        return "English"
+    elif "ITAL" in lang_upper:
+        return "Italian"
+    elif "FRAN" in lang_upper:
+        return "French"
+    elif "ALEM" in lang_upper:
+        return "German"
+    elif "JAPO" in lang_upper:
+        return "Japanese"
+    elif "CORE" in lang_upper:
+        return "Korean"
+    elif "RUSO" in lang_upper:
+        return "Russian"
+    elif "CHIN" in lang_upper:
+        return "Chinese"
+    elif "PORT" in lang_upper:
+        return "Portuguese"
+    elif "ESPA" in lang_upper or "CAST" in lang_upper:
+        return "Spanish"
+    return ""
+
+def normalize_title(t):
+    if not t:
+        return ""
+    return re.sub(r'[^a-z0-9]', '', t.lower())
+
 def scrape_yelmo():
     print("Scraping Cine Yelmo...")
     url = "https://www.yelmocines.es/now-playing.aspx/GetNowPlaying"
@@ -74,6 +105,7 @@ def scrape_yelmo():
                                 "movie": title,
                                 "format": fmt_name,
                                 "language": lang.strip(),
+                                "original_language": get_language_name(lang),
                                 "time": time_str,
                                 "booking_url": booking_url,
                                 "projection_type": proj_type,
@@ -121,10 +153,10 @@ def scrape_albeniz():
             
             info_div = film_box.find('div', class_='pelicula-info-small')
             if info_div:
-                info_text = info_div.get_text(separator="|").strip()
+                info_text = info_div.get_text(separator="###").strip()
                 # Check for VOSE
                 if "V.O.S.E." in info_text:
-                    parts = [p.strip() for p in info_text.split('|')]
+                    parts = [p.strip() for p in info_text.split('###')]
                     # Expect structure: Room, Showtime hours, duration, language, genre
                     room = parts[0] if parts else "Sala Principal"
                     
@@ -144,6 +176,10 @@ def scrape_albeniz():
                     if booking_url and not booking_url.startswith('http'):
                         booking_url = f"https://cinealbeniz.com/{booking_url}"
 
+                    # Clean language name for mapping, e.g. "Inglés | V.O.S.E." -> "Inglés"
+                    lang_name = lang_part.split('|')[0].strip() if '|' in lang_part else lang_part
+                    orig_lang = get_language_name(lang_name)
+
                     for time_val in times:
                         if time_val:
                             sessions.append({
@@ -152,6 +188,7 @@ def scrape_albeniz():
                                 "movie": title,
                                 "format": "2D",
                                 "language": lang_part,
+                                "original_language": orig_lang,
                                 "time": time_val,
                                 "booking_url": booking_url,
                                 "projection_type": "Movie",
@@ -185,7 +222,7 @@ def parse_cinesur_date(day_text, base_date):
         return datetime(year, month, day, tzinfo=timezone.utc)
     return None
 
-def scrape_cinesur_theatre(cinema_slug, cinema_name, base_date):
+def scrape_cinesur_theatre(cinema_slug, cinema_name, base_date, movie_langs):
     url = f"https://mk2cines.es/es/{cinema_slug}/vose"
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
@@ -210,6 +247,9 @@ def scrape_cinesur_theatre(cinema_slug, cinema_name, base_date):
             parsed_dt = parse_cinesur_date(btn.get_text(), base_date)
             if parsed_dt:
                 date_mapping[int(data_num)] = parsed_dt.strftime('%Y-%m-%d')
+
+    # Build a normalized title map for lookup
+    norm_movie_langs = {normalize_title(k): v for k, v in movie_langs.items()}
 
     sessions = []
     # Loop over each day container (cines-0, cines-1, etc.)
@@ -238,12 +278,17 @@ def scrape_cinesur_theatre(cinema_slug, cinema_name, base_date):
                         time_str = btn_text.replace("VOSE", "").strip()
                         booking_url = btn.get('href', '')
                         
+                        # Lookup original language
+                        norm_title = normalize_title(title)
+                        orig_lang = norm_movie_langs.get(norm_title, "")
+                        
                         sessions.append({
                             "cinema": cinema_name,
                             "date": date_str,
                             "movie": title,
                             "format": "2D",
                             "language": "Original con subtítulos (VOSE)",
+                            "original_language": orig_lang,
                             "time": time_str,
                             "booking_url": booking_url,
                             "projection_type": "Movie",
@@ -251,7 +296,7 @@ def scrape_cinesur_theatre(cinema_slug, cinema_name, base_date):
                         })
     return sessions
 
-def scrape_cinesur():
+def scrape_cinesur(movie_langs):
     print("Scraping mk2 Cinesur...")
     # Use Spain's local timezone since showtimes are in Spanish local time
     spain_tz = get_spain_timezone()
@@ -265,7 +310,7 @@ def scrape_cinesur():
     
     all_sessions = []
     for slug, name in theatres:
-        t_sessions = scrape_cinesur_theatre(slug, name, base_date)
+        t_sessions = scrape_cinesur_theatre(slug, name, base_date, movie_langs)
         print(f"  {name}: found {len(t_sessions)} sessions.")
         all_sessions.extend(t_sessions)
         
@@ -280,7 +325,19 @@ def main():
     # 1. Fetch from all sources
     yelmo_data = scrape_yelmo()
     albeniz_data = scrape_albeniz()
-    cinesur_data = scrape_cinesur()
+    
+    # Build a title-to-language map from yelmo and albeniz
+    movie_langs = {}
+    for s in yelmo_data:
+        lang = s.get("original_language", "")
+        if lang:
+            movie_langs[s["movie"]] = lang
+    for s in albeniz_data:
+        lang = s.get("original_language", "")
+        if lang:
+            movie_langs[s["movie"]] = lang
+            
+    cinesur_data = scrape_cinesur(movie_langs)
     
     # 2. Combine
     all_showtimes = yelmo_data + albeniz_data + cinesur_data
