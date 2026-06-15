@@ -11,5 +11,18 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-06-15 23:34:47"
+  },
+  {
+    "cinema": "Cine Yelmo Vialia Málaga",
+    "date": "2026-06-17",
+    "movie": "El día de la revelación",
+    "format": "2D",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "16:30",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37447",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-06-16 00:26:57"
   }
 ]
