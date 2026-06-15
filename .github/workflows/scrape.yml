@@ -40,6 +40,9 @@ jobs:
         
         # Add both the API JSON payload and the scrape log
         git add api/v1/showtimes.json scrape.log
+        if [ -f new_showtimes.json ]; then
+          git add new_showtimes.json
+        fi
         
         # Commit only if there are changes
         if git diff --cached --quiet; then
