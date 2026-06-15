@@ -31,28 +31,47 @@ document.addEventListener('DOMContentLoaded', () => {
     loadShowtimes();
 });
 
-// --- GENERATE 14 DATE CARDS ---
+// --- GENERATE DATE CARDS DYNAMICALLY ---
 function generateDateSelector() {
     const scrollContainer = document.getElementById('dateSelector');
+    if (!scrollContainer) return;
     scrollContainer.innerHTML = '';
     
-    // We want 14 days starting from baseDate
-    for (let i = 0; i < 14; i++) {
+    // Determine the number of days to show based on the dataset
+    let numDays = 14; // Default/minimum
+    if (STATE.allShowtimes && STATE.allShowtimes.length > 0) {
+        const dates = STATE.allShowtimes.map(item => item.date).filter(Boolean);
+        if (dates.length > 0) {
+            dates.sort();
+            const maxDateStr = dates[dates.length - 1];
+            // Use UTC representation to prevent local timezone offset shifts
+            const maxDate = new Date(`${maxDateStr}T00:00:00Z`);
+            const timeDiff = maxDate.getTime() - CONFIG.baseDate.getTime();
+            const diffDays = Math.ceil(timeDiff / (1000 * 3600 * 24)) + 1;
+            if (diffDays > numDays) {
+                numDays = diffDays;
+            }
+        }
+    }
+    
+    // We want numDays starting from baseDate
+    for (let i = 0; i < numDays; i++) {
         const date = new Date(CONFIG.baseDate);
-        date.setDate(date.getDate() + i);
+        date.setUTCDate(date.getUTCDate() + i);
         
         const yyyy = date.getUTCFullYear();
         const mm = String(date.getUTCMonth() + 1).padStart(2, '0');
         const dd = String(date.getUTCDate()).padStart(2, '0');
         const dateStr = `${yyyy}-${mm}-${dd}`;
         
-        // Setup initial default selected date (today)
-        if (i === 0) {
+        // Setup initial default selected date (today) if not already set
+        if (i === 0 && !STATE.selectedDateStr) {
             STATE.selectedDateStr = dateStr;
         }
         
         const card = document.createElement('div');
-        card.className = `date-card ${i === 0 ? 'active' : ''}`;
+        const isActive = (STATE.selectedDateStr === dateStr);
+        card.className = `date-card ${isActive ? 'active' : ''}`;
         card.setAttribute('data-date', dateStr);
         
         const weekday = WEEKDAY_NAMES[date.getUTCDay()];
@@ -145,6 +164,7 @@ async function loadShowtimes() {
         if (!response.ok) throw new Error('API fetch failed');
         STATE.allShowtimes = await response.json();
         updateCinemaSubChips(); // Initialize sub-chips
+        generateDateSelector(); // Dynamically generate date selector cards based on loaded showtimes
         renderShowtimes();
     } catch (error) {
         console.error('Error loading showtimes:', error);

@@ -13,12 +13,12 @@ def get_spain_timezone():
         # Fallback to UTC+2 for CEST (Spain summer time)
         return timezone(timedelta(hours=2))
 
-def get_next_14_days():
+def get_next_days(num_days):
     # Use Spain's local timezone since showtimes are in Spanish local time
     spain_tz = get_spain_timezone()
     now_local = datetime.now(spain_tz)
     base_date = datetime(now_local.year, now_local.month, now_local.day, tzinfo=spain_tz)
-    return [base_date + timedelta(days=i) for i in range(14)]
+    return [base_date + timedelta(days=i) for i in range(num_days)]
 
 def scrape_yelmo():
     print("Scraping Cine Yelmo...")
@@ -82,23 +82,30 @@ def scrape_yelmo():
 def scrape_albeniz():
     print("Scraping Cine Albéniz...")
     sessions = []
-    days = get_next_14_days()
+    days = get_next_days(30)
     
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
     }
 
+    empty_days_count = 0
     for dt in days:
+        if empty_days_count >= 5:
+            print("Stopping Cine Albéniz scrape after 5 consecutive empty days.")
+            break
+            
         date_str = dt.strftime('%Y-%m-%d')
         url = f"https://cinealbeniz.com/cartelera/dia/{date_str}"
         try:
             response = requests.get(url, headers=headers, timeout=15)
             if response.status_code != 200:
                 print(f"Albéniz returned status code {response.status_code} for {date_str}")
+                empty_days_count += 1
                 continue
             soup = BeautifulSoup(response.text, 'html.parser')
         except Exception as e:
             print(f"Error fetching Albéniz for {date_str}: {e}")
+            empty_days_count += 1
             continue
 
         film_boxes = soup.find_all('div', class_='sH1')
@@ -147,8 +154,10 @@ def scrape_albeniz():
                             })
                             day_sessions_count += 1
                             
-        # Print daily log for debug
-        # print(f"  {date_str}: found {day_sessions_count} sessions.")
+        if day_sessions_count == 0:
+            empty_days_count += 1
+        else:
+            empty_days_count = 0
 
     print(f"Cine Albéniz scraped: found {len(sessions)} VOSE sessions.")
     return sessions
@@ -257,7 +266,9 @@ def scrape_cinesur():
     return all_sessions
 
 def main():
-    print(f"Starting Scraper - Local time context is 2026-06-14")
+    spain_tz = get_spain_timezone()
+    now_local = datetime.now(spain_tz)
+    print(f"Starting Scraper - Local time is {now_local.strftime('%Y-%m-%d %H:%M:%S %Z')}")
     
     # 1. Fetch from all sources
     yelmo_data = scrape_yelmo()
@@ -267,11 +278,9 @@ def main():
     # 2. Combine
     all_showtimes = yelmo_data + albeniz_data + cinesur_data
     
-    # 3. Filter for range (ensure only next 14 days)
-    days = get_next_14_days()
-    allowed_dates = {dt.strftime('%Y-%m-%d') for dt in days}
-    
-    filtered_showtimes = [s for s in all_showtimes if s['date'] in allowed_dates]
+    # 3. Filter out past showtimes (only keep today and future showtimes)
+    today_str = now_local.strftime('%Y-%m-%d')
+    filtered_showtimes = [s for s in all_showtimes if s['date'] >= today_str]
     
     # 4. Create directory structure
     os.makedirs("api/v1/showtimes", exist_ok=True)

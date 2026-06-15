@@ -1,9 +1,9 @@
-name: Daily VOSE Movie Scraper
+name: VOSE Movie Scraper (Every 3 Hours)
 
 on:
   schedule:
-    # Run every night at 01:30 AM UTC
-    - cron: '30 1 * * *'
+    # Run every 3 hours (at minute 0)
+    - cron: '0 */3 * * *'
   workflow_dispatch:
     # Allow manual execution via GitHub web UI
 
@@ -31,20 +31,20 @@ jobs:
 
     - name: Run Scraper & Compile Data
       run: |
-        python scrape_and_compile.py
+        python scrape_and_compile.py 2>&1 | tee scrape.log
 
     - name: Commit and push changes
       run: |
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
         
-        # Add only the API JSON payload
-        git add api/v1/showtimes.json
+        # Add both the API JSON payload and the scrape log
+        git add api/v1/showtimes.json scrape.log
         
         # Commit only if there are changes
         if git diff --cached --quiet; then
-          echo "No changes in showtimes.json, skipping commit."
+          echo "No changes detected, skipping commit."
         else
-          git commit -m "auto: update VOSE showtimes database"
+          git commit -m "auto: update VOSE showtimes database and logs"
           git push origin main
         fi
