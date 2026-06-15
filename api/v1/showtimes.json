@@ -6,7 +6,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "20:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=791&showtimeVistaId=23015"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=791&showtimeVistaId=23015",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Rincón de la Victoria",
@@ -15,7 +16,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "19:00",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=791&showtimeVistaId=22513"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=791&showtimeVistaId=22513",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Rincón de la Victoria",
@@ -24,7 +26,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "20:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=791&showtimeVistaId=23036"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=791&showtimeVistaId=23036",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Rincón de la Victoria",
@@ -33,7 +36,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "20:25",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=791&showtimeVistaId=23030"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=791&showtimeVistaId=23030",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Rincón de la Victoria",
@@ -42,7 +46,8 @@
     "format": "CA",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "18:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=791&showtimeVistaId=23035"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=791&showtimeVistaId=23035",
+    "projection_type": "Eventos Especiales"
   },
   {
     "cinema": "Cine Yelmo Rincón de la Victoria",
@@ -51,7 +56,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "20:15",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=791&showtimeVistaId=22583"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=791&showtimeVistaId=22583",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Rincón de la Victoria",
@@ -60,7 +66,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "20:20",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=791&showtimeVistaId=22889"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=791&showtimeVistaId=22889",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Rincón de la Victoria",
@@ -69,7 +76,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "20:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=791&showtimeVistaId=22911"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=791&showtimeVistaId=22911",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Rincón de la Victoria",
@@ -78,7 +86,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "20:00",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=791&showtimeVistaId=22662"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=791&showtimeVistaId=22662",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Rincón de la Victoria",
@@ -87,7 +96,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "20:35",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=791&showtimeVistaId=23059"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=791&showtimeVistaId=23059",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Rincón de la Victoria",
@@ -96,7 +106,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "20:35",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=791&showtimeVistaId=23060"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=791&showtimeVistaId=23060",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Rincón de la Victoria",
@@ -105,7 +116,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "20:35",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=791&showtimeVistaId=23067"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=791&showtimeVistaId=23067",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Rincón de la Victoria",
@@ -114,7 +126,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "20:35",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=791&showtimeVistaId=23074"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=791&showtimeVistaId=23074",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Rincón de la Victoria",
@@ -123,7 +136,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "20:35",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=791&showtimeVistaId=23087"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=791&showtimeVistaId=23087",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Rincón de la Victoria",
@@ -132,7 +146,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "20:35",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=791&showtimeVistaId=23094"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=791&showtimeVistaId=23094",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Rincón de la Victoria",
@@ -141,7 +156,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "20:35",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=791&showtimeVistaId=23101"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=791&showtimeVistaId=23101",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Rincón de la Victoria",
@@ -150,7 +166,8 @@
     "format": "CA",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "19:00",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=791&showtimeVistaId=22599"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=791&showtimeVistaId=22599",
+    "projection_type": "Ópera"
   },
   {
     "cinema": "Cine Yelmo Rincón de la Victoria",
@@ -159,7 +176,8 @@
     "format": "CA",
     "language": "ITALIANO SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "19:00",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=791&showtimeVistaId=22600"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=791&showtimeVistaId=22600",
+    "projection_type": "Ópera"
   },
   {
     "cinema": "Cine Yelmo Rincón de la Victoria",
@@ -168,7 +186,8 @@
     "format": "CA",
     "language": "ITALIANO SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "19:00",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=791&showtimeVistaId=22601"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=791&showtimeVistaId=22601",
+    "projection_type": "Ópera"
   },
   {
     "cinema": "Cine Yelmo Rincón de la Victoria",
@@ -177,7 +196,8 @@
     "format": "CA",
     "language": "FRANCÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "19:00",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=791&showtimeVistaId=22602"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=791&showtimeVistaId=22602",
+    "projection_type": "Ópera"
   },
   {
     "cinema": "Cine Yelmo Rincón de la Victoria",
@@ -186,7 +206,8 @@
     "format": "CA",
     "language": "FRANCÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "18:00",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=791&showtimeVistaId=22603"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=791&showtimeVistaId=22603",
+    "projection_type": "Ópera"
   },
   {
     "cinema": "Cine Yelmo Rincón de la Victoria",
@@ -195,7 +216,8 @@
     "format": "CA",
     "language": "ITALIANO SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "19:00",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=791&showtimeVistaId=22604"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=791&showtimeVistaId=22604",
+    "projection_type": "Ópera"
   },
   {
     "cinema": "Cine Yelmo Rincón de la Victoria",
@@ -204,7 +226,8 @@
     "format": "CA",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "18:00",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=791&showtimeVistaId=22605"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=791&showtimeVistaId=22605",
+    "projection_type": "Ópera"
   },
   {
     "cinema": "Cine Yelmo Rincón de la Victoria",
@@ -213,7 +236,8 @@
     "format": "CA",
     "language": "FRANCÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "18:00",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=791&showtimeVistaId=22606"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=791&showtimeVistaId=22606",
+    "projection_type": "Ópera"
   },
   {
     "cinema": "Cine Yelmo Rincón de la Victoria",
@@ -222,7 +246,8 @@
     "format": "CA",
     "language": "ITALIANO SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "19:00",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=791&showtimeVistaId=22607"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=791&showtimeVistaId=22607",
+    "projection_type": "Ópera"
   },
   {
     "cinema": "Cine Yelmo Rincón de la Victoria",
@@ -231,7 +256,8 @@
     "format": "CA",
     "language": "ITALIANO SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "19:00",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=791&showtimeVistaId=22608"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=791&showtimeVistaId=22608",
+    "projection_type": "Ópera"
   },
   {
     "cinema": "Cine Yelmo Rincón de la Victoria",
@@ -240,7 +266,8 @@
     "format": "CA",
     "language": "ALEMÁN SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "18:00",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=791&showtimeVistaId=22609"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=791&showtimeVistaId=22609",
+    "projection_type": "Ópera"
   },
   {
     "cinema": "Cine Yelmo Vialia Málaga",
@@ -249,7 +276,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "17:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=38070"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=38070",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Vialia Málaga",
@@ -258,7 +286,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "20:35",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=38072"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=38072",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Vialia Málaga",
@@ -267,7 +296,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "17:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=38103"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=38103",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Vialia Málaga",
@@ -276,7 +306,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "20:35",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=38090"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=38090",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Vialia Málaga",
@@ -285,7 +316,8 @@
     "format": "2D",
     "language": "ITALIANO SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "20:25",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=38107"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=38107",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Vialia Málaga",
@@ -294,7 +326,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "20:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=38094"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=38094",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Vialia Málaga",
@@ -303,7 +336,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "16:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37447"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37447",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Vialia Málaga",
@@ -312,7 +346,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "19:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37436"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37436",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Vialia Málaga",
@@ -321,7 +356,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "16:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37449"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37449",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Vialia Málaga",
@@ -330,7 +366,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "19:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37445"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37445",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Vialia Málaga",
@@ -339,7 +376,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "20:00",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37881"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37881",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Vialia Málaga",
@@ -348,7 +386,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "20:15",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37478"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37478",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Vialia Málaga",
@@ -357,7 +396,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "19:25",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37887"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37887",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Vialia Málaga",
@@ -366,7 +406,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "21:40",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37886"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37886",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Vialia Málaga",
@@ -375,7 +416,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "19:25",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37888"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37888",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Vialia Málaga",
@@ -384,7 +426,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "21:40",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37889"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37889",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Vialia Málaga",
@@ -393,7 +436,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "13:35",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37926"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37926",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Vialia Málaga",
@@ -402,7 +446,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "19:25",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37894"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37894",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Vialia Málaga",
@@ -411,7 +456,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "21:40",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37895"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37895",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Vialia Málaga",
@@ -420,7 +466,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "19:25",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37905"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37905",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Vialia Málaga",
@@ -429,7 +476,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "21:40",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37904"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37904",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Vialia Málaga",
@@ -438,7 +486,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "20:20",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37933"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37933",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Vialia Málaga",
@@ -447,7 +496,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "19:25",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37911"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37911",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Vialia Málaga",
@@ -456,7 +506,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "21:40",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37910"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37910",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Vialia Málaga",
@@ -465,7 +516,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "17:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37593"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37593",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Vialia Málaga",
@@ -474,7 +526,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "19:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37594"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37594",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Vialia Málaga",
@@ -483,7 +536,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "21:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37595"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37595",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Vialia Málaga",
@@ -492,7 +546,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "17:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37592"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37592",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Vialia Málaga",
@@ -501,7 +556,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "19:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37591"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37591",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Vialia Málaga",
@@ -510,7 +566,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "21:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37590"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37590",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Vialia Málaga",
@@ -519,7 +576,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "17:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37587"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37587",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Vialia Málaga",
@@ -528,7 +586,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "19:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37588"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37588",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Vialia Málaga",
@@ -537,7 +596,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "21:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37589"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37589",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Vialia Málaga",
@@ -546,7 +606,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "17:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37586"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37586",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Vialia Málaga",
@@ -555,7 +616,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "19:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37585"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37585",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Vialia Málaga",
@@ -564,7 +626,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "21:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37584"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37584",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Vialia Málaga",
@@ -573,7 +636,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "17:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37581"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37581",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Vialia Málaga",
@@ -582,7 +646,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "19:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37582"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37582",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Vialia Málaga",
@@ -591,7 +656,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "21:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37583"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37583",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Vialia Málaga",
@@ -600,7 +666,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "17:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37580"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37580",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Vialia Málaga",
@@ -609,7 +676,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "19:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37579"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37579",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Vialia Málaga",
@@ -618,7 +686,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "21:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37578"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37578",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Vialia Málaga",
@@ -627,7 +696,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "17:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37575"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37575",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Vialia Málaga",
@@ -636,7 +706,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "19:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37576"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37576",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Vialia Málaga",
@@ -645,7 +716,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "21:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37577"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37577",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Vialia Málaga",
@@ -654,7 +726,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "17:15",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=38224"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=38224",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Vialia Málaga",
@@ -663,7 +736,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "20:35",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=38225"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=38225",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Vialia Málaga",
@@ -672,7 +746,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "17:15",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=38227"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=38227",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Vialia Málaga",
@@ -681,7 +756,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "20:35",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=38226"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=38226",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Vialia Málaga",
@@ -690,7 +766,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "13:00",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=38275"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=38275",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Vialia Málaga",
@@ -699,7 +776,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "17:15",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=38235"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=38235",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Vialia Málaga",
@@ -708,7 +786,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "20:35",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=38234"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=38234",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Vialia Málaga",
@@ -717,7 +796,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "17:15",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=38248"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=38248",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Vialia Málaga",
@@ -726,7 +806,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "20:35",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=38249"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=38249",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Vialia Málaga",
@@ -735,7 +816,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "17:15",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=38253"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=38253",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Vialia Málaga",
@@ -744,7 +826,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "19:05",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=38258"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=38258",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Vialia Málaga",
@@ -753,7 +836,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "20:35",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=38252"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=38252",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Vialia Málaga",
@@ -762,7 +846,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "17:15",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=38267"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=38267",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Vialia Málaga",
@@ -771,7 +856,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "20:35",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=38274"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=38274",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Vialia Málaga",
@@ -780,7 +866,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "17:15",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=38259"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=38259",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Vialia Málaga",
@@ -789,7 +876,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "20:35",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=38266"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=38266",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Vialia Málaga",
@@ -798,7 +886,8 @@
     "format": "CA",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "19:00",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37518"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37518",
+    "projection_type": "Ópera"
   },
   {
     "cinema": "Cine Yelmo Vialia Málaga",
@@ -807,7 +896,8 @@
     "format": "CA",
     "language": "ITALIANO SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "19:00",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37519"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37519",
+    "projection_type": "Ópera"
   },
   {
     "cinema": "Cine Yelmo Vialia Málaga",
@@ -816,7 +906,8 @@
     "format": "CA",
     "language": "ITALIANO SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "19:00",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37520"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37520",
+    "projection_type": "Ópera"
   },
   {
     "cinema": "Cine Yelmo Vialia Málaga",
@@ -825,7 +916,8 @@
     "format": "CA",
     "language": "ITALIANO SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "19:00",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37521"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37521",
+    "projection_type": "Ópera"
   },
   {
     "cinema": "Cine Yelmo Vialia Málaga",
@@ -834,7 +926,8 @@
     "format": "CA",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "19:00",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37115"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37115",
+    "projection_type": "Ópera"
   },
   {
     "cinema": "Cine Yelmo Vialia Málaga",
@@ -843,7 +936,8 @@
     "format": "CA",
     "language": "ITALIANO SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "19:00",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37116"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37116",
+    "projection_type": "Ópera"
   },
   {
     "cinema": "Cine Yelmo Vialia Málaga",
@@ -852,7 +946,8 @@
     "format": "CA",
     "language": "ITALIANO SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "19:00",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37117"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37117",
+    "projection_type": "Ópera"
   },
   {
     "cinema": "Cine Yelmo Vialia Málaga",
@@ -861,7 +956,8 @@
     "format": "CA",
     "language": "FRANCÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "19:00",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37118"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37118",
+    "projection_type": "Ópera"
   },
   {
     "cinema": "Cine Yelmo Vialia Málaga",
@@ -870,7 +966,8 @@
     "format": "CA",
     "language": "FRANCÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "18:00",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37119"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37119",
+    "projection_type": "Ópera"
   },
   {
     "cinema": "Cine Yelmo Vialia Málaga",
@@ -879,7 +976,8 @@
     "format": "CA",
     "language": "ITALIANO SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "19:00",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37120"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37120",
+    "projection_type": "Ópera"
   },
   {
     "cinema": "Cine Yelmo Vialia Málaga",
@@ -888,7 +986,8 @@
     "format": "CA",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "18:00",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37121"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37121",
+    "projection_type": "Ópera"
   },
   {
     "cinema": "Cine Yelmo Vialia Málaga",
@@ -897,7 +996,8 @@
     "format": "CA",
     "language": "FRANCÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "18:00",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37122"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37122",
+    "projection_type": "Ópera"
   },
   {
     "cinema": "Cine Yelmo Vialia Málaga",
@@ -906,7 +1006,8 @@
     "format": "CA",
     "language": "ITALIANO SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "19:00",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37123"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37123",
+    "projection_type": "Ópera"
   },
   {
     "cinema": "Cine Yelmo Vialia Málaga",
@@ -915,7 +1016,8 @@
     "format": "CA",
     "language": "ITALIANO SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "19:00",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37124"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37124",
+    "projection_type": "Ópera"
   },
   {
     "cinema": "Cine Yelmo Vialia Málaga",
@@ -924,7 +1026,8 @@
     "format": "CA",
     "language": "ALEMÁN SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "18:00",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37125"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37125",
+    "projection_type": "Ópera"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -933,7 +1036,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "18:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39517"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39517",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -942,7 +1046,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "19:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=38849"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=38849",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -951,7 +1056,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "21:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39528"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39528",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -960,7 +1066,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "17:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39511"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39511",
+    "projection_type": "Eventos Especiales"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -969,7 +1076,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "18:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39549"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39549",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -978,7 +1086,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "19:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=38866"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=38866",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -987,7 +1096,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "21:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39560"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39560",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -996,7 +1106,8 @@
     "format": "2D",
     "language": "JAPONÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "18:05",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39571"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39571",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1005,7 +1116,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "19:20",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39551"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39551",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1014,7 +1126,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "17:45",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39544"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39544",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1023,7 +1136,8 @@
     "format": "CA",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "17:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39543"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39543",
+    "projection_type": "Eventos Especiales"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1032,7 +1146,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "22:15",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39564"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39564",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1041,7 +1156,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "17:00",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39539"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39539",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1050,7 +1166,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "17:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=38896"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=38896",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1059,7 +1176,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "16:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=38878"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=38878",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1068,7 +1186,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "19:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=38867"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=38867",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1077,7 +1196,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "17:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=38895"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=38895",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1086,7 +1206,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "16:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=38888"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=38888",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1095,7 +1216,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "19:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=38876"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=38876",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1104,7 +1226,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "17:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=38899"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=38899",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1113,7 +1236,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "17:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=38907"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=38907",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1122,7 +1246,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "17:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=38915"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=38915",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1131,7 +1256,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "17:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=38923"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=38923",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1140,7 +1266,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "17:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=38931"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=38931",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1149,7 +1276,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "17:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=38947"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=38947",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1158,7 +1286,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "17:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=38939"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=38939",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1167,7 +1296,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "21:35",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39386"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39386",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1176,7 +1306,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "17:10",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39382"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39382",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1185,7 +1316,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "19:25",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39380"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39380",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1194,7 +1326,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "21:40",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39381"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39381",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1203,7 +1336,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "21:35",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39385"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39385",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1212,7 +1346,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "17:10",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39377"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39377",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1221,7 +1356,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "19:25",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39379"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39379",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1230,7 +1366,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "21:40",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39378"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39378",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1239,7 +1376,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "21:35",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39384"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39384",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1248,7 +1386,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "17:10",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39376"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39376",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1257,7 +1396,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "19:25",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39374"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39374",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1266,7 +1406,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "21:40",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39375"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39375",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1275,7 +1416,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "21:35",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39383"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39383",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1284,7 +1426,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "17:10",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39371"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39371",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1293,7 +1436,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "19:25",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39373"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39373",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1302,7 +1446,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "21:40",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39372"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39372",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1311,7 +1456,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "21:35",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39346"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39346",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1320,7 +1466,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "17:10",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39368"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39368",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1329,7 +1476,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "19:25",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39369"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39369",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1338,7 +1486,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "21:40",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39370"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39370",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1347,7 +1496,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "16:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=38965"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=38965",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1356,7 +1506,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "18:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=38964"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=38964",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1365,7 +1516,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "20:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=38963"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=38963",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1374,7 +1526,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "22:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=38966"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=38966",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1383,7 +1536,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "16:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=38968"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=38968",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1392,7 +1546,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "18:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=38971"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=38971",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1401,7 +1556,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "20:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=38974"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=38974",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1410,7 +1566,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "22:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=38977"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=38977",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1419,7 +1576,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "16:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=38988"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=38988",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1428,7 +1586,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "18:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=38985"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=38985",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1437,7 +1596,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "20:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=38982"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=38982",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1446,7 +1606,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "22:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=38979"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=38979",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1455,7 +1616,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "16:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=38990"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=38990",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1464,7 +1626,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "18:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=38993"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=38993",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1473,7 +1636,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "20:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=38996"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=38996",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1482,7 +1646,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "22:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=38999"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=38999",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1491,7 +1656,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "16:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39001"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39001",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1500,7 +1666,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "18:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39004"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39004",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1509,7 +1676,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "20:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39007"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39007",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1518,7 +1686,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "22:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39010"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39010",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1527,7 +1696,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "16:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39012"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39012",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1536,7 +1706,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "18:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39015"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39015",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1545,7 +1716,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "20:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39018"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39018",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1554,7 +1726,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "22:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39021"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39021",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1563,7 +1736,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "16:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39023"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39023",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1572,7 +1746,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "18:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39026"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39026",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1581,7 +1756,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "20:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39029"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39029",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1590,7 +1766,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "22:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39032"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39032",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1599,7 +1776,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "17:15",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39686"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39686",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1608,7 +1786,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "19:20",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39687"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39687",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1617,7 +1796,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "20:35",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39685"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39685",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1626,7 +1806,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "17:15",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39689"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39689",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1635,7 +1816,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "19:20",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39688"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39688",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1644,7 +1826,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "20:35",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39690"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39690",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1653,7 +1836,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "17:15",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39704"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39704",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1662,7 +1846,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "19:20",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39705"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39705",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1671,7 +1856,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "20:35",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39703"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39703",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1680,7 +1866,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "17:15",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39707"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39707",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1689,7 +1876,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "19:20",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39706"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39706",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1698,7 +1886,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "20:35",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39708"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39708",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1707,7 +1896,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "17:15",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39722"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39722",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1716,7 +1906,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "19:20",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39723"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39723",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1725,7 +1916,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "20:35",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39721"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39721",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1734,7 +1926,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "17:15",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39725"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39725",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1743,7 +1936,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "19:20",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39724"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39724",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1752,7 +1946,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "20:35",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39726"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39726",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1761,7 +1956,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "17:15",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39733"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39733",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1770,7 +1966,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "19:20",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39741"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39741",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1779,7 +1976,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "time": "20:35",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39734"
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39734",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Albéniz",
@@ -1788,7 +1986,8 @@
     "format": "2D",
     "language": "V.O.S.E.",
     "time": "20:00",
-    "booking_url": "https://www.unientradas.es/es/recinto/FC-03"
+    "booking_url": "https://www.unientradas.es/es/recinto/FC-03",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Albéniz",
@@ -1797,7 +1996,8 @@
     "format": "2D",
     "language": "V.O.S.E.",
     "time": "16:00",
-    "booking_url": "https://www.unientradas.es/es/recinto/FC-03"
+    "booking_url": "https://www.unientradas.es/es/recinto/FC-03",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Albéniz",
@@ -1806,7 +2006,8 @@
     "format": "2D",
     "language": "V.O.S.E.",
     "time": "20:00",
-    "booking_url": "https://www.unientradas.es/es/recinto/FC-03"
+    "booking_url": "https://www.unientradas.es/es/recinto/FC-03",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Albéniz",
@@ -1815,7 +2016,8 @@
     "format": "2D",
     "language": "V.O.S.E.",
     "time": "18:10",
-    "booking_url": "https://www.unientradas.es/es/recinto/FC-03"
+    "booking_url": "https://www.unientradas.es/es/recinto/FC-03",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Albéniz",
@@ -1824,7 +2026,8 @@
     "format": "2D",
     "language": "V.O.S.E.",
     "time": "20:30",
-    "booking_url": "https://www.unientradas.es/es/recinto/FC-03"
+    "booking_url": "https://www.unientradas.es/es/recinto/FC-03",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Albéniz",
@@ -1833,7 +2036,8 @@
     "format": "2D",
     "language": "V.O.S.E.",
     "time": "18:00",
-    "booking_url": "https://www.unientradas.es/es/recinto/FC-03"
+    "booking_url": "https://www.unientradas.es/es/recinto/FC-03",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Albéniz",
@@ -1842,7 +2046,8 @@
     "format": "2D",
     "language": "V.O.S.E.",
     "time": "21:45",
-    "booking_url": "https://www.unientradas.es/es/recinto/FC-03"
+    "booking_url": "https://www.unientradas.es/es/recinto/FC-03",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Albéniz",
@@ -1851,7 +2056,8 @@
     "format": "2D",
     "language": "V.O.S.E.",
     "time": "20:00",
-    "booking_url": "https://www.unientradas.es/es/recinto/FC-03"
+    "booking_url": "https://www.unientradas.es/es/recinto/FC-03",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Albéniz",
@@ -1860,7 +2066,8 @@
     "format": "2D",
     "language": "V.O.S.E.",
     "time": "16:00",
-    "booking_url": "https://www.unientradas.es/es/recinto/FC-03"
+    "booking_url": "https://www.unientradas.es/es/recinto/FC-03",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Albéniz",
@@ -1869,7 +2076,8 @@
     "format": "2D",
     "language": "V.O.S.E.",
     "time": "20:00",
-    "booking_url": "https://www.unientradas.es/es/recinto/FC-03"
+    "booking_url": "https://www.unientradas.es/es/recinto/FC-03",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Albéniz",
@@ -1878,7 +2086,8 @@
     "format": "2D",
     "language": "V.O.S.E.",
     "time": "18:10",
-    "booking_url": "https://www.unientradas.es/es/recinto/FC-03"
+    "booking_url": "https://www.unientradas.es/es/recinto/FC-03",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Albéniz",
@@ -1887,7 +2096,8 @@
     "format": "2D",
     "language": "V.O.S.E.",
     "time": "20:30",
-    "booking_url": "https://www.unientradas.es/es/recinto/FC-03"
+    "booking_url": "https://www.unientradas.es/es/recinto/FC-03",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Albéniz",
@@ -1896,7 +2106,8 @@
     "format": "2D",
     "language": "V.O.S.E.",
     "time": "18:00",
-    "booking_url": "https://www.unientradas.es/es/recinto/FC-03"
+    "booking_url": "https://www.unientradas.es/es/recinto/FC-03",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Albéniz",
@@ -1905,7 +2116,8 @@
     "format": "2D",
     "language": "V.O.S.E.",
     "time": "21:45",
-    "booking_url": "https://www.unientradas.es/es/recinto/FC-03"
+    "booking_url": "https://www.unientradas.es/es/recinto/FC-03",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Albéniz",
@@ -1914,7 +2126,8 @@
     "format": "2D",
     "language": "V.O.S.E.",
     "time": "20:00",
-    "booking_url": "https://www.unientradas.es/es/recinto/FC-03"
+    "booking_url": "https://www.unientradas.es/es/recinto/FC-03",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Albéniz",
@@ -1923,7 +2136,8 @@
     "format": "2D",
     "language": "V.O.S.E.",
     "time": "16:00",
-    "booking_url": "https://www.unientradas.es/es/recinto/FC-03"
+    "booking_url": "https://www.unientradas.es/es/recinto/FC-03",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Albéniz",
@@ -1932,7 +2146,8 @@
     "format": "2D",
     "language": "V.O.S.E.",
     "time": "20:00",
-    "booking_url": "https://www.unientradas.es/es/recinto/FC-03"
+    "booking_url": "https://www.unientradas.es/es/recinto/FC-03",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Albéniz",
@@ -1941,7 +2156,8 @@
     "format": "2D",
     "language": "V.O.S.E.",
     "time": "18:10",
-    "booking_url": "https://www.unientradas.es/es/recinto/FC-03"
+    "booking_url": "https://www.unientradas.es/es/recinto/FC-03",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Albéniz",
@@ -1950,7 +2166,8 @@
     "format": "2D",
     "language": "V.O.S.E.",
     "time": "20:30",
-    "booking_url": "https://www.unientradas.es/es/recinto/FC-03"
+    "booking_url": "https://www.unientradas.es/es/recinto/FC-03",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Albéniz",
@@ -1959,7 +2176,8 @@
     "format": "2D",
     "language": "V.O.S.E.",
     "time": "18:00",
-    "booking_url": "https://www.unientradas.es/es/recinto/FC-03"
+    "booking_url": "https://www.unientradas.es/es/recinto/FC-03",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Albéniz",
@@ -1968,7 +2186,8 @@
     "format": "2D",
     "language": "V.O.S.E.",
     "time": "21:45",
-    "booking_url": "https://www.unientradas.es/es/recinto/FC-03"
+    "booking_url": "https://www.unientradas.es/es/recinto/FC-03",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Albéniz",
@@ -1977,7 +2196,8 @@
     "format": "2D",
     "language": "V.O.S.E.",
     "time": "20:00",
-    "booking_url": "https://www.unientradas.es/es/recinto/FC-03"
+    "booking_url": "https://www.unientradas.es/es/recinto/FC-03",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Albéniz",
@@ -1986,7 +2206,8 @@
     "format": "2D",
     "language": "V.O.S.E.",
     "time": "16:00",
-    "booking_url": "https://www.unientradas.es/es/recinto/FC-03"
+    "booking_url": "https://www.unientradas.es/es/recinto/FC-03",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Albéniz",
@@ -1995,7 +2216,8 @@
     "format": "2D",
     "language": "V.O.S.E.",
     "time": "20:00",
-    "booking_url": "https://www.unientradas.es/es/recinto/FC-03"
+    "booking_url": "https://www.unientradas.es/es/recinto/FC-03",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Albéniz",
@@ -2004,7 +2226,8 @@
     "format": "2D",
     "language": "V.O.S.E.",
     "time": "18:10",
-    "booking_url": "https://www.unientradas.es/es/recinto/FC-03"
+    "booking_url": "https://www.unientradas.es/es/recinto/FC-03",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Albéniz",
@@ -2013,7 +2236,8 @@
     "format": "2D",
     "language": "V.O.S.E.",
     "time": "20:30",
-    "booking_url": "https://www.unientradas.es/es/recinto/FC-03"
+    "booking_url": "https://www.unientradas.es/es/recinto/FC-03",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Albéniz",
@@ -2022,7 +2246,8 @@
     "format": "2D",
     "language": "V.O.S.E.",
     "time": "18:00",
-    "booking_url": "https://www.unientradas.es/es/recinto/FC-03"
+    "booking_url": "https://www.unientradas.es/es/recinto/FC-03",
+    "projection_type": "Movie"
   },
   {
     "cinema": "Cine Albéniz",
@@ -2031,7 +2256,8 @@
     "format": "2D",
     "language": "V.O.S.E.",
     "time": "21:45",
-    "booking_url": "https://www.unientradas.es/es/recinto/FC-03"
+    "booking_url": "https://www.unientradas.es/es/recinto/FC-03",
+    "projection_type": "Movie"
   },
   {
     "cinema": "mk2 Cinesur Miramar",
@@ -2040,7 +2266,8 @@
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "time": "16:30",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/139178/el-dia-de-la-revelacion?mode=widget&change=0&ref=750&forceproxy=1"
+    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/139178/el-dia-de-la-revelacion?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie"
   },
   {
     "cinema": "mk2 Cinesur Miramar",
@@ -2049,7 +2276,8 @@
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "time": "19:30",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/139179/el-dia-de-la-revelacion?mode=widget&change=0&ref=750&forceproxy=1"
+    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/139179/el-dia-de-la-revelacion?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie"
   },
   {
     "cinema": "mk2 Cinesur Miramar",
@@ -2058,7 +2286,8 @@
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "time": "22:30",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/139180/el-dia-de-la-revelacion?mode=widget&change=0&ref=750&forceproxy=1"
+    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/139180/el-dia-de-la-revelacion?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie"
   },
   {
     "cinema": "mk2 Cinesur Miramar",
@@ -2067,7 +2296,8 @@
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "time": "18:05",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/139748/el-drama?mode=widget&change=0&ref=750&forceproxy=1"
+    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/139748/el-drama?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie"
   },
   {
     "cinema": "mk2 Cinesur Miramar",
@@ -2076,7 +2306,8 @@
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "time": "18:30",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/139757/backrooms?mode=widget&change=0&ref=750&forceproxy=1"
+    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/139757/backrooms?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie"
   },
   {
     "cinema": "mk2 Cinesur Miramar",
@@ -2085,7 +2316,8 @@
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "time": "20:50",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/139758/backrooms?mode=widget&change=0&ref=750&forceproxy=1"
+    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/139758/backrooms?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie"
   },
   {
     "cinema": "mk2 Cinesur Miramar",
@@ -2094,7 +2326,8 @@
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "time": "16:20",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/139759/he-man-y-los-masters-del-universo?mode=widget&change=0&ref=750&forceproxy=1"
+    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/139759/he-man-y-los-masters-del-universo?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie"
   },
   {
     "cinema": "mk2 Cinesur Miramar",
@@ -2103,7 +2336,8 @@
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "time": "17:00",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/139765/michael?mode=widget&change=0&ref=750&forceproxy=1"
+    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/139765/michael?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie"
   },
   {
     "cinema": "mk2 Cinesur Miramar",
@@ -2112,7 +2346,8 @@
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "time": "16:30",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/139184/el-dia-de-la-revelacion?mode=widget&change=0&ref=750&forceproxy=1"
+    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/139184/el-dia-de-la-revelacion?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie"
   },
   {
     "cinema": "mk2 Cinesur Miramar",
@@ -2121,7 +2356,8 @@
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "time": "19:30",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/139185/el-dia-de-la-revelacion?mode=widget&change=0&ref=750&forceproxy=1"
+    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/139185/el-dia-de-la-revelacion?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie"
   },
   {
     "cinema": "mk2 Cinesur Miramar",
@@ -2130,7 +2366,8 @@
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "time": "22:30",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/139186/el-dia-de-la-revelacion?mode=widget&change=0&ref=750&forceproxy=1"
+    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/139186/el-dia-de-la-revelacion?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie"
   },
   {
     "cinema": "mk2 Cinesur Miramar",
@@ -2139,7 +2376,8 @@
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "time": "18:05",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/139775/el-drama?mode=widget&change=0&ref=750&forceproxy=1"
+    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/139775/el-drama?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie"
   },
   {
     "cinema": "mk2 Cinesur Miramar",
@@ -2148,7 +2386,8 @@
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "time": "18:30",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/139785/backrooms?mode=widget&change=0&ref=750&forceproxy=1"
+    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/139785/backrooms?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie"
   },
   {
     "cinema": "mk2 Cinesur Miramar",
@@ -2157,7 +2396,8 @@
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "time": "20:50",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/139786/backrooms?mode=widget&change=0&ref=750&forceproxy=1"
+    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/139786/backrooms?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie"
   },
   {
     "cinema": "mk2 Cinesur Miramar",
@@ -2166,7 +2406,8 @@
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "time": "16:20",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/139787/he-man-y-los-masters-del-universo?mode=widget&change=0&ref=750&forceproxy=1"
+    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/139787/he-man-y-los-masters-del-universo?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie"
   },
   {
     "cinema": "mk2 Cinesur Miramar",
@@ -2175,7 +2416,8 @@
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "time": "17:00",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/139781/michael?mode=widget&change=0&ref=750&forceproxy=1"
+    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/139781/michael?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie"
   },
   {
     "cinema": "mk2 Cinesur Miramar",
@@ -2184,7 +2426,8 @@
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "time": "20:00",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/136410/fellini-ocho-y-medio?mode=widget&change=0&ref=750&forceproxy=1"
+    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/136410/fellini-ocho-y-medio?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie"
   },
   {
     "cinema": "mk2 Cinesur Miramar",
@@ -2193,7 +2436,8 @@
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "time": "15:50",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/139194/toy-story-5?mode=widget&change=0&ref=750&forceproxy=1"
+    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/139194/toy-story-5?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie"
   },
   {
     "cinema": "mk2 Cinesur Miramar",
@@ -2202,7 +2446,8 @@
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "time": "18:00",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/139195/toy-story-5?mode=widget&change=0&ref=750&forceproxy=1"
+    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/139195/toy-story-5?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie"
   },
   {
     "cinema": "mk2 Cinesur Miramar",
@@ -2211,7 +2456,8 @@
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "time": "20:10",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/139196/toy-story-5?mode=widget&change=0&ref=750&forceproxy=1"
+    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/139196/toy-story-5?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie"
   },
   {
     "cinema": "mk2 Cinesur Miramar",
@@ -2220,7 +2466,8 @@
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "time": "22:20",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/139197/toy-story-5?mode=widget&change=0&ref=750&forceproxy=1"
+    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/139197/toy-story-5?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie"
   },
   {
     "cinema": "mk2 Cinesur Miramar",
@@ -2229,7 +2476,8 @@
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "time": "15:50",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/139205/toy-story-5?mode=widget&change=0&ref=750&forceproxy=1"
+    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/139205/toy-story-5?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie"
   },
   {
     "cinema": "mk2 Cinesur Miramar",
@@ -2238,7 +2486,8 @@
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "time": "18:00",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/139206/toy-story-5?mode=widget&change=0&ref=750&forceproxy=1"
+    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/139206/toy-story-5?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie"
   },
   {
     "cinema": "mk2 Cinesur Miramar",
@@ -2247,7 +2496,8 @@
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "time": "20:10",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/139207/toy-story-5?mode=widget&change=0&ref=750&forceproxy=1"
+    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/139207/toy-story-5?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie"
   },
   {
     "cinema": "mk2 Cinesur Miramar",
@@ -2256,7 +2506,8 @@
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "time": "22:20",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/139208/toy-story-5?mode=widget&change=0&ref=750&forceproxy=1"
+    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/139208/toy-story-5?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie"
   },
   {
     "cinema": "mk2 Cinesur Miramar",
@@ -2265,7 +2516,8 @@
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "time": "15:50",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/139216/toy-story-5?mode=widget&change=0&ref=750&forceproxy=1"
+    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/139216/toy-story-5?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie"
   },
   {
     "cinema": "mk2 Cinesur Miramar",
@@ -2274,7 +2526,8 @@
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "time": "18:00",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/139217/toy-story-5?mode=widget&change=0&ref=750&forceproxy=1"
+    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/139217/toy-story-5?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie"
   },
   {
     "cinema": "mk2 Cinesur Miramar",
@@ -2283,7 +2536,8 @@
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "time": "20:10",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/139218/toy-story-5?mode=widget&change=0&ref=750&forceproxy=1"
+    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/139218/toy-story-5?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie"
   },
   {
     "cinema": "mk2 Cinesur Miramar",
@@ -2292,7 +2546,8 @@
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "time": "22:20",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/139219/toy-story-5?mode=widget&change=0&ref=750&forceproxy=1"
+    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/139219/toy-story-5?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie"
   },
   {
     "cinema": "mk2 Cinesur Miramar",
@@ -2301,7 +2556,8 @@
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "time": "12:15",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/139230/toy-story-5?mode=widget&change=0&ref=750&forceproxy=1"
+    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/139230/toy-story-5?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie"
   },
   {
     "cinema": "mk2 Cinesur Miramar",
@@ -2310,7 +2566,8 @@
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "time": "15:50",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/139231/toy-story-5?mode=widget&change=0&ref=750&forceproxy=1"
+    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/139231/toy-story-5?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie"
   },
   {
     "cinema": "mk2 Cinesur Miramar",
@@ -2319,7 +2576,8 @@
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "time": "18:00",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/139232/toy-story-5?mode=widget&change=0&ref=750&forceproxy=1"
+    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/139232/toy-story-5?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie"
   },
   {
     "cinema": "mk2 Cinesur Miramar",
@@ -2328,7 +2586,8 @@
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "time": "20:10",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/139233/toy-story-5?mode=widget&change=0&ref=750&forceproxy=1"
+    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/139233/toy-story-5?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie"
   },
   {
     "cinema": "mk2 Cinesur Miramar",
@@ -2337,7 +2596,8 @@
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "time": "22:20",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/139234/toy-story-5?mode=widget&change=0&ref=750&forceproxy=1"
+    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/139234/toy-story-5?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie"
   },
   {
     "cinema": "mk2 Cinesur Miramar",
@@ -2346,7 +2606,8 @@
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "time": "12:15",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/139243/toy-story-5?mode=widget&change=0&ref=750&forceproxy=1"
+    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/139243/toy-story-5?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie"
   },
   {
     "cinema": "mk2 Cinesur Miramar",
@@ -2355,7 +2616,8 @@
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "time": "15:50",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/139244/toy-story-5?mode=widget&change=0&ref=750&forceproxy=1"
+    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/139244/toy-story-5?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie"
   },
   {
     "cinema": "mk2 Cinesur Miramar",
@@ -2364,7 +2626,8 @@
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "time": "18:00",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/139245/toy-story-5?mode=widget&change=0&ref=750&forceproxy=1"
+    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/139245/toy-story-5?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie"
   },
   {
     "cinema": "mk2 Cinesur Miramar",
@@ -2373,7 +2636,8 @@
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "time": "20:10",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/139246/toy-story-5?mode=widget&change=0&ref=750&forceproxy=1"
+    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/139246/toy-story-5?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie"
   },
   {
     "cinema": "mk2 Cinesur Miramar",
@@ -2382,7 +2646,8 @@
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "time": "22:20",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/139247/toy-story-5?mode=widget&change=0&ref=750&forceproxy=1"
+    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/139247/toy-story-5?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie"
   },
   {
     "cinema": "mk2 Cinesur Miramar",
@@ -2391,7 +2656,8 @@
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "time": "20:00",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/136411/rebeca?mode=widget&change=0&ref=750&forceproxy=1"
+    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/136411/rebeca?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie"
   },
   {
     "cinema": "mk2 Cinesur Miramar",
@@ -2400,7 +2666,8 @@
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "time": "20:00",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/136625/braveheart?mode=widget&change=0&ref=750&forceproxy=1"
+    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/136625/braveheart?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie"
   },
   {
     "cinema": "mk2 Cinesur El Ingenio",
@@ -2409,7 +2676,8 @@
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "time": "16:30",
-    "booking_url": "https://cine.entradas.com/cine/velez-malaga/cinesur-el-ingenio/evento/121396/el-dia-de-la-revelacion?mode=widget&change=0&ref=750&forceproxy=1"
+    "booking_url": "https://cine.entradas.com/cine/velez-malaga/cinesur-el-ingenio/evento/121396/el-dia-de-la-revelacion?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie"
   },
   {
     "cinema": "mk2 Cinesur El Ingenio",
@@ -2418,7 +2686,8 @@
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "time": "19:30",
-    "booking_url": "https://cine.entradas.com/cine/velez-malaga/cinesur-el-ingenio/evento/121397/el-dia-de-la-revelacion?mode=widget&change=0&ref=750&forceproxy=1"
+    "booking_url": "https://cine.entradas.com/cine/velez-malaga/cinesur-el-ingenio/evento/121397/el-dia-de-la-revelacion?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie"
   },
   {
     "cinema": "mk2 Cinesur El Ingenio",
@@ -2427,7 +2696,8 @@
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "time": "16:30",
-    "booking_url": "https://cine.entradas.com/cine/velez-malaga/cinesur-el-ingenio/evento/121417/el-dia-de-la-revelacion?mode=widget&change=0&ref=750&forceproxy=1"
+    "booking_url": "https://cine.entradas.com/cine/velez-malaga/cinesur-el-ingenio/evento/121417/el-dia-de-la-revelacion?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie"
   },
   {
     "cinema": "mk2 Cinesur El Ingenio",
@@ -2436,7 +2706,8 @@
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "time": "19:30",
-    "booking_url": "https://cine.entradas.com/cine/velez-malaga/cinesur-el-ingenio/evento/121418/el-dia-de-la-revelacion?mode=widget&change=0&ref=750&forceproxy=1"
+    "booking_url": "https://cine.entradas.com/cine/velez-malaga/cinesur-el-ingenio/evento/121418/el-dia-de-la-revelacion?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie"
   },
   {
     "cinema": "mk2 Cinesur Málaga Nostrum",
@@ -2445,7 +2716,8 @@
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "time": "16:30",
-    "booking_url": "https://cine.entradas.com/cine/malaga/cinesur-malaga-nostrum/evento/125813/el-dia-de-la-revelacion?mode=widget&change=0&ref=750&forceproxy=1"
+    "booking_url": "https://cine.entradas.com/cine/malaga/cinesur-malaga-nostrum/evento/125813/el-dia-de-la-revelacion?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie"
   },
   {
     "cinema": "mk2 Cinesur Málaga Nostrum",
@@ -2454,7 +2726,8 @@
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "time": "19:30",
-    "booking_url": "https://cine.entradas.com/cine/malaga/cinesur-malaga-nostrum/evento/125814/el-dia-de-la-revelacion?mode=widget&change=0&ref=750&forceproxy=1"
+    "booking_url": "https://cine.entradas.com/cine/malaga/cinesur-malaga-nostrum/evento/125814/el-dia-de-la-revelacion?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie"
   },
   {
     "cinema": "mk2 Cinesur Málaga Nostrum",
@@ -2463,7 +2736,8 @@
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "time": "22:30",
-    "booking_url": "https://cine.entradas.com/cine/malaga/cinesur-malaga-nostrum/evento/125815/el-dia-de-la-revelacion?mode=widget&change=0&ref=750&forceproxy=1"
+    "booking_url": "https://cine.entradas.com/cine/malaga/cinesur-malaga-nostrum/evento/125815/el-dia-de-la-revelacion?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie"
   },
   {
     "cinema": "mk2 Cinesur Málaga Nostrum",
@@ -2472,7 +2746,8 @@
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "time": "22:30",
-    "booking_url": "https://cine.entradas.com/cine/malaga/cinesur-malaga-nostrum/evento/125845/backrooms?mode=widget&change=0&ref=750"
+    "booking_url": "https://cine.entradas.com/cine/malaga/cinesur-malaga-nostrum/evento/125845/backrooms?mode=widget&change=0&ref=750",
+    "projection_type": "Movie"
   },
   {
     "cinema": "mk2 Cinesur Málaga Nostrum",
@@ -2481,7 +2756,8 @@
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "time": "16:30",
-    "booking_url": "https://cine.entradas.com/cine/malaga/cinesur-malaga-nostrum/evento/125850/el-dia-de-la-revelacion?mode=widget&change=0&ref=750&forceproxy=1"
+    "booking_url": "https://cine.entradas.com/cine/malaga/cinesur-malaga-nostrum/evento/125850/el-dia-de-la-revelacion?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie"
   },
   {
     "cinema": "mk2 Cinesur Málaga Nostrum",
@@ -2490,7 +2766,8 @@
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "time": "19:30",
-    "booking_url": "https://cine.entradas.com/cine/malaga/cinesur-malaga-nostrum/evento/125851/el-dia-de-la-revelacion?mode=widget&change=0&ref=750&forceproxy=1"
+    "booking_url": "https://cine.entradas.com/cine/malaga/cinesur-malaga-nostrum/evento/125851/el-dia-de-la-revelacion?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie"
   },
   {
     "cinema": "mk2 Cinesur Málaga Nostrum",
@@ -2499,7 +2776,8 @@
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "time": "22:30",
-    "booking_url": "https://cine.entradas.com/cine/malaga/cinesur-malaga-nostrum/evento/125852/el-dia-de-la-revelacion?mode=widget&change=0&ref=750&forceproxy=1"
+    "booking_url": "https://cine.entradas.com/cine/malaga/cinesur-malaga-nostrum/evento/125852/el-dia-de-la-revelacion?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie"
   },
   {
     "cinema": "mk2 Cinesur Málaga Nostrum",
@@ -2508,6 +2786,7 @@
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "time": "22:30",
-    "booking_url": "https://cine.entradas.com/cine/malaga/cinesur-malaga-nostrum/evento/125882/backrooms?mode=widget&change=0&ref=750"
+    "booking_url": "https://cine.entradas.com/cine/malaga/cinesur-malaga-nostrum/evento/125882/backrooms?mode=widget&change=0&ref=750",
+    "projection_type": "Movie"
   }
 ]

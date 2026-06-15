@@ -55,6 +55,7 @@ def scrape_yelmo():
             
             for movie in date_info.get('Movies', []):
                 title = movie.get('Title', '').strip()
+                proj_type = movie.get('ProjectionType', 'Movie')
                 for fmt in movie.get('Formats', []):
                     lang = fmt.get('Language', '')
                     # Check for VOSE
@@ -74,7 +75,8 @@ def scrape_yelmo():
                                 "format": fmt_name,
                                 "language": lang.strip(),
                                 "time": time_str,
-                                "booking_url": booking_url
+                                "booking_url": booking_url,
+                                "projection_type": proj_type
                             })
     print(f"Yelmo scraped: found {len(sessions)} VOSE sessions.")
     return sessions
@@ -150,7 +152,8 @@ def scrape_albeniz():
                                 "format": "2D",
                                 "language": lang_part,
                                 "time": time_val,
-                                "booking_url": booking_url
+                                "booking_url": booking_url,
+                                "projection_type": "Movie"
                             })
                             day_sessions_count += 1
                             
@@ -240,7 +243,8 @@ def scrape_cinesur_theatre(cinema_slug, cinema_name, base_date):
                             "format": "2D",
                             "language": "Original con subtítulos (VOSE)",
                             "time": time_str,
-                            "booking_url": booking_url
+                            "booking_url": booking_url,
+                            "projection_type": "Movie"
                         })
     return sessions
 

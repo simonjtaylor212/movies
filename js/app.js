@@ -13,7 +13,8 @@ const STATE = {
     selectedChain: 'all', // 'all', 'yelmo', 'cinesur', 'albeniz', 'custom'
     selectedCinemas: [], // Array of selected cinema names. Empty means all.
     searchQuery: '',
-    viewMode: 'day' // 'day' or 'movie'
+    viewMode: 'day', // 'day' or 'movie'
+    onlyMovies: true
 };
 
 // --- MONTH NAMES IN ENGLISH ---
@@ -55,6 +56,11 @@ function generateDateSelector() {
                 const titleMatch = item.movie.toLowerCase().includes(STATE.searchQuery);
                 const cinemaMatch = item.cinema.toLowerCase().includes(STATE.searchQuery);
                 if (!titleMatch && !cinemaMatch) return false;
+            }
+            
+            if (STATE.onlyMovies) {
+                const isMovie = !item.projection_type || item.projection_type === 'Movie';
+                if (!isMovie) return false;
             }
             
             return true;
@@ -191,6 +197,16 @@ function initFilters() {
         STATE.viewMode = 'movie';
         renderShowtimes();
     });
+
+    // Only Movies filter checkbox
+    const chkOnlyMovies = document.getElementById('chkOnlyMovies');
+    if (chkOnlyMovies) {
+        chkOnlyMovies.checked = STATE.onlyMovies;
+        chkOnlyMovies.addEventListener('change', (e) => {
+            STATE.onlyMovies = e.target.checked;
+            renderShowtimes();
+        });
+    }
 }
 
 // --- FETCH DATA FROM STATIC API ---
@@ -247,6 +263,11 @@ function renderDayView() {
             const titleMatch = item.movie.toLowerCase().includes(STATE.searchQuery);
             const cinemaMatch = item.cinema.toLowerCase().includes(STATE.searchQuery);
             if (!titleMatch && !cinemaMatch) return false;
+        }
+        
+        if (STATE.onlyMovies) {
+            const isMovie = !item.projection_type || item.projection_type === 'Movie';
+            if (!isMovie) return false;
         }
         
         return true;
@@ -338,6 +359,11 @@ function renderMovieView() {
             const titleMatch = item.movie.toLowerCase().includes(STATE.searchQuery);
             const cinemaMatch = item.cinema.toLowerCase().includes(STATE.searchQuery);
             if (!titleMatch && !cinemaMatch) return false;
+        }
+        
+        if (STATE.onlyMovies) {
+            const isMovie = !item.projection_type || item.projection_type === 'Movie';
+            if (!isMovie) return false;
         }
         
         return true;

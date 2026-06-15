@@ -311,6 +311,59 @@ a {
     box-shadow: 0 4px 12px rgba(236, 72, 153, 0.3);
 }
 
+/* Custom Checkbox Toggle */
+.filter-checkbox-container {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--text-secondary);
+    transition: var(--transition-smooth);
+    width: fit-content;
+}
+
+.filter-checkbox-container:hover {
+    color: var(--text-primary);
+}
+
+.filter-checkbox-container input {
+    display: none;
+}
+
+.custom-checkbox {
+    width: 18px;
+    height: 18px;
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.25);
+    transition: var(--transition-smooth);
+}
+
+.filter-checkbox-container input:checked + .custom-checkbox {
+    background: var(--accent-gradient);
+    border-color: transparent;
+    box-shadow: 0 0 10px rgba(139, 92, 246, 0.4);
+}
+
+.custom-checkbox::after {
+    content: "\f00c";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    font-size: 0.65rem;
+    color: white;
+    display: none;
+}
+
+.filter-checkbox-container input:checked + .custom-checkbox::after {
+    display: block;
+}
+
 
 /* --- MOVIE GRID --- */
 .movie-grid {
