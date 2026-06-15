@@ -249,12 +249,14 @@ a {
     border-radius: 9999px;
     font-size: 0.875rem;
     font-weight: 500;
+    color: var(--text-secondary);
     cursor: pointer;
     transition: var(--transition-smooth);
     user-select: none;
 }
 
 .chip:hover {
+    color: var(--text-primary);
     background: rgba(255, 255, 255, 0.07);
     border-color: var(--text-muted);
 }
