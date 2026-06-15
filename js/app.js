@@ -16,7 +16,9 @@ const STATE = {
     selectedCinemas: [], // Array of selected cinema names. Empty means all.
     searchQuery: '',
     viewMode: 'day', // 'day' or 'movie'
-    onlyMovies: true
+    onlyMovies: true,
+    onlyEnglish: false,
+    showUnknown: true
 };
 
 // --- MONTH NAMES IN ENGLISH ---
@@ -64,6 +66,10 @@ function generateDateSelector() {
                 const isMovie = !item.projection_type || item.projection_type === 'Movie';
                 if (!isMovie) return false;
             }
+
+            const isUnknown = !item.original_language;
+            if (isUnknown && !STATE.showUnknown) return false;
+            if (STATE.onlyEnglish && !isUnknown && item.original_language !== 'English') return false;
             
             return true;
         });
@@ -209,6 +215,26 @@ function initFilters() {
             renderShowtimes();
         });
     }
+
+    // Only English filter checkbox
+    const chkOnlyEnglish = document.getElementById('chkOnlyEnglish');
+    if (chkOnlyEnglish) {
+        chkOnlyEnglish.checked = STATE.onlyEnglish;
+        chkOnlyEnglish.addEventListener('change', (e) => {
+            STATE.onlyEnglish = e.target.checked;
+            renderShowtimes();
+        });
+    }
+
+    // Show Unknown filter checkbox
+    const chkShowUnknown = document.getElementById('chkShowUnknown');
+    if (chkShowUnknown) {
+        chkShowUnknown.checked = STATE.showUnknown;
+        chkShowUnknown.addEventListener('change', (e) => {
+            STATE.showUnknown = e.target.checked;
+            renderShowtimes();
+        });
+    }
 }
 
 // --- FETCH DATA FROM STATIC API ---
@@ -286,6 +312,10 @@ function renderDayView() {
             const isMovie = !item.projection_type || item.projection_type === 'Movie';
             if (!isMovie) return false;
         }
+
+        const isUnknown = !item.original_language;
+        if (isUnknown && !STATE.showUnknown) return false;
+        if (STATE.onlyEnglish && !isUnknown && item.original_language !== 'English') return false;
         
         return true;
     });
@@ -403,6 +433,10 @@ function renderMovieView() {
             const isMovie = !item.projection_type || item.projection_type === 'Movie';
             if (!isMovie) return false;
         }
+
+        const isUnknown = !item.original_language;
+        if (isUnknown && !STATE.showUnknown) return false;
+        if (STATE.onlyEnglish && !isUnknown && item.original_language !== 'English') return false;
         
         return true;
     });
