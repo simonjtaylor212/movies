@@ -1,4 +1,4 @@
-Starting Scraper - Local time is 2026-06-16 00:47:18 CEST
+Starting Scraper - Local time is 2026-06-16 01:02:19 CEST
 Scraping Cine Yelmo...
 Yelmo scraped: found 189 VOSE sessions.
 Scraping Cine Albéniz...
@@ -13,19 +13,4 @@ Successfully generated api/v1/showtimes.json with 311 listings.
 No new showings found.
 
 Resolving missing movie title translations...
-Found 4 movies without original names.
-No TMDB_API_KEY detected. Using keyless TMDB scraper and Wikidata fallbacks.
-
-Searching for: 'El drama'
-  -> Found via TMDB Web: 'The Drama'
-
-Searching for: 'El día de la revelación'
-  -> Found via TMDB Web: 'Disclosure Day'
-
-Searching for: 'El guardian del árbol de alcanfor'
-  -> Found via TMDB Web: 'クスノキの番人'
-
-Searching for: 'Fellini, ocho y medio'
-  -> Found via TMDB Web: '8½'
-
-Successfully updated 4 translation(s) in movie_title_translations.json.
+No missing movie translations to find.
