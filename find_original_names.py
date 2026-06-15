@@ -14,7 +14,11 @@ def get_original_title_scraping(spanish_title):
     # Clean up prefixes/suffixes to keep search effective
     clean_title = spanish_title.split(" - ")[0].split(" (")[0]
     
-    headers = {
+    search_headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "Accept-Language": "es-ES,es;q=0.9"
+    }
+    detail_headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
         "Accept-Language": "en-US,en;q=0.9"
     }
@@ -23,7 +27,7 @@ def get_original_title_scraping(spanish_title):
     search_url = f"https://www.themoviedb.org/search?query={search_query}"
     
     try:
-        r = requests.get(search_url, headers=headers, timeout=10)
+        r = requests.get(search_url, headers=search_headers, timeout=10)
         r.raise_for_status()
         
         soup = BeautifulSoup(r.text, "html.parser")
@@ -54,7 +58,7 @@ def get_original_title_scraping(spanish_title):
         movie_url = f"https://www.themoviedb.org/movie/{movie_id}"
         
         # Fetch movie details page with English Accept-Language
-        r_movie = requests.get(movie_url, headers=headers, timeout=10)
+        r_movie = requests.get(movie_url, headers=detail_headers, timeout=10)
         r_movie.raise_for_status()
         
         movie_soup = BeautifulSoup(r_movie.text, "html.parser")
