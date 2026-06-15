@@ -5,6 +5,51 @@ import requests
 from datetime import datetime, timezone, timedelta
 from bs4 import BeautifulSoup
 
+
+import urllib.parse
+
+def fetch_original_title(title):
+    search_title = title.replace(" - ÓPERA MET ENCORES 2026", "").replace(" - REPOSICIÓN MET 26-27", "").replace(" REPOSICIÓN - Grabado MET 26-27", "").replace(" - MET LIVE 26-27", "").replace(" - GRAB. MET 26-27", "").replace(" - GRABADO MET 26-27", "")
+    search_title = re.sub(r'\([^)]*\)', '', search_title).strip()
+
+    query = urllib.parse.quote(search_title)
+    url = f"https://www.filmaffinity.com/es/search.php?stext={query}"
+    headers = {'User-Agent': 'Mozilla/5.0'}
+    try:
+        res = requests.get(url, headers=headers, timeout=10)
+        soup = BeautifulSoup(res.text, 'html.parser')
+
+        def extract_title(soup):
+            dt = soup.find('dt', string=lambda text: text and 'Título original' in text)
+            if dt:
+                dd = dt.find_next_sibling('dd')
+                if dd:
+                    for aka in dd.find_all(class_='aka'):
+                        aka.decompose()
+                    text = dd.get_text(separator=" ", strip=True)
+                    if text.endswith('aka'):
+                        text = text[:-3].strip()
+                    return text
+            return ""
+
+        title_found = extract_title(soup)
+        if title_found:
+            return title_found
+
+        first_result = soup.find('div', class_='mc-title')
+        if first_result:
+            a_tag = first_result.find('a')
+            if a_tag:
+                movie_url = a_tag['href']
+                res2 = requests.get(movie_url, headers=headers, timeout=10)
+                soup2 = BeautifulSoup(res2.text, 'html.parser')
+                title_found = extract_title(soup2)
+                if title_found:
+                    return title_found
+    except Exception as e:
+        print(f"Error fetching original title for '{title}': {e}")
+    return ""
+
 def get_spain_timezone():
     try:
         from zoneinfo import ZoneInfo
@@ -300,12 +345,33 @@ def main():
             print(f"Error reading {translations_path}: {e}")
             translations = {}
             
+
+
     updated = False
+
+    # First, let's try to fetch missing translations for existing ones
+    for title, orig in translations.items():
+        if orig == "":
+            print(f"Found empty translation for: {title}. Attempting to fetch original title...")
+            fetched_title = fetch_original_title(title)
+            if fetched_title:
+                translations[title] = fetched_title
+                print(f"  -> Found original title: {fetched_title}")
+                updated = True
+            else:
+                print(f"  -> Could not find original title.")
+
     for s in all_showtimes:
         if s.get("movie_title_language") != "OR":
             movie_title = s.get("movie")
             if movie_title and movie_title not in translations:
-                translations[movie_title] = ""
+                print(f"Found new movie: {movie_title}. Attempting to fetch original title...")
+                orig_title = fetch_original_title(movie_title)
+                translations[movie_title] = orig_title if orig_title else ""
+                if orig_title:
+                    print(f"  -> Found original title: {orig_title}")
+                else:
+                    print(f"  -> Could not find original title.")
                 updated = True
                 
     if updated or not os.path.exists(translations_path):
