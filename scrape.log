@@ -1,13 +1,16 @@
-Starting Scraper - Local time is 2026-06-16 17:41:09 CEST
+Starting Scraper - Local time is 2026-06-16 17:53:49 CEST
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
   Fetching Yelmo madrid...
-Yelmo scraped: found 1037 VOSE sessions.
+Yelmo scraped: found 1036 VOSE sessions.
 Scraping Cine Albéniz...
 Stopping Cine Albéniz scrape after 5 consecutive empty days.
 Cine Albéniz scraped: found 113 VOSE sessions.
 Scraping Kinépolis Granada & Nevada...
-Kinépolis Granada & Nevada: Scraped 294 VOSE sessions.
+Error executing Playwright for Kinépolis: Page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://kinepolis.es/cines/kinepolis-granada
+Call log:
+  - navigating to "https://kinepolis.es/cines/kinepolis-granada", waiting until "load"
+
 Scraping Megarama Granada...
 Megarama Granada: Scraped 0 sessions.
 Scraping Cines Renoir...
@@ -18,29 +21,22 @@ Scraping Cinesa Madrid...
 Error: Cinesa home returned status 403
 Error: Could not retrieve Cinesa authentication token.
 Scraping Ocine Serrallo...
-Error scraping Ocine Serrallo: HTTPSConnectionPool(host='ocineserrallo.es', port=443): Max retries exceeded with url: /components/com_cines/json/es_cartellera.json (Caused by ConnectTimeoutError(<HTTPSConnection(host='ocineserrallo.es', port=443) at 0x7fa7c36f7710>, 'Connection to ocineserrallo.es timed out. (connect timeout=15)'))
+Error scraping Ocine Serrallo: SOCKSHTTPSConnectionPool(host='ocineserrallo.es', port=443): Max retries exceeded with url: /components/com_cines/json/es_cartellera.json (Caused by ConnectTimeoutError(<SOCKSHTTPSConnection(host='ocineserrallo.es', port=443) at 0x7f0a119cec90>, 'Connection to ocineserrallo.es timed out. (connect timeout=15)'))
 Ocine Serrallo: Scraped 0 sessions.
 Scraping mk2 Cinesur...
   mk2 Cinesur Miramar: found 109 sessions.
   mk2 Cinesur El Ingenio: found 27 sessions.
   mk2 Cinesur Málaga Nostrum: found 37 sessions.
 mk2 Cinesur scraped: found 173 VOSE sessions.
-Updated movie_title_translations.json
-Successfully generated api/v1/showtimes.json with 2055 listings.
-Appended 283 new showings to new_showtimes.json
+Successfully generated api/v1/showtimes.json with 1760 listings.
+No new showings found.
 
 Resolving missing movie title translations...
-Found 8 movies without original names.
+Found 5 movies without original names.
 No TMDB_API_KEY detected. Using keyless TMDB scraper and Wikidata fallbacks.
-
-Searching for: '15 PRUEBAS DE AMOR'
-  -> Found via TMDB Web: 'Des preuves d'amour'
 
 Searching for: '20 Años del MET en cines - Grabado MET 26-27'
   -> Could not resolve original name for '20 Años del MET en cines - Grabado MET 26-27'
-
-Searching for: 'DREAMS'
-  -> Found via Wikidata: 'Dreams'
 
 Searching for: 'LADRÓN DE BICICLETAS [WILDER CINEMA]'
   -> Could not resolve original name for 'LADRÓN DE BICICLETAS [WILDER CINEMA]'
@@ -54,7 +50,4 @@ Searching for: 'MALAS CALLES [WILDER CINEMA]'
 Searching for: 'Sia 2016 Coachella'
   -> Could not resolve original name for 'Sia 2016 Coachella'
 
-Searching for: 'THE FURIOUS'
-  -> Found via TMDB Web: '火遮眼'
-
-Successfully updated 3 translation(s) in movie_title_translations.json.
+No translations were updated.
