@@ -36,24 +36,9 @@ jobs:
       run: |
         python -m playwright install chromium --with-deps
 
-    - name: Install and start Tor
-      run: |
-        sudo apt-get install -y tor
-        sudo systemctl start tor
-        # Wait until Tor has bootstrapped (SOCKS port 9050 is ready)
-        for i in $(seq 1 30); do
-          if curl -s --socks5 127.0.0.1:9050 https://check.torproject.org/api/ip | grep -q '"IsTor":true'; then
-            echo "Tor is ready."
-            break
-          fi
-          echo "Waiting for Tor... ($i/30)"
-          sleep 2
-        done
-
     - name: Run Scraper & Compile Data
       env:
         KINEPOLIS_HEADLESS: 'false'
-        HTTPS_PROXY: 'socks5h://127.0.0.1:9050'
       run: |
         xvfb-run python scrape_and_compile.py 2>&1 | tee scrape.log
 
