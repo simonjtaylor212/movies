@@ -1,23 +1,141 @@
-Starting Scraper - Local time is 2026-06-16 13:09:17 CEST
+Starting Scraper - Local time is 2026-06-16 14:18:00 CEST
 Scraping Cine Yelmo...
-Yelmo returned status code 403
+  Fetching Yelmo malaga...
+  Fetching Yelmo madrid...
+Yelmo scraped: found 941 VOSE sessions.
 Scraping Cine Albéniz...
 Stopping Cine Albéniz scrape after 5 consecutive empty days.
-Cine Albéniz scraped: found 21 VOSE sessions.
+Cine Albéniz scraped: found 113 VOSE sessions.
 Scraping Kinépolis Granada & Nevada...
-Kinépolis Granada & Nevada: Scraped 122 VOSE sessions.
+Kinépolis Granada & Nevada: Scraped 293 VOSE sessions.
 Scraping Megarama Granada...
 Megarama Granada: Scraped 1 sessions.
+Scraping Cines Renoir...
+Cines Renoir: Scraped 150 VOSE sessions.
+Scraping Cines Golem...
+Cines Golem Madrid: Scraped 21 VOSE sessions.
 Scraping Ocine Serrallo...
-Error scraping Ocine Serrallo: HTTPSConnectionPool(host='ocineserrallo.es', port=443): Max retries exceeded with url: /components/com_cines/json/es_cartellera.json (Caused by ConnectTimeoutError(<HTTPSConnection(host='ocineserrallo.es', port=443) at 0x7f6a9c504d50>, 'Connection to ocineserrallo.es timed out. (connect timeout=15)'))
+Error scraping Ocine Serrallo: HTTPSConnectionPool(host='ocineserrallo.es', port=443): Max retries exceeded with url: /components/com_cines/json/es_cartellera.json (Caused by ConnectTimeoutError(<HTTPSConnection(host='ocineserrallo.es', port=443) at 0x7f534de96310>, 'Connection to ocineserrallo.es timed out. (connect timeout=15)'))
 Ocine Serrallo: Scraped 0 sessions.
 Scraping mk2 Cinesur...
   mk2 Cinesur Miramar: found 112 sessions.
   mk2 Cinesur El Ingenio: found 28 sessions.
   mk2 Cinesur Málaga Nostrum: found 38 sessions.
 mk2 Cinesur scraped: found 178 VOSE sessions.
-Successfully generated api/v1/showtimes.json with 322 listings.
-No new showings found.
+Updated movie_title_translations.json
+Successfully generated api/v1/showtimes.json with 1697 listings.
+Appended 1375 new showings to new_showtimes.json
 
 Resolving missing movie title translations...
-No missing movie translations to find.
+Found 36 movies without original names.
+No TMDB_API_KEY detected. Using keyless TMDB scraper and Wikidata fallbacks.
+
+Searching for: '20 Años del MET en cines - Grabado MET 26-27'
+  -> Could not resolve original name for '20 Años del MET en cines - Grabado MET 26-27'
+
+Searching for: 'ASESINATO EN LA 3.ª PLANTA'
+  -> Found via TMDB Web: 'Le Crime du 3e étage'
+
+Searching for: 'BACKROOMS'
+  -> Found via TMDB Web: 'Backrooms'
+
+Searching for: 'COSÌ FAN TUTTE (Mozart) - GRABADO MET 26-27'
+  -> Found via TMDB Web: 'Cosi Fan Tutte'
+
+Searching for: 'Caso 137'
+  -> Found via TMDB Web: 'Dossier 137'
+
+Searching for: 'Dreams (Sueños)'
+  -> Found via Wikidata: 'Dreams'
+
+Searching for: 'EL DIABLO VISTE DE PRADA 2'
+  -> Found via TMDB Web: 'The Devil Wears Prada 2'
+
+Searching for: 'EL DRAMA'
+  -> Found via TMDB Web: 'The Drama'
+
+Searching for: 'EL DÍA DE LA REVELACIÓN'
+  -> Found via TMDB Web: 'Disclosure Day'
+
+Searching for: 'ELEONORA DUSE, LA DIVINA'
+  -> Found via TMDB Web: 'Duse'
+
+Searching for: 'El diablo viste de Prada 2'
+  -> Found via TMDB Web: 'The Devil Wears Prada 2'
+
+Searching for: 'Eleonora Duse, La Divina'
+  -> Found via TMDB Web: 'Duse'
+
+Searching for: 'HOKUM'
+  -> Found via TMDB Web: 'Hokum'
+
+Searching for: 'LA GRAZIA'
+  -> Found via TMDB Web: 'La grazia'
+
+Searching for: 'LA MEMORIA DE LAS MARIPOSAS'
+  -> Found via TMDB Web: 'La memoria de las mariposas'
+
+Searching for: 'LADRÓN DE BICICLETAS [WILDER CINEMA]'
+  -> Could not resolve original name for 'LADRÓN DE BICICLETAS [WILDER CINEMA]'
+
+Searching for: 'LAWRENCE DE ARABIA [WILDER CINEMA]'
+  -> Could not resolve original name for 'LAWRENCE DE ARABIA [WILDER CINEMA]'
+
+Searching for: 'Las ovejas detectives'
+  -> Found via TMDB Web: 'The Sheep Detectives'
+
+Searching for: 'MACBETH (Verdi) - GRABADO MET 26-27'
+  -> Found via Wikidata: 'Macbeth'
+
+Searching for: 'MALAS CALLES [WILDER CINEMA]'
+  -> Could not resolve original name for 'MALAS CALLES [WILDER CINEMA]'
+
+Searching for: 'MANON (Massenet) - GRABADO MET 26-27'
+  -> Found via Wikidata: 'Manon'
+
+Searching for: 'MICHAEL'
+  -> Found via TMDB Web: 'Michael'
+
+Searching for: 'OTELLO (Verdi) - GRABADO MET 26-27'
+  -> Found via TMDB Web: 'Otello'
+
+Searching for: 'Proyecto Salvación'
+  -> Found via TMDB Web: 'Project Hail Mary'
+
+Searching for: 'Rebuilding'
+  -> Found via TMDB Web: 'Rebuilding'
+
+Searching for: 'SILENT NIGHT - GRABADO MET 26-27'
+  -> Found via TMDB Web: 'Silent Night'
+
+Searching for: 'SOLOMAMMA'
+  -> Found via TMDB Web: 'Solomamma'
+
+Searching for: 'THE MANDALORIAN AND GROGU'
+  -> Found via TMDB Web: 'The Mandalorian and Grogu'
+
+Searching for: 'TOSCA (Puccini) REPOSICIÓN - Grabado MET 26-27'
+  -> Found via TMDB Web: 'La Tosca'
+
+Searching for: 'TOY STORY 5'
+  -> Found via TMDB Web: 'Toy Story 5'
+
+Searching for: 'UN MUNDO FRÁGIL Y MARAVILLOSO'
+  -> Found via TMDB Web: 'نجوم الأمل و الألم'
+
+Searching for: 'UN TALENTO ÚNICO'
+  -> Found via TMDB Web: 'Tuner'
+
+Searching for: 'UNA PELÍCULA DE MIEDO'
+  -> Found via TMDB Web: 'Una película de miedo'
+
+Searching for: 'Un Talento Único'
+  -> Found via TMDB Web: 'Tuner'
+
+Searching for: 'Un talento único'
+  -> Found via TMDB Web: 'Tuner'
+
+Searching for: 'Viva'
+  -> Found via TMDB Web: 'Viva Maria!'
+
+Successfully updated 32 translation(s) in movie_title_translations.json.
