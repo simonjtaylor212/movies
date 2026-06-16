@@ -9,6 +9,7 @@ from scrape_megarama import scrape_megarama
 from scrape_ocine import scrape_ocine
 from scrape_renoir import scrape_renoir
 from scrape_golem import scrape_golem
+from scrape_cinesa import scrape_cinesa
 
 def get_spain_timezone():
     try:
@@ -338,8 +339,9 @@ def main():
     megarama_data = scrape_megarama()
     renoir_data = scrape_renoir()
     golem_data = scrape_golem()
+    cinesa_data = scrape_cinesa()
     
-    # Build a title-to-language map from yelmo, albeniz, kinepolis, megarama, renoir, golem
+    # Build a title-to-language map from yelmo, albeniz, kinepolis, megarama, renoir, golem, cinesa
     movie_langs = {}
     for s in yelmo_data:
         lang = s.get("original_language", "")
@@ -365,6 +367,10 @@ def main():
         lang = s.get("original_language", "")
         if lang:
             movie_langs[s["movie"]] = lang
+    for s in cinesa_data:
+        lang = s.get("original_language", "")
+        if lang:
+            movie_langs[s["movie"]] = lang
             
     # Normalize keys for lookup
     norm_movie_langs = {normalize_title(k): v for k, v in movie_langs.items()}
@@ -373,7 +379,7 @@ def main():
     cinesur_data = scrape_cinesur(movie_langs)
     
     # 2. Combine
-    all_showtimes = yelmo_data + albeniz_data + cinesur_data + kinepolis_data + megarama_data + ocine_data + renoir_data + golem_data
+    all_showtimes = yelmo_data + albeniz_data + cinesur_data + kinepolis_data + megarama_data + ocine_data + renoir_data + golem_data + cinesa_data
     
     # 3. Filter out past showtimes (only keep today and future showtimes)
     today_str = now_local.strftime('%Y-%m-%d')
