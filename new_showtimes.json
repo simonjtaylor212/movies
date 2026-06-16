@@ -58212,5 +58212,83 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-06-17 00:27:20"
+  },
+  {
+    "cinema": "Kinépolis Madrid Diversia",
+    "date": "2026-06-20",
+    "movie": "Backrooms",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "17:15",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/130098/0/KALCO/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-06-17 00:38:19"
+  },
+  {
+    "cinema": "Kinépolis Madrid Diversia",
+    "date": "2026-06-20",
+    "movie": "Toy Story 5",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "15:30",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/130099/0/KALCO/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-06-17 00:38:19"
+  },
+  {
+    "cinema": "Ocine Serrallo",
+    "date": "2026-06-17",
+    "movie": "El guardian del árbol de alcanfor",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "Japanese",
+    "time": "18:10",
+    "booking_url": "https://tickets.ocineserrallo.es/compra/show_numerada_confirmation.php?peli=10386&plan=184691&sala=4&URLinici=https%3A%2F%2Focineserrallo.es%2F%3Ftask%3Dcartelera",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-06-17 00:38:19"
+  },
+  {
+    "cinema": "Ocine Serrallo",
+    "date": "2026-06-18",
+    "movie": "El guardian del árbol de alcanfor",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "Japanese",
+    "time": "18:10",
+    "booking_url": "https://tickets.ocineserrallo.es/compra/show_numerada_confirmation.php?peli=10386&plan=184695&sala=4&URLinici=https%3A%2F%2Focineserrallo.es%2F%3Ftask%3Dcartelera",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-06-17 00:38:19"
+  },
+  {
+    "cinema": "Ocine Serrallo",
+    "date": "2026-06-18",
+    "movie": "El Día de la Revelación",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "19:00",
+    "booking_url": "https://tickets.ocineserrallo.es/compra/show_numerada_confirmation.php?peli=10225&plan=184196&sala=5&URLinici=https%3A%2F%2Focineserrallo.es%2F%3Ftask%3Dcartelera",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-06-17 00:38:19"
+  },
+  {
+    "cinema": "Ocine Serrallo",
+    "date": "2026-06-25",
+    "movie": "Toy Story 5",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "20:00",
+    "booking_url": "https://tickets.ocineserrallo.es/compra/show_numerada_confirmation.php?peli=10239&plan=184834&sala=2&URLinici=https%3A%2F%2Focineserrallo.es%2F%3Ftask%3Dcartelera",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-06-17 00:38:19"
   }
 ]
