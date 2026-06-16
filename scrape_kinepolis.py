@@ -90,13 +90,22 @@ def scrape_kinepolis():
                 title = film.get("title", "")
                 subtitles = film.get("subtitles", [])
                 
+                # Safely get spokenLanguage details as it can be a dict, a list, or missing
+                spoken_lang_data = film.get("spokenLanguage")
+                if isinstance(spoken_lang_data, list):
+                    spoken_lang_dict = spoken_lang_data[0] if len(spoken_lang_data) > 0 else {}
+                elif isinstance(spoken_lang_data, dict):
+                    spoken_lang_dict = spoken_lang_data
+                else:
+                    spoken_lang_dict = {}
+                
                 is_vose = False
                 # Title contains VOSE/VOS
                 if "vose" in title.lower() or "v.o.s." in title.lower():
                     is_vose = True
                 # Subtitles include Spanish subtitles and audio is not Spanish
                 elif any(sub.get("code") == "Span Subt" or sub.get("id") == "20" for sub in subtitles):
-                    spoken_lang = film.get("spokenLanguage", {}).get("code", "").lower()
+                    spoken_lang = spoken_lang_dict.get("code", "").lower()
                     if spoken_lang != "spanish":
                         is_vose = True
                         
@@ -123,7 +132,7 @@ def scrape_kinepolis():
                     continue
                     
                 # Map original language
-                lang_str = film.get("spokenLanguage", {}).get("name", "")
+                lang_str = spoken_lang_dict.get("name", "")
                 original_lang = ""
                 lang_upper = lang_str.upper()
                 if "INGL" in lang_upper:
@@ -163,6 +172,8 @@ def scrape_kinepolis():
                 }
                 sessions_list.append(session_dict)
     except Exception as e:
+        import traceback
+        traceback.print_exc()
         print(f"Error parsing Kinépolis sessions: {e}")
         
     # Deduplicate sessions

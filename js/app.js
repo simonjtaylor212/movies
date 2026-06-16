@@ -181,6 +181,7 @@ function initFilters() {
             chainChips.forEach(c => c.classList.remove('active'));
             document.getElementById('chipAll').classList.add('active');
             
+            updateCinemaChainChips();
             updateCinemaSubChips();
             updateLanguageChips();
             renderShowtimes();
@@ -278,6 +279,7 @@ async function loadShowtimes() {
             }
         }
         
+        updateCinemaChainChips(); // Initialize chain chips
         updateCinemaSubChips(); // Initialize sub-chips
         updateLanguageChips(); // Initialize language chips
         renderShowtimes();
@@ -634,6 +636,34 @@ function updateChainChipsActiveState() {
     STATE.selectedChain = 'custom';
 }
 
+function updateCinemaChainChips() {
+    const chainChips = document.querySelectorAll('#cinemaChips .chip');
+    if (STATE.selectedCity === 'all') {
+        chainChips.forEach(chip => {
+            chip.style.display = 'inline-block';
+        });
+        return;
+    }
+    
+    // Determine which chains exist in the selected city
+    const chainsInCity = new Set();
+    STATE.allShowtimes.forEach(item => {
+        if (getCityFromCinema(item.cinema) === STATE.selectedCity) {
+            chainsInCity.add(getChainFromCinema(item.cinema));
+        }
+    });
+    
+    // Show/hide chips based on presence in city
+    chainChips.forEach(chip => {
+        const chain = chip.getAttribute('data-chain');
+        if (chain === 'all' || chainsInCity.has(chain)) {
+            chip.style.display = 'inline-block';
+        } else {
+            chip.style.display = 'none';
+        }
+    });
+}
+
 function updateCinemaSubChips() {
     const subChipsContainer = document.getElementById('cinemaSubChips');
     subChipsContainer.innerHTML = '';
@@ -742,8 +772,8 @@ function getChainFromCinema(cinemaName) {
 function getCityFromCinema(cinemaName) {
     const name = cinemaName.toLowerCase();
     
-    // Golem & Renoir are Madrid
-    if (name.includes('golem') || name.includes('renoir')) {
+    // Golem, Renoir & Cinesa are Madrid
+    if (name.includes('golem') || name.includes('renoir') || name.includes('cinesa')) {
         return 'madrid';
     }
     
