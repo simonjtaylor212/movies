@@ -63,7 +63,7 @@ jobs:
 
     - name: Scrape Cinesa (Portugal IP)
       run: |
-        python -c "import scrape_cinesa, json; data = scrape_cinesa.scrape_cinesa(); json.dump(data, open('cinesa_temp.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=2)"
+        python -c "import scrape_cinesa, json; data = scrape_cinesa.scrape_cinesa(); json.dump(data, open('cinesa_temp.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=2)" 2>&1 | tee cinesa_scrape.log
 
     - name: Disconnect Portugal VPN
       run: |
@@ -80,6 +80,8 @@ jobs:
         KINEPOLIS_HEADLESS: 'false'
       run: |
         xvfb-run python scrape_and_compile.py 2>&1 | tee scrape.log
+        echo -e "\n=== Cinesa Scraper Logs (Portugal VPN) ===" >> scrape.log
+        cat cinesa_scrape.log >> scrape.log || true
 
     - name: Disconnect Spain VPN
       if: always()
