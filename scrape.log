@@ -1,8 +1,8 @@
-Starting Scraper - Local time is 2026-06-16 18:01:17 CEST
+Starting Scraper - Local time is 2026-06-16 18:50:27 CEST
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
   Fetching Yelmo madrid...
-Yelmo scraped: found 1036 VOSE sessions.
+Yelmo scraped: found 1039 VOSE sessions.
 Scraping Cine Albéniz...
 Stopping Cine Albéniz scrape after 5 consecutive empty days.
 Cine Albéniz scraped: found 113 VOSE sessions.
@@ -13,20 +13,20 @@ Megarama Granada: Scraped 0 sessions.
 Scraping Cines Renoir...
 Cines Renoir: Scraped 419 VOSE sessions.
 Scraping Cines Golem...
-Cines Golem Madrid: Scraped 19 VOSE sessions.
+Cines Golem Madrid: Scraped 18 VOSE sessions.
 Scraping Cinesa Madrid...
 Error: Cinesa home returned status 403
 Error: Could not retrieve Cinesa authentication token.
 Scraping Ocine Serrallo...
-Error scraping Ocine Serrallo: HTTPSConnectionPool(host='ocineserrallo.es', port=443): Max retries exceeded with url: /components/com_cines/json/es_cartellera.json (Caused by ConnectTimeoutError(<HTTPSConnection(host='ocineserrallo.es', port=443) at 0x7fb35a884650>, 'Connection to ocineserrallo.es timed out. (connect timeout=15)'))
+Error scraping Ocine Serrallo: HTTPSConnectionPool(host='ocineserrallo.es', port=443): Max retries exceeded with url: /components/com_cines/json/es_cartellera.json (Caused by ConnectTimeoutError(<HTTPSConnection(host='ocineserrallo.es', port=443) at 0x7fa42fbf91d0>, 'Connection to ocineserrallo.es timed out. (connect timeout=15)'))
 Ocine Serrallo: Scraped 0 sessions.
 Scraping mk2 Cinesur...
-  mk2 Cinesur Miramar: found 109 sessions.
+  mk2 Cinesur Miramar: found 107 sessions.
   mk2 Cinesur El Ingenio: found 27 sessions.
   mk2 Cinesur Málaga Nostrum: found 37 sessions.
-mk2 Cinesur scraped: found 173 VOSE sessions.
+mk2 Cinesur scraped: found 171 VOSE sessions.
 Successfully generated api/v1/showtimes.json with 2054 listings.
-Appended 294 new showings to new_showtimes.json
+Appended 11 new showings to new_showtimes.json
 
 Resolving missing movie title translations...
 Found 5 movies without original names.
