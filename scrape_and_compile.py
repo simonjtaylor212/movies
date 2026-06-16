@@ -4,6 +4,9 @@ import json
 import requests
 from datetime import datetime, timezone, timedelta
 from bs4 import BeautifulSoup
+from scrape_kinepolis import scrape_kinepolis
+from scrape_megarama import scrape_megarama
+from scrape_ocine import scrape_ocine
 
 def get_spain_timezone():
     try:
@@ -325,8 +328,10 @@ def main():
     # 1. Fetch from all sources
     yelmo_data = scrape_yelmo()
     albeniz_data = scrape_albeniz()
+    kinepolis_data = scrape_kinepolis()
+    megarama_data = scrape_megarama()
     
-    # Build a title-to-language map from yelmo and albeniz
+    # Build a title-to-language map from yelmo, albeniz, kinepolis, megarama
     movie_langs = {}
     for s in yelmo_data:
         lang = s.get("original_language", "")
@@ -336,11 +341,23 @@ def main():
         lang = s.get("original_language", "")
         if lang:
             movie_langs[s["movie"]] = lang
+    for s in kinepolis_data:
+        lang = s.get("original_language", "")
+        if lang:
+            movie_langs[s["movie"]] = lang
+    for s in megarama_data:
+        lang = s.get("original_language", "")
+        if lang:
+            movie_langs[s["movie"]] = lang
             
+    # Normalize keys for lookup
+    norm_movie_langs = {normalize_title(k): v for k, v in movie_langs.items()}
+    
+    ocine_data = scrape_ocine(norm_movie_langs)
     cinesur_data = scrape_cinesur(movie_langs)
     
     # 2. Combine
-    all_showtimes = yelmo_data + albeniz_data + cinesur_data
+    all_showtimes = yelmo_data + albeniz_data + cinesur_data + kinepolis_data + megarama_data + ocine_data
     
     # 3. Filter out past showtimes (only keep today and future showtimes)
     today_str = now_local.strftime('%Y-%m-%d')

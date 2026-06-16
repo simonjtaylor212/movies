@@ -32,9 +32,15 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
-    - name: Run Scraper & Compile Data
+    - name: Install Playwright browsers
       run: |
-        python scrape_and_compile.py 2>&1 | tee scrape.log
+        python -m playwright install chromium --with-deps
+
+    - name: Run Scraper & Compile Data
+      env:
+        KINEPOLIS_HEADLESS: 'false'
+      run: |
+        xvfb-run python scrape_and_compile.py 2>&1 | tee scrape.log
 
     - name: Commit and push changes
       run: |

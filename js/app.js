@@ -12,7 +12,8 @@ const STATE = {
     allShowtimes: [],
     translations: {},
     selectedDateStr: '', // Format YYYY-MM-DD
-    selectedChain: 'all', // 'all', 'yelmo', 'cinesur', 'albeniz', 'custom'
+    selectedCity: 'all', // 'all', 'malaga', 'granada'
+    selectedChain: 'all', // 'all', 'yelmo', 'cinesur', 'albeniz', 'kinepolis', 'megarama', 'ocine', 'custom'
     selectedCinemas: [], // Array of selected cinema names. Empty means all.
     selectedLanguages: [], // Array of selected language names. Empty means all.
     searchQuery: '',
@@ -51,6 +52,10 @@ function generateDateSelector() {
     if (STATE.allShowtimes && STATE.allShowtimes.length > 0) {
         // Filter showtimes matching selected cinemas & search query (excluding date filter)
         const filteredShowtimes = STATE.allShowtimes.filter(item => {
+            if (STATE.selectedCity !== 'all') {
+                if (getCityFromCinema(item.cinema) !== STATE.selectedCity) return false;
+            }
+            
             if (STATE.selectedCinemas.length > 0) {
                 if (!STATE.selectedCinemas.includes(item.cinema)) return false;
             }
@@ -161,6 +166,27 @@ function initFilters() {
         renderShowtimes();
     });
     
+    // City Chips
+    const cityChips = document.querySelectorAll('#cityChips .chip');
+    cityChips.forEach(chip => {
+        chip.addEventListener('click', () => {
+            cityChips.forEach(c => c.classList.remove('active'));
+            chip.classList.add('active');
+            STATE.selectedCity = chip.getAttribute('data-city');
+            
+            // When switching city, reset chain/cinema selection to prevent impossible filter states
+            STATE.selectedChain = 'all';
+            STATE.selectedCinemas = [];
+            const chainChips = document.querySelectorAll('#cinemaChips .chip');
+            chainChips.forEach(c => c.classList.remove('active'));
+            document.getElementById('chipAll').classList.add('active');
+            
+            updateCinemaSubChips();
+            updateLanguageChips();
+            renderShowtimes();
+        });
+    });
+
     // Cinema Chain Chips
     const chips = document.querySelectorAll('#cinemaChips .chip');
     chips.forEach(chip => {
@@ -172,9 +198,12 @@ function initFilters() {
             if (STATE.selectedChain === 'all') {
                 STATE.selectedCinemas = [];
             } else {
-                // Select all cinemas belonging to this chain
+                // Select all cinemas belonging to this chain within the selected city
                 STATE.selectedCinemas = [...new Set(STATE.allShowtimes
-                    .filter(item => getChainFromCinema(item.cinema) === STATE.selectedChain)
+                    .filter(item => {
+                        if (STATE.selectedCity !== 'all' && getCityFromCinema(item.cinema) !== STATE.selectedCity) return false;
+                        return getChainFromCinema(item.cinema) === STATE.selectedChain;
+                    })
                     .map(item => item.cinema)
                 )];
             }
@@ -278,6 +307,10 @@ function renderDayView() {
     // 1. Filter by Date, Selected Cinemas, and Search
     const filtered = STATE.allShowtimes.filter(item => {
         if (item.date !== STATE.selectedDateStr) return false;
+        
+        if (STATE.selectedCity !== 'all') {
+            if (getCityFromCinema(item.cinema) !== STATE.selectedCity) return false;
+        }
         
         if (STATE.selectedCinemas.length > 0) {
             if (!STATE.selectedCinemas.includes(item.cinema)) return false;
@@ -401,6 +434,10 @@ function renderMovieView() {
     
     // 1. Filter by Selected Cinemas and Search Query (ALL DATES included)
     const filtered = STATE.allShowtimes.filter(item => {
+        if (STATE.selectedCity !== 'all') {
+            if (getCityFromCinema(item.cinema) !== STATE.selectedCity) return false;
+        }
+        
         if (STATE.selectedCinemas.length > 0) {
             if (!STATE.selectedCinemas.includes(item.cinema)) return false;
         }
@@ -561,6 +598,9 @@ function updateChainChipsActiveState() {
             if (chain === 'yelmo') document.getElementById('chipYelmo').classList.add('active');
             else if (chain === 'cinesur') document.getElementById('chipCinesur').classList.add('active');
             else if (chain === 'albeniz') document.getElementById('chipAlbeniz').classList.add('active');
+            else if (chain === 'kinepolis') document.getElementById('chipKinepolis').classList.add('active');
+            else if (chain === 'megarama') document.getElementById('chipMegarama').classList.add('active');
+            else if (chain === 'ocine') document.getElementById('chipOcine').classList.add('active');
             return;
         }
     }
@@ -572,17 +612,27 @@ function updateCinemaSubChips() {
     const subChipsContainer = document.getElementById('cinemaSubChips');
     subChipsContainer.innerHTML = '';
     
-    // Get all unique cinemas from showtimes
-    const uniqueCinemas = [...new Set(STATE.allShowtimes.map(item => item.cinema))];
+    // Get all unique cinemas from showtimes matching selected city
+    const filteredShowtimesForSubChips = STATE.allShowtimes.filter(item => {
+        if (STATE.selectedCity !== 'all') {
+            return getCityFromCinema(item.cinema) === STATE.selectedCity;
+        }
+        return true;
+    });
+    
+    const uniqueCinemas = [...new Set(filteredShowtimesForSubChips.map(item => item.cinema))];
     if (uniqueCinemas.length === 0) return;
     
-    // Sort cinemas: Yelmo first, Cinesur second, Albéniz third, then alphabetically
+    // Sort cinemas: Yelmo first, Cinesur second, Albéniz third, then Granada chains, then alphabetically
     const getChainPriority = (cinemaName) => {
         const chain = getChainFromCinema(cinemaName);
         if (chain === 'yelmo') return 1;
         if (chain === 'cinesur') return 2;
         if (chain === 'albeniz') return 3;
-        return 4;
+        if (chain === 'kinepolis') return 4;
+        if (chain === 'megarama') return 5;
+        if (chain === 'ocine') return 6;
+        return 7;
     };
     
     uniqueCinemas.sort((a, b) => {
@@ -640,6 +690,9 @@ function getDisplayChain(chainClass) {
     if (chainClass === 'yelmo') return 'Yelmo';
     if (chainClass === 'cinesur') return 'Cinesur';
     if (chainClass === 'albeniz') return 'Albéniz';
+    if (chainClass === 'kinepolis') return 'Kinépolis';
+    if (chainClass === 'megarama') return 'Megarama';
+    if (chainClass === 'ocine') return 'Ocine';
     return 'Other';
 }
 
@@ -648,7 +701,18 @@ function getChainFromCinema(cinemaName) {
     if (name.includes('yelmo')) return 'yelmo';
     if (name.includes('cinesur')) return 'cinesur';
     if (name.includes('albéniz') || name.includes('albeniz')) return 'albeniz';
+    if (name.includes('kinepolis') || name.includes('kinépolis')) return 'kinepolis';
+    if (name.includes('megarama')) return 'megarama';
+    if (name.includes('ocine')) return 'ocine';
     return 'other';
+}
+
+function getCityFromCinema(cinemaName) {
+    const name = cinemaName.toLowerCase();
+    if (name.includes('kinépolis') || name.includes('kinepolis') || name.includes('megarama') || name.includes('ocine')) {
+        return 'granada';
+    }
+    return 'malaga';
 }
 
 // Formatting YYYY-MM-DD to "Sunday, June 14"

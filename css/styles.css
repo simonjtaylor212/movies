@@ -20,6 +20,9 @@
     --yelmo-color: #6366f1;        /* Indigo */
     --cinesur-color: #f59e0b;      /* Amber */
     --albeniz-color: #ec4899;      /* Pink */
+    --kinepolis-color: #e11d48;    /* Crimson Red */
+    --megarama-color: #ea580c;     /* Orange Red */
+    --ocine-color: #10b981;        /* Emerald Green */
     
     --shadow-sm: 0 4px 6px -1px rgba(0, 0, 0, 0.2), 0 2px 4px -1px rgba(0, 0, 0, 0.1);
     --shadow-lg: 0 20px 25px -5px rgba(0, 0, 0, 0.4), 0 10px 10px -5px rgba(0, 0, 0, 0.3);
@@ -282,6 +285,27 @@ a {
     box-shadow: 0 4px 12px rgba(236, 72, 153, 0.3);
 }
 
+.chip.active[data-chain="kinepolis"] {
+    background: var(--kinepolis-color);
+    color: white;
+    border-color: transparent;
+    box-shadow: 0 4px 12px rgba(225, 29, 72, 0.3);
+}
+
+.chip.active[data-chain="megarama"] {
+    background: var(--megarama-color);
+    color: white;
+    border-color: transparent;
+    box-shadow: 0 4px 12px rgba(234, 88, 12, 0.3);
+}
+
+.chip.active[data-chain="ocine"] {
+    background: var(--ocine-color);
+    color: white;
+    border-color: transparent;
+    box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
+}
+
 .chip.active.all-chip {
     background: var(--text-primary);
     color: var(--bg-primary);
@@ -309,6 +333,27 @@ a {
     color: white;
     border-color: transparent;
     box-shadow: 0 4px 12px rgba(236, 72, 153, 0.3);
+}
+
+.chip.active.active-chain-kinepolis {
+    background: var(--kinepolis-color);
+    color: white;
+    border-color: transparent;
+    box-shadow: 0 4px 12px rgba(225, 29, 72, 0.3);
+}
+
+.chip.active.active-chain-megarama {
+    background: var(--megarama-color);
+    color: white;
+    border-color: transparent;
+    box-shadow: 0 4px 12px rgba(234, 88, 12, 0.3);
+}
+
+.chip.active.active-chain-ocine {
+    background: var(--ocine-color);
+    color: white;
+    border-color: transparent;
+    box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
 }
 
 .chip.active {
@@ -443,6 +488,21 @@ a {
 
 .chain-badge.albeniz {
     background: var(--albeniz-color);
+    color: white;
+}
+
+.chain-badge.kinepolis {
+    background: var(--kinepolis-color);
+    color: white;
+}
+
+.chain-badge.megarama {
+    background: var(--megarama-color);
+    color: white;
+}
+
+.chain-badge.ocine {
+    background: var(--ocine-color);
     color: white;
 }
 
