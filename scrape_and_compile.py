@@ -7,6 +7,8 @@ from bs4 import BeautifulSoup
 from scrape_kinepolis import scrape_kinepolis
 from scrape_megarama import scrape_megarama
 from scrape_ocine import scrape_ocine
+from scrape_renoir import scrape_renoir
+from scrape_golem import scrape_golem
 
 def get_spain_timezone():
     try:
@@ -61,59 +63,63 @@ def scrape_yelmo():
         "Content-Type": "application/json",
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
     }
-    payload = {"cityKey": "malaga"}
     
-    try:
-        response = requests.post(url, json=payload, headers=headers, timeout=15)
-        if response.status_code != 200:
-            print(f"Yelmo returned status code {response.status_code}")
-            return []
-        data = response.json()
-    except Exception as e:
-        print(f"Error fetching Yelmo: {e}")
-        return []
-
     sessions = []
-    # Traverse: d -> Cinemas -> Dates -> Movies -> Formats -> Showtimes
-    cinemas = data.get('d', {}).get('Cinemas', [])
-    for cinema in cinemas:
-        cinema_name = f"Cine Yelmo {cinema.get('Name', '').strip()}"
-        for date_info in cinema.get('Dates', []):
-            filter_date_str = date_info.get('FilterDate', '')
-            # Parse dot net JSON date e.g. /Date(1781413200000)/
-            match = re.search(r'/Date\((\d+)\)/', filter_date_str)
-            if not match:
+    
+    for city in ["malaga", "madrid"]:
+        print(f"  Fetching Yelmo {city}...")
+        payload = {"cityKey": city}
+        
+        try:
+            response = requests.post(url, json=payload, headers=headers, timeout=15)
+            if response.status_code != 200:
+                print(f"Yelmo {city} returned status code {response.status_code}")
                 continue
-            dt = datetime.fromtimestamp(int(match.group(1)) / 1000.0, timezone.utc)
-            date_str = dt.strftime('%Y-%m-%d')
-            
-            for movie in date_info.get('Movies', []):
-                title = movie.get('Title', '').strip()
-                proj_type = movie.get('ProjectionType', 'Movie')
-                for fmt in movie.get('Formats', []):
-                    lang = fmt.get('Language', '')
-                    # Check for VOSE
-                    if 'VOSE' in lang.upper() or 'SUBTITULAD' in lang.upper() or 'V.O.S.' in lang.upper():
-                        fmt_name = fmt.get('Name', '2D')
-                        for st in fmt.get('Showtimes', []):
-                            time_str = st.get('Time', '')
-                            # Yelmo booking URL pattern
-                            showtime_id = st.get('ShowtimeId', '')
-                            vista_cinema_id = st.get('VistaCinemaId', '')
-                            booking_url = f"https://compra.yelmocines.es/?cinemaVistaId={vista_cinema_id}&showtimeVistaId={showtime_id}" if showtime_id else ""
-                            
-                            sessions.append({
-                                "cinema": cinema_name,
-                                "date": date_str,
-                                "movie": title,
-                                "format": fmt_name,
-                                "language": lang.strip(),
-                                "original_language": get_language_name(lang),
-                                "time": time_str,
-                                "booking_url": booking_url,
-                                "projection_type": proj_type,
-                                "movie_title_language": "ES"
-                            })
+            data = response.json()
+        except Exception as e:
+            print(f"Error fetching Yelmo {city}: {e}")
+            continue
+
+        # Traverse: d -> Cinemas -> Dates -> Movies -> Formats -> Showtimes
+        cinemas = data.get('d', {}).get('Cinemas', [])
+        for cinema in cinemas:
+            cinema_name = f"Cine Yelmo {cinema.get('Name', '').strip()}"
+            for date_info in cinema.get('Dates', []):
+                filter_date_str = date_info.get('FilterDate', '')
+                # Parse dot net JSON date e.g. /Date(1781413200000)/
+                match = re.search(r'/Date\((\d+)\)/', filter_date_str)
+                if not match:
+                    continue
+                dt = datetime.fromtimestamp(int(match.group(1)) / 1000.0, timezone.utc)
+                date_str = dt.strftime('%Y-%m-%d')
+                
+                for movie in date_info.get('Movies', []):
+                    title = movie.get('Title', '').strip()
+                    proj_type = movie.get('ProjectionType', 'Movie')
+                    for fmt in movie.get('Formats', []):
+                        lang = fmt.get('Language', '')
+                        # Check for VOSE
+                        if 'VOSE' in lang.upper() or 'SUBTITULAD' in lang.upper() or 'V.O.S.' in lang.upper():
+                            fmt_name = fmt.get('Name', '2D')
+                            for st in fmt.get('Showtimes', []):
+                                time_str = st.get('Time', '')
+                                # Yelmo booking URL pattern
+                                showtime_id = st.get('ShowtimeId', '')
+                                vista_cinema_id = st.get('VistaCinemaId', '')
+                                booking_url = f"https://compra.yelmocines.es/?cinemaVistaId={vista_cinema_id}&showtimeVistaId={showtime_id}" if showtime_id else ""
+                                
+                                sessions.append({
+                                    "cinema": cinema_name,
+                                    "date": date_str,
+                                    "movie": title,
+                                    "format": fmt_name,
+                                    "language": lang.strip(),
+                                    "original_language": get_language_name(lang),
+                                    "time": time_str,
+                                    "booking_url": booking_url,
+                                    "projection_type": proj_type,
+                                    "movie_title_language": "ES"
+                                })
     print(f"Yelmo scraped: found {len(sessions)} VOSE sessions.")
     return sessions
 
@@ -330,8 +336,10 @@ def main():
     albeniz_data = scrape_albeniz()
     kinepolis_data = scrape_kinepolis()
     megarama_data = scrape_megarama()
+    renoir_data = scrape_renoir()
+    golem_data = scrape_golem()
     
-    # Build a title-to-language map from yelmo, albeniz, kinepolis, megarama
+    # Build a title-to-language map from yelmo, albeniz, kinepolis, megarama, renoir, golem
     movie_langs = {}
     for s in yelmo_data:
         lang = s.get("original_language", "")
@@ -349,6 +357,14 @@ def main():
         lang = s.get("original_language", "")
         if lang:
             movie_langs[s["movie"]] = lang
+    for s in renoir_data:
+        lang = s.get("original_language", "")
+        if lang:
+            movie_langs[s["movie"]] = lang
+    for s in golem_data:
+        lang = s.get("original_language", "")
+        if lang:
+            movie_langs[s["movie"]] = lang
             
     # Normalize keys for lookup
     norm_movie_langs = {normalize_title(k): v for k, v in movie_langs.items()}
@@ -357,7 +373,7 @@ def main():
     cinesur_data = scrape_cinesur(movie_langs)
     
     # 2. Combine
-    all_showtimes = yelmo_data + albeniz_data + cinesur_data + kinepolis_data + megarama_data + ocine_data
+    all_showtimes = yelmo_data + albeniz_data + cinesur_data + kinepolis_data + megarama_data + ocine_data + renoir_data + golem_data
     
     # 3. Filter out past showtimes (only keep today and future showtimes)
     today_str = now_local.strftime('%Y-%m-%d')

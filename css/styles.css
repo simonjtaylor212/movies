@@ -23,6 +23,8 @@
     --kinepolis-color: #e11d48;    /* Crimson Red */
     --megarama-color: #ea580c;     /* Orange Red */
     --ocine-color: #10b981;        /* Emerald Green */
+    --renoir-color: #38bdf8;       /* Sky Blue */
+    --golem-color: #a855f7;        /* Purple */
     
     --shadow-sm: 0 4px 6px -1px rgba(0, 0, 0, 0.2), 0 2px 4px -1px rgba(0, 0, 0, 0.1);
     --shadow-lg: 0 20px 25px -5px rgba(0, 0, 0, 0.4), 0 10px 10px -5px rgba(0, 0, 0, 0.3);
@@ -306,6 +308,20 @@ a {
     box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
 }
 
+.chip.active[data-chain="renoir"] {
+    background: var(--renoir-color);
+    color: white;
+    border-color: transparent;
+    box-shadow: 0 4px 12px rgba(56, 189, 248, 0.3);
+}
+
+.chip.active[data-chain="golem"] {
+    background: var(--golem-color);
+    color: white;
+    border-color: transparent;
+    box-shadow: 0 4px 12px rgba(168, 85, 247, 0.3);
+}
+
 .chip.active.all-chip {
     background: var(--text-primary);
     color: var(--bg-primary);
@@ -354,6 +370,20 @@ a {
     color: white;
     border-color: transparent;
     box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
+}
+
+.chip.active.active-chain-renoir {
+    background: var(--renoir-color);
+    color: white;
+    border-color: transparent;
+    box-shadow: 0 4px 12px rgba(56, 189, 248, 0.3);
+}
+
+.chip.active.active-chain-golem {
+    background: var(--golem-color);
+    color: white;
+    border-color: transparent;
+    box-shadow: 0 4px 12px rgba(168, 85, 247, 0.3);
 }
 
 .chip.active {
@@ -503,6 +533,16 @@ a {
 
 .chain-badge.ocine {
     background: var(--ocine-color);
+    color: white;
+}
+
+.chain-badge.renoir {
+    background: var(--renoir-color);
+    color: white;
+}
+
+.chain-badge.golem {
+    background: var(--golem-color);
     color: white;
 }
 

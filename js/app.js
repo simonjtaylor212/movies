@@ -13,7 +13,7 @@ const STATE = {
     translations: {},
     selectedDateStr: '', // Format YYYY-MM-DD
     selectedCity: 'all', // 'all', 'malaga', 'granada'
-    selectedChain: 'all', // 'all', 'yelmo', 'cinesur', 'albeniz', 'kinepolis', 'megarama', 'ocine', 'custom'
+    selectedChain: 'all', // 'all', 'yelmo', 'cinesur', 'albeniz', 'kinepolis', 'megarama', 'ocine', 'renoir', 'golem', 'custom'
     selectedCinemas: [], // Array of selected cinema names. Empty means all.
     selectedLanguages: [], // Array of selected language names. Empty means all.
     searchQuery: '',
@@ -601,6 +601,8 @@ function updateChainChipsActiveState() {
             else if (chain === 'kinepolis') document.getElementById('chipKinepolis').classList.add('active');
             else if (chain === 'megarama') document.getElementById('chipMegarama').classList.add('active');
             else if (chain === 'ocine') document.getElementById('chipOcine').classList.add('active');
+            else if (chain === 'renoir') document.getElementById('chipRenoir').classList.add('active');
+            else if (chain === 'golem') document.getElementById('chipGolem').classList.add('active');
             return;
         }
     }
@@ -632,7 +634,9 @@ function updateCinemaSubChips() {
         if (chain === 'kinepolis') return 4;
         if (chain === 'megarama') return 5;
         if (chain === 'ocine') return 6;
-        return 7;
+        if (chain === 'renoir') return 7;
+        if (chain === 'golem') return 8;
+        return 9;
     };
     
     uniqueCinemas.sort((a, b) => {
@@ -693,6 +697,8 @@ function getDisplayChain(chainClass) {
     if (chainClass === 'kinepolis') return 'Kinépolis';
     if (chainClass === 'megarama') return 'Megarama';
     if (chainClass === 'ocine') return 'Ocine';
+    if (chainClass === 'renoir') return 'Cines Renoir';
+    if (chainClass === 'golem') return 'Cines Golem';
     return 'Other';
 }
 
@@ -704,14 +710,42 @@ function getChainFromCinema(cinemaName) {
     if (name.includes('kinepolis') || name.includes('kinépolis')) return 'kinepolis';
     if (name.includes('megarama')) return 'megarama';
     if (name.includes('ocine')) return 'ocine';
+    if (name.includes('renoir')) return 'renoir';
+    if (name.includes('golem')) return 'golem';
     return 'other';
 }
 
 function getCityFromCinema(cinemaName) {
     const name = cinemaName.toLowerCase();
-    if (name.includes('kinépolis') || name.includes('kinepolis') || name.includes('megarama') || name.includes('ocine')) {
+    
+    // Golem & Renoir are Madrid
+    if (name.includes('golem') || name.includes('renoir')) {
+        return 'madrid';
+    }
+    
+    // Kinépolis is in Granada and Madrid
+    if (name.includes('kinepolis') || name.includes('kinépolis')) {
+        if (name.includes('madrid')) {
+            return 'madrid';
+        }
         return 'granada';
     }
+    
+    // Yelmo is in Málaga and Madrid
+    if (name.includes('yelmo')) {
+        const madridYelmos = ['ideal', 'la vaguada', 'islazul', 'palafox luxury', 'premium parque corredor', 'plaza norte 2', 'planetocio', 'plenilunio', 'rivas h2o', 'tresaguas'];
+        if (madridYelmos.some(y => name.includes(y))) {
+            return 'madrid';
+        }
+        return 'malaga';
+    }
+    
+    // Granada chains
+    if (name.includes('megarama') || name.includes('ocine')) {
+        return 'granada';
+    }
+    
+    // Málaga chains (Cine Albéniz, Cinesur)
     return 'malaga';
 }
 

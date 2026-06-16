@@ -68,10 +68,17 @@ def scrape_kinepolis():
             
             for s in sessions:
                 complex_code = s.get("complexOperator")
-                if complex_code not in ["KGRAN", "KNEVA"]:
+                if complex_code not in ["KGRAN", "KNEVA", "KMAD", "KALCO"]:
                     continue
                     
-                cinema_name = "Kinépolis Granada" if complex_code == "KGRAN" else "Kinépolis Granada Nevada"
+                if complex_code == "KGRAN":
+                    cinema_name = "Kinépolis Granada"
+                elif complex_code == "KNEVA":
+                    cinema_name = "Kinépolis Granada Nevada"
+                elif complex_code == "KMAD":
+                    cinema_name = "Kinépolis Madrid Ciudad de la Imagen"
+                elif complex_code == "KALCO":
+                    cinema_name = "Kinépolis Madrid Diversia"
                 
                 # Match film info
                 film_info = s.get("film", {})
