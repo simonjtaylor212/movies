@@ -345,7 +345,20 @@ def main():
     megarama_data = scrape_megarama()
     renoir_data = scrape_renoir()
     golem_data = scrape_golem()
-    cinesa_data = scrape_cinesa()
+    
+    # Load Cinesa from cache if present (scraped during the first PT VPN step in CI)
+    cinesa_temp_path = "cinesa_temp.json"
+    if os.path.exists(cinesa_temp_path):
+        try:
+            with open(cinesa_temp_path, "r", encoding="utf-8") as f:
+                cinesa_data = json.load(f)
+            print(f"Loaded {len(cinesa_data)} Cinesa showtimes from cache.")
+            os.remove(cinesa_temp_path)
+        except Exception as e:
+            print(f"Error loading Cinesa cache: {e}")
+            cinesa_data = scrape_cinesa()
+    else:
+        cinesa_data = scrape_cinesa()
     
     # Build a title-to-language map from yelmo, albeniz, kinepolis, megarama, renoir, golem, cinesa
     movie_langs = {}

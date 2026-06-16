@@ -41,25 +41,50 @@ jobs:
         sudo apt-get update
         sudo apt-get install -y wireguard resolvconf
 
-    - name: Configure WireGuard
+    - name: Configure Portugal WireGuard VPN
       env:
-        WG_CONF: ${{ secrets.SURFSHARK_WG_CONF }}
+        WG_CONF_PT: ${{ secrets.SURFSHARK_WG_CONF_PT }}
       run: |
-        echo "$WG_CONF" | sudo tee /etc/wireguard/wg0.conf
-        sudo chmod 600 /etc/wireguard/wg0.conf
+        echo "$WG_CONF_PT" | sudo tee /etc/wireguard/wg_pt.conf
+        sudo chmod 600 /etc/wireguard/wg_pt.conf
 
-    - name: Start WireGuard VPN
+    - name: Configure Spain WireGuard VPN
+      env:
+        WG_CONF_ES: ${{ secrets.SURFSHARK_WG_CONF_ES }}
       run: |
-        sudo wg-quick up wg0
+        echo "$WG_CONF_ES" | sudo tee /etc/wireguard/wg_es.conf
+        sudo chmod 600 /etc/wireguard/wg_es.conf
+
+    - name: Connect to Portugal VPN
+      run: |
+        sudo wg-quick up wg_pt
         sleep 5
-        # Verify connection by checking the external IP
         curl https://ipinfo.io/json || true
 
-    - name: Run Scraper & Compile Data
+    - name: Scrape Cinesa (Portugal IP)
+      run: |
+        python -c "import scrape_cinesa, json; data = scrape_cinesa.scrape_cinesa(); json.dump(data, open('cinesa_temp.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=2)"
+
+    - name: Disconnect Portugal VPN
+      run: |
+        sudo wg-quick down wg_pt
+
+    - name: Connect to Spain VPN
+      run: |
+        sudo wg-quick up wg_es
+        sleep 5
+        curl https://ipinfo.io/json || true
+
+    - name: Run Scraper & Compile Data (Spain IP)
       env:
         KINEPOLIS_HEADLESS: 'false'
       run: |
         xvfb-run python scrape_and_compile.py 2>&1 | tee scrape.log
+
+    - name: Disconnect Spain VPN
+      if: always()
+      run: |
+        sudo wg-quick down wg_es || true
 
     - name: Commit and push changes
       run: |
