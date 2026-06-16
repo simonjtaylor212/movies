@@ -1,8 +1,8 @@
-Starting Scraper - Local time is 2026-06-16 14:40:31 CEST
+Starting Scraper - Local time is 2026-06-16 15:32:31 CEST
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
   Fetching Yelmo madrid...
-Yelmo scraped: found 941 VOSE sessions.
+Yelmo scraped: found 1029 VOSE sessions.
 Scraping Cine Albéniz...
 Stopping Cine Albéniz scrape after 5 consecutive empty days.
 Cine Albéniz scraped: found 113 VOSE sessions.
@@ -18,18 +18,19 @@ Scraping Cinesa Madrid...
 Error: Cinesa home returned status 403
 Error: Could not retrieve Cinesa authentication token.
 Scraping Ocine Serrallo...
-Error scraping Ocine Serrallo: HTTPSConnectionPool(host='ocineserrallo.es', port=443): Max retries exceeded with url: /components/com_cines/json/es_cartellera.json (Caused by ConnectTimeoutError(<HTTPSConnection(host='ocineserrallo.es', port=443) at 0x7f0a5e322b10>, 'Connection to ocineserrallo.es timed out. (connect timeout=15)'))
+Error scraping Ocine Serrallo: HTTPSConnectionPool(host='ocineserrallo.es', port=443): Max retries exceeded with url: /components/com_cines/json/es_cartellera.json (Caused by ConnectTimeoutError(<HTTPSConnection(host='ocineserrallo.es', port=443) at 0x7f0d6885ced0>, 'Connection to ocineserrallo.es timed out. (connect timeout=15)'))
 Ocine Serrallo: Scraped 0 sessions.
 Scraping mk2 Cinesur...
   mk2 Cinesur Miramar: found 112 sessions.
   mk2 Cinesur El Ingenio: found 28 sessions.
   mk2 Cinesur Málaga Nostrum: found 38 sessions.
 mk2 Cinesur scraped: found 178 VOSE sessions.
-Successfully generated api/v1/showtimes.json with 1697 listings.
-No new showings found.
+Updated movie_title_translations.json
+Successfully generated api/v1/showtimes.json with 1785 listings.
+Appended 88 new showings to new_showtimes.json
 
 Resolving missing movie title translations...
-Found 4 movies without original names.
+Found 5 movies without original names.
 No TMDB_API_KEY detected. Using keyless TMDB scraper and Wikidata fallbacks.
 
 Searching for: '20 Años del MET en cines - Grabado MET 26-27'
@@ -44,4 +45,7 @@ Searching for: 'LAWRENCE DE ARABIA [WILDER CINEMA]'
 Searching for: 'MALAS CALLES [WILDER CINEMA]'
   -> Could not resolve original name for 'MALAS CALLES [WILDER CINEMA]'
 
-No translations were updated.
+Searching for: 'Sia: Nostalgic For The Present'
+  -> Found via TMDB Web: 'Sia: Nostalgic for the Present'
+
+Successfully updated 1 translation(s) in movie_title_translations.json.
