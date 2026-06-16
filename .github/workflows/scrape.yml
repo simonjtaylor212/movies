@@ -36,6 +36,25 @@ jobs:
       run: |
         python -m playwright install chromium --with-deps
 
+    - name: Install WireGuard and resolvconf
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y wireguard resolvconf
+
+    - name: Configure WireGuard
+      env:
+        WG_CONF: ${{ secrets.SURFSHARK_WG_CONF }}
+      run: |
+        echo "$WG_CONF" | sudo tee /etc/wireguard/wg0.conf
+        sudo chmod 600 /etc/wireguard/wg0.conf
+
+    - name: Start WireGuard VPN
+      run: |
+        sudo wg-quick up wg0
+        sleep 5
+        # Verify connection by checking the external IP
+        curl https://ipinfo.io/json || true
+
     - name: Run Scraper & Compile Data
       env:
         KINEPOLIS_HEADLESS: 'false'
