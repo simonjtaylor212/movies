@@ -2,6 +2,7 @@ import os
 import re
 import json
 import requests
+import unicodedata
 from datetime import datetime, timezone, timedelta
 from bs4 import BeautifulSoup
 from scrape_kinepolis import scrape_kinepolis
@@ -55,7 +56,12 @@ def get_language_name(lang_str):
 def normalize_title(t):
     if not t:
         return ""
-    return re.sub(r'[^a-z0-9]', '', t.lower())
+    # Normalize unicode characters to decompose combined characters (like accented ones)
+    s = unicodedata.normalize('NFD', t)
+    # Filter out non-spacing mark characters (accents)
+    s = "".join([c for c in s if not unicodedata.combining(c)])
+    # Lowercase and remove all non-alphanumeric characters
+    return re.sub(r'[^a-z0-9]', '', s.lower())
 
 def scrape_yelmo():
     print("Scraping Cine Yelmo...")
@@ -396,13 +402,32 @@ def main():
             print(f"Error reading {translations_path}: {e}")
             translations = {}
             
+    # Normalize existing translation keys for lookup
+    norm_translations = {normalize_title(k): k for k in translations.keys()}
+
     updated = False
     for s in all_showtimes:
         if s.get("movie_title_language") != "OR":
             movie_title = s.get("movie")
-            if movie_title and movie_title not in translations:
-                translations[movie_title] = ""
-                updated = True
+            if not movie_title:
+                continue
+
+            norm_title = normalize_title(movie_title)
+
+            # 1. Check if we already have this title or a normalized version of it
+            if movie_title in translations:
+                continue
+
+            if norm_title in norm_translations:
+                # Use the existing canonical title instead of creating a near-duplicate
+                canonical_title = norm_translations[norm_title]
+                s["movie"] = canonical_title
+                continue
+
+            # 2. Truly new movie title
+            translations[movie_title] = ""
+            norm_translations[norm_title] = movie_title
+            updated = True
                 
     if updated or not os.path.exists(translations_path):
         # Sort keys for clean git diffs
