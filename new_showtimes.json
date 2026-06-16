@@ -2624,5 +2624,57 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-06-16 11:58:55"
+  },
+  {
+    "cinema": "Kinépolis Granada Nevada",
+    "date": "2026-06-20",
+    "movie": "Toy Story 5",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "13:00",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/97813/0/KNEVA/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-06-16 12:08:09"
+  },
+  {
+    "cinema": "Kinépolis Granada Nevada",
+    "date": "2026-06-20",
+    "movie": "Toy Story 5",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "14:05",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/97814/0/KNEVA/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-06-16 12:08:09"
+  },
+  {
+    "cinema": "Kinépolis Granada Nevada",
+    "date": "2026-06-21",
+    "movie": "Toy Story 5",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "14:05",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/97815/0/KNEVA/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-06-16 12:08:09"
+  },
+  {
+    "cinema": "Kinépolis Granada Nevada",
+    "date": "2026-06-21",
+    "movie": "Toy Story 5",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "13:00",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/97816/0/KNEVA/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-06-16 12:08:09"
   }
 ]

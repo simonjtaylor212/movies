@@ -1,16 +1,23 @@
-Starting Scraper - Local time is 2026-06-16 06:00:22 CEST
+Starting Scraper - Local time is 2026-06-16 12:08:09 CEST
 Scraping Cine Yelmo...
 Yelmo scraped: found 189 VOSE sessions.
 Scraping Cine Albéniz...
 Stopping Cine Albéniz scrape after 5 consecutive empty days.
 Cine Albéniz scraped: found 21 VOSE sessions.
+Scraping Kinépolis Granada & Nevada...
+Kinépolis Granada & Nevada: Scraped 122 VOSE sessions.
+Scraping Megarama Granada...
+Megarama Granada: Scraped 1 sessions.
+Scraping Ocine Serrallo...
+Error scraping Ocine Serrallo: HTTPSConnectionPool(host='ocineserrallo.es', port=443): Max retries exceeded with url: /components/com_cines/json/es_cartellera.json (Caused by ConnectTimeoutError(<HTTPSConnection(host='ocineserrallo.es', port=443) at 0x7fcf11a4de10>, 'Connection to ocineserrallo.es timed out. (connect timeout=15)'))
+Ocine Serrallo: Scraped 0 sessions.
 Scraping mk2 Cinesur...
   mk2 Cinesur Miramar: found 112 sessions.
   mk2 Cinesur El Ingenio: found 28 sessions.
   mk2 Cinesur Málaga Nostrum: found 38 sessions.
 mk2 Cinesur scraped: found 178 VOSE sessions.
-Successfully generated api/v1/showtimes.json with 388 listings.
-Appended 77 new showings to new_showtimes.json
+Successfully generated api/v1/showtimes.json with 511 listings.
+Appended 4 new showings to new_showtimes.json
 
 Resolving missing movie title translations...
 No missing movie translations to find.
