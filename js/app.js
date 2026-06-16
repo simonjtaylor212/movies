@@ -266,9 +266,13 @@ async function loadShowtimes() {
         STATE.allShowtimes = await showtimesRes.json();
         
         STATE.translations = {};
+        STATE.normTranslations = {};
         if (translationsRes && translationsRes.ok) {
             try {
                 STATE.translations = await translationsRes.json();
+                for (let key in STATE.translations) {
+                    STATE.normTranslations[normalizeTitle(key)] = STATE.translations[key];
+                }
             } catch (err) {
                 console.error('Error parsing translations:', err);
             }
@@ -337,12 +341,22 @@ function renderDayView() {
     
     // 2. Group by movie
     const grouped = {};
+    const normMap = {}; // Map normalized titles to canonical titles
+
     filtered.forEach(session => {
         const movieTitle = session.movie;
-        if (!grouped[movieTitle]) {
-            grouped[movieTitle] = {
-                movie: movieTitle,
-                original_title: (STATE.translations && STATE.translations[movieTitle]) || '',
+        const normTitle = normalizeTitle(movieTitle);
+
+        let groupKey = normMap[normTitle];
+        if (!groupKey) {
+            groupKey = movieTitle;
+            normMap[normTitle] = groupKey;
+        }
+
+        if (!grouped[groupKey]) {
+            grouped[groupKey] = {
+                movie: groupKey,
+                original_title: STATE.normTranslations[normTitle] || '',
                 language: session.language,
                 original_language: session.original_language || '',
                 image: session.image || getPosterFallbackUrl(movieTitle),
@@ -351,15 +365,15 @@ function renderDayView() {
         }
         
         const cinemaName = session.cinema;
-        if (!grouped[movieTitle].cinemas[cinemaName]) {
-            grouped[movieTitle].cinemas[cinemaName] = {
+        if (!grouped[groupKey].cinemas[cinemaName]) {
+            grouped[groupKey].cinemas[cinemaName] = {
                 showtimes: [],
                 booking_url: session.booking_url
             };
         }
         
-        if (!grouped[movieTitle].cinemas[cinemaName].showtimes.includes(session.time)) {
-            grouped[movieTitle].cinemas[cinemaName].showtimes.push(session.time);
+        if (!grouped[groupKey].cinemas[cinemaName].showtimes.includes(session.time)) {
+            grouped[groupKey].cinemas[cinemaName].showtimes.push(session.time);
         }
     });
 
@@ -463,13 +477,23 @@ function renderMovieView() {
 
     // 2. Group by Movie
     const moviesGrouped = {};
+    const normMap = {}; // Map normalized titles to canonical titles
+
     filtered.forEach(session => {
         const movieTitle = session.movie;
-        if (!moviesGrouped[movieTitle]) {
-            moviesGrouped[movieTitle] = {
-                title: movieTitle,
-                original_title: (STATE.translations && STATE.translations[movieTitle]) || '',
-                image: session.image || getPosterFallbackUrl(movieTitle),
+        const normTitle = normalizeTitle(movieTitle);
+
+        let groupKey = normMap[normTitle];
+        if (!groupKey) {
+            groupKey = movieTitle;
+            normMap[normTitle] = groupKey;
+        }
+
+        if (!moviesGrouped[groupKey]) {
+            moviesGrouped[groupKey] = {
+                title: groupKey,
+                original_title: STATE.normTranslations[normTitle] || '',
+                image: session.image || getPosterFallbackUrl(groupKey),
                 language: session.language, // Keep language sample
                 original_language: session.original_language || '',
                 dates: {} // Grouped showtimes by date
@@ -477,20 +501,20 @@ function renderMovieView() {
         }
 
         const dateStr = session.date;
-        if (!moviesGrouped[movieTitle].dates[dateStr]) {
-            moviesGrouped[movieTitle].dates[dateStr] = {}; // Grouped by cinema on this date
+        if (!moviesGrouped[groupKey].dates[dateStr]) {
+            moviesGrouped[groupKey].dates[dateStr] = {}; // Grouped by cinema on this date
         }
 
         const cinemaName = session.cinema;
-        if (!moviesGrouped[movieTitle].dates[dateStr][cinemaName]) {
-            moviesGrouped[movieTitle].dates[dateStr][cinemaName] = {
+        if (!moviesGrouped[groupKey].dates[dateStr][cinemaName]) {
+            moviesGrouped[groupKey].dates[dateStr][cinemaName] = {
                 showtimes: [],
                 booking_url: session.booking_url
             };
         }
 
-        if (!moviesGrouped[movieTitle].dates[dateStr][cinemaName].showtimes.includes(session.time)) {
-            moviesGrouped[movieTitle].dates[dateStr][cinemaName].showtimes.push(session.time);
+        if (!moviesGrouped[groupKey].dates[dateStr][cinemaName].showtimes.includes(session.time)) {
+            moviesGrouped[groupKey].dates[dateStr][cinemaName].showtimes.push(session.time);
         }
     });
 
@@ -775,6 +799,14 @@ function formatDateString(dateStr) {
 }
 
 // Fallback poster based on movie name keyword to make the UI look rich even if posters fail
+function normalizeTitle(t) {
+    if (!t) return "";
+    return t.toLowerCase()
+            .normalize("NFD")
+            .replace(/[̀-ͯ]/g, "")
+            .replace(/[^a-z0-9]/g, "");
+}
+
 function getPosterFallbackUrl(movieTitle) {
     if (movieTitle.includes("revelación") || movieTitle.includes("revelaci")) {
         return "https://eu-static.yelmocines.es/content/img/movies/posters/6825/1/1/6825.jpg";
