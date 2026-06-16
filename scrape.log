@@ -1,20 +1,25 @@
-Starting Scraper - Local time is 2026-06-17 00:49:44 CEST
+Starting Scraper - Local time is 2026-06-17 00:55:05 CEST
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
   Fetching Yelmo madrid...
 Yelmo scraped: found 1167 VOSE sessions.
 Scraping Cine Albéniz...
+Error fetching Albéniz for 2026-06-17: HTTPSConnectionPool(host='cinealbeniz.com', port=443): Read timed out. (read timeout=15)
 Stopping Cine Albéniz scrape after 5 consecutive empty days.
-Cine Albéniz scraped: found 106 VOSE sessions.
+Cine Albéniz scraped: found 99 VOSE sessions.
 Scraping Kinépolis Granada & Nevada...
 Kinépolis Granada & Nevada: Scraped 442 VOSE sessions.
 Scraping Megarama Granada...
+Error scraping Megarama for date 2026-06-17: HTTPConnectionPool(host='granada.megarama.es', port=80): Max retries exceeded with url: /ES/ajax/cine/megarama.horaires?semaineSel=2026-06-12&jourSel=2026-06-17 (Caused by NameResolutionError("HTTPConnection(host='granada.megarama.es', port=80): Failed to resolve 'granada.megarama.es' ([Errno -3] Temporary failure in name resolution)"))
+Error scraping Megarama for date 2026-06-18: HTTPConnectionPool(host='granada.megarama.es', port=80): Max retries exceeded with url: /ES/ajax/cine/megarama.horaires?semaineSel=2026-06-12&jourSel=2026-06-18 (Caused by NameResolutionError("HTTPConnection(host='granada.megarama.es', port=80): Failed to resolve 'granada.megarama.es' ([Errno -3] Temporary failure in name resolution)"))
 Megarama Granada: Scraped 0 sessions.
 Scraping Cines Renoir...
-Cines Renoir: Scraped 424 VOSE sessions.
+Error scraping Cines Renoir Cines Renoir Princesa for date 2026-06-19: HTTPSConnectionPool(host='www.cinesrenoir.com', port=443): Read timed out. (read timeout=15)
+Error scraping Cines Renoir Cines Renoir Plaza de España for date 2026-06-21: HTTPSConnectionPool(host='www.cinesrenoir.com', port=443): Read timed out. (read timeout=15)
+Cines Renoir: Scraped 383 VOSE sessions.
 Scraping Cines Golem...
 Cines Golem Madrid: Scraped 74 VOSE sessions.
-Loaded 0 Cinesa showtimes from cache.
+Loaded 1075 Cinesa showtimes from cache.
 Scraping Ocine Serrallo...
 Ocine Serrallo: Scraped 4 sessions.
 Scraping mk2 Cinesur...
@@ -22,8 +27,8 @@ Scraping mk2 Cinesur...
   mk2 Cinesur El Ingenio: found 26 sessions.
   mk2 Cinesur Málaga Nostrum: found 34 sessions.
 mk2 Cinesur scraped: found 163 VOSE sessions.
-Successfully generated api/v1/showtimes.json with 2380 listings.
-No new showings found.
+Successfully generated api/v1/showtimes.json with 3407 listings.
+Appended 1075 new showings to new_showtimes.json
 
 Resolving missing movie title translations...
 Found 5 movies without original names.
@@ -45,3 +50,8 @@ Searching for: 'Sia 2016 Coachella'
   -> Could not resolve original name for 'Sia 2016 Coachella'
 
 No translations were updated.
+
+=== Cinesa Scraper Logs (Portugal VPN) ===
+Scraping Cinesa Madrid...
+Cinesa: Found 34 business dates with showtimes: ['2026-06-17', '2026-06-18', '2026-06-19', '2026-06-20', '2026-06-21', '2026-06-22', '2026-06-23', '2026-06-24', '2026-06-25', '2026-06-26', '2026-06-27', '2026-06-28', '2026-06-29', '2026-07-01', '2026-07-02', '2026-07-03', '2026-07-04', '2026-07-05', '2026-07-16', '2026-07-17', '2026-07-18', '2026-07-19', '2026-07-20', '2026-07-21', '2026-07-22', '2026-07-23', '2026-07-24', '2026-07-25', '2026-07-26', '2026-07-27', '2026-07-28', '2026-08-29', '2026-08-30', '2026-09-06']
+Cinesa Madrid: Scraped 1075 VOSE sessions.
