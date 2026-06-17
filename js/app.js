@@ -360,7 +360,6 @@ function renderDayView() {
                 original_title: STATE.normTranslations[normTitle] || '',
                 language: session.language,
                 original_language: session.original_language || '',
-                image: session.image || getPosterFallbackUrl(movieTitle),
                 cinemas: {}
             };
         }
@@ -419,9 +418,6 @@ function renderDayView() {
         });
 
         cardElement.innerHTML = `
-            <div class="poster-container">
-                <img class="movie-poster" src="${cardData.image}" alt="${cardData.movie} Poster" loading="lazy" onerror="this.src='data:image/svg+xml;charset=utf-8,%3Csvg xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27 width%3D%27200%27 height%3D%27300%27 viewBox%3D%270 0 200 300%27%3E%3Crect width%3D%27100%25%27 height%3D%27100%25%27 fill%3D%27%25231e293b%27%2F%3E%3Ctext x%3D%2750%25%27 y%3D%2750%25%27 dominant-baseline%3D%27middle%27 text-anchor%3D%27middle%27 fill%3D%27%252364748b%27 font-family%3D%27Outfit%27 font-size%3D%2714%27%3ENo Image%3C%2Ftext%3E%3C%2Fsvg%3E'">
-            </div>
             <div class="card-content">
                 <h2 class="movie-title">${cardData.movie}</h2>
                 ${cardData.original_title ? `<div class="movie-original-title">${cardData.original_title}</div>` : ''}
@@ -494,7 +490,6 @@ function renderMovieView() {
             moviesGrouped[groupKey] = {
                 title: groupKey,
                 original_title: STATE.normTranslations[normTitle] || '',
-                image: session.image || getPosterFallbackUrl(groupKey),
                 language: session.language, // Keep language sample
                 original_language: session.original_language || '',
                 dates: {} // Grouped showtimes by date
@@ -574,9 +569,6 @@ function renderMovieView() {
         });
 
         cardElement.innerHTML = `
-            <div class="poster-container">
-                <img class="movie-poster" src="${movieData.image}" alt="${movieData.title} Poster" loading="lazy" onerror="this.src='data:image/svg+xml;charset=utf-8,%3Csvg xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27 width%3D%27200%27 height%3D%27300%27 viewBox%3D%270 0 200 300%27%3E%3Crect width%3D%27100%25%27 height%3D%27100%25%27 fill%3D%27%25231e293b%27%2F%3E%3Ctext x%3D%2750%25%27 y%3D%2750%25%27 dominant-baseline%3D%27middle%27 text-anchor%3D%27middle%27 fill%3D%27%252364748b%27 font-family%3D%27Outfit%27 font-size%3D%2714%27%3ENo Image%3C%2Ftext%3E%3C%2Fsvg%3E'">
-            </div>
             <div class="card-content">
                 <h2 class="movie-title">${movieData.title}</h2>
                 ${movieData.original_title ? `<div class="movie-original-title">${movieData.original_title}</div>` : ''}
@@ -845,36 +837,13 @@ function formatDateString(dateStr) {
     return `${dayName}, ${monthName} ${dayNum}`;
 }
 
-// Fallback poster based on movie name keyword to make the UI look rich even if posters fail
+// Helper to normalize movie titles
 function normalizeTitle(t) {
     if (!t) return "";
     return t.toLowerCase()
             .normalize("NFD")
             .replace(/[̀-ͯ]/g, "")
             .replace(/[^a-z0-9]/g, "");
-}
-
-function getPosterFallbackUrl(movieTitle) {
-    if (movieTitle.includes("revelación") || movieTitle.includes("revelaci")) {
-        return "https://eu-static.yelmocines.es/content/img/movies/posters/6825/1/1/6825.jpg";
-    }
-    if (movieTitle.includes("Toy Story")) {
-        return "https://eu-static.yelmocines.es/content/img/movies/posters/6767/1/1/6767.jpg";
-    }
-    if (movieTitle.includes("Obsession")) {
-        return "https://eu-static.yelmocines.es/content/img/movies/posters/7102/1/1/7102.jpg";
-    }
-    if (movieTitle.includes("Supergirl")) {
-        return "https://eu-static.yelmocines.es/content/img/movies/posters/7138/1/1/7138.jpg";
-    }
-    if (movieTitle.includes("Backrooms")) {
-        return "https://eu-static.yelmocines.es/content/img/movies/posters/7089/1/1/7089.jpg";
-    }
-    if (movieTitle.includes("Scary Movie")) {
-        return "https://eu-static.yelmocines.es/content/img/movies/posters/7080/1/1/7080.jpg";
-    }
-    
-    return "";
 }
 
 function updateLanguageChips() {
