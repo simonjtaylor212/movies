@@ -800,7 +800,7 @@ function getCityFromCinema(cinemaName) {
     
     // Yelmo is in Málaga, Madrid, and Barcelona
     if (name.includes('yelmo')) {
-        const madridYelmos = ['ideal', 'la vaguada', 'islazul', 'palafox luxury', 'premium parque corridor', 'plaza norte 2', 'planetocio', 'plenilunio', 'rivas h2o', 'tresaguas'];
+        const madridYelmos = ['ideal', 'la vaguada', 'islazul', 'palafox luxury', 'premium parque corredor', 'plaza norte 2', 'planetocio', 'plenilunio', 'rivas h2o', 'tresaguas'];
         const barcelonaYelmos = ['castelldefels', 'abrera', 'baricentro', 'maquinista', 'sant cugat'];
         if (madridYelmos.some(y => name.includes(y))) {
             return 'madrid';
