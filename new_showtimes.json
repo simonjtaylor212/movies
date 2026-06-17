@@ -100540,5 +100540,31 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-06-17 06:02:58"
+  },
+  {
+    "cinema": "Cine Yelmo La Vaguada",
+    "date": "2026-06-17",
+    "movie": "El Día de la Revelación",
+    "format": "2D",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "12:05",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1360&showtimeVistaId=17428",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-06-17 12:55:10"
+  },
+  {
+    "cinema": "Kinépolis Madrid Ciudad de la Imagen",
+    "date": "2026-06-25",
+    "movie": "Masters del Universo",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "21:30",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/214148/0/KMAD/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-06-17 12:55:10"
   }
 ]

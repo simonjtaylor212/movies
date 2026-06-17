@@ -9180,15 +9180,15 @@
   {
     "cinema": "Cine Yelmo La Vaguada",
     "date": "2026-06-17",
-    "movie": "Toy Story 5",
+    "movie": "El Día de la Revelación",
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "original_language": "English",
-    "time": "13:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1360&showtimeVistaId=17219",
+    "time": "12:05",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1360&showtimeVistaId=17428",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-06-17 00:00:28"
+    "date_added": "2026-06-17 12:55:10"
   },
   {
     "cinema": "Cine Yelmo La Vaguada",
@@ -24637,19 +24637,6 @@
   {
     "cinema": "Kinépolis Madrid Ciudad de la Imagen",
     "date": "2026-06-25",
-    "movie": "Masters del Universo",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "21:15",
-    "booking_url": "https://kinepolis.es/direct-vista-redirect/213998/0/KMAD/0",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-17 00:00:28"
-  },
-  {
-    "cinema": "Kinépolis Madrid Ciudad de la Imagen",
-    "date": "2026-06-25",
     "movie": "El Día de la Revelación",
     "format": "2D",
     "language": "V.O.S.E.",
@@ -24698,6 +24685,19 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-06-17 00:00:28"
+  },
+  {
+    "cinema": "Kinépolis Madrid Ciudad de la Imagen",
+    "date": "2026-06-25",
+    "movie": "Masters del Universo",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "21:30",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/214148/0/KMAD/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-06-17 12:55:10"
   },
   {
     "cinema": "Kinépolis Granada Nevada",
@@ -40107,12 +40107,12 @@
   {
     "cinema": "Cinesa LUXE Equinoccio",
     "date": "2026-06-21",
-    "movie": "El Día de la Revelación",
+    "movie": "The Mandalorian and Grogu",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "",
     "time": "12:20",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=026-61574",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=026-61567",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-06-17 02:11:51"
@@ -40120,12 +40120,12 @@
   {
     "cinema": "Cinesa LUXE Equinoccio",
     "date": "2026-06-21",
-    "movie": "The Mandalorian and Grogu",
+    "movie": "El Día de la Revelación",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "",
     "time": "12:20",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=026-61567",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=026-61574",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-06-17 02:11:51"
