@@ -73,7 +73,7 @@ def scrape_yelmo():
     
     sessions = []
     
-    for city in ["malaga", "madrid"]:
+    for city in ["malaga", "madrid", "barcelona"]:
         print(f"  Fetching Yelmo {city}...")
         payload = {"cityKey": city}
         

@@ -8,7 +8,8 @@ headers = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 }
 
-MADRID_CINEMAS = {
+CINESA_CINEMAS = {
+    # Madrid
     "001": "Cinesa LUXE Loranca",
     "005": "Cinesa Parquesur",
     "015": "Cinesa Las Rosas",
@@ -22,7 +23,14 @@ MADRID_CINEMAS = {
     "123": "Cinesa Méndez Álvaro",
     "124": "Cinesa Manoteras",
     "125": "Cinesa Nassica",
-    "138": "Cinesa LUXE Oasiz"
+    "138": "Cinesa LUXE Oasiz",
+    # Barcelona
+    "010": "Cinesa LUXE La Farga",
+    "012": "Cinesa Diagonal",
+    "017": "Cinesa SOM Multiespai",
+    "031": "Cinesa LUXE Parc Vallès",
+    "032": "Cinesa Diagonal Mar",
+    "040": "Cinesa LUXE Barnasud",
 }
 
 def get_token():
@@ -47,7 +55,7 @@ def get_token():
     return None
 
 def scrape_cinesa():
-    print("Scraping Cinesa Madrid...")
+    print("Scraping Cinesa (Madrid & Barcelona)...")
     token = get_token()
     if not token:
         print("Error: Could not retrieve Cinesa authentication token.")
@@ -60,7 +68,7 @@ def scrape_cinesa():
         "Referer": "https://www.cinesa.es/"
     }
     
-    site_ids = list(MADRID_CINEMAS.keys())
+    site_ids = list(CINESA_CINEMAS.keys())
     site_ids_query = "&".join([f"siteIds={sid}" for sid in site_ids])
     
     # 1. Fetch available business dates
@@ -150,7 +158,7 @@ def scrape_cinesa():
             movie_title = films_map.get(film_id, "Unknown Movie")
             
             site_id = st.get("siteId")
-            cinema_name = MADRID_CINEMAS.get(site_id, "Cinesa")
+            cinema_name = CINESA_CINEMAS.get(site_id, "Cinesa")
             
             # Map format
             fmt = "2D"
@@ -201,7 +209,7 @@ def scrape_cinesa():
             seen.add(key)
             unique_sessions.append(s)
             
-    print(f"Cinesa Madrid: Scraped {len(unique_sessions)} VOSE sessions.")
+    print(f"Cinesa (Madrid & Barcelona): Scraped {len(unique_sessions)} VOSE sessions.")
     return unique_sessions
 
 if __name__ == "__main__":

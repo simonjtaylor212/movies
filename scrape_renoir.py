@@ -19,7 +19,8 @@ def scrape_renoir():
     theatres = [
         ("renoir-plaza-de-espana", "Cines Renoir Plaza de España"),
         ("cines-princesa", "Cines Renoir Princesa"),
-        ("renoir-retiro", "Cines Renoir Retiro")
+        ("renoir-retiro", "Cines Renoir Retiro"),
+        ("renoir-floridablanca", "Cines Renoir Floridablanca")
     ]
     
     headers = {

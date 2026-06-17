@@ -12,7 +12,7 @@ const STATE = {
     allShowtimes: [],
     translations: {},
     selectedDateStr: '', // Format YYYY-MM-DD
-    selectedCity: 'all', // 'all', 'malaga', 'granada'
+    selectedCity: 'madrid', // 'malaga', 'granada', 'madrid', 'barcelona'
     selectedChain: 'all', // 'all', 'yelmo', 'cinesur', 'albeniz', 'kinepolis', 'megarama', 'ocine', 'renoir', 'golem', 'custom'
     selectedCinemas: [], // Array of selected cinema names. Empty means all.
     selectedLanguages: [], // Array of selected language names. Empty means all.
@@ -31,6 +31,15 @@ const WEEKDAY_NAMES = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 
 // --- INITIALIZATION ---
 document.addEventListener('DOMContentLoaded', () => {
+    // Determine target city
+    const urlCity = getCityFromURL();
+    if (urlCity) {
+        STATE.selectedCity = urlCity;
+    } else {
+        STATE.selectedCity = 'madrid';
+        updateURLCity(STATE.selectedCity);
+        detectClosestCity();
+    }
     generateDateSelector();
     initFilters();
     loadShowtimes();
@@ -166,6 +175,9 @@ function initFilters() {
         renderShowtimes();
     });
     
+    // Set active city chip based on state on load
+    updateActiveCityChip();
+
     // City Chips
     const cityChips = document.querySelectorAll('#cityChips .chip');
     cityChips.forEach(chip => {
@@ -173,6 +185,11 @@ function initFilters() {
             cityChips.forEach(c => c.classList.remove('active'));
             chip.classList.add('active');
             STATE.selectedCity = chip.getAttribute('data-city');
+            
+            // Push history state to URL
+            const url = new URL(window.location);
+            url.searchParams.set('city', STATE.selectedCity);
+            window.history.pushState({}, '', url);
             
             // When switching city, reset chain/cinema selection to prevent impossible filter states
             STATE.selectedChain = 'all';
@@ -759,6 +776,7 @@ function getDisplayChain(chainClass) {
 function getChainFromCinema(cinemaName) {
     const name = cinemaName.toLowerCase();
     if (name.includes('yelmo')) return 'yelmo';
+    if (name.includes('cinesa')) return 'cinesa';
     if (name.includes('cinesur')) return 'cinesur';
     if (name.includes('albéniz') || name.includes('albeniz')) return 'albeniz';
     if (name.includes('kinepolis') || name.includes('kinépolis')) return 'kinepolis';
@@ -772,8 +790,21 @@ function getChainFromCinema(cinemaName) {
 function getCityFromCinema(cinemaName) {
     const name = cinemaName.toLowerCase();
     
-    // Golem, Renoir & Cinesa are Madrid
-    if (name.includes('golem') || name.includes('renoir') || name.includes('cinesa')) {
+    // Renoir Floridablanca is Barcelona
+    if (name.includes('floridablanca')) {
+        return 'barcelona';
+    }
+    
+    // Golem and remaining Renoir are Madrid
+    if (name.includes('golem') || name.includes('renoir')) {
+        return 'madrid';
+    }
+    
+    // Cinesa is in Madrid and Barcelona
+    if (name.includes('cinesa')) {
+        if (name.includes('la farga') || name.includes('diagonal') || name.includes('som multiespai') || name.includes('parc vallès') || name.includes('parc valles') || name.includes('barnasud')) {
+            return 'barcelona';
+        }
         return 'madrid';
     }
     
@@ -785,11 +816,15 @@ function getCityFromCinema(cinemaName) {
         return 'granada';
     }
     
-    // Yelmo is in Málaga and Madrid
+    // Yelmo is in Málaga, Madrid, and Barcelona
     if (name.includes('yelmo')) {
-        const madridYelmos = ['ideal', 'la vaguada', 'islazul', 'palafox luxury', 'premium parque corredor', 'plaza norte 2', 'planetocio', 'plenilunio', 'rivas h2o', 'tresaguas'];
+        const madridYelmos = ['ideal', 'la vaguada', 'islazul', 'palafox luxury', 'premium parque corridor', 'plaza norte 2', 'planetocio', 'plenilunio', 'rivas h2o', 'tresaguas'];
+        const barcelonaYelmos = ['castelldefels', 'abrera', 'baricentro', 'maquinista', 'sant cugat'];
         if (madridYelmos.some(y => name.includes(y))) {
             return 'madrid';
+        }
+        if (barcelonaYelmos.some(y => name.includes(y))) {
+            return 'barcelona';
         }
         return 'malaga';
     }
@@ -895,4 +930,106 @@ function updateLanguageChips() {
         });
         container.appendChild(chip);
     });
+}
+
+// --- CITY ROUTING & GEOLOCATION ---
+const VALID_CITIES = ['malaga', 'granada', 'madrid', 'barcelona'];
+
+function getCityFromURL() {
+    const params = new URLSearchParams(window.location.search);
+    const city = params.get('city');
+    if (city && VALID_CITIES.includes(city.toLowerCase())) {
+        return city.toLowerCase();
+    }
+    return null;
+}
+
+function updateURLCity(city) {
+    const url = new URL(window.location);
+    if (url.searchParams.get('city') !== city) {
+        url.searchParams.set('city', city);
+        window.history.replaceState({}, '', url);
+    }
+}
+
+function updateActiveCityChip() {
+    const cityChips = document.querySelectorAll('#cityChips .chip');
+    cityChips.forEach(chip => {
+        if (chip.getAttribute('data-city') === STATE.selectedCity) {
+            chip.classList.add('active');
+        } else {
+            chip.classList.remove('active');
+        }
+    });
+}
+
+const CITY_COORDS = {
+    malaga: { lat: 36.7212, lon: -4.4214 },
+    granada: { lat: 37.1773, lon: -3.5986 },
+    madrid: { lat: 40.4168, lon: -3.7037 },
+    barcelona: { lat: 41.3851, lon: 2.1734 }
+};
+
+function getDistance(lat1, lon1, lat2, lon2) {
+    const R = 6371; // Earth's radius in km
+    const dLat = (lat2 - lat1) * Math.PI / 180;
+    const dLon = (lon2 - lon1) * Math.PI / 180;
+    const a = 
+        Math.sin(dLat/2) * Math.sin(dLat/2) +
+        Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) * 
+        Math.sin(dLon/2) * Math.sin(dLon/2);
+    const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+    return R * c;
+}
+
+function findClosestCity(lat, lon) {
+    let closest = 'madrid';
+    let minDist = Infinity;
+    for (const [city, coords] of Object.entries(CITY_COORDS)) {
+        const dist = getDistance(lat, lon, coords.lat, coords.lon);
+        if (dist < minDist) {
+            minDist = dist;
+            closest = city;
+        }
+    }
+    return closest;
+}
+
+async function detectClosestCity() {
+    // 1. IP Geolocation (automatic, no permission prompt)
+    try {
+        const res = await fetch('https://ipapi.co/json/');
+        if (res.ok) {
+            const data = await res.json();
+            if (data.latitude && data.longitude) {
+                const closest = findClosestCity(data.latitude, data.longitude);
+                if (closest && closest !== STATE.selectedCity) {
+                    STATE.selectedCity = closest;
+                    updateURLCity(closest);
+                    updateActiveCityChip();
+                    renderShowtimes();
+                }
+                return;
+            }
+        }
+    } catch (e) {
+        console.warn('IP Geolocation failed:', e);
+    }
+
+    // 2. Browser Geolocation (fallback, requests permission)
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition((position) => {
+            const lat = position.coords.latitude;
+            const lon = position.coords.longitude;
+            const closest = findClosestCity(lat, lon);
+            if (closest && closest !== STATE.selectedCity) {
+                STATE.selectedCity = closest;
+                updateURLCity(closest);
+                updateActiveCityChip();
+                renderShowtimes();
+            }
+        }, (err) => {
+            console.warn('Browser Geolocation error:', err);
+        });
+    }
 }
