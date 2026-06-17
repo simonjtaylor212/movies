@@ -107,5 +107,6 @@ jobs:
           echo "No changes detected, skipping commit."
         else
           git commit -m "auto: update VOSE showtimes database and logs"
+          git pull --rebase -X theirs origin main
           git push origin main
         fi
