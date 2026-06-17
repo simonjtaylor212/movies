@@ -1,9 +1,9 @@
-Starting Scraper - Local time is 2026-06-17 17:29:10 CEST
+Starting Scraper - Local time is 2026-06-17 18:05:16 CEST
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
   Fetching Yelmo madrid...
   Fetching Yelmo barcelona...
-Yelmo scraped: found 1422 VOSE sessions.
+Yelmo scraped: found 1420 VOSE sessions.
 Scraping Cine Albéniz...
 Stopping Cine Albéniz scrape after 5 consecutive empty days.
 Cine Albéniz scraped: found 106 VOSE sessions.
@@ -15,20 +15,19 @@ Scraping Cines Renoir...
 Cines Renoir: Scraped 581 VOSE sessions.
 Scraping Cines Golem...
 Cines Golem Madrid: Scraped 72 VOSE sessions.
-Loaded 1711 Cinesa showtimes from cache.
+Loaded 1703 Cinesa showtimes from cache.
 Scraping Ocine Serrallo...
 Ocine Serrallo: Scraped 6 sessions.
 Scraping mk2 Cinesur...
-  mk2 Cinesur Miramar: found 124 sessions.
+  mk2 Cinesur Miramar: found 123 sessions.
   mk2 Cinesur El Ingenio: found 26 sessions.
   mk2 Cinesur Málaga Nostrum: found 60 sessions.
-mk2 Cinesur scraped: found 210 VOSE sessions.
-Updated movie_title_translations.json
-Successfully generated api/v1/showtimes.json with 4625 listings.
-Appended 557 new showings to new_showtimes.json
+mk2 Cinesur scraped: found 209 VOSE sessions.
+Successfully generated api/v1/showtimes.json with 4614 listings.
+No new showings found.
 
 Resolving missing movie title translations...
-Found 7 movies without original names.
+Found 5 movies without original names.
 No TMDB_API_KEY detected. Using keyless TMDB scraper and Wikidata fallbacks.
 
 Searching for: '20 Años del MET en cines - Grabado MET 26-27'
@@ -46,15 +45,9 @@ Searching for: 'MALAS CALLES [WILDER CINEMA]'
 Searching for: 'Sia 2016 Coachella'
   -> Could not resolve original name for 'Sia 2016 Coachella'
 
-Searching for: 'Spider-Man: Brand New Day'
-  -> Found via TMDB Web: 'Spider-Man: Brand New Day'
-
-Searching for: 'Spider-man: Bran New Day'
-  -> Found via TMDB Web: 'Spider-Man: Brand New Day'
-
-Successfully updated 2 translation(s) in movie_title_translations.json.
+No translations were updated.
 
 === Cinesa Scraper Logs (Portugal VPN) ===
 Scraping Cinesa (Madrid & Barcelona)...
 Cinesa: Found 43 business dates with showtimes: ['2026-06-17', '2026-06-18', '2026-06-19', '2026-06-20', '2026-06-21', '2026-06-22', '2026-06-23', '2026-06-24', '2026-06-25', '2026-06-26', '2026-06-27', '2026-06-28', '2026-06-29', '2026-07-01', '2026-07-02', '2026-07-03', '2026-07-04', '2026-07-05', '2026-07-16', '2026-07-17', '2026-07-18', '2026-07-19', '2026-07-20', '2026-07-21', '2026-07-22', '2026-07-23', '2026-07-24', '2026-07-25', '2026-07-26', '2026-07-27', '2026-07-28', '2026-07-29', '2026-07-30', '2026-07-31', '2026-08-01', '2026-08-02', '2026-08-03', '2026-08-04', '2026-08-05', '2026-08-06', '2026-08-29', '2026-08-30', '2026-09-06']
-Cinesa (Madrid & Barcelona): Scraped 1711 VOSE sessions.
+Cinesa (Madrid & Barcelona): Scraped 1703 VOSE sessions.
