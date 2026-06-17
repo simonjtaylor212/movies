@@ -182,26 +182,8 @@ function initFilters() {
     const cityChips = document.querySelectorAll('#cityChips .chip');
     cityChips.forEach(chip => {
         chip.addEventListener('click', () => {
-            cityChips.forEach(c => c.classList.remove('active'));
-            chip.classList.add('active');
-            STATE.selectedCity = chip.getAttribute('data-city');
-            
-            // Push history state to URL
-            const url = new URL(window.location);
-            url.searchParams.set('city', STATE.selectedCity);
-            window.history.pushState({}, '', url);
-            
-            // When switching city, reset chain/cinema selection to prevent impossible filter states
-            STATE.selectedChain = 'all';
-            STATE.selectedCinemas = [];
-            const chainChips = document.querySelectorAll('#cinemaChips .chip');
-            chainChips.forEach(c => c.classList.remove('active'));
-            document.getElementById('chipAll').classList.add('active');
-            
-            updateCinemaChainChips();
-            updateCinemaSubChips();
-            updateLanguageChips();
-            renderShowtimes();
+            const city = chip.getAttribute('data-city');
+            selectCity(city, true);
         });
     });
 
@@ -952,6 +934,38 @@ function updateURLCity(city) {
     }
 }
 
+function selectCity(city, pushToHistory = false) {
+    STATE.selectedCity = city;
+    
+    // Update URL query parameters
+    const url = new URL(window.location);
+    if (url.searchParams.get('city') !== city) {
+        url.searchParams.set('city', city);
+        if (pushToHistory) {
+            window.history.pushState({}, '', url);
+        } else {
+            window.history.replaceState({}, '', url);
+        }
+    }
+
+    // Update active city chip styling
+    updateActiveCityChip();
+
+    // Reset chains/cinemas to prevent invalid states
+    STATE.selectedChain = 'all';
+    STATE.selectedCinemas = [];
+    const chainChips = document.querySelectorAll('#cinemaChips .chip');
+    chainChips.forEach(c => c.classList.remove('active'));
+    const chipAll = document.getElementById('chipAll');
+    if (chipAll) chipAll.classList.add('active');
+    
+    // Re-initialize sub-filters based on the new city
+    updateCinemaChainChips();
+    updateCinemaSubChips();
+    updateLanguageChips();
+    renderShowtimes();
+}
+
 function updateActiveCityChip() {
     const cityChips = document.querySelectorAll('#cityChips .chip');
     cityChips.forEach(chip => {
@@ -1004,10 +1018,7 @@ async function detectClosestCity() {
             if (data.latitude && data.longitude) {
                 const closest = findClosestCity(data.latitude, data.longitude);
                 if (closest && closest !== STATE.selectedCity) {
-                    STATE.selectedCity = closest;
-                    updateURLCity(closest);
-                    updateActiveCityChip();
-                    renderShowtimes();
+                    selectCity(closest, false);
                 }
                 return;
             }
@@ -1023,10 +1034,7 @@ async function detectClosestCity() {
             const lon = position.coords.longitude;
             const closest = findClosestCity(lat, lon);
             if (closest && closest !== STATE.selectedCity) {
-                STATE.selectedCity = closest;
-                updateURLCity(closest);
-                updateActiveCityChip();
-                renderShowtimes();
+                selectCity(closest, false);
             }
         }, (err) => {
             console.warn('Browser Geolocation error:', err);
