@@ -1,47 +1,41 @@
-Starting Scraper - Local time is 2026-06-18 17:28:17 CEST
+Starting Scraper - Local time is 2026-06-18 22:33:45 CEST
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
   Fetching Yelmo madrid...
   Fetching Yelmo barcelona...
-Yelmo scraped: found 1387 VOSE sessions.
+Yelmo scraped: found 1362 VOSE sessions.
 Scraping Cine Albéniz...
 Stopping Cine Albéniz scrape after 5 consecutive empty days.
 Cine Albéniz scraped: found 99 VOSE sessions.
 Scraping Kinépolis Granada & Nevada...
-Kinépolis Granada & Nevada: Scraped 503 VOSE sessions.
+Kinépolis Granada & Nevada: Scraped 489 VOSE sessions.
 Scraping Megarama Granada...
 Megarama Granada: Scraped 0 sessions.
 Scraping Cines Renoir...
 Cines Renoir: Scraped 583 VOSE sessions.
 Scraping Cines Golem...
-Cines Golem Madrid: Scraped 75 VOSE sessions.
-Loaded 1662 Cinesa showtimes from cache.
+Cines Golem Madrid: Scraped 70 VOSE sessions.
+Loaded 1598 Cinesa showtimes from cache.
 Scraping Ocine Serrallo...
 Ocine Serrallo: Scraped 5 sessions.
 Scraping mk2 Cinesur...
-  mk2 Cinesur Miramar: found 118 sessions.
+  mk2 Cinesur Miramar: found 112 sessions.
   mk2 Cinesur El Ingenio: found 33 sessions.
-  mk2 Cinesur Málaga Nostrum: found 57 sessions.
-mk2 Cinesur scraped: found 208 VOSE sessions.
+  mk2 Cinesur Málaga Nostrum: found 56 sessions.
+mk2 Cinesur scraped: found 201 VOSE sessions.
 Updated movie_title_translations.json
-Successfully generated api/v1/showtimes.json with 4522 listings.
-Appended 82 new showings to new_showtimes.json
+Successfully generated api/v1/showtimes.json with 4407 listings.
+Appended 25 new showings to new_showtimes.json
 
 Resolving missing movie title translations...
-Found 13 movies without original names.
+Found 8 movies without original names.
 No TMDB_API_KEY detected. Using keyless TMDB scraper and Wikidata fallbacks.
 
 Searching for: '20 Años del MET en cines - Grabado MET 26-27'
   -> Could not resolve original name for '20 Años del MET en cines - Grabado MET 26-27'
 
-Searching for: 'Aida'
-  -> Found via Wikidata: 'Aida'
-
-Searching for: 'Andrea Chénier'
-  -> Found via TMDB Web: 'Andrea Chénier'
-
-Searching for: 'Carmen'
-  -> Found via Wikidata: 'Carmen'
+Searching for: 'Akira (re)'
+  -> Found via TMDB Web: 'AKIRA'
 
 Searching for: 'LA MUERTE DE ROBIN HOOD [WILDER CINEMA]'
   -> Could not resolve original name for 'LA MUERTE DE ROBIN HOOD [WILDER CINEMA]'
@@ -55,24 +49,15 @@ Searching for: 'LAWRENCE DE ARABIA [WILDER CINEMA]'
 Searching for: 'MALAS CALLES [WILDER CINEMA]'
   -> Could not resolve original name for 'MALAS CALLES [WILDER CINEMA]'
 
-Searching for: 'Nabucco'
-  -> Found via TMDB Web: 'Nabucco'
-
-Searching for: 'Otello'
-  -> Found via TMDB Web: 'Otello'
-
 Searching for: 'Sia 2016 Coachella'
   -> Could not resolve original name for 'Sia 2016 Coachella'
-
-Searching for: 'Tosca'
-  -> Found via TMDB Web: 'La Tosca'
 
 Searching for: 'VIAJE AL PAÍS DE LOS BLANCOS [PROYECTO VIRIDIANA]'
   -> Could not resolve original name for 'VIAJE AL PAÍS DE LOS BLANCOS [PROYECTO VIRIDIANA]'
 
-Successfully updated 6 translation(s) in movie_title_translations.json.
+Successfully updated 1 translation(s) in movie_title_translations.json.
 
 === Cinesa Scraper Logs (Portugal VPN) ===
 Scraping Cinesa (Madrid & Barcelona)...
 Cinesa: Found 42 business dates with showtimes: ['2026-06-18', '2026-06-19', '2026-06-20', '2026-06-21', '2026-06-22', '2026-06-23', '2026-06-24', '2026-06-25', '2026-06-26', '2026-06-27', '2026-06-28', '2026-06-29', '2026-07-01', '2026-07-02', '2026-07-03', '2026-07-04', '2026-07-05', '2026-07-16', '2026-07-17', '2026-07-18', '2026-07-19', '2026-07-20', '2026-07-21', '2026-07-22', '2026-07-23', '2026-07-24', '2026-07-25', '2026-07-26', '2026-07-27', '2026-07-28', '2026-07-29', '2026-07-30', '2026-07-31', '2026-08-01', '2026-08-02', '2026-08-03', '2026-08-04', '2026-08-05', '2026-08-06', '2026-08-29', '2026-08-30', '2026-09-06']
-Cinesa (Madrid & Barcelona): Scraped 1662 VOSE sessions.
+Cinesa (Madrid & Barcelona): Scraped 1598 VOSE sessions.
