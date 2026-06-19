@@ -149,6 +149,14 @@ def scrape_kinepolis():
                     original_lang = "Korean"
                 elif "RUSO" in lang_upper:
                     original_lang = "Russian"
+                elif "CHIN" in lang_upper:
+                    original_lang = "Chinese"
+                elif "PORT" in lang_upper:
+                    original_lang = "Portuguese"
+                elif "CATAL" in lang_upper:
+                    original_lang = "Catalan"
+                elif "ESPA" in lang_upper or "CAST" in lang_upper:
+                    original_lang = "Spanish"
                 
                 # Direct booking URL
                 session_id = s.get("vistaSessionId")
