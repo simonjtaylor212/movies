@@ -7,7 +7,7 @@ import re
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 def scrape_renoir():
-    from scrape_and_compile import get_spain_timezone
+    from scrape_and_compile import get_spain_timezone, get_language_name
     
     print("Scraping Cines Renoir...")
     sessions_list = []
@@ -27,8 +27,11 @@ def scrape_renoir():
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
     }
     
-    # Scrape today and next 7 days
-    for i in range(8):
+    # Cache to store language mapping for movies (movie_href -> mapped language name)
+    movie_languages = {}
+    
+    # Scrape today and next 9 days (10 days total)
+    for i in range(10):
         date_obj = now_local + timedelta(days=i)
         date_str = date_obj.strftime("%Y-%m-%d")
         
@@ -76,6 +79,31 @@ def scrape_renoir():
                     clean_title = re.sub(r'(?i)\(vose\)|\bVOSE\b', '', title).strip()
                     clean_title = re.sub(r'\s+', ' ', clean_title).strip(" -")
                     
+                    # Fetch original language from the movie page if not cached
+                    movie_href = title_el.get("href", "")
+                    original_lang = ""
+                    if movie_href:
+                        if movie_href not in movie_languages:
+                            movie_languages[movie_href] = ""
+                            try:
+                                movie_url = f"https://www.cinesrenoir.com{movie_href}"
+                                movie_resp = requests.get(movie_url, headers=headers, verify=False, timeout=10)
+                                if movie_resp.status_code == 200:
+                                    movie_resp.encoding = 'utf-8'
+                                    movie_soup = BeautifulSoup(movie_resp.text, "html.parser")
+                                    # find <p class="detalle-label">Idioma original</p>
+                                    label_el = movie_soup.find(class_="detalle-label", string=lambda s: s and "Idioma original" in s)
+                                    if not label_el:
+                                        label_el = movie_soup.find(class_="detalle-label", text=lambda t: t and "Idioma original" in t)
+                                    if label_el:
+                                        sibling_el = label_el.find_next_sibling("p")
+                                        if sibling_el:
+                                            raw_lang = sibling_el.text.strip()
+                                            movie_languages[movie_href] = get_language_name(raw_lang)
+                            except Exception as ex:
+                                print(f"Error fetching movie page {movie_href}: {ex}")
+                        original_lang = movie_languages[movie_href]
+                    
                     # Get showtimes
                     pases = block.select("div.pase-cartelera")
                     for pase in pases:
@@ -90,7 +118,7 @@ def scrape_renoir():
                                 "movie": clean_title,
                                 "format": "2D",
                                 "language": "V.O.S.E.",
-                                "original_language": "",  # to be filled by compiler cross-reference
+                                "original_language": original_lang,
                                 "time": time_str,
                                 "booking_url": booking_url,
                                 "projection_type": "Movie",
