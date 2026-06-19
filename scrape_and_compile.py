@@ -49,6 +49,8 @@ def get_language_name(lang_str):
         return "Chinese"
     elif "PORT" in lang_upper:
         return "Portuguese"
+    elif "CATAL" in lang_upper:
+        return "Catalan"
     elif "ESPA" in lang_upper or "CAST" in lang_upper:
         return "Spanish"
     return ""
