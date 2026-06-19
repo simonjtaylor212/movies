@@ -11,7 +11,8 @@ const CONFIG = {
 const STATE = {
     allShowtimes: [],
     translations: {},
-    selectedDateStr: '', // Format YYYY-MM-DD
+    selectedDates: [], // Array of strings (YYYY-MM-DD)
+    isFiltersExpanded: true,
     selectedCity: 'madrid', // 'malaga', 'granada', 'madrid', 'barcelona'
     selectedChain: 'all', // 'all', 'yelmo', 'cinesur', 'albeniz', 'kinepolis', 'megarama', 'ocine', 'renoir', 'golem', 'custom'
     selectedCinemas: [], // Array of selected cinema names. Empty means all.
@@ -25,7 +26,8 @@ const STORAGE_KEY = 'vose_spain_settings';
 
 function saveState() {
     const stateToSave = {
-        selectedDateStr: STATE.selectedDateStr,
+        selectedDates: STATE.selectedDates,
+        isFiltersExpanded: STATE.isFiltersExpanded,
         selectedCity: STATE.selectedCity,
         selectedChain: STATE.selectedChain,
         selectedCinemas: STATE.selectedCinemas,
@@ -42,7 +44,15 @@ function loadState() {
     if (!saved) return;
     try {
         const parsed = JSON.parse(saved);
-        if (parsed.selectedDateStr !== undefined) STATE.selectedDateStr = parsed.selectedDateStr;
+
+        // Migration from old single date to array
+        if (parsed.selectedDateStr !== undefined) {
+            STATE.selectedDates = [parsed.selectedDateStr];
+        } else if (parsed.selectedDates !== undefined) {
+            STATE.selectedDates = parsed.selectedDates;
+        }
+
+        if (parsed.isFiltersExpanded !== undefined) STATE.isFiltersExpanded = parsed.isFiltersExpanded;
         if (parsed.selectedCity !== undefined) STATE.selectedCity = parsed.selectedCity;
         if (parsed.selectedChain !== undefined) STATE.selectedChain = parsed.selectedChain;
         if (parsed.selectedCinemas !== undefined) STATE.selectedCinemas = parsed.selectedCinemas;
@@ -148,13 +158,17 @@ function generateDateSelector() {
         }
     }
 
-    // Determine target selected date
+    // Determine target selected dates
     if (uniqueDates.length > 0) {
-        if (!uniqueDates.includes(STATE.selectedDateStr)) {
-            STATE.selectedDateStr = uniqueDates[0];
+        // Remove any selected dates that are no longer in uniqueDates
+        STATE.selectedDates = STATE.selectedDates.filter(d => uniqueDates.includes(d));
+
+        // If no valid dates selected, default to the first available
+        if (STATE.selectedDates.length === 0) {
+            STATE.selectedDates = [uniqueDates[0]];
         }
     } else {
-        STATE.selectedDateStr = '';
+        STATE.selectedDates = [];
     }
 
     // Check if the rendered dates match uniqueDates to avoid rebuilding DOM and losing scroll position
@@ -167,7 +181,7 @@ function generateDateSelector() {
     if (datesMatch) {
         currentCards.forEach(card => {
             const cardDate = card.getAttribute('data-date');
-            if (cardDate === STATE.selectedDateStr) {
+            if (STATE.selectedDates.includes(cardDate)) {
                 card.classList.add('active');
             } else {
                 card.classList.remove('active');
@@ -182,7 +196,7 @@ function generateDateSelector() {
         const date = new Date(`${dateStr}T00:00:00Z`);
         
         const card = document.createElement('div');
-        const isActive = (STATE.selectedDateStr === dateStr);
+        const isActive = STATE.selectedDates.includes(dateStr);
         card.className = `date-card ${isActive ? 'active' : ''}`;
         card.setAttribute('data-date', dateStr);
         
@@ -197,9 +211,18 @@ function generateDateSelector() {
         `;
         
         card.addEventListener('click', () => {
-            document.querySelectorAll('.date-card').forEach(c => c.classList.remove('active'));
-            card.classList.add('active');
-            STATE.selectedDateStr = dateStr;
+            const index = STATE.selectedDates.indexOf(dateStr);
+            if (index > -1) {
+                // Already selected. If it's not the last one, remove it.
+                if (STATE.selectedDates.length > 1) {
+                    STATE.selectedDates.splice(index, 1);
+                    card.classList.remove('active');
+                }
+            } else {
+                // Not selected, add it.
+                STATE.selectedDates.push(dateStr);
+                card.classList.add('active');
+            }
             saveState();
             renderShowtimes();
         });
@@ -301,6 +324,76 @@ function initFilters() {
             renderShowtimes();
         });
     }
+
+    // Filter Toggle
+    const filterToggleBtn = document.getElementById('filterToggleBtn');
+    if (filterToggleBtn) {
+        filterToggleBtn.addEventListener('click', () => {
+            STATE.isFiltersExpanded = !STATE.isFiltersExpanded;
+            saveState();
+            updateFilterUI();
+        });
+    }
+
+    updateFilterUI();
+}
+
+function updateFilterUI() {
+    const toolbar = document.querySelector('.filter-toolbar');
+    if (!toolbar) return;
+
+    if (STATE.isFiltersExpanded) {
+        toolbar.classList.remove('collapsed');
+    } else {
+        toolbar.classList.add('collapsed');
+    }
+
+    updateFilterSummary();
+}
+
+function updateFilterSummary() {
+    const summaryContainer = document.getElementById('filterSummary');
+    if (!summaryContainer) return;
+
+    if (STATE.isFiltersExpanded) {
+        summaryContainer.innerHTML = '';
+        return;
+    }
+
+    const items = [];
+
+    // City
+    const cityName = STATE.selectedCity.charAt(0).toUpperCase() + STATE.selectedCity.slice(1);
+    items.push(`<span class="summary-item" data-target="city">${cityName}</span>`);
+
+    // Cinemas
+    if (STATE.selectedCinemas.length > 0) {
+        const text = STATE.selectedCinemas.length === 1
+            ? STATE.selectedCinemas[0].replace('Cine Yelmo ', '').replace('mk2 Cinesur ', '')
+            : `${STATE.selectedCinemas.length} cinemas`;
+        items.push(`<span class="summary-item" data-target="cinemas">${text}</span>`);
+    } else {
+        items.push(`<span class="summary-item" data-target="cinemas">All Cinemas</span>`);
+    }
+
+    // Languages
+    if (STATE.selectedLanguages.length > 0) {
+        const text = STATE.selectedLanguages.length === 1
+            ? STATE.selectedLanguages[0]
+            : `${STATE.selectedLanguages.length} languages`;
+        items.push(`<span class="summary-item" data-target="languages">${text}</span>`);
+    }
+
+    summaryContainer.innerHTML = items.join('<span class="summary-sep">•</span>');
+
+    // Add click listeners to summary items
+    summaryContainer.querySelectorAll('.summary-item').forEach(item => {
+        item.addEventListener('click', () => {
+            STATE.isFiltersExpanded = true;
+            saveState();
+            updateFilterUI();
+        });
+    });
 }
 
 // --- FETCH DATA FROM STATIC API ---
@@ -357,6 +450,7 @@ function renderShowtimes() {
     } else {
         renderMovieView();
     }
+    updateFilterSummary();
 }
 
 // --- RENDER DAY VIEW MODE ---
@@ -368,7 +462,7 @@ function renderDayView() {
     
     // 1. Filter by Date, Selected Cinemas, and Search
     const filtered = STATE.allShowtimes.filter(item => {
-        if (item.date !== STATE.selectedDateStr) return false;
+        if (!STATE.selectedDates.includes(item.date)) return false;
         
         if (STATE.selectedCity !== 'all') {
             if (getCityFromCinema(item.cinema) !== STATE.selectedCity) return false;
@@ -396,101 +490,119 @@ function renderDayView() {
         
         return true;
     });
-    
-    // 2. Group by movie
-    const grouped = {};
-    const normMap = {}; // Map normalized titles to canonical titles
 
-    filtered.forEach(session => {
-        const movieTitle = session.movie;
-        const normTitle = normalizeTitle(movieTitle);
-
-        let groupKey = normMap[normTitle];
-        if (!groupKey) {
-            groupKey = movieTitle;
-            normMap[normTitle] = groupKey;
-        }
-
-        if (!grouped[groupKey]) {
-            grouped[groupKey] = {
-                movie: groupKey,
-                original_title: STATE.normTranslations[normTitle] || '',
-                language: session.language,
-                original_language: session.original_language || '',
-                cinemas: {}
-            };
-        }
-        
-        const cinemaName = session.cinema;
-        if (!grouped[groupKey].cinemas[cinemaName]) {
-            grouped[groupKey].cinemas[cinemaName] = {
-                showtimes: [],
-                booking_url: session.booking_url
-            };
-        }
-        
-        if (!grouped[groupKey].cinemas[cinemaName].showtimes.includes(session.time)) {
-            grouped[groupKey].cinemas[cinemaName].showtimes.push(session.time);
-        }
+    // 2. Group by date and movie
+    const groupedByDate = {};
+    filtered.forEach(item => {
+        if (!groupedByDate[item.date]) groupedByDate[item.date] = [];
+        groupedByDate[item.date].push(item);
     });
 
-    const cardDataArray = Object.values(grouped);
-    
-    if (cardDataArray.length === 0) {
+    const sortedDates = Object.keys(groupedByDate).sort();
+
+    if (sortedDates.length === 0) {
         renderEmptyState(grid);
         return;
     }
-    
-    cardDataArray.sort((a, b) => a.movie.localeCompare(b.movie));
-    
-    cardDataArray.forEach(cardData => {
-        const cardElement = document.createElement('article');
-        cardElement.className = 'movie-card';
+
+    sortedDates.forEach(dateStr => {
+        if (STATE.selectedDates.length > 1) {
+            const dateHeader = document.createElement('div');
+            dateHeader.className = 'movie-grid-date-header';
+            dateHeader.innerHTML = `<h3>${formatDateString(dateStr)}</h3>`;
+            grid.appendChild(dateHeader);
+        }
+
+        const dateShowtimes = groupedByDate[dateStr];
+        const grouped = {};
+        const normMap = {}; // Map normalized titles to canonical titles
+
+        dateShowtimes.forEach(session => {
+            const movieTitle = session.movie;
+            const normTitle = normalizeTitle(movieTitle);
+
+            let groupKey = normMap[normTitle];
+            if (!groupKey) {
+                groupKey = movieTitle;
+                normMap[normTitle] = groupKey;
+            }
+
+            if (!grouped[groupKey]) {
+                grouped[groupKey] = {
+                    movie: groupKey,
+                    original_title: STATE.normTranslations[normTitle] || '',
+                    language: session.language,
+                    original_language: session.original_language || '',
+                    cinemas: {}
+                };
+            }
+
+            const cinemaName = session.cinema;
+            if (!grouped[groupKey].cinemas[cinemaName]) {
+                grouped[groupKey].cinemas[cinemaName] = {
+                    showtimes: [],
+                    booking_url: session.booking_url
+                };
+            }
+
+            if (!grouped[groupKey].cinemas[cinemaName].showtimes.includes(session.time)) {
+                grouped[groupKey].cinemas[cinemaName].showtimes.push(session.time);
+            }
+        });
+
+        const cardDataArray = Object.values(grouped);
         
-        let cinemasHtml = '';
-        const sortedCinemas = Object.keys(cardData.cinemas).sort();
+        cardDataArray.sort((a, b) => a.movie.localeCompare(b.movie));
         
-        sortedCinemas.forEach(cinemaName => {
-            const cinemaData = cardData.cinemas[cinemaName];
-            const chainClass = getChainFromCinema(cinemaName);
-            const displayCinema = cinemaName.replace('Cine Yelmo ', '').replace('mk2 Cinesur ', '');
+        cardDataArray.forEach(cardData => {
+            const cardElement = document.createElement('article');
+            cardElement.className = 'movie-card';
             
-            cinemaData.showtimes.sort();
-            const timesHtml = cinemaData.showtimes.map(time => {
-                if (cinemaData.booking_url) {
-                    return `<a href="${cinemaData.booking_url}" target="_blank" class="time-pill">${time}</a>`;
-                } else {
-                    return `<span class="time-pill">${time}</span>`;
-                }
-            }).join('');
+            let cinemasHtml = '';
+            const sortedCinemas = Object.keys(cardData.cinemas).sort();
             
-            cinemasHtml += `
-                <div class="cinema-showtimes-row">
-                    <span class="cinema-label"><span class="chain-badge ${chainClass}" style="position:static; margin-right:6px; padding: 2px 6px; font-size: 0.65rem;">${getDisplayChain(chainClass)}</span> ${displayCinema}</span>
-                    <div class="showtimes-list">
-                        ${timesHtml}
+            sortedCinemas.forEach(cinemaName => {
+                const cinemaData = cardData.cinemas[cinemaName];
+                const chainClass = getChainFromCinema(cinemaName);
+                const displayCinema = cinemaName.replace('Cine Yelmo ', '').replace('mk2 Cinesur ', '');
+
+                cinemaData.showtimes.sort();
+                const timesHtml = cinemaData.showtimes.map(time => {
+                    if (cinemaData.booking_url) {
+                        return `<a href="${cinemaData.booking_url}" target="_blank" class="time-pill">${time}</a>`;
+                    } else {
+                        return `<span class="time-pill">${time}</span>`;
+                    }
+                }).join('');
+
+                cinemasHtml += `
+                    <div class="cinema-showtimes-row">
+                        <span class="cinema-label"><span class="chain-badge ${chainClass}" style="position:static; margin-right:6px; padding: 2px 6px; font-size: 0.65rem;">${getDisplayChain(chainClass)}</span> ${displayCinema}</span>
+                        <div class="showtimes-list">
+                            ${timesHtml}
+                        </div>
+                    </div>
+                `;
+            });
+
+            cardElement.innerHTML = `
+                <div class="card-content">
+                    <h2 class="movie-title">${cardData.movie}</h2>
+                    ${cardData.original_title ? `<div class="movie-original-title">${cardData.original_title}</div>` : ''}
+                    <div class="movie-lang" title="${cardData.language}">
+                        ${cardData.original_language ? `<span class="lang-badge">${cardData.original_language}</span>` : ''}${cardData.language}
+                    </div>
+                    <div class="showtimes-section">
+                        <span class="showtimes-label">VOSE Showtimes:</span>
+                        <div class="movie-date-cinemas">
+                            ${cinemasHtml}
+                        </div>
                     </div>
                 </div>
             `;
-        });
 
-        cardElement.innerHTML = `
-            <div class="card-content">
-                <h2 class="movie-title">${cardData.movie}</h2>
-                ${cardData.original_title ? `<div class="movie-original-title">${cardData.original_title}</div>` : ''}
-                <div class="movie-lang" title="${cardData.language}">
-                    ${cardData.original_language ? `<span class="lang-badge">${cardData.original_language}</span>` : ''}${cardData.language}
-                </div>
-                <div class="showtimes-section">
-                    <span class="showtimes-label">VOSE Showtimes:</span>
-                    <div class="movie-date-cinemas">
-                        ${cinemasHtml}
-                    </div>
-                </div>
-            </div>
-        `;
-        
-        grid.appendChild(cardElement);
+            grid.appendChild(cardElement);
+        });
     });
 }
 
@@ -500,8 +612,10 @@ function renderMovieView() {
     grid.className = 'movie-grid list-by-movie'; // Apply custom movie list layout
     grid.innerHTML = '';
     
-    // 1. Filter by Selected Cinemas and Search Query (ALL DATES included)
+    // 1. Filter by Selected Cinemas, Search Query, and Selected Dates
     const filtered = STATE.allShowtimes.filter(item => {
+        if (!STATE.selectedDates.includes(item.date)) return false;
+
         if (STATE.selectedCity !== 'all') {
             if (getCityFromCinema(item.cinema) !== STATE.selectedCity) return false;
         }

@@ -55,64 +55,74 @@
         <!-- 2. Filter Toolbar -->
         <section class="filter-toolbar">
             
-            <!-- Search Bar -->
-            <div class="search-container">
-                <i class="fa-solid fa-magnifying-glass search-icon"></i>
-                <input type="text" id="searchInput" class="search-input" placeholder="Search movie title or cinema...">
+            <div class="filter-header">
+                <!-- Search Bar -->
+                <div class="search-container">
+                    <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                    <input type="text" id="searchInput" class="search-input" placeholder="Search movie title or cinema...">
+                </div>
+
+                <button class="filter-toggle-btn" id="filterToggleBtn" title="Toggle Filters">
+                    <i class="fa-solid fa-chevron-up"></i>
+                </button>
             </div>
+
+            <div id="filterSummary" class="filter-summary"></div>
             
-            <!-- City Filters -->
-            <div class="filter-group">
-                <span class="filter-title">Filter by City:</span>
-                <div class="cinema-chips" id="cityChips">
-                    <button class="chip" data-city="malaga" id="chipCityMalaga">Málaga</button>
-                    <button class="chip" data-city="granada" id="chipCityGranada">Granada</button>
-                    <button class="chip" data-city="madrid" id="chipCityMadrid">Madrid</button>
-                    <button class="chip" data-city="barcelona" id="chipCityBarcelona">Barcelona</button>
+            <div id="filterContent" class="filter-content">
+                <!-- City Filters -->
+                <div class="filter-group">
+                    <span class="filter-title">Filter by City:</span>
+                    <div class="cinema-chips" id="cityChips">
+                        <button class="chip" data-city="malaga" id="chipCityMalaga">Málaga</button>
+                        <button class="chip" data-city="granada" id="chipCityGranada">Granada</button>
+                        <button class="chip" data-city="madrid" id="chipCityMadrid">Madrid</button>
+                        <button class="chip" data-city="barcelona" id="chipCityBarcelona">Barcelona</button>
+                    </div>
                 </div>
-            </div>
-            
-            <!-- Cinema Chains Filters -->
-            <div class="filter-group" style="margin-top: 12px;">
-                <span class="filter-title">Filter by Cinema Chain:</span>
-                <div class="cinema-chips" id="cinemaChips">
-                    <button class="chip active all-chip" data-chain="all" id="chipAll">All Cinemas</button>
-                    <button class="chip" data-chain="yelmo" id="chipYelmo">Cine Yelmo</button>
-                    <button class="chip" data-chain="cinesa" id="chipCinesa">Cinesa</button>
-                    <button class="chip" data-chain="cinesur" id="chipCinesur">mk2 Cinesur</button>
-                    <button class="chip" data-chain="albeniz" id="chipAlbeniz">Cine Albéniz</button>
-                    <button class="chip" data-chain="kinepolis" id="chipKinepolis">Kinépolis</button>
-                    <button class="chip" data-chain="megarama" id="chipMegarama">Megarama</button>
-                    <button class="chip" data-chain="ocine" id="chipOcine">Ocine</button>
-                    <button class="chip" data-chain="renoir" id="chipRenoir">Cines Renoir</button>
-                    <button class="chip" data-chain="golem" id="chipGolem">Cines Golem</button>
-                </div>
-            </div>
 
-            <!-- Specific Cinema Sub-Filters -->
-            <div class="filter-group" id="cinemaSubFilterGroup" style="margin-top: 12px;">
-                <span class="filter-title">Filter by Location (Multi-select):</span>
-                <div class="cinema-chips" id="cinemaSubChips">
-                    <!-- Dynamic chips generated here -->
+                <!-- Cinema Chains Filters -->
+                <div class="filter-group" style="margin-top: 12px;">
+                    <span class="filter-title">Filter by Cinema Chain:</span>
+                    <div class="cinema-chips" id="cinemaChips">
+                        <button class="chip active all-chip" data-chain="all" id="chipAll">All Cinemas</button>
+                        <button class="chip" data-chain="yelmo" id="chipYelmo">Cine Yelmo</button>
+                        <button class="chip" data-chain="cinesa" id="chipCinesa">Cinesa</button>
+                        <button class="chip" data-chain="cinesur" id="chipCinesur">mk2 Cinesur</button>
+                        <button class="chip" data-chain="albeniz" id="chipAlbeniz">Cine Albéniz</button>
+                        <button class="chip" data-chain="kinepolis" id="chipKinepolis">Kinépolis</button>
+                        <button class="chip" data-chain="megarama" id="chipMegarama">Megarama</button>
+                        <button class="chip" data-chain="ocine" id="chipOcine">Ocine</button>
+                        <button class="chip" data-chain="renoir" id="chipRenoir">Cines Renoir</button>
+                        <button class="chip" data-chain="golem" id="chipGolem">Cines Golem</button>
+                    </div>
                 </div>
-            </div>
 
-            <!-- Original Language Filters -->
-            <div class="filter-group" style="margin-top: 12px;">
-                <span class="filter-title">Filter by Original Language (Multi-select):</span>
-                <div class="cinema-chips" id="languageChips">
-                    <!-- Dynamic chips generated here -->
+                <!-- Specific Cinema Sub-Filters -->
+                <div class="filter-group" id="cinemaSubFilterGroup" style="margin-top: 12px;">
+                    <span class="filter-title">Filter by Location (Multi-select):</span>
+                    <div class="cinema-chips" id="cinemaSubChips">
+                        <!-- Dynamic chips generated here -->
+                    </div>
                 </div>
-            </div>
 
-            <!-- Display Options Filters -->
-            <div class="filter-group" style="margin-top: 12px;">
-                <span class="filter-title">Display Options:</span>
-                <label class="filter-checkbox-container">
-                    <input type="checkbox" id="chkOnlyMovies" checked>
-                    <span class="custom-checkbox"></span>
-                    Show only movies (hide events / operas)
-                </label>
+                <!-- Original Language Filters -->
+                <div class="filter-group" style="margin-top: 12px;">
+                    <span class="filter-title">Filter by Original Language (Multi-select):</span>
+                    <div class="cinema-chips" id="languageChips">
+                        <!-- Dynamic chips generated here -->
+                    </div>
+                </div>
+
+                <!-- Display Options Filters -->
+                <div class="filter-group" style="margin-top: 12px;">
+                    <span class="filter-title">Display Options:</span>
+                    <label class="filter-checkbox-container">
+                        <input type="checkbox" id="chkOnlyMovies" checked>
+                        <span class="custom-checkbox"></span>
+                        Show only movies (hide events / operas)
+                    </label>
+                </div>
             </div>
             
         </section>
