@@ -1,4 +1,4 @@
-Starting Scraper - Local time is 2026-06-19 06:13:31 CEST
+Starting Scraper - Local time is 2026-06-19 09:45:23 CEST
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
   Fetching Yelmo madrid...
@@ -27,7 +27,7 @@ original language not found for 7 movies in Cinesa chain
 original language not found for 2 movies in Cinesur chain
 original language not found for 1 movies in Renoir chain
 Successfully generated api/v1/showtimes.json with 4342 listings.
-No new showings found.
+Appended 2156 new showings to new_showtimes.json
 
 Resolving missing movie title translations...
 Found 7 movies without original names.
@@ -37,11 +37,9 @@ Searching for: '20 Años del MET en cines - Grabado MET 26-27'
   -> Could not resolve original name for '20 Años del MET en cines - Grabado MET 26-27'
 
 Searching for: 'LA MUERTE DE ROBIN HOOD [WILDER CINEMA]'
-    (TMDB Scraper warning: HTTPSConnectionPool(host='www.themoviedb.org', port=443): Read timed out. (read timeout=10))
   -> Could not resolve original name for 'LA MUERTE DE ROBIN HOOD [WILDER CINEMA]'
 
 Searching for: 'LADRÓN DE BICICLETAS [WILDER CINEMA]'
-    (TMDB Scraper warning: HTTPSConnectionPool(host='www.themoviedb.org', port=443): Read timed out. (read timeout=10))
   -> Could not resolve original name for 'LADRÓN DE BICICLETAS [WILDER CINEMA]'
 
 Searching for: 'LAWRENCE DE ARABIA [WILDER CINEMA]'
