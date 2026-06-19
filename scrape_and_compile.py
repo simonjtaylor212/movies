@@ -402,6 +402,47 @@ def main():
     # 2. Combine
     all_showtimes = yelmo_data + albeniz_data + cinesur_data + kinepolis_data + megarama_data + ocine_data + renoir_data + golem_data + cinesa_data
     
+    # Guess original_language for movies that don't have it, based on other showings
+    # Build a map from movies that DO have it
+    global_movie_langs = {}
+    for s in all_showtimes:
+        lang = s.get("original_language")
+        if lang:
+            norm_title = normalize_title(s["movie"])
+            if norm_title not in global_movie_langs:
+                global_movie_langs[norm_title] = lang
+
+    # Fill in missing languages
+    for s in all_showtimes:
+        if not s.get("original_language"):
+            norm_title = normalize_title(s["movie"])
+            if norm_title in global_movie_langs:
+                s["original_language"] = global_movie_langs[norm_title]
+
+    # Log missing original languages
+    missing_by_chain = {}
+    for s in all_showtimes:
+        if not s.get("original_language"):
+            cinema = s.get("cinema", "Other")
+            clow = cinema.lower()
+            if "yelmo" in clow: chain = "Yelmo"
+            elif "cinesa" in clow: chain = "Cinesa"
+            elif "cinesur" in clow: chain = "Cinesur"
+            elif "albeniz" in clow or "albéniz" in clow: chain = "Albéniz"
+            elif "kinepolis" in clow or "kinépolis" in clow: chain = "Kinépolis"
+            elif "megarama" in clow: chain = "Megarama"
+            elif "ocine" in clow: chain = "Ocine"
+            elif "renoir" in clow: chain = "Renoir"
+            elif "golem" in clow: chain = "Golem"
+            else: chain = "Other"
+
+            if chain not in missing_by_chain:
+                missing_by_chain[chain] = set()
+            missing_by_chain[chain].add(normalize_title(s["movie"]))
+
+    for chain, movies in sorted(missing_by_chain.items()):
+        print(f"original language not found for {len(movies)} movies in {chain} chain")
+
     # 3. Filter out past showtimes (only keep today and future showtimes)
     today_str = now_local.strftime('%Y-%m-%d')
     filtered_showtimes = [s for s in all_showtimes if s['date'] >= today_str]
