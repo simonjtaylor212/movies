@@ -1,4 +1,4 @@
-Starting Scraper - Local time is 2026-06-19 02:56:06 CEST
+Starting Scraper - Local time is 2026-06-19 03:02:05 CEST
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
   Fetching Yelmo madrid...
@@ -23,10 +23,9 @@ Scraping mk2 Cinesur...
   mk2 Cinesur El Ingenio: found 33 sessions.
   mk2 Cinesur Málaga Nostrum: found 56 sessions.
 mk2 Cinesur scraped: found 201 VOSE sessions.
-original language not found for 1 movies in Albéniz chain
-original language not found for 8 movies in Cinesa chain
+original language not found for 7 movies in Cinesa chain
 original language not found for 2 movies in Cinesur chain
-original language not found for 2 movies in Renoir chain
+original language not found for 1 movies in Renoir chain
 Successfully generated api/v1/showtimes.json with 4342 listings.
 No new showings found.
 
