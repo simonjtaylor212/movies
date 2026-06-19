@@ -355,45 +355,52 @@ function updateFilterSummary() {
     const summaryContainer = document.getElementById('filterSummary');
     if (!summaryContainer) return;
 
-    if (STATE.isFiltersExpanded) {
-        summaryContainer.innerHTML = '';
-        return;
-    }
+    summaryContainer.innerHTML = '';
+    if (STATE.isFiltersExpanded) return;
 
-    const items = [];
-
-    // City
-    const cityName = STATE.selectedCity.charAt(0).toUpperCase() + STATE.selectedCity.slice(1);
-    items.push(`<span class="summary-item" data-target="city">${cityName}</span>`);
-
-    // Cinemas
-    if (STATE.selectedCinemas.length > 0) {
-        const text = STATE.selectedCinemas.length === 1
-            ? STATE.selectedCinemas[0].replace('Cine Yelmo ', '').replace('mk2 Cinesur ', '')
-            : `${STATE.selectedCinemas.length} cinemas`;
-        items.push(`<span class="summary-item" data-target="cinemas">${text}</span>`);
-    } else {
-        items.push(`<span class="summary-item" data-target="cinemas">All Cinemas</span>`);
-    }
-
-    // Languages
-    if (STATE.selectedLanguages.length > 0) {
-        const text = STATE.selectedLanguages.length === 1
-            ? STATE.selectedLanguages[0]
-            : `${STATE.selectedLanguages.length} languages`;
-        items.push(`<span class="summary-item" data-target="languages">${text}</span>`);
-    }
-
-    summaryContainer.innerHTML = items.join('<span class="summary-sep">•</span>');
-
-    // Add click listeners to summary items
-    summaryContainer.querySelectorAll('.summary-item').forEach(item => {
+    const addSummaryItem = (text, target) => {
+        const item = document.createElement('span');
+        item.className = 'summary-item';
+        item.setAttribute('data-target', target);
+        item.textContent = text;
         item.addEventListener('click', () => {
             STATE.isFiltersExpanded = true;
             saveState();
             updateFilterUI();
         });
-    });
+        summaryContainer.appendChild(item);
+    };
+
+    const addSeparator = () => {
+        const sep = document.createElement('span');
+        sep.className = 'summary-sep';
+        sep.textContent = '•';
+        summaryContainer.appendChild(sep);
+    };
+
+    // City
+    const cityName = STATE.selectedCity.charAt(0).toUpperCase() + STATE.selectedCity.slice(1);
+    addSummaryItem(cityName, 'city');
+
+    // Cinemas
+    addSeparator();
+    if (STATE.selectedCinemas.length > 0) {
+        const text = STATE.selectedCinemas.length === 1
+            ? STATE.selectedCinemas[0].replace('Cine Yelmo ', '').replace('mk2 Cinesur ', '')
+            : `${STATE.selectedCinemas.length} cinemas`;
+        addSummaryItem(text, 'cinemas');
+    } else {
+        addSummaryItem('All Cinemas', 'cinemas');
+    }
+
+    // Languages
+    if (STATE.selectedLanguages.length > 0) {
+        addSeparator();
+        const text = STATE.selectedLanguages.length === 1
+            ? STATE.selectedLanguages[0]
+            : `${STATE.selectedLanguages.length} languages`;
+        addSummaryItem(text, 'languages');
+    }
 }
 
 // --- FETCH DATA FROM STATIC API ---
@@ -612,10 +619,8 @@ function renderMovieView() {
     grid.className = 'movie-grid list-by-movie'; // Apply custom movie list layout
     grid.innerHTML = '';
     
-    // 1. Filter by Selected Cinemas, Search Query, and Selected Dates
+    // 1. Filter by Selected Cinemas and Search Query (ALL DATES included for Movie View)
     const filtered = STATE.allShowtimes.filter(item => {
-        if (!STATE.selectedDates.includes(item.date)) return false;
-
         if (STATE.selectedCity !== 'all') {
             if (getCityFromCinema(item.cinema) !== STATE.selectedCity) return false;
         }

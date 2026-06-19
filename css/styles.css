@@ -265,15 +265,18 @@ a {
 }
 
 .filter-summary {
-    display: none;
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
     font-size: 0.85rem;
     color: var(--text-secondary);
-    padding: 4px 2px;
-    overflow-x: auto;
+    padding: 0 2px;
+    display: flex;
     white-space: nowrap;
     scrollbar-width: none;
     gap: 8px;
     align-items: center;
+    transition: max-height 0.3s ease, opacity 0.3s ease, padding 0.3s ease, margin-top 0.3s ease;
 }
 
 .filter-summary::-webkit-scrollbar {
@@ -281,7 +284,11 @@ a {
 }
 
 .filter-toolbar.collapsed .filter-summary {
-    display: flex;
+    max-height: 50px;
+    opacity: 1;
+    padding: 4px 2px;
+    margin-top: 4px;
+    overflow-x: auto;
 }
 
 .summary-item {
@@ -308,12 +315,16 @@ a {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    transition: all 0.3s ease;
+    max-height: 1500px;
+    opacity: 1;
+    transition: max-height 0.4s ease, opacity 0.4s ease, margin-top 0.4s ease;
     overflow: hidden;
 }
 
 .filter-toolbar.collapsed .filter-content {
-    display: none;
+    max-height: 0;
+    opacity: 0;
+    margin-top: -16px; /* Offset the gap */
 }
 
 .filter-group {
