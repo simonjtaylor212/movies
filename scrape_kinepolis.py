@@ -155,6 +155,8 @@ def scrape_kinepolis():
                     original_lang = "Portuguese"
                 elif "CATAL" in lang_upper:
                     original_lang = "Catalan"
+                elif "NORU" in lang_upper:
+                    original_lang = "Norwegian"
                 elif "ESPA" in lang_upper or "CAST" in lang_upper:
                     original_lang = "Spanish"
                 
