@@ -21,6 +21,40 @@ const STATE = {
     onlyMovies: true
 };
 
+const STORAGE_KEY = 'vose_spain_settings';
+
+function saveState() {
+    const stateToSave = {
+        selectedDateStr: STATE.selectedDateStr,
+        selectedCity: STATE.selectedCity,
+        selectedChain: STATE.selectedChain,
+        selectedCinemas: STATE.selectedCinemas,
+        selectedLanguages: STATE.selectedLanguages,
+        searchQuery: STATE.searchQuery,
+        viewMode: STATE.viewMode,
+        onlyMovies: STATE.onlyMovies
+    };
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(stateToSave));
+}
+
+function loadState() {
+    const saved = localStorage.getItem(STORAGE_KEY);
+    if (!saved) return;
+    try {
+        const parsed = JSON.parse(saved);
+        if (parsed.selectedDateStr !== undefined) STATE.selectedDateStr = parsed.selectedDateStr;
+        if (parsed.selectedCity !== undefined) STATE.selectedCity = parsed.selectedCity;
+        if (parsed.selectedChain !== undefined) STATE.selectedChain = parsed.selectedChain;
+        if (parsed.selectedCinemas !== undefined) STATE.selectedCinemas = parsed.selectedCinemas;
+        if (parsed.selectedLanguages !== undefined) STATE.selectedLanguages = parsed.selectedLanguages;
+        if (parsed.searchQuery !== undefined) STATE.searchQuery = parsed.searchQuery;
+        if (parsed.viewMode !== undefined) STATE.viewMode = parsed.viewMode;
+        if (parsed.onlyMovies !== undefined) STATE.onlyMovies = parsed.onlyMovies;
+    } catch (e) {
+        console.error('Error loading state from localStorage:', e);
+    }
+}
+
 // --- MONTH NAMES IN ENGLISH ---
 const MONTH_NAMES = [
     "January", "February", "March", "April", "May", "June",
@@ -31,15 +65,22 @@ const WEEKDAY_NAMES = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 
 // --- INITIALIZATION ---
 document.addEventListener('DOMContentLoaded', () => {
+    loadState();
+
     // Determine target city
     const urlCity = getCityFromURL();
     if (urlCity) {
         STATE.selectedCity = urlCity;
     } else {
-        STATE.selectedCity = 'madrid';
-        updateURLCity(STATE.selectedCity);
-        detectClosestCity();
+        // If no city in URL and nothing was in localStorage, try to detect closest city
+        if (!localStorage.getItem(STORAGE_KEY)) {
+            detectClosestCity();
+        }
     }
+
+    // Ensure URL matches the current selected city
+    updateURLCity(STATE.selectedCity);
+
     generateDateSelector();
     initFilters();
     loadShowtimes();
@@ -159,6 +200,7 @@ function generateDateSelector() {
             document.querySelectorAll('.date-card').forEach(c => c.classList.remove('active'));
             card.classList.add('active');
             STATE.selectedDateStr = dateStr;
+            saveState();
             renderShowtimes();
         });
         
@@ -170,8 +212,12 @@ function generateDateSelector() {
 function initFilters() {
     // Search filter
     const searchInput = document.getElementById('searchInput');
+    if (STATE.searchQuery) {
+        searchInput.value = STATE.searchQuery;
+    }
     searchInput.addEventListener('input', (e) => {
         STATE.searchQuery = e.target.value.trim().toLowerCase();
+        saveState();
         renderShowtimes();
     });
     
@@ -207,6 +253,7 @@ function initFilters() {
                     .map(item => item.cinema)
                 )];
             }
+            saveState();
             updateCinemaSubChips();
             renderShowtimes();
         });
@@ -217,12 +264,20 @@ function initFilters() {
     const btnViewMovie = document.getElementById('btnViewMovie');
     const dateSelectorSection = document.getElementById('dateSelectorSection');
 
+    // Restore active view mode button
+    if (STATE.viewMode === 'movie') {
+        btnViewDay.classList.remove('active');
+        btnViewMovie.classList.add('active');
+        dateSelectorSection.style.display = 'none';
+    }
+
     btnViewDay.addEventListener('click', () => {
         if (STATE.viewMode === 'day') return;
         btnViewMovie.classList.remove('active');
         btnViewDay.classList.add('active');
         dateSelectorSection.style.display = 'block';
         STATE.viewMode = 'day';
+        saveState();
         renderShowtimes();
     });
 
@@ -232,6 +287,7 @@ function initFilters() {
         btnViewMovie.classList.add('active');
         dateSelectorSection.style.display = 'none';
         STATE.viewMode = 'movie';
+        saveState();
         renderShowtimes();
     });
 
@@ -241,6 +297,7 @@ function initFilters() {
         chkOnlyMovies.checked = STATE.onlyMovies;
         chkOnlyMovies.addEventListener('change', (e) => {
             STATE.onlyMovies = e.target.checked;
+            saveState();
             renderShowtimes();
         });
     }
@@ -720,6 +777,7 @@ function updateCinemaSubChips() {
             }
             
             updateChainChipsActiveState();
+            saveState();
             updateCinemaSubChips();
             renderShowtimes();
         });
@@ -879,6 +937,7 @@ function updateLanguageChips() {
             } else {
                 STATE.selectedLanguages.push(langName);
             }
+            saveState();
             updateLanguageChips();
             renderShowtimes();
         });
@@ -908,6 +967,7 @@ function updateURLCity(city) {
 
 function selectCity(city, pushToHistory = false) {
     STATE.selectedCity = city;
+    saveState();
     
     // Update URL query parameters
     const url = new URL(window.location);
