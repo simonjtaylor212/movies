@@ -1,4 +1,4 @@
-Starting Scraper - Local time is 2026-06-19 03:02:05 CEST
+Starting Scraper - Local time is 2026-06-19 06:13:31 CEST
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
   Fetching Yelmo madrid...
@@ -37,9 +37,11 @@ Searching for: '20 Años del MET en cines - Grabado MET 26-27'
   -> Could not resolve original name for '20 Años del MET en cines - Grabado MET 26-27'
 
 Searching for: 'LA MUERTE DE ROBIN HOOD [WILDER CINEMA]'
+    (TMDB Scraper warning: HTTPSConnectionPool(host='www.themoviedb.org', port=443): Read timed out. (read timeout=10))
   -> Could not resolve original name for 'LA MUERTE DE ROBIN HOOD [WILDER CINEMA]'
 
 Searching for: 'LADRÓN DE BICICLETAS [WILDER CINEMA]'
+    (TMDB Scraper warning: HTTPSConnectionPool(host='www.themoviedb.org', port=443): Read timed out. (read timeout=10))
   -> Could not resolve original name for 'LADRÓN DE BICICLETAS [WILDER CINEMA]'
 
 Searching for: 'LAWRENCE DE ARABIA [WILDER CINEMA]'
