@@ -409,6 +409,12 @@ def main():
     global_movie_langs = {}
     for s in all_showtimes:
         lang = s.get("original_language")
+        if not lang:
+            # Try to extract it from the local language string if it's missing
+            lang = get_language_name(s.get("language", ""))
+            if lang:
+                s["original_language"] = lang
+
         if lang:
             norm_title = normalize_title(s["movie"])
             if norm_title not in global_movie_langs:
@@ -420,6 +426,9 @@ def main():
             norm_title = normalize_title(s["movie"])
             if norm_title in global_movie_langs:
                 s["original_language"] = global_movie_langs[norm_title]
+            else:
+                # Final attempt: try to parse from the language field itself if not already done
+                s["original_language"] = get_language_name(s.get("language", ""))
 
     # Log missing original languages
     missing_by_chain = {}
