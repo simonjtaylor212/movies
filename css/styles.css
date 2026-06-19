@@ -190,20 +190,13 @@ a {
     margin-bottom: 40px;
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 20px;
     backdrop-filter: blur(12px);
     box-shadow: var(--shadow-sm);
-    position: relative;
-}
-
-.filter-header {
-    display: flex;
-    align-items: center;
-    gap: 16px;
 }
 
 .search-container {
-    flex-grow: 1;
+    width: 100%;
     position: relative;
 }
 
@@ -233,87 +226,6 @@ a {
     transform: translateY(-50%);
     color: var(--text-muted);
     pointer-events: none;
-}
-
-.filter-toggle-btn {
-    background: rgba(255, 255, 255, 0.05);
-    border: 1px solid var(--border-color);
-    color: var(--text-secondary);
-    width: 44px;
-    height: 44px;
-    border-radius: 12px;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: var(--transition-smooth);
-    flex-shrink: 0;
-}
-
-.filter-toggle-btn:hover {
-    background: rgba(255, 255, 255, 0.1);
-    color: var(--text-primary);
-    border-color: var(--accent-primary);
-}
-
-.filter-toggle-btn i {
-    transition: transform 0.3s ease;
-}
-
-.filter-toolbar.collapsed .filter-toggle-btn i {
-    transform: rotate(180deg);
-}
-
-.filter-summary {
-    display: none;
-    font-size: 0.85rem;
-    color: var(--text-secondary);
-    padding: 4px 2px;
-    overflow-x: auto;
-    white-space: nowrap;
-    scrollbar-width: none;
-    gap: 8px;
-    align-items: center;
-}
-
-.filter-summary::-webkit-scrollbar {
-    display: none;
-}
-
-.filter-toolbar.collapsed .filter-summary {
-    display: flex;
-}
-
-.summary-item {
-    background: rgba(255, 255, 255, 0.05);
-    padding: 4px 10px;
-    border-radius: 6px;
-    border: 1px solid var(--border-color);
-    cursor: pointer;
-    transition: var(--transition-smooth);
-}
-
-.summary-item:hover {
-    background: rgba(255, 255, 255, 0.1);
-    border-color: var(--accent-secondary);
-    color: var(--text-primary);
-}
-
-.summary-sep {
-    color: var(--text-muted);
-    font-size: 0.7rem;
-}
-
-.filter-content {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    transition: all 0.3s ease;
-    overflow: hidden;
-}
-
-.filter-toolbar.collapsed .filter-content {
-    display: none;
 }
 
 .filter-group {
@@ -821,19 +733,6 @@ a {
 }
 
 /* --- MOVIE VIEW STYLES --- */
-.movie-grid-date-header {
-    grid-column: 1 / -1;
-    padding: 20px 0 10px;
-    border-bottom: 2px solid var(--accent-secondary);
-    margin-bottom: 10px;
-}
-
-.movie-grid-date-header h3 {
-    font-family: var(--font-heading);
-    font-size: 1.5rem;
-    color: var(--accent-secondary);
-}
-
 .movie-dates-list {
     display: flex;
     flex-direction: column;
