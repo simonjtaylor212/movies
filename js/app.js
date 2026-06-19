@@ -613,6 +613,7 @@ function updateChainChipsActiveState() {
         if (isAllChainCinemasSelected) {
             STATE.selectedChain = chain;
             if (chain === 'yelmo') document.getElementById('chipYelmo').classList.add('active');
+            else if (chain === 'cinesa') document.getElementById('chipCinesa').classList.add('active');
             else if (chain === 'cinesur') document.getElementById('chipCinesur').classList.add('active');
             else if (chain === 'albeniz') document.getElementById('chipAlbeniz').classList.add('active');
             else if (chain === 'kinepolis') document.getElementById('chipKinepolis').classList.add('active');
@@ -674,14 +675,15 @@ function updateCinemaSubChips() {
     const getChainPriority = (cinemaName) => {
         const chain = getChainFromCinema(cinemaName);
         if (chain === 'yelmo') return 1;
-        if (chain === 'cinesur') return 2;
-        if (chain === 'albeniz') return 3;
-        if (chain === 'kinepolis') return 4;
-        if (chain === 'megarama') return 5;
-        if (chain === 'ocine') return 6;
-        if (chain === 'renoir') return 7;
-        if (chain === 'golem') return 8;
-        return 9;
+        if (chain === 'cinesa') return 2;
+        if (chain === 'cinesur') return 3;
+        if (chain === 'albeniz') return 4;
+        if (chain === 'kinepolis') return 5;
+        if (chain === 'megarama') return 6;
+        if (chain === 'ocine') return 7;
+        if (chain === 'renoir') return 8;
+        if (chain === 'golem') return 9;
+        return 10;
     };
     
     uniqueCinemas.sort((a, b) => {
@@ -737,6 +739,7 @@ function renderEmptyState(container) {
 
 function getDisplayChain(chainClass) {
     if (chainClass === 'yelmo') return 'Yelmo';
+    if (chainClass === 'cinesa') return 'Cinesa';
     if (chainClass === 'cinesur') return 'Cinesur';
     if (chainClass === 'albeniz') return 'Albéniz';
     if (chainClass === 'kinepolis') return 'Kinépolis';

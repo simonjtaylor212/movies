@@ -18,6 +18,7 @@
     --accent-gradient-hover: linear-gradient(135deg, #a78bfa 0%, #60a5fa 50%, #22d3ee 100%);
     
     --yelmo-color: #6366f1;        /* Indigo */
+    --cinesa-color: #005eb8;       /* Blue */
     --cinesur-color: #f59e0b;      /* Amber */
     --albeniz-color: #ec4899;      /* Pink */
     --kinepolis-color: #e11d48;    /* Crimson Red */
@@ -273,6 +274,13 @@ a {
     box-shadow: 0 4px 12px rgba(99, 102, 241, 0.3);
 }
 
+.chip.active[data-chain="cinesa"] {
+    background: var(--cinesa-color);
+    color: white;
+    border-color: transparent;
+    box-shadow: 0 4px 12px rgba(0, 94, 184, 0.3);
+}
+
 .chip.active[data-chain="cinesur"] {
     background: var(--cinesur-color);
     color: white;
@@ -335,6 +343,13 @@ a {
     color: white;
     border-color: transparent;
     box-shadow: 0 4px 12px rgba(99, 102, 241, 0.3);
+}
+
+.chip.active.active-chain-cinesa {
+    background: var(--cinesa-color);
+    color: white;
+    border-color: transparent;
+    box-shadow: 0 4px 12px rgba(0, 94, 184, 0.3);
 }
 
 .chip.active.active-chain-cinesur {
@@ -486,6 +501,11 @@ a {
 
 .chain-badge.yelmo {
     background: var(--yelmo-color);
+    color: white;
+}
+
+.chain-badge.cinesa {
+    background: var(--cinesa-color);
     color: white;
 }
 
