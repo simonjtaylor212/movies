@@ -9166,19 +9166,6 @@
   },
   {
     "cinema": "Cine Yelmo La Vaguada",
-    "date": "2026-06-20",
-    "movie": "El Día de la Revelación",
-    "format": "2D",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "13:55",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1360&showtimeVistaId=17204",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-17 00:00:28"
-  },
-  {
-    "cinema": "Cine Yelmo La Vaguada",
     "date": "2026-06-21",
     "movie": "Toy Story 5",
     "format": "2D",
@@ -9940,19 +9927,6 @@
     "original_language": "English",
     "time": "20:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=22276",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-17 00:00:28"
-  },
-  {
-    "cinema": "Cine Yelmo Palafox Luxury",
-    "date": "2026-06-20",
-    "movie": "Toy Story 5",
-    "format": "LUX",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "14:00",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=22672",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-06-17 00:00:28"
@@ -12790,19 +12764,6 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-06-17 17:29:10"
-  },
-  {
-    "cinema": "Cine Yelmo Plaza Norte 2",
-    "date": "2026-06-20",
-    "movie": "Toy Story 5",
-    "format": "2D",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "13:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=813&showtimeVistaId=51091",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-17 00:00:28"
   },
   {
     "cinema": "Cine Yelmo Plaza Norte 2",
@@ -16235,19 +16196,6 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-06-17 17:29:10"
-  },
-  {
-    "cinema": "Cine Yelmo Westfield La Maquinista",
-    "date": "2026-06-20",
-    "movie": "Toy Story 5",
-    "format": "PREMIUM",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "14:00",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1350&showtimeVistaId=41542",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-17 01:48:07"
   },
   {
     "cinema": "Cine Yelmo Westfield La Maquinista",
@@ -32827,19 +32775,6 @@
   {
     "cinema": "Cinesa Proyecciones",
     "date": "2026-06-20",
-    "movie": "Scary Movie",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "15:45",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=018-40442",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-20 13:18:57"
-  },
-  {
-    "cinema": "Cinesa Proyecciones",
-    "date": "2026-06-20",
     "movie": "Backrooms",
     "format": "2D",
     "language": "V.O.S.E.",
@@ -33041,19 +32976,6 @@
     "original_language": "English",
     "time": "20:30",
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=027-46685",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-20 13:18:57"
-  },
-  {
-    "cinema": "Cinesa Las Rozas",
-    "date": "2026-06-20",
-    "movie": "The Mandalorian and Grogu",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "15:45",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=034-110265",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-06-20 13:18:57"
