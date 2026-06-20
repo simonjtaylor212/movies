@@ -18,7 +18,9 @@ const STATE = {
     selectedLanguages: [], // Array of selected language names. Empty means all.
     searchQuery: '',
     viewMode: 'day', // 'day' or 'movie'
-    onlyMovies: true
+    onlyMovies: true,
+    isFiltersExpanded: true,
+    collapsedMovies: []
 };
 
 const STORAGE_KEY = 'vose_spain_settings';
@@ -32,7 +34,9 @@ function saveState() {
         selectedLanguages: STATE.selectedLanguages,
         searchQuery: STATE.searchQuery,
         viewMode: STATE.viewMode,
-        onlyMovies: STATE.onlyMovies
+        onlyMovies: STATE.onlyMovies,
+        isFiltersExpanded: STATE.isFiltersExpanded,
+        collapsedMovies: STATE.collapsedMovies
     };
     localStorage.setItem(STORAGE_KEY, JSON.stringify(stateToSave));
 }
@@ -50,6 +54,8 @@ function loadState() {
         if (parsed.searchQuery !== undefined) STATE.searchQuery = parsed.searchQuery;
         if (parsed.viewMode !== undefined) STATE.viewMode = parsed.viewMode;
         if (parsed.onlyMovies !== undefined) STATE.onlyMovies = parsed.onlyMovies;
+        if (parsed.isFiltersExpanded !== undefined) STATE.isFiltersExpanded = parsed.isFiltersExpanded;
+        if (parsed.collapsedMovies !== undefined) STATE.collapsedMovies = parsed.collapsedMovies;
     } catch (e) {
         console.error('Error loading state from localStorage:', e);
     }
@@ -83,6 +89,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     generateDateSelector();
     initFilters();
+    updateFilterUI();
     loadShowtimes();
 });
 
@@ -301,6 +308,79 @@ function initFilters() {
             renderShowtimes();
         });
     }
+
+    // Toggle Filters
+    const btnToggleFilters = document.getElementById('btnToggleFilters');
+    if (btnToggleFilters) {
+        btnToggleFilters.addEventListener('click', () => {
+            STATE.isFiltersExpanded = !STATE.isFiltersExpanded;
+            saveState();
+            updateFilterUI();
+        });
+    }
+
+    const filterSummary = document.getElementById('filterSummary');
+    if (filterSummary) {
+        filterSummary.addEventListener('click', () => {
+            STATE.isFiltersExpanded = true;
+            saveState();
+            updateFilterUI();
+        });
+    }
+}
+
+function updateFilterUI() {
+    const toolbar = document.getElementById('filterToolbar');
+    const toggleBtn = document.getElementById('btnToggleFilters');
+
+    if (STATE.isFiltersExpanded) {
+        toolbar.classList.remove('collapsed');
+        if (toggleBtn) toggleBtn.innerHTML = '<i class="fa-solid fa-chevron-up"></i>';
+    } else {
+        toolbar.classList.add('collapsed');
+        if (toggleBtn) toggleBtn.innerHTML = '<i class="fa-solid fa-chevron-down"></i>';
+        updateFilterSummary();
+    }
+}
+
+function updateFilterSummary() {
+    const summaryContainer = document.getElementById('filterSummary');
+    if (!summaryContainer) return;
+
+    summaryContainer.innerHTML = '';
+
+    // 1. City
+    const cityChipEl = document.querySelector(`#cityChips .chip[data-city="${STATE.selectedCity}"]`);
+    const cityLabel = cityChipEl ? cityChipEl.textContent : (STATE.selectedCity.charAt(0).toUpperCase() + STATE.selectedCity.slice(1));
+    const cityChip = document.createElement('span');
+    cityChip.className = 'summary-chip';
+    cityChip.textContent = cityLabel;
+    summaryContainer.appendChild(cityChip);
+
+    // 2. Selected Cinemas
+    if (STATE.selectedCinemas.length > 0) {
+        STATE.selectedCinemas.forEach(cinema => {
+            const cinemaChip = document.createElement('span');
+            cinemaChip.className = 'summary-chip';
+            cinemaChip.textContent = cinema.replace('Cine Yelmo ', '').replace('mk2 Cinesur ', '');
+            summaryContainer.appendChild(cinemaChip);
+        });
+    } else if (STATE.selectedChain !== 'all') {
+        const chainChip = document.createElement('span');
+        chainChip.className = 'summary-chip';
+        chainChip.textContent = getDisplayChain(STATE.selectedChain);
+        summaryContainer.appendChild(chainChip);
+    }
+
+    // 3. Languages
+    if (STATE.selectedLanguages.length > 0) {
+        STATE.selectedLanguages.forEach(lang => {
+            const langChip = document.createElement('span');
+            langChip.className = 'summary-chip';
+            langChip.textContent = lang;
+            summaryContainer.appendChild(langChip);
+        });
+    }
 }
 
 // --- FETCH DATA FROM STATIC API ---
@@ -445,10 +525,12 @@ function renderDayView() {
     
     cardDataArray.forEach(cardData => {
         const cardElement = document.createElement('article');
-        cardElement.className = 'movie-card';
+        const isCollapsed = STATE.collapsedMovies.includes(cardData.movie);
+        cardElement.className = `movie-card ${isCollapsed ? 'collapsed' : ''}`;
         
         let cinemasHtml = '';
         const sortedCinemas = Object.keys(cardData.cinemas).sort();
+        const cinemasListText = sortedCinemas.map(c => c.replace('Cine Yelmo ', '').replace('mk2 Cinesur ', '')).join(', ');
         
         sortedCinemas.forEach(cinemaName => {
             const cinemaData = cardData.cinemas[cinemaName];
@@ -476,10 +558,18 @@ function renderDayView() {
 
         cardElement.innerHTML = `
             <div class="card-content">
-                <h2 class="movie-title">${cardData.movie}</h2>
+                <div class="movie-card-header">
+                    <h2 class="movie-title">${cardData.movie}</h2>
+                    <button class="btn-toggle-card" title="Toggle Showtimes">
+                        <i class="fa-solid fa-chevron-${isCollapsed ? 'down' : 'up'}"></i>
+                    </button>
+                </div>
                 ${cardData.original_title ? `<div class="movie-original-title">${cardData.original_title}</div>` : ''}
                 <div class="movie-lang" title="${cardData.language}">
                     ${cardData.original_language ? `<span class="lang-badge">${cardData.original_language}</span>` : ''}${cardData.language}
+                </div>
+                <div class="cinemas-inline-list">
+                    ${cinemasListText}
                 </div>
                 <div class="showtimes-section">
                     <span class="showtimes-label">VOSE Showtimes:</span>
@@ -489,6 +579,17 @@ function renderDayView() {
                 </div>
             </div>
         `;
+
+        const toggleBtn = cardElement.querySelector('.btn-toggle-card');
+        toggleBtn.addEventListener('click', () => {
+            if (STATE.collapsedMovies.includes(cardData.movie)) {
+                STATE.collapsedMovies = STATE.collapsedMovies.filter(m => m !== cardData.movie);
+            } else {
+                STATE.collapsedMovies.push(cardData.movie);
+            }
+            saveState();
+            renderShowtimes();
+        });
         
         grid.appendChild(cardElement);
     });
@@ -581,11 +682,17 @@ function renderMovieView() {
 
     moviesArray.forEach(movieData => {
         const cardElement = document.createElement('article');
-        cardElement.className = 'movie-card';
+        const isCollapsed = STATE.collapsedMovies.includes(movieData.title);
+        cardElement.className = `movie-card ${isCollapsed ? 'collapsed' : ''}`;
 
         // Build HTML for dates and their cinema showtimes
         let datesHtml = '';
         const sortedDates = Object.keys(movieData.dates).sort();
+
+        // Get unique cinemas across all dates for the summary view
+        const allCinemas = new Set();
+        sortedDates.forEach(d => Object.keys(movieData.dates[d]).forEach(c => allCinemas.add(c.replace('Cine Yelmo ', '').replace('mk2 Cinesur ', ''))));
+        const cinemasListText = Array.from(allCinemas).sort().join(', ');
 
         sortedDates.forEach(dateStr => {
             const formattedDate = formatDateString(dateStr);
@@ -627,10 +734,18 @@ function renderMovieView() {
 
         cardElement.innerHTML = `
             <div class="card-content">
-                <h2 class="movie-title">${movieData.title}</h2>
+                <div class="movie-card-header">
+                    <h2 class="movie-title">${movieData.title}</h2>
+                    <button class="btn-toggle-card" title="Toggle Showtimes">
+                        <i class="fa-solid fa-chevron-${isCollapsed ? 'down' : 'up'}"></i>
+                    </button>
+                </div>
                 ${movieData.original_title ? `<div class="movie-original-title">${movieData.original_title}</div>` : ''}
                 <div class="movie-lang" title="${movieData.language}">
                     ${movieData.original_language ? `<span class="lang-badge">${movieData.original_language}</span>` : ''}${movieData.language}
+                </div>
+                <div class="cinemas-inline-list">
+                    ${cinemasListText}
                 </div>
                 <div class="showtimes-section">
                     <span class="showtimes-label">All Screenings (VOSE):</span>
@@ -640,6 +755,17 @@ function renderMovieView() {
                 </div>
             </div>
         `;
+
+        const toggleBtn = cardElement.querySelector('.btn-toggle-card');
+        toggleBtn.addEventListener('click', () => {
+            if (STATE.collapsedMovies.includes(movieData.title)) {
+                STATE.collapsedMovies = STATE.collapsedMovies.filter(m => m !== movieData.title);
+            } else {
+                STATE.collapsedMovies.push(movieData.title);
+            }
+            saveState();
+            renderShowtimes();
+        });
 
         grid.appendChild(cardElement);
     });
