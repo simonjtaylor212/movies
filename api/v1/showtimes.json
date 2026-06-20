@@ -2875,6 +2875,19 @@
   {
     "cinema": "Cine Yelmo Plaza Mayor",
     "date": "2026-07-03",
+    "movie": "Akira (Reestreno)",
+    "format": "2D",
+    "language": "JAPONÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "Japanese",
+    "time": "18:00",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=40071",
+    "projection_type": "Anime",
+    "movie_title_language": "ES",
+    "date_added": "2026-06-20 05:35:56"
+  },
+  {
+    "cinema": "Cine Yelmo Plaza Mayor",
+    "date": "2026-07-03",
     "movie": "Minions & Monsters",
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
@@ -2927,6 +2940,19 @@
   {
     "cinema": "Cine Yelmo Plaza Mayor",
     "date": "2026-07-04",
+    "movie": "Akira (Reestreno)",
+    "format": "2D",
+    "language": "JAPONÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "Japanese",
+    "time": "18:00",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=40072",
+    "projection_type": "Anime",
+    "movie_title_language": "ES",
+    "date_added": "2026-06-20 05:35:56"
+  },
+  {
+    "cinema": "Cine Yelmo Plaza Mayor",
+    "date": "2026-07-04",
     "movie": "Minions & Monsters",
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
@@ -2975,6 +3001,19 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-06-17 00:00:28"
+  },
+  {
+    "cinema": "Cine Yelmo Plaza Mayor",
+    "date": "2026-07-05",
+    "movie": "Akira (Reestreno)",
+    "format": "2D",
+    "language": "JAPONÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "Japanese",
+    "time": "18:00",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=40073",
+    "projection_type": "Anime",
+    "movie_title_language": "ES",
+    "date_added": "2026-06-20 05:35:56"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -3131,6 +3170,19 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-06-17 00:00:28"
+  },
+  {
+    "cinema": "Cine Yelmo Plaza Mayor",
+    "date": "2026-07-08",
+    "movie": "Akira (Reestreno)",
+    "format": "2D",
+    "language": "JAPONÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "Japanese",
+    "time": "18:00",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=40074",
+    "projection_type": "Anime",
+    "movie_title_language": "ES",
+    "date_added": "2026-06-20 05:35:56"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -39249,12 +39301,12 @@
   {
     "cinema": "Cinesa Méndez Álvaro",
     "date": "2026-06-24",
-    "movie": "El Día de la Revelación",
+    "movie": "He-Man y Los Masters Del Universo",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
     "time": "12:20",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=123-86202",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=123-86212",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-06-19 09:45:23"
@@ -39262,12 +39314,12 @@
   {
     "cinema": "Cinesa Méndez Álvaro",
     "date": "2026-06-24",
-    "movie": "He-Man y Los Masters Del Universo",
+    "movie": "El Día de la Revelación",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
     "time": "12:20",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=123-86212",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=123-86202",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-06-19 09:45:23"
@@ -43548,6 +43600,58 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-06-19 09:45:23"
+  },
+  {
+    "cinema": "Cinesa Proyecciones",
+    "date": "2026-07-17",
+    "movie": "La Odisea",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "00:00",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=018-40262",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-06-20 05:35:56"
+  },
+  {
+    "cinema": "Cinesa Manoteras",
+    "date": "2026-07-17",
+    "movie": "La Odisea",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "00:00",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-104805",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-06-20 05:35:56"
+  },
+  {
+    "cinema": "Cinesa Diagonal",
+    "date": "2026-07-17",
+    "movie": "La Odisea",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "00:00",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=012-51151",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-06-20 05:35:56"
+  },
+  {
+    "cinema": "Cinesa Diagonal Mar",
+    "date": "2026-07-17",
+    "movie": "La Odisea",
+    "format": "IMAX",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "00:00",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=032-54051",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-06-20 05:35:56"
   },
   {
     "cinema": "Cinesa LUXE Loranca",
