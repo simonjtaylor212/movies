@@ -193,13 +193,6 @@ a {
     gap: 20px;
     backdrop-filter: blur(12px);
     box-shadow: var(--shadow-sm);
-    position: relative;
-    transition: var(--transition-smooth);
-}
-
-.filter-toolbar.collapsed {
-    gap: 12px;
-    padding-bottom: 48px;
 }
 
 .search-container {
@@ -233,70 +226,6 @@ a {
     transform: translateY(-50%);
     color: var(--text-muted);
     pointer-events: none;
-}
-
-.filter-details {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    overflow: hidden;
-    transition: max-height 0.4s ease, opacity 0.3s ease, transform 0.3s ease;
-    max-height: 2000px;
-    opacity: 1;
-}
-
-.filter-toolbar.collapsed .filter-details {
-    max-height: 0;
-    opacity: 0;
-    pointer-events: none;
-    transform: translateY(-10px);
-}
-
-.filter-summary {
-    display: none;
-    flex-wrap: wrap;
-    gap: 8px;
-    padding: 4px 0;
-    cursor: pointer;
-}
-
-.filter-toolbar.collapsed .filter-summary {
-    display: flex;
-}
-
-.summary-chip {
-    padding: 4px 10px;
-    background: rgba(255, 255, 255, 0.05);
-    border: 1px solid var(--border-color);
-    border-radius: 6px;
-    font-size: 0.75rem;
-    color: var(--text-secondary);
-    font-weight: 500;
-}
-
-.toggle-filters-btn {
-    position: absolute;
-    bottom: -1px;
-    left: 50%;
-    transform: translateX(-50%);
-    background: var(--bg-secondary);
-    border: 1px solid var(--border-color);
-    border-bottom: none;
-    border-radius: 12px 12px 0 0;
-    padding: 4px 24px;
-    color: var(--text-muted);
-    cursor: pointer;
-    transition: var(--transition-smooth);
-    z-index: 10;
-}
-
-.toggle-filters-btn:hover {
-    color: var(--text-primary);
-    background: var(--bg-card);
-}
-
-.filter-toolbar.collapsed .toggle-filters-btn i {
-    /* Rotation removed as icons are now swapped in JS */
 }
 
 .filter-group {
@@ -551,11 +480,6 @@ a {
     transition: var(--transition-smooth);
     backdrop-filter: blur(12px);
     box-shadow: var(--shadow-sm);
-    position: relative;
-}
-
-.movie-card.collapsed {
-    padding-bottom: 0;
 }
 
 .movie-card:hover {
@@ -627,13 +551,6 @@ a {
     flex-grow: 1;
 }
 
-.movie-card-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    gap: 12px;
-}
-
 .movie-title {
     font-family: var(--font-heading);
     font-size: 1.25rem;
@@ -641,25 +558,6 @@ a {
     line-height: 1.3;
     margin-bottom: 8px;
     color: var(--text-primary);
-    flex-grow: 1;
-}
-
-.btn-toggle-card {
-    background: transparent;
-    border: none;
-    color: var(--text-muted);
-    cursor: pointer;
-    padding: 4px;
-    font-size: 1.1rem;
-    transition: var(--transition-smooth);
-}
-
-.btn-toggle-card:hover {
-    color: var(--accent-secondary);
-}
-
-.movie-card.collapsed .btn-toggle-card i {
-    /* Rotation removed as icons are now swapped in JS */
 }
 
 .movie-original-title {
@@ -701,27 +599,6 @@ a {
 
 .showtimes-section {
     margin-top: auto;
-}
-
-.movie-card.collapsed .showtimes-section {
-    display: none;
-}
-
-.cinemas-inline-list {
-    display: none;
-    font-size: 0.75rem;
-    color: var(--text-muted);
-    margin-top: 8px;
-    font-weight: 500;
-    line-height: 1.4;
-}
-
-.movie-card.collapsed .cinemas-inline-list {
-    display: block;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
 }
 
 .showtimes-label {
