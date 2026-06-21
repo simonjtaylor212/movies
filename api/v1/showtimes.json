@@ -14925,19 +14925,6 @@
   },
   {
     "cinema": "Cine Yelmo Premium Castelldefels",
-    "date": "2026-06-21",
-    "movie": "The Amazing Digital Circus: The Last Act",
-    "format": "CA PREMIUM",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "12:00",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=814&showtimeVistaId=26475",
-    "projection_type": "Eventos Especiales",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-17 01:48:07"
-  },
-  {
-    "cinema": "Cine Yelmo Premium Castelldefels",
     "date": "2026-06-23",
     "movie": "Toy Story 5",
     "format": "PREMIUM",
@@ -30305,12 +30292,12 @@
   {
     "cinema": "Cinesa LUXE Equinoccio",
     "date": "2026-06-21",
-    "movie": "The Mandalorian and Grogu",
+    "movie": "El Día de la Revelación",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
     "time": "12:20",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=026-61567",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=026-61574",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-06-20 13:18:57"
@@ -30318,12 +30305,12 @@
   {
     "cinema": "Cinesa LUXE Equinoccio",
     "date": "2026-06-21",
-    "movie": "El Día de la Revelación",
+    "movie": "The Mandalorian and Grogu",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
     "time": "12:20",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=026-61574",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=026-61567",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-06-20 13:18:57"
@@ -30617,12 +30604,12 @@
   {
     "cinema": "Cinesa Méndez Álvaro",
     "date": "2026-06-21",
-    "movie": "Toy Story 5",
+    "movie": "El guardian del árbol de alcanfor",
     "format": "2D",
     "language": "V.O.S.E.",
-    "original_language": "English",
+    "original_language": "",
     "time": "15:00",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=123-86181",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=123-85935",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-06-20 13:18:57"
@@ -30630,12 +30617,12 @@
   {
     "cinema": "Cinesa Méndez Álvaro",
     "date": "2026-06-21",
-    "movie": "El guardian del árbol de alcanfor",
+    "movie": "Toy Story 5",
     "format": "2D",
     "language": "V.O.S.E.",
-    "original_language": "",
+    "original_language": "English",
     "time": "15:00",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=123-85935",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=123-86181",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-06-20 13:18:57"
@@ -36129,12 +36116,12 @@
   {
     "cinema": "Cinesa Manoteras",
     "date": "2026-06-25",
-    "movie": "Michael",
+    "movie": "El placer es mío",
     "format": "2D",
     "language": "V.O.S.E.",
-    "original_language": "English",
+    "original_language": "French",
     "time": "18:50",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-105239",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-105237",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-06-20 13:18:57"
@@ -36142,12 +36129,12 @@
   {
     "cinema": "Cinesa Manoteras",
     "date": "2026-06-25",
-    "movie": "El placer es mío",
+    "movie": "Michael",
     "format": "2D",
     "language": "V.O.S.E.",
-    "original_language": "French",
+    "original_language": "English",
     "time": "18:50",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-105237",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-105239",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-06-20 13:18:57"
@@ -36324,12 +36311,12 @@
   {
     "cinema": "Cinesa Manoteras",
     "date": "2026-06-25",
-    "movie": "DREAMS",
+    "movie": "Toy Story 5",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
     "time": "22:30",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-105299",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-105301",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-06-20 13:18:57"
@@ -36337,12 +36324,12 @@
   {
     "cinema": "Cinesa Manoteras",
     "date": "2026-06-25",
-    "movie": "Toy Story 5",
+    "movie": "DREAMS",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
     "time": "22:30",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-105301",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-105299",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-06-20 13:18:57"
