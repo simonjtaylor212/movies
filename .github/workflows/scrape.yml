@@ -110,3 +110,13 @@ jobs:
           git pull --rebase -X theirs origin main
           git push origin main
         fi
+
+    - name: Alert on Scraper Fallback
+      if: always()
+      run: |
+        if [ -f SCRAPER_ALERT ]; then
+          echo "::error::One or more scrapers failed and returned 0 showings. Used cached fallback data."
+          echo "The following scrapers triggered the fallback:"
+          cat SCRAPER_ALERT
+          exit 1
+        fi

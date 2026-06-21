@@ -337,21 +337,67 @@ def scrape_cinesur(movie_langs):
     print(f"mk2 Cinesur scraped: found {len(all_sessions)} VOSE sessions.")
     return all_sessions
 
+def run_scraper_with_fallback(scraper_func, chain_identifier, previous_showtimes, *args):
+    data = []
+    try:
+        data = scraper_func(*args)
+    except Exception as e:
+        print(f"Error in {chain_identifier} scraper: {e}")
+
+    if not data:
+        print(f"Warning: {chain_identifier} scraper returned 0 showings. Using fallback data.")
+        with open("SCRAPER_ALERT", "a", encoding="utf-8") as f:
+            f.write(f"{chain_identifier}\n")
+
+        for s in previous_showtimes:
+            # Simple substring match against cinema names
+            clow = s.get("cinema", "").lower()
+            if chain_identifier == "yelmo" and "yelmo" in clow: data.append(s)
+            elif chain_identifier == "albeniz" and ("albeniz" in clow or "albéniz" in clow): data.append(s)
+            elif chain_identifier == "kinepolis" and ("kinepolis" in clow or "kinépolis" in clow): data.append(s)
+            elif chain_identifier == "megarama" and "megarama" in clow: data.append(s)
+            elif chain_identifier == "renoir" and "renoir" in clow: data.append(s)
+            elif chain_identifier == "golem" and "golem" in clow: data.append(s)
+            elif chain_identifier == "ocine" and "ocine" in clow: data.append(s)
+            elif chain_identifier == "cinesur" and "cinesur" in clow: data.append(s)
+            elif chain_identifier == "cinesa" and "cinesa" in clow: data.append(s)
+
+        print(f"Recovered {len(data)} {chain_identifier} showings from previous run.")
+    return data
+
 def main():
     spain_tz = get_spain_timezone()
     now_local = datetime.now(spain_tz)
     print(f"Starting Scraper - Local time is {now_local.strftime('%Y-%m-%d %H:%M:%S %Z')}")
     
+    # Clean up previous SCRAPER_ALERT file if it exists
+    if os.path.exists("SCRAPER_ALERT"):
+        try:
+            os.remove("SCRAPER_ALERT")
+        except Exception as e:
+            print(f"Failed to clean up SCRAPER_ALERT: {e}")
+
+    # Load previous showtimes for fallback in case of scraper failures
+    previous_showtimes = []
+    output_path = "api/v1/showtimes.json"
+    if os.path.exists(output_path):
+        try:
+            with open(output_path, "r", encoding="utf-8") as f:
+                previous_showtimes = json.load(f)
+        except Exception as e:
+            print(f"Error loading previous showtimes for fallback: {e}")
+
     # 1. Fetch from all sources
-    yelmo_data = scrape_yelmo()
-    albeniz_data = scrape_albeniz()
-    kinepolis_data = scrape_kinepolis()
-    megarama_data = scrape_megarama()
-    renoir_data = scrape_renoir()
-    golem_data = scrape_golem()
+    yelmo_data = run_scraper_with_fallback(scrape_yelmo, "yelmo", previous_showtimes)
+    albeniz_data = run_scraper_with_fallback(scrape_albeniz, "albeniz", previous_showtimes)
+    kinepolis_data = run_scraper_with_fallback(scrape_kinepolis, "kinepolis", previous_showtimes)
+    megarama_data = run_scraper_with_fallback(scrape_megarama, "megarama", previous_showtimes)
+    renoir_data = run_scraper_with_fallback(scrape_renoir, "renoir", previous_showtimes)
+    golem_data = run_scraper_with_fallback(scrape_golem, "golem", previous_showtimes)
     
     # Load Cinesa from cache if present (scraped during the first PT VPN step in CI)
     cinesa_temp_path = "cinesa_temp.json"
+    cinesa_data = []
     if os.path.exists(cinesa_temp_path):
         try:
             with open(cinesa_temp_path, "r", encoding="utf-8") as f:
@@ -360,9 +406,9 @@ def main():
             os.remove(cinesa_temp_path)
         except Exception as e:
             print(f"Error loading Cinesa cache: {e}")
-            cinesa_data = scrape_cinesa()
+            cinesa_data = run_scraper_with_fallback(scrape_cinesa, "cinesa", previous_showtimes)
     else:
-        cinesa_data = scrape_cinesa()
+        cinesa_data = run_scraper_with_fallback(scrape_cinesa, "cinesa", previous_showtimes)
     
     # Build a title-to-language map from yelmo, albeniz, kinepolis, megarama, renoir, golem, cinesa
     movie_langs = {}
@@ -398,8 +444,8 @@ def main():
     # Normalize keys for lookup
     norm_movie_langs = {normalize_title(k): v for k, v in movie_langs.items()}
     
-    ocine_data = scrape_ocine(norm_movie_langs)
-    cinesur_data = scrape_cinesur(movie_langs)
+    ocine_data = run_scraper_with_fallback(scrape_ocine, "ocine", previous_showtimes, norm_movie_langs)
+    cinesur_data = run_scraper_with_fallback(scrape_cinesur, "cinesur", previous_showtimes, movie_langs)
     
     # 2. Combine
     all_showtimes = yelmo_data + albeniz_data + cinesur_data + kinepolis_data + megarama_data + ocine_data + renoir_data + golem_data + cinesa_data
