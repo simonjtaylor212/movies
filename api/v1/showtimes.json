@@ -17088,19 +17088,6 @@
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "original_language": "English",
-    "time": "11:50",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/139986/michael?mode=widget&change=0&ref=750&forceproxy=1",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-17 00:00:28"
-  },
-  {
-    "cinema": "mk2 Cinesur Miramar",
-    "date": "2026-06-21",
-    "movie": "Michael",
-    "format": "2D",
-    "language": "Original con subtítulos (VOSE)",
-    "original_language": "English",
     "time": "15:55",
     "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/139987/michael?mode=widget&change=0&ref=750&forceproxy=1",
     "projection_type": "Movie",
@@ -18159,19 +18146,6 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-06-17 22:12:59"
-  },
-  {
-    "cinema": "mk2 Cinesur El Ingenio",
-    "date": "2026-06-21",
-    "movie": "El Día de la Revelación",
-    "format": "2D",
-    "language": "Original con subtítulos (VOSE)",
-    "original_language": "English",
-    "time": "11:50",
-    "booking_url": "https://cine.entradas.com/cine/velez-malaga/cinesur-el-ingenio/evento/121739/el-dia-de-la-revelacion?mode=widget&change=0&ref=750&forceproxy=1",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-17 00:00:28"
   },
   {
     "cinema": "mk2 Cinesur El Ingenio",
@@ -31338,19 +31312,6 @@
     "original_language": "English",
     "time": "17:00",
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=010-34533",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-20 13:18:57"
-  },
-  {
-    "cinema": "Cinesa Diagonal",
-    "date": "2026-06-21",
-    "movie": "Toy Story 5",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "11:30",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=012-50183",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-06-20 13:18:57"
