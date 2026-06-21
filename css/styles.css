@@ -22,7 +22,6 @@
     --cinesur-color: #f59e0b;      /* Amber */
     --albeniz-color: #ec4899;      /* Pink */
     --kinepolis-color: #e11d48;    /* Crimson Red */
-    --megarama-color: #ea580c;     /* Orange Red */
     --ocine-color: #10b981;        /* Emerald Green */
     --renoir-color: #38bdf8;       /* Sky Blue */
     --golem-color: #a855f7;        /* Purple */
@@ -302,13 +301,6 @@ a {
     box-shadow: 0 4px 12px rgba(225, 29, 72, 0.3);
 }
 
-.chip.active[data-chain="megarama"] {
-    background: var(--megarama-color);
-    color: white;
-    border-color: transparent;
-    box-shadow: 0 4px 12px rgba(234, 88, 12, 0.3);
-}
-
 .chip.active[data-chain="ocine"] {
     background: var(--ocine-color);
     color: white;
@@ -371,13 +363,6 @@ a {
     color: white;
     border-color: transparent;
     box-shadow: 0 4px 12px rgba(225, 29, 72, 0.3);
-}
-
-.chip.active.active-chain-megarama {
-    background: var(--megarama-color);
-    color: white;
-    border-color: transparent;
-    box-shadow: 0 4px 12px rgba(234, 88, 12, 0.3);
 }
 
 .chip.active.active-chain-ocine {
@@ -521,11 +506,6 @@ a {
 
 .chain-badge.kinepolis {
     background: var(--kinepolis-color);
-    color: white;
-}
-
-.chain-badge.megarama {
-    background: var(--megarama-color);
     color: white;
 }
 
