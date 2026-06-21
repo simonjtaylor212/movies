@@ -13,7 +13,7 @@ const STATE = {
     translations: {},
     selectedDateStr: '', // Format YYYY-MM-DD
     selectedCity: 'madrid', // 'malaga', 'granada', 'madrid', 'barcelona'
-    selectedChain: 'all', // 'all', 'yelmo', 'cinesur', 'albeniz', 'kinepolis', 'megarama', 'ocine', 'renoir', 'golem', 'custom'
+    selectedChain: 'all', // 'all', 'yelmo', 'cinesur', 'albeniz', 'kinepolis', 'ocine', 'renoir', 'golem', 'custom'
     selectedCinemas: [], // Array of selected cinema names. Empty means all.
     selectedLanguages: [], // Array of selected language names. Empty means all.
     searchQuery: '',
@@ -674,7 +674,6 @@ function updateChainChipsActiveState() {
             else if (chain === 'cinesur') document.getElementById('chipCinesur').classList.add('active');
             else if (chain === 'albeniz') document.getElementById('chipAlbeniz').classList.add('active');
             else if (chain === 'kinepolis') document.getElementById('chipKinepolis').classList.add('active');
-            else if (chain === 'megarama') document.getElementById('chipMegarama').classList.add('active');
             else if (chain === 'ocine') document.getElementById('chipOcine').classList.add('active');
             else if (chain === 'renoir') document.getElementById('chipRenoir').classList.add('active');
             else if (chain === 'golem') document.getElementById('chipGolem').classList.add('active');
@@ -736,10 +735,9 @@ function updateCinemaSubChips() {
         if (chain === 'cinesur') return 3;
         if (chain === 'albeniz') return 4;
         if (chain === 'kinepolis') return 5;
-        if (chain === 'megarama') return 6;
-        if (chain === 'ocine') return 7;
-        if (chain === 'renoir') return 8;
-        if (chain === 'golem') return 9;
+        if (chain === 'ocine') return 6;
+        if (chain === 'renoir') return 7;
+        if (chain === 'golem') return 8;
         return 10;
     };
     
@@ -801,7 +799,6 @@ function getDisplayChain(chainClass) {
     if (chainClass === 'cinesur') return 'Cinesur';
     if (chainClass === 'albeniz') return 'Albéniz';
     if (chainClass === 'kinepolis') return 'Kinépolis';
-    if (chainClass === 'megarama') return 'Megarama';
     if (chainClass === 'ocine') return 'Ocine';
     if (chainClass === 'renoir') return 'Cines Renoir';
     if (chainClass === 'golem') return 'Cines Golem';
@@ -815,7 +812,6 @@ function getChainFromCinema(cinemaName) {
     if (name.includes('cinesur')) return 'cinesur';
     if (name.includes('albéniz') || name.includes('albeniz')) return 'albeniz';
     if (name.includes('kinepolis') || name.includes('kinépolis')) return 'kinepolis';
-    if (name.includes('megarama')) return 'megarama';
     if (name.includes('ocine')) return 'ocine';
     if (name.includes('renoir')) return 'renoir';
     if (name.includes('golem')) return 'golem';
@@ -865,7 +861,7 @@ function getCityFromCinema(cinemaName) {
     }
     
     // Granada chains
-    if (name.includes('megarama') || name.includes('ocine')) {
+    if (name.includes('ocine')) {
         return 'granada';
     }
     

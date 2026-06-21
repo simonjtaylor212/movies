@@ -6,7 +6,6 @@ import unicodedata
 from datetime import datetime, timezone, timedelta
 from bs4 import BeautifulSoup
 from scrape_kinepolis import scrape_kinepolis
-from scrape_megarama import scrape_megarama
 from scrape_ocine import scrape_ocine
 from scrape_renoir import scrape_renoir
 from scrape_golem import scrape_golem
@@ -355,7 +354,6 @@ def run_scraper_with_fallback(scraper_func, chain_identifier, previous_showtimes
             if chain_identifier == "yelmo" and "yelmo" in clow: data.append(s)
             elif chain_identifier == "albeniz" and ("albeniz" in clow or "albéniz" in clow): data.append(s)
             elif chain_identifier == "kinepolis" and ("kinepolis" in clow or "kinépolis" in clow): data.append(s)
-            elif chain_identifier == "megarama" and "megarama" in clow: data.append(s)
             elif chain_identifier == "renoir" and "renoir" in clow: data.append(s)
             elif chain_identifier == "golem" and "golem" in clow: data.append(s)
             elif chain_identifier == "ocine" and "ocine" in clow: data.append(s)
@@ -391,7 +389,6 @@ def main():
     yelmo_data = run_scraper_with_fallback(scrape_yelmo, "yelmo", previous_showtimes)
     albeniz_data = run_scraper_with_fallback(scrape_albeniz, "albeniz", previous_showtimes)
     kinepolis_data = run_scraper_with_fallback(scrape_kinepolis, "kinepolis", previous_showtimes)
-    megarama_data = run_scraper_with_fallback(scrape_megarama, "megarama", previous_showtimes)
     renoir_data = run_scraper_with_fallback(scrape_renoir, "renoir", previous_showtimes)
     golem_data = run_scraper_with_fallback(scrape_golem, "golem", previous_showtimes)
     
@@ -410,7 +407,7 @@ def main():
     else:
         cinesa_data = run_scraper_with_fallback(scrape_cinesa, "cinesa", previous_showtimes)
     
-    # Build a title-to-language map from yelmo, albeniz, kinepolis, megarama, renoir, golem, cinesa
+    # Build a title-to-language map from yelmo, albeniz, kinepolis, renoir, golem, cinesa
     movie_langs = {}
     for s in yelmo_data:
         lang = s.get("original_language", "")
@@ -421,10 +418,6 @@ def main():
         if lang:
             movie_langs[s["movie"]] = lang
     for s in kinepolis_data:
-        lang = s.get("original_language", "")
-        if lang:
-            movie_langs[s["movie"]] = lang
-    for s in megarama_data:
         lang = s.get("original_language", "")
         if lang:
             movie_langs[s["movie"]] = lang
@@ -448,7 +441,7 @@ def main():
     cinesur_data = run_scraper_with_fallback(scrape_cinesur, "cinesur", previous_showtimes, movie_langs)
     
     # 2. Combine
-    all_showtimes = yelmo_data + albeniz_data + cinesur_data + kinepolis_data + megarama_data + ocine_data + renoir_data + golem_data + cinesa_data
+    all_showtimes = yelmo_data + albeniz_data + cinesur_data + kinepolis_data + ocine_data + renoir_data + golem_data + cinesa_data
     
     # Guess original_language for movies that don't have it, based on other showings
     # Build a map from movies that DO have it
@@ -487,7 +480,6 @@ def main():
             elif "cinesur" in clow: chain = "Cinesur"
             elif "albeniz" in clow or "albéniz" in clow: chain = "Albéniz"
             elif "kinepolis" in clow or "kinépolis" in clow: chain = "Kinépolis"
-            elif "megarama" in clow: chain = "Megarama"
             elif "ocine" in clow: chain = "Ocine"
             elif "renoir" in clow: chain = "Renoir"
             elif "golem" in clow: chain = "Golem"
