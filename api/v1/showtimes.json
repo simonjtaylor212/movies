@@ -14148,19 +14148,6 @@
     "date": "2026-06-22",
     "movie": "Toy Story 5",
     "format": "PREMIUM",
-    "language": "CATALÁN SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "Catalan",
-    "time": "16:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1350&showtimeVistaId=41411",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-17 01:48:07"
-  },
-  {
-    "cinema": "Cine Yelmo Westfield La Maquinista",
-    "date": "2026-06-22",
-    "movie": "Toy Story 5",
-    "format": "PREMIUM",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "original_language": "English",
     "time": "20:55",
@@ -14178,19 +14165,6 @@
     "original_language": "English",
     "time": "20:10",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1350&showtimeVistaId=40512",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-17 01:48:07"
-  },
-  {
-    "cinema": "Cine Yelmo Westfield La Maquinista",
-    "date": "2026-06-23",
-    "movie": "Toy Story 5",
-    "format": "PREMIUM",
-    "language": "CATALÁN SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "Catalan",
-    "time": "16:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1350&showtimeVistaId=41431",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-06-17 01:48:07"
@@ -14226,36 +14200,10 @@
     "date": "2026-06-24",
     "movie": "Toy Story 5",
     "format": "PREMIUM",
-    "language": "CATALÁN SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "Catalan",
-    "time": "16:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1350&showtimeVistaId=41465",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-17 01:48:07"
-  },
-  {
-    "cinema": "Cine Yelmo Westfield La Maquinista",
-    "date": "2026-06-24",
-    "movie": "Toy Story 5",
-    "format": "PREMIUM",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "original_language": "English",
     "time": "20:55",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1350&showtimeVistaId=41466",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-17 01:48:07"
-  },
-  {
-    "cinema": "Cine Yelmo Westfield La Maquinista",
-    "date": "2026-06-25",
-    "movie": "Toy Story 5",
-    "format": "PREMIUM",
-    "language": "CATALÁN SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "Catalan",
-    "time": "16:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1350&showtimeVistaId=41498",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-06-17 01:48:07"
@@ -18947,11 +18895,11 @@
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
-    "time": "19:30",
+    "time": "20:00",
     "booking_url": "https://kinepolis.es/direct-vista-redirect/129277/0/KALCO/0",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-06-19 09:45:23"
+    "date_added": "2026-06-22 13:52:55"
   },
   {
     "cinema": "Kinépolis Madrid Diversia",
@@ -20496,19 +20444,6 @@
     "original_language": "English",
     "time": "16:30",
     "booking_url": "https://kinepolis.es/direct-vista-redirect/213751/0/KMAD/0",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-19 09:45:23"
-  },
-  {
-    "cinema": "Kinépolis Madrid Ciudad de la Imagen",
-    "date": "2026-06-22",
-    "movie": "The Mandalorian & Grogu",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "17:15",
-    "booking_url": "https://kinepolis.es/direct-vista-redirect/213761/0/KMAD/0",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-06-19 09:45:23"
@@ -22264,6 +22199,19 @@
     "original_language": "English",
     "time": "13:20",
     "booking_url": "https://kinepolis.es/direct-vista-redirect/98022/0/KNEVA/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-06-19 09:45:23"
+  },
+  {
+    "cinema": "Kinépolis Madrid Diversia",
+    "date": "2026-06-26",
+    "movie": "Supergirl",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "19:30",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/129277/0/KALCO/0",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-06-19 09:45:23"
@@ -26176,7 +26124,7 @@
     "language": "V.O.S.E.",
     "original_language": "French",
     "time": "16:30",
-    "booking_url": "https://www.golem.es/golem/urlcheck.php?idCine=8&perfCode=98354&eventCode=104654",
+    "booking_url": "https://www.golem.es/golem/urlcheck.php?idCine=8&perfCode=98397&eventCode=104654",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-06-17 00:00:28"
@@ -26189,7 +26137,7 @@
     "language": "V.O.S.E.",
     "original_language": "French",
     "time": "19:00",
-    "booking_url": "https://www.golem.es/golem/urlcheck.php?idCine=8&perfCode=98355&eventCode=104654",
+    "booking_url": "https://www.golem.es/golem/urlcheck.php?idCine=8&perfCode=98398&eventCode=104654",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-06-17 00:00:28"
@@ -26202,7 +26150,7 @@
     "language": "V.O.S.E.",
     "original_language": "French",
     "time": "21:30",
-    "booking_url": "https://www.golem.es/golem/urlcheck.php?idCine=8&perfCode=98356&eventCode=104654",
+    "booking_url": "https://www.golem.es/golem/urlcheck.php?idCine=8&perfCode=98399&eventCode=104654",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-06-17 00:00:28"
