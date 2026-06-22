@@ -189,13 +189,85 @@ a {
     margin-bottom: 40px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 16px;
     backdrop-filter: blur(12px);
     box-shadow: var(--shadow-sm);
+    transition: var(--transition-smooth);
+}
+
+.filter-toolbar-header {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.filter-toggle-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 16px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    color: var(--text-primary);
+    font-family: var(--font-body);
+    font-size: 0.875rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: var(--transition-smooth);
+    white-space: nowrap;
+}
+
+.filter-toggle-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: var(--text-muted);
+}
+
+.filter-toggle-btn .toggle-icon {
+    font-size: 0.75rem;
+    transition: transform 0.3s ease;
+}
+
+.filter-toggle-btn[aria-expanded="true"] .toggle-icon {
+    transform: rotate(180deg);
+}
+
+.active-filters-summary {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 8px;
+    overflow-x: auto;
+    padding-bottom: 4px;
+    scrollbar-width: none; /* Hide scrollbar for cleaner look */
+}
+
+.active-filters-summary::-webkit-scrollbar {
+    display: none;
+}
+
+.active-filters-summary:empty {
+    display: none;
+}
+
+.filter-panel {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    overflow: hidden;
+    transition: max-height 0.3s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.3s ease, margin-top 0.3s ease;
+    max-height: 2000px; /* Large enough to contain all filters */
+    opacity: 1;
+}
+
+.filter-panel.collapsed {
+    max-height: 0;
+    opacity: 0;
+    margin-top: -16px; /* Counteract gap */
+    pointer-events: none;
 }
 
 .search-container {
-    width: 100%;
+    flex-grow: 1;
     position: relative;
 }
 
@@ -666,11 +738,38 @@ a {
     
     .filter-toolbar {
         padding: 16px;
+        gap: 12px;
+    }
+
+    .filter-toolbar-header {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 12px;
+    }
+
+    .filter-toggle-btn {
+        justify-content: center;
     }
     
     .movie-grid {
         grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
         gap: 20px;
+    }
+}
+
+/* --- ACCESSIBILITY --- */
+@media (prefers-reduced-motion: reduce) {
+    .filter-panel,
+    .filter-toggle-btn .toggle-icon,
+    .filter-toolbar,
+    .movie-card,
+    .time-pill,
+    .chip,
+    .date-card,
+    .view-btn {
+        transition: none !important;
+        animation: none !important;
+        transform: none !important;
     }
 }
 
