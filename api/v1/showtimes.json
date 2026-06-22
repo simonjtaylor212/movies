@@ -29668,12 +29668,12 @@
   {
     "cinema": "Cinesa Méndez Álvaro",
     "date": "2026-06-24",
-    "movie": "He-Man y Los Masters Del Universo",
+    "movie": "El Día de la Revelación",
     "format": "2D",
     "language": "V.O.S.E.",
-    "original_language": "",
+    "original_language": "English",
     "time": "12:20",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=123-86212",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=123-86202",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-06-20 13:18:57"
@@ -29681,12 +29681,12 @@
   {
     "cinema": "Cinesa Méndez Álvaro",
     "date": "2026-06-24",
-    "movie": "El Día de la Revelación",
+    "movie": "He-Man y Los Masters Del Universo",
     "format": "2D",
     "language": "V.O.S.E.",
-    "original_language": "English",
+    "original_language": "",
     "time": "12:20",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=123-86202",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=123-86212",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-06-20 13:18:57"
@@ -30929,12 +30929,12 @@
   {
     "cinema": "Cinesa Las Rozas",
     "date": "2026-06-25",
-    "movie": "Michael",
+    "movie": "El Drama",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
     "time": "19:10",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=034-110536",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=034-110538",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-06-20 13:18:57"
@@ -30942,12 +30942,12 @@
   {
     "cinema": "Cinesa Las Rozas",
     "date": "2026-06-25",
-    "movie": "El Drama",
+    "movie": "Michael",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
     "time": "19:10",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=034-110538",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=034-110536",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-06-20 13:18:57"
@@ -31215,12 +31215,12 @@
   {
     "cinema": "Cinesa Manoteras",
     "date": "2026-06-25",
-    "movie": "El placer es mío",
+    "movie": "Michael",
     "format": "2D",
     "language": "V.O.S.E.",
-    "original_language": "French",
+    "original_language": "English",
     "time": "18:50",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-105237",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-105239",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-06-20 13:18:57"
@@ -31228,12 +31228,12 @@
   {
     "cinema": "Cinesa Manoteras",
     "date": "2026-06-25",
-    "movie": "Michael",
+    "movie": "El placer es mío",
     "format": "2D",
     "language": "V.O.S.E.",
-    "original_language": "English",
+    "original_language": "French",
     "time": "18:50",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-105239",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-105237",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-06-20 13:18:57"
@@ -40094,6 +40094,19 @@
   {
     "cinema": "Cinesa Méndez Álvaro",
     "date": "2026-07-28",
+    "movie": "WHAM! 10 Days in China",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "",
+    "time": "21:05",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=123-86217",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-06-22 06:08:11"
+  },
+  {
+    "cinema": "Cinesa Méndez Álvaro",
+    "date": "2026-07-28",
     "movie": "La Odisea",
     "format": "2D",
     "language": "V.O.S.E.",
@@ -40259,6 +40272,19 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-06-20 13:18:57"
+  },
+  {
+    "cinema": "Cinesa SOM Multiespai",
+    "date": "2026-07-28",
+    "movie": "WHAM! 10 Days in China",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "",
+    "time": "21:05",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=017-56594",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-06-22 06:08:11"
   },
   {
     "cinema": "Cinesa SOM Multiespai",
