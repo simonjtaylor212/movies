@@ -1,22 +1,24 @@
-Starting Scraper - Local time is 2026-06-23 05:29:50 CEST
+Starting Scraper - Local time is 2026-06-23 11:33:48 CEST
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
-Error fetching Yelmo malaga: HTTPSConnectionPool(host='www.yelmocines.es', port=443): Read timed out. (read timeout=15)
   Fetching Yelmo madrid...
   Fetching Yelmo barcelona...
-Yelmo scraped: found 1152 VOSE sessions.
+Yelmo scraped: found 1451 VOSE sessions.
 Scraping Cine Albéniz...
 Stopping Cine Albéniz scrape after 5 consecutive empty days.
 Cine Albéniz scraped: found 37 VOSE sessions.
 Scraping Kinépolis Granada & Nevada...
 Kinépolis Granada & Nevada: Scraped 347 VOSE sessions.
 Scraping Cines Renoir...
-Cines Renoir: Scraped 373 VOSE sessions.
+Cines Renoir: Scraped 464 VOSE sessions.
 Scraping Cines Golem...
 Cines Golem Madrid: Scraped 34 VOSE sessions.
 Loaded 1307 Cinesa showtimes from cache.
 Scraping Ocine Serrallo...
-Ocine Serrallo: Scraped 3 sessions.
+Error scraping Ocine Serrallo: HTTPSConnectionPool(host='www.ocineserrallo.es', port=443): Max retries exceeded with url: /components/com_cines/json/es_cartellera.json (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))
+Ocine Serrallo: Scraped 0 sessions.
+Warning: ocine scraper returned 0 showings. Using fallback data.
+Recovered 3 ocine showings from previous run.
 Scraping mk2 Cinesur...
   mk2 Cinesur Miramar: found 70 sessions.
   mk2 Cinesur El Ingenio: found 29 sessions.
@@ -26,8 +28,8 @@ original language not found for 5 movies in Cinesa chain
 original language not found for 2 movies in Cinesur chain
 original language not found for 2 movies in Golem chain
 original language not found for 2 movies in Renoir chain
-Successfully generated api/v1/showtimes.json with 3399 listings.
-No new showings found.
+Successfully generated api/v1/showtimes.json with 3789 listings.
+Appended 390 new showings to new_showtimes.json
 
 Resolving missing movie title translations...
 Found 12 movies without original names.
