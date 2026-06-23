@@ -19,10 +19,12 @@ const STATE = {
     searchQuery: '',
     viewMode: 'day', // 'day' or 'movie'
     onlyMovies: true,
-    expandedMovies: [] // Array of movie titles
+    expandedMovies: [], // Array of movie titles
+    isFiltersExpanded: true
 };
 
 const STORAGE_KEY = 'vose_spain_settings';
+const SESSION_KEY = 'vose_spain_session';
 
 function saveState() {
     const stateToSave = {
@@ -37,6 +39,11 @@ function saveState() {
         expandedMovies: STATE.expandedMovies
     };
     localStorage.setItem(STORAGE_KEY, JSON.stringify(stateToSave));
+
+    // Session-only persistence for UI state
+    sessionStorage.setItem(SESSION_KEY, JSON.stringify({
+        isFiltersExpanded: STATE.isFiltersExpanded
+    }));
 }
 
 function loadState() {
@@ -56,8 +63,20 @@ function loadState() {
     } catch (e) {
         console.error('Error loading state from localStorage:', e);
     }
-}
 
+    const savedSession = sessionStorage.getItem(SESSION_KEY);
+    if (savedSession) {
+        try {
+            const parsed = JSON.parse(savedSession);
+            if (parsed.isFiltersExpanded !== undefined) STATE.isFiltersExpanded = parsed.isFiltersExpanded;
+        } catch (e) {
+            console.error('Error loading session state:', e);
+        }
+    } else {
+        // Default based on screen size if no session state
+        STATE.isFiltersExpanded = window.innerWidth > 768;
+    }
+}
 // --- MONTH NAMES IN ENGLISH ---
 const MONTH_NAMES = [
     "January", "February", "March", "April", "May", "June",
@@ -222,7 +241,20 @@ function initFilters() {
         STATE.searchQuery = e.target.value.trim().toLowerCase();
         saveState();
         renderShowtimes();
+        updateActiveFiltersSummary();
     });
+
+    // Filter Toggle
+    const filterToggle = document.getElementById('filterToggle');
+    if (filterToggle) {
+        filterToggle.addEventListener('click', () => {
+            toggleFilters(!STATE.isFiltersExpanded);
+        });
+    }
+
+    // Initial UI state for filters
+    toggleFilters(STATE.isFiltersExpanded, false);
+    updateActiveFiltersSummary();
     
     // Set active city chip based on state on load
     updateActiveCityChip();
@@ -259,6 +291,7 @@ function initFilters() {
             saveState();
             updateCinemaSubChips();
             renderShowtimes();
+            updateActiveFiltersSummary();
         });
     });
 
@@ -302,6 +335,7 @@ function initFilters() {
             STATE.onlyMovies = e.target.checked;
             saveState();
             renderShowtimes();
+            updateActiveFiltersSummary();
         });
     }
 }
@@ -342,6 +376,7 @@ async function loadShowtimes() {
         updateCinemaSubChips(); // Initialize sub-chips
         updateLanguageChips(); // Initialize language chips
         renderShowtimes();
+        updateActiveFiltersSummary();
     } catch (error) {
         console.error('Error loading showtimes:', error);
         grid.innerHTML = `
@@ -860,6 +895,7 @@ function updateCinemaSubChips() {
             saveState();
             updateCinemaSubChips();
             renderShowtimes();
+            updateActiveFiltersSummary();
         });
         subChipsContainer.appendChild(chip);
     });
@@ -1018,6 +1054,7 @@ function updateLanguageChips() {
             saveState();
             updateLanguageChips();
             renderShowtimes();
+            updateActiveFiltersSummary();
         });
         container.appendChild(chip);
     });
@@ -1041,6 +1078,176 @@ function updateURLCity(city) {
         url.searchParams.set('city', city);
         window.history.replaceState({}, '', url);
     }
+}
+
+function updateActiveFiltersSummary() {
+    const summaryContainer = document.getElementById('activeFiltersSummary');
+    if (!summaryContainer) return;
+    summaryContainer.innerHTML = '';
+
+    const addChip = (label, onClear, targetId) => {
+        const chip = document.createElement('div');
+        chip.className = 'chip active';
+        chip.style.display = 'flex';
+        chip.style.alignItems = 'center';
+        chip.style.gap = '8px';
+        chip.style.fontSize = '0.75rem';
+        chip.style.padding = '6px 12px';
+
+        const text = document.createElement('span');
+        text.textContent = label;
+        text.style.cursor = 'pointer';
+        text.addEventListener('click', () => {
+            if (!STATE.isFiltersExpanded) {
+                toggleFilters(true);
+            }
+            if (targetId) {
+                const target = document.getElementById(targetId);
+                if (target) {
+                    target.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                    target.focus();
+                }
+            }
+        });
+
+        const clearBtn = document.createElement('i');
+        clearBtn.className = 'fa-solid fa-xmark';
+        clearBtn.style.cursor = 'pointer';
+        clearBtn.setAttribute('aria-label', `Clear ${label} filter`);
+        clearBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            onClear();
+        });
+
+        chip.appendChild(text);
+        chip.appendChild(clearBtn);
+        summaryContainer.appendChild(chip);
+    };
+
+    // 1. City Chip (always selected, but we show it as a chip when collapsed)
+    if (!STATE.isFiltersExpanded) {
+        const cityLabel = document.querySelector(`#cityChips .chip[data-city="${STATE.selectedCity}"]`)?.textContent || STATE.selectedCity;
+        addChip(`City: ${cityLabel}`, () => {}, 'cityChips');
+    }
+
+    // 2. Chain Chip
+    if (STATE.selectedChain !== 'all') {
+        const chainLabel = getDisplayChain(STATE.selectedChain);
+        addChip(`Chain: ${chainLabel}`, () => {
+            STATE.selectedChain = 'all';
+            STATE.selectedCinemas = [];
+            updateChainChipsActiveState();
+            saveState();
+            updateCinemaChainChips();
+            updateCinemaSubChips();
+            renderShowtimes();
+            updateActiveFiltersSummary();
+        }, 'cinemaChips');
+    }
+
+    // 3. Cinemas Chips (if custom)
+    if (STATE.selectedChain === 'custom' && STATE.selectedCinemas.length > 0) {
+        if (STATE.selectedCinemas.length <= 2) {
+            STATE.selectedCinemas.forEach(cinema => {
+                const shortName = cinema.replace('Cine Yelmo ', '').replace('mk2 Cinesur ', '');
+                addChip(shortName, () => {
+                    STATE.selectedCinemas = STATE.selectedCinemas.filter(c => c !== cinema);
+                    updateChainChipsActiveState();
+                    saveState();
+                    updateCinemaSubChips();
+                    renderShowtimes();
+                    updateActiveFiltersSummary();
+                }, 'cinemaSubChips');
+            });
+        } else {
+            addChip(`${STATE.selectedCinemas.length} Cinemas`, () => {
+                STATE.selectedCinemas = [];
+                updateChainChipsActiveState();
+                saveState();
+                updateCinemaSubChips();
+                renderShowtimes();
+                updateActiveFiltersSummary();
+            }, 'cinemaSubChips');
+        }
+    }
+
+    // 4. Languages Chips
+    if (STATE.selectedLanguages.length > 0) {
+        if (STATE.selectedLanguages.length <= 2) {
+            STATE.selectedLanguages.forEach(lang => {
+                addChip(lang, () => {
+                    STATE.selectedLanguages = STATE.selectedLanguages.filter(l => l !== lang);
+                    saveState();
+                    updateLanguageChips();
+                    renderShowtimes();
+                    updateActiveFiltersSummary();
+                }, 'languageChips');
+            });
+        } else {
+            addChip(`${STATE.selectedLanguages.length} Languages`, () => {
+                STATE.selectedLanguages = [];
+                saveState();
+                updateLanguageChips();
+                renderShowtimes();
+                updateActiveFiltersSummary();
+            }, 'languageChips');
+        }
+    }
+
+    // 5. Search Chip
+    if (STATE.searchQuery) {
+        addChip(`Search: ${STATE.searchQuery}`, () => {
+            STATE.searchQuery = '';
+            const searchInput = document.getElementById('searchInput');
+            if (searchInput) searchInput.value = '';
+            saveState();
+            renderShowtimes();
+            updateActiveFiltersSummary();
+        }, 'searchInput');
+    }
+
+    // 6. Only Movies Chip (if unchecked)
+    if (!STATE.onlyMovies) {
+        addChip('Show all (events incl.)', () => {
+            STATE.onlyMovies = true;
+            const chk = document.getElementById('chkOnlyMovies');
+            if (chk) chk.checked = true;
+            saveState();
+            renderShowtimes();
+            updateActiveFiltersSummary();
+        }, 'chkOnlyMovies');
+    }
+}
+
+function toggleFilters(isExpanded, animate = true) {
+    const panel = document.getElementById('filterPanel');
+    const toggle = document.getElementById('filterToggle');
+    if (!panel || !toggle) return;
+
+    STATE.isFiltersExpanded = isExpanded;
+    saveState();
+
+    toggle.setAttribute('aria-expanded', isExpanded);
+
+    if (!animate) {
+        const originalTransition = panel.style.transition;
+        panel.style.transition = 'none';
+        if (isExpanded) {
+            panel.classList.remove('collapsed');
+        } else {
+            panel.classList.add('collapsed');
+        }
+        // Force reflow
+        panel.offsetHeight;
+        panel.style.transition = originalTransition;
+    } else {
+        if (isExpanded) {
+            panel.classList.remove('collapsed');
+        } else {
+            panel.classList.add('collapsed');
+        }
+    }
+    updateActiveFiltersSummary();
 }
 
 function selectCity(city, pushToHistory = false) {
@@ -1074,6 +1281,7 @@ function selectCity(city, pushToHistory = false) {
     updateCinemaSubChips();
     updateLanguageChips();
     renderShowtimes();
+    updateActiveFiltersSummary();
 }
 
 function updateActiveCityChip() {
