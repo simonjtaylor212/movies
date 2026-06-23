@@ -1,9 +1,9 @@
-Starting Scraper - Local time is 2026-06-23 00:47:41 CEST
+Starting Scraper - Local time is 2026-06-23 02:05:53 CEST
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
   Fetching Yelmo madrid...
   Fetching Yelmo barcelona...
-Yelmo scraped: found 1361 VOSE sessions.
+Yelmo scraped: found 1420 VOSE sessions.
 Scraping Cine Albéniz...
 Stopping Cine Albéniz scrape after 5 consecutive empty days.
 Cine Albéniz scraped: found 37 VOSE sessions.
@@ -13,7 +13,7 @@ Scraping Cines Renoir...
 Cines Renoir: Scraped 373 VOSE sessions.
 Scraping Cines Golem...
 Cines Golem Madrid: Scraped 34 VOSE sessions.
-Loaded 1287 Cinesa showtimes from cache.
+Loaded 1307 Cinesa showtimes from cache.
 Scraping Ocine Serrallo...
 Ocine Serrallo: Scraped 3 sessions.
 Scraping mk2 Cinesur...
@@ -25,12 +25,11 @@ original language not found for 5 movies in Cinesa chain
 original language not found for 2 movies in Cinesur chain
 original language not found for 2 movies in Golem chain
 original language not found for 2 movies in Renoir chain
-Updated movie_title_translations.json
-Successfully generated api/v1/showtimes.json with 3588 listings.
-Appended 59 new showings to new_showtimes.json
+Successfully generated api/v1/showtimes.json with 3667 listings.
+Appended 79 new showings to new_showtimes.json
 
 Resolving missing movie title translations...
-Found 13 movies without original names.
+Found 12 movies without original names.
 No TMDB_API_KEY detected. Using keyless TMDB scraper and Wikidata fallbacks.
 
 Searching for: '20 Años del MET en cines - Grabado MET 26-27'
@@ -66,15 +65,12 @@ Searching for: 'Sia 2016 Coachella'
 Searching for: 'VIAJE AL PAÍS DE LOS BLANCOS [PROYECTO VIRIDIANA]'
   -> Could not resolve original name for 'VIAJE AL PAÍS DE LOS BLANCOS [PROYECTO VIRIDIANA]'
 
-Searching for: 'Vaiana'
-  -> Found via TMDB Web: 'Moana'
-
 Searching for: 'WHAT A FEELING [CINE CON ORGULLO RENOIR]'
   -> Could not resolve original name for 'WHAT A FEELING [CINE CON ORGULLO RENOIR]'
 
-Successfully updated 1 translation(s) in movie_title_translations.json.
+No translations were updated.
 
 === Cinesa Scraper Logs (Portugal VPN) ===
 Scraping Cinesa (Madrid & Barcelona)...
 Cinesa: Found 39 business dates with showtimes: ['2026-06-23', '2026-06-24', '2026-06-25', '2026-06-26', '2026-06-27', '2026-06-28', '2026-06-29', '2026-07-01', '2026-07-02', '2026-07-03', '2026-07-04', '2026-07-05', '2026-07-08', '2026-07-09', '2026-07-10', '2026-07-11', '2026-07-12', '2026-07-16', '2026-07-17', '2026-07-18', '2026-07-19', '2026-07-20', '2026-07-21', '2026-07-22', '2026-07-23', '2026-07-24', '2026-07-25', '2026-07-26', '2026-07-27', '2026-07-28', '2026-07-29', '2026-07-30', '2026-07-31', '2026-08-01', '2026-08-02', '2026-08-03', '2026-08-04', '2026-08-05', '2026-08-06']
-Cinesa (Madrid & Barcelona): Scraped 1287 VOSE sessions.
+Cinesa (Madrid & Barcelona): Scraped 1307 VOSE sessions.
