@@ -545,6 +545,79 @@ a {
     box-shadow: var(--shadow-lg), 0 0 20px rgba(139, 92, 246, 0.15);
 }
 
+.movie-card.collapsible {
+    cursor: pointer;
+}
+
+.movie-card.collapsible:focus-visible {
+    outline: 2px solid var(--accent-primary);
+    outline-offset: 4px;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.toggle-icon {
+    font-size: 1.25rem;
+    color: var(--text-muted);
+    transition: var(--transition-smooth);
+    margin-top: 4px;
+}
+
+.movie-card.expanded .toggle-icon {
+    transform: rotate(180deg);
+    color: var(--accent-secondary);
+}
+
+.collapsed-content {
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    transition: var(--transition-smooth);
+}
+
+.movie-card.expanded .collapsed-content {
+    display: none;
+}
+
+.summary-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+}
+
+.summary-item i {
+    width: 16px;
+    color: var(--accent-secondary);
+    font-size: 0.8rem;
+}
+
+.expanded-content {
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.movie-card.expanded .expanded-content {
+    max-height: 2000px; /* Large enough to fit content */
+    opacity: 1;
+    margin-top: 0;
+}
+
+.movie-card:not(.collapsible) .expanded-content {
+    max-height: none;
+    opacity: 1;
+    overflow: visible;
+}
+
 .chain-badge {
     padding: 6px 12px;
     border-radius: 8px;
