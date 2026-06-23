@@ -934,6 +934,30 @@ a {
     grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
 }
 
+/* --- MOVIE VIEW SECTIONS --- */
+.movie-view-section {
+    grid-column: 1 / -1;
+    margin-bottom: 48px;
+}
+
+.movie-view-section .section-title {
+    font-family: var(--font-heading);
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+    color: var(--accent-secondary);
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.movie-view-section .section-title::after {
+    content: "";
+    height: 1px;
+    flex-grow: 1;
+    background: linear-gradient(to right, var(--border-color), transparent);
+}
+
 .list-by-movie .showtimes-section {
     margin-top: 12px;
 }

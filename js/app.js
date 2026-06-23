@@ -550,7 +550,7 @@ function renderDayView() {
 
         cardElement.innerHTML = `
             <div class="card-content">
-                <h2 class="movie-title">${cardData.movie}</h2>
+                <h3 class="movie-title">${cardData.movie}</h3>
                 ${cardData.original_title ? `<div class="movie-original-title">${cardData.original_title}</div>` : ''}
                 <div class="movie-lang" title="${cardData.language}">
                     ${cardData.original_language ? `<span class="lang-badge">${cardData.original_language}</span>` : ''}${cardData.language}
@@ -653,113 +653,155 @@ function renderMovieView() {
         return;
     }
 
-    moviesArray.sort((a, b) => a.title.localeCompare(b.title));
+    // 3. Partition and Sort
+    const cutoffDate = new Date(CONFIG.baseDate);
+    cutoffDate.setUTCDate(cutoffDate.getUTCDate() + 7);
+    const cutoffDateStr = cutoffDate.toISOString().split('T')[0];
 
-    moviesArray.forEach(movieData => {
-        const isExpanded = STATE.expandedMovies.includes(movieData.title);
-        const cardElement = document.createElement('article');
-        cardElement.className = `movie-card collapsible ${isExpanded ? 'expanded' : ''}`;
-        cardElement.tabIndex = 0;
-        cardElement.setAttribute('role', 'button');
-        cardElement.setAttribute('aria-expanded', isExpanded);
+    const showingThisWeek = [];
+    const comingSoon = [];
 
-        // Build HTML for dates and their cinema showtimes
-        let datesHtml = '';
-        const sortedDates = Object.keys(movieData.dates).sort();
+    moviesArray.forEach(movie => {
+        const sortedDates = Object.keys(movie.dates).sort();
+        movie.earliestDate = sortedDates[0];
 
-        sortedDates.forEach(dateStr => {
-            const formattedDate = formatDateString(dateStr);
-            const cinemas = movieData.dates[dateStr];
-            let cinemasHtml = '';
+        if (movie.earliestDate < cutoffDateStr) {
+            showingThisWeek.push(movie);
+        } else {
+            comingSoon.push(movie);
+        }
+    });
 
-            Object.entries(cinemas).forEach(([cinemaName, cinemaData]) => {
-                const chainClass = getChainFromCinema(cinemaName);
-                const displayCinema = cinemaName.replace('Cine Yelmo ', '').replace('mk2 Cinesur ', '');
-                
-                cinemaData.showtimes.sort();
-                const timesHtml = cinemaData.showtimes.map(time => {
-                    if (cinemaData.booking_url) {
-                        return `<a href="${cinemaData.booking_url}" target="_blank" class="time-pill" onclick="event.stopPropagation()">${time}</a>`;
-                    } else {
-                        return `<span class="time-pill">${time}</span>`;
-                    }
-                }).join('');
+    showingThisWeek.sort((a, b) => a.title.localeCompare(b.title));
+    comingSoon.sort((a, b) => a.title.localeCompare(b.title));
 
-                cinemasHtml += `
-                    <div class="cinema-showtimes-row">
-                        <span class="cinema-label"><span class="chain-badge ${chainClass}" style="position:static; margin-right:6px; padding: 2px 6px; font-size: 0.65rem;">${getDisplayChain(chainClass)}</span> ${displayCinema}</span>
-                        <div class="showtimes-list">
-                            ${timesHtml}
+    // 4. Render Sections
+    const renderSection = (title, movies) => {
+        if (movies.length === 0) return;
+
+        const section = document.createElement('div');
+        section.className = 'movie-view-section';
+
+        const sectionTitle = document.createElement('h2');
+        sectionTitle.className = 'section-title';
+        sectionTitle.textContent = title;
+        section.appendChild(sectionTitle);
+
+        const sectionGrid = document.createElement('div');
+        sectionGrid.className = 'movie-grid'; // Use standard grid for cards
+        section.appendChild(sectionGrid);
+
+        movies.forEach(movieData => {
+            const isExpanded = STATE.expandedMovies.includes(movieData.title);
+            const cardElement = document.createElement('article');
+            cardElement.className = `movie-card collapsible ${isExpanded ? 'expanded' : ''}`;
+            cardElement.tabIndex = 0;
+            cardElement.setAttribute('role', 'button');
+            cardElement.setAttribute('aria-expanded', isExpanded);
+
+            // Build HTML for dates and their cinema showtimes
+            let datesHtml = '';
+            const sortedDates = Object.keys(movieData.dates).sort();
+
+            sortedDates.forEach(dateStr => {
+                const formattedDate = formatDateString(dateStr);
+                const cinemas = movieData.dates[dateStr];
+                let cinemasHtml = '';
+
+                Object.entries(cinemas).forEach(([cinemaName, cinemaData]) => {
+                    const chainClass = getChainFromCinema(cinemaName);
+                    const displayCinema = cinemaName.replace('Cine Yelmo ', '').replace('mk2 Cinesur ', '');
+
+                    cinemaData.showtimes.sort();
+                    const timesHtml = cinemaData.showtimes.map(time => {
+                        if (cinemaData.booking_url) {
+                            return `<a href="${cinemaData.booking_url}" target="_blank" class="time-pill" onclick="event.stopPropagation()">${time}</a>`;
+                        } else {
+                            return `<span class="time-pill">${time}</span>`;
+                        }
+                    }).join('');
+
+                    cinemasHtml += `
+                        <div class="cinema-showtimes-row">
+                            <span class="cinema-label"><span class="chain-badge ${chainClass}" style="position:static; margin-right:6px; padding: 2px 6px; font-size: 0.65rem;">${getDisplayChain(chainClass)}</span> ${displayCinema}</span>
+                            <div class="showtimes-list">
+                                ${timesHtml}
+                            </div>
+                        </div>
+                    `;
+                });
+
+                datesHtml += `
+                    <div class="movie-date-group">
+                        <span class="movie-date-title">${formattedDate}</span>
+                        <div class="movie-date-cinemas">
+                            ${cinemasHtml}
                         </div>
                     </div>
                 `;
             });
 
-            datesHtml += `
-                <div class="movie-date-group">
-                    <span class="movie-date-title">${formattedDate}</span>
-                    <div class="movie-date-cinemas">
-                        ${cinemasHtml}
+            cardElement.innerHTML = `
+                <div class="card-content">
+                    <div class="card-header">
+                        <div style="flex-grow: 1;">
+                            <h3 class="movie-title">${movieData.title}</h3>
+                            ${movieData.original_title ? `<div class="movie-original-title">${movieData.original_title}</div>` : ''}
+                            <div class="movie-lang" title="${movieData.language}">
+                                ${movieData.original_language ? `<span class="lang-badge">${movieData.original_language}</span>` : ''}${movieData.language}
+                            </div>
+                        </div>
+                        <div class="toggle-icon">
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                    </div>
+
+                    <div class="collapsed-content">
+                        <div class="summary-item">
+                            <i class="fa-solid fa-calendar-days"></i>
+                            <span>${formatDateRange(sortedDates)}</span>
+                        </div>
+                        <div class="summary-item">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <span>${getCinemasSummary(movieData)}</span>
+                        </div>
+                    </div>
+
+                    <div class="expanded-content">
+                        <div class="showtimes-section">
+                            <span class="showtimes-label">All Screenings (VOSE):</span>
+                            <div class="movie-dates-list">
+                                ${datesHtml}
+                            </div>
+                        </div>
                     </div>
                 </div>
             `;
+
+            const toggleHandler = (e) => {
+                // Prevent toggling if a link (booking_url) was clicked
+                if (e.target.closest('a')) return;
+
+                toggleMovieExpansion(movieData.title, cardElement);
+                cardElement.setAttribute('aria-expanded', cardElement.classList.contains('expanded'));
+            };
+
+            cardElement.addEventListener('click', toggleHandler);
+            cardElement.addEventListener('keydown', (e) => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    toggleHandler(e);
+                }
+            });
+
+            sectionGrid.appendChild(cardElement);
         });
 
-        cardElement.innerHTML = `
-            <div class="card-content">
-                <div class="card-header">
-                    <div style="flex-grow: 1;">
-                        <h2 class="movie-title">${movieData.title}</h2>
-                        ${movieData.original_title ? `<div class="movie-original-title">${movieData.original_title}</div>` : ''}
-                        <div class="movie-lang" title="${movieData.language}">
-                            ${movieData.original_language ? `<span class="lang-badge">${movieData.original_language}</span>` : ''}${movieData.language}
-                        </div>
-                    </div>
-                    <div class="toggle-icon">
-                        <i class="fa-solid fa-chevron-down"></i>
-                    </div>
-                </div>
+        grid.appendChild(section);
+    };
 
-                <div class="collapsed-content">
-                    <div class="summary-item">
-                        <i class="fa-solid fa-calendar-days"></i>
-                        <span>${formatDateRange(sortedDates)}</span>
-                    </div>
-                    <div class="summary-item">
-                        <i class="fa-solid fa-location-dot"></i>
-                        <span>${getCinemasSummary(movieData)}</span>
-                    </div>
-                </div>
-
-                <div class="expanded-content">
-                    <div class="showtimes-section">
-                        <span class="showtimes-label">All Screenings (VOSE):</span>
-                        <div class="movie-dates-list">
-                            ${datesHtml}
-                        </div>
-                    </div>
-                </div>
-            </div>
-        `;
-
-        const toggleHandler = (e) => {
-            // Prevent toggling if a link (booking_url) was clicked
-            if (e.target.closest('a')) return;
-
-            toggleMovieExpansion(movieData.title, cardElement);
-            cardElement.setAttribute('aria-expanded', cardElement.classList.contains('expanded'));
-        };
-
-        cardElement.addEventListener('click', toggleHandler);
-        cardElement.addEventListener('keydown', (e) => {
-            if (e.key === 'Enter' || e.key === ' ') {
-                e.preventDefault();
-                toggleHandler(e);
-            }
-        });
-
-        grid.appendChild(cardElement);
-    });
+    renderSection('Showing this week', showingThisWeek);
+    renderSection('Coming soon', comingSoon);
 }
 
 // --- DYNAMIC SUB-FILTER GENERATION ---
