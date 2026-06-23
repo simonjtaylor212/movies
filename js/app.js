@@ -326,9 +326,13 @@ async function loadShowtimes() {
         STATE.normTranslations = {};
         if (translationsRes && translationsRes.ok) {
             try {
-                STATE.translations = await translationsRes.json();
-                for (let key in STATE.translations) {
-                    STATE.normTranslations[normalizeTitle(key)] = STATE.translations[key];
+                const rawTranslations = await translationsRes.json();
+                for (let key in rawTranslations) {
+                    const val = rawTranslations[key];
+                    // Handle both string (old) and object (new) formats
+                    const metadata = typeof val === 'string' ? { original_title: val } : val;
+                    STATE.translations[key] = metadata;
+                    STATE.normTranslations[normalizeTitle(key)] = metadata;
                 }
             } catch (err) {
                 console.error('Error parsing translations:', err);
@@ -412,9 +416,10 @@ function renderDayView() {
         }
 
         if (!grouped[groupKey]) {
+            const metadata = STATE.normTranslations[normTitle] || {};
             grouped[groupKey] = {
                 movie: groupKey,
-                original_title: STATE.normTranslations[normTitle] || '',
+                original_title: metadata.original_title || '',
                 language: session.language,
                 original_language: session.original_language || '',
                 cinemas: {}
@@ -497,7 +502,7 @@ function renderDayView() {
 // --- RENDER MOVIE VIEW MODE ---
 function renderMovieView() {
     const grid = document.getElementById('movieGrid');
-    grid.className = 'movie-grid list-by-movie'; // Apply custom movie list layout
+    grid.className = 'movie-view-container';
     grid.innerHTML = '';
     
     // 1. Filter by Selected Cinemas and Search Query (ALL DATES included)
@@ -544,9 +549,14 @@ function renderMovieView() {
         }
 
         if (!moviesGrouped[groupKey]) {
+            const metadata = STATE.normTranslations[normTitle] || {};
             moviesGrouped[groupKey] = {
                 title: groupKey,
-                original_title: STATE.normTranslations[normTitle] || '',
+                original_title: metadata.original_title || '',
+                release_date: metadata.release_date || '',
+                rating: metadata.rating || '',
+                duration: metadata.duration || '',
+                poster_url: metadata.poster_url || '',
                 language: session.language, // Keep language sample
                 original_language: session.original_language || '',
                 dates: {} // Grouped showtimes by date
@@ -577,72 +587,116 @@ function renderMovieView() {
         return;
     }
 
-    moviesArray.sort((a, b) => a.title.localeCompare(b.title));
+    // Today's date string for comparison
+    const yyyy = CONFIG.baseDate.getUTCFullYear();
+    const mm = String(CONFIG.baseDate.getUTCMonth() + 1).padStart(2, '0');
+    const dd = String(CONFIG.baseDate.getUTCDate()).padStart(2, '0');
+    const todayStr = `${yyyy}-${mm}-${dd}`;
 
-    moviesArray.forEach(movieData => {
-        const cardElement = document.createElement('article');
-        cardElement.className = 'movie-card';
+    const showingNow = [];
+    const comingSoon = [];
 
-        // Build HTML for dates and their cinema showtimes
-        let datesHtml = '';
-        const sortedDates = Object.keys(movieData.dates).sort();
+    moviesArray.forEach(movie => {
+        if (movie.release_date && movie.release_date <= todayStr) {
+            showingNow.push(movie);
+        } else {
+            comingSoon.push(movie);
+        }
+    });
 
-        sortedDates.forEach(dateStr => {
-            const formattedDate = formatDateString(dateStr);
-            const cinemas = movieData.dates[dateStr];
-            let cinemasHtml = '';
+    showingNow.sort((a, b) => a.title.localeCompare(b.title));
+    comingSoon.sort((a, b) => a.title.localeCompare(b.title));
 
-            Object.entries(cinemas).forEach(([cinemaName, cinemaData]) => {
-                const chainClass = getChainFromCinema(cinemaName);
-                const displayCinema = cinemaName.replace('Cine Yelmo ', '').replace('mk2 Cinesur ', '');
-                
-                cinemaData.showtimes.sort();
-                const timesHtml = cinemaData.showtimes.map(time => {
-                    if (cinemaData.booking_url) {
-                        return `<a href="${cinemaData.booking_url}" target="_blank" class="time-pill">${time}</a>`;
-                    } else {
-                        return `<span class="time-pill">${time}</span>`;
-                    }
-                }).join('');
+    const renderSection = (title, movies) => {
+        if (movies.length === 0) return;
 
-                cinemasHtml += `
-                    <div class="cinema-showtimes-row">
-                        <span class="cinema-label"><span class="chain-badge ${chainClass}" style="position:static; margin-right:6px; padding: 2px 6px; font-size: 0.65rem;">${getDisplayChain(chainClass)}</span> ${displayCinema}</span>
-                        <div class="showtimes-list">
-                            ${timesHtml}
+        const section = document.createElement('section');
+        section.className = 'movie-view-section';
+
+        const sectionHeader = document.createElement('h2');
+        sectionHeader.className = 'section-heading';
+        sectionHeader.textContent = title;
+        section.appendChild(sectionHeader);
+
+        const movieInnerGrid = document.createElement('div');
+        movieInnerGrid.className = 'movie-grid list-by-movie';
+        section.appendChild(movieInnerGrid);
+
+        movies.forEach(movieData => {
+            const cardElement = document.createElement('article');
+            cardElement.className = 'movie-card';
+
+            let datesHtml = '';
+            const sortedDates = Object.keys(movieData.dates).sort();
+
+            sortedDates.forEach(dateStr => {
+                const formattedDate = formatDateString(dateStr);
+                const cinemas = movieData.dates[dateStr];
+                let cinemasHtml = '';
+
+                Object.entries(cinemas).forEach(([cinemaName, cinemaData]) => {
+                    const chainClass = getChainFromCinema(cinemaName);
+                    const displayCinema = cinemaName.replace('Cine Yelmo ', '').replace('mk2 Cinesur ', '');
+
+                    cinemaData.showtimes.sort();
+                    const timesHtml = cinemaData.showtimes.map(time => {
+                        if (cinemaData.booking_url) {
+                            return `<a href="${cinemaData.booking_url}" target="_blank" class="time-pill">${time}</a>`;
+                        } else {
+                            return `<span class="time-pill">${time}</span>`;
+                        }
+                    }).join('');
+
+                    cinemasHtml += `
+                        <div class="cinema-showtimes-row">
+                            <span class="cinema-label"><span class="chain-badge ${chainClass}" style="position:static; margin-right:6px; padding: 2px 6px; font-size: 0.65rem;">${getDisplayChain(chainClass)}</span> ${displayCinema}</span>
+                            <div class="showtimes-list">
+                                ${timesHtml}
+                            </div>
+                        </div>
+                    `;
+                });
+
+                datesHtml += `
+                    <div class="movie-date-group">
+                        <span class="movie-date-title">${formattedDate}</span>
+                        <div class="movie-date-cinemas">
+                            ${cinemasHtml}
                         </div>
                     </div>
                 `;
             });
 
-            datesHtml += `
-                <div class="movie-date-group">
-                    <span class="movie-date-title">${formattedDate}</span>
-                    <div class="movie-date-cinemas">
-                        ${cinemasHtml}
+            cardElement.innerHTML = `
+                ${movieData.poster_url ? `<div class="movie-poster"><img src="${movieData.poster_url}" alt="${movieData.title} poster" loading="lazy"></div>` : ''}
+                <div class="card-content">
+                    <h3 class="movie-title">${movieData.title}</h3>
+                    ${movieData.original_title ? `<div class="movie-original-title">${movieData.original_title}</div>` : ''}
+
+                    <div class="movie-meta">
+                        ${movieData.rating ? `<span><i class="fa-solid fa-star" style="color: #fbbf24; margin-right: 4px;"></i> ${movieData.rating}</span>` : ''}
+                        ${movieData.duration ? `<span><i class="fa-regular fa-clock" style="margin-right: 4px;"></i> ${movieData.duration}</span>` : ''}
+                    </div>
+
+                    <div class="movie-lang" title="${movieData.language}">
+                        ${movieData.original_language ? `<span class="lang-badge">${movieData.original_language}</span>` : ''}${movieData.language}
+                    </div>
+                    <div class="showtimes-section">
+                        <span class="showtimes-label">All Screenings (VOSE):</span>
+                        <div class="movie-dates-list">
+                            ${datesHtml}
+                        </div>
                     </div>
                 </div>
             `;
+
+            movieInnerGrid.appendChild(cardElement);
         });
+        grid.appendChild(section);
+    };
 
-        cardElement.innerHTML = `
-            <div class="card-content">
-                <h2 class="movie-title">${movieData.title}</h2>
-                ${movieData.original_title ? `<div class="movie-original-title">${movieData.original_title}</div>` : ''}
-                <div class="movie-lang" title="${movieData.language}">
-                    ${movieData.original_language ? `<span class="lang-badge">${movieData.original_language}</span>` : ''}${movieData.language}
-                </div>
-                <div class="showtimes-section">
-                    <span class="showtimes-label">All Screenings (VOSE):</span>
-                    <div class="movie-dates-list">
-                        ${datesHtml}
-                    </div>
-                </div>
-            </div>
-        `;
-
-        grid.appendChild(cardElement);
-    });
+    renderSection('Showing now', showingNow);
+    renderSection('Coming soon', comingSoon);
 }
 
 // --- DYNAMIC SUB-FILTER GENERATION ---

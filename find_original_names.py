@@ -10,7 +10,7 @@ from bs4 import BeautifulSoup
 if sys.platform.startswith("win"):
     sys.stdout.reconfigure(encoding="utf-8")
 
-def get_original_title_scraping(spanish_title):
+def get_movie_metadata(spanish_title):
     # Clean up prefixes/suffixes to keep search effective
     clean_title = spanish_title.split(" - ")[0].split(" (")[0]
     
@@ -26,6 +26,14 @@ def get_original_title_scraping(spanish_title):
     search_query = urllib.parse.quote(clean_title)
     search_url = f"https://www.themoviedb.org/search?query={search_query}"
     
+    metadata = {
+        "original_title": "",
+        "release_date": "",
+        "rating": "",
+        "duration": "",
+        "poster_url": ""
+    }
+
     try:
         r = requests.get(search_url, headers=search_headers, timeout=10)
         r.raise_for_status()
@@ -57,86 +65,51 @@ def get_original_title_scraping(spanish_title):
         movie_id = movie_id_match.group(1)
         movie_url = f"https://www.themoviedb.org/movie/{movie_id}"
         
-        # Fetch movie details page with English Accept-Language
+        # 1. Scrape metadata from search result card if possible (e.g. poster)
+        poster_img = first_card.find("img")
+        if poster_img and poster_img.get("src"):
+            metadata["poster_url"] = "https://media.themoviedb.org/t/p/w300_and_h450_face" + poster_img["src"].split("/t/p/")[1] if "/t/p/" in poster_img["src"] else poster_img["src"]
+
+        # 2. Fetch movie details page for more accurate info
         r_movie = requests.get(movie_url, headers=detail_headers, timeout=10)
         r_movie.raise_for_status()
-        
         movie_soup = BeautifulSoup(r_movie.text, "html.parser")
         
-        # Check sidebar for Original Title
+        # Original Title
         for p in movie_soup.find_all("p", class_="wrap"):
             if p.strong and "Original Title" in p.strong.text:
-                return p.text.replace("Original Title", "").strip()
-                
-        # Fallback to og:title (which will be English under English Accept-Language)
-        meta_og = movie_soup.find("meta", property="og:title")
-        if meta_og and meta_og.get("content"):
-            return meta_og["content"].strip()
+                metadata["original_title"] = p.text.replace("Original Title", "").strip()
+                break
+        
+        if not metadata["original_title"]:
+            meta_og = movie_soup.find("meta", property="og:title")
+            if meta_og:
+                metadata["original_title"] = meta_og["content"].strip()
+
+        # Release Date (from sidebar)
+        for p in movie_soup.find_all("p"):
+            if p.strong and "Release Date" in p.strong.text:
+                date_match = re.search(r"(\d{2}/\d{2}/\d{4})", p.text)
+                if date_match:
+                    # Convert to YYYY-MM-DD
+                    d, m, y = date_match.group(1).split("/")
+                    metadata["release_date"] = f"{y}-{m}-{d}"
+                break
+
+        # Rating
+        rating_div = movie_soup.find("div", class_="user_score_chart")
+        if rating_div and rating_div.get("data-percent"):
+            metadata["rating"] = str(round(float(rating_div["data-percent"]) / 10, 1))
+
+        # Runtime
+        runtime_span = movie_soup.find("span", class_="runtime")
+        if runtime_span:
+            metadata["duration"] = runtime_span.text.strip()
             
-        # Fallback to title tag
-        title_tag = movie_soup.find("title")
-        if title_tag:
-            title_text = title_tag.text
-            title_text = re.sub(r"\s*[—–-]\s*The Movie Database.*$", "", title_text, flags=re.IGNORECASE).strip()
-            return title_text
+        return metadata
             
     except Exception as e:
         print(f"    (TMDB Scraper warning: {e})")
-        
-    return None
-
-def get_original_title_wikidata(spanish_title):
-    clean_title = spanish_title.split(" - ")[0].split(" (")[0]
-    headers = {
-        "User-Agent": "VOSE-Movie-Scraper/1.0 (contact: simonjtaylor212@gmail.com)"
-    }
-    
-    search_url = f"https://www.wikidata.org/w/api.php?action=wbsearchentities&search={urllib.parse.quote(clean_title)}&language=es&format=json&type=item"
-    
-    try:
-        r = requests.get(search_url, headers=headers, timeout=10)
-        r.raise_for_status()
-        data = r.json()
-        
-        results = data.get("search", [])
-        if not results:
-            return None
-            
-        best_id = None
-        for res in results:
-            desc = res.get("description", "").lower()
-            if any(keyword in desc for keyword in ["película", "film", "movie", "obra", "ópera", "opera", "show"]):
-                best_id = res["id"]
-                break
-                
-        if not best_id:
-            best_id = results[0]["id"]
-            
-        entity_url = f"https://www.wikidata.org/w/api.php?action=wbgetentities&ids={best_id}&format=json"
-        r = requests.get(entity_url, headers=headers, timeout=10)
-        r.raise_for_status()
-        entity_data = r.json()
-        
-        entity = entity_data.get("entities", {}).get(best_id, {})
-        claims = entity.get("claims", {})
-        
-        # Try P1476 (Original Title claim)
-        if "P1476" in claims and claims["P1476"]:
-            val = claims["P1476"][0].get("mainsnak", {}).get("datavalue", {}).get("value", {})
-            if isinstance(val, dict) and "text" in val:
-                return val["text"]
-                
-        # Try English label
-        labels = entity.get("labels", {})
-        if "en" in labels:
-            return labels["en"]["value"]
-            
-        # Try Spanish label
-        if "es" in labels:
-            return labels["es"]["value"]
-            
-    except Exception as e:
-        print(f"    (Wikidata API warning: {e})")
         
     return None
 
@@ -149,66 +122,47 @@ def main():
     with open(translations_path, "r", encoding="utf-8") as f:
         translations = json.load(f)
         
-    missing_keys = [k for k, v in translations.items() if not v or v.strip() == ""]
+    # Standardize translations to object format if they are strings
+    for k, v in translations.items():
+        if isinstance(v, str):
+            translations[k] = {
+                "original_title": v,
+                "release_date": "",
+                "rating": "",
+                "duration": "",
+                "poster_url": ""
+            }
+
+    missing_keys = [k for k, v in translations.items() if not v.get("original_title") or not v.get("release_date")]
     if not missing_keys:
-        print("No missing movie translations to find.")
+        print("No missing movie metadata to find.")
         return
         
-    print(f"Found {len(missing_keys)} movies without original names.")
+    print(f"Found {len(missing_keys)} movies needing metadata updates.")
     
-    api_key = os.environ.get("TMDB_API_KEY")
-    if api_key:
-        print("TMDB_API_KEY environment variable detected. Using official TMDB API.")
-    else:
-        print("No TMDB_API_KEY detected. Using keyless TMDB scraper and Wikidata fallbacks.")
-        
     updated_count = 0
     for key in missing_keys:
-        print(f"\nSearching for: '{key}'")
-        original_title = None
+        print(f"\nFetching metadata for: '{key}'")
+        metadata = get_movie_metadata(key)
         
-        # 1. Try TMDB API if key exists
-        if api_key:
-            try:
-                clean_title = key.split(" - ")[0].split(" (")[0]
-                search_url = f"https://api.themoviedb.org/3/search/movie?api_key={api_key}&query={urllib.parse.quote(clean_title)}&language=es"
-                r = requests.get(search_url, timeout=10)
-                r.raise_for_status()
-                data = r.json()
-                results = data.get("results", [])
-                if results:
-                    original_title = results[0].get("original_title")
-                    if original_title:
-                        print(f"  -> Found via TMDB API: '{original_title}'")
-            except Exception as e:
-                print(f"  (TMDB API error: {e})")
-                
-        # 2. Try TMDB web scraping fallback
-        if not original_title:
-            original_title = get_original_title_scraping(key)
-            if original_title:
-                print(f"  -> Found via TMDB Web: '{original_title}'")
-                
-        # 3. Try Wikidata fallback
-        if not original_title:
-            original_title = get_original_title_wikidata(key)
-            if original_title:
-                print(f"  -> Found via Wikidata: '{original_title}'")
-                
-        if original_title:
-            translations[key] = original_title
+        if metadata:
+            # Preserve existing original_title if scraper fails to find it but we already had it
+            if not metadata["original_title"] and translations[key].get("original_title"):
+                metadata["original_title"] = translations[key]["original_title"]
+
+            translations[key] = metadata
             updated_count += 1
+            print(f"  -> Success: {metadata['original_title']} ({metadata['release_date']})")
         else:
-            print(f"  -> Could not resolve original name for '{key}'")
+            print(f"  -> Could not resolve metadata for '{key}'")
             
     if updated_count > 0:
-        # Sort translations alphabetically by Spanish key
         sorted_translations = dict(sorted(translations.items()))
         with open(translations_path, "w", encoding="utf-8") as f:
             json.dump(sorted_translations, f, ensure_ascii=False, indent=2)
-        print(f"\nSuccessfully updated {updated_count} translation(s) in {translations_path}.")
+        print(f"\nSuccessfully updated {updated_count} metadata entries in {translations_path}.")
     else:
-        print("\nNo translations were updated.")
+        print("\nNo metadata was updated.")
 
 if __name__ == "__main__":
     main()
