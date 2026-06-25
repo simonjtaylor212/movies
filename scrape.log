@@ -1,34 +1,37 @@
-Starting Scraper - Local time is 2026-06-25 22:00:34 CEST
+Starting Scraper - Local time is 2026-06-26 00:21:26 CEST
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
   Fetching Yelmo madrid...
   Fetching Yelmo barcelona...
-Yelmo scraped: found 1285 VOSE sessions.
+Yelmo scraped: found 1254 VOSE sessions.
 Scraping Cine Albéniz...
 Stopping Cine Albéniz scrape after 5 consecutive empty days.
-Cine Albéniz scraped: found 112 VOSE sessions.
+Cine Albéniz scraped: found 99 VOSE sessions.
 Scraping Kinépolis Granada & Nevada...
-Kinépolis Granada & Nevada: Scraped 471 VOSE sessions.
+Error: Could not find Drupal.settings block in Kinépolis HTML
+Warning: kinepolis scraper returned 0 showings. Using fallback data.
+Recovered 471 kinepolis showings from previous run.
 Scraping Cines Renoir...
-Cines Renoir: Scraped 662 VOSE sessions.
+Error fetching movie page /pelicula/palida-luz-en-las-colinas/: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+Cines Renoir: Scraped 590 VOSE sessions.
 Scraping Cines Golem...
-Cines Golem Madrid: Scraped 90 VOSE sessions.
-Loaded 1512 Cinesa showtimes from cache.
+Cines Golem Madrid: Scraped 89 VOSE sessions.
+Loaded 1500 Cinesa showtimes from cache.
 Scraping Ocine Serrallo...
-Ocine Serrallo: Scraped 6 sessions.
+Ocine Serrallo: Scraped 5 sessions.
 Scraping mk2 Cinesur...
-  mk2 Cinesur Miramar: found 93 sessions.
+  mk2 Cinesur Miramar: found 91 sessions.
   mk2 Cinesur El Ingenio: found 31 sessions.
   mk2 Cinesur Málaga Nostrum: found 51 sessions.
-mk2 Cinesur scraped: found 175 VOSE sessions.
+mk2 Cinesur scraped: found 173 VOSE sessions.
 original language not found for 1 movies in Albéniz chain
 original language not found for 5 movies in Cinesa chain
-original language not found for 4 movies in Golem chain
+original language not found for 5 movies in Golem chain
 original language not found for 1 movies in Kinépolis chain
 original language not found for 1 movies in Ocine chain
-original language not found for 4 movies in Renoir chain
-Successfully generated api/v1/showtimes.json with 4313 listings.
-Appended 2 new showings to new_showtimes.json
+original language not found for 3 movies in Renoir chain
+Successfully generated api/v1/showtimes.json with 4162 listings.
+No new showings found.
 
 Resolving missing movie title translations...
 Found 13 movies without original names.
@@ -77,5 +80,5 @@ No translations were updated.
 
 === Cinesa Scraper Logs (Portugal VPN) ===
 Scraping Cinesa (Madrid & Barcelona)...
-Cinesa: Found 38 business dates with showtimes: ['2026-06-25', '2026-06-26', '2026-06-27', '2026-06-28', '2026-06-29', '2026-06-30', '2026-07-01', '2026-07-02', '2026-07-03', '2026-07-04', '2026-07-05', '2026-07-08', '2026-07-09', '2026-07-10', '2026-07-11', '2026-07-12', '2026-07-16', '2026-07-17', '2026-07-18', '2026-07-19', '2026-07-20', '2026-07-21', '2026-07-22', '2026-07-23', '2026-07-24', '2026-07-25', '2026-07-26', '2026-07-27', '2026-07-28', '2026-07-29', '2026-07-30', '2026-07-31', '2026-08-01', '2026-08-02', '2026-08-03', '2026-08-04', '2026-08-05', '2026-08-06']
-Cinesa (Madrid & Barcelona): Scraped 1512 VOSE sessions.
+Cinesa: Found 37 business dates with showtimes: ['2026-06-26', '2026-06-27', '2026-06-28', '2026-06-29', '2026-06-30', '2026-07-01', '2026-07-02', '2026-07-03', '2026-07-04', '2026-07-05', '2026-07-08', '2026-07-09', '2026-07-10', '2026-07-11', '2026-07-12', '2026-07-16', '2026-07-17', '2026-07-18', '2026-07-19', '2026-07-20', '2026-07-21', '2026-07-22', '2026-07-23', '2026-07-24', '2026-07-25', '2026-07-26', '2026-07-27', '2026-07-28', '2026-07-29', '2026-07-30', '2026-07-31', '2026-08-01', '2026-08-02', '2026-08-03', '2026-08-04', '2026-08-05', '2026-08-06']
+Cinesa (Madrid & Barcelona): Scraped 1500 VOSE sessions.
