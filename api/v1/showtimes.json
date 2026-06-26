@@ -1835,19 +1835,6 @@
   {
     "cinema": "Cine Yelmo Plaza Mayor",
     "date": "2026-06-26",
-    "movie": "Toy Story 5",
-    "format": "2D",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "18:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=40139",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-23 11:33:48"
-  },
-  {
-    "cinema": "Cine Yelmo Plaza Mayor",
-    "date": "2026-06-26",
     "movie": "El Día de la Revelación",
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
@@ -8360,45 +8347,6 @@
   },
   {
     "cinema": "Cine Yelmo La Vaguada",
-    "date": "2026-06-26",
-    "movie": "Supergirl",
-    "format": "2D",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "13:35",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1360&showtimeVistaId=16822",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-17 00:00:28"
-  },
-  {
-    "cinema": "Cine Yelmo La Vaguada",
-    "date": "2026-06-26",
-    "movie": "Obsession",
-    "format": "2D",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "13:45",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1360&showtimeVistaId=17529",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-23 00:47:41"
-  },
-  {
-    "cinema": "Cine Yelmo La Vaguada",
-    "date": "2026-06-26",
-    "movie": "Toy Story 5",
-    "format": "2D",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "14:25",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1360&showtimeVistaId=17540",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-23 00:47:41"
-  },
-  {
-    "cinema": "Cine Yelmo La Vaguada",
     "date": "2026-06-27",
     "movie": "Supergirl",
     "format": "2D",
@@ -8604,6 +8552,32 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-06-23 00:47:41"
+  },
+  {
+    "cinema": "Cine Yelmo La Vaguada",
+    "date": "2026-07-01",
+    "movie": "Supergirl",
+    "format": "2D",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "13:35",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1360&showtimeVistaId=17663",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-06-26 16:23:14"
+  },
+  {
+    "cinema": "Cine Yelmo La Vaguada",
+    "date": "2026-07-02",
+    "movie": "Supergirl",
+    "format": "2D",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "13:35",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1360&showtimeVistaId=17664",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-06-26 16:23:14"
   },
   {
     "cinema": "Cine Yelmo La Vaguada",
@@ -13443,19 +13417,6 @@
   },
   {
     "cinema": "Cine Yelmo Plenilunio",
-    "date": "2026-06-29",
-    "movie": "Supergirl",
-    "format": "2D",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "21:05",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=805&showtimeVistaId=39686",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-22 22:48:15"
-  },
-  {
-    "cinema": "Cine Yelmo Plenilunio",
     "date": "2026-06-30",
     "movie": "Jackass: Lo mejor para el final",
     "format": "2D",
@@ -15029,6 +14990,32 @@
   },
   {
     "cinema": "Cine Yelmo Premium Castelldefels",
+    "date": "2026-07-01",
+    "movie": "Supergirl",
+    "format": "PREMIUM",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "20:20",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=814&showtimeVistaId=26728",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-06-26 16:23:14"
+  },
+  {
+    "cinema": "Cine Yelmo Premium Castelldefels",
+    "date": "2026-07-02",
+    "movie": "Supergirl",
+    "format": "PREMIUM",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "20:20",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=814&showtimeVistaId=26733",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-06-26 16:23:14"
+  },
+  {
+    "cinema": "Cine Yelmo Premium Castelldefels",
     "date": "2026-07-07",
     "movie": "Minions & Monsters",
     "format": "PREMIUM",
@@ -15637,6 +15624,19 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-06-23 19:17:46"
+  },
+  {
+    "cinema": "Cine Yelmo Westfield La Maquinista",
+    "date": "2026-07-01",
+    "movie": "Supergirl",
+    "format": "PREMIUM",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "20:20",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1350&showtimeVistaId=42162",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-06-26 16:23:14"
   },
   {
     "cinema": "Cine Yelmo Westfield La Maquinista",
@@ -17621,34 +17621,8 @@
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "original_language": "English",
-    "time": "15:45",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/140287/supergirl?mode=widget&change=0&ref=750&forceproxy=1",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-23 19:17:46"
-  },
-  {
-    "cinema": "mk2 Cinesur Miramar",
-    "date": "2026-06-26",
-    "movie": "Supergirl",
-    "format": "2D",
-    "language": "Original con subtítulos (VOSE)",
-    "original_language": "English",
     "time": "18:00",
     "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/140288/supergirl?mode=widget&change=0&ref=750&forceproxy=1",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-23 19:17:46"
-  },
-  {
-    "cinema": "mk2 Cinesur Miramar",
-    "date": "2026-06-26",
-    "movie": "Toy Story 5",
-    "format": "2D",
-    "language": "Original con subtítulos (VOSE)",
-    "original_language": "English",
-    "time": "15:50",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/140266/toy-story-5?mode=widget&change=0&ref=750&forceproxy=1",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-06-23 19:17:46"
@@ -17688,19 +17662,6 @@
     "original_language": "English",
     "time": "19:30",
     "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/140271/el-dia-de-la-revelacion?mode=widget&change=0&ref=750&forceproxy=1",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-23 19:17:46"
-  },
-  {
-    "cinema": "mk2 Cinesur Miramar",
-    "date": "2026-06-26",
-    "movie": "Letras robadas",
-    "format": "2D",
-    "language": "Original con subtítulos (VOSE)",
-    "original_language": "English",
-    "time": "16:00",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/140291/letras-robadas?mode=widget&change=0&ref=750&forceproxy=1",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-06-23 19:17:46"
@@ -19183,19 +19144,6 @@
     "original_language": "English",
     "time": "20:55",
     "booking_url": "https://cine.entradas.com/cine/malaga/cinesur-malaga-nostrum/evento/126403/obsession?mode=widget&change=0&ref=750&forceproxy=1",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-23 19:17:46"
-  },
-  {
-    "cinema": "mk2 Cinesur Málaga Nostrum",
-    "date": "2026-06-26",
-    "movie": "Toy Story 5",
-    "format": "2D",
-    "language": "Original con subtítulos (VOSE)",
-    "original_language": "English",
-    "time": "16:15",
-    "booking_url": "https://cine.entradas.com/cine/malaga/cinesur-malaga-nostrum/evento/126401/toy-story-5?mode=widget&change=0&ref=750&forceproxy=1",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-06-23 19:17:46"
@@ -33507,19 +33455,6 @@
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "",
-    "time": "16:10",
-    "booking_url": "https://www.golem.es/golem/urlcheck.php?idCine=8&perfCode=98419&eventCode=112131",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-24 16:28:14"
-  },
-  {
-    "cinema": "Cines Golem Madrid",
-    "date": "2026-06-26",
-    "movie": "LA MUJER SIN NOMBRE",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "",
     "time": "18:15",
     "booking_url": "https://www.golem.es/golem/urlcheck.php?idCine=8&perfCode=98420&eventCode=112131",
     "projection_type": "Movie",
@@ -33548,19 +33483,6 @@
     "original_language": "",
     "time": "22:15",
     "booking_url": "https://www.golem.es/golem/urlcheck.php?idCine=8&perfCode=98422&eventCode=112131",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-24 16:28:14"
-  },
-  {
-    "cinema": "Cines Golem Madrid",
-    "date": "2026-06-26",
-    "movie": "Nino",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "",
-    "time": "16:10",
-    "booking_url": "https://www.golem.es/golem/urlcheck.php?idCine=8&perfCode=98415&eventCode=111580",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-06-24 16:28:14"
@@ -34660,19 +34582,6 @@
   {
     "cinema": "Cinesa LUXE Loranca",
     "date": "2026-06-26",
-    "movie": "Obsession",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "16:15",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=001-54894",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-23 22:04:14"
-  },
-  {
-    "cinema": "Cinesa LUXE Loranca",
-    "date": "2026-06-26",
     "movie": "Supergirl",
     "format": "2D",
     "language": "V.O.S.E.",
@@ -34721,32 +34630,6 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-06-23 16:47:22"
-  },
-  {
-    "cinema": "Cinesa Proyecciones",
-    "date": "2026-06-26",
-    "movie": "El Drama",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "16:00",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=018-40617",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-23 22:04:14"
-  },
-  {
-    "cinema": "Cinesa Proyecciones",
-    "date": "2026-06-26",
-    "movie": "El Día de la Revelación",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "16:15",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=018-40612",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-23 22:04:14"
   },
   {
     "cinema": "Cinesa Proyecciones",
@@ -34842,19 +34725,6 @@
   {
     "cinema": "Cinesa LUXE Intu Xanadú",
     "date": "2026-06-26",
-    "movie": "Obsession",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "16:15",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=019-74408",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-23 19:17:46"
-  },
-  {
-    "cinema": "Cinesa LUXE Intu Xanadú",
-    "date": "2026-06-26",
     "movie": "Supergirl",
     "format": "2D",
     "language": "V.O.S.E.",
@@ -34868,15 +34738,15 @@
   {
     "cinema": "Cinesa LUXE La Moraleja",
     "date": "2026-06-26",
-    "movie": "Toy Story 5",
+    "movie": "El Día de la Revelación",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
-    "time": "16:15",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=025-42876",
+    "time": "20:30",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=025-42863",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-06-23 19:17:46"
+    "date_added": "2026-06-26 16:23:14"
   },
   {
     "cinema": "Cinesa LUXE Equinoccio",
@@ -34887,32 +34757,6 @@
     "original_language": "English",
     "time": "21:10",
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=026-61639",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-23 22:04:14"
-  },
-  {
-    "cinema": "Cinesa Príncipe Pío",
-    "date": "2026-06-26",
-    "movie": "El Día de la Revelación",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "16:00",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=027-47015",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-23 22:04:14"
-  },
-  {
-    "cinema": "Cinesa Príncipe Pío",
-    "date": "2026-06-26",
-    "movie": "Obsession",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "16:15",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=027-46893",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-06-23 22:04:14"
@@ -34942,19 +34786,6 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-06-23 22:04:14"
-  },
-  {
-    "cinema": "Cinesa Las Rozas",
-    "date": "2026-06-26",
-    "movie": "Supergirl",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "16:00",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=034-108825",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-23 13:02:51"
   },
   {
     "cinema": "Cinesa Las Rozas",
@@ -35063,19 +34894,6 @@
   {
     "cinema": "Cinesa La Gavia",
     "date": "2026-06-26",
-    "movie": "Toy Story 5",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "16:15",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=048-51423",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-23 16:47:22"
-  },
-  {
-    "cinema": "Cinesa La Gavia",
-    "date": "2026-06-26",
     "movie": "Obsession",
     "format": "2D",
     "language": "V.O.S.E.",
@@ -35111,19 +34929,6 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-06-23 16:47:22"
-  },
-  {
-    "cinema": "Cinesa Méndez Álvaro",
-    "date": "2026-06-26",
-    "movie": "Supergirl",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "16:00",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=123-84794",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-23 13:02:51"
   },
   {
     "cinema": "Cinesa Méndez Álvaro",
@@ -35189,58 +34994,6 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-06-23 22:04:14"
-  },
-  {
-    "cinema": "Cinesa Manoteras",
-    "date": "2026-06-26",
-    "movie": "The Mandalorian and Grogu",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "15:50",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-105443",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-24 05:31:35"
-  },
-  {
-    "cinema": "Cinesa Manoteras",
-    "date": "2026-06-26",
-    "movie": "Supergirl",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "16:00",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-103744",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-23 13:02:51"
-  },
-  {
-    "cinema": "Cinesa Manoteras",
-    "date": "2026-06-26",
-    "movie": "DREAMS",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "16:10",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-105448",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-24 05:31:35"
-  },
-  {
-    "cinema": "Cinesa Manoteras",
-    "date": "2026-06-26",
-    "movie": "Caso 137",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "French",
-    "time": "16:20",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-105446",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-24 05:31:35"
   },
   {
     "cinema": "Cinesa Manoteras",
@@ -35531,19 +35284,6 @@
   {
     "cinema": "Cinesa Nassica",
     "date": "2026-06-26",
-    "movie": "Obsession",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "16:00",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=125-101288",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-25 05:29:05"
-  },
-  {
-    "cinema": "Cinesa Nassica",
-    "date": "2026-06-26",
     "movie": "Toy Story 5",
     "format": "2D",
     "language": "V.O.S.E.",
@@ -35609,19 +35349,6 @@
   {
     "cinema": "Cinesa LUXE Oasiz",
     "date": "2026-06-26",
-    "movie": "Toy Story 5",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "16:15",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=138-69941",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-23 22:04:14"
-  },
-  {
-    "cinema": "Cinesa LUXE Oasiz",
-    "date": "2026-06-26",
     "movie": "Obsession",
     "format": "2D",
     "language": "V.O.S.E.",
@@ -35667,19 +35394,6 @@
     "original_language": "English",
     "time": "21:10",
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=010-35501",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-23 19:17:46"
-  },
-  {
-    "cinema": "Cinesa Diagonal",
-    "date": "2026-06-26",
-    "movie": "Supergirl",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "16:00",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=012-51564",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-06-23 19:17:46"
@@ -35852,19 +35566,6 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-06-24 00:13:07"
-  },
-  {
-    "cinema": "Cinesa LUXE Parc Vallès",
-    "date": "2026-06-26",
-    "movie": "Supergirl",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "16:00",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=031-91774",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-23 13:02:51"
   },
   {
     "cinema": "Cinesa LUXE Parc Vallès",
