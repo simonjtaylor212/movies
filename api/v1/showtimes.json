@@ -21645,6 +21645,32 @@
     "date_added": "2026-06-25 11:20:50"
   },
   {
+    "cinema": "Kinépolis Granada",
+    "date": "2026-08-30",
+    "movie": "André Rieu: ¡Viva Maastricht!",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "17:00",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/165465/0/KGRAN/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-06-26 11:25:18"
+  },
+  {
+    "cinema": "Kinépolis Granada",
+    "date": "2026-08-29",
+    "movie": "André Rieu: ¡Viva Maastricht!",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "17:05",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/165466/0/KGRAN/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-06-26 11:25:18"
+  },
+  {
     "cinema": "Kinépolis Madrid Diversia",
     "date": "2026-07-01",
     "movie": "Minions & Monsters",
@@ -24932,6 +24958,32 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-06-25 11:20:50"
+  },
+  {
+    "cinema": "Kinépolis Madrid Ciudad de la Imagen",
+    "date": "2026-08-29",
+    "movie": "André Rieu: ¡Viva Maastricht!",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "17:00",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/214631/0/KMAD/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-06-26 11:25:18"
+  },
+  {
+    "cinema": "Kinépolis Madrid Ciudad de la Imagen",
+    "date": "2026-08-30",
+    "movie": "André Rieu: ¡Viva Maastricht!",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "17:00",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/214632/0/KMAD/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-06-26 11:25:18"
   },
   {
     "cinema": "Kinépolis Granada Nevada",
@@ -35579,6 +35631,19 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-06-23 22:04:14"
+  },
+  {
+    "cinema": "Cinesa LUXE Oasiz",
+    "date": "2026-06-26",
+    "movie": "Supergirl",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "18:50",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=138-70224",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-06-26 11:25:18"
   },
   {
     "cinema": "Cinesa LUXE Oasiz",
