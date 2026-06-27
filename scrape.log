@@ -1,4 +1,4 @@
-Starting Scraper - Local time is 2026-06-27 04:59:08 CEST
+Starting Scraper - Local time is 2026-06-27 08:34:57 CEST
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
   Fetching Yelmo madrid...
@@ -26,12 +26,11 @@ original language not found for 6 movies in Cinesa chain
 original language not found for 5 movies in Golem chain
 original language not found for 1 movies in Ocine chain
 original language not found for 3 movies in Renoir chain
-Updated movie_title_translations.json
 Successfully generated api/v1/showtimes.json with 3973 listings.
-Appended 51 new showings to new_showtimes.json
+No new showings found.
 
 Resolving missing movie title translations...
-Found 14 movies without original names.
+Found 13 movies without original names.
 No TMDB_API_KEY detected. Using keyless TMDB scraper and Wikidata fallbacks.
 
 Searching for: '20 Años del MET en cines - Grabado MET 26-27'
@@ -64,9 +63,6 @@ Searching for: 'La casa del bosque 2'
 Searching for: 'MALAS CALLES [WILDER CINEMA]'
   -> Could not resolve original name for 'MALAS CALLES [WILDER CINEMA]'
 
-Searching for: 'Normal'
-  -> Found via TMDB Web: 'Normal'
-
 Searching for: 'Sia 2016 Coachella'
   -> Could not resolve original name for 'Sia 2016 Coachella'
 
@@ -76,7 +72,7 @@ Searching for: 'VIAJE AL PAÍS DE LOS BLANCOS [PROYECTO VIRIDIANA]'
 Searching for: 'WHAT A FEELING [CINE CON ORGULLO RENOIR]'
   -> Could not resolve original name for 'WHAT A FEELING [CINE CON ORGULLO RENOIR]'
 
-Successfully updated 1 translation(s) in movie_title_translations.json.
+No translations were updated.
 
 === Cinesa Scraper Logs (Portugal VPN) ===
 Scraping Cinesa (Madrid & Barcelona)...
