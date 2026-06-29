@@ -13773,19 +13773,6 @@
     "format": "2D",
     "language": "Catalán, Castellano, Inglés | V.O.S.E.",
     "original_language": "English",
-    "time": "18:00",
-    "booking_url": "https://www.unientradas.es/es/recinto/FC-03",
-    "projection_type": "Movie",
-    "movie_title_language": "OR",
-    "date_added": "2026-06-24 11:28:29"
-  },
-  {
-    "cinema": "Cine Albéniz",
-    "date": "2026-07-02",
-    "movie": "Viaje al país de los blancos",
-    "format": "2D",
-    "language": "Catalán, Castellano, Inglés | V.O.S.E.",
-    "original_language": "English",
     "time": "20:00",
     "booking_url": "https://www.unientradas.es/es/recinto/FC-03",
     "projection_type": "Movie",
@@ -21166,32 +21153,6 @@
   {
     "cinema": "Cines Renoir Floridablanca",
     "date": "2026-06-29",
-    "movie": "Viaje al país de los blancos",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "Catalan",
-    "time": "20:20",
-    "booking_url": "https://www.pillalas.com/pase/1075616/",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-22 22:48:15"
-  },
-  {
-    "cinema": "Cines Renoir Floridablanca",
-    "date": "2026-06-29",
-    "movie": "Viaje al país de los blancos",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "Catalan",
-    "time": "22:30",
-    "booking_url": "https://www.pillalas.com/pase/1075826/",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-23 19:17:46"
-  },
-  {
-    "cinema": "Cines Renoir Floridablanca",
-    "date": "2026-06-29",
     "movie": "Viva",
     "format": "2D",
     "language": "V.O.S.E.",
@@ -25155,19 +25116,6 @@
     "date_added": "2026-06-25 00:17:50"
   },
   {
-    "cinema": "Cines Golem Madrid",
-    "date": "2026-07-04",
-    "movie": "Caso 137",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "French",
-    "time": "16:00",
-    "booking_url": "https://www.golem.es/golem/urlcheck.php?idCine=8&perfCode=98528&eventCode=104654",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-27 18:05:07"
-  },
-  {
     "cinema": "Cinesa LUXE Loranca",
     "date": "2026-06-29",
     "movie": "Supergirl",
@@ -29009,11 +28957,11 @@
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
-    "time": "22:00",
+    "time": "22:20",
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=040-35815",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-06-27 00:13:46"
+    "date_added": "2026-06-29 12:57:53"
   },
   {
     "cinema": "Cinesa LUXE Loranca",
@@ -29737,11 +29685,11 @@
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
-    "time": "22:00",
+    "time": "22:20",
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=010-35587",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-06-26 21:46:23"
+    "date_added": "2026-06-29 12:57:53"
   },
   {
     "cinema": "Cinesa Diagonal",
@@ -30093,19 +30041,6 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-06-23 13:02:51"
-  },
-  {
-    "cinema": "Cinesa LUXE Parc Vallès",
-    "date": "2026-07-03",
-    "movie": "Akira (re)",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "",
-    "time": "17:20",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=031-93590",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-26 05:37:13"
   },
   {
     "cinema": "Cinesa LUXE Parc Vallès",
@@ -30647,11 +30582,11 @@
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "",
-    "time": "12:15",
+    "time": "12:30",
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=031-93593",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-06-26 05:37:13"
+    "date_added": "2026-06-29 12:57:53"
   },
   {
     "cinema": "Cinesa LUXE Parc Vallès",
