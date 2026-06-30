@@ -30030,6 +30030,19 @@
     "date_added": "2026-06-29 21:57:05"
   },
   {
+    "cinema": "Cines Renoir Princesa",
+    "date": "2026-07-07",
+    "movie": "CUENTOS DE TOKIO [WILDER CINEMA]",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "Japanese",
+    "time": "20:00",
+    "booking_url": "https://www.pillalas.com/pase/1076788/",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-06-30 11:34:07"
+  },
+  {
     "cinema": "Cines Renoir Floridablanca",
     "date": "2026-07-07",
     "movie": "COSAS QUE NO OLVIDARÉ",
@@ -30058,15 +30071,15 @@
   {
     "cinema": "Cines Renoir Floridablanca",
     "date": "2026-07-07",
-    "movie": "El Día de la Revelación",
+    "movie": "CUENTOS DE TOKIO [WILDER CINEMA]",
     "format": "2D",
     "language": "V.O.S.E.",
-    "original_language": "English",
+    "original_language": "Japanese",
     "time": "20:00",
-    "booking_url": "https://www.pillalas.com/pase/1076696/",
+    "booking_url": "https://www.pillalas.com/pase/1076786/",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-06-29 21:57:05"
+    "date_added": "2026-06-30 11:34:07"
   },
   {
     "cinema": "Cines Renoir Floridablanca",
@@ -30602,6 +30615,19 @@
     "date_added": "2026-06-29 21:57:05"
   },
   {
+    "cinema": "Cines Renoir Princesa",
+    "date": "2026-07-09",
+    "movie": "LA PRINCESA PROMETIDA [WILDER CINEMA]",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "20:00",
+    "booking_url": "https://www.pillalas.com/pase/1076789/",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-06-30 11:34:07"
+  },
+  {
     "cinema": "Cines Renoir Floridablanca",
     "date": "2026-07-09",
     "movie": "COSAS QUE NO OLVIDARÉ",
@@ -30623,19 +30649,6 @@
     "original_language": "Italian",
     "time": "17:45",
     "booking_url": "https://www.pillalas.com/pase/1076706/",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-30 00:08:35"
-  },
-  {
-    "cinema": "Cines Renoir Floridablanca",
-    "date": "2026-07-09",
-    "movie": "El Día de la Revelación",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "20:00",
-    "booking_url": "https://www.pillalas.com/pase/1076708/",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-06-30 00:08:35"
@@ -30678,6 +30691,19 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-06-30 00:08:35"
+  },
+  {
+    "cinema": "Cines Renoir Floridablanca",
+    "date": "2026-07-09",
+    "movie": "LA PRINCESA PROMETIDA [WILDER CINEMA]",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "20:00",
+    "booking_url": "https://www.pillalas.com/pase/1076787/",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-06-30 11:34:07"
   },
   {
     "cinema": "Cines Renoir Floridablanca",
@@ -36177,6 +36203,19 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-06-29 21:57:05"
+  },
+  {
+    "cinema": "Cinesa LUXE Parc Vallès",
+    "date": "2026-07-13",
+    "movie": "SECRET FLASHBACK (13 julio)",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "",
+    "time": "21:00",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=031-90399",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-06-30 11:34:07"
   },
   {
     "cinema": "Cinesa Diagonal Mar",

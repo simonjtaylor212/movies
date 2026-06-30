@@ -1,4 +1,4 @@
-Starting Scraper - Local time is 2026-06-30 05:35:10 CEST
+Starting Scraper - Local time is 2026-06-30 11:34:07 CEST
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
   Fetching Yelmo madrid...
@@ -10,10 +10,10 @@ Cine Albéniz scraped: found 38 VOSE sessions.
 Scraping Kinépolis Granada & Nevada...
 Kinépolis Granada & Nevada: Scraped 355 VOSE sessions.
 Scraping Cines Renoir...
-Cines Renoir: Scraped 406 VOSE sessions.
+Cines Renoir: Scraped 408 VOSE sessions.
 Scraping Cines Golem...
 Cines Golem Madrid: Scraped 39 VOSE sessions.
-Loaded 1195 Cinesa showtimes from cache.
+Loaded 1196 Cinesa showtimes from cache.
 Scraping Ocine Serrallo...
 Ocine Serrallo: Scraped 5 sessions.
 Scraping mk2 Cinesur...
@@ -26,11 +26,12 @@ original language not found for 2 movies in Cinesa chain
 original language not found for 3 movies in Golem chain
 original language not found for 1 movies in Ocine chain
 original language not found for 3 movies in Renoir chain
-Successfully generated api/v1/showtimes.json with 3609 listings.
-Appended 66 new showings to new_showtimes.json
+Updated movie_title_translations.json
+Successfully generated api/v1/showtimes.json with 3612 listings.
+Appended 5 new showings to new_showtimes.json
 
 Resolving missing movie title translations...
-Found 13 movies without original names.
+Found 15 movies without original names.
 No TMDB_API_KEY detected. Using keyless TMDB scraper and Wikidata fallbacks.
 
 Searching for: '20 Años del MET en cines - Grabado MET 26-27'
@@ -38,6 +39,9 @@ Searching for: '20 Años del MET en cines - Grabado MET 26-27'
 
 Searching for: 'CALL ME BY YOUR NAME [WILDER CINEMA]'
   -> Could not resolve original name for 'CALL ME BY YOUR NAME [WILDER CINEMA]'
+
+Searching for: 'CUENTOS DE TOKIO [WILDER CINEMA]'
+  -> Could not resolve original name for 'CUENTOS DE TOKIO [WILDER CINEMA]'
 
 Searching for: 'EL ACTIVISTA [CINE CON ORGULLO RENOIR]'
   -> Could not resolve original name for 'EL ACTIVISTA [CINE CON ORGULLO RENOIR]'
@@ -47,6 +51,9 @@ Searching for: 'ENCUENTROS EN LA TERCERA FASE [WILDER CINEMA]'
 
 Searching for: 'LA MUERTE DE ROBIN HOOD [WILDER CINEMA]'
   -> Could not resolve original name for 'LA MUERTE DE ROBIN HOOD [WILDER CINEMA]'
+
+Searching for: 'LA PRINCESA PROMETIDA [WILDER CINEMA]'
+  -> Could not resolve original name for 'LA PRINCESA PROMETIDA [WILDER CINEMA]'
 
 Searching for: 'LADRÓN DE BICICLETAS [WILDER CINEMA]'
   -> Could not resolve original name for 'LADRÓN DE BICICLETAS [WILDER CINEMA]'
@@ -77,4 +84,4 @@ No translations were updated.
 === Cinesa Scraper Logs (Portugal VPN) ===
 Scraping Cinesa (Madrid & Barcelona)...
 Cinesa: Found 34 business dates with showtimes: ['2026-06-30', '2026-07-01', '2026-07-02', '2026-07-03', '2026-07-04', '2026-07-05', '2026-07-08', '2026-07-09', '2026-07-10', '2026-07-11', '2026-07-12', '2026-07-13', '2026-07-16', '2026-07-17', '2026-07-18', '2026-07-19', '2026-07-20', '2026-07-21', '2026-07-22', '2026-07-23', '2026-07-24', '2026-07-25', '2026-07-26', '2026-07-27', '2026-07-28', '2026-07-29', '2026-07-30', '2026-07-31', '2026-08-01', '2026-08-02', '2026-08-03', '2026-08-04', '2026-08-05', '2026-08-06']
-Cinesa (Madrid & Barcelona): Scraped 1195 VOSE sessions.
+Cinesa (Madrid & Barcelona): Scraped 1196 VOSE sessions.
