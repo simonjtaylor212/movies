@@ -1,96 +1,81 @@
-Starting Scraper - Local time is 2026-07-01 16:33:45 CEST
+Starting Scraper - Local time is 2026-07-01 19:14:08 CEST
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
   Fetching Yelmo madrid...
   Fetching Yelmo barcelona...
-Yelmo scraped: found 1271 VOSE sessions.
+Yelmo scraped: found 1252 VOSE sessions.
 Scraping Cine Albéniz...
 Stopping Cine Albéniz scrape after 5 consecutive empty days.
-Cine Albéniz scraped: found 25 VOSE sessions.
+Cine Albéniz scraped: found 86 VOSE sessions.
 Scraping Kinépolis Granada & Nevada...
-Kinépolis Granada & Nevada: Scraped 468 VOSE sessions.
+Kinépolis Granada & Nevada: Scraped 465 VOSE sessions.
 Scraping Cines Renoir...
 Cines Renoir: Scraped 737 VOSE sessions.
 Scraping Cines Golem...
-Cines Golem Madrid: Scraped 110 VOSE sessions.
-Loaded 1477 Cinesa showtimes from cache.
+Cines Golem Madrid: Scraped 107 VOSE sessions.
+Loaded 1462 Cinesa showtimes from cache.
 Scraping Ocine Serrallo...
 Ocine Serrallo: Scraped 5 sessions.
 Scraping mk2 Cinesur...
-  mk2 Cinesur Miramar: found 97 sessions.
+  mk2 Cinesur Miramar: found 94 sessions.
   mk2 Cinesur El Ingenio: found 29 sessions.
   mk2 Cinesur Málaga Nostrum: found 47 sessions.
-mk2 Cinesur scraped: found 173 VOSE sessions.
+mk2 Cinesur scraped: found 170 VOSE sessions.
 original language not found for 1 movies in Albéniz chain
-original language not found for 5 movies in Cinesa chain
-original language not found for 6 movies in Golem chain
+original language not found for 4 movies in Cinesa chain
+original language not found for 5 movies in Golem chain
 original language not found for 1 movies in Ocine chain
 original language not found for 2 movies in Renoir chain
-Successfully generated api/v1/showtimes.json with 4266 listings.
-Appended 149 new showings to new_showtimes.json
+Successfully generated api/v1/showtimes.json with 4284 listings.
+Appended 63 new showings to new_showtimes.json
 
 Resolving missing movie title translations...
 Found 15 movies without original names.
 No TMDB_API_KEY detected. Using keyless TMDB scraper and Wikidata fallbacks.
 
 Searching for: '20 Años del MET en cines - Grabado MET 26-27'
-    (Wikidata API warning: HTTPSConnectionPool(host='www.wikidata.org', port=443): Read timed out. (read timeout=10))
   -> Could not resolve original name for '20 Años del MET en cines - Grabado MET 26-27'
 
 Searching for: 'CALL ME BY YOUR NAME [WILDER CINEMA]'
-    (Wikidata API warning: HTTPSConnectionPool(host='www.wikidata.org', port=443): Read timed out. (read timeout=10))
   -> Could not resolve original name for 'CALL ME BY YOUR NAME [WILDER CINEMA]'
 
 Searching for: 'CUENTOS DE TOKIO [WILDER CINEMA]'
-    (Wikidata API warning: HTTPSConnectionPool(host='www.wikidata.org', port=443): Read timed out. (read timeout=10))
   -> Could not resolve original name for 'CUENTOS DE TOKIO [WILDER CINEMA]'
 
 Searching for: 'EL ACTIVISTA [CINE CON ORGULLO RENOIR]'
-    (Wikidata API warning: HTTPSConnectionPool(host='www.wikidata.org', port=443): Read timed out. (read timeout=10))
   -> Could not resolve original name for 'EL ACTIVISTA [CINE CON ORGULLO RENOIR]'
 
 Searching for: 'ENCUENTROS EN LA TERCERA FASE [WILDER CINEMA]'
-    (Wikidata API warning: HTTPSConnectionPool(host='www.wikidata.org', port=443): Read timed out. (read timeout=10))
   -> Could not resolve original name for 'ENCUENTROS EN LA TERCERA FASE [WILDER CINEMA]'
 
 Searching for: 'LA MUERTE DE ROBIN HOOD [WILDER CINEMA]'
-    (Wikidata API warning: HTTPSConnectionPool(host='www.wikidata.org', port=443): Read timed out. (read timeout=10))
   -> Could not resolve original name for 'LA MUERTE DE ROBIN HOOD [WILDER CINEMA]'
 
 Searching for: 'LA PRINCESA PROMETIDA [WILDER CINEMA]'
-    (Wikidata API warning: HTTPSConnectionPool(host='www.wikidata.org', port=443): Read timed out. (read timeout=10))
   -> Could not resolve original name for 'LA PRINCESA PROMETIDA [WILDER CINEMA]'
 
 Searching for: 'LADRÓN DE BICICLETAS [WILDER CINEMA]'
-    (Wikidata API warning: HTTPSConnectionPool(host='www.wikidata.org', port=443): Read timed out. (read timeout=10))
   -> Could not resolve original name for 'LADRÓN DE BICICLETAS [WILDER CINEMA]'
 
 Searching for: 'LAWRENCE DE ARABIA [WILDER CINEMA]'
-    (Wikidata API warning: HTTPSConnectionPool(host='www.wikidata.org', port=443): Read timed out. (read timeout=10))
   -> Could not resolve original name for 'LAWRENCE DE ARABIA [WILDER CINEMA]'
 
 Searching for: 'La casa del bosque 1'
-    (Wikidata API warning: HTTPSConnectionPool(host='www.wikidata.org', port=443): Read timed out. (read timeout=10))
   -> Could not resolve original name for 'La casa del bosque 1'
 
 Searching for: 'La casa del bosque 2'
-    (Wikidata API warning: HTTPSConnectionPool(host='www.wikidata.org', port=443): Read timed out. (read timeout=10))
   -> Could not resolve original name for 'La casa del bosque 2'
 
 Searching for: 'MALAS CALLES [WILDER CINEMA]'
-    (Wikidata API warning: HTTPSConnectionPool(host='www.wikidata.org', port=443): Read timed out. (read timeout=10))
   -> Could not resolve original name for 'MALAS CALLES [WILDER CINEMA]'
 
 Searching for: 'Sia 2016 Coachella'
-    (Wikidata API warning: HTTPSConnectionPool(host='www.wikidata.org', port=443): Read timed out. (read timeout=10))
   -> Could not resolve original name for 'Sia 2016 Coachella'
 
 Searching for: 'VIAJE AL PAÍS DE LOS BLANCOS [PROYECTO VIRIDIANA]'
-    (Wikidata API warning: HTTPSConnectionPool(host='www.wikidata.org', port=443): Read timed out. (read timeout=10))
   -> Could not resolve original name for 'VIAJE AL PAÍS DE LOS BLANCOS [PROYECTO VIRIDIANA]'
 
 Searching for: 'WHAT A FEELING [CINE CON ORGULLO RENOIR]'
-    (Wikidata API warning: HTTPSConnectionPool(host='www.wikidata.org', port=443): Read timed out. (read timeout=10))
   -> Could not resolve original name for 'WHAT A FEELING [CINE CON ORGULLO RENOIR]'
 
 No translations were updated.
@@ -98,4 +83,4 @@ No translations were updated.
 === Cinesa Scraper Logs (Portugal VPN) ===
 Scraping Cinesa (Madrid & Barcelona)...
 Cinesa: Found 37 business dates with showtimes: ['2026-07-01', '2026-07-02', '2026-07-03', '2026-07-04', '2026-07-05', '2026-07-06', '2026-07-07', '2026-07-08', '2026-07-09', '2026-07-10', '2026-07-11', '2026-07-12', '2026-07-13', '2026-07-16', '2026-07-17', '2026-07-18', '2026-07-19', '2026-07-20', '2026-07-21', '2026-07-22', '2026-07-23', '2026-07-24', '2026-07-25', '2026-07-26', '2026-07-27', '2026-07-28', '2026-07-29', '2026-07-30', '2026-07-31', '2026-08-01', '2026-08-02', '2026-08-03', '2026-08-04', '2026-08-05', '2026-08-06', '2026-08-29', '2026-08-30']
-Cinesa (Madrid & Barcelona): Scraped 1477 VOSE sessions.
+Cinesa (Madrid & Barcelona): Scraped 1462 VOSE sessions.
