@@ -1,4 +1,4 @@
-Starting Scraper - Local time is 2026-07-02 00:18:02 CEST
+Starting Scraper - Local time is 2026-07-02 05:30:10 CEST
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
   Fetching Yelmo madrid...
@@ -8,12 +8,12 @@ Scraping Cine Albéniz...
 Stopping Cine Albéniz scrape after 5 consecutive empty days.
 Cine Albéniz scraped: found 73 VOSE sessions.
 Scraping Kinépolis Granada & Nevada...
-Kinépolis Granada & Nevada: Scraped 437 VOSE sessions.
+Kinépolis Granada & Nevada: Scraped 436 VOSE sessions.
 Scraping Cines Renoir...
 Cines Renoir: Scraped 651 VOSE sessions.
 Scraping Cines Golem...
 Cines Golem Madrid: Scraped 116 VOSE sessions.
-Loaded 1427 Cinesa showtimes from cache.
+Loaded 1431 Cinesa showtimes from cache.
 Scraping Ocine Serrallo...
 Ocine Serrallo: Scraped 5 sessions.
 Scraping mk2 Cinesur...
@@ -22,19 +22,23 @@ Scraping mk2 Cinesur...
   mk2 Cinesur Málaga Nostrum: found 47 sessions.
 mk2 Cinesur scraped: found 167 VOSE sessions.
 original language not found for 1 movies in Albéniz chain
-original language not found for 4 movies in Cinesa chain
+original language not found for 5 movies in Cinesa chain
 original language not found for 5 movies in Golem chain
 original language not found for 1 movies in Ocine chain
 original language not found for 2 movies in Renoir chain
-Successfully generated api/v1/showtimes.json with 4067 listings.
-Appended 14 new showings to new_showtimes.json
+Updated movie_title_translations.json
+Successfully generated api/v1/showtimes.json with 4070 listings.
+Appended 4 new showings to new_showtimes.json
 
 Resolving missing movie title translations...
-Found 15 movies without original names.
+Found 16 movies without original names.
 No TMDB_API_KEY detected. Using keyless TMDB scraper and Wikidata fallbacks.
 
 Searching for: '20 Años del MET en cines - Grabado MET 26-27'
   -> Could not resolve original name for '20 Años del MET en cines - Grabado MET 26-27'
+
+Searching for: 'ATEEZ LIGHT THE WAY IN CINEMAS'
+  -> Found via TMDB Web: 'ATEEZ: LIGHT THE WAY IN CINEMAS'
 
 Searching for: 'CALL ME BY YOUR NAME [WILDER CINEMA]'
   -> Could not resolve original name for 'CALL ME BY YOUR NAME [WILDER CINEMA]'
@@ -78,9 +82,9 @@ Searching for: 'VIAJE AL PAÍS DE LOS BLANCOS [PROYECTO VIRIDIANA]'
 Searching for: 'WHAT A FEELING [CINE CON ORGULLO RENOIR]'
   -> Could not resolve original name for 'WHAT A FEELING [CINE CON ORGULLO RENOIR]'
 
-No translations were updated.
+Successfully updated 1 translation(s) in movie_title_translations.json.
 
 === Cinesa Scraper Logs (Portugal VPN) ===
 Scraping Cinesa (Madrid & Barcelona)...
-Cinesa: Found 37 business dates with showtimes: ['2026-07-02', '2026-07-03', '2026-07-04', '2026-07-05', '2026-07-06', '2026-07-07', '2026-07-08', '2026-07-09', '2026-07-10', '2026-07-11', '2026-07-12', '2026-07-13', '2026-07-14', '2026-07-16', '2026-07-17', '2026-07-18', '2026-07-19', '2026-07-20', '2026-07-21', '2026-07-22', '2026-07-23', '2026-07-24', '2026-07-25', '2026-07-26', '2026-07-27', '2026-07-28', '2026-07-29', '2026-07-30', '2026-07-31', '2026-08-01', '2026-08-02', '2026-08-03', '2026-08-04', '2026-08-05', '2026-08-06', '2026-08-29', '2026-08-30']
-Cinesa (Madrid & Barcelona): Scraped 1427 VOSE sessions.
+Cinesa: Found 38 business dates with showtimes: ['2026-07-02', '2026-07-03', '2026-07-04', '2026-07-05', '2026-07-06', '2026-07-07', '2026-07-08', '2026-07-09', '2026-07-10', '2026-07-11', '2026-07-12', '2026-07-13', '2026-07-14', '2026-07-16', '2026-07-17', '2026-07-18', '2026-07-19', '2026-07-20', '2026-07-21', '2026-07-22', '2026-07-23', '2026-07-24', '2026-07-25', '2026-07-26', '2026-07-27', '2026-07-28', '2026-07-29', '2026-07-30', '2026-07-31', '2026-08-01', '2026-08-02', '2026-08-03', '2026-08-04', '2026-08-05', '2026-08-06', '2026-08-08', '2026-08-29', '2026-08-30']
+Cinesa (Madrid & Barcelona): Scraped 1431 VOSE sessions.

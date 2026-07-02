@@ -24271,19 +24271,6 @@
     "date_added": "2026-06-30 21:56:23"
   },
   {
-    "cinema": "Kinépolis Madrid Ciudad de la Imagen",
-    "date": "2026-07-26",
-    "movie": "La Odisea",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "11:30",
-    "booking_url": "https://kinepolis.es/direct-vista-redirect/213530/0/KMAD/0",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-19 09:45:23"
-  },
-  {
     "cinema": "Ocine Serrallo",
     "date": "2026-07-02",
     "movie": "Obsession",
@@ -36584,12 +36571,12 @@
   {
     "cinema": "Cinesa LUXE Equinoccio",
     "date": "2026-07-04",
-    "movie": "Obsession",
+    "movie": "Toy Story 5",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
     "time": "12:25",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=026-62097",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=026-62091",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-01 11:44:16"
@@ -36597,12 +36584,12 @@
   {
     "cinema": "Cinesa LUXE Equinoccio",
     "date": "2026-07-04",
-    "movie": "Toy Story 5",
+    "movie": "Obsession",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
     "time": "12:25",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=026-62091",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=026-62097",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-01 11:44:16"
@@ -52574,6 +52561,19 @@
   {
     "cinema": "Cinesa Méndez Álvaro",
     "date": "2026-08-06",
+    "movie": "ATEEZ LIGHT THE WAY IN CINEMAS",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "",
+    "time": "18:50",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=123-86923",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-02 05:30:10"
+  },
+  {
+    "cinema": "Cinesa Méndez Álvaro",
+    "date": "2026-08-06",
     "movie": "Spider-Man: Brand New Day",
     "format": "2D",
     "language": "V.O.S.E.",
@@ -52609,6 +52609,19 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-06-23 13:02:51"
+  },
+  {
+    "cinema": "Cinesa Manoteras",
+    "date": "2026-08-06",
+    "movie": "ATEEZ LIGHT THE WAY IN CINEMAS",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "",
+    "time": "18:50",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-106162",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-02 05:30:10"
   },
   {
     "cinema": "Cinesa Manoteras",
@@ -52765,6 +52778,32 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-06-23 13:02:51"
+  },
+  {
+    "cinema": "Cinesa Méndez Álvaro",
+    "date": "2026-08-08",
+    "movie": "ATEEZ LIGHT THE WAY IN CINEMAS",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "",
+    "time": "15:45",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=123-86924",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-02 05:30:10"
+  },
+  {
+    "cinema": "Cinesa Manoteras",
+    "date": "2026-08-08",
+    "movie": "ATEEZ LIGHT THE WAY IN CINEMAS",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "",
+    "time": "15:45",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-106163",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-02 05:30:10"
   },
   {
     "cinema": "Cinesa LUXE Equinoccio",
