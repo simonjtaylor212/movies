@@ -16399,19 +16399,6 @@
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "original_language": "English",
-    "time": "16:00",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/140503/minions-monsters?mode=widget&change=0&ref=750&forceproxy=1",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-29 21:57:05"
-  },
-  {
-    "cinema": "mk2 Cinesur Miramar",
-    "date": "2026-07-02",
-    "movie": "Minions & Monsters",
-    "format": "2D",
-    "language": "Original con subtítulos (VOSE)",
-    "original_language": "English",
     "time": "16:30",
     "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/140493/minions-monsters?mode=widget&change=0&ref=750&forceproxy=1",
     "projection_type": "Movie",
@@ -16477,19 +16464,6 @@
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "original_language": "English",
-    "time": "15:55",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/140507/toy-story-5?mode=widget&change=0&ref=750&forceproxy=1",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-29 21:57:05"
-  },
-  {
-    "cinema": "mk2 Cinesur Miramar",
-    "date": "2026-07-02",
-    "movie": "Toy Story 5",
-    "format": "2D",
-    "language": "Original con subtítulos (VOSE)",
-    "original_language": "English",
     "time": "18:00",
     "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/140508/toy-story-5?mode=widget&change=0&ref=750&forceproxy=1",
     "projection_type": "Movie",
@@ -16505,19 +16479,6 @@
     "original_language": "English",
     "time": "20:10",
     "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/140509/toy-story-5?mode=widget&change=0&ref=750&forceproxy=1",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-29 21:57:05"
-  },
-  {
-    "cinema": "mk2 Cinesur Miramar",
-    "date": "2026-07-02",
-    "movie": "El Día de la Revelación",
-    "format": "2D",
-    "language": "Original con subtítulos (VOSE)",
-    "original_language": "English",
-    "time": "16:00",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/140497/el-dia-de-la-revelacion?mode=widget&change=0&ref=750&forceproxy=1",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-06-29 21:57:05"
@@ -34530,19 +34491,6 @@
   {
     "cinema": "Cinesa Méndez Álvaro",
     "date": "2026-07-02",
-    "movie": "Supergirl",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "15:45",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=123-86586",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-27 18:05:07"
-  },
-  {
-    "cinema": "Cinesa Méndez Álvaro",
-    "date": "2026-07-02",
     "movie": "Minions & Monsters",
     "format": "2D",
     "language": "V.O.S.E.",
@@ -34604,19 +34552,6 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
-  },
-  {
-    "cinema": "Cinesa Manoteras",
-    "date": "2026-07-02",
-    "movie": "Michael",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "15:55",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-105786",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-27 04:59:08"
   },
   {
     "cinema": "Cinesa Manoteras",
@@ -34946,19 +34881,6 @@
   {
     "cinema": "Cinesa LUXE Oasiz",
     "date": "2026-07-02",
-    "movie": "Toy Story 5",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "15:45",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=138-70192",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-27 18:05:07"
-  },
-  {
-    "cinema": "Cinesa LUXE Oasiz",
-    "date": "2026-07-02",
     "movie": "Obsession",
     "format": "2D",
     "language": "V.O.S.E.",
@@ -34994,19 +34916,6 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-06-29 12:57:53"
-  },
-  {
-    "cinema": "Cinesa Diagonal",
-    "date": "2026-07-02",
-    "movie": "Minions & Monsters",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "15:40",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=012-51758",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-29 21:57:05"
   },
   {
     "cinema": "Cinesa Diagonal",
