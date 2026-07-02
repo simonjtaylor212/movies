@@ -8062,32 +8062,6 @@
   {
     "cinema": "Cine Yelmo La Vaguada",
     "date": "2026-07-02",
-    "movie": "Obsession",
-    "format": "2D",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "13:00",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1360&showtimeVistaId=17682",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-29 17:44:59"
-  },
-  {
-    "cinema": "Cine Yelmo La Vaguada",
-    "date": "2026-07-02",
-    "movie": "Toy Story 5",
-    "format": "2D",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "13:20",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1360&showtimeVistaId=17712",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-29 21:57:05"
-  },
-  {
-    "cinema": "Cine Yelmo La Vaguada",
-    "date": "2026-07-02",
     "movie": "Toy Story 5",
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
@@ -41288,6 +41262,32 @@
     "date_added": "2026-06-23 13:02:51"
   },
   {
+    "cinema": "Cinesa LUXE Equinoccio",
+    "date": "2026-07-08",
+    "movie": "Vaiana",
+    "format": "ISENSE",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "22:15",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=026-61598",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-02 15:35:43"
+  },
+  {
+    "cinema": "Cinesa Príncipe Pío",
+    "date": "2026-07-08",
+    "movie": "Vaiana",
+    "format": "ISENSE",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "22:15",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=027-46852",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-02 15:35:43"
+  },
+  {
     "cinema": "Cinesa Las Rozas",
     "date": "2026-07-08",
     "movie": "Vaiana",
@@ -41299,6 +41299,19 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-06-24 05:31:35"
+  },
+  {
+    "cinema": "Cinesa Méndez Álvaro",
+    "date": "2026-07-08",
+    "movie": "Vaiana",
+    "format": "ISENSE",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "22:15",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=123-86225",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-02 15:35:43"
   },
   {
     "cinema": "Cinesa Manoteras",
@@ -41392,6 +41405,32 @@
     "date_added": "2026-06-23 13:02:51"
   },
   {
+    "cinema": "Cinesa LUXE Equinoccio",
+    "date": "2026-07-09",
+    "movie": "Vaiana",
+    "format": "ISENSE",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "22:15",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=026-61605",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-02 15:35:43"
+  },
+  {
+    "cinema": "Cinesa Príncipe Pío",
+    "date": "2026-07-09",
+    "movie": "Vaiana",
+    "format": "ISENSE",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "22:15",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=027-46855",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-02 15:35:43"
+  },
+  {
     "cinema": "Cinesa Las Rozas",
     "date": "2026-07-09",
     "movie": "Vaiana",
@@ -41403,6 +41442,19 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-06-24 05:31:35"
+  },
+  {
+    "cinema": "Cinesa Méndez Álvaro",
+    "date": "2026-07-09",
+    "movie": "Vaiana",
+    "format": "ISENSE",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "22:15",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=123-86233",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-02 15:35:43"
   },
   {
     "cinema": "Cinesa Manoteras",
