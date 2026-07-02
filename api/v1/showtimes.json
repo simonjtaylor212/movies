@@ -21,7 +21,7 @@
     "original_language": "English",
     "time": "16:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=791&showtimeVistaId=23720",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-30 19:07:15"
   },
@@ -47,7 +47,7 @@
     "original_language": "English",
     "time": "16:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=791&showtimeVistaId=23725",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-30 19:07:15"
   },
@@ -73,7 +73,7 @@
     "original_language": "English",
     "time": "16:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=791&showtimeVistaId=23729",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-30 19:07:15"
   },
@@ -99,7 +99,7 @@
     "original_language": "English",
     "time": "16:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=791&showtimeVistaId=23733",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-30 19:07:15"
   },
@@ -138,7 +138,7 @@
     "original_language": "English",
     "time": "16:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=791&showtimeVistaId=23736",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-30 19:07:15"
   },
@@ -151,7 +151,7 @@
     "original_language": "English",
     "time": "20:00",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=791&showtimeVistaId=22662",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-23 11:33:48"
   },
@@ -203,7 +203,7 @@
     "original_language": "English",
     "time": "19:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=791&showtimeVistaId=23438",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-23 11:33:48"
   },
@@ -565,63 +565,11 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "original_language": "English",
-    "time": "17:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37592",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-23 11:33:48"
-  },
-  {
-    "cinema": "Cine Yelmo Vialia Málaga",
-    "date": "2026-07-02",
-    "movie": "Minions & Monsters",
-    "format": "2D",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "19:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37591",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-23 11:33:48"
-  },
-  {
-    "cinema": "Cine Yelmo Vialia Málaga",
-    "date": "2026-07-02",
-    "movie": "Minions & Monsters",
-    "format": "2D",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
     "time": "21:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37590",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-23 11:33:48"
-  },
-  {
-    "cinema": "Cine Yelmo Vialia Málaga",
-    "date": "2026-07-02",
-    "movie": "Supergirl",
-    "format": "2D",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "17:15",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=38943",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-30 00:08:35"
-  },
-  {
-    "cinema": "Cine Yelmo Vialia Málaga",
-    "date": "2026-07-02",
-    "movie": "Obsession",
-    "format": "2D",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "19:15",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=38922",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-30 00:08:35"
   },
   {
     "cinema": "Cine Yelmo Vialia Málaga",
@@ -645,7 +593,7 @@
     "original_language": "English",
     "time": "17:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37587",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-23 11:33:48"
   },
@@ -658,7 +606,7 @@
     "original_language": "English",
     "time": "19:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37588",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-23 11:33:48"
   },
@@ -671,7 +619,7 @@
     "original_language": "English",
     "time": "21:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37589",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-23 11:33:48"
   },
@@ -710,7 +658,7 @@
     "original_language": "English",
     "time": "17:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37586",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-23 11:33:48"
   },
@@ -723,7 +671,7 @@
     "original_language": "English",
     "time": "19:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37585",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-23 11:33:48"
   },
@@ -736,7 +684,7 @@
     "original_language": "English",
     "time": "21:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37584",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-23 11:33:48"
   },
@@ -801,7 +749,7 @@
     "original_language": "English",
     "time": "13:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=39047",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-30 00:08:35"
   },
@@ -814,7 +762,7 @@
     "original_language": "English",
     "time": "15:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=39046",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-30 00:08:35"
   },
@@ -827,7 +775,7 @@
     "original_language": "English",
     "time": "17:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37581",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-23 11:33:48"
   },
@@ -840,7 +788,7 @@
     "original_language": "English",
     "time": "19:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37582",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-23 11:33:48"
   },
@@ -853,7 +801,7 @@
     "original_language": "English",
     "time": "21:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37583",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-23 11:33:48"
   },
@@ -944,7 +892,7 @@
     "original_language": "English",
     "time": "17:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37580",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-23 11:33:48"
   },
@@ -996,7 +944,7 @@
     "original_language": "English",
     "time": "17:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37575",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-23 11:33:48"
   },
@@ -1009,7 +957,7 @@
     "original_language": "English",
     "time": "19:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37576",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-23 11:33:48"
   },
@@ -1022,7 +970,7 @@
     "original_language": "English",
     "time": "21:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37577",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-23 11:33:48"
   },
@@ -1113,7 +1061,7 @@
     "original_language": "English",
     "time": "13:15",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=38667",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-23 11:33:48"
   },
@@ -1126,7 +1074,7 @@
     "original_language": "English",
     "time": "19:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=38655",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-23 11:33:48"
   },
@@ -1748,22 +1696,9 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "original_language": "English",
-    "time": "18:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=38971",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-23 11:33:48"
-  },
-  {
-    "cinema": "Cine Yelmo Plaza Mayor",
-    "date": "2026-07-02",
-    "movie": "Minions & Monsters",
-    "format": "2D",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
     "time": "20:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=38974",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-23 11:33:48"
   },
@@ -1776,35 +1711,9 @@
     "original_language": "English",
     "time": "22:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=38977",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-23 11:33:48"
-  },
-  {
-    "cinema": "Cine Yelmo Plaza Mayor",
-    "date": "2026-07-02",
-    "movie": "Obsession",
-    "format": "2D",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "18:50",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=40519",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-30 00:08:35"
-  },
-  {
-    "cinema": "Cine Yelmo Plaza Mayor",
-    "date": "2026-07-02",
-    "movie": "El Día de la Revelación",
-    "format": "2D",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "17:45",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=40527",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-30 00:08:35"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -1828,7 +1737,7 @@
     "original_language": "English",
     "time": "16:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=38988",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-23 11:33:48"
   },
@@ -1841,7 +1750,7 @@
     "original_language": "English",
     "time": "18:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=38985",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-23 11:33:48"
   },
@@ -1854,7 +1763,7 @@
     "original_language": "English",
     "time": "20:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=38982",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-23 11:33:48"
   },
@@ -1867,7 +1776,7 @@
     "original_language": "English",
     "time": "22:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=38979",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-23 11:33:48"
   },
@@ -1906,7 +1815,7 @@
     "original_language": "English",
     "time": "16:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=38990",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-23 11:33:48"
   },
@@ -1919,7 +1828,7 @@
     "original_language": "English",
     "time": "18:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=38993",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-23 11:33:48"
   },
@@ -1932,7 +1841,7 @@
     "original_language": "English",
     "time": "20:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=38996",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-23 11:33:48"
   },
@@ -1945,7 +1854,7 @@
     "original_language": "English",
     "time": "22:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=38999",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-23 11:33:48"
   },
@@ -1984,7 +1893,7 @@
     "original_language": "English",
     "time": "16:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39001",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-23 11:33:48"
   },
@@ -1997,7 +1906,7 @@
     "original_language": "English",
     "time": "18:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39004",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-23 11:33:48"
   },
@@ -2010,7 +1919,7 @@
     "original_language": "English",
     "time": "20:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39007",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-23 11:33:48"
   },
@@ -2023,7 +1932,7 @@
     "original_language": "English",
     "time": "22:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39010",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-23 11:33:48"
   },
@@ -2062,7 +1971,7 @@
     "original_language": "English",
     "time": "16:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39012",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-23 11:33:48"
   },
@@ -2075,7 +1984,7 @@
     "original_language": "English",
     "time": "18:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39015",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-23 11:33:48"
   },
@@ -2088,7 +1997,7 @@
     "original_language": "English",
     "time": "20:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39018",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-23 11:33:48"
   },
@@ -2101,7 +2010,7 @@
     "original_language": "English",
     "time": "22:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39021",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-23 11:33:48"
   },
@@ -2153,7 +2062,7 @@
     "original_language": "English",
     "time": "16:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39023",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-23 11:33:48"
   },
@@ -2166,7 +2075,7 @@
     "original_language": "English",
     "time": "18:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39026",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-23 11:33:48"
   },
@@ -2179,7 +2088,7 @@
     "original_language": "English",
     "time": "20:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39029",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-23 11:33:48"
   },
@@ -2192,7 +2101,7 @@
     "original_language": "English",
     "time": "22:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39032",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-23 11:33:48"
   },
@@ -2296,7 +2205,7 @@
     "original_language": "English",
     "time": "17:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=40081",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-23 11:33:48"
   },
@@ -2322,7 +2231,7 @@
     "original_language": "English",
     "time": "17:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=40082",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-23 11:33:48"
   },
@@ -2335,7 +2244,7 @@
     "original_language": "English",
     "time": "17:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=40095",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-23 11:33:48"
   },
@@ -2348,7 +2257,7 @@
     "original_language": "English",
     "time": "17:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=40096",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-23 11:33:48"
   },
@@ -2361,7 +2270,7 @@
     "original_language": "English",
     "time": "17:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=40109",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-23 11:33:48"
   },
@@ -2374,7 +2283,7 @@
     "original_language": "English",
     "time": "17:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=40110",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-23 11:33:48"
   },
@@ -2387,7 +2296,7 @@
     "original_language": "English",
     "time": "17:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=40123",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-23 11:33:48"
   },
@@ -2400,7 +2309,7 @@
     "original_language": "English",
     "time": "17:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=40124",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-23 11:33:48"
   },
@@ -3061,35 +2970,9 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "original_language": "English",
-    "time": "17:00",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=32471",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-29 21:57:05"
-  },
-  {
-    "cinema": "Cine Yelmo Ideal",
-    "date": "2026-07-02",
-    "movie": "Minions & Monsters",
-    "format": "2D",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "18:00",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=31376",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-27 18:05:07"
-  },
-  {
-    "cinema": "Cine Yelmo Ideal",
-    "date": "2026-07-02",
-    "movie": "Minions & Monsters",
-    "format": "2D",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
     "time": "20:00",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=31375",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -3102,22 +2985,9 @@
     "original_language": "English",
     "time": "22:00",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=31374",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
-  },
-  {
-    "cinema": "Cine Yelmo Ideal",
-    "date": "2026-07-02",
-    "movie": "Supergirl",
-    "format": "2D",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "18:05",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=32495",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-29 21:57:05"
   },
   {
     "cinema": "Cine Yelmo Ideal",
@@ -3141,19 +3011,6 @@
     "original_language": "English",
     "time": "22:35",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=32493",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-29 21:57:05"
-  },
-  {
-    "cinema": "Cine Yelmo Ideal",
-    "date": "2026-07-02",
-    "movie": "Obsession",
-    "format": "2D",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "18:00",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=32476",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-06-29 21:57:05"
@@ -3191,19 +3048,6 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "original_language": "English",
-    "time": "18:20",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=32475",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-29 21:57:05"
-  },
-  {
-    "cinema": "Cine Yelmo Ideal",
-    "date": "2026-07-02",
-    "movie": "Toy Story 5",
-    "format": "2D",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
     "time": "20:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=32473",
     "projection_type": "Movie",
@@ -3226,64 +3070,12 @@
   {
     "cinema": "Cine Yelmo Ideal",
     "date": "2026-07-02",
-    "movie": "Viaje al país de los blancos",
-    "format": "2D",
-    "language": "CATALÁN SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "Catalan",
-    "time": "17:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=32488",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-29 21:57:05"
-  },
-  {
-    "cinema": "Cine Yelmo Ideal",
-    "date": "2026-07-02",
-    "movie": "El Día de la Revelación",
-    "format": "2D",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "19:15",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=32492",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-29 21:57:05"
-  },
-  {
-    "cinema": "Cine Yelmo Ideal",
-    "date": "2026-07-02",
     "movie": "El Día de la Revelación",
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "original_language": "English",
     "time": "22:10",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=32491",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-29 21:57:05"
-  },
-  {
-    "cinema": "Cine Yelmo Ideal",
-    "date": "2026-07-02",
-    "movie": "Backrooms",
-    "format": "2D",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "17:00",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=32480",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-29 21:57:05"
-  },
-  {
-    "cinema": "Cine Yelmo Ideal",
-    "date": "2026-07-02",
-    "movie": "Backrooms",
-    "format": "2D",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "19:20",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=32481",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-06-29 21:57:05"
@@ -3310,19 +3102,6 @@
     "original_language": "English",
     "time": "22:20",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=32487",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-29 21:57:05"
-  },
-  {
-    "cinema": "Cine Yelmo Ideal",
-    "date": "2026-07-02",
-    "movie": "El Drama",
-    "format": "2D",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "17:55",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=32486",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-06-29 21:57:05"
@@ -3440,7 +3219,7 @@
     "original_language": "English",
     "time": "16:00",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=31378",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -3453,7 +3232,7 @@
     "original_language": "English",
     "time": "18:00",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=31379",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -3466,7 +3245,7 @@
     "original_language": "English",
     "time": "20:00",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=31380",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -3479,7 +3258,7 @@
     "original_language": "English",
     "time": "22:00",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=31381",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -3895,7 +3674,7 @@
     "original_language": "English",
     "time": "12:00",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=31387",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -3908,7 +3687,7 @@
     "original_language": "English",
     "time": "14:00",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=31386",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -3921,7 +3700,7 @@
     "original_language": "English",
     "time": "16:00",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=31385",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -3934,7 +3713,7 @@
     "original_language": "English",
     "time": "18:00",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=31384",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -3947,7 +3726,7 @@
     "original_language": "English",
     "time": "20:00",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=31383",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -3960,7 +3739,7 @@
     "original_language": "English",
     "time": "22:00",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=31382",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -4467,7 +4246,7 @@
     "original_language": "English",
     "time": "12:00",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=31388",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -4480,7 +4259,7 @@
     "original_language": "English",
     "time": "14:00",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=31389",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -4493,7 +4272,7 @@
     "original_language": "English",
     "time": "16:00",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=31390",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -4506,7 +4285,7 @@
     "original_language": "English",
     "time": "18:00",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=31391",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -4519,7 +4298,7 @@
     "original_language": "English",
     "time": "20:00",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=31392",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -4532,7 +4311,7 @@
     "original_language": "English",
     "time": "22:00",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=31393",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -5000,7 +4779,7 @@
     "original_language": "English",
     "time": "16:00",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=31397",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -5013,7 +4792,7 @@
     "original_language": "English",
     "time": "18:00",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=31396",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -5026,7 +4805,7 @@
     "original_language": "English",
     "time": "20:00",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=31395",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -5039,7 +4818,7 @@
     "original_language": "English",
     "time": "22:00",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=31394",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -5390,7 +5169,7 @@
     "original_language": "English",
     "time": "16:00",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=31398",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -5403,7 +5182,7 @@
     "original_language": "English",
     "time": "18:00",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=31399",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -5416,7 +5195,7 @@
     "original_language": "English",
     "time": "20:00",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=31400",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -5429,7 +5208,7 @@
     "original_language": "English",
     "time": "22:00",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=31401",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -5741,7 +5520,7 @@
     "original_language": "English",
     "time": "17:00",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=32266",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -5754,7 +5533,7 @@
     "original_language": "English",
     "time": "19:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=32267",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -5767,7 +5546,7 @@
     "original_language": "English",
     "time": "22:00",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=32268",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -5793,7 +5572,7 @@
     "original_language": "English",
     "time": "17:00",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=32271",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -5806,7 +5585,7 @@
     "original_language": "English",
     "time": "19:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=32270",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -5819,7 +5598,7 @@
     "original_language": "English",
     "time": "22:00",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=32269",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -5832,7 +5611,7 @@
     "original_language": "English",
     "time": "17:00",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=32272",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -5845,7 +5624,7 @@
     "original_language": "English",
     "time": "19:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=32273",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -5858,7 +5637,7 @@
     "original_language": "English",
     "time": "22:00",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=32274",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -5871,7 +5650,7 @@
     "original_language": "English",
     "time": "12:00",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=32282",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -5884,7 +5663,7 @@
     "original_language": "English",
     "time": "14:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=32281",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -5897,7 +5676,7 @@
     "original_language": "English",
     "time": "17:00",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=32277",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -5910,7 +5689,7 @@
     "original_language": "English",
     "time": "19:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=32276",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -5923,7 +5702,7 @@
     "original_language": "English",
     "time": "22:00",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=32275",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -5936,7 +5715,7 @@
     "original_language": "English",
     "time": "12:00",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=32284",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -5949,7 +5728,7 @@
     "original_language": "English",
     "time": "14:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=32283",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -5962,7 +5741,7 @@
     "original_language": "English",
     "time": "17:00",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=32278",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -5975,7 +5754,7 @@
     "original_language": "English",
     "time": "19:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=32279",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -5988,7 +5767,7 @@
     "original_language": "English",
     "time": "22:00",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=32280",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -6001,7 +5780,7 @@
     "original_language": "English",
     "time": "17:00",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=32287",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -6014,7 +5793,7 @@
     "original_language": "English",
     "time": "19:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=32286",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -6027,7 +5806,7 @@
     "original_language": "English",
     "time": "22:00",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=32285",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -6040,7 +5819,7 @@
     "original_language": "English",
     "time": "17:00",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=32288",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -6053,7 +5832,7 @@
     "original_language": "English",
     "time": "19:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=32289",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -6066,7 +5845,7 @@
     "original_language": "English",
     "time": "22:00",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=32290",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -6079,7 +5858,7 @@
     "original_language": "English",
     "time": "17:00",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=32293",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -6092,7 +5871,7 @@
     "original_language": "English",
     "time": "19:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=32292",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -6105,7 +5884,7 @@
     "original_language": "English",
     "time": "22:00",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=32291",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -7944,19 +7723,6 @@
   },
   {
     "cinema": "Cine Yelmo La Vaguada",
-    "date": "2026-07-02",
-    "movie": "Toy Story 5",
-    "format": "2D",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "19:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1360&showtimeVistaId=17710",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-29 21:57:05"
-  },
-  {
-    "cinema": "Cine Yelmo La Vaguada",
     "date": "2026-07-03",
     "movie": "Minions & Monsters",
     "format": "2D",
@@ -7964,7 +7730,7 @@
     "original_language": "English",
     "time": "12:20",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1360&showtimeVistaId=17732",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-30 21:56:23"
   },
@@ -8003,7 +7769,7 @@
     "original_language": "English",
     "time": "12:20",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1360&showtimeVistaId=17776",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-30 21:56:23"
   },
@@ -8042,7 +7808,7 @@
     "original_language": "English",
     "time": "12:20",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1360&showtimeVistaId=17842",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-30 21:56:23"
   },
@@ -8081,7 +7847,7 @@
     "original_language": "English",
     "time": "12:20",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1360&showtimeVistaId=17797",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-30 21:56:23"
   },
@@ -8133,7 +7899,7 @@
     "original_language": "English",
     "time": "12:20",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1360&showtimeVistaId=17867",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-30 21:56:23"
   },
@@ -8146,7 +7912,7 @@
     "original_language": "English",
     "time": "20:00",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1360&showtimeVistaId=16572",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -8211,7 +7977,7 @@
     "original_language": "English",
     "time": "13:15",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1360&showtimeVistaId=17441",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -8224,7 +7990,7 @@
     "original_language": "English",
     "time": "13:15",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1360&showtimeVistaId=17459",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -8237,7 +8003,7 @@
     "original_language": "English",
     "time": "13:15",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1360&showtimeVistaId=17466",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -8250,7 +8016,7 @@
     "original_language": "English",
     "time": "13:15",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1360&showtimeVistaId=17477",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -8263,7 +8029,7 @@
     "original_language": "English",
     "time": "13:15",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1360&showtimeVistaId=17484",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -8276,7 +8042,7 @@
     "original_language": "English",
     "time": "13:15",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1360&showtimeVistaId=17495",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -8289,7 +8055,7 @@
     "original_language": "English",
     "time": "19:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1360&showtimeVistaId=17493",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -8302,7 +8068,7 @@
     "original_language": "English",
     "time": "13:15",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1360&showtimeVistaId=17502",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -8536,7 +8302,7 @@
     "original_language": "English",
     "time": "19:45",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=804&showtimeVistaId=35970",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-30 21:56:23"
   },
@@ -8562,7 +8328,7 @@
     "original_language": "English",
     "time": "19:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=804&showtimeVistaId=35527",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -8820,63 +8586,11 @@
     "format": "LUX",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "original_language": "English",
-    "time": "17:50",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=22298",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-29 17:44:59"
-  },
-  {
-    "cinema": "Cine Yelmo Palafox Luxury",
-    "date": "2026-07-02",
-    "movie": "Minions & Monsters",
-    "format": "LUX",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "20:15",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=22296",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-27 18:05:07"
-  },
-  {
-    "cinema": "Cine Yelmo Palafox Luxury",
-    "date": "2026-07-02",
-    "movie": "Minions & Monsters",
-    "format": "LUX",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
     "time": "22:35",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=22294",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
-  },
-  {
-    "cinema": "Cine Yelmo Palafox Luxury",
-    "date": "2026-07-02",
-    "movie": "Supergirl",
-    "format": "LUX",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "18:15",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=22972",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-29 21:57:05"
-  },
-  {
-    "cinema": "Cine Yelmo Palafox Luxury",
-    "date": "2026-07-02",
-    "movie": "Obsession",
-    "format": "LUX",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "19:40",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=22302",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-29 21:57:05"
   },
   {
     "cinema": "Cine Yelmo Palafox Luxury",
@@ -8887,32 +8601,6 @@
     "original_language": "English",
     "time": "22:15",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=22301",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-29 21:57:05"
-  },
-  {
-    "cinema": "Cine Yelmo Palafox Luxury",
-    "date": "2026-07-02",
-    "movie": "Toy Story 5",
-    "format": "LUX",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "18:35",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=22973",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-29 21:57:05"
-  },
-  {
-    "cinema": "Cine Yelmo Palafox Luxury",
-    "date": "2026-07-02",
-    "movie": "El Día de la Revelación",
-    "format": "LUX",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "18:55",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=22974",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-06-29 21:57:05"
@@ -8939,7 +8627,7 @@
     "original_language": "English",
     "time": "16:25",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=22959",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-29 21:57:05"
   },
@@ -8952,7 +8640,7 @@
     "original_language": "English",
     "time": "20:15",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=22307",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -8965,7 +8653,7 @@
     "original_language": "English",
     "time": "22:45",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=22304",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-29 17:44:59"
   },
@@ -9095,7 +8783,7 @@
     "original_language": "English",
     "time": "12:00",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=21895",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -9108,7 +8796,7 @@
     "original_language": "English",
     "time": "15:45",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=22314",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-29 17:44:59"
   },
@@ -9121,7 +8809,7 @@
     "original_language": "English",
     "time": "17:55",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=21872",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-29 17:44:59"
   },
@@ -9134,7 +8822,7 @@
     "original_language": "English",
     "time": "20:15",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=21871",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -9147,7 +8835,7 @@
     "original_language": "English",
     "time": "22:45",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=22321",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-29 17:44:59"
   },
@@ -9316,7 +9004,7 @@
     "original_language": "English",
     "time": "12:00",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=21898",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -9329,7 +9017,7 @@
     "original_language": "English",
     "time": "15:45",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=22330",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-28 21:19:09"
   },
@@ -9342,7 +9030,7 @@
     "original_language": "English",
     "time": "17:55",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=22886",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-29 21:57:05"
   },
@@ -9355,7 +9043,7 @@
     "original_language": "English",
     "time": "20:15",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=22326",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -9368,7 +9056,7 @@
     "original_language": "English",
     "time": "22:45",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=22329",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-29 17:44:59"
   },
@@ -9550,7 +9238,7 @@
     "original_language": "English",
     "time": "15:45",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=22928",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-29 21:57:05"
   },
@@ -9563,7 +9251,7 @@
     "original_language": "English",
     "time": "17:55",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=22925",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-29 21:57:05"
   },
@@ -9576,7 +9264,7 @@
     "original_language": "English",
     "time": "20:15",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=22333",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -9589,7 +9277,7 @@
     "original_language": "English",
     "time": "22:35",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=22334",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -9706,7 +9394,7 @@
     "original_language": "English",
     "time": "15:45",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=22944",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-29 21:57:05"
   },
@@ -9719,7 +9407,7 @@
     "original_language": "English",
     "time": "17:55",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=22947",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-29 21:57:05"
   },
@@ -9732,7 +9420,7 @@
     "original_language": "English",
     "time": "20:15",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=22350",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -9745,7 +9433,7 @@
     "original_language": "English",
     "time": "22:35",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=22349",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -9875,7 +9563,7 @@
     "original_language": "English",
     "time": "19:15",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=22712",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -9888,7 +9576,7 @@
     "original_language": "English",
     "time": "22:00",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=22714",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -9901,7 +9589,7 @@
     "original_language": "English",
     "time": "19:15",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=22716",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -9914,7 +9602,7 @@
     "original_language": "English",
     "time": "22:00",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=22715",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -9927,7 +9615,7 @@
     "original_language": "English",
     "time": "19:15",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=22719",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -9940,7 +9628,7 @@
     "original_language": "English",
     "time": "22:00",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=22720",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -9953,7 +9641,7 @@
     "original_language": "English",
     "time": "13:45",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=22724",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -9966,7 +9654,7 @@
     "original_language": "English",
     "time": "19:15",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=22722",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -9979,7 +9667,7 @@
     "original_language": "English",
     "time": "22:00",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=22721",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -9992,7 +9680,7 @@
     "original_language": "English",
     "time": "13:45",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=22725",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -10005,7 +9693,7 @@
     "original_language": "English",
     "time": "19:15",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=22727",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -10018,7 +9706,7 @@
     "original_language": "English",
     "time": "22:00",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=22728",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -10031,7 +9719,7 @@
     "original_language": "English",
     "time": "19:15",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=22730",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -10044,7 +9732,7 @@
     "original_language": "English",
     "time": "22:00",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=22729",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -10057,7 +9745,7 @@
     "original_language": "English",
     "time": "19:15",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=22733",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -10070,7 +9758,7 @@
     "original_language": "English",
     "time": "22:00",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=22734",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -10083,7 +9771,7 @@
     "original_language": "English",
     "time": "19:15",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=22736",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -10096,7 +9784,7 @@
     "original_language": "English",
     "time": "22:00",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=22737",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -10915,7 +10603,7 @@
     "original_language": "English",
     "time": "14:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1321&showtimeVistaId=24403",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-30 21:56:23"
   },
@@ -10928,7 +10616,7 @@
     "original_language": "English",
     "time": "20:00",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1321&showtimeVistaId=23451",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -10967,7 +10655,7 @@
     "original_language": "English",
     "time": "19:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1321&showtimeVistaId=24085",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -11084,7 +10772,7 @@
     "original_language": "English",
     "time": "14:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=813&showtimeVistaId=53094",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-30 00:08:35"
   },
@@ -11149,7 +10837,7 @@
     "original_language": "English",
     "time": "14:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=813&showtimeVistaId=53180",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-30 00:08:35"
   },
@@ -11214,7 +10902,7 @@
     "original_language": "English",
     "time": "20:00",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=813&showtimeVistaId=51257",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -11227,7 +10915,7 @@
     "original_language": "English",
     "time": "18:05",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=813&showtimeVistaId=53281",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-30 00:08:35"
   },
@@ -11279,7 +10967,7 @@
     "original_language": "English",
     "time": "13:15",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=813&showtimeVistaId=52722",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -11292,7 +10980,7 @@
     "original_language": "English",
     "time": "13:15",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=813&showtimeVistaId=52723",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -11305,7 +10993,7 @@
     "original_language": "English",
     "time": "19:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=813&showtimeVistaId=52705",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -12033,7 +11721,7 @@
     "original_language": "English",
     "time": "20:00",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=788&showtimeVistaId=29651",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -12046,7 +11734,7 @@
     "original_language": "English",
     "time": "19:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=788&showtimeVistaId=29681",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -12403,19 +12091,6 @@
   },
   {
     "cinema": "Cine Yelmo Plenilunio",
-    "date": "2026-07-02",
-    "movie": "Minions & Monsters",
-    "format": "2D",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "17:35",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=805&showtimeVistaId=39897",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-29 21:57:05"
-  },
-  {
-    "cinema": "Cine Yelmo Plenilunio",
     "date": "2026-07-03",
     "movie": "Akira (Reestreno)",
     "format": "2D",
@@ -12436,7 +12111,7 @@
     "original_language": "English",
     "time": "17:35",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=805&showtimeVistaId=39943",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-29 21:57:05"
   },
@@ -12462,7 +12137,7 @@
     "original_language": "English",
     "time": "17:35",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=805&showtimeVistaId=39979",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-29 21:57:05"
   },
@@ -12514,7 +12189,7 @@
     "original_language": "English",
     "time": "13:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=805&showtimeVistaId=40042",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-29 21:57:05"
   },
@@ -12527,7 +12202,7 @@
     "original_language": "English",
     "time": "17:35",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=805&showtimeVistaId=40018",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-29 21:57:05"
   },
@@ -12553,7 +12228,7 @@
     "original_language": "English",
     "time": "17:35",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=805&showtimeVistaId=40074",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-29 21:57:05"
   },
@@ -12605,7 +12280,7 @@
     "original_language": "English",
     "time": "17:35",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=805&showtimeVistaId=40110",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-29 21:57:05"
   },
@@ -12618,7 +12293,7 @@
     "original_language": "English",
     "time": "20:00",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=805&showtimeVistaId=38507",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -12670,7 +12345,7 @@
     "original_language": "English",
     "time": "19:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=805&showtimeVistaId=39813",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -12930,7 +12605,7 @@
     "original_language": "English",
     "time": "20:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=802&showtimeVistaId=42804",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-07-01 00:15:47"
   },
@@ -12956,7 +12631,7 @@
     "original_language": "English",
     "time": "20:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=802&showtimeVistaId=42626",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-07-01 00:15:47"
   },
@@ -12982,7 +12657,7 @@
     "original_language": "English",
     "time": "20:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=802&showtimeVistaId=42654",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-07-01 00:15:47"
   },
@@ -13008,7 +12683,7 @@
     "original_language": "English",
     "time": "20:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=802&showtimeVistaId=42698",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-07-01 00:15:47"
   },
@@ -13060,7 +12735,7 @@
     "original_language": "English",
     "time": "20:00",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=802&showtimeVistaId=41191",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -13073,7 +12748,7 @@
     "original_language": "English",
     "time": "20:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=802&showtimeVistaId=42754",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-07-01 00:15:47"
   },
@@ -13125,7 +12800,7 @@
     "original_language": "English",
     "time": "17:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=802&showtimeVistaId=42403",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -13138,7 +12813,7 @@
     "original_language": "English",
     "time": "17:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=802&showtimeVistaId=42404",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -13151,7 +12826,7 @@
     "original_language": "English",
     "time": "17:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=802&showtimeVistaId=42405",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -13164,7 +12839,7 @@
     "original_language": "English",
     "time": "17:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=802&showtimeVistaId=42406",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -13177,7 +12852,7 @@
     "original_language": "English",
     "time": "17:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=802&showtimeVistaId=42407",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -13190,7 +12865,7 @@
     "original_language": "English",
     "time": "17:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=802&showtimeVistaId=42408",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -13203,7 +12878,7 @@
     "original_language": "English",
     "time": "17:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=802&showtimeVistaId=42409",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -13216,7 +12891,7 @@
     "original_language": "English",
     "time": "17:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=802&showtimeVistaId=42410",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -13502,7 +13177,7 @@
     "original_language": "English",
     "time": "12:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=795&showtimeVistaId=33822",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-30 19:07:15"
   },
@@ -13541,7 +13216,7 @@
     "original_language": "English",
     "time": "20:00",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=795&showtimeVistaId=33147",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -13593,7 +13268,7 @@
     "original_language": "English",
     "time": "19:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=795&showtimeVistaId=33695",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
   },
@@ -13983,7 +13658,7 @@
     "original_language": "English",
     "time": "20:00",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=814&showtimeVistaId=25898",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-17 01:48:07"
   },
@@ -13996,7 +13671,7 @@
     "original_language": "English",
     "time": "13:15",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=814&showtimeVistaId=26620",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-23 02:05:53"
   },
@@ -14009,7 +13684,7 @@
     "original_language": "English",
     "time": "19:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=814&showtimeVistaId=26604",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-23 02:05:53"
   },
@@ -14256,7 +13931,7 @@
     "original_language": "English",
     "time": "20:00",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=810&showtimeVistaId=21202",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-17 01:48:07"
   },
@@ -14282,7 +13957,7 @@
     "original_language": "English",
     "time": "19:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=810&showtimeVistaId=21653",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-23 02:05:53"
   },
@@ -14373,7 +14048,7 @@
     "original_language": "English",
     "time": "20:00",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=781&showtimeVistaId=22679",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-17 01:48:07"
   },
@@ -14399,7 +14074,7 @@
     "original_language": "English",
     "time": "19:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=781&showtimeVistaId=23321",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-23 02:05:53"
   },
@@ -14477,7 +14152,7 @@
     "original_language": "English",
     "time": "12:00",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1350&showtimeVistaId=42344",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-30 05:35:10"
   },
@@ -14542,7 +14217,7 @@
     "original_language": "English",
     "time": "12:00",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1350&showtimeVistaId=42361",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-30 05:35:10"
   },
@@ -14607,7 +14282,7 @@
     "original_language": "English",
     "time": "19:45",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1350&showtimeVistaId=40716",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-30 05:35:10"
   },
@@ -14620,7 +14295,7 @@
     "original_language": "English",
     "time": "19:00",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1350&showtimeVistaId=40720",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-17 01:48:07"
   },
@@ -14672,7 +14347,7 @@
     "original_language": "English",
     "time": "13:15",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1350&showtimeVistaId=41799",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-23 02:13:13"
   },
@@ -14698,7 +14373,7 @@
     "original_language": "English",
     "time": "13:15",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1350&showtimeVistaId=42077",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-23 02:13:13"
   },
@@ -14711,7 +14386,7 @@
     "original_language": "English",
     "time": "13:15",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1350&showtimeVistaId=42096",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-23 02:13:13"
   },
@@ -14724,7 +14399,7 @@
     "original_language": "English",
     "time": "19:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1350&showtimeVistaId=42126",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-23 02:13:13"
   },
@@ -15179,7 +14854,7 @@
     "original_language": "English",
     "time": "20:00",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=784&showtimeVistaId=21827",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-17 01:48:07"
   },
@@ -15218,7 +14893,7 @@
     "original_language": "English",
     "time": "13:15",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=784&showtimeVistaId=22445",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-23 02:05:53"
   },
@@ -15231,7 +14906,7 @@
     "original_language": "English",
     "time": "19:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=784&showtimeVistaId=22452",
-    "projection_type": "Movie",
+    "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-23 02:05:53"
   },
@@ -16230,34 +15905,8 @@
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "original_language": "English",
-    "time": "20:15",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/140505/obsession?mode=widget&change=0&ref=750&forceproxy=1",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-29 21:57:05"
-  },
-  {
-    "cinema": "mk2 Cinesur Miramar",
-    "date": "2026-07-02",
-    "movie": "Obsession",
-    "format": "2D",
-    "language": "Original con subtítulos (VOSE)",
-    "original_language": "English",
     "time": "22:35",
     "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/140506/obsession?mode=widget&change=0&ref=750&forceproxy=1",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-29 21:57:05"
-  },
-  {
-    "cinema": "mk2 Cinesur Miramar",
-    "date": "2026-07-02",
-    "movie": "Toy Story 5",
-    "format": "2D",
-    "language": "Original con subtítulos (VOSE)",
-    "original_language": "English",
-    "time": "20:10",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/140509/toy-story-5?mode=widget&change=0&ref=750&forceproxy=1",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-06-29 21:57:05"
@@ -18279,19 +17928,6 @@
   },
   {
     "cinema": "Kinépolis Granada",
-    "date": "2026-07-02",
-    "movie": "Minions & Monsters",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "17:40",
-    "booking_url": "https://kinepolis.es/direct-vista-redirect/162515/0/KGRAN/0",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-19 09:45:23"
-  },
-  {
-    "cinema": "Kinépolis Granada",
     "date": "2026-07-03",
     "movie": "Minions & Monsters",
     "format": "2D",
@@ -19099,19 +18735,6 @@
   {
     "cinema": "Kinépolis Granada",
     "date": "2026-07-02",
-    "movie": "Jackass: Lo mejor para el final",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "16:40",
-    "booking_url": "https://kinepolis.es/direct-vista-redirect/165439/0/KGRAN/0",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-24 00:13:07"
-  },
-  {
-    "cinema": "Kinépolis Granada",
-    "date": "2026-07-02",
     "movie": "El Día de la Revelación",
     "format": "2D",
     "language": "V.O.S.E.",
@@ -19862,19 +19485,6 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-01 00:15:47"
-  },
-  {
-    "cinema": "Kinépolis Madrid Diversia",
-    "date": "2026-07-02",
-    "movie": "Minions & Monsters",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "18:00",
-    "booking_url": "https://kinepolis.es/direct-vista-redirect/129004/0/KALCO/0",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-19 09:45:23"
   },
   {
     "cinema": "Kinépolis Madrid Diversia",
@@ -20962,32 +20572,6 @@
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
-    "time": "16:15",
-    "booking_url": "https://kinepolis.es/direct-vista-redirect/212451/0/KMAD/0",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-19 09:45:23"
-  },
-  {
-    "cinema": "Kinépolis Madrid Ciudad de la Imagen",
-    "date": "2026-07-02",
-    "movie": "Minions & Monsters",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "18:15",
-    "booking_url": "https://kinepolis.es/direct-vista-redirect/212452/0/KMAD/0",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-19 09:45:23"
-  },
-  {
-    "cinema": "Kinépolis Madrid Ciudad de la Imagen",
-    "date": "2026-07-02",
-    "movie": "Minions & Monsters",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
     "time": "20:15",
     "booking_url": "https://kinepolis.es/direct-vista-redirect/212453/0/KMAD/0",
     "projection_type": "Movie",
@@ -21829,71 +21413,6 @@
   {
     "cinema": "Kinépolis Madrid Ciudad de la Imagen",
     "date": "2026-07-02",
-    "movie": "El Día de la Revelación",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "16:00",
-    "booking_url": "https://kinepolis.es/direct-vista-redirect/214508/0/KMAD/0",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-23 22:04:14"
-  },
-  {
-    "cinema": "Kinépolis Madrid Ciudad de la Imagen",
-    "date": "2026-07-02",
-    "movie": "Toy Story 5",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "16:15",
-    "booking_url": "https://kinepolis.es/direct-vista-redirect/214510/0/KMAD/0",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-23 22:04:14"
-  },
-  {
-    "cinema": "Kinépolis Madrid Ciudad de la Imagen",
-    "date": "2026-07-02",
-    "movie": "Supergirl",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "16:30",
-    "booking_url": "https://kinepolis.es/direct-vista-redirect/214514/0/KMAD/0",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-23 22:04:14"
-  },
-  {
-    "cinema": "Kinépolis Madrid Ciudad de la Imagen",
-    "date": "2026-07-02",
-    "movie": "Michael",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "17:30",
-    "booking_url": "https://kinepolis.es/direct-vista-redirect/214526/0/KMAD/0",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-23 22:04:14"
-  },
-  {
-    "cinema": "Kinépolis Madrid Ciudad de la Imagen",
-    "date": "2026-07-02",
-    "movie": "Backrooms",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "17:35",
-    "booking_url": "https://kinepolis.es/direct-vista-redirect/214528/0/KMAD/0",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-23 22:04:14"
-  },
-  {
-    "cinema": "Kinépolis Madrid Ciudad de la Imagen",
-    "date": "2026-07-02",
     "movie": "Toy Story 5",
     "format": "2D",
     "language": "V.O.S.E.",
@@ -21981,19 +21500,6 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-06-23 22:04:14"
-  },
-  {
-    "cinema": "Kinépolis Madrid Ciudad de la Imagen",
-    "date": "2026-07-02",
-    "movie": "Letras robadas",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "16:30",
-    "booking_url": "https://kinepolis.es/direct-vista-redirect/214515/0/KMAD/0",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-24 19:04:44"
   },
   {
     "cinema": "Kinépolis Madrid Ciudad de la Imagen",
@@ -23580,32 +23086,6 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-06-23 16:47:22"
-  },
-  {
-    "cinema": "Kinépolis Granada Nevada",
-    "date": "2026-07-02",
-    "movie": "Obsession",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "15:35",
-    "booking_url": "https://kinepolis.es/direct-vista-redirect/98311/0/KNEVA/0",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-23 22:04:14"
-  },
-  {
-    "cinema": "Kinépolis Granada Nevada",
-    "date": "2026-07-02",
-    "movie": "Minions & Monsters",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "17:05",
-    "booking_url": "https://kinepolis.es/direct-vista-redirect/98410/0/KNEVA/0",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-23 22:04:14"
   },
   {
     "cinema": "Kinépolis Granada Nevada",
@@ -32480,34 +31960,8 @@
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "",
-    "time": "20:15",
-    "booking_url": "https://www.golem.es/golem/urlcheck.php?idCine=8&perfCode=98505&eventCode=112131",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-25 00:17:50"
-  },
-  {
-    "cinema": "Cines Golem Madrid",
-    "date": "2026-07-02",
-    "movie": "LA MUJER SIN NOMBRE",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "",
     "time": "22:15",
     "booking_url": "https://www.golem.es/golem/urlcheck.php?idCine=8&perfCode=98506&eventCode=112131",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-25 00:17:50"
-  },
-  {
-    "cinema": "Cines Golem Madrid",
-    "date": "2026-07-02",
-    "movie": "Nino",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "",
-    "time": "20:15",
-    "booking_url": "https://www.golem.es/golem/urlcheck.php?idCine=8&perfCode=98489&eventCode=111580",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-06-25 00:17:50"
@@ -32532,34 +31986,8 @@
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "",
-    "time": "19:00",
-    "booking_url": "https://www.golem.es/golem/urlcheck.php?idCine=8&perfCode=98439&eventCode=104654",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-25 00:17:50"
-  },
-  {
-    "cinema": "Cines Golem Madrid",
-    "date": "2026-07-02",
-    "movie": "Caso 137",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "",
     "time": "21:30",
     "booking_url": "https://www.golem.es/golem/urlcheck.php?idCine=8&perfCode=98440&eventCode=104654",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-25 00:17:50"
-  },
-  {
-    "cinema": "Cines Golem Madrid",
-    "date": "2026-07-02",
-    "movie": "Rebuilding",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "",
-    "time": "20:15",
-    "booking_url": "https://www.golem.es/golem/urlcheck.php?idCine=8&perfCode=98455&eventCode=111413",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-06-25 00:17:50"
@@ -33906,32 +33334,6 @@
   {
     "cinema": "Cinesa Proyecciones",
     "date": "2026-07-02",
-    "movie": "Minions & Monsters",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "19:30",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=018-40767",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-26 19:01:21"
-  },
-  {
-    "cinema": "Cinesa Proyecciones",
-    "date": "2026-07-02",
-    "movie": "Toy Story 5",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "21:15",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=018-40771",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-26 19:01:21"
-  },
-  {
-    "cinema": "Cinesa Proyecciones",
-    "date": "2026-07-02",
     "movie": "El Día de la Revelación",
     "format": "2D",
     "language": "V.O.S.E.",
@@ -33995,32 +33397,6 @@
     "date_added": "2026-06-26 19:01:21"
   },
   {
-    "cinema": "Cinesa Príncipe Pío",
-    "date": "2026-07-02",
-    "movie": "Supergirl",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "19:45",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=027-47055",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-27 15:41:18"
-  },
-  {
-    "cinema": "Cinesa Las Rozas",
-    "date": "2026-07-02",
-    "movie": "Supergirl",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "21:10",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=034-111173",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-28 00:02:32"
-  },
-  {
     "cinema": "Cinesa Las Rozas",
     "date": "2026-07-02",
     "movie": "Toy Story 5",
@@ -34058,84 +33434,6 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
-  },
-  {
-    "cinema": "Cinesa Manoteras",
-    "date": "2026-07-02",
-    "movie": "Toy Story 5",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "19:15",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-105810",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-27 04:59:08"
-  },
-  {
-    "cinema": "Cinesa Manoteras",
-    "date": "2026-07-02",
-    "movie": "Minions & Monsters",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "20:00",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-105817",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-27 04:59:08"
-  },
-  {
-    "cinema": "Cinesa Manoteras",
-    "date": "2026-07-02",
-    "movie": "Obsession",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "20:30",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-105818",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-27 04:59:08"
-  },
-  {
-    "cinema": "Cinesa Manoteras",
-    "date": "2026-07-02",
-    "movie": "Michael",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "20:50",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-105820",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-27 04:59:08"
-  },
-  {
-    "cinema": "Cinesa Manoteras",
-    "date": "2026-07-02",
-    "movie": "Supergirl",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "21:10",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-105821",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-27 04:59:08"
-  },
-  {
-    "cinema": "Cinesa Manoteras",
-    "date": "2026-07-02",
-    "movie": "Minions & Monsters",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "21:15",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-103691",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-23 13:02:51"
   },
   {
     "cinema": "Cinesa Manoteras",
@@ -34218,19 +33516,6 @@
   {
     "cinema": "Cinesa Nassica",
     "date": "2026-07-02",
-    "movie": "Supergirl",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "19:00",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=125-101662",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-28 10:50:57"
-  },
-  {
-    "cinema": "Cinesa Nassica",
-    "date": "2026-07-02",
     "movie": "Obsession",
     "format": "2D",
     "language": "V.O.S.E.",
@@ -34240,6 +33525,19 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-06-28 10:50:57"
+  },
+  {
+    "cinema": "Cinesa LUXE Oasiz",
+    "date": "2026-07-02",
+    "movie": "Obsession",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "22:15",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=138-70497",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-02 21:23:32"
   },
   {
     "cinema": "Cinesa LUXE La Farga",
@@ -34253,32 +33551,6 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-06-29 12:57:53"
-  },
-  {
-    "cinema": "Cinesa Diagonal",
-    "date": "2026-07-02",
-    "movie": "Toy Story 5",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "20:05",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=012-51774",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-29 21:57:05"
-  },
-  {
-    "cinema": "Cinesa Diagonal",
-    "date": "2026-07-02",
-    "movie": "Supergirl",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "21:15",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=012-51776",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-29 21:57:05"
   },
   {
     "cinema": "Cinesa Diagonal",
@@ -34322,32 +33594,6 @@
   {
     "cinema": "Cinesa LUXE Parc Vallès",
     "date": "2026-07-02",
-    "movie": "Supergirl",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "21:10",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=031-93718",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-28 05:42:32"
-  },
-  {
-    "cinema": "Cinesa LUXE Parc Vallès",
-    "date": "2026-07-02",
-    "movie": "Obsession",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "21:20",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=031-93721",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-28 05:42:32"
-  },
-  {
-    "cinema": "Cinesa LUXE Parc Vallès",
-    "date": "2026-07-02",
     "movie": "Toy Story 5",
     "format": "2D",
     "language": "V.O.S.E.",
@@ -34357,19 +33603,6 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-06-28 05:42:32"
-  },
-  {
-    "cinema": "Cinesa Diagonal Mar",
-    "date": "2026-07-02",
-    "movie": "Obsession",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "19:40",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=032-54712",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-27 04:59:08"
   },
   {
     "cinema": "Cinesa Diagonal Mar",
@@ -35778,12 +35011,12 @@
   {
     "cinema": "Cinesa LUXE Equinoccio",
     "date": "2026-07-04",
-    "movie": "Toy Story 5",
+    "movie": "Obsession",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
     "time": "12:25",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=026-62091",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=026-62097",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-01 11:44:16"
@@ -35791,12 +35024,12 @@
   {
     "cinema": "Cinesa LUXE Equinoccio",
     "date": "2026-07-04",
-    "movie": "Obsession",
+    "movie": "Toy Story 5",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
     "time": "12:25",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=026-62097",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=026-62091",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-01 11:44:16"
@@ -36012,19 +35245,6 @@
   {
     "cinema": "Cinesa Méndez Álvaro",
     "date": "2026-07-04",
-    "movie": "Minions & Monsters",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "12:15",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=123-86876",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-07-01 05:44:10"
-  },
-  {
-    "cinema": "Cinesa Méndez Álvaro",
-    "date": "2026-07-04",
     "movie": "Akira (re)",
     "format": "2D",
     "language": "V.O.S.E.",
@@ -36034,6 +35254,19 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-06-23 22:04:14"
+  },
+  {
+    "cinema": "Cinesa Méndez Álvaro",
+    "date": "2026-07-04",
+    "movie": "Minions & Monsters",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "12:15",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=123-86876",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-01 05:44:10"
   },
   {
     "cinema": "Cinesa Méndez Álvaro",
@@ -36207,12 +35440,12 @@
   {
     "cinema": "Cinesa Manoteras",
     "date": "2026-07-04",
-    "movie": "La muerte de Robin Hood",
+    "movie": "Michael",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
     "time": "12:20",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-105958",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-105960",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-01 05:44:10"
@@ -36220,12 +35453,12 @@
   {
     "cinema": "Cinesa Manoteras",
     "date": "2026-07-04",
-    "movie": "Michael",
+    "movie": "La muerte de Robin Hood",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
     "time": "12:20",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-105960",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-105958",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-01 05:44:10"
@@ -36246,12 +35479,12 @@
   {
     "cinema": "Cinesa Manoteras",
     "date": "2026-07-04",
-    "movie": "Minions & Monsters",
+    "movie": "Supergirl",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
     "time": "12:30",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-105952",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-105963",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-01 05:44:10"
@@ -36259,12 +35492,12 @@
   {
     "cinema": "Cinesa Manoteras",
     "date": "2026-07-04",
-    "movie": "Supergirl",
+    "movie": "Minions & Monsters",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
     "time": "12:30",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-105963",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-105952",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-01 05:44:10"
@@ -44434,6 +43667,32 @@
     "date_added": "2026-06-23 13:02:51"
   },
   {
+    "cinema": "Cinesa LUXE Parc Vallès",
+    "date": "2026-07-21",
+    "movie": "La Odisea",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "17:30",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=031-92573",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-02 21:23:32"
+  },
+  {
+    "cinema": "Cinesa LUXE Parc Vallès",
+    "date": "2026-07-21",
+    "movie": "La Odisea",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "21:15",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=031-92589",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-02 21:23:32"
+  },
+  {
     "cinema": "Cinesa Diagonal Mar",
     "date": "2026-07-21",
     "movie": "La Odisea",
@@ -44497,6 +43756,19 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-06-23 13:02:51"
+  },
+  {
+    "cinema": "Cinesa Parquesur",
+    "date": "2026-07-22",
+    "movie": "La Odisea",
+    "format": "IMAX",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "18:00",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=005-62577",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-02 21:23:32"
   },
   {
     "cinema": "Cinesa Proyecciones",
@@ -44590,6 +43862,19 @@
     "date_added": "2026-06-23 13:02:51"
   },
   {
+    "cinema": "Cinesa Manoteras",
+    "date": "2026-07-22",
+    "movie": "La Odisea",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "19:00",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-104650",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-02 21:23:32"
+  },
+  {
     "cinema": "Cinesa Nassica",
     "date": "2026-07-22",
     "movie": "La Odisea",
@@ -44642,6 +43927,19 @@
     "date_added": "2026-06-23 13:02:51"
   },
   {
+    "cinema": "Cinesa LUXE Parc Vallès",
+    "date": "2026-07-22",
+    "movie": "La Odisea",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "17:30",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=031-92574",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-02 21:23:32"
+  },
+  {
     "cinema": "Cinesa Diagonal Mar",
     "date": "2026-07-22",
     "movie": "La Odisea",
@@ -44650,19 +43948,6 @@
     "original_language": "English",
     "time": "17:30",
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=032-53917",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-23 13:02:51"
-  },
-  {
-    "cinema": "Cinesa Diagonal Mar",
-    "date": "2026-07-22",
-    "movie": "La Odisea",
-    "format": "IMAX",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "21:45",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=032-54025",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-06-23 13:02:51"
