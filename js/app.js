@@ -744,7 +744,7 @@ function renderMovieView() {
             cardElement.innerHTML = `
                 <div class="card-content">
                     <div class="card-header">
-                        <div style="flex-grow: 1;">
+                        <div style="flex-grow: 1; min-width: 0;">
                             <h3 class="movie-title">${movieData.title}</h3>
                             ${movieData.original_title ? `<div class="movie-original-title">${movieData.original_title}</div>` : ''}
                             <div class="movie-lang" title="${movieData.language}">
