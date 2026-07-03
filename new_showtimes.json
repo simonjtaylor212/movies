@@ -270398,5 +270398,57 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-03 21:21:08"
+  },
+  {
+    "cinema": "Cinesa Proyecciones",
+    "date": "2026-07-05",
+    "movie": "Obsession",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "17:40",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=018-40948",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-04 00:04:33"
+  },
+  {
+    "cinema": "Cinesa LUXE Loranca",
+    "date": "2026-07-08",
+    "movie": "Akira (re)",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "",
+    "time": "17:05",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=001-55289",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-04 00:04:33"
+  },
+  {
+    "cinema": "Cinesa LUXE Loranca",
+    "date": "2026-07-08",
+    "movie": "Vaiana",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "21:45",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=001-55290",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-04 00:04:33"
+  },
+  {
+    "cinema": "Cinesa LUXE Loranca",
+    "date": "2026-07-09",
+    "movie": "Vaiana",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "21:45",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=001-55318",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-04 00:04:33"
   }
 ]
