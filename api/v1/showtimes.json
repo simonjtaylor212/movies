@@ -4513,6 +4513,19 @@
   {
     "cinema": "Cine Yelmo Ideal",
     "date": "2026-07-06",
+    "movie": "Los músicos",
+    "format": "2D",
+    "language": "FRANCÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "French",
+    "time": "20:00",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=32654",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-03 04:52:23"
+  },
+  {
+    "cinema": "Cine Yelmo Ideal",
+    "date": "2026-07-06",
     "movie": "Akira (Reestreno)",
     "format": "2D",
     "language": "JAPONÉS SUBTITULADO EN ESPAÑOL (VOSE)",
@@ -4873,6 +4886,19 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-06-29 21:57:05"
+  },
+  {
+    "cinema": "Cine Yelmo Ideal",
+    "date": "2026-07-06",
+    "movie": "Michael",
+    "format": "2D",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "22:05",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=32655",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-03 04:52:23"
   },
   {
     "cinema": "Cine Yelmo Ideal",
@@ -32905,12 +32931,12 @@
   {
     "cinema": "Cinesa LUXE Equinoccio",
     "date": "2026-07-04",
-    "movie": "Obsession",
+    "movie": "Toy Story 5",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
     "time": "12:25",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=026-62097",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=026-62091",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-01 11:44:16"
@@ -32918,12 +32944,12 @@
   {
     "cinema": "Cinesa LUXE Equinoccio",
     "date": "2026-07-04",
-    "movie": "Toy Story 5",
+    "movie": "Obsession",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
     "time": "12:25",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=026-62091",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=026-62097",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-01 11:44:16"
@@ -33334,12 +33360,12 @@
   {
     "cinema": "Cinesa Manoteras",
     "date": "2026-07-04",
-    "movie": "Michael",
+    "movie": "La muerte de Robin Hood",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
     "time": "12:20",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-105960",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-105958",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-01 05:44:10"
@@ -33347,12 +33373,12 @@
   {
     "cinema": "Cinesa Manoteras",
     "date": "2026-07-04",
-    "movie": "La muerte de Robin Hood",
+    "movie": "Michael",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
     "time": "12:20",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-105958",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-105960",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-01 05:44:10"
@@ -33373,12 +33399,12 @@
   {
     "cinema": "Cinesa Manoteras",
     "date": "2026-07-04",
-    "movie": "Supergirl",
+    "movie": "Minions & Monsters",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
     "time": "12:30",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-105963",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-105952",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-01 05:44:10"
@@ -33386,12 +33412,12 @@
   {
     "cinema": "Cinesa Manoteras",
     "date": "2026-07-04",
-    "movie": "Minions & Monsters",
+    "movie": "Supergirl",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
     "time": "12:30",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-105952",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-105963",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-01 05:44:10"
@@ -42040,6 +42066,19 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-02 21:23:32"
+  },
+  {
+    "cinema": "Cinesa LUXE Parc Vallès",
+    "date": "2026-07-22",
+    "movie": "La Odisea",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "21:15",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=031-92590",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-03 04:52:23"
   },
   {
     "cinema": "Cinesa Diagonal Mar",
