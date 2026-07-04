@@ -270827,5 +270827,44 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-04 18:01:57"
+  },
+  {
+    "cinema": "Cinesa Nassica",
+    "date": "2026-07-08",
+    "movie": "Akira (re)",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "",
+    "time": "12:20",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=125-102199",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-04 21:11:36"
+  },
+  {
+    "cinema": "Cinesa Nassica",
+    "date": "2026-07-08",
+    "movie": "Vaiana",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "12:20",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=125-102204",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-04 21:11:36"
+  },
+  {
+    "cinema": "Cinesa Nassica",
+    "date": "2026-07-08",
+    "movie": "Obsession",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "12:30",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=125-102203",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-04 21:11:36"
   }
 ]
