@@ -1,4 +1,4 @@
-Starting Scraper - Local time is 2026-07-06 05:26:04 CEST
+Starting Scraper - Local time is 2026-07-06 12:19:09 CEST
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
   Fetching Yelmo madrid...
@@ -77,6 +77,7 @@ Searching for: 'VIAJE AL PAÍS DE LOS BLANCOS [PROYECTO VIRIDIANA]'
   -> Could not resolve original name for 'VIAJE AL PAÍS DE LOS BLANCOS [PROYECTO VIRIDIANA]'
 
 Searching for: 'WHAT A FEELING [CINE CON ORGULLO RENOIR]'
+    (TMDB Scraper warning: 429 Client Error: Too Many Requests for url: https://www.themoviedb.org/search?query=WHAT%20A%20FEELING%20%5BCINE%20CON%20ORGULLO%20RENOIR%5D)
   -> Could not resolve original name for 'WHAT A FEELING [CINE CON ORGULLO RENOIR]'
 
 No translations were updated.
