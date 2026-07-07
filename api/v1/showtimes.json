@@ -26865,7 +26865,7 @@
     "language": "V.O.S.E.",
     "original_language": "",
     "time": "21:30",
-    "booking_url": "https://www.golem.es/golem/urlcheck.php?idCine=8&perfCode=98648&eventCode=104654",
+    "booking_url": "https://www.golem.es/golem/urlcheck.php?idCine=8&perfCode=98649&eventCode=104654",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-02 00:18:02"
@@ -26878,7 +26878,7 @@
     "language": "V.O.S.E.",
     "original_language": "",
     "time": "21:30",
-    "booking_url": "https://www.golem.es/golem/urlcheck.php?idCine=8&perfCode=98649&eventCode=104654",
+    "booking_url": "https://www.golem.es/golem/urlcheck.php?idCine=8&perfCode=98648&eventCode=104654",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-02 00:18:02"
@@ -27685,19 +27685,6 @@
     "original_language": "English",
     "time": "19:25",
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=017-57075",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-07-01 21:54:10"
-  },
-  {
-    "cinema": "Cinesa SOM Multiespai",
-    "date": "2026-07-07",
-    "movie": "Toy Story 5",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "20:10",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=017-57060",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-01 21:54:10"
