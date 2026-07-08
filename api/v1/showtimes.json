@@ -196,6 +196,19 @@
   },
   {
     "cinema": "Cine Yelmo Rincón de la Victoria",
+    "date": "2026-07-28",
+    "movie": "La Odisea",
+    "format": "2D",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "19:05",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=791&showtimeVistaId=24041",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-08 16:03:10"
+  },
+  {
+    "cinema": "Cine Yelmo Rincón de la Victoria",
     "date": "2026-07-29",
     "movie": "Spider-Man: Brand New Day",
     "format": "2D",
@@ -8685,45 +8698,6 @@
   },
   {
     "cinema": "Cine Yelmo La Vaguada",
-    "date": "2026-07-08",
-    "movie": "Vaiana",
-    "format": "2D",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "13:15",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1360&showtimeVistaId=17441",
-    "projection_type": "Eventos Especiales",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-27 18:05:07"
-  },
-  {
-    "cinema": "Cine Yelmo La Vaguada",
-    "date": "2026-07-08",
-    "movie": "Obsession",
-    "format": "2D",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "12:50",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1360&showtimeVistaId=18003",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-07-07 16:31:33"
-  },
-  {
-    "cinema": "Cine Yelmo La Vaguada",
-    "date": "2026-07-08",
-    "movie": "Toy Story 5",
-    "format": "2D",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "13:00",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1360&showtimeVistaId=18020",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-07-07 16:31:33"
-  },
-  {
-    "cinema": "Cine Yelmo La Vaguada",
     "date": "2026-07-10",
     "movie": "Vaiana",
     "format": "2D",
@@ -12868,6 +12842,32 @@
     "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
+  },
+  {
+    "cinema": "Cine Yelmo Planetocio",
+    "date": "2026-07-14",
+    "movie": "Minions & Monsters",
+    "format": "2D",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "19:00",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=788&showtimeVistaId=30251",
+    "projection_type": "Eventos Especiales",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-08 16:03:10"
+  },
+  {
+    "cinema": "Cine Yelmo Planetocio",
+    "date": "2026-07-14",
+    "movie": "Obsession",
+    "format": "2D",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "15:45",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=788&showtimeVistaId=30248",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-08 16:03:10"
   },
   {
     "cinema": "Cine Yelmo Planetocio",
@@ -17889,19 +17889,6 @@
   },
   {
     "cinema": "mk2 Cinesur El Ingenio",
-    "date": "2026-07-08",
-    "movie": "Minions & Monsters",
-    "format": "2D",
-    "language": "Original con subtítulos (VOSE)",
-    "original_language": "English",
-    "time": "16:00",
-    "booking_url": "https://cine.entradas.com/cine/velez-malaga/cinesur-el-ingenio/evento/122201/minions-monsters?mode=widget&change=0&ref=750&forceproxy=1",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-07-07 04:59:16"
-  },
-  {
-    "cinema": "mk2 Cinesur El Ingenio",
     "date": "2026-07-09",
     "movie": "Vaiana",
     "format": "2D",
@@ -18367,19 +18354,6 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 00:13:46"
-  },
-  {
-    "cinema": "mk2 Cinesur Málaga Nostrum",
-    "date": "2026-07-08",
-    "movie": "Vaiana",
-    "format": "2D",
-    "language": "Original con subtítulos (VOSE)",
-    "original_language": "English",
-    "time": "15:45",
-    "booking_url": "https://cine.entradas.com/cine/malaga/cinesur-malaga-nostrum/evento/126884/vaiana?mode=widget&change=0&ref=750&forceproxy=1",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-07-07 04:59:16"
   },
   {
     "cinema": "mk2 Cinesur Málaga Nostrum",
@@ -34192,19 +34166,6 @@
   {
     "cinema": "Cinesa Parquesur",
     "date": "2026-07-08",
-    "movie": "Akira (re)",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "",
-    "time": "14:35",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=005-63558",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-07-03 21:21:08"
-  },
-  {
-    "cinema": "Cinesa Parquesur",
-    "date": "2026-07-08",
     "movie": "Vaiana",
     "format": "2D",
     "language": "V.O.S.E.",
@@ -34426,19 +34387,6 @@
   {
     "cinema": "Cinesa Las Rozas",
     "date": "2026-07-08",
-    "movie": "Akira (re)",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "",
-    "time": "15:45",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=034-111724",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-07-03 21:21:08"
-  },
-  {
-    "cinema": "Cinesa Las Rozas",
-    "date": "2026-07-08",
     "movie": "Toy Story 5",
     "format": "2D",
     "language": "V.O.S.E.",
@@ -34591,45 +34539,6 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-02 15:35:43"
-  },
-  {
-    "cinema": "Cinesa Manoteras",
-    "date": "2026-07-08",
-    "movie": "El diablo viste de Prada 2",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "15:50",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-106221",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-07-03 21:21:08"
-  },
-  {
-    "cinema": "Cinesa Manoteras",
-    "date": "2026-07-08",
-    "movie": "Los músicos",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "French",
-    "time": "15:55",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-106222",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-07-03 21:21:08"
-  },
-  {
-    "cinema": "Cinesa Manoteras",
-    "date": "2026-07-08",
-    "movie": "El Día de la Revelación",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "16:00",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-106223",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-07-03 21:21:08"
   },
   {
     "cinema": "Cinesa Manoteras",
@@ -37468,6 +37377,19 @@
   {
     "cinema": "Cinesa Diagonal Mar",
     "date": "2026-07-10",
+    "movie": "Minions & Monsters",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "18:00",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=032-55006",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-08 16:03:10"
+  },
+  {
+    "cinema": "Cinesa Diagonal Mar",
+    "date": "2026-07-10",
     "movie": "Obsession",
     "format": "2D",
     "language": "V.O.S.E.",
@@ -39028,6 +38950,19 @@
   {
     "cinema": "Cinesa Diagonal Mar",
     "date": "2026-07-11",
+    "movie": "Minions & Monsters",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "18:00",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=032-55038",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-08 16:03:10"
+  },
+  {
+    "cinema": "Cinesa Diagonal Mar",
+    "date": "2026-07-11",
     "movie": "Obsession",
     "format": "2D",
     "language": "V.O.S.E.",
@@ -40536,6 +40471,19 @@
   {
     "cinema": "Cinesa Diagonal Mar",
     "date": "2026-07-12",
+    "movie": "Minions & Monsters",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "18:00",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=032-55083",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-08 16:03:10"
+  },
+  {
+    "cinema": "Cinesa Diagonal Mar",
+    "date": "2026-07-12",
     "movie": "Obsession",
     "format": "2D",
     "language": "V.O.S.E.",
@@ -41810,6 +41758,19 @@
   {
     "cinema": "Cinesa Diagonal Mar",
     "date": "2026-07-13",
+    "movie": "Minions & Monsters",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "18:00",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=032-55148",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-08 16:03:10"
+  },
+  {
+    "cinema": "Cinesa Diagonal Mar",
+    "date": "2026-07-13",
     "movie": "Obsession",
     "format": "2D",
     "language": "V.O.S.E.",
@@ -42863,6 +42824,19 @@
   {
     "cinema": "Cinesa Diagonal Mar",
     "date": "2026-07-14",
+    "movie": "Minions & Monsters",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "18:00",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=032-55115",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-08 16:03:10"
+  },
+  {
+    "cinema": "Cinesa Diagonal Mar",
+    "date": "2026-07-14",
     "movie": "Obsession",
     "format": "2D",
     "language": "V.O.S.E.",
@@ -43258,20 +43232,7 @@
     "language": "V.O.S.E.",
     "original_language": "English",
     "time": "12:15",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=123-87451",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-07-07 21:54:36"
-  },
-  {
-    "cinema": "Cinesa Méndez Álvaro",
-    "date": "2026-07-15",
-    "movie": "Akira (re)",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "",
-    "time": "12:25",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=123-87119",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=123-87110",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-07 21:54:36"
@@ -43285,6 +43246,19 @@
     "original_language": "English",
     "time": "12:25",
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=123-87111",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-07 21:54:36"
+  },
+  {
+    "cinema": "Cinesa Méndez Álvaro",
+    "date": "2026-07-15",
+    "movie": "Akira (re)",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "",
+    "time": "12:25",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=123-87119",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-07 21:54:36"
@@ -43977,6 +43951,19 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-07 19:14:08"
+  },
+  {
+    "cinema": "Cinesa Diagonal Mar",
+    "date": "2026-07-15",
+    "movie": "Minions & Monsters",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "18:00",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=032-55181",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-08 16:03:10"
   },
   {
     "cinema": "Cinesa Diagonal Mar",
@@ -44965,6 +44952,19 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-07 19:14:08"
+  },
+  {
+    "cinema": "Cinesa Diagonal Mar",
+    "date": "2026-07-16",
+    "movie": "Minions & Monsters",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "18:00",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=032-55217",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-08 16:03:10"
   },
   {
     "cinema": "Cinesa Diagonal Mar",
@@ -55989,5 +55989,18 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-08 13:04:24"
+  },
+  {
+    "cinema": "Cinesa Diagonal",
+    "date": "2026-09-06",
+    "movie": "André Rieu: ¡Viva Maastricht!",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "12:05",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=012-50484",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-08 16:03:10"
   }
 ]
