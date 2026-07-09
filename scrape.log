@@ -1,4 +1,4 @@
-Starting Scraper - Local time is 2026-07-09 00:05:09 CEST
+Starting Scraper - Local time is 2026-07-09 04:54:05 CEST
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
   Fetching Yelmo madrid...
@@ -15,7 +15,10 @@ Scraping Cines Golem...
 Cines Golem Madrid: Scraped 88 VOSE sessions.
 Loaded 1620 Cinesa showtimes from cache.
 Scraping Ocine Serrallo...
-Ocine Serrallo: Scraped 4 sessions.
+Error scraping Ocine Serrallo: HTTPSConnectionPool(host='www.ocineserrallo.es', port=443): Max retries exceeded with url: /components/com_cines/json/es_cartellera.json (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))
+Ocine Serrallo: Scraped 0 sessions.
+Warning: ocine scraper returned 0 showings. Using fallback data.
+Recovered 4 ocine showings from previous run.
 Scraping mk2 Cinesur...
   mk2 Cinesur Miramar: found 81 sessions.
   mk2 Cinesur El Ingenio: found 34 sessions.
@@ -25,7 +28,7 @@ original language not found for 5 movies in Cinesa chain
 original language not found for 5 movies in Golem chain
 original language not found for 1 movies in Ocine chain
 Successfully generated api/v1/showtimes.json with 4112 listings.
-Appended 46 new showings to new_showtimes.json
+No new showings found.
 
 Resolving missing movie title translations...
 Found 19 movies without original names.

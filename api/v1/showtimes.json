@@ -34127,12 +34127,12 @@
   {
     "cinema": "Cinesa Manoteras",
     "date": "2026-07-10",
-    "movie": "Minions & Monsters",
+    "movie": "Supergirl",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
     "time": "19:50",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-106316",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-106311",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-07 21:54:36"
@@ -34140,12 +34140,12 @@
   {
     "cinema": "Cinesa Manoteras",
     "date": "2026-07-10",
-    "movie": "Supergirl",
+    "movie": "Minions & Monsters",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
     "time": "19:50",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-106311",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-106316",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-07 21:54:36"
@@ -35089,19 +35089,6 @@
   {
     "cinema": "Cinesa Méndez Álvaro",
     "date": "2026-07-11",
-    "movie": "Obsession",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "12:10",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=123-87426",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-07-07 21:54:36"
-  },
-  {
-    "cinema": "Cinesa Méndez Álvaro",
-    "date": "2026-07-11",
     "movie": "Minions & Monsters",
     "format": "2D",
     "language": "V.O.S.E.",
@@ -35111,6 +35098,19 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-07 19:14:08"
+  },
+  {
+    "cinema": "Cinesa Méndez Álvaro",
+    "date": "2026-07-11",
+    "movie": "Obsession",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "12:10",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=123-87426",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-07 21:54:36"
   },
   {
     "cinema": "Cinesa Méndez Álvaro",
@@ -35271,12 +35271,12 @@
   {
     "cinema": "Cinesa Manoteras",
     "date": "2026-07-11",
-    "movie": "El Drama",
+    "movie": "La muerte de Robin Hood",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
     "time": "12:15",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-106479",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-106472",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-07 21:54:36"
@@ -35284,12 +35284,12 @@
   {
     "cinema": "Cinesa Manoteras",
     "date": "2026-07-11",
-    "movie": "La muerte de Robin Hood",
+    "movie": "El Drama",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
     "time": "12:15",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-106472",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-106479",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-07 21:54:36"
@@ -39392,12 +39392,12 @@
   {
     "cinema": "Cinesa Manoteras",
     "date": "2026-07-14",
-    "movie": "Los músicos",
+    "movie": "COSAS QUE NO OLVIDARÉ",
     "format": "2D",
     "language": "V.O.S.E.",
-    "original_language": "French",
+    "original_language": "Italian",
     "time": "15:55",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-106507",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-106511",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-07 21:54:36"
@@ -39405,12 +39405,12 @@
   {
     "cinema": "Cinesa Manoteras",
     "date": "2026-07-14",
-    "movie": "COSAS QUE NO OLVIDARÉ",
+    "movie": "Los músicos",
     "format": "2D",
     "language": "V.O.S.E.",
-    "original_language": "Italian",
+    "original_language": "French",
     "time": "15:55",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-106511",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-106507",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-07 21:54:36"
@@ -39600,12 +39600,12 @@
   {
     "cinema": "Cinesa Manoteras",
     "date": "2026-07-14",
-    "movie": "Supergirl",
+    "movie": "Minions & Monsters",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
     "time": "19:50",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-106639",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-106642",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-07 21:54:36"
@@ -39613,12 +39613,12 @@
   {
     "cinema": "Cinesa Manoteras",
     "date": "2026-07-14",
-    "movie": "Minions & Monsters",
+    "movie": "Supergirl",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
     "time": "19:50",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-106642",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-106639",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-07 21:54:36"
@@ -40476,20 +40476,7 @@
     "language": "V.O.S.E.",
     "original_language": "English",
     "time": "12:15",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=123-87451",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-07-07 21:54:36"
-  },
-  {
-    "cinema": "Cinesa Méndez Álvaro",
-    "date": "2026-07-15",
-    "movie": "Minions & Monsters",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "12:25",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=123-87111",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=123-87110",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-07 21:54:36"
@@ -40503,6 +40490,19 @@
     "original_language": "",
     "time": "12:25",
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=123-87119",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-07 21:54:36"
+  },
+  {
+    "cinema": "Cinesa Méndez Álvaro",
+    "date": "2026-07-15",
+    "movie": "Minions & Monsters",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "12:25",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=123-87111",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-07 21:54:36"
@@ -40783,12 +40783,12 @@
   {
     "cinema": "Cinesa Manoteras",
     "date": "2026-07-15",
-    "movie": "Supergirl",
+    "movie": "Minions & Monsters",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
     "time": "19:50",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-106640",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-106643",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-07 21:54:36"
@@ -40796,12 +40796,12 @@
   {
     "cinema": "Cinesa Manoteras",
     "date": "2026-07-15",
-    "movie": "Minions & Monsters",
+    "movie": "Supergirl",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
     "time": "19:50",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-106643",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-106640",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-07 21:54:36"
@@ -41836,12 +41836,12 @@
   {
     "cinema": "Cinesa Manoteras",
     "date": "2026-07-16",
-    "movie": "Supergirl",
+    "movie": "Minions & Monsters",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
     "time": "19:50",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-106641",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-106644",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-07 21:54:36"
@@ -41849,12 +41849,12 @@
   {
     "cinema": "Cinesa Manoteras",
     "date": "2026-07-16",
-    "movie": "Minions & Monsters",
+    "movie": "Supergirl",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
     "time": "19:50",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-106644",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-106641",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-07 21:54:36"
