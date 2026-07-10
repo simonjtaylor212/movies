@@ -71,11 +71,11 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "original_language": "English",
-    "time": "15:50",
+    "time": "15:45",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=791&showtimeVistaId=23874",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-07-07 19:14:08"
+    "date_added": "2026-07-10 04:56:09"
   },
   {
     "cinema": "Cine Yelmo Rincón de la Victoria",
@@ -2182,6 +2182,19 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-07 04:59:16"
+  },
+  {
+    "cinema": "Cine Yelmo Plaza Mayor",
+    "date": "2026-07-16",
+    "movie": "Posesión infernal: En llamas",
+    "format": "2D",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "18:30",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=40850",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-10 04:56:09"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -15407,12 +15420,12 @@
   {
     "cinema": "mk2 Cinesur Miramar",
     "date": "2026-07-10",
-    "movie": "Obsession",
+    "movie": "Toy Story 5",
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "original_language": "English",
-    "time": "22:30",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/140841/obsession?mode=widget&change=0&ref=750&forceproxy=1",
+    "time": "16:15",
+    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/140825/toy-story-5?mode=widget&change=0&ref=750&forceproxy=1",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-07 04:59:16"
@@ -15420,12 +15433,12 @@
   {
     "cinema": "mk2 Cinesur Miramar",
     "date": "2026-07-10",
-    "movie": "Toy Story 5",
+    "movie": "Obsession",
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "original_language": "English",
-    "time": "16:15",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/140825/toy-story-5?mode=widget&change=0&ref=750&forceproxy=1",
+    "time": "22:30",
+    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/140841/obsession?mode=widget&change=0&ref=750&forceproxy=1",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-07 04:59:16"
@@ -15472,12 +15485,12 @@
   {
     "cinema": "mk2 Cinesur Miramar",
     "date": "2026-07-11",
-    "movie": "Obsession",
+    "movie": "Toy Story 5",
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "original_language": "English",
-    "time": "22:30",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/140880/obsession?mode=widget&change=0&ref=750&forceproxy=1",
+    "time": "16:15",
+    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/140858/toy-story-5?mode=widget&change=0&ref=750&forceproxy=1",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-07 04:59:16"
@@ -15485,12 +15498,12 @@
   {
     "cinema": "mk2 Cinesur Miramar",
     "date": "2026-07-11",
-    "movie": "Toy Story 5",
+    "movie": "Obsession",
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "original_language": "English",
-    "time": "16:15",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/140858/toy-story-5?mode=widget&change=0&ref=750&forceproxy=1",
+    "time": "22:30",
+    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/140880/obsession?mode=widget&change=0&ref=750&forceproxy=1",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-07 04:59:16"
@@ -15537,12 +15550,12 @@
   {
     "cinema": "mk2 Cinesur Miramar",
     "date": "2026-07-12",
-    "movie": "Obsession",
+    "movie": "Toy Story 5",
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "original_language": "English",
-    "time": "22:30",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/140906/obsession?mode=widget&change=0&ref=750&forceproxy=1",
+    "time": "16:15",
+    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/140891/toy-story-5?mode=widget&change=0&ref=750&forceproxy=1",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-07 04:59:16"
@@ -15550,12 +15563,12 @@
   {
     "cinema": "mk2 Cinesur Miramar",
     "date": "2026-07-12",
-    "movie": "Toy Story 5",
+    "movie": "Obsession",
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "original_language": "English",
-    "time": "16:15",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/140891/toy-story-5?mode=widget&change=0&ref=750&forceproxy=1",
+    "time": "22:30",
+    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/140906/obsession?mode=widget&change=0&ref=750&forceproxy=1",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-07 04:59:16"
@@ -15602,12 +15615,12 @@
   {
     "cinema": "mk2 Cinesur Miramar",
     "date": "2026-07-13",
-    "movie": "Obsession",
+    "movie": "Toy Story 5",
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "original_language": "English",
-    "time": "22:30",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/140938/obsession?mode=widget&change=0&ref=750&forceproxy=1",
+    "time": "16:15",
+    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/140923/toy-story-5?mode=widget&change=0&ref=750&forceproxy=1",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-07 04:59:16"
@@ -15615,12 +15628,12 @@
   {
     "cinema": "mk2 Cinesur Miramar",
     "date": "2026-07-13",
-    "movie": "Toy Story 5",
+    "movie": "Obsession",
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "original_language": "English",
-    "time": "16:15",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/140923/toy-story-5?mode=widget&change=0&ref=750&forceproxy=1",
+    "time": "22:30",
+    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/140938/obsession?mode=widget&change=0&ref=750&forceproxy=1",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-07 04:59:16"
@@ -15667,12 +15680,12 @@
   {
     "cinema": "mk2 Cinesur Miramar",
     "date": "2026-07-14",
-    "movie": "Obsession",
+    "movie": "Toy Story 5",
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "original_language": "English",
-    "time": "22:30",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/140970/obsession?mode=widget&change=0&ref=750&forceproxy=1",
+    "time": "16:15",
+    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/140955/toy-story-5?mode=widget&change=0&ref=750&forceproxy=1",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-07 04:59:16"
@@ -15680,12 +15693,12 @@
   {
     "cinema": "mk2 Cinesur Miramar",
     "date": "2026-07-14",
-    "movie": "Toy Story 5",
+    "movie": "Obsession",
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "original_language": "English",
-    "time": "16:15",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/140955/toy-story-5?mode=widget&change=0&ref=750&forceproxy=1",
+    "time": "22:30",
+    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/140970/obsession?mode=widget&change=0&ref=750&forceproxy=1",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-07 04:59:16"
@@ -15732,12 +15745,12 @@
   {
     "cinema": "mk2 Cinesur Miramar",
     "date": "2026-07-15",
-    "movie": "Obsession",
+    "movie": "Toy Story 5",
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "original_language": "English",
-    "time": "22:30",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/141002/obsession?mode=widget&change=0&ref=750&forceproxy=1",
+    "time": "16:15",
+    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/140987/toy-story-5?mode=widget&change=0&ref=750&forceproxy=1",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-07 04:59:16"
@@ -15745,12 +15758,12 @@
   {
     "cinema": "mk2 Cinesur Miramar",
     "date": "2026-07-15",
-    "movie": "Toy Story 5",
+    "movie": "Obsession",
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "original_language": "English",
-    "time": "16:15",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/140987/toy-story-5?mode=widget&change=0&ref=750&forceproxy=1",
+    "time": "22:30",
+    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/141002/obsession?mode=widget&change=0&ref=750&forceproxy=1",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-07 04:59:16"
@@ -15797,12 +15810,12 @@
   {
     "cinema": "mk2 Cinesur Miramar",
     "date": "2026-07-16",
-    "movie": "Obsession",
+    "movie": "Toy Story 5",
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "original_language": "English",
-    "time": "22:30",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/141034/obsession?mode=widget&change=0&ref=750&forceproxy=1",
+    "time": "16:15",
+    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/141019/toy-story-5?mode=widget&change=0&ref=750&forceproxy=1",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-07 04:59:16"
@@ -15810,12 +15823,12 @@
   {
     "cinema": "mk2 Cinesur Miramar",
     "date": "2026-07-16",
-    "movie": "Toy Story 5",
+    "movie": "Obsession",
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "original_language": "English",
-    "time": "16:15",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/141019/toy-story-5?mode=widget&change=0&ref=750&forceproxy=1",
+    "time": "22:30",
+    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/141034/obsession?mode=widget&change=0&ref=750&forceproxy=1",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-07 04:59:16"
@@ -16394,6 +16407,19 @@
   },
   {
     "cinema": "mk2 Cinesur El Ingenio",
+    "date": "2026-07-11",
+    "movie": "Minions & Monsters",
+    "format": "2D",
+    "language": "Original con subtítulos (VOSE)",
+    "original_language": "English",
+    "time": "16:00",
+    "booking_url": "https://cine.entradas.com/cine/velez-malaga/cinesur-el-ingenio/evento/122276/minions-monsters?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-10 04:56:09"
+  },
+  {
+    "cinema": "mk2 Cinesur El Ingenio",
     "date": "2026-07-12",
     "movie": "Vaiana",
     "format": "2D",
@@ -16404,6 +16430,19 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-07 16:31:33"
+  },
+  {
+    "cinema": "mk2 Cinesur El Ingenio",
+    "date": "2026-07-12",
+    "movie": "Minions & Monsters",
+    "format": "2D",
+    "language": "Original con subtítulos (VOSE)",
+    "original_language": "English",
+    "time": "16:00",
+    "booking_url": "https://cine.entradas.com/cine/velez-malaga/cinesur-el-ingenio/evento/122301/minions-monsters?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-10 04:56:09"
   },
   {
     "cinema": "mk2 Cinesur El Ingenio",
@@ -16446,6 +16485,19 @@
   },
   {
     "cinema": "mk2 Cinesur El Ingenio",
+    "date": "2026-07-14",
+    "movie": "Minions & Monsters",
+    "format": "2D",
+    "language": "Original con subtítulos (VOSE)",
+    "original_language": "English",
+    "time": "16:00",
+    "booking_url": "https://cine.entradas.com/cine/velez-malaga/cinesur-el-ingenio/evento/122491/minions-monsters?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-10 04:56:09"
+  },
+  {
+    "cinema": "mk2 Cinesur El Ingenio",
     "date": "2026-07-15",
     "movie": "Vaiana",
     "format": "2D",
@@ -16459,6 +16511,19 @@
   },
   {
     "cinema": "mk2 Cinesur El Ingenio",
+    "date": "2026-07-15",
+    "movie": "Minions & Monsters",
+    "format": "2D",
+    "language": "Original con subtítulos (VOSE)",
+    "original_language": "English",
+    "time": "16:00",
+    "booking_url": "https://cine.entradas.com/cine/velez-malaga/cinesur-el-ingenio/evento/122523/minions-monsters?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-10 04:56:09"
+  },
+  {
+    "cinema": "mk2 Cinesur El Ingenio",
     "date": "2026-07-16",
     "movie": "Vaiana",
     "format": "2D",
@@ -16469,6 +16534,19 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-07 16:31:33"
+  },
+  {
+    "cinema": "mk2 Cinesur El Ingenio",
+    "date": "2026-07-16",
+    "movie": "Minions & Monsters",
+    "format": "2D",
+    "language": "Original con subtítulos (VOSE)",
+    "original_language": "English",
+    "time": "16:00",
+    "booking_url": "https://cine.entradas.com/cine/velez-malaga/cinesur-el-ingenio/evento/122555/minions-monsters?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-10 04:56:09"
   },
   {
     "cinema": "mk2 Cinesur El Ingenio",
@@ -33425,12 +33503,12 @@
   {
     "cinema": "Cinesa Manoteras",
     "date": "2026-07-12",
-    "movie": "Los músicos",
+    "movie": "COSAS QUE NO OLVIDARÉ",
     "format": "2D",
     "language": "V.O.S.E.",
-    "original_language": "French",
+    "original_language": "Italian",
     "time": "15:55",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-106353",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-106355",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-09 21:45:09"
@@ -33438,12 +33516,12 @@
   {
     "cinema": "Cinesa Manoteras",
     "date": "2026-07-12",
-    "movie": "COSAS QUE NO OLVIDARÉ",
+    "movie": "Los músicos",
     "format": "2D",
     "language": "V.O.S.E.",
-    "original_language": "Italian",
+    "original_language": "French",
     "time": "15:55",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-106355",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-106353",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-09 21:45:09"
@@ -33633,12 +33711,12 @@
   {
     "cinema": "Cinesa Manoteras",
     "date": "2026-07-12",
-    "movie": "Minions & Monsters",
+    "movie": "Supergirl",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
     "time": "19:50",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-106418",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-106416",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-09 21:45:09"
@@ -33646,12 +33724,12 @@
   {
     "cinema": "Cinesa Manoteras",
     "date": "2026-07-12",
-    "movie": "Supergirl",
+    "movie": "Minions & Monsters",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
     "time": "19:50",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-106416",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-106418",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-09 21:45:09"
@@ -35999,12 +36077,12 @@
   {
     "cinema": "Cinesa Manoteras",
     "date": "2026-07-14",
-    "movie": "Los músicos",
+    "movie": "COSAS QUE NO OLVIDARÉ",
     "format": "2D",
     "language": "V.O.S.E.",
-    "original_language": "French",
+    "original_language": "Italian",
     "time": "15:55",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-106507",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-106511",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-07 21:54:36"
@@ -36012,12 +36090,12 @@
   {
     "cinema": "Cinesa Manoteras",
     "date": "2026-07-14",
-    "movie": "COSAS QUE NO OLVIDARÉ",
+    "movie": "Los músicos",
     "format": "2D",
     "language": "V.O.S.E.",
-    "original_language": "Italian",
+    "original_language": "French",
     "time": "15:55",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-106511",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-106507",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-07 21:54:36"
@@ -37130,12 +37208,12 @@
   {
     "cinema": "Cinesa Méndez Álvaro",
     "date": "2026-07-15",
-    "movie": "Akira (re)",
+    "movie": "Minions & Monsters",
     "format": "2D",
     "language": "V.O.S.E.",
-    "original_language": "",
+    "original_language": "English",
     "time": "12:25",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=123-87119",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=123-87111",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-09 21:45:09"
@@ -37143,12 +37221,12 @@
   {
     "cinema": "Cinesa Méndez Álvaro",
     "date": "2026-07-15",
-    "movie": "Minions & Monsters",
+    "movie": "Akira (re)",
     "format": "2D",
     "language": "V.O.S.E.",
-    "original_language": "English",
+    "original_language": "",
     "time": "12:25",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=123-87111",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=123-87119",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-09 21:45:09"
@@ -37429,12 +37507,12 @@
   {
     "cinema": "Cinesa Manoteras",
     "date": "2026-07-15",
-    "movie": "Minions & Monsters",
+    "movie": "Supergirl",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
     "time": "19:50",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-106643",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-106640",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-09 21:45:09"
@@ -37442,12 +37520,12 @@
   {
     "cinema": "Cinesa Manoteras",
     "date": "2026-07-15",
-    "movie": "Supergirl",
+    "movie": "Minions & Monsters",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
     "time": "19:50",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-106640",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-106643",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-09 21:45:09"
@@ -38173,7 +38251,7 @@
     "movie": "Posesión infernal: En llamas",
     "format": "2D",
     "language": "V.O.S.E.",
-    "original_language": "",
+    "original_language": "English",
     "time": "22:00",
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=027-47510",
     "projection_type": "Movie",
@@ -38361,6 +38439,19 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-08 21:25:09"
+  },
+  {
+    "cinema": "Cinesa Méndez Álvaro",
+    "date": "2026-07-16",
+    "movie": "Posesión infernal: En llamas",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "21:40",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=123-87491",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-10 04:56:09"
   },
   {
     "cinema": "Cinesa Manoteras",
@@ -38589,7 +38680,7 @@
     "movie": "Posesión infernal: En llamas",
     "format": "2D",
     "language": "V.O.S.E.",
-    "original_language": "",
+    "original_language": "English",
     "time": "20:00",
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-106753",
     "projection_type": "Movie",
@@ -38833,6 +38924,19 @@
   {
     "cinema": "Cinesa Diagonal",
     "date": "2026-07-16",
+    "movie": "Posesión infernal: En llamas",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "20:00",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=012-52264",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-10 04:56:09"
+  },
+  {
+    "cinema": "Cinesa Diagonal",
+    "date": "2026-07-16",
     "movie": "Minions & Monsters",
     "format": "2D",
     "language": "V.O.S.E.",
@@ -39005,7 +39109,7 @@
     "movie": "Posesión infernal: En llamas",
     "format": "2D",
     "language": "V.O.S.E.",
-    "original_language": "",
+    "original_language": "English",
     "time": "22:30",
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=031-94754",
     "projection_type": "Movie",
@@ -39096,7 +39200,7 @@
     "movie": "Posesión infernal: En llamas",
     "format": "2D",
     "language": "V.O.S.E.",
-    "original_language": "",
+    "original_language": "English",
     "time": "22:35",
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=032-55305",
     "projection_type": "Movie",
@@ -46529,6 +46633,19 @@
   {
     "cinema": "Cinesa Las Rozas",
     "date": "2026-07-30",
+    "movie": "La Odisea",
+    "format": "IMAX",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "18:05",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=034-112306",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-10 04:56:09"
+  },
+  {
+    "cinema": "Cinesa Las Rozas",
+    "date": "2026-07-30",
     "movie": "Spider-Man: Brand New Day",
     "format": "2D",
     "language": "V.O.S.E.",
@@ -47006,6 +47123,19 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-03 16:02:22"
+  },
+  {
+    "cinema": "Cinesa Las Rozas",
+    "date": "2026-07-31",
+    "movie": "La Odisea",
+    "format": "IMAX",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "18:05",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=034-112276",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-10 04:56:09"
   },
   {
     "cinema": "Cinesa Las Rozas",
@@ -48128,6 +48258,19 @@
   {
     "cinema": "Cinesa Las Rozas",
     "date": "2026-08-02",
+    "movie": "La Odisea",
+    "format": "IMAX",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "10:50",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=034-112280",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-10 04:56:09"
+  },
+  {
+    "cinema": "Cinesa Las Rozas",
+    "date": "2026-08-02",
     "movie": "Spider-Man: Brand New Day",
     "format": "2D",
     "language": "V.O.S.E.",
@@ -48137,6 +48280,19 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-03 16:02:22"
+  },
+  {
+    "cinema": "Cinesa Las Rozas",
+    "date": "2026-08-02",
+    "movie": "La Odisea",
+    "format": "IMAX",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "18:05",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=034-112282",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-10 04:56:09"
   },
   {
     "cinema": "Cinesa Las Rozas",
@@ -48761,6 +48917,19 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-03 16:02:22"
+  },
+  {
+    "cinema": "Cinesa Las Rozas",
+    "date": "2026-08-03",
+    "movie": "La Odisea",
+    "format": "IMAX",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "21:45",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=034-112285",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-10 04:56:09"
   },
   {
     "cinema": "Cinesa La Gavia",
@@ -49738,6 +49907,19 @@
     "date_added": "2026-07-03 16:02:22"
   },
   {
+    "cinema": "Cinesa Las Rozas",
+    "date": "2026-08-05",
+    "movie": "La Odisea",
+    "format": "IMAX",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "21:45",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=034-112289",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-10 04:56:09"
+  },
+  {
     "cinema": "Cinesa La Gavia",
     "date": "2026-08-05",
     "movie": "Spider-Man: Brand New Day",
@@ -50182,6 +50364,19 @@
   {
     "cinema": "Cinesa Las Rozas",
     "date": "2026-08-06",
+    "movie": "La Odisea",
+    "format": "IMAX",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "18:05",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=034-112290",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-10 04:56:09"
+  },
+  {
+    "cinema": "Cinesa Las Rozas",
+    "date": "2026-08-06",
     "movie": "Spider-Man: Brand New Day",
     "format": "2D",
     "language": "V.O.S.E.",
@@ -50505,6 +50700,19 @@
     "date_added": "2026-07-09 21:45:09"
   },
   {
+    "cinema": "Cinesa Las Rozas",
+    "date": "2026-08-07",
+    "movie": "La Odisea",
+    "format": "IMAX",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "21:45",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=034-112293",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-10 04:56:09"
+  },
+  {
     "cinema": "Cinesa Diagonal Mar",
     "date": "2026-08-07",
     "movie": "La Odisea",
@@ -50516,6 +50724,19 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-09 21:45:09"
+  },
+  {
+    "cinema": "Cinesa Las Rozas",
+    "date": "2026-08-08",
+    "movie": "La Odisea",
+    "format": "IMAX",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "18:05",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=034-112294",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-10 04:56:09"
   },
   {
     "cinema": "Cinesa Méndez Álvaro",
@@ -50570,6 +50791,19 @@
     "date_added": "2026-07-09 21:45:09"
   },
   {
+    "cinema": "Cinesa Las Rozas",
+    "date": "2026-08-09",
+    "movie": "La Odisea",
+    "format": "IMAX",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "21:45",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=034-112297",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-10 04:56:09"
+  },
+  {
     "cinema": "Cinesa Diagonal Mar",
     "date": "2026-08-09",
     "movie": "La Odisea",
@@ -50583,6 +50817,19 @@
     "date_added": "2026-07-09 21:45:09"
   },
   {
+    "cinema": "Cinesa Las Rozas",
+    "date": "2026-08-10",
+    "movie": "La Odisea",
+    "format": "IMAX",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "18:05",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=034-112298",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-10 04:56:09"
+  },
+  {
     "cinema": "Cinesa Diagonal Mar",
     "date": "2026-08-10",
     "movie": "La Odisea",
@@ -50594,6 +50841,32 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-09 21:45:09"
+  },
+  {
+    "cinema": "Cinesa Las Rozas",
+    "date": "2026-08-11",
+    "movie": "La Odisea",
+    "format": "IMAX",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "21:45",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=034-112301",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-10 04:56:09"
+  },
+  {
+    "cinema": "Cinesa Méndez Álvaro",
+    "date": "2026-08-11",
+    "movie": "Nimrods: A Green Day Comedy",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "",
+    "time": "20:05",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=123-87488",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-10 04:56:09"
   },
   {
     "cinema": "Cinesa LUXE Parc Vallès",
@@ -50622,6 +50895,19 @@
     "date_added": "2026-07-09 21:45:09"
   },
   {
+    "cinema": "Cinesa Las Rozas",
+    "date": "2026-08-12",
+    "movie": "La Odisea",
+    "format": "IMAX",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "18:05",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=034-112302",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-10 04:56:09"
+  },
+  {
     "cinema": "Cinesa Diagonal Mar",
     "date": "2026-08-12",
     "movie": "La Odisea",
@@ -50646,6 +50932,19 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-09 21:45:09"
+  },
+  {
+    "cinema": "Cinesa Méndez Álvaro",
+    "date": "2026-08-14",
+    "movie": "Nimrods: A Green Day Comedy",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "",
+    "time": "22:35",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=123-87489",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-10 04:56:09"
   },
   {
     "cinema": "Cinesa LUXE Parc Vallès",
