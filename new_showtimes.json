@@ -306447,5 +306447,57 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-11 17:55:51"
+  },
+  {
+    "cinema": "Cinesa LUXE La Farga",
+    "date": "2026-07-12",
+    "movie": "Vaiana",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "22:10",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=010-35808",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-11 23:48:49"
+  },
+  {
+    "cinema": "Cinesa LUXE La Farga",
+    "date": "2026-07-16",
+    "movie": "Vaiana",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "22:05",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=010-35892",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-11 23:48:49"
+  },
+  {
+    "cinema": "Cinesa Nassica",
+    "date": "2026-08-11",
+    "movie": "Nimrods: A Green Day Comedy",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "20:05",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=125-102766",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-11 23:48:49"
+  },
+  {
+    "cinema": "Cinesa Nassica",
+    "date": "2026-08-14",
+    "movie": "Nimrods: A Green Day Comedy",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "22:35",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=125-102765",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-11 23:48:49"
   }
 ]
