@@ -7256,19 +7256,6 @@
   {
     "cinema": "Cine Yelmo La Vaguada",
     "date": "2026-07-14",
-    "movie": "Vaiana",
-    "format": "2D",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "19:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1360&showtimeVistaId=17493",
-    "projection_type": "Eventos Especiales",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-27 18:05:07"
-  },
-  {
-    "cinema": "Cine Yelmo La Vaguada",
-    "date": "2026-07-14",
     "movie": "Minions & Monsters",
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
@@ -28628,19 +28615,6 @@
   {
     "cinema": "Cinesa Manoteras",
     "date": "2026-07-11",
-    "movie": "El Drama",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "12:15",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-106479",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-07-07 21:54:36"
-  },
-  {
-    "cinema": "Cinesa Manoteras",
-    "date": "2026-07-11",
     "movie": "La muerte de Robin Hood",
     "format": "2D",
     "language": "V.O.S.E.",
@@ -28660,6 +28634,19 @@
     "original_language": "",
     "time": "12:15",
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-106475",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-07 21:54:36"
+  },
+  {
+    "cinema": "Cinesa Manoteras",
+    "date": "2026-07-11",
+    "movie": "El Drama",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "12:15",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-106479",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-07 21:54:36"
@@ -30279,12 +30266,12 @@
   {
     "cinema": "Cinesa Manoteras",
     "date": "2026-07-12",
-    "movie": "Los músicos",
+    "movie": "COSAS QUE NO OLVIDARÉ",
     "format": "2D",
     "language": "V.O.S.E.",
-    "original_language": "French",
+    "original_language": "Italian",
     "time": "15:55",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-106353",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-106355",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-09 21:45:09"
@@ -30292,12 +30279,12 @@
   {
     "cinema": "Cinesa Manoteras",
     "date": "2026-07-12",
-    "movie": "COSAS QUE NO OLVIDARÉ",
+    "movie": "Los músicos",
     "format": "2D",
     "language": "V.O.S.E.",
-    "original_language": "Italian",
+    "original_language": "French",
     "time": "15:55",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-106355",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-106353",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-09 21:45:09"
@@ -30487,12 +30474,12 @@
   {
     "cinema": "Cinesa Manoteras",
     "date": "2026-07-12",
-    "movie": "Minions & Monsters",
+    "movie": "Supergirl",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
     "time": "19:50",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-106418",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-106416",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-09 21:45:09"
@@ -30500,12 +30487,12 @@
   {
     "cinema": "Cinesa Manoteras",
     "date": "2026-07-12",
-    "movie": "Supergirl",
+    "movie": "Minions & Monsters",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
     "time": "19:50",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-106416",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-106418",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-09 21:45:09"
@@ -33997,12 +33984,12 @@
   {
     "cinema": "Cinesa Méndez Álvaro",
     "date": "2026-07-15",
-    "movie": "Minions & Monsters",
+    "movie": "Akira (re)",
     "format": "2D",
     "language": "V.O.S.E.",
-    "original_language": "English",
+    "original_language": "",
     "time": "12:25",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=123-87111",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=123-87119",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-09 21:45:09"
@@ -34010,12 +33997,12 @@
   {
     "cinema": "Cinesa Méndez Álvaro",
     "date": "2026-07-15",
-    "movie": "Akira (re)",
+    "movie": "Minions & Monsters",
     "format": "2D",
     "language": "V.O.S.E.",
-    "original_language": "",
+    "original_language": "English",
     "time": "12:25",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=123-87119",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=123-87111",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-09 21:45:09"
@@ -34296,12 +34283,12 @@
   {
     "cinema": "Cinesa Manoteras",
     "date": "2026-07-15",
-    "movie": "Minions & Monsters",
+    "movie": "Supergirl",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
     "time": "19:50",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-106643",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-106640",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-09 21:45:09"
@@ -34309,12 +34296,12 @@
   {
     "cinema": "Cinesa Manoteras",
     "date": "2026-07-15",
-    "movie": "Supergirl",
+    "movie": "Minions & Monsters",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
     "time": "19:50",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-106640",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-106643",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-09 21:45:09"

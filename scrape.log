@@ -1,9 +1,9 @@
-Starting Scraper - Local time is 2026-07-11 00:02:21 CEST
+Starting Scraper - Local time is 2026-07-11 04:33:16 CEST
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
   Fetching Yelmo madrid...
   Fetching Yelmo barcelona...
-Yelmo scraped: found 1055 VOSE sessions.
+Yelmo scraped: found 1054 VOSE sessions.
 Scraping Cine Albéniz...
 Stopping Cine Albéniz scrape after 5 consecutive empty days.
 Cine Albéniz scraped: found 66 VOSE sessions.
@@ -24,8 +24,8 @@ mk2 Cinesur scraped: found 153 VOSE sessions.
 original language not found for 4 movies in Cinesa chain
 original language not found for 4 movies in Golem chain
 original language not found for 1 movies in Ocine chain
-Successfully generated api/v1/showtimes.json with 3779 listings.
-Appended 29 new showings to new_showtimes.json
+Successfully generated api/v1/showtimes.json with 3778 listings.
+No new showings found.
 
 Resolving missing movie title translations...
 Found 19 movies without original names.
