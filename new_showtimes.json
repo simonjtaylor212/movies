@@ -306382,5 +306382,44 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-11 00:02:21"
+  },
+  {
+    "cinema": "Cine Yelmo Ideal",
+    "date": "2026-07-11",
+    "movie": "Michael",
+    "format": "2D",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "22:10",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=32766",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-11 15:16:50"
+  },
+  {
+    "cinema": "Cine Yelmo Ideal",
+    "date": "2026-07-12",
+    "movie": "Michael",
+    "format": "2D",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "22:00",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=32802",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-11 15:16:50"
+  },
+  {
+    "cinema": "Cine Yelmo La Vaguada",
+    "date": "2026-07-14",
+    "movie": "Vaiana",
+    "format": "2D",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "19:30",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1360&showtimeVistaId=17493",
+    "projection_type": "Eventos Especiales",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-11 15:16:50"
   }
 ]
