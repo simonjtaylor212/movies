@@ -306421,5 +306421,31 @@
     "projection_type": "Eventos Especiales",
     "movie_title_language": "ES",
     "date_added": "2026-07-11 15:16:50"
+  },
+  {
+    "cinema": "Cine Yelmo Westfield La Maquinista",
+    "date": "2026-07-14",
+    "movie": "Vaiana",
+    "format": "ATMOS",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "19:30",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1350&showtimeVistaId=42126",
+    "projection_type": "Eventos Especiales",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-11 17:55:51"
+  },
+  {
+    "cinema": "Cinesa Las Rozas",
+    "date": "2026-08-13",
+    "movie": "La Odisea",
+    "format": "IMAX",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "21:45",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=034-112305",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-11 17:55:51"
   }
 ]
