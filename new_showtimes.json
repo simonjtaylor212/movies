@@ -306694,5 +306694,31 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-12 04:39:24"
+  },
+  {
+    "cinema": "Cinesa LUXE Oasiz",
+    "date": "2026-07-12",
+    "movie": "Supergirl",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "18:50",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=138-70599",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-12 15:17:25"
+  },
+  {
+    "cinema": "Cinesa LUXE Oasiz",
+    "date": "2026-07-29",
+    "movie": "Spider-Man: Brand New Day",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "12:00",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=138-70851",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-12 15:17:25"
   }
 ]
