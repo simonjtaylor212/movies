@@ -1,10 +1,11 @@
-Starting Scraper - Local time is 2026-07-13 08:17:37 CEST
+Starting Scraper - Local time is 2026-07-13 14:04:04 CEST
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
   Fetching Yelmo madrid...
   Fetching Yelmo barcelona...
 Yelmo scraped: found 874 VOSE sessions.
 Scraping Cine Albéniz...
+Error fetching Albéniz for 2026-07-20: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
 Stopping Cine Albéniz scrape after 5 consecutive empty days.
 Cine Albéniz scraped: found 44 VOSE sessions.
 Scraping Kinépolis Granada & Nevada...
@@ -13,7 +14,7 @@ Scraping Cines Renoir...
 Cines Renoir: Scraped 384 VOSE sessions.
 Scraping Cines Golem...
 Cines Golem Madrid: Scraped 41 VOSE sessions.
-Loaded 832 Cinesa showtimes from cache.
+Loaded 0 Cinesa showtimes from cache.
 Scraping Ocine Serrallo...
 Ocine Serrallo: Scraped 3 sessions.
 Scraping mk2 Cinesur...
@@ -21,10 +22,9 @@ Scraping mk2 Cinesur...
   mk2 Cinesur El Ingenio: found 31 sessions.
   mk2 Cinesur Málaga Nostrum: found 45 sessions.
 mk2 Cinesur scraped: found 137 VOSE sessions.
-original language not found for 3 movies in Cinesa chain
 original language not found for 4 movies in Golem chain
 original language not found for 1 movies in Ocine chain
-Successfully generated api/v1/showtimes.json with 2560 listings.
+Successfully generated api/v1/showtimes.json with 1728 listings.
 No new showings found.
 
 Resolving missing movie title translations...
@@ -38,10 +38,10 @@ Searching for: 'AFTERSUN [WILDER CINEMA]'
   -> Could not resolve original name for 'AFTERSUN [WILDER CINEMA]'
 
 Searching for: 'Backrooms: Liquidación total (versión extendida)'
-  -> Could not resolve original name for 'Backrooms: Liquidación total (versión extendida)'
+  -> Found via TMDB Web: 'Backrooms'
 
 Searching for: 'Backrooms: liquidación total (versión ...)'
-  -> Could not resolve original name for 'Backrooms: liquidación total (versión ...)'
+  -> Found via TMDB Web: 'Backrooms'
 
 Searching for: 'CALL ME BY YOUR NAME [WILDER CINEMA]'
   -> Could not resolve original name for 'CALL ME BY YOUR NAME [WILDER CINEMA]'
@@ -91,9 +91,9 @@ Searching for: 'VIAJE AL PAÍS DE LOS BLANCOS [PROYECTO VIRIDIANA]'
 Searching for: 'WHAT A FEELING [CINE CON ORGULLO RENOIR]'
   -> Could not resolve original name for 'WHAT A FEELING [CINE CON ORGULLO RENOIR]'
 
-No translations were updated.
+Successfully updated 2 translation(s) in movie_title_translations.json.
 
 === Cinesa Scraper Logs (Portugal VPN) ===
 Scraping Cinesa (Madrid & Barcelona)...
-Cinesa: Found 15 business dates with showtimes: ['2026-07-13', '2026-07-14', '2026-07-15', '2026-07-16', '2026-07-17', '2026-07-18', '2026-07-19', '2026-07-20', '2026-07-21', '2026-07-22', '2026-07-23', '2026-07-24', '2026-07-25', '2026-07-26', '2026-07-27']
-Cinesa (Madrid & Barcelona): Scraped 832 VOSE sessions.
+Error: Cinesa home returned status 403
+Error: Could not retrieve Cinesa authentication token.
