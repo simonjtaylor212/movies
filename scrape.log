@@ -1,47 +1,30 @@
-Starting Scraper - Local time is 2026-07-14 21:18:34 CEST
+Starting Scraper - Local time is 2026-07-14 23:57:17 CEST
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
-Error fetching Yelmo malaga: HTTPSConnectionPool(host='www.yelmocines.es', port=443): Max retries exceeded with url: /now-playing.aspx/GetNowPlaying (Caused by NameResolutionError("HTTPSConnection(host='www.yelmocines.es', port=443): Failed to resolve 'www.yelmocines.es' ([Errno -3] Temporary failure in name resolution)"))
   Fetching Yelmo madrid...
-Error fetching Yelmo madrid: HTTPSConnectionPool(host='www.yelmocines.es', port=443): Max retries exceeded with url: /now-playing.aspx/GetNowPlaying (Caused by NameResolutionError("HTTPSConnection(host='www.yelmocines.es', port=443): Failed to resolve 'www.yelmocines.es' ([Errno -3] Temporary failure in name resolution)"))
   Fetching Yelmo barcelona...
-Error fetching Yelmo barcelona: HTTPSConnectionPool(host='www.yelmocines.es', port=443): Max retries exceeded with url: /now-playing.aspx/GetNowPlaying (Caused by NameResolutionError("HTTPSConnection(host='www.yelmocines.es', port=443): Failed to resolve 'www.yelmocines.es' ([Errno -3] Temporary failure in name resolution)"))
-Yelmo scraped: found 0 VOSE sessions.
-Warning: yelmo scraper returned 0 showings. Using fallback data.
-Recovered 1137 yelmo showings from previous run.
+Yelmo scraped: found 1090 VOSE sessions.
 Scraping Cine Albéniz...
-Error fetching Albéniz for 2026-07-14: HTTPSConnectionPool(host='cinealbeniz.com', port=443): Max retries exceeded with url: /cartelera/dia/2026-07-14 (Caused by NameResolutionError("HTTPSConnection(host='cinealbeniz.com', port=443): Failed to resolve 'cinealbeniz.com' ([Errno -3] Temporary failure in name resolution)"))
-Error fetching Albéniz for 2026-07-15: HTTPSConnectionPool(host='cinealbeniz.com', port=443): Max retries exceeded with url: /cartelera/dia/2026-07-15 (Caused by NameResolutionError("HTTPSConnection(host='cinealbeniz.com', port=443): Failed to resolve 'cinealbeniz.com' ([Errno -3] Temporary failure in name resolution)"))
-Error fetching Albéniz for 2026-07-16: HTTPSConnectionPool(host='cinealbeniz.com', port=443): Max retries exceeded with url: /cartelera/dia/2026-07-16 (Caused by NameResolutionError("HTTPSConnection(host='cinealbeniz.com', port=443): Failed to resolve 'cinealbeniz.com' ([Errno -3] Temporary failure in name resolution)"))
-Error fetching Albéniz for 2026-07-17: HTTPSConnectionPool(host='cinealbeniz.com', port=443): Max retries exceeded with url: /cartelera/dia/2026-07-17 (Caused by NameResolutionError("HTTPSConnection(host='cinealbeniz.com', port=443): Failed to resolve 'cinealbeniz.com' ([Errno -3] Temporary failure in name resolution)"))
-Error fetching Albéniz for 2026-07-18: HTTPSConnectionPool(host='cinealbeniz.com', port=443): Max retries exceeded with url: /cartelera/dia/2026-07-18 (Caused by NameResolutionError("HTTPSConnection(host='cinealbeniz.com', port=443): Failed to resolve 'cinealbeniz.com' ([Errno -3] Temporary failure in name resolution)"))
 Stopping Cine Albéniz scrape after 5 consecutive empty days.
-Cine Albéniz scraped: found 0 VOSE sessions.
-Warning: albeniz scraper returned 0 showings. Using fallback data.
-Recovered 33 albeniz showings from previous run.
+Cine Albéniz scraped: found 33 VOSE sessions.
 Scraping Kinépolis Granada & Nevada...
-Error executing Playwright for Kinépolis: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://kinepolis.es/cines/kinepolis-granada
-Call log:
-  - navigating to "https://kinepolis.es/cines/kinepolis-granada", waiting until "load"
-
-Warning: kinepolis scraper returned 0 showings. Using fallback data.
-Recovered 265 kinepolis showings from previous run.
+Kinépolis Granada & Nevada: Scraped 294 VOSE sessions.
 Scraping Cines Renoir...
 Cines Renoir: Scraped 695 VOSE sessions.
 Scraping Cines Golem...
-Cines Golem Madrid: Scraped 22 VOSE sessions.
+Cines Golem Madrid: Scraped 79 VOSE sessions.
 Loaded 0 Cinesa showtimes from cache.
 Scraping Ocine Serrallo...
 Ocine Serrallo: Scraped 10 sessions.
 Scraping mk2 Cinesur...
-  mk2 Cinesur Miramar: found 80 sessions.
+  mk2 Cinesur Miramar: found 79 sessions.
   mk2 Cinesur El Ingenio: found 27 sessions.
-  mk2 Cinesur Málaga Nostrum: found 44 sessions.
-mk2 Cinesur scraped: found 151 VOSE sessions.
+  mk2 Cinesur Málaga Nostrum: found 43 sessions.
+mk2 Cinesur scraped: found 149 VOSE sessions.
 original language not found for 4 movies in Golem chain
 original language not found for 1 movies in Ocine chain
-Successfully generated api/v1/showtimes.json with 2313 listings.
-Appended 160 new showings to new_showtimes.json
+Successfully generated api/v1/showtimes.json with 2350 listings.
+Appended 114 new showings to new_showtimes.json
 
 Resolving missing movie title translations...
 Found 19 movies without original names.
