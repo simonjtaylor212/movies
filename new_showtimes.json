@@ -361190,5 +361190,31 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-15 10:59:37"
+  },
+  {
+    "cinema": "Cine Yelmo Premium Parque Corredor",
+    "date": "2026-07-17",
+    "movie": "La Odisea",
+    "format": "PREMIUM",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "22:15",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1321&showtimeVistaId=24738",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-15 12:49:22"
+  },
+  {
+    "cinema": "Cine Yelmo Premium Parque Corredor",
+    "date": "2026-07-18",
+    "movie": "La Odisea",
+    "format": "PREMIUM",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "22:15",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1321&showtimeVistaId=24755",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-15 12:49:22"
   }
 ]
