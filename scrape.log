@@ -1,18 +1,60 @@
-Starting Scraper - Local time is 2026-07-14 23:57:17 CEST
+Starting Scraper - Local time is 2026-07-15 04:22:54 CEST
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
   Fetching Yelmo madrid...
   Fetching Yelmo barcelona...
-Yelmo scraped: found 1090 VOSE sessions.
+Yelmo scraped: found 1084 VOSE sessions.
 Scraping Cine Albéniz...
 Stopping Cine Albéniz scrape after 5 consecutive empty days.
-Cine Albéniz scraped: found 33 VOSE sessions.
+Cine Albéniz scraped: found 22 VOSE sessions.
 Scraping Kinépolis Granada & Nevada...
-Kinépolis Granada & Nevada: Scraped 294 VOSE sessions.
+Kinépolis Granada & Nevada: Scraped 289 VOSE sessions.
 Scraping Cines Renoir...
-Cines Renoir: Scraped 695 VOSE sessions.
+Error scraping Cines Renoir Cines Renoir Plaza de España for date 2026-07-15: HTTPSConnectionPool(host='www.cinesrenoir.com', port=443): Max retries exceeded with url: /cine/renoir-plaza-de-espana/cartelera/?fecha=2026-07-15 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))
+Error scraping Cines Renoir Cines Renoir Princesa for date 2026-07-15: HTTPSConnectionPool(host='www.cinesrenoir.com', port=443): Max retries exceeded with url: /cine/cines-princesa/cartelera/?fecha=2026-07-15 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))
+Error scraping Cines Renoir Cines Renoir Retiro for date 2026-07-15: HTTPSConnectionPool(host='www.cinesrenoir.com', port=443): Max retries exceeded with url: /cine/renoir-retiro/cartelera/?fecha=2026-07-15 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))
+Error scraping Cines Renoir Cines Renoir Floridablanca for date 2026-07-15: HTTPSConnectionPool(host='www.cinesrenoir.com', port=443): Max retries exceeded with url: /cine/renoir-floridablanca/cartelera/?fecha=2026-07-15 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))
+Error scraping Cines Renoir Cines Renoir Plaza de España for date 2026-07-16: HTTPSConnectionPool(host='www.cinesrenoir.com', port=443): Max retries exceeded with url: /cine/renoir-plaza-de-espana/cartelera/?fecha=2026-07-16 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))
+Error scraping Cines Renoir Cines Renoir Princesa for date 2026-07-16: HTTPSConnectionPool(host='www.cinesrenoir.com', port=443): Max retries exceeded with url: /cine/cines-princesa/cartelera/?fecha=2026-07-16 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))
+Error scraping Cines Renoir Cines Renoir Retiro for date 2026-07-16: HTTPSConnectionPool(host='www.cinesrenoir.com', port=443): Max retries exceeded with url: /cine/renoir-retiro/cartelera/?fecha=2026-07-16 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))
+Error scraping Cines Renoir Cines Renoir Floridablanca for date 2026-07-16: HTTPSConnectionPool(host='www.cinesrenoir.com', port=443): Max retries exceeded with url: /cine/renoir-floridablanca/cartelera/?fecha=2026-07-16 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))
+Error scraping Cines Renoir Cines Renoir Plaza de España for date 2026-07-17: HTTPSConnectionPool(host='www.cinesrenoir.com', port=443): Max retries exceeded with url: /cine/renoir-plaza-de-espana/cartelera/?fecha=2026-07-17 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))
+Error scraping Cines Renoir Cines Renoir Princesa for date 2026-07-17: HTTPSConnectionPool(host='www.cinesrenoir.com', port=443): Max retries exceeded with url: /cine/cines-princesa/cartelera/?fecha=2026-07-17 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))
+Error scraping Cines Renoir Cines Renoir Retiro for date 2026-07-17: HTTPSConnectionPool(host='www.cinesrenoir.com', port=443): Max retries exceeded with url: /cine/renoir-retiro/cartelera/?fecha=2026-07-17 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))
+Error scraping Cines Renoir Cines Renoir Floridablanca for date 2026-07-17: HTTPSConnectionPool(host='www.cinesrenoir.com', port=443): Max retries exceeded with url: /cine/renoir-floridablanca/cartelera/?fecha=2026-07-17 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))
+Error scraping Cines Renoir Cines Renoir Plaza de España for date 2026-07-18: HTTPSConnectionPool(host='www.cinesrenoir.com', port=443): Max retries exceeded with url: /cine/renoir-plaza-de-espana/cartelera/?fecha=2026-07-18 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))
+Error scraping Cines Renoir Cines Renoir Princesa for date 2026-07-18: HTTPSConnectionPool(host='www.cinesrenoir.com', port=443): Max retries exceeded with url: /cine/cines-princesa/cartelera/?fecha=2026-07-18 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))
+Error scraping Cines Renoir Cines Renoir Retiro for date 2026-07-18: HTTPSConnectionPool(host='www.cinesrenoir.com', port=443): Max retries exceeded with url: /cine/renoir-retiro/cartelera/?fecha=2026-07-18 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))
+Error scraping Cines Renoir Cines Renoir Floridablanca for date 2026-07-18: HTTPSConnectionPool(host='www.cinesrenoir.com', port=443): Max retries exceeded with url: /cine/renoir-floridablanca/cartelera/?fecha=2026-07-18 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))
+Error scraping Cines Renoir Cines Renoir Plaza de España for date 2026-07-19: HTTPSConnectionPool(host='www.cinesrenoir.com', port=443): Max retries exceeded with url: /cine/renoir-plaza-de-espana/cartelera/?fecha=2026-07-19 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))
+Error scraping Cines Renoir Cines Renoir Princesa for date 2026-07-19: HTTPSConnectionPool(host='www.cinesrenoir.com', port=443): Max retries exceeded with url: /cine/cines-princesa/cartelera/?fecha=2026-07-19 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))
+Error scraping Cines Renoir Cines Renoir Retiro for date 2026-07-19: HTTPSConnectionPool(host='www.cinesrenoir.com', port=443): Max retries exceeded with url: /cine/renoir-retiro/cartelera/?fecha=2026-07-19 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))
+Error scraping Cines Renoir Cines Renoir Floridablanca for date 2026-07-19: HTTPSConnectionPool(host='www.cinesrenoir.com', port=443): Max retries exceeded with url: /cine/renoir-floridablanca/cartelera/?fecha=2026-07-19 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))
+Error scraping Cines Renoir Cines Renoir Plaza de España for date 2026-07-20: HTTPSConnectionPool(host='www.cinesrenoir.com', port=443): Max retries exceeded with url: /cine/renoir-plaza-de-espana/cartelera/?fecha=2026-07-20 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))
+Error scraping Cines Renoir Cines Renoir Princesa for date 2026-07-20: HTTPSConnectionPool(host='www.cinesrenoir.com', port=443): Max retries exceeded with url: /cine/cines-princesa/cartelera/?fecha=2026-07-20 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))
+Error scraping Cines Renoir Cines Renoir Retiro for date 2026-07-20: HTTPSConnectionPool(host='www.cinesrenoir.com', port=443): Max retries exceeded with url: /cine/renoir-retiro/cartelera/?fecha=2026-07-20 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))
+Error scraping Cines Renoir Cines Renoir Floridablanca for date 2026-07-20: HTTPSConnectionPool(host='www.cinesrenoir.com', port=443): Max retries exceeded with url: /cine/renoir-floridablanca/cartelera/?fecha=2026-07-20 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))
+Error scraping Cines Renoir Cines Renoir Plaza de España for date 2026-07-21: HTTPSConnectionPool(host='www.cinesrenoir.com', port=443): Max retries exceeded with url: /cine/renoir-plaza-de-espana/cartelera/?fecha=2026-07-21 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))
+Error scraping Cines Renoir Cines Renoir Princesa for date 2026-07-21: HTTPSConnectionPool(host='www.cinesrenoir.com', port=443): Max retries exceeded with url: /cine/cines-princesa/cartelera/?fecha=2026-07-21 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))
+Error scraping Cines Renoir Cines Renoir Retiro for date 2026-07-21: HTTPSConnectionPool(host='www.cinesrenoir.com', port=443): Max retries exceeded with url: /cine/renoir-retiro/cartelera/?fecha=2026-07-21 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))
+Error scraping Cines Renoir Cines Renoir Floridablanca for date 2026-07-21: HTTPSConnectionPool(host='www.cinesrenoir.com', port=443): Max retries exceeded with url: /cine/renoir-floridablanca/cartelera/?fecha=2026-07-21 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))
+Error scraping Cines Renoir Cines Renoir Plaza de España for date 2026-07-22: HTTPSConnectionPool(host='www.cinesrenoir.com', port=443): Max retries exceeded with url: /cine/renoir-plaza-de-espana/cartelera/?fecha=2026-07-22 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))
+Error scraping Cines Renoir Cines Renoir Princesa for date 2026-07-22: HTTPSConnectionPool(host='www.cinesrenoir.com', port=443): Max retries exceeded with url: /cine/cines-princesa/cartelera/?fecha=2026-07-22 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))
+Error scraping Cines Renoir Cines Renoir Retiro for date 2026-07-22: HTTPSConnectionPool(host='www.cinesrenoir.com', port=443): Max retries exceeded with url: /cine/renoir-retiro/cartelera/?fecha=2026-07-22 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))
+Error scraping Cines Renoir Cines Renoir Floridablanca for date 2026-07-22: HTTPSConnectionPool(host='www.cinesrenoir.com', port=443): Max retries exceeded with url: /cine/renoir-floridablanca/cartelera/?fecha=2026-07-22 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))
+Error scraping Cines Renoir Cines Renoir Plaza de España for date 2026-07-23: HTTPSConnectionPool(host='www.cinesrenoir.com', port=443): Max retries exceeded with url: /cine/renoir-plaza-de-espana/cartelera/?fecha=2026-07-23 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))
+Error scraping Cines Renoir Cines Renoir Princesa for date 2026-07-23: HTTPSConnectionPool(host='www.cinesrenoir.com', port=443): Max retries exceeded with url: /cine/cines-princesa/cartelera/?fecha=2026-07-23 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))
+Error scraping Cines Renoir Cines Renoir Retiro for date 2026-07-23: HTTPSConnectionPool(host='www.cinesrenoir.com', port=443): Max retries exceeded with url: /cine/renoir-retiro/cartelera/?fecha=2026-07-23 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))
+Error scraping Cines Renoir Cines Renoir Floridablanca for date 2026-07-23: HTTPSConnectionPool(host='www.cinesrenoir.com', port=443): Max retries exceeded with url: /cine/renoir-floridablanca/cartelera/?fecha=2026-07-23 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))
+Error scraping Cines Renoir Cines Renoir Plaza de España for date 2026-07-24: HTTPSConnectionPool(host='www.cinesrenoir.com', port=443): Max retries exceeded with url: /cine/renoir-plaza-de-espana/cartelera/?fecha=2026-07-24 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))
+Error scraping Cines Renoir Cines Renoir Princesa for date 2026-07-24: HTTPSConnectionPool(host='www.cinesrenoir.com', port=443): Max retries exceeded with url: /cine/cines-princesa/cartelera/?fecha=2026-07-24 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))
+Error scraping Cines Renoir Cines Renoir Retiro for date 2026-07-24: HTTPSConnectionPool(host='www.cinesrenoir.com', port=443): Max retries exceeded with url: /cine/renoir-retiro/cartelera/?fecha=2026-07-24 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))
+Error scraping Cines Renoir Cines Renoir Floridablanca for date 2026-07-24: HTTPSConnectionPool(host='www.cinesrenoir.com', port=443): Max retries exceeded with url: /cine/renoir-floridablanca/cartelera/?fecha=2026-07-24 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))
+Cines Renoir: Scraped 0 VOSE sessions.
+Warning: renoir scraper returned 0 showings. Using fallback data.
+Recovered 695 renoir showings from previous run.
 Scraping Cines Golem...
-Cines Golem Madrid: Scraped 79 VOSE sessions.
+Cines Golem Madrid: Scraped 91 VOSE sessions.
 Loaded 0 Cinesa showtimes from cache.
 Scraping Ocine Serrallo...
 Ocine Serrallo: Scraped 10 sessions.
@@ -23,8 +65,8 @@ Scraping mk2 Cinesur...
 mk2 Cinesur scraped: found 149 VOSE sessions.
 original language not found for 4 movies in Golem chain
 original language not found for 1 movies in Ocine chain
-Successfully generated api/v1/showtimes.json with 2350 listings.
-Appended 114 new showings to new_showtimes.json
+Successfully generated api/v1/showtimes.json with 2266 listings.
+Appended 15 new showings to new_showtimes.json
 
 Resolving missing movie title translations...
 Found 19 movies without original names.
