@@ -106,6 +106,10 @@ def scrape_yelmo():
                 for movie in date_info.get('Movies', []):
                     title = movie.get('Title', '').strip()
                     proj_type = movie.get('ProjectionType', 'Movie')
+                    # Yelmo sometimes misclassifies regular movies as "Eventos Especiales" or "Anime"
+                    # Remap these to "Movie" so they aren't hidden by the "Show only movies" filter
+                    if proj_type in ('Eventos Especiales', 'Anime'):
+                        proj_type = 'Movie'
                     for fmt in movie.get('Formats', []):
                         lang = fmt.get('Language', '')
                         # Check for VOSE
