@@ -1,4 +1,4 @@
-Starting Scraper - Local time is 2026-07-15 04:22:54 CEST
+Starting Scraper - Local time is 2026-07-15 07:30:58 CEST
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
   Fetching Yelmo madrid...
@@ -52,7 +52,7 @@ Error scraping Cines Renoir Cines Renoir Retiro for date 2026-07-24: HTTPSConnec
 Error scraping Cines Renoir Cines Renoir Floridablanca for date 2026-07-24: HTTPSConnectionPool(host='www.cinesrenoir.com', port=443): Max retries exceeded with url: /cine/renoir-floridablanca/cartelera/?fecha=2026-07-24 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))
 Cines Renoir: Scraped 0 VOSE sessions.
 Warning: renoir scraper returned 0 showings. Using fallback data.
-Recovered 695 renoir showings from previous run.
+Recovered 621 renoir showings from previous run.
 Scraping Cines Golem...
 Cines Golem Madrid: Scraped 91 VOSE sessions.
 Loaded 0 Cinesa showtimes from cache.
@@ -66,7 +66,7 @@ mk2 Cinesur scraped: found 149 VOSE sessions.
 original language not found for 4 movies in Golem chain
 original language not found for 1 movies in Ocine chain
 Successfully generated api/v1/showtimes.json with 2266 listings.
-Appended 15 new showings to new_showtimes.json
+No new showings found.
 
 Resolving missing movie title translations...
 Found 19 movies without original names.
