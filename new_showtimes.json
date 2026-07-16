@@ -396901,5 +396901,57 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-16 15:48:07"
+  },
+  {
+    "cinema": "Cine Yelmo Westfield La Maquinista",
+    "date": "2026-07-29",
+    "movie": "Spider-Man: Brand New Day",
+    "format": "PREMIUM",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "21:55",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1350&showtimeVistaId=43068",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-16 18:17:32"
+  },
+  {
+    "cinema": "Cinesa SOM Multiespai",
+    "date": "2026-07-17",
+    "movie": "Obsession",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "22:45",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=017-57540",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-16 18:17:32"
+  },
+  {
+    "cinema": "Cinesa Méndez Álvaro",
+    "date": "2026-08-15",
+    "movie": "KATSEYE: WILD HEARTS",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "12:05",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=123-87922",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-16 18:17:32"
+  },
+  {
+    "cinema": "Cinesa Méndez Álvaro",
+    "date": "2026-08-15",
+    "movie": "KATSEYE: WILD HEARTS",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "14:00",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=123-87921",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-16 18:17:32"
   }
 ]
