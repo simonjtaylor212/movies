@@ -1,4 +1,4 @@
-Starting Scraper - Local time is 2026-07-16 07:40:26 CEST
+Starting Scraper - Local time is 2026-07-16 10:11:34 CEST
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
   Fetching Yelmo madrid...
@@ -6,9 +6,9 @@ Scraping Cine Yelmo...
 Yelmo scraped: found 1053 VOSE sessions.
 Scraping Cine Albéniz...
 Stopping Cine Albéniz scrape after 5 consecutive empty days.
-Cine Albéniz scraped: found 11 VOSE sessions.
+Cine Albéniz scraped: found 44 VOSE sessions.
 Scraping Kinépolis Granada & Nevada...
-Kinépolis Granada & Nevada: Scraped 288 VOSE sessions.
+Kinépolis Granada & Nevada: Scraped 301 VOSE sessions.
 Scraping Cines Renoir...
 Cines Renoir: Scraped 544 VOSE sessions.
 Scraping Cines Golem...
@@ -24,65 +24,82 @@ mk2 Cinesur scraped: found 141 VOSE sessions.
 original language not found for 4 movies in Cinesa chain
 original language not found for 4 movies in Golem chain
 original language not found for 1 movies in Ocine chain
-Successfully generated api/v1/showtimes.json with 3791 listings.
-No new showings found.
+Successfully generated api/v1/showtimes.json with 3837 listings.
+Appended 46 new showings to new_showtimes.json
 
 Resolving missing movie title translations...
 Found 19 movies without original names.
 No TMDB_API_KEY detected. Using keyless TMDB scraper and Wikidata fallbacks.
 
 Searching for: '20 Años del MET en cines - Grabado MET 26-27'
+    (TMDB Scraper warning: HTTPSConnectionPool(host='www.themoviedb.org', port=443): Read timed out. (read timeout=10))
   -> Could not resolve original name for '20 Años del MET en cines - Grabado MET 26-27'
 
 Searching for: 'AFTERSUN [WILDER CINEMA]'
+    (TMDB Scraper warning: HTTPSConnectionPool(host='www.themoviedb.org', port=443): Read timed out. (read timeout=10))
   -> Could not resolve original name for 'AFTERSUN [WILDER CINEMA]'
 
 Searching for: 'CALL ME BY YOUR NAME [WILDER CINEMA]'
+    (TMDB Scraper warning: HTTPSConnectionPool(host='www.themoviedb.org', port=443): Read timed out. (read timeout=10))
   -> Could not resolve original name for 'CALL ME BY YOUR NAME [WILDER CINEMA]'
 
 Searching for: 'CUENTA CONMIGO [WILDER CINEMA]'
+    (TMDB Scraper warning: HTTPSConnectionPool(host='www.themoviedb.org', port=443): Read timed out. (read timeout=10))
   -> Could not resolve original name for 'CUENTA CONMIGO [WILDER CINEMA]'
 
 Searching for: 'CUENTOS DE TOKIO [WILDER CINEMA]'
+    (TMDB Scraper warning: HTTPSConnectionPool(host='www.themoviedb.org', port=443): Read timed out. (read timeout=10))
   -> Could not resolve original name for 'CUENTOS DE TOKIO [WILDER CINEMA]'
 
 Searching for: 'EL ACTIVISTA [CINE CON ORGULLO RENOIR]'
+    (TMDB Scraper warning: HTTPSConnectionPool(host='www.themoviedb.org', port=443): Read timed out. (read timeout=10))
   -> Could not resolve original name for 'EL ACTIVISTA [CINE CON ORGULLO RENOIR]'
 
 Searching for: 'EL VIAJE DE CHIHIRO [WILDER CINEMA]'
+    (TMDB Scraper warning: HTTPSConnectionPool(host='www.themoviedb.org', port=443): Read timed out. (read timeout=10))
   -> Could not resolve original name for 'EL VIAJE DE CHIHIRO [WILDER CINEMA]'
 
 Searching for: 'ENCUENTROS EN LA TERCERA FASE [WILDER CINEMA]'
+    (TMDB Scraper warning: HTTPSConnectionPool(host='www.themoviedb.org', port=443): Read timed out. (read timeout=10))
   -> Could not resolve original name for 'ENCUENTROS EN LA TERCERA FASE [WILDER CINEMA]'
 
 Searching for: 'LA GRAN BELLEZA [WILDER CINEMA]'
+    (TMDB Scraper warning: HTTPSConnectionPool(host='www.themoviedb.org', port=443): Read timed out. (read timeout=10))
   -> Could not resolve original name for 'LA GRAN BELLEZA [WILDER CINEMA]'
 
 Searching for: 'LA MUERTE DE ROBIN HOOD [WILDER CINEMA]'
+    (TMDB Scraper warning: HTTPSConnectionPool(host='www.themoviedb.org', port=443): Read timed out. (read timeout=10))
   -> Could not resolve original name for 'LA MUERTE DE ROBIN HOOD [WILDER CINEMA]'
 
 Searching for: 'LA PRINCESA PROMETIDA [WILDER CINEMA]'
+    (TMDB Scraper warning: HTTPSConnectionPool(host='www.themoviedb.org', port=443): Read timed out. (read timeout=10))
   -> Could not resolve original name for 'LA PRINCESA PROMETIDA [WILDER CINEMA]'
 
 Searching for: 'LADRÓN DE BICICLETAS [WILDER CINEMA]'
+    (TMDB Scraper warning: HTTPSConnectionPool(host='www.themoviedb.org', port=443): Read timed out. (read timeout=10))
   -> Could not resolve original name for 'LADRÓN DE BICICLETAS [WILDER CINEMA]'
 
 Searching for: 'LAWRENCE DE ARABIA [WILDER CINEMA]'
+    (TMDB Scraper warning: HTTPSConnectionPool(host='www.themoviedb.org', port=443): Read timed out. (read timeout=10))
   -> Could not resolve original name for 'LAWRENCE DE ARABIA [WILDER CINEMA]'
 
 Searching for: 'La casa del bosque 1'
+    (TMDB Scraper warning: HTTPSConnectionPool(host='www.themoviedb.org', port=443): Read timed out. (read timeout=10))
   -> Could not resolve original name for 'La casa del bosque 1'
 
 Searching for: 'La casa del bosque 2'
+    (TMDB Scraper warning: HTTPSConnectionPool(host='www.themoviedb.org', port=443): Read timed out. (read timeout=10))
   -> Could not resolve original name for 'La casa del bosque 2'
 
 Searching for: 'MALAS CALLES [WILDER CINEMA]'
+    (TMDB Scraper warning: HTTPSConnectionPool(host='www.themoviedb.org', port=443): Read timed out. (read timeout=10))
   -> Could not resolve original name for 'MALAS CALLES [WILDER CINEMA]'
 
 Searching for: 'Sia 2016 Coachella'
   -> Could not resolve original name for 'Sia 2016 Coachella'
 
 Searching for: 'VIAJE AL PAÍS DE LOS BLANCOS [PROYECTO VIRIDIANA]'
+    (TMDB Scraper warning: HTTPSConnectionPool(host='www.themoviedb.org', port=443): Read timed out. (read timeout=10))
   -> Could not resolve original name for 'VIAJE AL PAÍS DE LOS BLANCOS [PROYECTO VIRIDIANA]'
 
 Searching for: 'WHAT A FEELING [CINE CON ORGULLO RENOIR]'
