@@ -385903,5 +385903,18 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-16 00:00:29"
+  },
+  {
+    "cinema": "Cine Yelmo Plaza Mayor",
+    "date": "2026-08-11",
+    "movie": "Spider-Man: Brand New Day",
+    "format": "UHD",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "19:00",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=41218",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-16 04:30:30"
   }
 ]

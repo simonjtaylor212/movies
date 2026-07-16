@@ -2263,6 +2263,19 @@
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
+    "date": "2026-08-11",
+    "movie": "Spider-Man: Brand New Day",
+    "format": "UHD",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "19:00",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=41218",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-16 04:30:30"
+  },
+  {
+    "cinema": "Cine Yelmo Plaza Mayor",
     "date": "2026-09-19",
     "movie": "20 Años del MET en cines: Una celebración",
     "format": "CA",
@@ -28745,12 +28758,12 @@
   {
     "cinema": "Cinesa Diagonal",
     "date": "2026-07-16",
-    "movie": "Backrooms: Liquidación total (versión extendida)",
+    "movie": "Obsession",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
     "time": "22:40",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=012-52256",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=012-52214",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-15 15:42:10"
@@ -28758,12 +28771,12 @@
   {
     "cinema": "Cinesa Diagonal",
     "date": "2026-07-16",
-    "movie": "Obsession",
+    "movie": "Backrooms: Liquidación total (versión extendida)",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
     "time": "22:40",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=012-52214",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=012-52256",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-15 15:42:10"
@@ -29785,12 +29798,12 @@
   {
     "cinema": "Cinesa Manoteras",
     "date": "2026-07-17",
-    "movie": "Toy Story 5",
+    "movie": "Vaiana",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
     "time": "19:25",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-106854",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-106845",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-15 15:42:10"
@@ -29798,12 +29811,12 @@
   {
     "cinema": "Cinesa Manoteras",
     "date": "2026-07-17",
-    "movie": "Vaiana",
+    "movie": "Toy Story 5",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
     "time": "19:25",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-106845",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-106854",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-15 15:42:10"
@@ -31280,12 +31293,12 @@
   {
     "cinema": "Cinesa Manoteras",
     "date": "2026-07-18",
-    "movie": "Minions & Monsters",
+    "movie": "Obsession",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
     "time": "12:35",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-106997",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-106987",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-15 15:42:10"
@@ -31293,12 +31306,12 @@
   {
     "cinema": "Cinesa Manoteras",
     "date": "2026-07-18",
-    "movie": "Obsession",
+    "movie": "Minions & Monsters",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
     "time": "12:35",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-106987",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-106997",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-15 15:42:10"
@@ -32502,12 +32515,12 @@
   {
     "cinema": "Cinesa LUXE La Moraleja",
     "date": "2026-07-19",
-    "movie": "Vaiana",
+    "movie": "La Odisea",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
     "time": "12:20",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=025-43434",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=025-43425",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-15 15:42:10"
@@ -32515,12 +32528,12 @@
   {
     "cinema": "Cinesa LUXE La Moraleja",
     "date": "2026-07-19",
-    "movie": "La Odisea",
+    "movie": "Vaiana",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
     "time": "12:20",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=025-43425",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=025-43434",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-15 15:42:10"
@@ -32996,12 +33009,12 @@
   {
     "cinema": "Cinesa Manoteras",
     "date": "2026-07-19",
-    "movie": "Toy Story 5",
+    "movie": "Obsession",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
     "time": "12:35",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-107004",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-107009",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-15 15:42:10"
@@ -33009,12 +33022,12 @@
   {
     "cinema": "Cinesa Manoteras",
     "date": "2026-07-19",
-    "movie": "Obsession",
+    "movie": "Toy Story 5",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
     "time": "12:35",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-107009",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-107004",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-15 15:42:10"
@@ -33035,12 +33048,12 @@
   {
     "cinema": "Cinesa Manoteras",
     "date": "2026-07-19",
-    "movie": "Minions & Monsters",
+    "movie": "La Odisea",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
     "time": "15:45",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-106886",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-106882",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-15 15:42:10"
@@ -33048,12 +33061,12 @@
   {
     "cinema": "Cinesa Manoteras",
     "date": "2026-07-19",
-    "movie": "La Odisea",
+    "movie": "Minions & Monsters",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
     "time": "15:45",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-106882",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-106886",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-15 15:42:10"
@@ -33074,12 +33087,12 @@
   {
     "cinema": "Cinesa Manoteras",
     "date": "2026-07-19",
-    "movie": "Michael",
+    "movie": "Obsession",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
     "time": "16:00",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-106894",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-106890",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-15 15:42:10"
@@ -33087,12 +33100,12 @@
   {
     "cinema": "Cinesa Manoteras",
     "date": "2026-07-19",
-    "movie": "Obsession",
+    "movie": "Michael",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
     "time": "16:00",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-106890",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-106894",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-15 15:42:10"
