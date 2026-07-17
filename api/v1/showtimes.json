@@ -6285,34 +6285,8 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "original_language": "English",
-    "time": "13:00",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1360&showtimeVistaId=18213",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-07-13 21:22:42"
-  },
-  {
-    "cinema": "Cine Yelmo La Vaguada",
-    "date": "2026-07-17",
-    "movie": "La Odisea",
-    "format": "2D",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
     "time": "20:40",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1360&showtimeVistaId=18433",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-07-14 12:45:36"
-  },
-  {
-    "cinema": "Cine Yelmo La Vaguada",
-    "date": "2026-07-17",
-    "movie": "Posesión infernal: En llamas",
-    "format": "2D",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "12:40",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1360&showtimeVistaId=18429",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-14 12:45:36"
@@ -10024,6 +9998,19 @@
   },
   {
     "cinema": "Cine Yelmo Plaza Norte 2",
+    "date": "2026-08-11",
+    "movie": "Spider-Man: Brand New Day",
+    "format": "2D",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "18:50",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=813&showtimeVistaId=54112",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-17 15:25:43"
+  },
+  {
+    "cinema": "Cine Yelmo Plaza Norte 2",
     "date": "2026-09-19",
     "movie": "20 Años del MET en cines: Una celebración",
     "format": "CA",
@@ -12842,19 +12829,6 @@
     "projection_type": "Música y conciertos",
     "movie_title_language": "ES",
     "date_added": "2026-07-13 23:56:22"
-  },
-  {
-    "cinema": "Cine Yelmo Premium Sant Cugat",
-    "date": "2026-07-17",
-    "movie": "La Odisea",
-    "format": "PREMIUM",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "16:45",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=784&showtimeVistaId=22947",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-07-14 04:24:47"
   },
   {
     "cinema": "Cine Yelmo Premium Sant Cugat",
@@ -16555,19 +16529,6 @@
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
-    "time": "11:30",
-    "booking_url": "https://kinepolis.es/direct-vista-redirect/129772/0/KALCO/0",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-19 09:45:23"
-  },
-  {
-    "cinema": "Kinépolis Madrid Diversia",
-    "date": "2026-07-17",
-    "movie": "La Odisea",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
     "time": "15:00",
     "booking_url": "https://kinepolis.es/direct-vista-redirect/129773/0/KALCO/0",
     "projection_type": "Movie",
@@ -17236,6 +17197,32 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-16 10:11:34"
+  },
+  {
+    "cinema": "Kinépolis Madrid Diversia",
+    "date": "2026-07-18",
+    "movie": "Vaiana",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "12:00",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/131579/0/KALCO/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-17 15:25:43"
+  },
+  {
+    "cinema": "Kinépolis Madrid Diversia",
+    "date": "2026-07-19",
+    "movie": "Vaiana",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "12:00",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/131580/0/KALCO/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-17 15:25:43"
   },
   {
     "cinema": "Kinépolis Madrid Ciudad de la Imagen",
@@ -19147,19 +19134,6 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-14 23:57:17"
-  },
-  {
-    "cinema": "Kinépolis Madrid Ciudad de la Imagen",
-    "date": "2026-07-17",
-    "movie": "La Odisea",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "00:00",
-    "booking_url": "https://kinepolis.es/direct-vista-redirect/213549/0/KMAD/0",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-19 09:45:23"
   },
   {
     "cinema": "Ocine Serrallo",
@@ -26471,19 +26445,6 @@
     "cinema": "Cinesa Parquesur",
     "date": "2026-07-17",
     "movie": "La Odisea",
-    "format": "IMAX",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "14:40",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=005-62565",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-07-15 15:42:10"
-  },
-  {
-    "cinema": "Cinesa Parquesur",
-    "date": "2026-07-17",
-    "movie": "La Odisea",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
@@ -26723,19 +26684,6 @@
     "original_language": "English",
     "time": "21:15",
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=027-46266",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-07-15 15:42:10"
-  },
-  {
-    "cinema": "Cinesa Las Rozas",
-    "date": "2026-07-17",
-    "movie": "La Odisea",
-    "format": "IMAX",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "14:40",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=034-109997",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-15 15:42:10"

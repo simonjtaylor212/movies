@@ -397239,5 +397239,44 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-17 12:47:07"
+  },
+  {
+    "cinema": "Cine Yelmo Plaza Norte 2",
+    "date": "2026-08-11",
+    "movie": "Spider-Man: Brand New Day",
+    "format": "2D",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "18:50",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=813&showtimeVistaId=54112",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-17 15:25:43"
+  },
+  {
+    "cinema": "Kinépolis Madrid Diversia",
+    "date": "2026-07-18",
+    "movie": "Vaiana",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "12:00",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/131579/0/KALCO/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-17 15:25:43"
+  },
+  {
+    "cinema": "Kinépolis Madrid Diversia",
+    "date": "2026-07-19",
+    "movie": "Vaiana",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "12:00",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/131580/0/KALCO/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-17 15:25:43"
   }
 ]
