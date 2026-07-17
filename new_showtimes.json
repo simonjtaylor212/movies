@@ -398045,5 +398045,18 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-17 21:06:41"
+  },
+  {
+    "cinema": "Kinépolis Granada",
+    "date": "2026-07-22",
+    "movie": "Posesión infernal: En llamas",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "16:00",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/166724/0/KGRAN/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-17 23:53:48"
   }
 ]
