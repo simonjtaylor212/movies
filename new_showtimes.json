@@ -397174,5 +397174,70 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-17 10:08:46"
+  },
+  {
+    "cinema": "Cine Yelmo Palafox Luxury",
+    "date": "2026-07-19",
+    "movie": "Vaiana",
+    "format": "LUX",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "20:25",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=23440",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-17 12:47:07"
+  },
+  {
+    "cinema": "Cine Yelmo Planetocio",
+    "date": "2026-07-20",
+    "movie": "La Odisea",
+    "format": "2D",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "17:00",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=788&showtimeVistaId=30500",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-17 12:47:07"
+  },
+  {
+    "cinema": "Cine Yelmo Planetocio",
+    "date": "2026-07-21",
+    "movie": "La Odisea",
+    "format": "2D",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "17:00",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=788&showtimeVistaId=30533",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-17 12:47:07"
+  },
+  {
+    "cinema": "Cine Yelmo Planetocio",
+    "date": "2026-07-22",
+    "movie": "La Odisea",
+    "format": "2D",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "17:00",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=788&showtimeVistaId=30569",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-17 12:47:07"
+  },
+  {
+    "cinema": "Cine Yelmo Planetocio",
+    "date": "2026-07-23",
+    "movie": "La Odisea",
+    "format": "2D",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "17:00",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=788&showtimeVistaId=30552",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-17 12:47:07"
   }
 ]
