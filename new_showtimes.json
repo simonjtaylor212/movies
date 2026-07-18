@@ -398825,5 +398825,57 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-18 07:25:35"
+  },
+  {
+    "cinema": "Cines Renoir Floridablanca",
+    "date": "2026-07-21",
+    "movie": "La Odisea",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "19:20",
+    "booking_url": "https://www.pillalas.com/pase/1079619/",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-18 23:50:55"
+  },
+  {
+    "cinema": "Cines Renoir Floridablanca",
+    "date": "2026-07-21",
+    "movie": "Obsession",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "20:20",
+    "booking_url": "https://www.pillalas.com/pase/1079620/",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-18 23:50:55"
+  },
+  {
+    "cinema": "Cines Renoir Floridablanca",
+    "date": "2026-07-21",
+    "movie": "Obsession",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "22:30",
+    "booking_url": "https://www.pillalas.com/pase/1079621/",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-18 23:50:55"
+  },
+  {
+    "cinema": "Cines Renoir Floridablanca",
+    "date": "2026-07-23",
+    "movie": "La Odisea",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "19:20",
+    "booking_url": "https://www.pillalas.com/pase/1079622/",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-18 23:50:55"
   }
 ]
