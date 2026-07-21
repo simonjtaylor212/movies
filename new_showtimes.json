@@ -400398,5 +400398,18 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-21 04:34:28"
+  },
+  {
+    "cinema": "Kinépolis Granada",
+    "date": "2026-07-21",
+    "movie": "Vaiana",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "21:50",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/167461/0/KGRAN/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-21 10:26:47"
   }
 ]
