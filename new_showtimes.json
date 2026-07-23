@@ -439034,5 +439034,31 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-23 21:15:33"
+  },
+  {
+    "cinema": "Cine Yelmo Islazul",
+    "date": "2026-08-18",
+    "movie": "El final de Oak Street",
+    "format": "2D",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "20:30",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=804&showtimeVistaId=36751",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-24 00:04:03"
+  },
+  {
+    "cinema": "Cines Renoir Plaza de España",
+    "date": "2026-07-30",
+    "movie": "HOMBRES DE ACERO (WASTEMAN)",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "22:30",
+    "booking_url": "https://www.pillalas.com/pase/1080304/",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-24 00:04:03"
   }
 ]
