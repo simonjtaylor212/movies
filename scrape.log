@@ -1,4 +1,4 @@
-Starting Scraper - Local time is 2026-07-24 10:26:20 CEST
+Starting Scraper - Local time is 2026-07-24 13:03:56 CEST
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
   Fetching Yelmo madrid...
@@ -8,7 +8,7 @@ Scraping Cine Albéniz...
 Stopping Cine Albéniz scrape after 5 consecutive empty days.
 Cine Albéniz scraped: found 28 VOSE sessions.
 Scraping Kinépolis Granada & Nevada...
-Kinépolis Granada & Nevada: Scraped 242 VOSE sessions.
+Kinépolis Granada & Nevada: Scraped 253 VOSE sessions.
 Scraping Cines Renoir...
 Cines Renoir: Scraped 352 VOSE sessions.
 Scraping Cines Golem...
@@ -24,11 +24,12 @@ mk2 Cinesur scraped: found 135 VOSE sessions.
 original language not found for 7 movies in Cinesa chain
 original language not found for 6 movies in Cinesur chain
 original language not found for 3 movies in Golem chain
-Successfully generated api/v1/showtimes.json with 2934 listings.
-No new showings found.
+Updated movie_title_translations.json
+Successfully generated api/v1/showtimes.json with 2945 listings.
+Appended 11 new showings to new_showtimes.json
 
 Resolving missing movie title translations...
-Found 21 movies without original names.
+Found 22 movies without original names.
 No TMDB_API_KEY detected. Using keyless TMDB scraper and Wikidata fallbacks.
 
 Searching for: '20 Años del MET en cines - Grabado MET 26-27'
@@ -73,6 +74,9 @@ Searching for: 'LADRÓN DE BICICLETAS [WILDER CINEMA]'
 Searching for: 'LAWRENCE DE ARABIA [WILDER CINEMA]'
   -> Could not resolve original name for 'LAWRENCE DE ARABIA [WILDER CINEMA]'
 
+Searching for: 'La Patrulla Canina: La Dino Película'
+  -> Found via TMDB Web: 'PAW Patrol: The Dino Movie'
+
 Searching for: 'La casa del bosque 1'
   -> Could not resolve original name for 'La casa del bosque 1'
 
@@ -94,7 +98,7 @@ Searching for: 'VIAJE AL PAÍS DE LOS BLANCOS [PROYECTO VIRIDIANA]'
 Searching for: 'WHAT A FEELING [CINE CON ORGULLO RENOIR]'
   -> Could not resolve original name for 'WHAT A FEELING [CINE CON ORGULLO RENOIR]'
 
-No translations were updated.
+Successfully updated 1 translation(s) in movie_title_translations.json.
 
 === Cinesa Scraper Logs (Portugal VPN) ===
 Scraping Cinesa (Madrid & Barcelona)...
