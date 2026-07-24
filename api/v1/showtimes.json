@@ -1080,6 +1080,19 @@
   },
   {
     "cinema": "Cine Yelmo Vialia Málaga",
+    "date": "2026-08-18",
+    "movie": "El final de Oak Street",
+    "format": "2D",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "20:30",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=40042",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-24 04:34:43"
+  },
+  {
+    "cinema": "Cine Yelmo Vialia Málaga",
     "date": "2026-09-19",
     "movie": "20 Años del MET en cines: Una celebración",
     "format": "CA",
@@ -1805,6 +1818,19 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-16 04:30:30"
+  },
+  {
+    "cinema": "Cine Yelmo Plaza Mayor",
+    "date": "2026-08-18",
+    "movie": "El final de Oak Street",
+    "format": "2D",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "20:30",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=41480",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-24 04:34:43"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -6163,6 +6189,19 @@
   },
   {
     "cinema": "Cine Yelmo La Vaguada",
+    "date": "2026-08-18",
+    "movie": "El final de Oak Street",
+    "format": "2D",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "20:30",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1360&showtimeVistaId=18866",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-24 04:34:43"
+  },
+  {
+    "cinema": "Cine Yelmo La Vaguada",
     "date": "2026-09-19",
     "movie": "20 Años del MET en cines: Una celebración",
     "format": "CA",
@@ -8450,6 +8489,19 @@
     "date_added": "2026-07-15 18:22:23"
   },
   {
+    "cinema": "Cine Yelmo Premium Parque Corredor",
+    "date": "2026-08-18",
+    "movie": "El final de Oak Street",
+    "format": "PREMIUM",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "20:30",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1321&showtimeVistaId=25082",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-24 04:34:43"
+  },
+  {
     "cinema": "Cine Yelmo Plaza Norte 2",
     "date": "2026-07-24",
     "movie": "Nicky, la aprendiz de bruja",
@@ -8932,6 +8984,19 @@
   },
   {
     "cinema": "Cine Yelmo Plaza Norte 2",
+    "date": "2026-08-18",
+    "movie": "El final de Oak Street",
+    "format": "2D",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "20:30",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=813&showtimeVistaId=54407",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-24 04:34:43"
+  },
+  {
+    "cinema": "Cine Yelmo Plaza Norte 2",
     "date": "2026-09-19",
     "movie": "20 Años del MET en cines: Una celebración",
     "format": "CA",
@@ -9397,6 +9462,19 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-15 21:10:40"
+  },
+  {
+    "cinema": "Cine Yelmo Planetocio",
+    "date": "2026-08-18",
+    "movie": "El final de Oak Street",
+    "format": "2D",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "20:30",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=788&showtimeVistaId=30808",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-24 04:34:43"
   },
   {
     "cinema": "Cine Yelmo Planetocio",
@@ -10284,6 +10362,19 @@
   },
   {
     "cinema": "Cine Yelmo Rivas H2O",
+    "date": "2026-08-18",
+    "movie": "El final de Oak Street",
+    "format": "2D",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "20:30",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=802&showtimeVistaId=43712",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-24 04:34:43"
+  },
+  {
+    "cinema": "Cine Yelmo Rivas H2O",
     "date": "2026-08-26",
     "movie": "GHOST: 2 Big To Rig",
     "format": "CA",
@@ -10648,6 +10739,19 @@
   },
   {
     "cinema": "Cine Yelmo TresAguas",
+    "date": "2026-08-18",
+    "movie": "El final de Oak Street",
+    "format": "2D",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "20:30",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=795&showtimeVistaId=34608",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-24 04:34:43"
+  },
+  {
+    "cinema": "Cine Yelmo TresAguas",
     "date": "2026-09-19",
     "movie": "20 Años del MET en cines: Una celebración",
     "format": "CA",
@@ -10960,6 +11064,19 @@
   },
   {
     "cinema": "Cine Yelmo Premium Castelldefels",
+    "date": "2026-08-18",
+    "movie": "El final de Oak Street",
+    "format": "PREMIUM",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "20:30",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=814&showtimeVistaId=27533",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-24 04:34:43"
+  },
+  {
+    "cinema": "Cine Yelmo Premium Castelldefels",
     "date": "2026-09-19",
     "movie": "20 Años del MET en cines: Una celebración",
     "format": "CA PREMIUM",
@@ -11206,6 +11323,19 @@
     "date_added": "2026-07-15 18:22:23"
   },
   {
+    "cinema": "Cine Yelmo Abrera",
+    "date": "2026-08-18",
+    "movie": "El final de Oak Street",
+    "format": "2D",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "20:30",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=810&showtimeVistaId=22502",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-24 04:34:43"
+  },
+  {
     "cinema": "Cine Yelmo Baricentro",
     "date": "2026-07-24",
     "movie": "Nicky, la aprendiz de bruja",
@@ -11308,6 +11438,19 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-15 18:22:23"
+  },
+  {
+    "cinema": "Cine Yelmo Baricentro",
+    "date": "2026-08-18",
+    "movie": "El final de Oak Street",
+    "format": "2D",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "20:30",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=781&showtimeVistaId=24143",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-24 04:34:43"
   },
   {
     "cinema": "Cine Yelmo Westfield La Maquinista",
@@ -11818,6 +11961,19 @@
   },
   {
     "cinema": "Cine Yelmo Westfield La Maquinista",
+    "date": "2026-08-18",
+    "movie": "El final de Oak Street",
+    "format": "PREMIUM",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "20:30",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1350&showtimeVistaId=43295",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-24 04:34:43"
+  },
+  {
+    "cinema": "Cine Yelmo Westfield La Maquinista",
     "date": "2026-08-26",
     "movie": "GHOST: 2 Big To Rig",
     "format": "CA PREMIUM",
@@ -11947,6 +12103,19 @@
     "date_added": "2026-07-17 00:04:14"
   },
   {
+    "cinema": "Cine Yelmo Premium Sant Cugat",
+    "date": "2026-08-18",
+    "movie": "El final de Oak Street",
+    "format": "PREMIUM",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "20:30",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=784&showtimeVistaId=23271",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-24 04:34:43"
+  },
+  {
     "cinema": "Cine Albéniz",
     "date": "2026-07-24",
     "movie": "Los músicos",
@@ -12309,6 +12478,19 @@
     "projection_type": "Movie",
     "movie_title_language": "OR",
     "date_added": "2026-07-22 15:50:27"
+  },
+  {
+    "cinema": "mk2 Cinesur Miramar",
+    "date": "2026-07-24",
+    "movie": "Minions & Monsters",
+    "format": "2D",
+    "language": "Original con subtítulos (VOSE)",
+    "original_language": "English",
+    "time": "17:00",
+    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/141312/minions-monsters?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-23 04:37:24"
   },
   {
     "cinema": "mk2 Cinesur Miramar",
@@ -12365,25 +12547,25 @@
   {
     "cinema": "mk2 Cinesur Miramar",
     "date": "2026-07-24",
-    "movie": "Minions & Monsters",
-    "format": "2D",
-    "language": "Original con subtítulos (VOSE)",
-    "original_language": "English",
-    "time": "17:00",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/141312/minions-monsters?mode=widget&change=0&ref=750&forceproxy=1",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-07-23 04:37:24"
-  },
-  {
-    "cinema": "mk2 Cinesur Miramar",
-    "date": "2026-07-24",
     "movie": "Vaiana",
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "original_language": "English",
     "time": "16:15",
     "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/141296/vaiana?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-23 04:37:24"
+  },
+  {
+    "cinema": "mk2 Cinesur Miramar",
+    "date": "2026-07-25",
+    "movie": "Minions & Monsters",
+    "format": "2D",
+    "language": "Original con subtítulos (VOSE)",
+    "original_language": "English",
+    "time": "17:00",
+    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/141347/minions-monsters?mode=widget&change=0&ref=750&forceproxy=1",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-23 04:37:24"
@@ -12443,25 +12625,25 @@
   {
     "cinema": "mk2 Cinesur Miramar",
     "date": "2026-07-25",
-    "movie": "Minions & Monsters",
-    "format": "2D",
-    "language": "Original con subtítulos (VOSE)",
-    "original_language": "English",
-    "time": "17:00",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/141347/minions-monsters?mode=widget&change=0&ref=750&forceproxy=1",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-07-23 04:37:24"
-  },
-  {
-    "cinema": "mk2 Cinesur Miramar",
-    "date": "2026-07-25",
     "movie": "Vaiana",
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "original_language": "English",
     "time": "16:15",
     "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/141331/vaiana?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-23 04:37:24"
+  },
+  {
+    "cinema": "mk2 Cinesur Miramar",
+    "date": "2026-07-26",
+    "movie": "Minions & Monsters",
+    "format": "2D",
+    "language": "Original con subtítulos (VOSE)",
+    "original_language": "English",
+    "time": "17:00",
+    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/141386/minions-monsters?mode=widget&change=0&ref=750&forceproxy=1",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-23 04:37:24"
@@ -12521,25 +12703,25 @@
   {
     "cinema": "mk2 Cinesur Miramar",
     "date": "2026-07-26",
-    "movie": "Minions & Monsters",
-    "format": "2D",
-    "language": "Original con subtítulos (VOSE)",
-    "original_language": "English",
-    "time": "17:00",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/141386/minions-monsters?mode=widget&change=0&ref=750&forceproxy=1",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-07-23 04:37:24"
-  },
-  {
-    "cinema": "mk2 Cinesur Miramar",
-    "date": "2026-07-26",
     "movie": "Vaiana",
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "original_language": "English",
     "time": "16:15",
     "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/141370/vaiana?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-23 04:37:24"
+  },
+  {
+    "cinema": "mk2 Cinesur Miramar",
+    "date": "2026-07-27",
+    "movie": "Minions & Monsters",
+    "format": "2D",
+    "language": "Original con subtítulos (VOSE)",
+    "original_language": "English",
+    "time": "17:00",
+    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/141425/minions-monsters?mode=widget&change=0&ref=750&forceproxy=1",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-23 04:37:24"
@@ -12599,25 +12781,25 @@
   {
     "cinema": "mk2 Cinesur Miramar",
     "date": "2026-07-27",
-    "movie": "Minions & Monsters",
-    "format": "2D",
-    "language": "Original con subtítulos (VOSE)",
-    "original_language": "English",
-    "time": "17:00",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/141425/minions-monsters?mode=widget&change=0&ref=750&forceproxy=1",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-07-23 04:37:24"
-  },
-  {
-    "cinema": "mk2 Cinesur Miramar",
-    "date": "2026-07-27",
     "movie": "Vaiana",
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "original_language": "English",
     "time": "16:15",
     "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/141409/vaiana?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-23 04:37:24"
+  },
+  {
+    "cinema": "mk2 Cinesur Miramar",
+    "date": "2026-07-28",
+    "movie": "Minions & Monsters",
+    "format": "2D",
+    "language": "Original con subtítulos (VOSE)",
+    "original_language": "English",
+    "time": "17:00",
+    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/141464/minions-monsters?mode=widget&change=0&ref=750&forceproxy=1",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-23 04:37:24"
@@ -12670,19 +12852,6 @@
     "original_language": "English",
     "time": "22:00",
     "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/141450/la-odisea?mode=widget&change=0&ref=750&forceproxy=1",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-07-23 04:37:24"
-  },
-  {
-    "cinema": "mk2 Cinesur Miramar",
-    "date": "2026-07-28",
-    "movie": "Minions & Monsters",
-    "format": "2D",
-    "language": "Original con subtítulos (VOSE)",
-    "original_language": "English",
-    "time": "17:00",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/141464/minions-monsters?mode=widget&change=0&ref=750&forceproxy=1",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-23 04:37:24"
@@ -24858,12 +25027,12 @@
   {
     "cinema": "Cinesa Manoteras",
     "date": "2026-07-25",
-    "movie": "El Día de la Revelación",
+    "movie": "La muerte de Robin Hood",
     "format": "2D",
     "language": "V.O.S.E.",
-    "original_language": "English",
+    "original_language": "",
     "time": "12:40",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-107507",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-107505",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-22 07:49:57"
@@ -24871,12 +25040,12 @@
   {
     "cinema": "Cinesa Manoteras",
     "date": "2026-07-25",
-    "movie": "La muerte de Robin Hood",
+    "movie": "El Día de la Revelación",
     "format": "2D",
     "language": "V.O.S.E.",
-    "original_language": "",
+    "original_language": "English",
     "time": "12:40",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-107505",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-107507",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-22 07:49:57"
@@ -37167,6 +37336,19 @@
     "date_added": "2026-07-22 07:49:57"
   },
   {
+    "cinema": "Cinesa Proyecciones",
+    "date": "2026-08-14",
+    "movie": "El final de Oak Street",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "22:00",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=018-41323",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-24 04:34:43"
+  },
+  {
     "cinema": "Cinesa Méndez Álvaro",
     "date": "2026-08-14",
     "movie": "Nimrods: A Green Day Comedy",
@@ -37180,6 +37362,19 @@
     "date_added": "2026-07-22 07:49:57"
   },
   {
+    "cinema": "Cinesa Manoteras",
+    "date": "2026-08-14",
+    "movie": "El final de Oak Street",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "22:00",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-107234",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-24 04:34:43"
+  },
+  {
     "cinema": "Cinesa Nassica",
     "date": "2026-08-14",
     "movie": "Nimrods: A Green Day Comedy",
@@ -37191,6 +37386,19 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-22 07:49:57"
+  },
+  {
+    "cinema": "Cinesa Diagonal",
+    "date": "2026-08-14",
+    "movie": "El final de Oak Street",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "22:00",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=012-52521",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-24 04:34:43"
   },
   {
     "cinema": "Cinesa LUXE Parc Vallès",
@@ -37232,6 +37440,32 @@
     "date_added": "2026-07-22 07:49:57"
   },
   {
+    "cinema": "Cinesa Diagonal Mar",
+    "date": "2026-08-14",
+    "movie": "El final de Oak Street",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "22:00",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=032-55672",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-24 04:34:43"
+  },
+  {
+    "cinema": "Cinesa Proyecciones",
+    "date": "2026-08-15",
+    "movie": "El final de Oak Street",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "22:00",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=018-41326",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-24 04:34:43"
+  },
+  {
     "cinema": "Cinesa Méndez Álvaro",
     "date": "2026-08-15",
     "movie": "KATSEYE: WILD HEARTS",
@@ -37269,6 +37503,32 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-22 07:49:57"
+  },
+  {
+    "cinema": "Cinesa Manoteras",
+    "date": "2026-08-15",
+    "movie": "El final de Oak Street",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "22:00",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-107231",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-24 04:34:43"
+  },
+  {
+    "cinema": "Cinesa Diagonal",
+    "date": "2026-08-15",
+    "movie": "El final de Oak Street",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "22:00",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=012-52524",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-24 04:34:43"
   },
   {
     "cinema": "Cinesa SOM Multiespai",
@@ -37337,6 +37597,58 @@
   },
   {
     "cinema": "Cinesa Diagonal Mar",
+    "date": "2026-08-15",
+    "movie": "El final de Oak Street",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "22:00",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=032-55669",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-24 04:34:43"
+  },
+  {
+    "cinema": "Cinesa Proyecciones",
+    "date": "2026-08-16",
+    "movie": "El final de Oak Street",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "22:00",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=018-41329",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-24 04:34:43"
+  },
+  {
+    "cinema": "Cinesa Manoteras",
+    "date": "2026-08-16",
+    "movie": "El final de Oak Street",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "22:00",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-107228",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-24 04:34:43"
+  },
+  {
+    "cinema": "Cinesa Diagonal",
+    "date": "2026-08-16",
+    "movie": "El final de Oak Street",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "22:00",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=012-52527",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-24 04:34:43"
+  },
+  {
+    "cinema": "Cinesa Diagonal Mar",
     "date": "2026-08-16",
     "movie": "La Odisea",
     "format": "IMAX",
@@ -37360,6 +37672,19 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-22 07:49:57"
+  },
+  {
+    "cinema": "Cinesa Diagonal Mar",
+    "date": "2026-08-16",
+    "movie": "El final de Oak Street",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "22:00",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=032-55666",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-24 04:34:43"
   },
   {
     "cinema": "Cinesa Diagonal Mar",
