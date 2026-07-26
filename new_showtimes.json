@@ -442869,5 +442869,18 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-26 15:19:17"
+  },
+  {
+    "cinema": "Cinesa Manoteras",
+    "date": "2026-07-26",
+    "movie": "La Odisea",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "19:00",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-104681",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-26 18:01:00"
   }
 ]
