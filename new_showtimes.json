@@ -442830,5 +442830,31 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-25 21:06:19"
+  },
+  {
+    "cinema": "Cines Renoir Princesa",
+    "date": "2026-08-04",
+    "movie": "RASHOMON [WILDER CINEMA]",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "Japanese",
+    "time": "20:00",
+    "booking_url": "https://www.pillalas.com/pase/1080299/",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-26 04:40:23"
+  },
+  {
+    "cinema": "Cines Renoir Floridablanca",
+    "date": "2026-08-04",
+    "movie": "RASHOMON [WILDER CINEMA]",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "Japanese",
+    "time": "20:00",
+    "booking_url": "https://www.pillalas.com/pase/1080301/",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-26 04:40:23"
   }
 ]

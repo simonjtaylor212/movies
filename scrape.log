@@ -1,16 +1,16 @@
-Starting Scraper - Local time is 2026-07-25 23:55:34 CEST
+Starting Scraper - Local time is 2026-07-26 04:40:23 CEST
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
   Fetching Yelmo madrid...
   Fetching Yelmo barcelona...
-Yelmo scraped: found 808 VOSE sessions.
+Yelmo scraped: found 800 VOSE sessions.
 Scraping Cine Albéniz...
 Stopping Cine Albéniz scrape after 5 consecutive empty days.
-Cine Albéniz scraped: found 24 VOSE sessions.
+Cine Albéniz scraped: found 20 VOSE sessions.
 Scraping Kinépolis Granada & Nevada...
-Kinépolis Granada & Nevada: Scraped 235 VOSE sessions.
+Kinépolis Granada & Nevada: Scraped 225 VOSE sessions.
 Scraping Cines Renoir...
-Cines Renoir: Scraped 294 VOSE sessions.
+Cines Renoir: Scraped 228 VOSE sessions.
 Scraping Cines Golem...
 Cines Golem Madrid: Scraped 59 VOSE sessions.
 Loaded 1076 Cinesa showtimes from cache.
@@ -24,11 +24,12 @@ mk2 Cinesur scraped: found 111 VOSE sessions.
 original language not found for 8 movies in Cinesa chain
 original language not found for 6 movies in Cinesur chain
 original language not found for 3 movies in Golem chain
-Successfully generated api/v1/showtimes.json with 2609 listings.
-No new showings found.
+Updated movie_title_translations.json
+Successfully generated api/v1/showtimes.json with 2521 listings.
+Appended 2 new showings to new_showtimes.json
 
 Resolving missing movie title translations...
-Found 21 movies without original names.
+Found 22 movies without original names.
 No TMDB_API_KEY detected. Using keyless TMDB scraper and Wikidata fallbacks.
 
 Searching for: '20 Años del MET en cines - Grabado MET 26-27'
@@ -84,6 +85,9 @@ Searching for: 'MALAS CALLES [WILDER CINEMA]'
 
 Searching for: 'PARIS, TEXAS [WILDER CINEMA]'
   -> Could not resolve original name for 'PARIS, TEXAS [WILDER CINEMA]'
+
+Searching for: 'RASHOMON [WILDER CINEMA]'
+  -> Could not resolve original name for 'RASHOMON [WILDER CINEMA]'
 
 Searching for: 'Sia 2016 Coachella'
   -> Could not resolve original name for 'Sia 2016 Coachella'
