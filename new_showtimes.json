@@ -442856,5 +442856,18 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-26 04:40:23"
+  },
+  {
+    "cinema": "Cinesa Diagonal",
+    "date": "2026-07-26",
+    "movie": "Posesión infernal: En llamas",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "22:35",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=012-52620",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-26 15:19:17"
   }
 ]
