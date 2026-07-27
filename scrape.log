@@ -1,35 +1,35 @@
-Starting Scraper - Local time is 2026-07-27 18:57:16 CEST
+Starting Scraper - Local time is 2026-07-27 21:26:13 CEST
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
   Fetching Yelmo madrid...
   Fetching Yelmo barcelona...
-Yelmo scraped: found 690 VOSE sessions.
+Yelmo scraped: found 794 VOSE sessions.
 Scraping Cine Albéniz...
 Stopping Cine Albéniz scrape after 5 consecutive empty days.
 Cine Albéniz scraped: found 16 VOSE sessions.
 Scraping Kinépolis Granada & Nevada...
-Kinépolis Granada & Nevada: Scraped 204 VOSE sessions.
+Kinépolis Granada & Nevada: Scraped 198 VOSE sessions.
 Scraping Cines Renoir...
 Cines Renoir: Scraped 440 VOSE sessions.
 Scraping Cines Golem...
-Cines Golem Madrid: Scraped 40 VOSE sessions.
-Loaded 931 Cinesa showtimes from cache.
+Cines Golem Madrid: Scraped 37 VOSE sessions.
+Loaded 877 Cinesa showtimes from cache.
 Scraping Ocine Serrallo...
 Ocine Serrallo: Scraped 2 sessions.
 Scraping mk2 Cinesur...
-  mk2 Cinesur Miramar: found 41 sessions.
-  mk2 Cinesur El Ingenio: found 12 sessions.
-  mk2 Cinesur Málaga Nostrum: found 42 sessions.
-mk2 Cinesur scraped: found 95 VOSE sessions.
-original language not found for 7 movies in Cinesa chain
+  mk2 Cinesur Miramar: found 40 sessions.
+  mk2 Cinesur El Ingenio: found 11 sessions.
+  mk2 Cinesur Málaga Nostrum: found 40 sessions.
+mk2 Cinesur scraped: found 91 VOSE sessions.
+original language not found for 6 movies in Cinesa chain
 original language not found for 6 movies in Cinesur chain
 original language not found for 3 movies in Golem chain
 Updated movie_title_translations.json
-Successfully generated api/v1/showtimes.json with 2418 listings.
-Appended 316 new showings to new_showtimes.json
+Successfully generated api/v1/showtimes.json with 2455 listings.
+Appended 151 new showings to new_showtimes.json
 
 Resolving missing movie title translations...
-Found 26 movies without original names.
+Found 23 movies without original names.
 No TMDB_API_KEY detected. Using keyless TMDB scraper and Wikidata fallbacks.
 
 Searching for: '20 Años del MET en cines - Grabado MET 26-27'
@@ -59,7 +59,7 @@ Searching for: 'EL VIAJE DE CHIHIRO [WILDER CINEMA]'
 Searching for: 'ENCUENTROS EN LA TERCERA FASE [WILDER CINEMA]'
   -> Could not resolve original name for 'ENCUENTROS EN LA TERCERA FASE [WILDER CINEMA]'
 
-Searching for: 'Katy Perry: The Lifetimes tour'
+Searching for: 'Katy Perry: The Lifetimes Tour - Live From Paris'
   -> Found via TMDB Web: 'Katy Perry: The Lifetimes Tour - Live from Paris'
 
 Searching for: 'LA GRAN BELLEZA [WILDER CINEMA]'
@@ -70,9 +70,6 @@ Searching for: 'LA MUERTE DE ROBIN HOOD [WILDER CINEMA]'
 
 Searching for: 'LA PRINCESA PROMETIDA [WILDER CINEMA]'
   -> Could not resolve original name for 'LA PRINCESA PROMETIDA [WILDER CINEMA]'
-
-Searching for: 'LA ÚLTIMA RONDA EN VENECIA'
-  -> Found via TMDB Web: 'Le città di pianura'
 
 Searching for: 'LADRÓN DE BICICLETAS [WILDER CINEMA]'
   -> Could not resolve original name for 'LADRÓN DE BICICLETAS [WILDER CINEMA]'
@@ -86,14 +83,8 @@ Searching for: 'La casa del bosque 1'
 Searching for: 'La casa del bosque 2'
   -> Could not resolve original name for 'La casa del bosque 2'
 
-Searching for: 'MALA BESTIA'
-  -> Found via TMDB Web: 'Mala bèstia'
-
 Searching for: 'MALAS CALLES [WILDER CINEMA]'
   -> Could not resolve original name for 'MALAS CALLES [WILDER CINEMA]'
-
-Searching for: 'MOTHER MARY'
-  -> Found via TMDB Web: 'Mother Mary'
 
 Searching for: 'PARIS, TEXAS [WILDER CINEMA]'
   -> Could not resolve original name for 'PARIS, TEXAS [WILDER CINEMA]'
@@ -110,9 +101,9 @@ Searching for: 'VIAJE AL PAÍS DE LOS BLANCOS [PROYECTO VIRIDIANA]'
 Searching for: 'WHAT A FEELING [CINE CON ORGULLO RENOIR]'
   -> Could not resolve original name for 'WHAT A FEELING [CINE CON ORGULLO RENOIR]'
 
-Successfully updated 4 translation(s) in movie_title_translations.json.
+Successfully updated 1 translation(s) in movie_title_translations.json.
 
 === Cinesa Scraper Logs (Portugal VPN) ===
 Scraping Cinesa (Madrid & Barcelona)...
 Cinesa: Found 37 business dates with showtimes: ['2026-07-27', '2026-07-28', '2026-07-29', '2026-07-30', '2026-07-31', '2026-08-01', '2026-08-02', '2026-08-03', '2026-08-04', '2026-08-05', '2026-08-06', '2026-08-07', '2026-08-08', '2026-08-09', '2026-08-10', '2026-08-11', '2026-08-12', '2026-08-13', '2026-08-14', '2026-08-15', '2026-08-16', '2026-08-17', '2026-08-18', '2026-08-19', '2026-08-20', '2026-08-21', '2026-08-22', '2026-08-23', '2026-08-24', '2026-08-25', '2026-08-26', '2026-08-27', '2026-08-29', '2026-08-30', '2026-09-02', '2026-09-05', '2026-09-06']
-Cinesa (Madrid & Barcelona): Scraped 931 VOSE sessions.
+Cinesa (Madrid & Barcelona): Scraped 877 VOSE sessions.
