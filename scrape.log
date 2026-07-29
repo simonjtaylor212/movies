@@ -1,14 +1,14 @@
-Starting Scraper - Local time is 2026-07-29 13:26:09 CEST
+Starting Scraper - Local time is 2026-07-29 16:07:35 CEST
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
   Fetching Yelmo madrid...
   Fetching Yelmo barcelona...
-Yelmo scraped: found 919 VOSE sessions.
+Yelmo scraped: found 939 VOSE sessions.
 Scraping Cine Albéniz...
 Stopping Cine Albéniz scrape after 5 consecutive empty days.
 Cine Albéniz scraped: found 78 VOSE sessions.
 Scraping Kinépolis Granada & Nevada...
-Kinépolis Granada & Nevada: Scraped 237 VOSE sessions.
+Kinépolis Granada & Nevada: Scraped 235 VOSE sessions.
 Scraping Cines Renoir...
 Cines Renoir: Scraped 647 VOSE sessions.
 Scraping Cines Golem...
@@ -28,11 +28,12 @@ mk2 Cinesur scraped: found 145 VOSE sessions.
 original language not found for 7 movies in Cinesa chain
 original language not found for 6 movies in Cinesur chain
 original language not found for 3 movies in Golem chain
-Successfully generated api/v1/showtimes.json with 3166 listings.
-Appended 14 new showings to new_showtimes.json
+Updated movie_title_translations.json
+Successfully generated api/v1/showtimes.json with 3184 listings.
+Appended 57 new showings to new_showtimes.json
 
 Resolving missing movie title translations...
-Found 23 movies without original names.
+Found 24 movies without original names.
 No TMDB_API_KEY detected. Using keyless TMDB scraper and Wikidata fallbacks.
 
 Searching for: '20 Años del MET en cines - Grabado MET 26-27'
@@ -43,6 +44,9 @@ Searching for: 'AFTERSUN [WILDER CINEMA]'
 
 Searching for: 'AMERICAN PSYCHO [WILDER CINEMA]'
   -> Could not resolve original name for 'AMERICAN PSYCHO [WILDER CINEMA]'
+
+Searching for: 'Assassination Classroom: El tiempo que compartimos'
+  -> Could not resolve original name for 'Assassination Classroom: El tiempo que compartimos'
 
 Searching for: 'CALL ME BY YOUR NAME [WILDER CINEMA]'
   -> Could not resolve original name for 'CALL ME BY YOUR NAME [WILDER CINEMA]'
