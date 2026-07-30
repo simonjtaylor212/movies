@@ -11311,6 +11311,71 @@
   },
   {
     "cinema": "Cine Yelmo Baricentro",
+    "date": "2026-07-31",
+    "movie": "Spider-Man: Brand New Day",
+    "format": "2D",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "17:30",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=781&showtimeVistaId=24184",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-30 04:14:18"
+  },
+  {
+    "cinema": "Cine Yelmo Baricentro",
+    "date": "2026-08-01",
+    "movie": "Spider-Man: Brand New Day",
+    "format": "2D",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "17:30",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=781&showtimeVistaId=24197",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-30 04:14:18"
+  },
+  {
+    "cinema": "Cine Yelmo Baricentro",
+    "date": "2026-08-02",
+    "movie": "Spider-Man: Brand New Day",
+    "format": "2D",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "17:30",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=781&showtimeVistaId=24211",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-30 04:14:18"
+  },
+  {
+    "cinema": "Cine Yelmo Baricentro",
+    "date": "2026-08-03",
+    "movie": "Spider-Man: Brand New Day",
+    "format": "2D",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "17:30",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=781&showtimeVistaId=24226",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-30 04:14:18"
+  },
+  {
+    "cinema": "Cine Yelmo Baricentro",
+    "date": "2026-08-04",
+    "movie": "Spider-Man: Brand New Day",
+    "format": "2D",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "17:30",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=781&showtimeVistaId=24249",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-30 04:14:18"
+  },
+  {
+    "cinema": "Cine Yelmo Baricentro",
     "date": "2026-08-04",
     "movie": "Spider-Man: Brand New Day",
     "format": "2D",
@@ -11321,6 +11386,45 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-06-17 17:29:10"
+  },
+  {
+    "cinema": "Cine Yelmo Baricentro",
+    "date": "2026-08-04",
+    "movie": "La Odisea",
+    "format": "2D",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "20:45",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=781&showtimeVistaId=24244",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-30 04:14:18"
+  },
+  {
+    "cinema": "Cine Yelmo Baricentro",
+    "date": "2026-08-05",
+    "movie": "Spider-Man: Brand New Day",
+    "format": "2D",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "17:30",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=781&showtimeVistaId=24263",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-30 04:14:18"
+  },
+  {
+    "cinema": "Cine Yelmo Baricentro",
+    "date": "2026-08-06",
+    "movie": "Spider-Man: Brand New Day",
+    "format": "2D",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "17:30",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=781&showtimeVistaId=24275",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-30 04:14:18"
   },
   {
     "cinema": "Cine Yelmo Baricentro",
@@ -16017,19 +16121,6 @@
   },
   {
     "cinema": "Kinépolis Madrid Ciudad de la Imagen",
-    "date": "2026-09-03",
-    "movie": "Carmen",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "Italian",
-    "time": "19:30",
-    "booking_url": "https://kinepolis.es/direct-vista-redirect/214170/0/KMAD/0",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-19 09:45:23"
-  },
-  {
-    "cinema": "Kinépolis Madrid Ciudad de la Imagen",
     "date": "2026-09-17",
     "movie": "Nabucco",
     "format": "2D",
@@ -17602,6 +17693,19 @@
     "date_added": "2026-07-30 00:01:12"
   },
   {
+    "cinema": "Kinépolis Madrid Ciudad de la Imagen",
+    "date": "2026-07-30",
+    "movie": "Spider-Man: Brand New Day",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "18:30",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/217421/0/KMAD/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-30 04:14:18"
+  },
+  {
     "cinema": "Kinépolis Granada Nevada",
     "date": "2026-08-01",
     "movie": "Spider-Man: Brand New Day",
@@ -17808,6 +17912,19 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-29 18:21:34"
+  },
+  {
+    "cinema": "Kinépolis Madrid Ciudad de la Imagen",
+    "date": "2026-09-03",
+    "movie": "Carmen",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "Italian",
+    "time": "19:30",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/214170/0/KMAD/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-06-19 09:45:23"
   },
   {
     "cinema": "Ocine Serrallo",
