@@ -468752,5 +468752,18 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-30 13:07:31"
+  },
+  {
+    "cinema": "Cine Yelmo Premium Castelldefels",
+    "date": "2026-08-01",
+    "movie": "Spider-Man: Brand New Day",
+    "format": "PREMIUM",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "18:45",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=814&showtimeVistaId=27611",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-30 15:57:46"
   }
 ]
