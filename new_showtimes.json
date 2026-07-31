@@ -470741,5 +470741,31 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-31 18:45:37"
+  },
+  {
+    "cinema": "Kinépolis Granada Nevada",
+    "date": "2026-08-29",
+    "movie": "Harry Potter y la piedra filosofal",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "12:40",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/100229/0/KNEVA/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-31 21:23:21"
+  },
+  {
+    "cinema": "Kinépolis Granada Nevada",
+    "date": "2026-08-30",
+    "movie": "Harry Potter y la piedra filosofal",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "12:40",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/100230/0/KNEVA/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-31 21:23:21"
   }
 ]
