@@ -1,19 +1,6 @@
 [
   {
     "cinema": "Cine Yelmo Rincón de la Victoria",
-    "date": "2026-08-01",
-    "movie": "Spider-Man: Brand New Day",
-    "format": "2D",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "20:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=791&showtimeVistaId=24532",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-07-29 00:04:48"
-  },
-  {
-    "cinema": "Cine Yelmo Rincón de la Victoria",
     "date": "2026-08-02",
     "movie": "Spider-Man: Brand New Day",
     "format": "2D",
@@ -375,32 +362,6 @@
     "projection_type": "Ópera",
     "movie_title_language": "ES",
     "date_added": "2026-06-23 11:33:48"
-  },
-  {
-    "cinema": "Cine Yelmo Vialia Málaga",
-    "date": "2026-08-01",
-    "movie": "Spider-Man: Brand New Day",
-    "format": "2D",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "21:45",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=40227",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-07-28 13:16:49"
-  },
-  {
-    "cinema": "Cine Yelmo Vialia Málaga",
-    "date": "2026-08-01",
-    "movie": "La Odisea",
-    "format": "2D",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "20:15",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=40231",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-07-28 13:16:49"
   },
   {
     "cinema": "Cine Yelmo Vialia Málaga",
@@ -1132,32 +1093,6 @@
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
-    "date": "2026-08-01",
-    "movie": "Spider-Man: Brand New Day",
-    "format": "2D",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "20:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=39625",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-23 11:33:48"
-  },
-  {
-    "cinema": "Cine Yelmo Plaza Mayor",
-    "date": "2026-08-01",
-    "movie": "Spider-Man: Brand New Day",
-    "format": "2D",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "21:45",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=41542",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-07-28 00:06:08"
-  },
-  {
-    "cinema": "Cine Yelmo Plaza Mayor",
     "date": "2026-08-02",
     "movie": "Spider-Man: Brand New Day",
     "format": "2D",
@@ -1757,32 +1692,6 @@
   {
     "cinema": "Cine Yelmo Ideal",
     "date": "2026-08-01",
-    "movie": "LA ÚLTIMA RONDA EN VENECIA",
-    "format": "2D",
-    "language": "ITALIANO SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "Italian",
-    "time": "19:55",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=33998",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-07-29 16:07:35"
-  },
-  {
-    "cinema": "Cine Yelmo Ideal",
-    "date": "2026-08-01",
-    "movie": "MOTHER MARY",
-    "format": "2D",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "20:35",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=33995",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-07-29 16:07:35"
-  },
-  {
-    "cinema": "Cine Yelmo Ideal",
-    "date": "2026-08-01",
     "movie": "MOTHER MARY",
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
@@ -1792,32 +1701,6 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-29 16:07:35"
-  },
-  {
-    "cinema": "Cine Yelmo Ideal",
-    "date": "2026-08-01",
-    "movie": "Spider-Man: Brand New Day",
-    "format": "2D",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "20:00",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=31925",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-27 18:05:07"
-  },
-  {
-    "cinema": "Cine Yelmo Ideal",
-    "date": "2026-08-01",
-    "movie": "Spider-Man: Brand New Day",
-    "format": "2D",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "21:00",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=31922",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-27 18:05:07"
   },
   {
     "cinema": "Cine Yelmo Ideal",
@@ -1844,45 +1727,6 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
-  },
-  {
-    "cinema": "Cine Yelmo Ideal",
-    "date": "2026-08-01",
-    "movie": "La Odisea",
-    "format": "2D",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "20:25",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=33996",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-07-31 18:45:37"
-  },
-  {
-    "cinema": "Cine Yelmo Ideal",
-    "date": "2026-08-01",
-    "movie": "La Odisea",
-    "format": "2D",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "21:25",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=33994",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-07-31 18:45:37"
-  },
-  {
-    "cinema": "Cine Yelmo Ideal",
-    "date": "2026-08-01",
-    "movie": "Posesión infernal: En llamas",
-    "format": "2D",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "21:10",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=33997",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-07-29 16:07:35"
   },
   {
     "cinema": "Cine Yelmo Ideal",
@@ -5162,84 +5006,6 @@
   },
   {
     "cinema": "Cine Yelmo La Vaguada",
-    "date": "2026-08-01",
-    "movie": "Spider-Man: Brand New Day",
-    "format": "2D",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "20:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1360&showtimeVistaId=18898",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-07-28 16:04:48"
-  },
-  {
-    "cinema": "Cine Yelmo La Vaguada",
-    "date": "2026-08-01",
-    "movie": "Spider-Man: Brand New Day",
-    "format": "2D",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "22:45",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1360&showtimeVistaId=19112",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-07-30 18:26:30"
-  },
-  {
-    "cinema": "Cine Yelmo La Vaguada",
-    "date": "2026-08-02",
-    "movie": "Spider-Man: Brand New Day",
-    "format": "2D",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "12:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1360&showtimeVistaId=18947",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-07-28 16:04:48"
-  },
-  {
-    "cinema": "Cine Yelmo La Vaguada",
-    "date": "2026-08-02",
-    "movie": "Spider-Man: Brand New Day",
-    "format": "2D",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "20:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1360&showtimeVistaId=18948",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-07-28 16:04:48"
-  },
-  {
-    "cinema": "Cine Yelmo La Vaguada",
-    "date": "2026-08-02",
-    "movie": "Nicky, la aprendiz de bruja",
-    "format": "2D",
-    "language": "JAPONÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "Japanese",
-    "time": "14:50",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1360&showtimeVistaId=18930",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-07-28 16:04:48"
-  },
-  {
-    "cinema": "Cine Yelmo La Vaguada",
-    "date": "2026-08-02",
-    "movie": "La Odisea",
-    "format": "2D",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "12:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1360&showtimeVistaId=18937",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-07-28 16:04:48"
-  },
-  {
-    "cinema": "Cine Yelmo La Vaguada",
     "date": "2026-08-03",
     "movie": "Spider-Man: Brand New Day",
     "format": "2D",
@@ -5617,19 +5383,6 @@
   },
   {
     "cinema": "Cine Yelmo Islazul",
-    "date": "2026-08-01",
-    "movie": "Spider-Man: Brand New Day",
-    "format": "2D",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "21:15",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=804&showtimeVistaId=35189",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-27 18:05:07"
-  },
-  {
-    "cinema": "Cine Yelmo Islazul",
     "date": "2026-08-02",
     "movie": "Spider-Man: Brand New Day",
     "format": "2D",
@@ -5999,60 +5752,8 @@
     "format": "LUX",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "original_language": "English",
-    "time": "20:50",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=23683",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-07-27 21:26:13"
-  },
-  {
-    "cinema": "Cine Yelmo Palafox Luxury",
-    "date": "2026-08-01",
-    "movie": "Spider-Man: Brand New Day",
-    "format": "LUX",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "22:05",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=22691",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-27 18:05:07"
-  },
-  {
-    "cinema": "Cine Yelmo Palafox Luxury",
-    "date": "2026-08-01",
-    "movie": "Spider-Man: Brand New Day",
-    "format": "LUX",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
     "time": "23:00",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=23679",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-07-27 21:26:13"
-  },
-  {
-    "cinema": "Cine Yelmo Palafox Luxury",
-    "date": "2026-08-01",
-    "movie": "La Odisea",
-    "format": "LUX",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "22:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=23680",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-07-27 21:26:13"
-  },
-  {
-    "cinema": "Cine Yelmo Palafox Luxury",
-    "date": "2026-08-01",
-    "movie": "Obsession",
-    "format": "LUX",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "20:00",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=23670",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-27 21:26:13"
@@ -7151,19 +6852,6 @@
   },
   {
     "cinema": "Cine Yelmo Premium Parque Corredor",
-    "date": "2026-08-01",
-    "movie": "Spider-Man: Brand New Day",
-    "format": "PREMIUM",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "20:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1321&showtimeVistaId=25155",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-07-28 21:22:24"
-  },
-  {
-    "cinema": "Cine Yelmo Premium Parque Corredor",
     "date": "2026-08-02",
     "movie": "Spider-Man: Brand New Day",
     "format": "PREMIUM",
@@ -7304,19 +6992,6 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-24 04:34:43"
-  },
-  {
-    "cinema": "Cine Yelmo Plaza Norte 2",
-    "date": "2026-08-01",
-    "movie": "Spider-Man: Brand New Day",
-    "format": "2D",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "20:45",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=813&showtimeVistaId=54593",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-07-28 18:41:20"
   },
   {
     "cinema": "Cine Yelmo Plaza Norte 2",
@@ -7691,19 +7366,6 @@
     "original_language": "English",
     "time": "22:05",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=788&showtimeVistaId=30893",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-07-29 00:04:48"
-  },
-  {
-    "cinema": "Cine Yelmo Planetocio",
-    "date": "2026-08-01",
-    "movie": "La Odisea",
-    "format": "2D",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "21:10",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=788&showtimeVistaId=30897",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-29 00:04:48"
@@ -8318,32 +7980,6 @@
     "projection_type": "Música y conciertos",
     "movie_title_language": "ES",
     "date_added": "2026-07-21 21:20:33"
-  },
-  {
-    "cinema": "Cine Yelmo Rivas H2O",
-    "date": "2026-08-01",
-    "movie": "Spider-Man: Brand New Day",
-    "format": "2D",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "21:45",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=802&showtimeVistaId=43854",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-07-28 21:22:24"
-  },
-  {
-    "cinema": "Cine Yelmo Rivas H2O",
-    "date": "2026-08-01",
-    "movie": "La Odisea",
-    "format": "2D",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "21:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=802&showtimeVistaId=43856",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-07-28 21:22:24"
   },
   {
     "cinema": "Cine Yelmo Rivas H2O",
@@ -9176,19 +8812,6 @@
     "projection_type": "Ópera",
     "movie_title_language": "ES",
     "date_added": "2026-06-22 18:55:55"
-  },
-  {
-    "cinema": "Cine Yelmo Abrera",
-    "date": "2026-08-01",
-    "movie": "Spider-Man: Brand New Day",
-    "format": "2D",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "21:15",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=810&showtimeVistaId=22591",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-07-28 21:22:24"
   },
   {
     "cinema": "Cine Yelmo Abrera",
@@ -10635,19 +10258,6 @@
   },
   {
     "cinema": "mk2 Cinesur Miramar",
-    "date": "2026-08-01",
-    "movie": "Spider-Man: Brand New Day",
-    "format": "2D",
-    "language": "Original con subtítulos (VOSE)",
-    "original_language": "English",
-    "time": "22:20",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/140181/spider-man-brand-new-day?mode=widget&change=0&ref=750&forceproxy=1",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-17 17:29:10"
-  },
-  {
-    "cinema": "mk2 Cinesur Miramar",
     "date": "2026-08-02",
     "movie": "Spider-Man: Brand New Day",
     "format": "2D",
@@ -11285,19 +10895,6 @@
   },
   {
     "cinema": "mk2 Cinesur El Ingenio",
-    "date": "2026-08-01",
-    "movie": "Spider-Man: Brand New Day",
-    "format": "2D",
-    "language": "Original con subtítulos (VOSE)",
-    "original_language": "English",
-    "time": "22:20",
-    "booking_url": "https://cine.entradas.com/cine/velez-malaga/cinesur-el-ingenio/evento/123104/spider-man-brand-new-day?mode=widget&change=0&ref=750&forceproxy=1",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-07-28 16:04:48"
-  },
-  {
-    "cinema": "mk2 Cinesur El Ingenio",
     "date": "2026-08-02",
     "movie": "Spider-Man: Brand New Day",
     "format": "2D",
@@ -11555,32 +11152,6 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-08-01 04:49:38"
-  },
-  {
-    "cinema": "mk2 Cinesur Málaga Nostrum",
-    "date": "2026-08-01",
-    "movie": "Spider-Man: Brand New Day",
-    "format": "2D",
-    "language": "Original con subtítulos (VOSE)",
-    "original_language": "English",
-    "time": "22:20",
-    "booking_url": "https://cine.entradas.com/cine/malaga/cinesur-malaga-nostrum/evento/126287/spider-man-brand-new-day?mode=widget&change=0&ref=750&forceproxy=1",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-17 17:29:10"
-  },
-  {
-    "cinema": "mk2 Cinesur Málaga Nostrum",
-    "date": "2026-08-01",
-    "movie": "La Odisea",
-    "format": "2D",
-    "language": "Original con subtítulos (VOSE)",
-    "original_language": "English",
-    "time": "22:20",
-    "booking_url": "https://cine.entradas.com/cine/malaga/cinesur-malaga-nostrum/evento/127653/la-odisea?mode=widget&change=0&ref=750&forceproxy=1",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-07-28 13:16:49"
   },
   {
     "cinema": "mk2 Cinesur Málaga Nostrum",
@@ -12140,19 +11711,6 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-29 18:21:34"
-  },
-  {
-    "cinema": "Kinépolis Granada",
-    "date": "2026-08-01",
-    "movie": "Spider-Man: Brand New Day",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "18:45",
-    "booking_url": "https://kinepolis.es/direct-vista-redirect/164789/0/KGRAN/0",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-19 09:45:23"
   },
   {
     "cinema": "Kinépolis Granada",
@@ -13027,19 +12585,6 @@
   },
   {
     "cinema": "Kinépolis Madrid Diversia",
-    "date": "2026-08-01",
-    "movie": "Spider-Man: Brand New Day",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "18:00",
-    "booking_url": "https://kinepolis.es/direct-vista-redirect/130265/0/KALCO/0",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-19 09:45:23"
-  },
-  {
-    "cinema": "Kinépolis Madrid Diversia",
     "date": "2026-08-02",
     "movie": "Spider-Man: Brand New Day",
     "format": "2D",
@@ -13089,19 +12634,6 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-25 15:23:18"
-  },
-  {
-    "cinema": "Kinépolis Madrid Diversia",
-    "date": "2026-08-01",
-    "movie": "La Odisea",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "18:00",
-    "booking_url": "https://kinepolis.es/direct-vista-redirect/131907/0/KALCO/0",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-07-29 13:26:09"
   },
   {
     "cinema": "Kinépolis Madrid Diversia",
@@ -13500,19 +13032,6 @@
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
-    "time": "19:10",
-    "booking_url": "https://kinepolis.es/direct-vista-redirect/214070/0/KMAD/0",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-06-19 09:45:23"
-  },
-  {
-    "cinema": "Kinépolis Madrid Ciudad de la Imagen",
-    "date": "2026-08-01",
-    "movie": "Spider-Man: Brand New Day",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
     "time": "22:20",
     "booking_url": "https://kinepolis.es/direct-vista-redirect/214071/0/KMAD/0",
     "projection_type": "Movie",
@@ -13788,19 +13307,6 @@
     "original_language": "English",
     "time": "22:10",
     "booking_url": "https://kinepolis.es/direct-vista-redirect/215947/0/KMAD/0",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-07-19 04:36:06"
-  },
-  {
-    "cinema": "Kinépolis Madrid Ciudad de la Imagen",
-    "date": "2026-08-01",
-    "movie": "La Odisea",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "18:30",
-    "booking_url": "https://kinepolis.es/direct-vista-redirect/215948/0/KMAD/0",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-19 04:36:06"
@@ -21227,32 +20733,6 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-28 00:06:08"
-  },
-  {
-    "cinema": "Cines Golem Madrid",
-    "date": "2026-08-01",
-    "movie": "LA ÚLTIMA RONDA EN VENECIA",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "Italian",
-    "time": "21:30",
-    "booking_url": "https://www.golem.es/golem/urlcheck.php?idCine=8&perfCode=99019&eventCode=111855",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-07-30 13:07:31"
-  },
-  {
-    "cinema": "Cines Golem Madrid",
-    "date": "2026-08-01",
-    "movie": "Omaha",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "22:15",
-    "booking_url": "https://www.golem.es/golem/urlcheck.php?idCine=8&perfCode=99028&eventCode=105377",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-07-30 13:07:31"
   },
   {
     "cinema": "Cines Golem Madrid",
