@@ -471092,5 +471092,18 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-08-01 21:06:35"
+  },
+  {
+    "cinema": "Kinépolis Madrid Ciudad de la Imagen",
+    "date": "2026-08-02",
+    "movie": "La Odisea",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "21:40",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/217489/0/KMAD/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-08-02 04:39:30"
   }
 ]
