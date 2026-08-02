@@ -471157,5 +471157,31 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-08-02 12:41:06"
+  },
+  {
+    "cinema": "Cine Yelmo Ideal",
+    "date": "2026-08-02",
+    "movie": "La Odisea",
+    "format": "2D",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "15:15",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=34024",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-08-02 15:18:16"
+  },
+  {
+    "cinema": "Cine Yelmo Ideal",
+    "date": "2026-08-02",
+    "movie": "La Odisea",
+    "format": "2D",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "18:40",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=34029",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-08-02 15:18:16"
   }
 ]
