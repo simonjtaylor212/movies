@@ -471456,5 +471456,31 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-08-02 18:00:43"
+  },
+  {
+    "cinema": "Cine Yelmo Plaza Norte 2",
+    "date": "2026-08-06",
+    "movie": "Spider-Man: Brand New Day",
+    "format": "2D",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "20:40",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=813&showtimeVistaId=54711",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-08-02 21:08:48"
+  },
+  {
+    "cinema": "Cine Yelmo Baricentro",
+    "date": "2026-08-04",
+    "movie": "Spider-Man: Brand New Day",
+    "format": "2D",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "19:00",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=781&showtimeVistaId=23073",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-08-02 21:08:48"
   }
 ]
