@@ -471105,5 +471105,57 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-08-02 04:39:30"
+  },
+  {
+    "cinema": "Cine Yelmo La Vaguada",
+    "date": "2026-08-02",
+    "movie": "Spider-Man: Brand New Day",
+    "format": "2D",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "12:30",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1360&showtimeVistaId=18947",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-08-02 12:41:06"
+  },
+  {
+    "cinema": "Cine Yelmo La Vaguada",
+    "date": "2026-08-02",
+    "movie": "Spider-Man: Brand New Day",
+    "format": "2D",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "20:30",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1360&showtimeVistaId=18948",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-08-02 12:41:06"
+  },
+  {
+    "cinema": "Cine Yelmo La Vaguada",
+    "date": "2026-08-02",
+    "movie": "Nicky, la aprendiz de bruja",
+    "format": "2D",
+    "language": "JAPONÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "Japanese",
+    "time": "14:50",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1360&showtimeVistaId=18930",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-08-02 12:41:06"
+  },
+  {
+    "cinema": "Cine Yelmo La Vaguada",
+    "date": "2026-08-02",
+    "movie": "La Odisea",
+    "format": "2D",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "12:30",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1360&showtimeVistaId=18937",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-08-02 12:41:06"
   }
 ]
