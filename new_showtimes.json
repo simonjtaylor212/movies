@@ -471482,5 +471482,18 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-08-02 21:08:48"
+  },
+  {
+    "cinema": "Cine Yelmo Ideal",
+    "date": "2026-08-04",
+    "movie": "Aída - ÓPERA MET ENCORES 2026",
+    "format": "CA",
+    "language": "ITALIANO SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "Italian",
+    "time": "19:05",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=31403",
+    "projection_type": "Ópera",
+    "movie_title_language": "ES",
+    "date_added": "2026-08-03 04:40:57"
   }
 ]
