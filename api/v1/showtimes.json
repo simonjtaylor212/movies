@@ -5228,19 +5228,6 @@
   {
     "cinema": "Cine Yelmo Islazul",
     "date": "2026-08-09",
-    "movie": "La Patrulla Canina: La Dino Película",
-    "format": "2D",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "12:25",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=804&showtimeVistaId=37177",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-08-04 18:51:14"
-  },
-  {
-    "cinema": "Cine Yelmo Islazul",
-    "date": "2026-08-09",
     "movie": "Assassination Classroom: El tiempo que compartimos",
     "format": "2D",
     "language": "JAPONÉS SUBTITULADO EN ESPAÑOL (VOSE)",
@@ -9953,19 +9940,6 @@
     "original_language": "English",
     "time": "20:00",
     "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/141716/la-odisea?mode=widget&change=0&ref=750&forceproxy=1",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-07-28 18:41:20"
-  },
-  {
-    "cinema": "mk2 Cinesur Miramar",
-    "date": "2026-08-05",
-    "movie": "Minions & Monsters",
-    "format": "2D",
-    "language": "Original con subtítulos (VOSE)",
-    "original_language": "English",
-    "time": "16:00",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/141718/minions-monsters?mode=widget&change=0&ref=750&forceproxy=1",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-28 18:41:20"
@@ -14815,32 +14789,6 @@
     "original_language": "English",
     "time": "21:40",
     "booking_url": "https://kinepolis.es/direct-vista-redirect/100129/0/KNEVA/0",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-07-29 18:21:34"
-  },
-  {
-    "cinema": "Kinépolis Granada Nevada",
-    "date": "2026-08-05",
-    "movie": "La Odisea",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "12:20",
-    "booking_url": "https://kinepolis.es/direct-vista-redirect/100130/0/KNEVA/0",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-07-29 18:21:34"
-  },
-  {
-    "cinema": "Kinépolis Granada Nevada",
-    "date": "2026-08-05",
-    "movie": "Spider-Man: Brand New Day",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "12:40",
-    "booking_url": "https://kinepolis.es/direct-vista-redirect/100139/0/KNEVA/0",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-29 18:21:34"
