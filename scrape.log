@@ -1,4 +1,4 @@
-Starting Scraper - Local time is 2026-08-06 00:12:38 CEST
+Starting Scraper - Local time is 2026-08-06 04:27:46 CEST
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
   Fetching Yelmo madrid...
@@ -14,10 +14,10 @@ Cines Renoir: Scraped 606 VOSE sessions.
 Scraping Cines Golem...
 Cines Golem Madrid: Scraped 100 VOSE sessions.
 Scraping Cinesa (Madrid & Barcelona)...
-Error: Cinesa home returned status 403
-Error: Could not retrieve Cinesa authentication token.
+Cinesa: Found 29 business dates with showtimes: ['2026-08-06', '2026-08-07', '2026-08-08', '2026-08-09', '2026-08-10', '2026-08-11', '2026-08-12', '2026-08-13', '2026-08-14', '2026-08-15', '2026-08-16', '2026-08-17', '2026-08-18', '2026-08-19', '2026-08-20', '2026-08-21', '2026-08-22', '2026-08-23', '2026-08-24', '2026-08-25', '2026-08-26', '2026-08-27', '2026-08-28', '2026-08-29', '2026-08-30', '2026-09-02', '2026-09-04', '2026-09-05', '2026-09-06']
+Error in cinesa scraper: 'NoneType' object has no attribute 'get'
 Warning: cinesa scraper returned 0 showings. Using fallback data.
-Recovered 422 cinesa showings from previous run.
+Recovered 335 cinesa showings from previous run.
 Scraping Ocine Serrallo...
 Ocine Serrallo: Scraped 2 sessions.
 Scraping mk2 Cinesur...
@@ -25,12 +25,12 @@ Scraping mk2 Cinesur...
   mk2 Cinesur El Ingenio: found 16 sessions.
   mk2 Cinesur Málaga Nostrum: found 43 sessions.
 mk2 Cinesur scraped: found 110 VOSE sessions.
-original language not found for 5 movies in Cinesa chain
+original language not found for 4 movies in Cinesa chain
 original language not found for 18 movies in Cinesur chain
 original language not found for 2 movies in Golem chain
 original language not found for 1 movies in Kinépolis chain
 Successfully generated api/v1/showtimes.json with 2307 listings.
-Appended 98 new showings to new_showtimes.json
+Appended 1 new showings to new_showtimes.json
 
 Resolving missing movie title translations...
 Found 27 movies without original names.

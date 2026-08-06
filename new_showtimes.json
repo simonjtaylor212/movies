@@ -491151,5 +491151,18 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-08-06 00:12:38"
+  },
+  {
+    "cinema": "Cine Yelmo Rincón de la Victoria",
+    "date": "2026-08-10",
+    "movie": "La Odisea",
+    "format": "2D",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "21:15",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=791&showtimeVistaId=24813",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-08-06 04:27:46"
   }
 ]
