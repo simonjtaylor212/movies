@@ -491879,5 +491879,83 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-08-07 14:59:59"
+  },
+  {
+    "cinema": "Cine Yelmo Ideal",
+    "date": "2026-08-12",
+    "movie": "KATSEYE: WILD HEARTS",
+    "format": "2D",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "18:00",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=34357",
+    "projection_type": "Música y conciertos",
+    "movie_title_language": "ES",
+    "date_added": "2026-08-07 17:55:10"
+  },
+  {
+    "cinema": "Cine Yelmo Ideal",
+    "date": "2026-08-15",
+    "movie": "KATSEYE: WILD HEARTS",
+    "format": "2D",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "18:00",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=34358",
+    "projection_type": "Música y conciertos",
+    "movie_title_language": "ES",
+    "date_added": "2026-08-07 17:55:10"
+  },
+  {
+    "cinema": "Cine Yelmo Abrera",
+    "date": "2026-08-08",
+    "movie": "Spider-Man: Brand New Day",
+    "format": "2D",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "21:45",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=810&showtimeVistaId=22804",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-08-07 17:55:10"
+  },
+  {
+    "cinema": "Cine Yelmo Abrera",
+    "date": "2026-08-09",
+    "movie": "Spider-Man: Brand New Day",
+    "format": "2D",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "21:45",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=810&showtimeVistaId=22809",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-08-07 17:55:10"
+  },
+  {
+    "cinema": "Cine Yelmo Abrera",
+    "date": "2026-08-10",
+    "movie": "Spider-Man: Brand New Day",
+    "format": "2D",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "21:45",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=810&showtimeVistaId=22800",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-08-07 17:55:10"
+  },
+  {
+    "cinema": "Cine Yelmo Abrera",
+    "date": "2026-08-11",
+    "movie": "Spider-Man: Brand New Day",
+    "format": "2D",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "21:45",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=810&showtimeVistaId=22797",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-08-07 17:55:10"
   }
 ]
