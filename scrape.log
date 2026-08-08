@@ -1,18 +1,18 @@
-Starting Scraper - Local time is 2026-08-08 14:44:33 CEST
+Starting Scraper - Local time is 2026-08-08 17:28:54 CEST
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
   Fetching Yelmo madrid...
   Fetching Yelmo barcelona...
-Yelmo scraped: found 637 VOSE sessions.
+Yelmo scraped: found 653 VOSE sessions.
 Scraping Cine Albéniz...
 Stopping Cine Albéniz scrape after 5 consecutive empty days.
 Cine Albéniz scraped: found 72 VOSE sessions.
 Scraping Kinépolis Granada & Nevada...
-Kinépolis Granada & Nevada: Scraped 241 VOSE sessions.
+Kinépolis Granada & Nevada: Scraped 239 VOSE sessions.
 Scraping Cines Renoir...
 Cines Renoir: Scraped 467 VOSE sessions.
 Scraping Cines Golem...
-Cines Golem Madrid: Scraped 77 VOSE sessions.
+Cines Golem Madrid: Scraped 72 VOSE sessions.
 Scraping Cinesa (Madrid & Barcelona)...
 Error: Cinesa home returned status 403
 Error: Could not retrieve Cinesa authentication token.
@@ -21,19 +21,20 @@ Recovered 226 cinesa showings from previous run.
 Scraping Ocine Serrallo...
 Ocine Serrallo: Scraped 1 sessions.
 Scraping mk2 Cinesur...
-  mk2 Cinesur Miramar: found 61 sessions.
+  mk2 Cinesur Miramar: found 59 sessions.
   mk2 Cinesur El Ingenio: found 12 sessions.
-  mk2 Cinesur Málaga Nostrum: found 34 sessions.
-mk2 Cinesur scraped: found 107 VOSE sessions.
+  mk2 Cinesur Málaga Nostrum: found 33 sessions.
+mk2 Cinesur scraped: found 104 VOSE sessions.
 original language not found for 2 movies in Cinesa chain
 original language not found for 29 movies in Cinesur chain
 original language not found for 1 movies in Golem chain
 original language not found for 1 movies in Kinépolis chain
-Successfully generated api/v1/showtimes.json with 1828 listings.
-Appended 10 new showings to new_showtimes.json
+Updated movie_title_translations.json
+Successfully generated api/v1/showtimes.json with 1834 listings.
+Appended 33 new showings to new_showtimes.json
 
 Resolving missing movie title translations...
-Found 27 movies without original names.
+Found 28 movies without original names.
 No TMDB_API_KEY detected. Using keyless TMDB scraper and Wikidata fallbacks.
 
 Searching for: '20 Años del MET en cines - Grabado MET 26-27'
@@ -105,6 +106,9 @@ Searching for: 'RASHOMON [WILDER CINEMA]'
 Searching for: 'Sia 2016 Coachella'
   -> Could not resolve original name for 'Sia 2016 Coachella'
 
+Searching for: 'Tadeo Jones y la lámpara maravillosa'
+  -> Found via TMDB Web: 'Tadeo Jones y La Lámpara Maravillosa'
+
 Searching for: 'The Fast & The Furious 25 aniversario'
   -> Could not resolve original name for 'The Fast & The Furious 25 aniversario'
 
@@ -117,7 +121,7 @@ Searching for: 'VIAJE AL PAÍS DE LOS BLANCOS [PROYECTO VIRIDIANA]'
 Searching for: 'WHAT A FEELING [CINE CON ORGULLO RENOIR]'
   -> Could not resolve original name for 'WHAT A FEELING [CINE CON ORGULLO RENOIR]'
 
-No translations were updated.
+Successfully updated 1 translation(s) in movie_title_translations.json.
 
 === Cinesa Scraper Logs (Portugal VPN) ===
 Traceback (most recent call last):
