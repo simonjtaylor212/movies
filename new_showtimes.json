@@ -492295,5 +492295,44 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-08-07 23:38:20"
+  },
+  {
+    "cinema": "mk2 Cinesur El Ingenio",
+    "date": "2026-08-11",
+    "movie": "Spider-Man: Brand New Day",
+    "format": "2D",
+    "language": "Original con subtítulos (VOSE)",
+    "original_language": "English",
+    "time": "18:30",
+    "booking_url": "https://cine.entradas.com/cine/velez-malaga/cinesur-el-ingenio/evento/123261/spider-man-brand-new-day?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-08-08 03:26:27"
+  },
+  {
+    "cinema": "mk2 Cinesur El Ingenio",
+    "date": "2026-08-11",
+    "movie": "Spider-Man: Brand New Day",
+    "format": "2D",
+    "language": "Original con subtítulos (VOSE)",
+    "original_language": "English",
+    "time": "21:20",
+    "booking_url": "https://cine.entradas.com/cine/velez-malaga/cinesur-el-ingenio/evento/123262/spider-man-brand-new-day?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-08-08 03:26:27"
+  },
+  {
+    "cinema": "mk2 Cinesur El Ingenio",
+    "date": "2026-08-11",
+    "movie": "La Odisea",
+    "format": "2D",
+    "language": "Original con subtítulos (VOSE)",
+    "original_language": "English",
+    "time": "22:00",
+    "booking_url": "https://cine.entradas.com/cine/velez-malaga/cinesur-el-ingenio/evento/123256/la-odisea?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-08-08 03:26:27"
   }
 ]
