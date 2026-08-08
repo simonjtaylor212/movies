@@ -1,12 +1,24 @@
-Starting Scraper - Local time is 2026-08-08 06:10:37 CEST
+Starting Scraper - Local time is 2026-08-08 08:51:03 CEST
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
+Error fetching Yelmo malaga: HTTPSConnectionPool(host='www.yelmocines.es', port=443): Max retries exceeded with url: /now-playing.aspx/GetNowPlaying (Caused by NameResolutionError("HTTPSConnection(host='www.yelmocines.es', port=443): Failed to resolve 'www.yelmocines.es' ([Errno -3] Temporary failure in name resolution)"))
   Fetching Yelmo madrid...
+Error fetching Yelmo madrid: HTTPSConnectionPool(host='www.yelmocines.es', port=443): Max retries exceeded with url: /now-playing.aspx/GetNowPlaying (Caused by NameResolutionError("HTTPSConnection(host='www.yelmocines.es', port=443): Failed to resolve 'www.yelmocines.es' ([Errno -3] Temporary failure in name resolution)"))
   Fetching Yelmo barcelona...
-Yelmo scraped: found 649 VOSE sessions.
+Error fetching Yelmo barcelona: HTTPSConnectionPool(host='www.yelmocines.es', port=443): Max retries exceeded with url: /now-playing.aspx/GetNowPlaying (Caused by NameResolutionError("HTTPSConnection(host='www.yelmocines.es', port=443): Failed to resolve 'www.yelmocines.es' ([Errno -3] Temporary failure in name resolution)"))
+Yelmo scraped: found 0 VOSE sessions.
+Warning: yelmo scraper returned 0 showings. Using fallback data.
+Recovered 649 yelmo showings from previous run.
 Scraping Cine Albéniz...
+Error fetching Albéniz for 2026-08-08: HTTPSConnectionPool(host='cinealbeniz.com', port=443): Max retries exceeded with url: /cartelera/dia/2026-08-08 (Caused by NameResolutionError("HTTPSConnection(host='cinealbeniz.com', port=443): Failed to resolve 'cinealbeniz.com' ([Errno -3] Temporary failure in name resolution)"))
+Error fetching Albéniz for 2026-08-09: HTTPSConnectionPool(host='cinealbeniz.com', port=443): Max retries exceeded with url: /cartelera/dia/2026-08-09 (Caused by NameResolutionError("HTTPSConnection(host='cinealbeniz.com', port=443): Failed to resolve 'cinealbeniz.com' ([Errno -3] Temporary failure in name resolution)"))
+Error fetching Albéniz for 2026-08-10: HTTPSConnectionPool(host='cinealbeniz.com', port=443): Max retries exceeded with url: /cartelera/dia/2026-08-10 (Caused by NameResolutionError("HTTPSConnection(host='cinealbeniz.com', port=443): Failed to resolve 'cinealbeniz.com' ([Errno -3] Temporary failure in name resolution)"))
+Error fetching Albéniz for 2026-08-11: HTTPSConnectionPool(host='cinealbeniz.com', port=443): Max retries exceeded with url: /cartelera/dia/2026-08-11 (Caused by NameResolutionError("HTTPSConnection(host='cinealbeniz.com', port=443): Failed to resolve 'cinealbeniz.com' ([Errno -3] Temporary failure in name resolution)"))
+Error fetching Albéniz for 2026-08-12: HTTPSConnectionPool(host='cinealbeniz.com', port=443): Max retries exceeded with url: /cartelera/dia/2026-08-12 (Caused by NameResolutionError("HTTPSConnection(host='cinealbeniz.com', port=443): Failed to resolve 'cinealbeniz.com' ([Errno -3] Temporary failure in name resolution)"))
 Stopping Cine Albéniz scrape after 5 consecutive empty days.
-Cine Albéniz scraped: found 72 VOSE sessions.
+Cine Albéniz scraped: found 0 VOSE sessions.
+Warning: albeniz scraper returned 0 showings. Using fallback data.
+Recovered 72 albeniz showings from previous run.
 Scraping Kinépolis Granada & Nevada...
 Kinépolis Granada & Nevada: Scraped 231 VOSE sessions.
 Scraping Cines Renoir...
