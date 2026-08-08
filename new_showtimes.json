@@ -492945,5 +492945,31 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-08-08 20:35:55"
+  },
+  {
+    "cinema": "Cine Yelmo Ideal",
+    "date": "2026-09-02",
+    "movie": "Katy Perry: The Lifetimes Tour - Live From Paris",
+    "format": "CA",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "20:00",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=33619",
+    "projection_type": "Música y conciertos",
+    "movie_title_language": "ES",
+    "date_added": "2026-08-08 23:29:17"
+  },
+  {
+    "cinema": "Cine Yelmo Ideal",
+    "date": "2026-09-05",
+    "movie": "Katy Perry: The Lifetimes Tour - Live From Paris",
+    "format": "CA",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "20:00",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=34390",
+    "projection_type": "Música y conciertos",
+    "movie_title_language": "ES",
+    "date_added": "2026-08-08 23:29:17"
   }
 ]
