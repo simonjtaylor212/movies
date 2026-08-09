@@ -122,9 +122,14 @@ def scrape_cinesa():
             attr_id = attr.get("id")
             if not attr_id:
                 continue
-            name = attr.get("name", {}).get("text", "").upper()
-            short = attr.get("shortName", {}).get("text", "").upper()
-            desc = attr.get("description", {}).get("text", "").upper()
+            name_data = attr.get("name") or {}
+            name = name_data.get("text", "").upper()
+
+            short_data = attr.get("shortName") or {}
+            short = short_data.get("text", "").upper()
+
+            desc_data = attr.get("description") or {}
+            desc = desc_data.get("text", "").upper()
             
             # Check for VOSE
             if "VOSE" in name or "VOSE" in short or "VOSE" in desc:
