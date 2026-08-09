@@ -1,9 +1,9 @@
-Starting Scraper - Local time is 2026-08-09 11:38:14 CEST
+Starting Scraper - Local time is 2026-08-09 13:58:20 CEST
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
   Fetching Yelmo madrid...
   Fetching Yelmo barcelona...
-Yelmo scraped: found 571 VOSE sessions.
+Yelmo scraped: found 568 VOSE sessions.
 Scraping Cine Albéniz...
 Stopping Cine Albéniz scrape after 5 consecutive empty days.
 Cine Albéniz scraped: found 60 VOSE sessions.
@@ -13,11 +13,7 @@ Scraping Cines Renoir...
 Cines Renoir: Scraped 387 VOSE sessions.
 Scraping Cines Golem...
 Cines Golem Madrid: Scraped 64 VOSE sessions.
-Scraping Cinesa (Madrid & Barcelona)...
-Error: Cinesa home returned status 403
-Error: Could not retrieve Cinesa authentication token.
-Warning: cinesa scraper returned 0 showings. Using fallback data.
-Recovered 195 cinesa showings from previous run.
+Loaded 0 Cinesa showtimes from cache.
 Scraping Ocine Serrallo...
 Ocine Serrallo: Scraped 1 sessions.
 Scraping mk2 Cinesur...
@@ -25,11 +21,10 @@ Scraping mk2 Cinesur...
   mk2 Cinesur El Ingenio: found 9 sessions.
   mk2 Cinesur Málaga Nostrum: found 30 sessions.
 mk2 Cinesur scraped: found 94 VOSE sessions.
-original language not found for 2 movies in Cinesa chain
 original language not found for 29 movies in Cinesur chain
 original language not found for 1 movies in Golem chain
 original language not found for 1 movies in Kinépolis chain
-Successfully generated api/v1/showtimes.json with 1585 listings.
+Successfully generated api/v1/showtimes.json with 1387 listings.
 No new showings found.
 
 Resolving missing movie title translations...
@@ -120,11 +115,6 @@ Searching for: 'WHAT A FEELING [CINE CON ORGULLO RENOIR]'
 No translations were updated.
 
 === Cinesa Scraper Logs (Portugal VPN) ===
-Traceback (most recent call last):
-  File "<string>", line 1, in <module>
-  File "/home/runner/work/movies/movies/scrape_cinesa.py", line 127, in scrape_cinesa
-    desc = attr.get("description", {}).get("text", "").upper()
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-AttributeError: 'NoneType' object has no attribute 'get'
 Scraping Cinesa (Madrid & Barcelona)...
-Cinesa: Found 33 business dates with showtimes: ['2026-08-09', '2026-08-10', '2026-08-11', '2026-08-12', '2026-08-13', '2026-08-14', '2026-08-15', '2026-08-16', '2026-08-17', '2026-08-18', '2026-08-19', '2026-08-20', '2026-08-21', '2026-08-22', '2026-08-23', '2026-08-24', '2026-08-25', '2026-08-26', '2026-08-27', '2026-08-28', '2026-08-29', '2026-08-30', '2026-08-31', '2026-09-01', '2026-09-02', '2026-09-03', '2026-09-04', '2026-09-05', '2026-09-06', '2026-09-07', '2026-09-08', '2026-09-09', '2026-09-10']
+Error: Cinesa home returned status 403
+Error: Could not retrieve Cinesa authentication token.
