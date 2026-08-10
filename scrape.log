@@ -1,4 +1,4 @@
-Starting Scraper - Local time is 2026-08-10 06:29:04 CEST
+Starting Scraper - Local time is 2026-08-10 09:38:48 CEST
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
   Fetching Yelmo madrid...
@@ -10,10 +10,11 @@ Cine Albéniz scraped: found 48 VOSE sessions.
 Scraping Kinépolis Granada & Nevada...
 Kinépolis Granada & Nevada: Scraped 186 VOSE sessions.
 Scraping Cines Renoir...
+Error scraping Cines Renoir Cines Renoir Princesa for date 2026-08-17: HTTPSConnectionPool(host='www.cinesrenoir.com', port=443): Max retries exceeded with url: /cine/cines-princesa/cartelera/?fecha=2026-08-17 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))
 Cines Renoir: Scraped 307 VOSE sessions.
 Scraping Cines Golem...
 Cines Golem Madrid: Scraped 51 VOSE sessions.
-Loaded 605 Cinesa showtimes from cache.
+Loaded 0 Cinesa showtimes from cache.
 Scraping Ocine Serrallo...
 Ocine Serrallo: Scraped 1 sessions.
 Scraping mk2 Cinesur...
@@ -21,11 +22,10 @@ Scraping mk2 Cinesur...
   mk2 Cinesur El Ingenio: found 6 sessions.
   mk2 Cinesur Málaga Nostrum: found 26 sessions.
 mk2 Cinesur scraped: found 81 VOSE sessions.
-original language not found for 15 movies in Cinesa chain
 original language not found for 29 movies in Cinesur chain
 original language not found for 1 movies in Golem chain
 original language not found for 1 movies in Kinépolis chain
-Successfully generated api/v1/showtimes.json with 1746 listings.
+Successfully generated api/v1/showtimes.json with 1141 listings.
 No new showings found.
 
 Resolving missing movie title translations...
@@ -123,5 +123,5 @@ No translations were updated.
 
 === Cinesa Scraper Logs (Portugal VPN) ===
 Scraping Cinesa (Madrid & Barcelona)...
-Cinesa: Found 34 business dates with showtimes: ['2026-08-10', '2026-08-11', '2026-08-12', '2026-08-13', '2026-08-14', '2026-08-15', '2026-08-16', '2026-08-17', '2026-08-18', '2026-08-19', '2026-08-20', '2026-08-21', '2026-08-22', '2026-08-23', '2026-08-24', '2026-08-25', '2026-08-26', '2026-08-27', '2026-08-28', '2026-08-29', '2026-08-30', '2026-08-31', '2026-09-01', '2026-09-02', '2026-09-03', '2026-09-04', '2026-09-05', '2026-09-06', '2026-09-07', '2026-09-08', '2026-09-09', '2026-09-10', '2026-09-30', '2026-10-03']
-Cinesa (Madrid & Barcelona): Scraped 605 VOSE sessions.
+Error fetching Cinesa auth token: HTTPSConnectionPool(host='www.cinesa.es', port=443): Read timed out. (read timeout=15)
+Error: Could not retrieve Cinesa authentication token.
