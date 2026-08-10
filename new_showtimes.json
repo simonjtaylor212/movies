@@ -501785,5 +501785,83 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-08-09 23:31:18"
+  },
+  {
+    "cinema": "Cinesa LUXE Parc Vallès",
+    "date": "2026-08-10",
+    "movie": "Obsession",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "20:50",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=031-96290",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-08-10 03:41:57"
+  },
+  {
+    "cinema": "Cinesa LUXE Equinoccio",
+    "date": "2026-09-30",
+    "movie": "Linkin Park",
+    "format": "ScreenX",
+    "language": "V.O.S.E.",
+    "original_language": "",
+    "time": "22:45",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=026-63530",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-08-10 03:41:57"
+  },
+  {
+    "cinema": "Cinesa Nassica",
+    "date": "2026-09-30",
+    "movie": "Linkin Park",
+    "format": "ScreenX",
+    "language": "V.O.S.E.",
+    "original_language": "",
+    "time": "22:45",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=125-104602",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-08-10 03:41:57"
+  },
+  {
+    "cinema": "Cinesa LUXE Parc Vallès",
+    "date": "2026-09-30",
+    "movie": "Linkin Park",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "",
+    "time": "22:40",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=031-96318",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-08-10 03:41:57"
+  },
+  {
+    "cinema": "Cinesa LUXE Equinoccio",
+    "date": "2026-10-03",
+    "movie": "Linkin Park",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "",
+    "time": "15:30",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=026-63531",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-08-10 03:41:57"
+  },
+  {
+    "cinema": "Cinesa Nassica",
+    "date": "2026-10-03",
+    "movie": "Linkin Park",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "",
+    "time": "15:30",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=125-104603",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-08-10 03:41:57"
   }
 ]
