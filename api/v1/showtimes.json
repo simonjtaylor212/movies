@@ -9223,11 +9223,11 @@
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "",
-    "time": "20:40",
+    "time": "20:20",
     "booking_url": "https://kinepolis.es/direct-vista-redirect/217454/0/KMAD/0",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-07-31 13:29:14"
+    "date_added": "2026-08-10 15:04:49"
   },
   {
     "cinema": "Kinépolis Madrid Ciudad de la Imagen",
@@ -9342,19 +9342,6 @@
     "original_language": "",
     "time": "20:40",
     "booking_url": "https://kinepolis.es/direct-vista-redirect/217477/0/KMAD/0",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-08-01 21:06:35"
-  },
-  {
-    "cinema": "Kinépolis Madrid Ciudad de la Imagen",
-    "date": "2026-08-12",
-    "movie": "Marsupilami",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "",
-    "time": "20:40",
-    "booking_url": "https://kinepolis.es/direct-vista-redirect/217480/0/KMAD/0",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-08-01 21:06:35"
@@ -9958,6 +9945,45 @@
     "date_added": "2026-08-05 18:42:11"
   },
   {
+    "cinema": "Kinépolis Madrid Ciudad de la Imagen",
+    "date": "2026-08-12",
+    "movie": "KATSEYE: WILD HEARTS",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "20:45",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/218143/0/KMAD/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-08-10 15:04:49"
+  },
+  {
+    "cinema": "Kinépolis Madrid Ciudad de la Imagen",
+    "date": "2026-08-13",
+    "movie": "KATSEYE: WILD HEARTS",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "17:00",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/218144/0/KMAD/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-08-10 15:04:49"
+  },
+  {
+    "cinema": "Kinépolis Madrid Ciudad de la Imagen",
+    "date": "2026-08-14",
+    "movie": "KATSEYE: WILD HEARTS",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "17:40",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/218145/0/KMAD/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-08-10 15:04:49"
+  },
+  {
     "cinema": "Kinépolis Granada Nevada",
     "date": "2026-08-15",
     "movie": "El final de Oak Street",
@@ -10164,6 +10190,32 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-31 16:03:45"
+  },
+  {
+    "cinema": "Kinépolis Madrid Ciudad de la Imagen",
+    "date": "2026-08-14",
+    "movie": "Marsupilami",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "",
+    "time": "20:40",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/217454/0/KMAD/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-07-31 13:29:14"
+  },
+  {
+    "cinema": "Kinépolis Madrid Ciudad de la Imagen",
+    "date": "2026-08-12",
+    "movie": "Marsupilami",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "",
+    "time": "20:40",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/217480/0/KMAD/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-08-01 21:06:35"
   },
   {
     "cinema": "Ocine Serrallo",
@@ -14878,19 +14930,6 @@
     "format": "IMAX",
     "language": "V.O.S.E.",
     "original_language": "English",
-    "time": "14:25",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=005-64262",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-08-10 12:16:18"
-  },
-  {
-    "cinema": "Cinesa Parquesur",
-    "date": "2026-08-10",
-    "movie": "La Odisea",
-    "format": "IMAX",
-    "language": "V.O.S.E.",
-    "original_language": "English",
     "time": "18:05",
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=005-63925",
     "projection_type": "Movie",
@@ -15192,19 +15231,6 @@
     "original_language": "English",
     "time": "21:40",
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=027-48174",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-08-10 12:16:18"
-  },
-  {
-    "cinema": "Cinesa Las Rozas",
-    "date": "2026-08-10",
-    "movie": "La Odisea",
-    "format": "IMAX",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "14:25",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=034-114457",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-08-10 12:16:18"
@@ -20278,6 +20304,19 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-08-10 12:16:18"
+  },
+  {
+    "cinema": "Cinesa Nassica",
+    "date": "2026-08-18",
+    "movie": "Bohemian Rhapsody",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "",
+    "time": "19:35",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=125-103659",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-08-10 15:04:49"
   },
   {
     "cinema": "Cinesa LUXE Oasiz",
