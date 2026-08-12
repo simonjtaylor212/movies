@@ -2359,19 +2359,6 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "original_language": "English",
-    "time": "15:45",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=34417",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-08-10 23:40:26"
-  },
-  {
-    "cinema": "Cine Yelmo Ideal",
-    "date": "2026-08-12",
-    "movie": "Obsession",
-    "format": "2D",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
     "time": "18:00",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=34316",
     "projection_type": "Movie",
@@ -4881,19 +4868,6 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "original_language": "English",
-    "time": "14:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1360&showtimeVistaId=19541",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-08-11 23:45:21"
-  },
-  {
-    "cinema": "Cine Yelmo La Vaguada",
-    "date": "2026-08-12",
-    "movie": "Spider-Man: Brand New Day",
-    "format": "2D",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
     "time": "20:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1360&showtimeVistaId=19539",
     "projection_type": "Movie",
@@ -5362,19 +5336,6 @@
     "format": "LUX",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "original_language": "English",
-    "time": "15:45",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=23882",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-08-10 20:56:02"
-  },
-  {
-    "cinema": "Cine Yelmo Palafox Luxury",
-    "date": "2026-08-12",
-    "movie": "Spider-Man: Brand New Day",
-    "format": "LUX",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
     "time": "16:55",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=23896",
     "projection_type": "Movie",
@@ -5440,19 +5401,6 @@
     "format": "LUX",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "original_language": "English",
-    "time": "16:10",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=23888",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-08-10 20:56:02"
-  },
-  {
-    "cinema": "Cine Yelmo Palafox Luxury",
-    "date": "2026-08-12",
-    "movie": "La Odisea",
-    "format": "LUX",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
     "time": "17:20",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=23886",
     "projection_type": "Movie",
@@ -5481,19 +5429,6 @@
     "original_language": "English",
     "time": "21:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=23892",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-08-10 20:56:02"
-  },
-  {
-    "cinema": "Cine Yelmo Palafox Luxury",
-    "date": "2026-08-12",
-    "movie": "Vaiana",
-    "format": "LUX",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "16:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=23887",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-08-10 20:56:02"
@@ -9154,19 +9089,6 @@
   {
     "cinema": "Cine Yelmo Westfield La Maquinista",
     "date": "2026-08-12",
-    "movie": "Assassination Classroom: El tiempo que compartimos",
-    "format": "PREMIUM",
-    "language": "JAPONÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "Japanese",
-    "time": "16:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1350&showtimeVistaId=43901",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-08-11 18:01:01"
-  },
-  {
-    "cinema": "Cine Yelmo Westfield La Maquinista",
-    "date": "2026-08-12",
     "movie": "Spider-Man: Brand New Day",
     "format": "PREMIUM",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
@@ -11056,19 +10978,6 @@
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "original_language": "English",
-    "time": "16:40",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/142074/spider-man-brand-new-day?mode=widget&change=0&ref=750&forceproxy=1",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-08-11 18:01:01"
-  },
-  {
-    "cinema": "mk2 Cinesur Miramar",
-    "date": "2026-08-12",
-    "movie": "Spider-Man: Brand New Day",
-    "format": "2D",
-    "language": "Original con subtítulos (VOSE)",
-    "original_language": "English",
     "time": "19:30",
     "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/142075/spider-man-brand-new-day?mode=widget&change=0&ref=750&forceproxy=1",
     "projection_type": "Movie",
@@ -11095,34 +11004,8 @@
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "original_language": "English",
-    "time": "18:00",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/142068/la-odisea?mode=widget&change=0&ref=750&forceproxy=1",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-08-11 18:01:01"
-  },
-  {
-    "cinema": "mk2 Cinesur Miramar",
-    "date": "2026-08-12",
-    "movie": "La Odisea",
-    "format": "2D",
-    "language": "Original con subtítulos (VOSE)",
-    "original_language": "English",
     "time": "20:00",
     "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/142072/la-odisea?mode=widget&change=0&ref=750&forceproxy=1",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-08-11 18:01:01"
-  },
-  {
-    "cinema": "mk2 Cinesur Miramar",
-    "date": "2026-08-12",
-    "movie": "La Patrulla Canina: La Dino Película",
-    "format": "2D",
-    "language": "Original con subtítulos (VOSE)",
-    "original_language": "English",
-    "time": "16:15",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/142062/la-patrulla-canina-la-dino-pelicula?mode=widget&change=0&ref=750&forceproxy=1",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-08-11 18:01:01"
@@ -12348,19 +12231,6 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-08-12 03:49:31"
-  },
-  {
-    "cinema": "mk2 Cinesur Málaga Nostrum",
-    "date": "2026-08-12",
-    "movie": "Spider-Man: Brand New Day",
-    "format": "2D",
-    "language": "Original con subtítulos (VOSE)",
-    "original_language": "English",
-    "time": "17:50",
-    "booking_url": "https://cine.entradas.com/cine/malaga/cinesur-malaga-nostrum/evento/127976/spider-man-brand-new-day?mode=widget&change=0&ref=750&forceproxy=1",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-08-11 03:39:20"
   },
   {
     "cinema": "mk2 Cinesur Málaga Nostrum",
@@ -13921,6 +13791,32 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-08-12 15:06:55"
+  },
+  {
+    "cinema": "Kinépolis Granada",
+    "date": "2026-08-20",
+    "movie": "El final de Oak Street",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "22:20",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/169022/0/KGRAN/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-08-12 17:58:32"
+  },
+  {
+    "cinema": "Kinépolis Granada",
+    "date": "2026-08-20",
+    "movie": "Spider-Man: Brand New Day",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "22:00",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/169026/0/KGRAN/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-08-12 17:58:32"
   },
   {
     "cinema": "Kinépolis Madrid Diversia",
@@ -16443,32 +16339,6 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-31 21:23:21"
-  },
-  {
-    "cinema": "Kinépolis Granada Nevada",
-    "date": "2026-08-12",
-    "movie": "La Odisea",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "12:20",
-    "booking_url": "https://kinepolis.es/direct-vista-redirect/100283/0/KNEVA/0",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-08-04 18:51:14"
-  },
-  {
-    "cinema": "Kinépolis Granada Nevada",
-    "date": "2026-08-12",
-    "movie": "Spider-Man: Brand New Day",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "12:40",
-    "booking_url": "https://kinepolis.es/direct-vista-redirect/100286/0/KNEVA/0",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-08-04 18:51:14"
   },
   {
     "cinema": "Kinépolis Granada Nevada",
@@ -26084,19 +25954,6 @@
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
-    "time": "16:30",
-    "booking_url": "https://www.golem.es/golem/urlcheck.php?idCine=8&perfCode=99203&eventCode=111139",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-08-05 04:24:58"
-  },
-  {
-    "cinema": "Cines Golem Madrid",
-    "date": "2026-08-12",
-    "movie": "El amor que permanece",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
     "time": "19:00",
     "booking_url": "https://www.golem.es/golem/urlcheck.php?idCine=8&perfCode=99202&eventCode=111139",
     "projection_type": "Movie",
@@ -26112,19 +25969,6 @@
     "original_language": "English",
     "time": "21:30",
     "booking_url": "https://www.golem.es/golem/urlcheck.php?idCine=8&perfCode=99204&eventCode=111139",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-08-05 04:24:58"
-  },
-  {
-    "cinema": "Cines Golem Madrid",
-    "date": "2026-08-12",
-    "movie": "LA ÚLTIMA RONDA EN VENECIA",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "Italian",
-    "time": "17:00",
-    "booking_url": "https://www.golem.es/golem/urlcheck.php?idCine=8&perfCode=99193&eventCode=111855",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-08-05 04:24:58"
@@ -26162,19 +26006,6 @@
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
-    "time": "16:30",
-    "booking_url": "https://www.golem.es/golem/urlcheck.php?idCine=8&perfCode=99196&eventCode=100228",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-08-05 04:24:58"
-  },
-  {
-    "cinema": "Cines Golem Madrid",
-    "date": "2026-08-12",
-    "movie": "La Odisea",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
     "time": "18:15",
     "booking_url": "https://www.golem.es/golem/urlcheck.php?idCine=8&perfCode=99205&eventCode=100228",
     "projection_type": "Movie",
@@ -26201,34 +26032,8 @@
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
-    "time": "16:10",
-    "booking_url": "https://www.golem.es/golem/urlcheck.php?idCine=8&perfCode=99201&eventCode=105377",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-08-05 04:24:58"
-  },
-  {
-    "cinema": "Cines Golem Madrid",
-    "date": "2026-08-12",
-    "movie": "Omaha",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
     "time": "20:15",
     "booking_url": "https://www.golem.es/golem/urlcheck.php?idCine=8&perfCode=99199&eventCode=105377",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-08-05 04:24:58"
-  },
-  {
-    "cinema": "Cines Golem Madrid",
-    "date": "2026-08-12",
-    "movie": "Lady Nazca",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "",
-    "time": "16:10",
-    "booking_url": "https://www.golem.es/golem/urlcheck.php?idCine=8&perfCode=99206&eventCode=111807",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-08-05 04:24:58"
@@ -27549,19 +27354,6 @@
   {
     "cinema": "Cinesa Proyecciones",
     "date": "2026-08-12",
-    "movie": "La Odisea",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "16:45",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=018-41728",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-08-10 12:16:18"
-  },
-  {
-    "cinema": "Cinesa Proyecciones",
-    "date": "2026-08-12",
     "movie": "Spider-Man: Brand New Day",
     "format": "2D",
     "language": "V.O.S.E.",
@@ -27758,45 +27550,6 @@
     "cinema": "Cinesa Las Rozas",
     "date": "2026-08-12",
     "movie": "La Odisea",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "16:05",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=034-114317",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-08-10 12:16:18"
-  },
-  {
-    "cinema": "Cinesa Las Rozas",
-    "date": "2026-08-12",
-    "movie": "Obsession",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "17:30",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=034-114327",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-08-10 12:16:18"
-  },
-  {
-    "cinema": "Cinesa Las Rozas",
-    "date": "2026-08-12",
-    "movie": "La Odisea",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "17:45",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=034-114329",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-08-10 12:16:18"
-  },
-  {
-    "cinema": "Cinesa Las Rozas",
-    "date": "2026-08-12",
-    "movie": "La Odisea",
     "format": "IMAX",
     "language": "V.O.S.E.",
     "original_language": "English",
@@ -27854,32 +27607,6 @@
     "original_language": "English",
     "time": "20:45",
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=048-52570",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-08-10 12:16:18"
-  },
-  {
-    "cinema": "Cinesa Méndez Álvaro",
-    "date": "2026-08-12",
-    "movie": "Nicky, la aprendiz de bruja",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "",
-    "time": "15:50",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=123-88889",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-08-10 12:16:18"
-  },
-  {
-    "cinema": "Cinesa Méndez Álvaro",
-    "date": "2026-08-12",
-    "movie": "La Odisea",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "16:15",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=123-88894",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-08-10 12:16:18"
@@ -27958,84 +27685,6 @@
     "original_language": "English",
     "time": "22:05",
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=123-88276",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-08-10 12:16:18"
-  },
-  {
-    "cinema": "Cinesa Manoteras",
-    "date": "2026-08-12",
-    "movie": "es El síndrome Rembrandt",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "",
-    "time": "15:50",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-108369",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-08-10 12:16:18"
-  },
-  {
-    "cinema": "Cinesa Manoteras",
-    "date": "2026-08-12",
-    "movie": "La Odisea",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "16:45",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-108377",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-08-10 12:16:18"
-  },
-  {
-    "cinema": "Cinesa Manoteras",
-    "date": "2026-08-12",
-    "movie": "Obsession",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "16:50",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-108378",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-08-10 12:16:18"
-  },
-  {
-    "cinema": "Cinesa Manoteras",
-    "date": "2026-08-12",
-    "movie": "Spider-Man: Brand New Day",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "17:00",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-106803",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-08-10 12:16:18"
-  },
-  {
-    "cinema": "Cinesa Manoteras",
-    "date": "2026-08-12",
-    "movie": "La Patrulla Canina: La Dino Película",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "17:15",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-108380",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-08-10 12:16:18"
-  },
-  {
-    "cinema": "Cinesa Manoteras",
-    "date": "2026-08-12",
-    "movie": "Spider-Man: Brand New Day",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "17:30",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-108381",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-08-10 12:16:18"
@@ -28216,32 +27865,6 @@
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
-    "time": "16:00",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=125-104625",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-08-10 12:16:18"
-  },
-  {
-    "cinema": "Cinesa Nassica",
-    "date": "2026-08-12",
-    "movie": "La Odisea",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "16:05",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=125-104624",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-08-10 12:16:18"
-  },
-  {
-    "cinema": "Cinesa Nassica",
-    "date": "2026-08-12",
-    "movie": "Spider-Man: Brand New Day",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
     "time": "18:20",
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=125-102814",
     "projection_type": "Movie",
@@ -28374,32 +27997,6 @@
     "original_language": "English",
     "time": "20:50",
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=017-58417",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-08-10 12:16:18"
-  },
-  {
-    "cinema": "Cinesa LUXE Parc Vallès",
-    "date": "2026-08-12",
-    "movie": "La Odisea",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "16:00",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=031-96338",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-08-10 12:16:18"
-  },
-  {
-    "cinema": "Cinesa LUXE Parc Vallès",
-    "date": "2026-08-12",
-    "movie": "Spider-Man: Brand New Day",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "16:15",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=031-96341",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-08-10 12:16:18"
@@ -31865,12 +31462,12 @@
   {
     "cinema": "Cinesa Manoteras",
     "date": "2026-08-15",
-    "movie": "La Odisea",
+    "movie": "Spider-Man: Brand New Day",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
     "time": "21:10",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-108479",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-108483",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-08-11 21:00:55"
@@ -31878,12 +31475,12 @@
   {
     "cinema": "Cinesa Manoteras",
     "date": "2026-08-15",
-    "movie": "Spider-Man: Brand New Day",
+    "movie": "La Odisea",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
     "time": "21:10",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-108483",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-108479",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-08-11 21:00:55"
@@ -34907,12 +34504,12 @@
   {
     "cinema": "Cinesa Manoteras",
     "date": "2026-08-17",
-    "movie": "Spider-Man: Brand New Day",
+    "movie": "El final de Oak Street",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
     "time": "18:25",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-108771",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-108783",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-08-11 21:00:55"
@@ -34920,12 +34517,12 @@
   {
     "cinema": "Cinesa Manoteras",
     "date": "2026-08-17",
-    "movie": "El final de Oak Street",
+    "movie": "Spider-Man: Brand New Day",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
     "time": "18:25",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-108783",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-108771",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-08-11 21:00:55"
@@ -36337,12 +35934,12 @@
   {
     "cinema": "Cinesa Manoteras",
     "date": "2026-08-18",
-    "movie": "Spider-Man: Brand New Day",
+    "movie": "El final de Oak Street",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
     "time": "18:25",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-108772",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-108784",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-08-11 21:00:55"
@@ -36350,12 +35947,12 @@
   {
     "cinema": "Cinesa Manoteras",
     "date": "2026-08-18",
-    "movie": "El final de Oak Street",
+    "movie": "Spider-Man: Brand New Day",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
     "time": "18:25",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-108784",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-108772",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-08-11 21:00:55"
@@ -38833,12 +38430,12 @@
   {
     "cinema": "Cinesa Manoteras",
     "date": "2026-08-20",
-    "movie": "Spider-Man: Brand New Day",
+    "movie": "El final de Oak Street",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
     "time": "18:25",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-108773",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-108785",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-08-11 21:00:55"
@@ -38846,12 +38443,12 @@
   {
     "cinema": "Cinesa Manoteras",
     "date": "2026-08-20",
-    "movie": "El final de Oak Street",
+    "movie": "Spider-Man: Brand New Day",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
     "time": "18:25",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-108785",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-108773",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-08-11 21:00:55"
@@ -41056,7 +40653,7 @@
   {
     "cinema": "Cinesa Proyecciones",
     "date": "2026-08-28",
-    "movie": "Harry Potter y La Piedra Filosofal 25th Aniv)",
+    "movie": "Harry Potter Y La Piedra Filosofal (25th Aniver",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "",
@@ -41064,12 +40661,12 @@
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=018-41502",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-08-10 12:16:18"
+    "date_added": "2026-08-12 17:58:32"
   },
   {
     "cinema": "Cinesa Manoteras",
     "date": "2026-08-28",
-    "movie": "Harry Potter y La Piedra Filosofal 25th Aniv)",
+    "movie": "Harry Potter Y La Piedra Filosofal (25th Aniver",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "",
@@ -41077,12 +40674,12 @@
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-107637",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-08-10 12:16:18"
+    "date_added": "2026-08-12 17:58:32"
   },
   {
     "cinema": "Cinesa Diagonal",
     "date": "2026-08-28",
-    "movie": "Harry Potter y La Piedra Filosofal 25th Aniv)",
+    "movie": "Harry Potter Y La Piedra Filosofal (25th Aniver",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "",
@@ -41090,7 +40687,7 @@
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=012-52747",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-08-10 12:16:18"
+    "date_added": "2026-08-12 17:58:32"
   },
   {
     "cinema": "Cinesa Diagonal Mar",
@@ -41108,7 +40705,7 @@
   {
     "cinema": "Cinesa Diagonal Mar",
     "date": "2026-08-28",
-    "movie": "Harry Potter y La Piedra Filosofal 25th Aniv)",
+    "movie": "Harry Potter Y La Piedra Filosofal (25th Aniver",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "",
@@ -41116,12 +40713,12 @@
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=032-55946",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-08-10 12:16:18"
+    "date_added": "2026-08-12 17:58:32"
   },
   {
     "cinema": "Cinesa Proyecciones",
     "date": "2026-08-29",
-    "movie": "Harry Potter y La Piedra Filosofal 25th Aniv)",
+    "movie": "Harry Potter Y La Piedra Filosofal (25th Aniver",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "",
@@ -41129,7 +40726,7 @@
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=018-41504",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-08-10 12:16:18"
+    "date_added": "2026-08-12 17:58:32"
   },
   {
     "cinema": "Cinesa LUXE Equinoccio",
@@ -41199,7 +40796,7 @@
   {
     "cinema": "Cinesa Manoteras",
     "date": "2026-08-29",
-    "movie": "Harry Potter y La Piedra Filosofal 25th Aniv)",
+    "movie": "Harry Potter Y La Piedra Filosofal (25th Aniver",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "",
@@ -41207,7 +40804,7 @@
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-107659",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-08-10 12:16:18"
+    "date_added": "2026-08-12 17:58:32"
   },
   {
     "cinema": "Cinesa Nassica",
@@ -41238,7 +40835,7 @@
   {
     "cinema": "Cinesa Diagonal",
     "date": "2026-08-29",
-    "movie": "Harry Potter y La Piedra Filosofal 25th Aniv)",
+    "movie": "Harry Potter Y La Piedra Filosofal (25th Aniver",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "",
@@ -41246,7 +40843,7 @@
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=012-52746",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-08-10 12:16:18"
+    "date_added": "2026-08-12 17:58:32"
   },
   {
     "cinema": "Cinesa SOM Multiespai",
@@ -41290,7 +40887,7 @@
   {
     "cinema": "Cinesa Diagonal Mar",
     "date": "2026-08-29",
-    "movie": "Harry Potter y La Piedra Filosofal 25th Aniv)",
+    "movie": "Harry Potter Y La Piedra Filosofal (25th Aniver",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "",
@@ -41298,7 +40895,7 @@
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=032-55967",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-08-10 12:16:18"
+    "date_added": "2026-08-12 17:58:32"
   },
   {
     "cinema": "Cinesa Diagonal Mar",
@@ -41316,7 +40913,7 @@
   {
     "cinema": "Cinesa Proyecciones",
     "date": "2026-08-30",
-    "movie": "Harry Potter y La Piedra Filosofal 25th Aniv)",
+    "movie": "Harry Potter Y La Piedra Filosofal (25th Aniver",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "",
@@ -41324,7 +40921,7 @@
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=018-41503",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-08-10 12:16:18"
+    "date_added": "2026-08-12 17:58:32"
   },
   {
     "cinema": "Cinesa LUXE Equinoccio",
@@ -41368,7 +40965,7 @@
   {
     "cinema": "Cinesa Manoteras",
     "date": "2026-08-30",
-    "movie": "Harry Potter y La Piedra Filosofal 25th Aniv)",
+    "movie": "Harry Potter Y La Piedra Filosofal (25th Aniver",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "",
@@ -41376,7 +40973,7 @@
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-107660",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-08-10 12:16:18"
+    "date_added": "2026-08-12 17:58:32"
   },
   {
     "cinema": "Cinesa Diagonal",
@@ -41394,7 +40991,7 @@
   {
     "cinema": "Cinesa Diagonal",
     "date": "2026-08-30",
-    "movie": "Harry Potter y La Piedra Filosofal 25th Aniv)",
+    "movie": "Harry Potter Y La Piedra Filosofal (25th Aniver",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "",
@@ -41402,7 +40999,7 @@
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=012-52745",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-08-10 12:16:18"
+    "date_added": "2026-08-12 17:58:32"
   },
   {
     "cinema": "Cinesa Diagonal Mar",
@@ -41420,7 +41017,7 @@
   {
     "cinema": "Cinesa Diagonal Mar",
     "date": "2026-08-30",
-    "movie": "Harry Potter y La Piedra Filosofal 25th Aniv)",
+    "movie": "Harry Potter Y La Piedra Filosofal (25th Aniver",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "",
@@ -41428,7 +41025,7 @@
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=032-55968",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-08-10 12:16:18"
+    "date_added": "2026-08-12 17:58:32"
   },
   {
     "cinema": "Cinesa Diagonal Mar",
@@ -41897,5 +41494,44 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-08-11 15:01:36"
+  },
+  {
+    "cinema": "Cinesa LUXE Equinoccio",
+    "date": "2026-10-03",
+    "movie": "Linkin Park: Unshatter",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "15:30",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=026-63531",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-08-12 17:58:32"
+  },
+  {
+    "cinema": "Cinesa Méndez Álvaro",
+    "date": "2026-10-03",
+    "movie": "Linkin Park: Unshatter",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "15:30",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=123-88871",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-08-12 17:58:32"
+  },
+  {
+    "cinema": "Cinesa Nassica",
+    "date": "2026-10-03",
+    "movie": "Linkin Park: Unshatter",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "15:30",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=125-104603",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-08-12 17:58:32"
   }
 ]
