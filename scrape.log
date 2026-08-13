@@ -1,4 +1,4 @@
-Starting Scraper - Local time is 2026-08-13 03:52:07 CEST
+Starting Scraper - Local time is 2026-08-13 06:50:57 CEST
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
   Fetching Yelmo madrid...
@@ -24,12 +24,11 @@ mk2 Cinesur scraped: found 134 VOSE sessions.
 original language not found for 14 movies in Cinesa chain
 original language not found for 29 movies in Cinesur chain
 original language not found for 1 movies in Golem chain
-Updated movie_title_translations.json
 Successfully generated api/v1/showtimes.json with 3019 listings.
-Appended 14 new showings to new_showtimes.json
+No new showings found.
 
 Resolving missing movie title translations...
-Found 30 movies without original names.
+Found 29 movies without original names.
 No TMDB_API_KEY detected. Using keyless TMDB scraper and Wikidata fallbacks.
 
 Searching for: '20 Años del MET en cines - Grabado MET 26-27'
@@ -104,9 +103,6 @@ Searching for: 'Preestreno a ciegas 13 agosto 2026'
 Searching for: 'RASHOMON [WILDER CINEMA]'
   -> Could not resolve original name for 'RASHOMON [WILDER CINEMA]'
 
-Searching for: 'SECRET FLASHBACK (7 septiembre)'
-  -> Found via TMDB Web: 'Secret Flashback'
-
 Searching for: 'Sia 2016 Coachella'
   -> Could not resolve original name for 'Sia 2016 Coachella'
 
@@ -122,7 +118,7 @@ Searching for: 'VIAJE AL PAÍS DE LOS BLANCOS [PROYECTO VIRIDIANA]'
 Searching for: 'WHAT A FEELING [CINE CON ORGULLO RENOIR]'
   -> Could not resolve original name for 'WHAT A FEELING [CINE CON ORGULLO RENOIR]'
 
-Successfully updated 1 translation(s) in movie_title_translations.json.
+No translations were updated.
 
 === Cinesa Scraper Logs (Portugal VPN) ===
 Scraping Cinesa (Madrid & Barcelona)...
