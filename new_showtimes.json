@@ -541058,5 +541058,18 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-08-13 21:01:16"
+  },
+  {
+    "cinema": "Cine Yelmo Plaza Norte 2",
+    "date": "2026-09-15",
+    "movie": "Prácticamente magia 2",
+    "format": "2D",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "19:50",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=813&showtimeVistaId=55521",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-08-13 23:43:32"
   }
 ]
