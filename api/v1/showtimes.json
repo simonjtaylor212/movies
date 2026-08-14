@@ -11017,24 +11017,11 @@
     "format": "2D",
     "language": "Italiano | V.O.S.E.",
     "original_language": "Italian",
-    "time": "20:05",
+    "time": "20:15",
     "booking_url": "https://www.unientradas.es/es/recinto/FC-03",
     "projection_type": "Movie",
     "movie_title_language": "OR",
-    "date_added": "2026-08-11 11:59:49"
-  },
-  {
-    "cinema": "Cine Albéniz",
-    "date": "2026-08-20",
-    "movie": "La última ronda en Venecia",
-    "format": "2D",
-    "language": "Italiano | V.O.S.E.",
-    "original_language": "Italian",
-    "time": "22:05",
-    "booking_url": "https://www.unientradas.es/es/recinto/FC-03",
-    "projection_type": "Movie",
-    "movie_title_language": "OR",
-    "date_added": "2026-08-11 11:59:49"
+    "date_added": "2026-08-14 11:59:55"
   },
   {
     "cinema": "Cine Albéniz",
@@ -11057,19 +11044,6 @@
     "language": "Árabe e inglés | V.O.S.E.",
     "original_language": "English",
     "time": "18:00",
-    "booking_url": "https://www.unientradas.es/es/recinto/FC-03",
-    "projection_type": "Movie",
-    "movie_title_language": "OR",
-    "date_added": "2026-08-11 11:59:49"
-  },
-  {
-    "cinema": "Cine Albéniz",
-    "date": "2026-08-20",
-    "movie": "Palestina 36",
-    "format": "2D",
-    "language": "Árabe e inglés | V.O.S.E.",
-    "original_language": "English",
-    "time": "20:15",
     "booking_url": "https://www.unientradas.es/es/recinto/FC-03",
     "projection_type": "Movie",
     "movie_title_language": "OR",
@@ -14103,6 +14077,19 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-08-12 12:04:13"
+  },
+  {
+    "cinema": "Kinépolis Madrid Diversia",
+    "date": "2026-09-11",
+    "movie": "Prácticamente magia 2",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "21:15",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/132703/0/KALCO/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-08-14 11:59:55"
   },
   {
     "cinema": "Kinépolis Madrid Ciudad de la Imagen",
@@ -24693,19 +24680,6 @@
     "format": "IMAX",
     "language": "V.O.S.E.",
     "original_language": "English",
-    "time": "10:45",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=005-65138",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-08-10 12:16:18"
-  },
-  {
-    "cinema": "Cinesa Parquesur",
-    "date": "2026-08-14",
-    "movie": "La Odisea",
-    "format": "IMAX",
-    "language": "V.O.S.E.",
-    "original_language": "English",
     "time": "14:25",
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=005-65044",
     "projection_type": "Movie",
@@ -25777,19 +25751,6 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-08-10 12:16:18"
-  },
-  {
-    "cinema": "Cinesa Diagonal Mar",
-    "date": "2026-08-14",
-    "movie": "Spider-Man: Brand New Day",
-    "format": "ISENSE",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "11:45",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=032-56664",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-08-11 21:00:55"
   },
   {
     "cinema": "Cinesa Diagonal Mar",

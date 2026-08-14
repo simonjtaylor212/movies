@@ -541747,5 +541747,31 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-08-14 03:50:07"
+  },
+  {
+    "cinema": "Cine Albéniz",
+    "date": "2026-08-20",
+    "movie": "La última ronda en Venecia",
+    "format": "2D",
+    "language": "Italiano | V.O.S.E.",
+    "original_language": "Italian",
+    "time": "20:15",
+    "booking_url": "https://www.unientradas.es/es/recinto/FC-03",
+    "projection_type": "Movie",
+    "movie_title_language": "OR",
+    "date_added": "2026-08-14 11:59:55"
+  },
+  {
+    "cinema": "Kinépolis Madrid Diversia",
+    "date": "2026-09-11",
+    "movie": "Prácticamente magia 2",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "21:15",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/132703/0/KALCO/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-08-14 11:59:55"
   }
 ]
