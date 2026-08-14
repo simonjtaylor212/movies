@@ -1,4 +1,4 @@
-Starting Scraper - Local time is 2026-08-14 11:59:55 CEST
+Starting Scraper - Local time is 2026-08-14 15:03:21 CEST
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
   Fetching Yelmo madrid...
@@ -13,7 +13,7 @@ Scraping Cines Renoir...
 Cines Renoir: Scraped 571 VOSE sessions.
 Scraping Cines Golem...
 Cines Golem Madrid: Scraped 97 VOSE sessions.
-Loaded 973 Cinesa showtimes from cache.
+Loaded 962 Cinesa showtimes from cache.
 Scraping Ocine Serrallo...
 Ocine Serrallo: Scraped 1 sessions.
 Scraping mk2 Cinesur...
@@ -24,11 +24,12 @@ mk2 Cinesur scraped: found 135 VOSE sessions.
 original language not found for 12 movies in Cinesa chain
 original language not found for 29 movies in Cinesur chain
 original language not found for 1 movies in Golem chain
-Successfully generated api/v1/showtimes.json with 2870 listings.
-Appended 2 new showings to new_showtimes.json
+Updated movie_title_translations.json
+Successfully generated api/v1/showtimes.json with 2859 listings.
+Appended 16 new showings to new_showtimes.json
 
 Resolving missing movie title translations...
-Found 29 movies without original names.
+Found 30 movies without original names.
 No TMDB_API_KEY detected. Using keyless TMDB scraper and Wikidata fallbacks.
 
 Searching for: '20 Años del MET en cines - Grabado MET 26-27'
@@ -69,6 +70,9 @@ Searching for: 'Harry Potter y La Piedra Filosofal 25th Aniv)'
 
 Searching for: 'Harry Potter y la Piedra Filosofal 25 Aniversario'
   -> Could not resolve original name for 'Harry Potter y la Piedra Filosofal 25 Aniversario'
+
+Searching for: 'Katy Perry: The Lifetimes Tour - Live From Pari'
+  -> Found via TMDB Web: 'Katy Perry: The Lifetimes Tour - Live from Paris'
 
 Searching for: 'LA GRAN BELLEZA [WILDER CINEMA]'
   -> Could not resolve original name for 'LA GRAN BELLEZA [WILDER CINEMA]'
@@ -118,9 +122,9 @@ Searching for: 'VIAJE AL PAÍS DE LOS BLANCOS [PROYECTO VIRIDIANA]'
 Searching for: 'WHAT A FEELING [CINE CON ORGULLO RENOIR]'
   -> Could not resolve original name for 'WHAT A FEELING [CINE CON ORGULLO RENOIR]'
 
-No translations were updated.
+Successfully updated 1 translation(s) in movie_title_translations.json.
 
 === Cinesa Scraper Logs (Portugal VPN) ===
 Scraping Cinesa (Madrid & Barcelona)...
 Cinesa: Found 33 business dates with showtimes: ['2026-08-14', '2026-08-15', '2026-08-16', '2026-08-17', '2026-08-18', '2026-08-19', '2026-08-20', '2026-08-21', '2026-08-22', '2026-08-23', '2026-08-24', '2026-08-25', '2026-08-26', '2026-08-27', '2026-08-28', '2026-08-29', '2026-08-30', '2026-08-31', '2026-09-01', '2026-09-02', '2026-09-03', '2026-09-04', '2026-09-05', '2026-09-06', '2026-09-07', '2026-09-08', '2026-09-09', '2026-09-10', '2026-09-11', '2026-09-12', '2026-09-13', '2026-09-30', '2026-10-03']
-Cinesa (Madrid & Barcelona): Scraped 973 VOSE sessions.
+Cinesa (Madrid & Barcelona): Scraped 962 VOSE sessions.

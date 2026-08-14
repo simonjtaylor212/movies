@@ -131,6 +131,19 @@
   },
   {
     "cinema": "Cine Yelmo Rincón de la Victoria",
+    "date": "2026-09-15",
+    "movie": "Prácticamente magia 2",
+    "format": "2D",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "19:50",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=791&showtimeVistaId=25088",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-08-14 15:03:21"
+  },
+  {
+    "cinema": "Cine Yelmo Rincón de la Victoria",
     "date": "2026-09-19",
     "movie": "20 Años del MET en cines: Una celebración",
     "format": "CA",
@@ -1142,6 +1155,19 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-08-11 03:39:20"
+  },
+  {
+    "cinema": "Cine Yelmo Plaza Mayor",
+    "date": "2026-08-14",
+    "movie": "La Odisea",
+    "format": "2D",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "17:05",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=42040",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-08-14 15:03:21"
   },
   {
     "cinema": "Cine Yelmo Plaza Mayor",
@@ -5838,32 +5864,6 @@
   },
   {
     "cinema": "Cine Yelmo La Vaguada",
-    "date": "2026-08-14",
-    "movie": "Spider-Man: Brand New Day",
-    "format": "2D",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "12:00",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1360&showtimeVistaId=19341",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-08-13 15:07:23"
-  },
-  {
-    "cinema": "Cine Yelmo La Vaguada",
-    "date": "2026-08-14",
-    "movie": "La Odisea",
-    "format": "2D",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "12:15",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1360&showtimeVistaId=19346",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-08-13 15:07:23"
-  },
-  {
-    "cinema": "Cine Yelmo La Vaguada",
     "date": "2026-08-15",
     "movie": "Spider-Man: Brand New Day",
     "format": "2D",
@@ -8894,19 +8894,6 @@
   {
     "cinema": "Cine Yelmo Rivas H2O",
     "date": "2026-08-18",
-    "movie": "Spider-Man: Brand New Day",
-    "format": "2D",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "21:00",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=802&showtimeVistaId=44438",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-08-10 23:40:26"
-  },
-  {
-    "cinema": "Cine Yelmo Rivas H2O",
-    "date": "2026-08-18",
     "movie": "La Odisea",
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
@@ -10112,6 +10099,19 @@
     "projection_type": "Música y conciertos",
     "movie_title_language": "ES",
     "date_added": "2026-07-24 21:24:25"
+  },
+  {
+    "cinema": "Cine Yelmo Premium Sant Cugat",
+    "date": "2026-09-15",
+    "movie": "Prácticamente magia 2",
+    "format": "PREMIUM",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "19:50",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=784&showtimeVistaId=23711",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-08-14 15:03:21"
   },
   {
     "cinema": "Cine Albéniz",
@@ -24676,19 +24676,6 @@
   {
     "cinema": "Cinesa Parquesur",
     "date": "2026-08-14",
-    "movie": "La Odisea",
-    "format": "IMAX",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "14:25",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=005-65044",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-08-10 12:16:18"
-  },
-  {
-    "cinema": "Cinesa Parquesur",
-    "date": "2026-08-14",
     "movie": "Spider-Man: Brand New Day",
     "format": "2D",
     "language": "V.O.S.E.",
@@ -24747,19 +24734,6 @@
     "original_language": "English",
     "time": "18:30",
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=018-41769",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-08-11 21:00:55"
-  },
-  {
-    "cinema": "Cinesa Proyecciones",
-    "date": "2026-08-14",
-    "movie": "Obsession",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "20:00",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=018-41773",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-08-11 21:00:55"
@@ -25534,19 +25508,6 @@
   {
     "cinema": "Cinesa LUXE Oasiz",
     "date": "2026-08-14",
-    "movie": "La Odisea",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "20:15",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=138-71838",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-08-11 23:45:21"
-  },
-  {
-    "cinema": "Cinesa LUXE Oasiz",
-    "date": "2026-08-14",
     "movie": "Spider-Man: Brand New Day",
     "format": "2D",
     "language": "V.O.S.E.",
@@ -25755,32 +25716,6 @@
   {
     "cinema": "Cinesa Diagonal Mar",
     "date": "2026-08-14",
-    "movie": "El final de Oak Street",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "12:25",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=032-56668",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-08-11 21:00:55"
-  },
-  {
-    "cinema": "Cinesa Diagonal Mar",
-    "date": "2026-08-14",
-    "movie": "La Odisea",
-    "format": "IMAX",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "14:25",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=032-55834",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-08-10 12:16:18"
-  },
-  {
-    "cinema": "Cinesa Diagonal Mar",
-    "date": "2026-08-14",
     "movie": "Spider-Man: Brand New Day",
     "format": "ISENSE",
     "language": "V.O.S.E.",
@@ -25956,19 +25891,6 @@
     "original_language": "English",
     "time": "18:30",
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=018-41799",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-08-11 21:00:55"
-  },
-  {
-    "cinema": "Cinesa Proyecciones",
-    "date": "2026-08-15",
-    "movie": "Obsession",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "20:00",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=018-41806",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-08-11 21:00:55"
@@ -26492,6 +26414,19 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-08-10 17:59:52"
+  },
+  {
+    "cinema": "Cinesa Méndez Álvaro",
+    "date": "2026-08-15",
+    "movie": "KATSEYE: WILD HEARTS",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "15:40",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=123-89474",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-08-14 15:03:21"
   },
   {
     "cinema": "Cinesa Méndez Álvaro",
@@ -27750,19 +27685,6 @@
     "original_language": "English",
     "time": "18:30",
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=018-41800",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-08-11 21:00:55"
-  },
-  {
-    "cinema": "Cinesa Proyecciones",
-    "date": "2026-08-16",
-    "movie": "Obsession",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "20:00",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=018-41807",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-08-11 21:00:55"
@@ -30290,19 +30212,6 @@
     "date_added": "2026-08-12 03:49:31"
   },
   {
-    "cinema": "Cinesa LUXE Oasiz",
-    "date": "2026-08-17",
-    "movie": "Spider-Man: Brand New Day",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "20:35",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=138-71970",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-08-12 03:49:31"
-  },
-  {
     "cinema": "Cinesa LUXE La Farga",
     "date": "2026-08-17",
     "movie": "Grease",
@@ -32177,19 +32086,6 @@
   {
     "cinema": "Cinesa Proyecciones",
     "date": "2026-08-19",
-    "movie": "Obsession",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "20:00",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=018-41857",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-08-11 21:00:55"
-  },
-  {
-    "cinema": "Cinesa Proyecciones",
-    "date": "2026-08-19",
     "movie": "La Odisea",
     "format": "2D",
     "language": "V.O.S.E.",
@@ -32955,19 +32851,6 @@
     "date_added": "2026-08-12 03:49:31"
   },
   {
-    "cinema": "Cinesa LUXE Oasiz",
-    "date": "2026-08-19",
-    "movie": "Spider-Man: Brand New Day",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "20:35",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=138-71883",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-08-12 03:49:31"
-  },
-  {
     "cinema": "Cinesa LUXE La Farga",
     "date": "2026-08-19",
     "movie": "Spider-Man: Brand New Day",
@@ -33327,19 +33210,6 @@
     "original_language": "English",
     "time": "17:45",
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=018-41884",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-08-11 21:00:55"
-  },
-  {
-    "cinema": "Cinesa Proyecciones",
-    "date": "2026-08-20",
-    "movie": "Spider-Man: Brand New Day",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "18:30",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=018-41886",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-08-11 21:00:55"
@@ -34120,19 +33990,6 @@
     "original_language": "English",
     "time": "20:15",
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=138-72026",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-08-12 03:49:31"
-  },
-  {
-    "cinema": "Cinesa LUXE Oasiz",
-    "date": "2026-08-20",
-    "movie": "Spider-Man: Brand New Day",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "20:35",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=138-71914",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-08-12 03:49:31"
@@ -36480,7 +36337,7 @@
   {
     "cinema": "Cinesa Parquesur",
     "date": "2026-09-02",
-    "movie": "Katy Perry: The Lifetimes Tour - From Paris",
+    "movie": "Katy Perry: The Lifetimes Tour - Live From Pari",
     "format": "IMAX",
     "language": "V.O.S.E.",
     "original_language": "",
@@ -36488,12 +36345,12 @@
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=005-64590",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-08-10 12:16:18"
+    "date_added": "2026-08-14 15:03:21"
   },
   {
     "cinema": "Cinesa Las Rozas",
     "date": "2026-09-02",
-    "movie": "Katy Perry: The Lifetimes Tour - From Paris",
+    "movie": "Katy Perry: The Lifetimes Tour - Live From Pari",
     "format": "IMAX",
     "language": "V.O.S.E.",
     "original_language": "",
@@ -36501,12 +36358,12 @@
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=034-113419",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-08-10 12:16:18"
+    "date_added": "2026-08-14 15:03:21"
   },
   {
     "cinema": "Cinesa Méndez Álvaro",
     "date": "2026-09-02",
-    "movie": "Katy Perry: The Lifetimes Tour - From Paris",
+    "movie": "Katy Perry: The Lifetimes Tour - Live From Pari",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "",
@@ -36514,12 +36371,12 @@
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=123-88610",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-08-10 12:16:18"
+    "date_added": "2026-08-14 15:03:21"
   },
   {
     "cinema": "Cinesa Nassica",
     "date": "2026-09-02",
-    "movie": "Katy Perry: The Lifetimes Tour - From Paris",
+    "movie": "Katy Perry: The Lifetimes Tour - Live From Pari",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "",
@@ -36527,12 +36384,12 @@
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=125-103820",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-08-10 12:16:18"
+    "date_added": "2026-08-14 15:03:21"
   },
   {
     "cinema": "Cinesa SOM Multiespai",
     "date": "2026-09-02",
-    "movie": "Katy Perry: The Lifetimes Tour - From Paris",
+    "movie": "Katy Perry: The Lifetimes Tour - Live From Pari",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "",
@@ -36540,12 +36397,12 @@
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=017-57954",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-08-10 12:16:18"
+    "date_added": "2026-08-14 15:03:21"
   },
   {
     "cinema": "Cinesa LUXE Parc Vallès",
     "date": "2026-09-02",
-    "movie": "Katy Perry: The Lifetimes Tour - From Paris",
+    "movie": "Katy Perry: The Lifetimes Tour - Live From Pari",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "",
@@ -36553,7 +36410,7 @@
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=031-95641",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-08-10 12:16:18"
+    "date_added": "2026-08-14 15:03:21"
   },
   {
     "cinema": "Cinesa Diagonal Mar",
@@ -36610,7 +36467,7 @@
   {
     "cinema": "Cinesa Parquesur",
     "date": "2026-09-05",
-    "movie": "Katy Perry: The Lifetimes Tour - From Paris",
+    "movie": "Katy Perry: The Lifetimes Tour - Live From Pari",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "",
@@ -36618,12 +36475,12 @@
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=005-64591",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-08-10 12:16:18"
+    "date_added": "2026-08-14 15:03:21"
   },
   {
     "cinema": "Cinesa Las Rozas",
     "date": "2026-09-05",
-    "movie": "Katy Perry: The Lifetimes Tour - From Paris",
+    "movie": "Katy Perry: The Lifetimes Tour - Live From Pari",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "",
@@ -36631,12 +36488,12 @@
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=034-113420",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-08-10 12:16:18"
+    "date_added": "2026-08-14 15:03:21"
   },
   {
     "cinema": "Cinesa Méndez Álvaro",
     "date": "2026-09-05",
-    "movie": "Katy Perry: The Lifetimes Tour - From Paris",
+    "movie": "Katy Perry: The Lifetimes Tour - Live From Pari",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "",
@@ -36644,12 +36501,12 @@
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=123-88308",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-08-10 12:16:18"
+    "date_added": "2026-08-14 15:03:21"
   },
   {
     "cinema": "Cinesa Nassica",
     "date": "2026-09-05",
-    "movie": "Katy Perry: The Lifetimes Tour - From Paris",
+    "movie": "Katy Perry: The Lifetimes Tour - Live From Pari",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "",
@@ -36657,12 +36514,12 @@
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=125-103821",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-08-10 12:16:18"
+    "date_added": "2026-08-14 15:03:21"
   },
   {
     "cinema": "Cinesa SOM Multiespai",
     "date": "2026-09-05",
-    "movie": "Katy Perry: The Lifetimes Tour - From Paris",
+    "movie": "Katy Perry: The Lifetimes Tour - Live From Pari",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "",
@@ -36670,12 +36527,12 @@
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=017-57955",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-08-10 12:16:18"
+    "date_added": "2026-08-14 15:03:21"
   },
   {
     "cinema": "Cinesa LUXE Parc Vallès",
     "date": "2026-09-05",
-    "movie": "Katy Perry: The Lifetimes Tour - From Paris",
+    "movie": "Katy Perry: The Lifetimes Tour - Live From Pari",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "",
@@ -36683,7 +36540,7 @@
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=031-95643",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-08-10 12:16:18"
+    "date_added": "2026-08-14 15:03:21"
   },
   {
     "cinema": "Cinesa Diagonal Mar",
