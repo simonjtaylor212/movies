@@ -543515,5 +543515,18 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-08-15 05:37:44"
+  },
+  {
+    "cinema": "Kinépolis Granada Nevada",
+    "date": "2026-08-16",
+    "movie": "La Odisea",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "12:30",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/100746/0/KNEVA/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-08-15 14:34:41"
   }
 ]
