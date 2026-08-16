@@ -19061,19 +19061,6 @@
     "cinema": "Cinesa Parquesur",
     "date": "2026-08-16",
     "movie": "La Odisea",
-    "format": "IMAX",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "10:45",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=005-65141",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-08-10 12:16:18"
-  },
-  {
-    "cinema": "Cinesa Parquesur",
-    "date": "2026-08-16",
-    "movie": "La Odisea",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
@@ -19368,19 +19355,6 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-08-11 21:00:55"
-  },
-  {
-    "cinema": "Cinesa Las Rozas",
-    "date": "2026-08-16",
-    "movie": "La Odisea",
-    "format": "IMAX",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "10:45",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=034-114968",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-08-10 17:59:52"
   },
   {
     "cinema": "Cinesa Las Rozas",
@@ -20512,19 +20486,6 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-08-11 18:01:01"
-  },
-  {
-    "cinema": "Cinesa Diagonal Mar",
-    "date": "2026-08-16",
-    "movie": "La Odisea",
-    "format": "IMAX",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "11:15",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=032-55841",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-08-10 12:16:18"
   },
   {
     "cinema": "Cinesa Diagonal Mar",
