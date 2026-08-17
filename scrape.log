@@ -1,34 +1,36 @@
-Starting Scraper - Local time is 2026-08-17 17:23:53 CEST
+Starting Scraper - Local time is 2026-08-17 20:37:50 CEST
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
   Fetching Yelmo madrid...
   Fetching Yelmo barcelona...
-Yelmo scraped: found 530 VOSE sessions.
+Yelmo scraped: found 515 VOSE sessions.
 Scraping Cine Albéniz...
 Stopping Cine Albéniz scrape after 5 consecutive empty days.
 Cine Albéniz scraped: found 42 VOSE sessions.
 Scraping Kinépolis Granada & Nevada...
-Kinépolis Granada & Nevada: Scraped 157 VOSE sessions.
+Kinépolis Granada & Nevada: Scraped 159 VOSE sessions.
 Scraping Cines Renoir...
-Cines Renoir: Scraped 321 VOSE sessions.
+Cines Renoir: Scraped 388 VOSE sessions.
 Scraping Cines Golem...
-Cines Golem Madrid: Scraped 50 VOSE sessions.
-Loaded 645 Cinesa showtimes from cache.
+Cines Golem Madrid: Scraped 45 VOSE sessions.
+Loaded 591 Cinesa showtimes from cache.
 Scraping Ocine Serrallo...
 Ocine Serrallo: Scraped 2 sessions.
 Scraping mk2 Cinesur...
-  mk2 Cinesur Miramar: found 59 sessions.
+  mk2 Cinesur Miramar: found 57 sessions.
   mk2 Cinesur El Ingenio: found 3 sessions.
-  mk2 Cinesur Málaga Nostrum: found 41 sessions.
-mk2 Cinesur scraped: found 103 VOSE sessions.
-original language not found for 11 movies in Cinesa chain
+  mk2 Cinesur Málaga Nostrum: found 40 sessions.
+mk2 Cinesur scraped: found 100 VOSE sessions.
+original language not found for 10 movies in Cinesa chain
 original language not found for 29 movies in Cinesur chain
 original language not found for 1 movies in Golem chain
-Successfully generated api/v1/showtimes.json with 1850 listings.
-Appended 7 new showings to new_showtimes.json
+original language not found for 1 movies in Renoir chain
+Updated movie_title_translations.json
+Successfully generated api/v1/showtimes.json with 1842 listings.
+Appended 81 new showings to new_showtimes.json
 
 Resolving missing movie title translations...
-Found 29 movies without original names.
+Found 31 movies without original names.
 No TMDB_API_KEY detected. Using keyless TMDB scraper and Wikidata fallbacks.
 
 Searching for: '20 Años del MET en cines - Grabado MET 26-27'
@@ -57,6 +59,9 @@ Searching for: 'DIRTY DANCING [WILDER CINEMA]'
 
 Searching for: 'EL ACTIVISTA [CINE CON ORGULLO RENOIR]'
   -> Could not resolve original name for 'EL ACTIVISTA [CINE CON ORGULLO RENOIR]'
+
+Searching for: 'EL CORO DE PRAGA'
+  -> Found via TMDB Web: 'Sbormistr'
 
 Searching for: 'EL VIAJE DE CHIHIRO [WILDER CINEMA]'
   -> Could not resolve original name for 'EL VIAJE DE CHIHIRO [WILDER CINEMA]'
@@ -97,6 +102,9 @@ Searching for: 'MALAS CALLES [WILDER CINEMA]'
 Searching for: 'PARIS, TEXAS [WILDER CINEMA]'
   -> Could not resolve original name for 'PARIS, TEXAS [WILDER CINEMA]'
 
+Searching for: 'PROMETIDO EL CIELO'
+  -> Found via TMDB Web: 'Promis le ciel'
+
 Searching for: 'Preestreno a ciegas 13 agosto 2026'
   -> Could not resolve original name for 'Preestreno a ciegas 13 agosto 2026'
 
@@ -118,9 +126,9 @@ Searching for: 'VIAJE AL PAÍS DE LOS BLANCOS [PROYECTO VIRIDIANA]'
 Searching for: 'WHAT A FEELING [CINE CON ORGULLO RENOIR]'
   -> Could not resolve original name for 'WHAT A FEELING [CINE CON ORGULLO RENOIR]'
 
-No translations were updated.
+Successfully updated 2 translation(s) in movie_title_translations.json.
 
 === Cinesa Scraper Logs (Portugal VPN) ===
 Scraping Cinesa (Madrid & Barcelona)...
 Cinesa: Found 30 business dates with showtimes: ['2026-08-17', '2026-08-18', '2026-08-19', '2026-08-20', '2026-08-21', '2026-08-22', '2026-08-23', '2026-08-24', '2026-08-25', '2026-08-26', '2026-08-27', '2026-08-28', '2026-08-29', '2026-08-30', '2026-08-31', '2026-09-01', '2026-09-02', '2026-09-03', '2026-09-04', '2026-09-05', '2026-09-06', '2026-09-07', '2026-09-08', '2026-09-09', '2026-09-10', '2026-09-11', '2026-09-12', '2026-09-13', '2026-09-30', '2026-10-03']
-Cinesa (Madrid & Barcelona): Scraped 645 VOSE sessions.
+Cinesa (Madrid & Barcelona): Scraped 591 VOSE sessions.
