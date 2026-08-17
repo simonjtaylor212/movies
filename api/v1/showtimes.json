@@ -4005,32 +4005,6 @@
   },
   {
     "cinema": "Cine Yelmo La Vaguada",
-    "date": "2026-08-17",
-    "movie": "Spider-Man: Brand New Day",
-    "format": "2D",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "12:00",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1360&showtimeVistaId=19440",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-08-13 15:07:23"
-  },
-  {
-    "cinema": "Cine Yelmo La Vaguada",
-    "date": "2026-08-17",
-    "movie": "La Odisea",
-    "format": "2D",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "12:15",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1360&showtimeVistaId=19419",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-08-13 15:07:23"
-  },
-  {
-    "cinema": "Cine Yelmo La Vaguada",
     "date": "2026-08-18",
     "movie": "El final de Oak Street",
     "format": "2D",
@@ -15888,19 +15862,6 @@
   {
     "cinema": "Cinesa Parquesur",
     "date": "2026-08-17",
-    "movie": "La Odisea",
-    "format": "IMAX",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "14:25",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=005-65082",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-08-10 12:16:18"
-  },
-  {
-    "cinema": "Cinesa Parquesur",
-    "date": "2026-08-17",
     "movie": "Grease",
     "format": "2D",
     "language": "V.O.S.E.",
@@ -17145,32 +17106,6 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-08-11 18:01:01"
-  },
-  {
-    "cinema": "Cinesa Diagonal Mar",
-    "date": "2026-08-17",
-    "movie": "Spider-Man: Brand New Day",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "11:45",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=032-56748",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-08-11 21:00:55"
-  },
-  {
-    "cinema": "Cinesa Diagonal Mar",
-    "date": "2026-08-17",
-    "movie": "Grease",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "",
-    "time": "12:20",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=032-56789",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-08-11 21:00:55"
   },
   {
     "cinema": "Cinesa Diagonal Mar",
@@ -21196,11 +21131,37 @@
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "",
+    "time": "16:55",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-108992",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-08-17 14:40:51"
+  },
+  {
+    "cinema": "Cinesa Manoteras",
+    "date": "2026-08-21",
+    "movie": "La La Land",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "",
     "time": "19:35",
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-107663",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-08-10 12:16:18"
+  },
+  {
+    "cinema": "Cinesa Manoteras",
+    "date": "2026-08-21",
+    "movie": "La La Land",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "",
+    "time": "20:05",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-108993",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-08-17 14:40:51"
   },
   {
     "cinema": "Cinesa Manoteras",

@@ -543814,5 +543814,31 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-08-16 20:26:54"
+  },
+  {
+    "cinema": "Cinesa Manoteras",
+    "date": "2026-08-21",
+    "movie": "La La Land",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "",
+    "time": "16:55",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-108992",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-08-17 14:40:51"
+  },
+  {
+    "cinema": "Cinesa Manoteras",
+    "date": "2026-08-21",
+    "movie": "La La Land",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "",
+    "time": "20:05",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-108993",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-08-17 14:40:51"
   }
 ]
