@@ -563639,5 +563639,57 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-08-19 03:12:16"
+  },
+  {
+    "cinema": "mk2 Cinesur El Ingenio",
+    "date": "2026-08-21",
+    "movie": "Spider-Man: Brand New Day",
+    "format": "2D",
+    "language": "Original con subtítulos (VOSE)",
+    "original_language": "English",
+    "time": "22:25",
+    "booking_url": "https://cine.entradas.com/cine/velez-malaga/cinesur-el-ingenio/evento/123779/spider-man-brand-new-day?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-08-19 05:45:09"
+  },
+  {
+    "cinema": "mk2 Cinesur El Ingenio",
+    "date": "2026-08-22",
+    "movie": "Spider-Man: Brand New Day",
+    "format": "2D",
+    "language": "Original con subtítulos (VOSE)",
+    "original_language": "English",
+    "time": "22:25",
+    "booking_url": "https://cine.entradas.com/cine/velez-malaga/cinesur-el-ingenio/evento/123809/spider-man-brand-new-day?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-08-19 05:45:09"
+  },
+  {
+    "cinema": "mk2 Cinesur El Ingenio",
+    "date": "2026-08-23",
+    "movie": "Spider-Man: Brand New Day",
+    "format": "2D",
+    "language": "Original con subtítulos (VOSE)",
+    "original_language": "English",
+    "time": "22:25",
+    "booking_url": "https://cine.entradas.com/cine/velez-malaga/cinesur-el-ingenio/evento/123839/spider-man-brand-new-day?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-08-19 05:45:09"
+  },
+  {
+    "cinema": "mk2 Cinesur El Ingenio",
+    "date": "2026-08-24",
+    "movie": "Spider-Man: Brand New Day",
+    "format": "2D",
+    "language": "Original con subtítulos (VOSE)",
+    "original_language": "English",
+    "time": "22:25",
+    "booking_url": "https://cine.entradas.com/cine/velez-malaga/cinesur-el-ingenio/evento/123869/spider-man-brand-new-day?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-08-19 05:45:09"
   }
 ]
