@@ -1,19 +1,19 @@
-Starting Scraper - Local time is 2026-08-19 11:34:37 CEST
+Starting Scraper - Local time is 2026-08-19 14:43:01 CEST
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
   Fetching Yelmo madrid...
   Fetching Yelmo barcelona...
-Yelmo scraped: found 709 VOSE sessions.
+Yelmo scraped: found 707 VOSE sessions.
 Scraping Cine Albéniz...
 Stopping Cine Albéniz scrape after 5 consecutive empty days.
 Cine Albéniz scraped: found 20 VOSE sessions.
 Scraping Kinépolis Granada & Nevada...
-Kinépolis Granada & Nevada: Scraped 216 VOSE sessions.
+Kinépolis Granada & Nevada: Scraped 247 VOSE sessions.
 Scraping Cines Renoir...
 Cines Renoir: Scraped 555 VOSE sessions.
 Scraping Cines Golem...
 Cines Golem Madrid: Scraped 102 VOSE sessions.
-Loaded 953 Cinesa showtimes from cache.
+Loaded 945 Cinesa showtimes from cache.
 Scraping Ocine Serrallo...
 Ocine Serrallo: Scraped 2 sessions.
 Scraping mk2 Cinesur...
@@ -25,11 +25,12 @@ original language not found for 14 movies in Cinesa chain
 original language not found for 29 movies in Cinesur chain
 original language not found for 1 movies in Golem chain
 original language not found for 1 movies in Renoir chain
-Successfully generated api/v1/showtimes.json with 2677 listings.
-Appended 961 new showings to new_showtimes.json
+Updated movie_title_translations.json
+Successfully generated api/v1/showtimes.json with 2698 listings.
+Appended 33 new showings to new_showtimes.json
 
 Resolving missing movie title translations...
-Found 30 movies without original names.
+Found 32 movies without original names.
 No TMDB_API_KEY detected. Using keyless TMDB scraper and Wikidata fallbacks.
 
 Searching for: '20 Años del MET en cines - Grabado MET 26-27'
@@ -86,6 +87,9 @@ Searching for: 'LADRÓN DE BICICLETAS [WILDER CINEMA]'
 Searching for: 'LAWRENCE DE ARABIA [WILDER CINEMA]'
   -> Could not resolve original name for 'LAWRENCE DE ARABIA [WILDER CINEMA]'
 
+Searching for: 'La Constelación del Perro'
+  -> Found via TMDB Web: 'The Dog Stars'
+
 Searching for: 'La casa del bosque 1'
   -> Could not resolve original name for 'La casa del bosque 1'
 
@@ -113,6 +117,9 @@ Searching for: 'The Fast & The Furious 25 aniversario'
 Searching for: 'The Fast & The Furious 25 niversario'
   -> Could not resolve original name for 'The Fast & The Furious 25 niversario'
 
+Searching for: 'Una Noche al Año'
+  -> Found via TMDB Web: 'One Night Only'
+
 Searching for: 'VIAJE AL PAÍS DE LOS BLANCOS [PROYECTO VIRIDIANA]'
   -> Could not resolve original name for 'VIAJE AL PAÍS DE LOS BLANCOS [PROYECTO VIRIDIANA]'
 
@@ -122,9 +129,9 @@ Searching for: 'WHAT A FEELING [CINE CON ORGULLO RENOIR]'
 Searching for: 'es GHOST: 2 Big To Rig'
   -> Could not resolve original name for 'es GHOST: 2 Big To Rig'
 
-No translations were updated.
+Successfully updated 2 translation(s) in movie_title_translations.json.
 
 === Cinesa Scraper Logs (Portugal VPN) ===
 Scraping Cinesa (Madrid & Barcelona)...
 Cinesa: Found 28 business dates with showtimes: ['2026-08-19', '2026-08-20', '2026-08-21', '2026-08-22', '2026-08-23', '2026-08-24', '2026-08-25', '2026-08-26', '2026-08-27', '2026-08-28', '2026-08-29', '2026-08-30', '2026-08-31', '2026-09-01', '2026-09-02', '2026-09-03', '2026-09-04', '2026-09-05', '2026-09-06', '2026-09-07', '2026-09-08', '2026-09-09', '2026-09-10', '2026-09-11', '2026-09-12', '2026-09-13', '2026-09-30', '2026-10-03']
-Cinesa (Madrid & Barcelona): Scraped 953 VOSE sessions.
+Cinesa (Madrid & Barcelona): Scraped 945 VOSE sessions.
