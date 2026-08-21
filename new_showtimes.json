@@ -591784,5 +591784,31 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-08-21 03:12:37"
+  },
+  {
+    "cinema": "Kinépolis Madrid Diversia",
+    "date": "2026-08-26",
+    "movie": "El motín",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "22:30",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/132900/0/KALCO/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-08-21 11:35:19"
+  },
+  {
+    "cinema": "Kinépolis Madrid Diversia",
+    "date": "2026-08-27",
+    "movie": "El motín",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "22:30",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/132949/0/KALCO/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-08-21 11:35:19"
   }
 ]
