@@ -1,4 +1,4 @@
-Starting Scraper - Local time is 2026-08-21 03:12:37 CEST
+Starting Scraper - Local time is 2026-08-21 05:49:53 CEST
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
   Fetching Yelmo madrid...
@@ -26,7 +26,7 @@ original language not found for 13 movies in Cinesa chain
 original language not found for 29 movies in Cinesur chain
 original language not found for 1 movies in Renoir chain
 Successfully generated api/v1/showtimes.json with 2377 listings.
-Appended 16 new showings to new_showtimes.json
+No new showings found.
 
 Resolving missing movie title translations...
 Found 30 movies without original names.
