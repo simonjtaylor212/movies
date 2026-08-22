@@ -593435,5 +593435,70 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-08-22 17:19:51"
+  },
+  {
+    "cinema": "Cine Yelmo Ideal",
+    "date": "2026-08-23",
+    "movie": "La Odisea",
+    "format": "2D",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "12:00",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=34886",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-08-22 23:20:40"
+  },
+  {
+    "cinema": "Cine Yelmo Ideal",
+    "date": "2026-08-23",
+    "movie": "La Odisea",
+    "format": "2D",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "15:25",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=34866",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-08-22 23:20:40"
+  },
+  {
+    "cinema": "Cine Yelmo Ideal",
+    "date": "2026-08-23",
+    "movie": "La Odisea",
+    "format": "2D",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "18:50",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=34872",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-08-22 23:20:40"
+  },
+  {
+    "cinema": "Cinesa LUXE Equinoccio",
+    "date": "2026-08-26",
+    "movie": "La Constelación del Perro",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "21:25",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=026-64246",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-08-22 23:20:40"
+  },
+  {
+    "cinema": "Cinesa LUXE Equinoccio",
+    "date": "2026-08-27",
+    "movie": "La Constelación del Perro",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "21:25",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=026-64271",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-08-22 23:20:40"
   }
 ]
