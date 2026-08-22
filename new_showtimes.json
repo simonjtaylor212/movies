@@ -593370,5 +593370,70 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-08-22 03:08:23"
+  },
+  {
+    "cinema": "Cine Yelmo Ideal",
+    "date": "2026-08-23",
+    "movie": "Insidious: Fuera del más allá",
+    "format": "2D",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "16:40",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=34862",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-08-22 17:19:51"
+  },
+  {
+    "cinema": "Cine Yelmo Ideal",
+    "date": "2026-08-23",
+    "movie": "Insidious: Fuera del más allá",
+    "format": "2D",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "19:05",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=34873",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-08-22 17:19:51"
+  },
+  {
+    "cinema": "Cine Yelmo Ideal",
+    "date": "2026-08-24",
+    "movie": "Insidious: Fuera del más allá",
+    "format": "2D",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "19:10",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=34847",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-08-22 17:19:51"
+  },
+  {
+    "cinema": "Cine Yelmo Ideal",
+    "date": "2026-08-24",
+    "movie": "Minions & Monsters",
+    "format": "2D",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "15:55",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=34826",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-08-22 17:19:51"
+  },
+  {
+    "cinema": "Cine Yelmo Ideal",
+    "date": "2026-08-25",
+    "movie": "Minions & Monsters",
+    "format": "2D",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "15:55",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=34913",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-08-22 17:19:51"
   }
 ]
