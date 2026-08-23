@@ -593500,5 +593500,83 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-08-22 23:20:40"
+  },
+  {
+    "cinema": "Kinépolis Granada",
+    "date": "2026-09-11",
+    "movie": "Prácticamente magia 2",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "21:00",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/169086/0/KGRAN/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-08-23 17:21:14"
+  },
+  {
+    "cinema": "Kinépolis Granada",
+    "date": "2026-09-12",
+    "movie": "Prácticamente magia 2",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "21:00",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/169091/0/KGRAN/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-08-23 17:21:14"
+  },
+  {
+    "cinema": "Kinépolis Granada",
+    "date": "2026-09-13",
+    "movie": "Prácticamente magia 2",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "21:00",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/169096/0/KGRAN/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-08-23 17:21:14"
+  },
+  {
+    "cinema": "Kinépolis Granada Nevada",
+    "date": "2026-09-12",
+    "movie": "Prácticamente magia 2",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "12:20",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/100871/0/KNEVA/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-08-23 17:21:14"
+  },
+  {
+    "cinema": "Kinépolis Granada Nevada",
+    "date": "2026-09-13",
+    "movie": "Prácticamente magia 2",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "12:20",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/100874/0/KNEVA/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-08-23 17:21:14"
+  },
+  {
+    "cinema": "Cinesa Las Rozas",
+    "date": "2026-08-28",
+    "movie": "La Odisea",
+    "format": "IMAX",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "14:25",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=034-115448",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-08-23 17:21:14"
   }
 ]
