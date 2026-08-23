@@ -593578,5 +593578,31 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-08-23 17:21:14"
+  },
+  {
+    "cinema": "Cinesa Diagonal Mar",
+    "date": "2026-10-07",
+    "movie": "Queen Budapest",
+    "format": "IMAX",
+    "language": "V.O.S.E.",
+    "original_language": "",
+    "time": "19:00",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=032-57231",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-08-23 23:20:42"
+  },
+  {
+    "cinema": "Cinesa Diagonal Mar",
+    "date": "2026-10-10",
+    "movie": "Queen Budapest",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "",
+    "time": "22:35",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=032-57232",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-08-23 23:20:42"
   }
 ]
