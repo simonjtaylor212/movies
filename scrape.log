@@ -1,4 +1,4 @@
-Starting Scraper - Local time is 2026-08-23 08:38:57 CEST
+Starting Scraper - Local time is 2026-08-23 11:26:20 CEST
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
   Fetching Yelmo madrid...
@@ -13,7 +13,7 @@ Scraping Cines Renoir...
 Cines Renoir: Scraped 242 VOSE sessions.
 Scraping Cines Golem...
 Cines Golem Madrid: Scraped 45 VOSE sessions.
-Loaded 683 Cinesa showtimes from cache.
+Loaded 681 Cinesa showtimes from cache.
 Scraping Ocine Serrallo...
 Ocine Serrallo: Scraped 1 sessions.
 Scraping mk2 Cinesur...
@@ -25,7 +25,7 @@ original language not found for 1 movies in Albéniz chain
 original language not found for 11 movies in Cinesa chain
 original language not found for 29 movies in Cinesur chain
 original language not found for 1 movies in Renoir chain
-Successfully generated api/v1/showtimes.json with 1806 listings.
+Successfully generated api/v1/showtimes.json with 1804 listings.
 No new showings found.
 
 Resolving missing movie title translations...
@@ -127,4 +127,4 @@ No translations were updated.
 === Cinesa Scraper Logs (Portugal VPN) ===
 Scraping Cinesa (Madrid & Barcelona)...
 Cinesa: Found 28 business dates with showtimes: ['2026-08-23', '2026-08-24', '2026-08-25', '2026-08-26', '2026-08-27', '2026-08-28', '2026-08-29', '2026-08-30', '2026-08-31', '2026-09-01', '2026-09-02', '2026-09-03', '2026-09-04', '2026-09-05', '2026-09-06', '2026-09-07', '2026-09-08', '2026-09-09', '2026-09-10', '2026-09-11', '2026-09-12', '2026-09-13', '2026-09-14', '2026-09-15', '2026-09-16', '2026-09-17', '2026-09-30', '2026-10-03']
-Cinesa (Madrid & Barcelona): Scraped 683 VOSE sessions.
+Cinesa (Madrid & Barcelona): Scraped 681 VOSE sessions.
