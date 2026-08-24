@@ -1,32 +1,38 @@
-Starting Scraper - Local time is 2026-08-24 17:37:45 CEST
+Starting Scraper - Local time is 2026-08-24 20:37:59 CEST
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
   Fetching Yelmo madrid...
   Fetching Yelmo barcelona...
-Yelmo scraped: found 411 VOSE sessions.
+Yelmo scraped: found 433 VOSE sessions.
 Scraping Cine Albéniz...
 Stopping Cine Albéniz scrape after 5 consecutive empty days.
 Cine Albéniz scraped: found 40 VOSE sessions.
 Scraping Kinépolis Granada & Nevada...
-Kinépolis Granada & Nevada: Scraped 166 VOSE sessions.
+Kinépolis Granada & Nevada: Scraped 162 VOSE sessions.
 Scraping Cines Renoir...
-Cines Renoir: Scraped 423 VOSE sessions.
+Cines Renoir: Scraped 863 VOSE sessions.
 Scraping Cines Golem...
-Cines Golem Madrid: Scraped 25 VOSE sessions.
-Loaded 0 Cinesa showtimes from cache.
+Cines Golem Madrid: Scraped 19 VOSE sessions.
+Loaded 494 Cinesa showtimes from cache.
 Scraping Ocine Serrallo...
 Ocine Serrallo: Scraped 1 sessions.
 Scraping mk2 Cinesur...
-  mk2 Cinesur Miramar: found 41 sessions.
-  mk2 Cinesur El Ingenio: found 2 sessions.
-  mk2 Cinesur Málaga Nostrum: found 31 sessions.
-mk2 Cinesur scraped: found 74 VOSE sessions.
+Error fetching Cinesur miramar-fuengirola: HTTPSConnectionPool(host='www.mk2cines.es', port=443): Read timed out. (read timeout=15)
+  mk2 Cinesur Miramar: found 0 sessions.
+Error fetching Cinesur el-ingenio-velez-malaga: HTTPSConnectionPool(host='mk2cines.es', port=443): Read timed out. (read timeout=15)
+  mk2 Cinesur El Ingenio: found 0 sessions.
+Error fetching Cinesur malaga-nostrum-malaga: HTTPSConnectionPool(host='mk2cines.es', port=443): Max retries exceeded with url: /es/malaga-nostrum-malaga/vose (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))
+  mk2 Cinesur Málaga Nostrum: found 0 sessions.
+mk2 Cinesur scraped: found 0 VOSE sessions.
+Warning: cinesur scraper returned 0 showings. Using fallback data.
+Recovered 74 cinesur showings from previous run.
 original language not found for 1 movies in Albéniz chain
+original language not found for 8 movies in Cinesa chain
 original language not found for 29 movies in Cinesur chain
 original language not found for 1 movies in Renoir chain
 Updated movie_title_translations.json
-Successfully generated api/v1/showtimes.json with 1140 listings.
-Appended 266 new showings to new_showtimes.json
+Successfully generated api/v1/showtimes.json with 2086 listings.
+Appended 973 new showings to new_showtimes.json
 
 Resolving missing movie title translations...
 Found 31 movies without original names.
@@ -59,14 +65,14 @@ Searching for: 'DIRTY DANCING [WILDER CINEMA]'
 Searching for: 'EL ACTIVISTA [CINE CON ORGULLO RENOIR]'
   -> Could not resolve original name for 'EL ACTIVISTA [CINE CON ORGULLO RENOIR]'
 
-Searching for: 'EL SER QUERIDO'
-  -> Found via TMDB Web: 'El ser querido'
-
 Searching for: 'EL VIAJE DE CHIHIRO [WILDER CINEMA]'
   -> Could not resolve original name for 'EL VIAJE DE CHIHIRO [WILDER CINEMA]'
 
 Searching for: 'ENCUENTROS EN LA TERCERA FASE [WILDER CINEMA]'
   -> Could not resolve original name for 'ENCUENTROS EN LA TERCERA FASE [WILDER CINEMA]'
+
+Searching for: 'ERUPCJA'
+  -> Found via TMDB Web: 'Erupcja'
 
 Searching for: 'Harry Potter y La Piedra Filosofal 25th Aniv)'
   -> Could not resolve original name for 'Harry Potter y La Piedra Filosofal 25th Aniv)'
@@ -129,5 +135,6 @@ Successfully updated 1 translation(s) in movie_title_translations.json.
 
 === Cinesa Scraper Logs (Portugal VPN) ===
 Scraping Cinesa (Madrid & Barcelona)...
-Error: Cinesa home returned status 403
-Error: Could not retrieve Cinesa authentication token.
+Cinesa: Found 29 business dates with showtimes: ['2026-08-24', '2026-08-25', '2026-08-26', '2026-08-27', '2026-08-28', '2026-08-29', '2026-08-30', '2026-08-31', '2026-09-01', '2026-09-02', '2026-09-03', '2026-09-04', '2026-09-05', '2026-09-06', '2026-09-07', '2026-09-08', '2026-09-09', '2026-09-10', '2026-09-11', '2026-09-12', '2026-09-13', '2026-09-14', '2026-09-15', '2026-09-16', '2026-09-17', '2026-09-30', '2026-10-03', '2026-10-07', '2026-10-10']
+Error: Fetching showtimes for 2026-08-24 returned status 404
+Cinesa (Madrid & Barcelona): Scraped 494 VOSE sessions.
