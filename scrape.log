@@ -1,33 +1,32 @@
-Starting Scraper - Local time is 2026-08-24 14:46:31 CEST
+Starting Scraper - Local time is 2026-08-24 17:37:45 CEST
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
   Fetching Yelmo madrid...
   Fetching Yelmo barcelona...
-Yelmo scraped: found 416 VOSE sessions.
+Yelmo scraped: found 411 VOSE sessions.
 Scraping Cine Albéniz...
 Stopping Cine Albéniz scrape after 5 consecutive empty days.
 Cine Albéniz scraped: found 40 VOSE sessions.
 Scraping Kinépolis Granada & Nevada...
-Kinépolis Granada & Nevada: Scraped 159 VOSE sessions.
+Kinépolis Granada & Nevada: Scraped 166 VOSE sessions.
 Scraping Cines Renoir...
-Cines Renoir: Scraped 164 VOSE sessions.
+Cines Renoir: Scraped 423 VOSE sessions.
 Scraping Cines Golem...
-Cines Golem Madrid: Scraped 30 VOSE sessions.
-Loaded 568 Cinesa showtimes from cache.
+Cines Golem Madrid: Scraped 25 VOSE sessions.
+Loaded 0 Cinesa showtimes from cache.
 Scraping Ocine Serrallo...
 Ocine Serrallo: Scraped 1 sessions.
 Scraping mk2 Cinesur...
-  mk2 Cinesur Miramar: found 43 sessions.
+  mk2 Cinesur Miramar: found 41 sessions.
   mk2 Cinesur El Ingenio: found 2 sessions.
   mk2 Cinesur Málaga Nostrum: found 31 sessions.
-mk2 Cinesur scraped: found 76 VOSE sessions.
+mk2 Cinesur scraped: found 74 VOSE sessions.
 original language not found for 1 movies in Albéniz chain
-original language not found for 11 movies in Cinesa chain
 original language not found for 29 movies in Cinesur chain
 original language not found for 1 movies in Renoir chain
 Updated movie_title_translations.json
-Successfully generated api/v1/showtimes.json with 1454 listings.
-Appended 104 new showings to new_showtimes.json
+Successfully generated api/v1/showtimes.json with 1140 listings.
+Appended 266 new showings to new_showtimes.json
 
 Resolving missing movie title translations...
 Found 31 movies without original names.
@@ -60,14 +59,14 @@ Searching for: 'DIRTY DANCING [WILDER CINEMA]'
 Searching for: 'EL ACTIVISTA [CINE CON ORGULLO RENOIR]'
   -> Could not resolve original name for 'EL ACTIVISTA [CINE CON ORGULLO RENOIR]'
 
+Searching for: 'EL SER QUERIDO'
+  -> Found via TMDB Web: 'El ser querido'
+
 Searching for: 'EL VIAJE DE CHIHIRO [WILDER CINEMA]'
   -> Could not resolve original name for 'EL VIAJE DE CHIHIRO [WILDER CINEMA]'
 
 Searching for: 'ENCUENTROS EN LA TERCERA FASE [WILDER CINEMA]'
   -> Could not resolve original name for 'ENCUENTROS EN LA TERCERA FASE [WILDER CINEMA]'
-
-Searching for: 'Harry Potter Y La Piedra Filosofal (25 aniv)'
-  -> Found via TMDB Web: 'Harry Potter and the Philosopher's Stone'
 
 Searching for: 'Harry Potter y La Piedra Filosofal 25th Aniv)'
   -> Could not resolve original name for 'Harry Potter y La Piedra Filosofal 25th Aniv)'
@@ -130,5 +129,5 @@ Successfully updated 1 translation(s) in movie_title_translations.json.
 
 === Cinesa Scraper Logs (Portugal VPN) ===
 Scraping Cinesa (Madrid & Barcelona)...
-Cinesa: Found 29 business dates with showtimes: ['2026-08-24', '2026-08-25', '2026-08-26', '2026-08-27', '2026-08-28', '2026-08-29', '2026-08-30', '2026-08-31', '2026-09-01', '2026-09-02', '2026-09-03', '2026-09-04', '2026-09-05', '2026-09-06', '2026-09-07', '2026-09-08', '2026-09-09', '2026-09-10', '2026-09-11', '2026-09-12', '2026-09-13', '2026-09-14', '2026-09-15', '2026-09-16', '2026-09-17', '2026-09-30', '2026-10-03', '2026-10-07', '2026-10-10']
-Cinesa (Madrid & Barcelona): Scraped 568 VOSE sessions.
+Error: Cinesa home returned status 403
+Error: Could not retrieve Cinesa authentication token.
