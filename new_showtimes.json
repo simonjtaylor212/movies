@@ -593708,5 +593708,18 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-08-24 03:11:38"
+  },
+  {
+    "cinema": "Cinesa Las Rozas",
+    "date": "2026-08-27",
+    "movie": "La Odisea",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "21:20",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=034-115583",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-08-24 08:55:16"
   }
 ]

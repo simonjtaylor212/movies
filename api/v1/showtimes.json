@@ -7633,19 +7633,6 @@
   {
     "cinema": "Kinépolis Madrid Diversia",
     "date": "2026-08-24",
-    "movie": "La Odisea",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "19:10",
-    "booking_url": "https://kinepolis.es/direct-vista-redirect/132847/0/KALCO/0",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-08-18 23:23:15"
-  },
-  {
-    "cinema": "Kinépolis Madrid Diversia",
-    "date": "2026-08-24",
     "movie": "Spider-Man: Brand New Day",
     "format": "2D",
     "language": "V.O.S.E.",
@@ -7691,19 +7678,6 @@
     "original_language": "English",
     "time": "19:00",
     "booking_url": "https://kinepolis.es/direct-vista-redirect/132906/0/KALCO/0",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-08-18 23:23:15"
-  },
-  {
-    "cinema": "Kinépolis Madrid Diversia",
-    "date": "2026-08-25",
-    "movie": "La Odisea",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "19:10",
-    "booking_url": "https://kinepolis.es/direct-vista-redirect/132980/0/KALCO/0",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-08-18 23:23:15"
@@ -15637,6 +15611,19 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-08-20 20:37:03"
+  },
+  {
+    "cinema": "Cinesa Las Rozas",
+    "date": "2026-08-27",
+    "movie": "La Odisea",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "21:20",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=034-115583",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-08-24 08:55:16"
   },
   {
     "cinema": "Cinesa Las Rozas",
