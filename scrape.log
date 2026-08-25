@@ -1,32 +1,32 @@
-Starting Scraper - Local time is 2026-08-25 14:44:17 CEST
+Starting Scraper - Local time is 2026-08-25 17:40:57 CEST
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
   Fetching Yelmo madrid...
   Fetching Yelmo barcelona...
-Yelmo scraped: found 728 VOSE sessions.
+Yelmo scraped: found 750 VOSE sessions.
 Scraping Cine Albéniz...
 Stopping Cine Albéniz scrape after 5 consecutive empty days.
 Cine Albéniz scraped: found 91 VOSE sessions.
 Scraping Kinépolis Granada & Nevada...
-Kinépolis Granada & Nevada: Scraped 154 VOSE sessions.
+Kinépolis Granada & Nevada: Scraped 147 VOSE sessions.
 Scraping Cines Renoir...
 Cines Renoir: Scraped 858 VOSE sessions.
 Scraping Cines Golem...
-Cines Golem Madrid: Scraped 15 VOSE sessions.
-Loaded 501 Cinesa showtimes from cache.
+Cines Golem Madrid: Scraped 30 VOSE sessions.
+Loaded 533 Cinesa showtimes from cache.
 Scraping Ocine Serrallo...
 Ocine Serrallo: Scraped 3 sessions.
 Scraping mk2 Cinesur...
-  mk2 Cinesur Miramar: found 63 sessions.
+  mk2 Cinesur Miramar: found 61 sessions.
   mk2 Cinesur El Ingenio: found 1 sessions.
   mk2 Cinesur Málaga Nostrum: found 32 sessions.
-mk2 Cinesur scraped: found 96 VOSE sessions.
+mk2 Cinesur scraped: found 94 VOSE sessions.
 original language not found for 1 movies in Albéniz chain
 original language not found for 8 movies in Cinesa chain
 original language not found for 29 movies in Cinesur chain
 original language not found for 1 movies in Renoir chain
-Successfully generated api/v1/showtimes.json with 2446 listings.
-Appended 134 new showings to new_showtimes.json
+Successfully generated api/v1/showtimes.json with 2506 listings.
+Appended 100 new showings to new_showtimes.json
 
 Resolving missing movie title translations...
 Found 30 movies without original names.
@@ -127,4 +127,4 @@ No translations were updated.
 === Cinesa Scraper Logs (Portugal VPN) ===
 Scraping Cinesa (Madrid & Barcelona)...
 Cinesa: Found 29 business dates with showtimes: ['2026-08-25', '2026-08-26', '2026-08-27', '2026-08-28', '2026-08-29', '2026-08-30', '2026-08-31', '2026-09-01', '2026-09-02', '2026-09-03', '2026-09-04', '2026-09-05', '2026-09-06', '2026-09-07', '2026-09-08', '2026-09-09', '2026-09-10', '2026-09-11', '2026-09-12', '2026-09-13', '2026-09-14', '2026-09-15', '2026-09-16', '2026-09-17', '2026-09-20', '2026-09-30', '2026-10-03', '2026-10-07', '2026-10-10']
-Cinesa (Madrid & Barcelona): Scraped 501 VOSE sessions.
+Cinesa (Madrid & Barcelona): Scraped 533 VOSE sessions.
