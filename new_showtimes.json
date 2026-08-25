@@ -616627,5 +616627,31 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-08-25 03:10:20"
+  },
+  {
+    "cinema": "Ocine Serrallo",
+    "date": "2026-08-27",
+    "movie": "La Constelación del Perro",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "20:20",
+    "booking_url": "https://tickets.ocineserrallo.es/compra/show_numerada_confirmation.php?peli=10668&plan=186843&sala=4&URLinici=https%3A%2F%2Focineserrallo.es%2F%3Ftask%3Dcartelera",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-08-25 11:34:08"
+  },
+  {
+    "cinema": "Ocine Serrallo",
+    "date": "2026-09-03",
+    "movie": "La Constelación del Perro",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "20:20",
+    "booking_url": "https://tickets.ocineserrallo.es/compra/show_numerada_confirmation.php?peli=10668&plan=186844&sala=4&URLinici=https%3A%2F%2Focineserrallo.es%2F%3Ftask%3Dcartelera",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-08-25 11:34:08"
   }
 ]
