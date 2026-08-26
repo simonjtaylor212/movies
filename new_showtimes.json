@@ -630238,5 +630238,57 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-08-26 14:49:28"
+  },
+  {
+    "cinema": "Kinépolis Madrid Ciudad de la Imagen",
+    "date": "2026-08-28",
+    "movie": "Harry Potter y la piedra filosofal",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "16:00",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/219239/0/KMAD/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-08-26 18:17:29"
+  },
+  {
+    "cinema": "Cinesa Diagonal",
+    "date": "2026-08-27",
+    "movie": "La Odisea",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "20:20",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=012-53840",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-08-26 18:17:29"
+  },
+  {
+    "cinema": "Cinesa Diagonal",
+    "date": "2026-08-27",
+    "movie": "The Fast and the Furious",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "",
+    "time": "21:55",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=012-53838",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-08-26 18:17:29"
+  },
+  {
+    "cinema": "Cinesa SOM Multiespai",
+    "date": "2026-08-27",
+    "movie": "Spider-Man: Brand New Day",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "17:15",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=017-59007",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-08-26 18:17:29"
   }
 ]
