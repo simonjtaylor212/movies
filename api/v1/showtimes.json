@@ -7307,19 +7307,6 @@
   },
   {
     "cinema": "Cine Yelmo Planetocio",
-    "date": "2026-08-26",
-    "movie": "La Odisea",
-    "format": "2D",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "21:40",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=788&showtimeVistaId=31630",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-08-25 20:37:46"
-  },
-  {
-    "cinema": "Cine Yelmo Planetocio",
     "date": "2026-08-27",
     "movie": "La Odisea",
     "format": "2D",
@@ -25209,19 +25196,6 @@
   {
     "cinema": "Cinesa Parquesur",
     "date": "2026-08-26",
-    "movie": "La Odisea",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "14:25",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=005-65442",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-08-24 20:37:59"
-  },
-  {
-    "cinema": "Cinesa Parquesur",
-    "date": "2026-08-26",
     "movie": "La Constelación del Perro",
     "format": "2D",
     "language": "V.O.S.E.",
@@ -25527,45 +25501,6 @@
     "original_language": "English",
     "time": "22:30",
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=048-53022",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-08-24 20:37:59"
-  },
-  {
-    "cinema": "Cinesa Méndez Álvaro",
-    "date": "2026-08-26",
-    "movie": "Spider-Man: Brand New Day",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "12:05",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=123-90065",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-08-24 20:37:59"
-  },
-  {
-    "cinema": "Cinesa Méndez Álvaro",
-    "date": "2026-08-26",
-    "movie": "La Constelación del Perro",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "12:15",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=123-90061",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-08-24 20:37:59"
-  },
-  {
-    "cinema": "Cinesa Méndez Álvaro",
-    "date": "2026-08-26",
-    "movie": "Insidious: Fuera del más allá",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "12:35",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=123-90067",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-08-24 20:37:59"
@@ -26132,32 +26067,6 @@
   {
     "cinema": "Cinesa Diagonal Mar",
     "date": "2026-08-26",
-    "movie": "Una Noche al Año",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "12:25",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=032-57280",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-08-24 20:37:59"
-  },
-  {
-    "cinema": "Cinesa Diagonal Mar",
-    "date": "2026-08-26",
-    "movie": "La Constelación del Perro",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "12:30",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=032-57276",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-08-24 20:37:59"
-  },
-  {
-    "cinema": "Cinesa Diagonal Mar",
-    "date": "2026-08-26",
     "movie": "La Odisea",
     "format": "IMAX",
     "language": "V.O.S.E.",
@@ -26302,7 +26211,7 @@
     "cinema": "Cinesa Parquesur",
     "date": "2026-08-27",
     "movie": "La Odisea",
-    "format": "2D",
+    "format": "IMAX",
     "language": "V.O.S.E.",
     "original_language": "English",
     "time": "21:45",
@@ -27430,19 +27339,6 @@
     "date_added": "2026-08-24 20:37:59"
   },
   {
-    "cinema": "Cinesa LUXE Barnasud",
-    "date": "2026-08-27",
-    "movie": "La Constelación del Perro",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "22:30",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=040-37004",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-08-24 20:37:59"
-  },
-  {
     "cinema": "Cinesa LUXE Loranca",
     "date": "2026-08-28",
     "movie": "La Constelación del Perro",
@@ -27459,7 +27355,7 @@
     "cinema": "Cinesa Parquesur",
     "date": "2026-08-28",
     "movie": "La Odisea",
-    "format": "2D",
+    "format": "IMAX",
     "language": "V.O.S.E.",
     "original_language": "English",
     "time": "21:45",
@@ -27615,7 +27511,7 @@
     "cinema": "Cinesa Las Rozas",
     "date": "2026-08-28",
     "movie": "La Odisea",
-    "format": "IMAX",
+    "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
     "time": "14:25",
@@ -27719,7 +27615,7 @@
     "cinema": "Cinesa Las Rozas",
     "date": "2026-08-28",
     "movie": "La Odisea",
-    "format": "IMAX",
+    "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
     "time": "21:45",
@@ -28850,7 +28746,7 @@
     "cinema": "Cinesa Las Rozas",
     "date": "2026-08-29",
     "movie": "La Odisea",
-    "format": "IMAX",
+    "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
     "time": "18:05",
@@ -30293,7 +30189,7 @@
     "cinema": "Cinesa Las Rozas",
     "date": "2026-08-30",
     "movie": "La Odisea",
-    "format": "IMAX",
+    "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
     "time": "14:25",
@@ -30397,7 +30293,7 @@
     "cinema": "Cinesa Las Rozas",
     "date": "2026-08-30",
     "movie": "La Odisea",
-    "format": "IMAX",
+    "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
     "time": "21:45",
@@ -32607,7 +32503,7 @@
     "cinema": "Cinesa Las Rozas",
     "date": "2026-09-01",
     "movie": "La Odisea",
-    "format": "IMAX",
+    "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
     "time": "21:45",
@@ -33634,7 +33530,7 @@
     "cinema": "Cinesa Las Rozas",
     "date": "2026-09-02",
     "movie": "La Odisea",
-    "format": "IMAX",
+    "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
     "time": "22:20",
@@ -34674,7 +34570,7 @@
     "cinema": "Cinesa Las Rozas",
     "date": "2026-09-03",
     "movie": "La Odisea",
-    "format": "IMAX",
+    "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
     "time": "21:45",
@@ -35830,7 +35726,7 @@
   {
     "cinema": "Cinesa LUXE Loranca",
     "date": "2026-09-11",
-    "movie": "Don't Look Back In Anger",
+    "movie": "OASIS: DON´T LOOK BACK IN ANGER",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
@@ -35838,7 +35734,7 @@
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=001-56859",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-08-24 20:37:59"
+    "date_added": "2026-08-26 14:49:28"
   },
   {
     "cinema": "Cinesa Parquesur",
@@ -35856,7 +35752,7 @@
   {
     "cinema": "Cinesa Parquesur",
     "date": "2026-09-11",
-    "movie": "Don't Look Back In Anger",
+    "movie": "OASIS: DON´T LOOK BACK IN ANGER",
     "format": "IMAX",
     "language": "V.O.S.E.",
     "original_language": "English",
@@ -35864,7 +35760,7 @@
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=005-65677",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-08-24 20:37:59"
+    "date_added": "2026-08-26 14:49:28"
   },
   {
     "cinema": "Cinesa Parquesur",
@@ -35882,7 +35778,7 @@
   {
     "cinema": "Cinesa Las Rosas",
     "date": "2026-09-11",
-    "movie": "Don't Look Back In Anger",
+    "movie": "OASIS: DON´T LOOK BACK IN ANGER",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
@@ -35890,12 +35786,12 @@
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=015-43502",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-08-24 20:37:59"
+    "date_added": "2026-08-26 14:49:28"
   },
   {
     "cinema": "Cinesa Proyecciones",
     "date": "2026-09-11",
-    "movie": "Don't Look Back In Anger",
+    "movie": "OASIS: DON´T LOOK BACK IN ANGER",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
@@ -35903,12 +35799,12 @@
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=018-42106",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-08-24 20:37:59"
+    "date_added": "2026-08-26 14:49:28"
   },
   {
     "cinema": "Cinesa LUXE Intu Xanadú",
     "date": "2026-09-11",
-    "movie": "Don't Look Back In Anger",
+    "movie": "OASIS: DON´T LOOK BACK IN ANGER",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
@@ -35916,7 +35812,7 @@
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=019-77211",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-08-24 20:37:59"
+    "date_added": "2026-08-26 14:49:28"
   },
   {
     "cinema": "Cinesa LUXE Intu Xanadú",
@@ -35934,7 +35830,7 @@
   {
     "cinema": "Cinesa LUXE Equinoccio",
     "date": "2026-09-11",
-    "movie": "Don't Look Back In Anger",
+    "movie": "OASIS: DON´T LOOK BACK IN ANGER",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
@@ -35942,7 +35838,7 @@
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=026-64195",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-08-24 20:37:59"
+    "date_added": "2026-08-26 14:49:28"
   },
   {
     "cinema": "Cinesa LUXE Equinoccio",
@@ -35960,7 +35856,7 @@
   {
     "cinema": "Cinesa Príncipe Pío",
     "date": "2026-09-11",
-    "movie": "Don't Look Back In Anger",
+    "movie": "OASIS: DON´T LOOK BACK IN ANGER",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
@@ -35968,7 +35864,7 @@
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=027-48740",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-08-24 20:37:59"
+    "date_added": "2026-08-26 14:49:28"
   },
   {
     "cinema": "Cinesa Las Rozas",
@@ -35986,7 +35882,7 @@
   {
     "cinema": "Cinesa Las Rozas",
     "date": "2026-09-11",
-    "movie": "Don't Look Back In Anger",
+    "movie": "OASIS: DON´T LOOK BACK IN ANGER",
     "format": "IMAX",
     "language": "V.O.S.E.",
     "original_language": "English",
@@ -35994,7 +35890,7 @@
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=034-115425",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-08-24 20:37:59"
+    "date_added": "2026-08-26 14:49:28"
   },
   {
     "cinema": "Cinesa Las Rozas",
@@ -36012,7 +35908,7 @@
   {
     "cinema": "Cinesa Méndez Álvaro",
     "date": "2026-09-11",
-    "movie": "Don't Look Back In Anger",
+    "movie": "OASIS: DON´T LOOK BACK IN ANGER",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
@@ -36020,7 +35916,7 @@
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=123-89785",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-08-24 20:37:59"
+    "date_added": "2026-08-26 14:49:28"
   },
   {
     "cinema": "Cinesa Méndez Álvaro",
@@ -36038,7 +35934,7 @@
   {
     "cinema": "Cinesa Manoteras",
     "date": "2026-09-11",
-    "movie": "Don't Look Back In Anger",
+    "movie": "OASIS: DON´T LOOK BACK IN ANGER",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
@@ -36046,7 +35942,7 @@
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-109308",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-08-24 20:37:59"
+    "date_added": "2026-08-26 14:49:28"
   },
   {
     "cinema": "Cinesa Manoteras",
@@ -36064,7 +35960,7 @@
   {
     "cinema": "Cinesa Nassica",
     "date": "2026-09-11",
-    "movie": "Don't Look Back In Anger",
+    "movie": "OASIS: DON´T LOOK BACK IN ANGER",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
@@ -36072,7 +35968,7 @@
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=125-105652",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-08-24 20:37:59"
+    "date_added": "2026-08-26 14:49:28"
   },
   {
     "cinema": "Cinesa Nassica",
@@ -36090,7 +35986,7 @@
   {
     "cinema": "Cinesa LUXE Oasiz",
     "date": "2026-09-11",
-    "movie": "Don't Look Back In Anger",
+    "movie": "OASIS: DON´T LOOK BACK IN ANGER",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
@@ -36098,12 +35994,12 @@
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=138-72315",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-08-24 20:37:59"
+    "date_added": "2026-08-26 14:49:28"
   },
   {
     "cinema": "Cinesa Diagonal",
     "date": "2026-09-11",
-    "movie": "Don't Look Back In Anger",
+    "movie": "OASIS: DON´T LOOK BACK IN ANGER",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
@@ -36111,12 +36007,12 @@
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=012-53779",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-08-24 20:37:59"
+    "date_added": "2026-08-26 14:49:28"
   },
   {
     "cinema": "Cinesa SOM Multiespai",
     "date": "2026-09-11",
-    "movie": "Don't Look Back In Anger",
+    "movie": "OASIS: DON´T LOOK BACK IN ANGER",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
@@ -36124,7 +36020,7 @@
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=017-58937",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-08-24 20:37:59"
+    "date_added": "2026-08-26 14:49:28"
   },
   {
     "cinema": "Cinesa SOM Multiespai",
@@ -36142,7 +36038,7 @@
   {
     "cinema": "Cinesa LUXE Parc Vallès",
     "date": "2026-09-11",
-    "movie": "Don't Look Back In Anger",
+    "movie": "OASIS: DON´T LOOK BACK IN ANGER",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
@@ -36150,7 +36046,7 @@
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=031-97203",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-08-24 20:37:59"
+    "date_added": "2026-08-26 14:49:28"
   },
   {
     "cinema": "Cinesa LUXE Parc Vallès",
@@ -36181,7 +36077,7 @@
   {
     "cinema": "Cinesa Diagonal Mar",
     "date": "2026-09-11",
-    "movie": "Don't Look Back In Anger",
+    "movie": "OASIS: DON´T LOOK BACK IN ANGER",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
@@ -36189,12 +36085,12 @@
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=032-57182",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-08-24 20:37:59"
+    "date_added": "2026-08-26 14:49:28"
   },
   {
     "cinema": "Cinesa LUXE Loranca",
     "date": "2026-09-12",
-    "movie": "Don't Look Back In Anger",
+    "movie": "OASIS: DON´T LOOK BACK IN ANGER",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
@@ -36202,12 +36098,12 @@
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=001-56860",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-08-24 20:37:59"
+    "date_added": "2026-08-26 14:49:28"
   },
   {
     "cinema": "Cinesa Parquesur",
     "date": "2026-09-12",
-    "movie": "Don't Look Back In Anger",
+    "movie": "OASIS: DON´T LOOK BACK IN ANGER",
     "format": "IMAX",
     "language": "V.O.S.E.",
     "original_language": "English",
@@ -36215,7 +36111,7 @@
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=005-65689",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-08-24 20:37:59"
+    "date_added": "2026-08-26 14:49:28"
   },
   {
     "cinema": "Cinesa Parquesur",
@@ -36233,7 +36129,7 @@
   {
     "cinema": "Cinesa Las Rosas",
     "date": "2026-09-12",
-    "movie": "Don't Look Back In Anger",
+    "movie": "OASIS: DON´T LOOK BACK IN ANGER",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
@@ -36241,12 +36137,12 @@
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=015-43503",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-08-24 20:37:59"
+    "date_added": "2026-08-26 14:49:28"
   },
   {
     "cinema": "Cinesa Proyecciones",
     "date": "2026-09-12",
-    "movie": "Don't Look Back In Anger",
+    "movie": "OASIS: DON´T LOOK BACK IN ANGER",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
@@ -36254,12 +36150,12 @@
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=018-42107",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-08-24 20:37:59"
+    "date_added": "2026-08-26 14:49:28"
   },
   {
     "cinema": "Cinesa LUXE Intu Xanadú",
     "date": "2026-09-12",
-    "movie": "Don't Look Back In Anger",
+    "movie": "OASIS: DON´T LOOK BACK IN ANGER",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
@@ -36267,7 +36163,7 @@
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=019-77212",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-08-24 20:37:59"
+    "date_added": "2026-08-26 14:49:28"
   },
   {
     "cinema": "Cinesa LUXE Intu Xanadú",
@@ -36285,7 +36181,7 @@
   {
     "cinema": "Cinesa LUXE Equinoccio",
     "date": "2026-09-12",
-    "movie": "Don't Look Back In Anger",
+    "movie": "OASIS: DON´T LOOK BACK IN ANGER",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
@@ -36293,7 +36189,7 @@
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=026-64196",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-08-24 20:37:59"
+    "date_added": "2026-08-26 14:49:28"
   },
   {
     "cinema": "Cinesa LUXE Equinoccio",
@@ -36311,7 +36207,7 @@
   {
     "cinema": "Cinesa Príncipe Pío",
     "date": "2026-09-12",
-    "movie": "Don't Look Back In Anger",
+    "movie": "OASIS: DON´T LOOK BACK IN ANGER",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
@@ -36319,12 +36215,12 @@
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=027-48741",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-08-24 20:37:59"
+    "date_added": "2026-08-26 14:49:28"
   },
   {
     "cinema": "Cinesa Las Rozas",
     "date": "2026-09-12",
-    "movie": "Don't Look Back In Anger",
+    "movie": "OASIS: DON´T LOOK BACK IN ANGER",
     "format": "IMAX",
     "language": "V.O.S.E.",
     "original_language": "English",
@@ -36332,7 +36228,7 @@
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=034-115427",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-08-24 20:37:59"
+    "date_added": "2026-08-26 14:49:28"
   },
   {
     "cinema": "Cinesa Las Rozas",
@@ -36363,7 +36259,7 @@
   {
     "cinema": "Cinesa Méndez Álvaro",
     "date": "2026-09-12",
-    "movie": "Don't Look Back In Anger",
+    "movie": "OASIS: DON´T LOOK BACK IN ANGER",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
@@ -36371,7 +36267,7 @@
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=123-89786",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-08-24 20:37:59"
+    "date_added": "2026-08-26 14:49:28"
   },
   {
     "cinema": "Cinesa Méndez Álvaro",
@@ -36389,7 +36285,7 @@
   {
     "cinema": "Cinesa Manoteras",
     "date": "2026-09-12",
-    "movie": "Don't Look Back In Anger",
+    "movie": "OASIS: DON´T LOOK BACK IN ANGER",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
@@ -36397,7 +36293,7 @@
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-109309",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-08-24 20:37:59"
+    "date_added": "2026-08-26 14:49:28"
   },
   {
     "cinema": "Cinesa Manoteras",
@@ -36415,7 +36311,7 @@
   {
     "cinema": "Cinesa Nassica",
     "date": "2026-09-12",
-    "movie": "Don't Look Back In Anger",
+    "movie": "OASIS: DON´T LOOK BACK IN ANGER",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
@@ -36423,7 +36319,7 @@
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=125-105653",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-08-24 20:37:59"
+    "date_added": "2026-08-26 14:49:28"
   },
   {
     "cinema": "Cinesa Nassica",
@@ -36441,7 +36337,7 @@
   {
     "cinema": "Cinesa LUXE Oasiz",
     "date": "2026-09-12",
-    "movie": "Don't Look Back In Anger",
+    "movie": "OASIS: DON´T LOOK BACK IN ANGER",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
@@ -36449,12 +36345,12 @@
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=138-72316",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-08-24 20:37:59"
+    "date_added": "2026-08-26 14:49:28"
   },
   {
     "cinema": "Cinesa Diagonal",
     "date": "2026-09-12",
-    "movie": "Don't Look Back In Anger",
+    "movie": "OASIS: DON´T LOOK BACK IN ANGER",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
@@ -36462,12 +36358,12 @@
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=012-53780",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-08-24 20:37:59"
+    "date_added": "2026-08-26 14:49:28"
   },
   {
     "cinema": "Cinesa SOM Multiespai",
     "date": "2026-09-12",
-    "movie": "Don't Look Back In Anger",
+    "movie": "OASIS: DON´T LOOK BACK IN ANGER",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
@@ -36475,7 +36371,7 @@
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=017-58938",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-08-24 20:37:59"
+    "date_added": "2026-08-26 14:49:28"
   },
   {
     "cinema": "Cinesa SOM Multiespai",
@@ -36493,7 +36389,7 @@
   {
     "cinema": "Cinesa LUXE Parc Vallès",
     "date": "2026-09-12",
-    "movie": "Don't Look Back In Anger",
+    "movie": "OASIS: DON´T LOOK BACK IN ANGER",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
@@ -36501,7 +36397,7 @@
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=031-97204",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-08-24 20:37:59"
+    "date_added": "2026-08-26 14:49:28"
   },
   {
     "cinema": "Cinesa LUXE Parc Vallès",
@@ -36532,7 +36428,7 @@
   {
     "cinema": "Cinesa Diagonal Mar",
     "date": "2026-09-12",
-    "movie": "Don't Look Back In Anger",
+    "movie": "OASIS: DON´T LOOK BACK IN ANGER",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
@@ -36540,7 +36436,7 @@
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=032-57183",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-08-24 20:37:59"
+    "date_added": "2026-08-26 14:49:28"
   },
   {
     "cinema": "Cinesa Diagonal Mar",
@@ -36558,7 +36454,7 @@
   {
     "cinema": "Cinesa LUXE Loranca",
     "date": "2026-09-13",
-    "movie": "Don't Look Back In Anger",
+    "movie": "OASIS: DON´T LOOK BACK IN ANGER",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
@@ -36566,12 +36462,12 @@
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=001-56861",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-08-24 20:37:59"
+    "date_added": "2026-08-26 14:49:28"
   },
   {
     "cinema": "Cinesa Parquesur",
     "date": "2026-09-13",
-    "movie": "Don't Look Back In Anger",
+    "movie": "OASIS: DON´T LOOK BACK IN ANGER",
     "format": "IMAX",
     "language": "V.O.S.E.",
     "original_language": "English",
@@ -36579,7 +36475,7 @@
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=005-65694",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-08-24 20:37:59"
+    "date_added": "2026-08-26 14:49:28"
   },
   {
     "cinema": "Cinesa Parquesur",
@@ -36610,7 +36506,7 @@
   {
     "cinema": "Cinesa Las Rosas",
     "date": "2026-09-13",
-    "movie": "Don't Look Back In Anger",
+    "movie": "OASIS: DON´T LOOK BACK IN ANGER",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
@@ -36618,12 +36514,12 @@
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=015-43504",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-08-24 20:37:59"
+    "date_added": "2026-08-26 14:49:28"
   },
   {
     "cinema": "Cinesa Proyecciones",
     "date": "2026-09-13",
-    "movie": "Don't Look Back In Anger",
+    "movie": "OASIS: DON´T LOOK BACK IN ANGER",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
@@ -36631,12 +36527,12 @@
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=018-42108",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-08-24 20:37:59"
+    "date_added": "2026-08-26 14:49:28"
   },
   {
     "cinema": "Cinesa LUXE Intu Xanadú",
     "date": "2026-09-13",
-    "movie": "Don't Look Back In Anger",
+    "movie": "OASIS: DON´T LOOK BACK IN ANGER",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
@@ -36644,7 +36540,7 @@
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=019-77213",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-08-24 20:37:59"
+    "date_added": "2026-08-26 14:49:28"
   },
   {
     "cinema": "Cinesa LUXE Intu Xanadú",
@@ -36662,7 +36558,7 @@
   {
     "cinema": "Cinesa LUXE Equinoccio",
     "date": "2026-09-13",
-    "movie": "Don't Look Back In Anger",
+    "movie": "OASIS: DON´T LOOK BACK IN ANGER",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
@@ -36670,7 +36566,7 @@
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=026-64197",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-08-24 20:37:59"
+    "date_added": "2026-08-26 14:49:28"
   },
   {
     "cinema": "Cinesa LUXE Equinoccio",
@@ -36688,7 +36584,7 @@
   {
     "cinema": "Cinesa Príncipe Pío",
     "date": "2026-09-13",
-    "movie": "Don't Look Back In Anger",
+    "movie": "OASIS: DON´T LOOK BACK IN ANGER",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
@@ -36696,12 +36592,12 @@
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=027-48742",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-08-24 20:37:59"
+    "date_added": "2026-08-26 14:49:28"
   },
   {
     "cinema": "Cinesa Las Rozas",
     "date": "2026-09-13",
-    "movie": "Don't Look Back In Anger",
+    "movie": "OASIS: DON´T LOOK BACK IN ANGER",
     "format": "IMAX",
     "language": "V.O.S.E.",
     "original_language": "English",
@@ -36709,7 +36605,7 @@
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=034-115430",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-08-24 20:37:59"
+    "date_added": "2026-08-26 14:49:28"
   },
   {
     "cinema": "Cinesa Las Rozas",
@@ -36740,7 +36636,7 @@
   {
     "cinema": "Cinesa Méndez Álvaro",
     "date": "2026-09-13",
-    "movie": "Don't Look Back In Anger",
+    "movie": "OASIS: DON´T LOOK BACK IN ANGER",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
@@ -36748,7 +36644,7 @@
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=123-89787",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-08-24 20:37:59"
+    "date_added": "2026-08-26 14:49:28"
   },
   {
     "cinema": "Cinesa Méndez Álvaro",
@@ -36766,7 +36662,7 @@
   {
     "cinema": "Cinesa Manoteras",
     "date": "2026-09-13",
-    "movie": "Don't Look Back In Anger",
+    "movie": "OASIS: DON´T LOOK BACK IN ANGER",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
@@ -36774,7 +36670,7 @@
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-109310",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-08-24 20:37:59"
+    "date_added": "2026-08-26 14:49:28"
   },
   {
     "cinema": "Cinesa Manoteras",
@@ -36792,7 +36688,7 @@
   {
     "cinema": "Cinesa Nassica",
     "date": "2026-09-13",
-    "movie": "Don't Look Back In Anger",
+    "movie": "OASIS: DON´T LOOK BACK IN ANGER",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
@@ -36800,7 +36696,7 @@
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=125-105654",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-08-24 20:37:59"
+    "date_added": "2026-08-26 14:49:28"
   },
   {
     "cinema": "Cinesa Nassica",
@@ -36818,7 +36714,7 @@
   {
     "cinema": "Cinesa LUXE Oasiz",
     "date": "2026-09-13",
-    "movie": "Don't Look Back In Anger",
+    "movie": "OASIS: DON´T LOOK BACK IN ANGER",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
@@ -36826,12 +36722,12 @@
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=138-72317",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-08-24 20:37:59"
+    "date_added": "2026-08-26 14:49:28"
   },
   {
     "cinema": "Cinesa Diagonal",
     "date": "2026-09-13",
-    "movie": "Don't Look Back In Anger",
+    "movie": "OASIS: DON´T LOOK BACK IN ANGER",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
@@ -36839,12 +36735,12 @@
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=012-53781",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-08-24 20:37:59"
+    "date_added": "2026-08-26 14:49:28"
   },
   {
     "cinema": "Cinesa SOM Multiespai",
     "date": "2026-09-13",
-    "movie": "Don't Look Back In Anger",
+    "movie": "OASIS: DON´T LOOK BACK IN ANGER",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
@@ -36852,7 +36748,7 @@
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=017-58939",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-08-24 20:37:59"
+    "date_added": "2026-08-26 14:49:28"
   },
   {
     "cinema": "Cinesa SOM Multiespai",
@@ -36870,7 +36766,7 @@
   {
     "cinema": "Cinesa LUXE Parc Vallès",
     "date": "2026-09-13",
-    "movie": "Don't Look Back In Anger",
+    "movie": "OASIS: DON´T LOOK BACK IN ANGER",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
@@ -36878,7 +36774,7 @@
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=031-97205",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-08-24 20:37:59"
+    "date_added": "2026-08-26 14:49:28"
   },
   {
     "cinema": "Cinesa LUXE Parc Vallès",
@@ -36909,7 +36805,7 @@
   {
     "cinema": "Cinesa Diagonal Mar",
     "date": "2026-09-13",
-    "movie": "Don't Look Back In Anger",
+    "movie": "OASIS: DON´T LOOK BACK IN ANGER",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
@@ -36917,7 +36813,7 @@
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=032-57184",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-08-24 20:37:59"
+    "date_added": "2026-08-26 14:49:28"
   },
   {
     "cinema": "Cinesa Parquesur",
@@ -36935,7 +36831,7 @@
   {
     "cinema": "Cinesa Parquesur",
     "date": "2026-09-14",
-    "movie": "Don't Look Back In Anger",
+    "movie": "OASIS: DON´T LOOK BACK IN ANGER",
     "format": "IMAX",
     "language": "V.O.S.E.",
     "original_language": "English",
@@ -36943,7 +36839,7 @@
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=005-65701",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-08-24 20:37:59"
+    "date_added": "2026-08-26 14:49:28"
   },
   {
     "cinema": "Cinesa Las Rozas",
@@ -36961,7 +36857,7 @@
   {
     "cinema": "Cinesa Las Rozas",
     "date": "2026-09-14",
-    "movie": "Don't Look Back In Anger",
+    "movie": "OASIS: DON´T LOOK BACK IN ANGER",
     "format": "IMAX",
     "language": "V.O.S.E.",
     "original_language": "English",
@@ -36969,7 +36865,7 @@
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=034-115434",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-08-24 20:37:59"
+    "date_added": "2026-08-26 14:49:28"
   },
   {
     "cinema": "Cinesa Diagonal Mar",
@@ -37000,7 +36896,7 @@
   {
     "cinema": "Cinesa Parquesur",
     "date": "2026-09-15",
-    "movie": "Don't Look Back In Anger",
+    "movie": "OASIS: DON´T LOOK BACK IN ANGER",
     "format": "IMAX",
     "language": "V.O.S.E.",
     "original_language": "English",
@@ -37008,7 +36904,7 @@
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=005-65697",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-08-24 20:37:59"
+    "date_added": "2026-08-26 14:49:28"
   },
   {
     "cinema": "Cinesa Parquesur",
@@ -37026,7 +36922,7 @@
   {
     "cinema": "Cinesa Las Rozas",
     "date": "2026-09-15",
-    "movie": "Don't Look Back In Anger",
+    "movie": "OASIS: DON´T LOOK BACK IN ANGER",
     "format": "IMAX",
     "language": "V.O.S.E.",
     "original_language": "English",
@@ -37034,7 +36930,7 @@
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=034-115436",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-08-24 20:37:59"
+    "date_added": "2026-08-26 14:49:28"
   },
   {
     "cinema": "Cinesa Las Rozas",
@@ -37065,7 +36961,7 @@
   {
     "cinema": "Cinesa Parquesur",
     "date": "2026-09-16",
-    "movie": "Don't Look Back In Anger",
+    "movie": "OASIS: DON´T LOOK BACK IN ANGER",
     "format": "IMAX",
     "language": "V.O.S.E.",
     "original_language": "English",
@@ -37073,7 +36969,7 @@
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=005-65706",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-08-24 20:37:59"
+    "date_added": "2026-08-26 14:49:28"
   },
   {
     "cinema": "Cinesa Parquesur",
@@ -37091,7 +36987,7 @@
   {
     "cinema": "Cinesa Las Rozas",
     "date": "2026-09-16",
-    "movie": "Don't Look Back In Anger",
+    "movie": "OASIS: DON´T LOOK BACK IN ANGER",
     "format": "IMAX",
     "language": "V.O.S.E.",
     "original_language": "English",
@@ -37099,7 +36995,7 @@
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=034-115439",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-08-24 20:37:59"
+    "date_added": "2026-08-26 14:49:28"
   },
   {
     "cinema": "Cinesa Las Rozas",
@@ -37143,7 +37039,7 @@
   {
     "cinema": "Cinesa Parquesur",
     "date": "2026-09-17",
-    "movie": "Don't Look Back In Anger",
+    "movie": "OASIS: DON´T LOOK BACK IN ANGER",
     "format": "IMAX",
     "language": "V.O.S.E.",
     "original_language": "English",
@@ -37151,7 +37047,7 @@
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=005-65705",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-08-24 20:37:59"
+    "date_added": "2026-08-26 14:49:28"
   },
   {
     "cinema": "Cinesa Parquesur",
@@ -37169,7 +37065,7 @@
   {
     "cinema": "Cinesa Las Rozas",
     "date": "2026-09-17",
-    "movie": "Don't Look Back In Anger",
+    "movie": "OASIS: DON´T LOOK BACK IN ANGER",
     "format": "IMAX",
     "language": "V.O.S.E.",
     "original_language": "English",
@@ -37177,7 +37073,7 @@
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=034-115442",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-08-24 20:37:59"
+    "date_added": "2026-08-26 14:49:28"
   },
   {
     "cinema": "Cinesa Las Rozas",
