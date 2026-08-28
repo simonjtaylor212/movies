@@ -1,32 +1,32 @@
-Starting Scraper - Local time is 2026-08-27 15:48:53 CEST
+Starting Scraper - Local time is 2026-08-28 02:15:15 CEST
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
   Fetching Yelmo madrid...
   Fetching Yelmo barcelona...
-Yelmo scraped: found 653 VOSE sessions.
+Yelmo scraped: found 625 VOSE sessions.
 Scraping Cine Albéniz...
 Stopping Cine Albéniz scrape after 5 consecutive empty days.
-Cine Albéniz scraped: found 84 VOSE sessions.
+Cine Albéniz scraped: found 76 VOSE sessions.
 Scraping Kinépolis Granada & Nevada...
-Kinépolis Granada & Nevada: Scraped 199 VOSE sessions.
+Kinépolis Granada & Nevada: Scraped 183 VOSE sessions.
 Scraping Cines Renoir...
-Cines Renoir: Scraped 581 VOSE sessions.
+Cines Renoir: Scraped 510 VOSE sessions.
 Scraping Cines Golem...
-Cines Golem Madrid: Scraped 80 VOSE sessions.
-Loaded 861 Cinesa showtimes from cache.
+Cines Golem Madrid: Scraped 70 VOSE sessions.
+Loaded 789 Cinesa showtimes from cache.
 Scraping Ocine Serrallo...
-Ocine Serrallo: Scraped 3 sessions.
+Ocine Serrallo: Scraped 2 sessions.
 Scraping mk2 Cinesur...
-  mk2 Cinesur Miramar: found 54 sessions.
+  mk2 Cinesur Miramar: found 50 sessions.
   mk2 Cinesur El Ingenio: found 0 sessions.
-  mk2 Cinesur Málaga Nostrum: found 30 sessions.
-mk2 Cinesur scraped: found 84 VOSE sessions.
+  mk2 Cinesur Málaga Nostrum: found 29 sessions.
+mk2 Cinesur scraped: found 79 VOSE sessions.
 original language not found for 1 movies in Albéniz chain
-original language not found for 8 movies in Cinesa chain
+original language not found for 5 movies in Cinesa chain
 original language not found for 29 movies in Cinesur chain
 original language not found for 1 movies in Renoir chain
-Successfully generated api/v1/showtimes.json with 2545 listings.
-Appended 24 new showings to new_showtimes.json
+Successfully generated api/v1/showtimes.json with 2334 listings.
+Appended 31 new showings to new_showtimes.json
 
 Resolving missing movie title translations...
 Found 30 movies without original names.
@@ -126,5 +126,5 @@ No translations were updated.
 
 === Cinesa Scraper Logs (Portugal VPN) ===
 Scraping Cinesa (Madrid & Barcelona)...
-Cinesa: Found 27 business dates with showtimes: ['2026-08-27', '2026-08-28', '2026-08-29', '2026-08-30', '2026-08-31', '2026-09-01', '2026-09-02', '2026-09-03', '2026-09-04', '2026-09-05', '2026-09-06', '2026-09-07', '2026-09-08', '2026-09-09', '2026-09-10', '2026-09-11', '2026-09-12', '2026-09-13', '2026-09-14', '2026-09-15', '2026-09-16', '2026-09-17', '2026-09-20', '2026-09-30', '2026-10-03', '2026-10-07', '2026-10-10']
-Cinesa (Madrid & Barcelona): Scraped 861 VOSE sessions.
+Cinesa: Found 26 business dates with showtimes: ['2026-08-28', '2026-08-29', '2026-08-30', '2026-08-31', '2026-09-01', '2026-09-02', '2026-09-03', '2026-09-04', '2026-09-05', '2026-09-06', '2026-09-07', '2026-09-08', '2026-09-09', '2026-09-10', '2026-09-11', '2026-09-12', '2026-09-13', '2026-09-14', '2026-09-15', '2026-09-16', '2026-09-17', '2026-09-20', '2026-09-30', '2026-10-03', '2026-10-07', '2026-10-10']
+Cinesa (Madrid & Barcelona): Scraped 789 VOSE sessions.
