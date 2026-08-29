@@ -640430,5 +640430,18 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-08-29 20:11:19"
+  },
+  {
+    "cinema": "Kinépolis Madrid Ciudad de la Imagen",
+    "date": "2026-08-30",
+    "movie": "Harry Potter y la piedra filosofal",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "22:30",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/219485/0/KMAD/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-08-30 01:00:03"
   }
 ]
