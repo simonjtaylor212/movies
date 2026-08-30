@@ -1,19 +1,19 @@
-Starting Scraper - Local time is 2026-08-30 18:05:41 CEST
+Starting Scraper - Local time is 2026-08-30 22:36:25 CEST
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
   Fetching Yelmo madrid...
   Fetching Yelmo barcelona...
-Yelmo scraped: found 485 VOSE sessions.
+Yelmo scraped: found 469 VOSE sessions.
 Scraping Cine Albéniz...
 Stopping Cine Albéniz scrape after 5 consecutive empty days.
 Cine Albéniz scraped: found 57 VOSE sessions.
 Scraping Kinépolis Granada & Nevada...
-Kinépolis Granada & Nevada: Scraped 133 VOSE sessions.
+Kinépolis Granada & Nevada: Scraped 125 VOSE sessions.
 Scraping Cines Renoir...
 Cines Renoir: Scraped 378 VOSE sessions.
 Scraping Cines Golem...
-Cines Golem Madrid: Scraped 47 VOSE sessions.
-Loaded 547 Cinesa showtimes from cache.
+Cines Golem Madrid: Scraped 40 VOSE sessions.
+Loaded 494 Cinesa showtimes from cache.
 Scraping Ocine Serrallo...
 Ocine Serrallo: Scraped 2 sessions.
 Scraping mk2 Cinesur...
@@ -25,7 +25,7 @@ original language not found for 1 movies in Albéniz chain
 original language not found for 5 movies in Cinesa chain
 original language not found for 29 movies in Cinesur chain
 original language not found for 1 movies in Renoir chain
-Successfully generated api/v1/showtimes.json with 1719 listings.
+Successfully generated api/v1/showtimes.json with 1635 listings.
 Appended 1 new showings to new_showtimes.json
 
 Resolving missing movie title translations...
@@ -127,4 +127,4 @@ No translations were updated.
 === Cinesa Scraper Logs (Portugal VPN) ===
 Scraping Cinesa (Madrid & Barcelona)...
 Cinesa: Found 25 business dates with showtimes: ['2026-08-30', '2026-08-31', '2026-09-01', '2026-09-02', '2026-09-03', '2026-09-04', '2026-09-05', '2026-09-06', '2026-09-07', '2026-09-08', '2026-09-09', '2026-09-10', '2026-09-11', '2026-09-12', '2026-09-13', '2026-09-14', '2026-09-15', '2026-09-16', '2026-09-17', '2026-09-20', '2026-09-30', '2026-10-03', '2026-10-07', '2026-10-10', '2026-10-27']
-Cinesa (Madrid & Barcelona): Scraped 547 VOSE sessions.
+Cinesa (Madrid & Barcelona): Scraped 494 VOSE sessions.
