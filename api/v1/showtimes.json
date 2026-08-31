@@ -2966,19 +2966,6 @@
   {
     "cinema": "Cine Yelmo La Vaguada",
     "date": "2026-08-31",
-    "movie": "Harry Potter y la Piedra Filosofal 25 Aniversario",
-    "format": "2D",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "12:00",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1360&showtimeVistaId=19917",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-08-25 14:44:17"
-  },
-  {
-    "cinema": "Cine Yelmo La Vaguada",
-    "date": "2026-08-31",
     "movie": "La Constelación del Perro",
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
@@ -10324,19 +10311,6 @@
   {
     "cinema": "Cines Renoir Princesa",
     "date": "2026-09-01",
-    "movie": "Insidious: Fuera del más allá",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "22:30",
-    "booking_url": "https://www.pillalas.com/pase/1084678/",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-08-24 20:37:59"
-  },
-  {
-    "cinema": "Cines Renoir Princesa",
-    "date": "2026-09-01",
     "movie": "La Constelación del Perro",
     "format": "2D",
     "language": "V.O.S.E.",
@@ -14303,19 +14277,6 @@
     "cinema": "Cinesa Diagonal Mar",
     "date": "2026-08-31",
     "movie": "La Odisea",
-    "format": "IMAX",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "14:25",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=032-56518",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-08-29 14:20:02"
-  },
-  {
-    "cinema": "Cinesa Diagonal Mar",
-    "date": "2026-08-31",
-    "movie": "La Odisea",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
@@ -15138,11 +15099,11 @@
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
-    "time": "16:30",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=010-36917",
+    "time": "22:15",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=010-36965",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-08-29 14:20:02"
+    "date_added": "2026-08-31 14:46:01"
   },
   {
     "cinema": "Cinesa Diagonal",
