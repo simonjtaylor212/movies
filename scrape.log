@@ -1,19 +1,19 @@
-Starting Scraper - Local time is 2026-08-31 22:40:06 CEST
+Starting Scraper - Local time is 2026-09-01 02:24:11 CEST
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
   Fetching Yelmo madrid...
   Fetching Yelmo barcelona...
-Yelmo scraped: found 560 VOSE sessions.
+Yelmo scraped: found 718 VOSE sessions.
 Scraping Cine Albéniz...
 Stopping Cine Albéniz scrape after 5 consecutive empty days.
-Cine Albéniz scraped: found 48 VOSE sessions.
+Cine Albéniz scraped: found 39 VOSE sessions.
 Scraping Kinépolis Granada & Nevada...
-Kinépolis Granada & Nevada: Scraped 106 VOSE sessions.
+Kinépolis Granada & Nevada: Scraped 130 VOSE sessions.
 Scraping Cines Renoir...
-Cines Renoir: Scraped 301 VOSE sessions.
+Cines Renoir: Scraped 224 VOSE sessions.
 Scraping Cines Golem...
 Cines Golem Madrid: Scraped 30 VOSE sessions.
-Loaded 417 Cinesa showtimes from cache.
+Loaded 442 Cinesa showtimes from cache.
 Scraping Ocine Serrallo...
 Error scraping Ocine Serrallo: Expecting value: line 1 column 1 (char 0)
 Ocine Serrallo: Scraped 0 sessions.
@@ -25,15 +25,15 @@ Scraping mk2 Cinesur...
   mk2 Cinesur Málaga Nostrum: found 29 sessions.
 mk2 Cinesur scraped: found 67 VOSE sessions.
 original language not found for 1 movies in Albéniz chain
-original language not found for 6 movies in Cinesa chain
+original language not found for 7 movies in Cinesa chain
 original language not found for 29 movies in Cinesur chain
 original language not found for 1 movies in Renoir chain
 Updated movie_title_translations.json
-Successfully generated api/v1/showtimes.json with 1531 listings.
-Appended 129 new showings to new_showtimes.json
+Successfully generated api/v1/showtimes.json with 1652 listings.
+Appended 229 new showings to new_showtimes.json
 
 Resolving missing movie title translations...
-Found 34 movies without original names.
+Found 37 movies without original names.
 No TMDB_API_KEY detected. Using keyless TMDB scraper and Wikidata fallbacks.
 
 Searching for: '20 Años del MET en cines - Grabado MET 26-27'
@@ -48,6 +48,9 @@ Searching for: 'AMERICAN PSYCHO [WILDER CINEMA]'
 Searching for: 'Assassination Classroom: El tiempo que compartimos'
   -> Could not resolve original name for 'Assassination Classroom: El tiempo que compartimos'
 
+Searching for: 'Black Box: Vuelo 298'
+  -> Found via TMDB Web: 'Black Box'
+
 Searching for: 'CALL ME BY YOUR NAME [WILDER CINEMA]'
   -> Could not resolve original name for 'CALL ME BY YOUR NAME [WILDER CINEMA]'
 
@@ -59,6 +62,9 @@ Searching for: 'CUENTOS DE TOKIO [WILDER CINEMA]'
 
 Searching for: 'DIRTY DANCING [WILDER CINEMA]'
   -> Could not resolve original name for 'DIRTY DANCING [WILDER CINEMA]'
+
+Searching for: 'Dulce sabor a muerte'
+  -> Found via TMDB Web: 'Ice Cream Man'
 
 Searching for: 'EL ACTIVISTA [CINE CON ORGULLO RENOIR]'
   -> Could not resolve original name for 'EL ACTIVISTA [CINE CON ORGULLO RENOIR]'
@@ -99,12 +105,6 @@ Searching for: 'La casa del bosque 2'
 Searching for: 'MALAS CALLES [WILDER CINEMA]'
   -> Could not resolve original name for 'MALAS CALLES [WILDER CINEMA]'
 
-Searching for: 'MANON LESCAUT - Teatro Real 26-27'
-  -> Found via TMDB Web: 'Manon Lescaut'
-
-Searching for: 'NORMA - Teatro Real 26-27'
-  -> Found via TMDB Web: 'Norma'
-
 Searching for: 'PARIS, TEXAS [WILDER CINEMA]'
   -> Could not resolve original name for 'PARIS, TEXAS [WILDER CINEMA]'
 
@@ -114,14 +114,8 @@ Searching for: 'Preestreno a ciegas 13 agosto 2026'
 Searching for: 'RASHOMON [WILDER CINEMA]'
   -> Could not resolve original name for 'RASHOMON [WILDER CINEMA]'
 
-Searching for: 'SIMON BOCCANEGRA - Teatro Real 26-27'
-  -> Found via TMDB Web: 'Simon Boccanegra'
-
 Searching for: 'Sia 2016 Coachella'
   -> Could not resolve original name for 'Sia 2016 Coachella'
-
-Searching for: 'TANNHAÜSER - Teatro Real 26-27'
-  -> Found via TMDB Web: 'Tannhäuser'
 
 Searching for: 'The Fast & The Furious 25 aniversario'
   -> Could not resolve original name for 'The Fast & The Furious 25 aniversario'
@@ -132,15 +126,30 @@ Searching for: 'The Fast & The Furious 25 niversario'
 Searching for: 'VIAJE AL PAÍS DE LOS BLANCOS [PROYECTO VIRIDIANA]'
   -> Could not resolve original name for 'VIAJE AL PAÍS DE LOS BLANCOS [PROYECTO VIRIDIANA]'
 
+Searching for: 'Vengadores: Endgame'
+  -> Found via TMDB Web: 'Avengers: Endgame'
+
+Searching for: 'Vengadores: Endgame (Infinity Vision)'
+  -> Found via TMDB Web: 'Avengers: Endgame'
+
+Searching for: 'Vengadores: Endgame Encore'
+  -> Found via TMDB Web: 'Avengers: Endgame'
+
+Searching for: 'Vengadores: Endgame Encore (Infinity Vision)'
+  -> Found via TMDB Web: 'Avengers: Endgame'
+
+Searching for: 'Vengadores: Endgame Encore Extended'
+  -> Could not resolve original name for 'Vengadores: Endgame Encore Extended'
+
 Searching for: 'WHAT A FEELING [CINE CON ORGULLO RENOIR]'
   -> Could not resolve original name for 'WHAT A FEELING [CINE CON ORGULLO RENOIR]'
 
 Searching for: 'es GHOST: 2 Big To Rig'
   -> Could not resolve original name for 'es GHOST: 2 Big To Rig'
 
-Successfully updated 4 translation(s) in movie_title_translations.json.
+Successfully updated 6 translation(s) in movie_title_translations.json.
 
 === Cinesa Scraper Logs (Portugal VPN) ===
 Scraping Cinesa (Madrid & Barcelona)...
-Cinesa: Found 24 business dates with showtimes: ['2026-08-31', '2026-09-01', '2026-09-02', '2026-09-03', '2026-09-04', '2026-09-05', '2026-09-06', '2026-09-07', '2026-09-08', '2026-09-09', '2026-09-10', '2026-09-11', '2026-09-12', '2026-09-13', '2026-09-14', '2026-09-15', '2026-09-16', '2026-09-17', '2026-09-20', '2026-09-30', '2026-10-03', '2026-10-07', '2026-10-10', '2026-10-27']
-Cinesa (Madrid & Barcelona): Scraped 417 VOSE sessions.
+Cinesa: Found 27 business dates with showtimes: ['2026-09-01', '2026-09-02', '2026-09-03', '2026-09-04', '2026-09-05', '2026-09-06', '2026-09-07', '2026-09-08', '2026-09-09', '2026-09-10', '2026-09-11', '2026-09-12', '2026-09-13', '2026-09-14', '2026-09-15', '2026-09-16', '2026-09-17', '2026-09-20', '2026-09-25', '2026-09-26', '2026-09-27', '2026-09-28', '2026-09-30', '2026-10-03', '2026-10-07', '2026-10-10', '2026-10-27']
+Cinesa (Madrid & Barcelona): Scraped 442 VOSE sessions.
