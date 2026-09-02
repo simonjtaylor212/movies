@@ -1,4 +1,4 @@
-Starting Scraper - Local time is 2026-09-02 01:02:33 CEST
+Starting Scraper - Local time is 2026-09-02 04:59:40 CEST
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
   Fetching Yelmo madrid...
@@ -8,12 +8,7 @@ Scraping Cine Albéniz...
 Stopping Cine Albéniz scrape after 5 consecutive empty days.
 Cine Albéniz scraped: found 30 VOSE sessions.
 Scraping Kinépolis Granada & Nevada...
-Error executing Playwright for Kinépolis: Page.goto: Timeout 45000ms exceeded.
-Call log:
-  - navigating to "https://kinepolis.es/cines/kinepolis-granada", waiting until "load"
-
-Warning: kinepolis scraper returned 0 showings. Using fallback data.
-Recovered 167 kinepolis showings from previous run.
+Kinépolis Granada & Nevada: Scraped 187 VOSE sessions.
 Scraping Cines Renoir...
 Cines Renoir: Scraped 573 VOSE sessions.
 Scraping Cines Golem...
@@ -33,12 +28,11 @@ original language not found for 1 movies in Albéniz chain
 original language not found for 9 movies in Cinesa chain
 original language not found for 29 movies in Cinesur chain
 original language not found for 1 movies in Renoir chain
-Updated movie_title_translations.json
-Successfully generated api/v1/showtimes.json with 2562 listings.
-Appended 264 new showings to new_showtimes.json
+Successfully generated api/v1/showtimes.json with 2590 listings.
+Appended 28 new showings to new_showtimes.json
 
 Resolving missing movie title translations...
-Found 34 movies without original names.
+Found 33 movies without original names.
 No TMDB_API_KEY detected. Using keyless TMDB scraper and Wikidata fallbacks.
 
 Searching for: '20 Años del MET en cines - Grabado MET 26-27'
@@ -82,9 +76,6 @@ Searching for: 'Harry Potter y la Piedra Filosofal 25 Aniversario'
 
 Searching for: 'IU CONCERT : THE WINNING (2026)'
   -> Could not resolve original name for 'IU CONCERT : THE WINNING (2026)'
-
-Searching for: 'IU CONCERT : The Golden Hour (2026)'
-  -> Found via TMDB Web: '아이유 콘서트 : 더 골든 아워'
 
 Searching for: 'LA GRAN BELLEZA [WILDER CINEMA]'
   -> Could not resolve original name for 'LA GRAN BELLEZA [WILDER CINEMA]'
@@ -143,7 +134,7 @@ Searching for: 'WHAT A FEELING [CINE CON ORGULLO RENOIR]'
 Searching for: 'es GHOST: 2 Big To Rig'
   -> Could not resolve original name for 'es GHOST: 2 Big To Rig'
 
-Successfully updated 1 translation(s) in movie_title_translations.json.
+No translations were updated.
 
 === Cinesa Scraper Logs (Portugal VPN) ===
 Scraping Cinesa (Madrid & Barcelona)...
