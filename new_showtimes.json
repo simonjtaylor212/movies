@@ -665312,5 +665312,31 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-09-03 17:49:52"
+  },
+  {
+    "cinema": "Cine Yelmo Vialia Málaga",
+    "date": "2026-09-08",
+    "movie": "Spider-Man: Brand New Day",
+    "format": "2D",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "17:30",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=41821",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-09-03 22:32:32"
+  },
+  {
+    "cinema": "Cine Yelmo Baricentro",
+    "date": "2026-09-08",
+    "movie": "La Constelación del Perro",
+    "format": "2D",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "21:45",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=781&showtimeVistaId=25097",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-09-03 22:32:32"
   }
 ]
