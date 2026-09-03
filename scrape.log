@@ -1,9 +1,9 @@
-Starting Scraper - Local time is 2026-09-03 12:43:40 CEST
+Starting Scraper - Local time is 2026-09-03 17:49:52 CEST
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
   Fetching Yelmo madrid...
   Fetching Yelmo barcelona...
-Yelmo scraped: found 861 VOSE sessions.
+Yelmo scraped: found 855 VOSE sessions.
 Scraping Cine Albéniz...
 Stopping Cine Albéniz scrape after 5 consecutive empty days.
 Cine Albéniz scraped: found 62 VOSE sessions.
@@ -12,24 +12,24 @@ Kinépolis Granada & Nevada: Scraped 174 VOSE sessions.
 Scraping Cines Renoir...
 Cines Renoir: Scraped 552 VOSE sessions.
 Scraping Cines Golem...
-Cines Golem Madrid: Scraped 64 VOSE sessions.
-Loaded 775 Cinesa showtimes from cache.
+Cines Golem Madrid: Scraped 61 VOSE sessions.
+Loaded 794 Cinesa showtimes from cache.
 Scraping Ocine Serrallo...
 Error scraping Ocine Serrallo: Expecting value: line 1 column 1 (char 0)
 Ocine Serrallo: Scraped 0 sessions.
 Warning: ocine scraper returned 0 showings. Using fallback data.
 Recovered 2 ocine showings from previous run.
 Scraping mk2 Cinesur...
-  mk2 Cinesur Miramar: found 48 sessions.
+  mk2 Cinesur Miramar: found 45 sessions.
   mk2 Cinesur El Ingenio: found 0 sessions.
   mk2 Cinesur Málaga Nostrum: found 29 sessions.
-mk2 Cinesur scraped: found 77 VOSE sessions.
+mk2 Cinesur scraped: found 74 VOSE sessions.
 original language not found for 1 movies in Albéniz chain
 original language not found for 7 movies in Cinesa chain
 original language not found for 29 movies in Cinesur chain
 original language not found for 1 movies in Renoir chain
-Successfully generated api/v1/showtimes.json with 2567 listings.
-Appended 41 new showings to new_showtimes.json
+Successfully generated api/v1/showtimes.json with 2574 listings.
+Appended 42 new showings to new_showtimes.json
 
 Resolving missing movie title translations...
 Found 33 movies without original names.
@@ -138,5 +138,5 @@ No translations were updated.
 
 === Cinesa Scraper Logs (Portugal VPN) ===
 Scraping Cinesa (Madrid & Barcelona)...
-Cinesa: Found 37 business dates with showtimes: ['2026-09-03', '2026-09-04', '2026-09-05', '2026-09-06', '2026-09-07', '2026-09-08', '2026-09-09', '2026-09-10', '2026-09-11', '2026-09-12', '2026-09-13', '2026-09-14', '2026-09-15', '2026-09-16', '2026-09-17', '2026-09-20', '2026-09-25', '2026-09-26', '2026-09-27', '2026-09-28', '2026-09-29', '2026-09-30', '2026-10-01', '2026-10-03', '2026-10-07', '2026-10-10', '2026-10-27', '2026-11-10', '2026-11-19', '2026-12-01', '2027-01-21', '2027-02-23', '2027-03-18', '2027-04-22', '2027-05-05', '2027-05-25', '2027-06-17']
-Cinesa (Madrid & Barcelona): Scraped 775 VOSE sessions.
+Cinesa: Found 39 business dates with showtimes: ['2026-09-03', '2026-09-04', '2026-09-05', '2026-09-06', '2026-09-07', '2026-09-08', '2026-09-09', '2026-09-10', '2026-09-11', '2026-09-12', '2026-09-13', '2026-09-14', '2026-09-15', '2026-09-16', '2026-09-17', '2026-09-18', '2026-09-19', '2026-09-20', '2026-09-25', '2026-09-26', '2026-09-27', '2026-09-28', '2026-09-29', '2026-09-30', '2026-10-01', '2026-10-03', '2026-10-07', '2026-10-10', '2026-10-27', '2026-11-10', '2026-11-19', '2026-12-01', '2027-01-21', '2027-02-23', '2027-03-18', '2027-04-22', '2027-05-05', '2027-05-25', '2027-06-17']
+Cinesa (Madrid & Barcelona): Scraped 794 VOSE sessions.
