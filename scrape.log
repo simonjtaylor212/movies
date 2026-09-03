@@ -1,19 +1,19 @@
-Starting Scraper - Local time is 2026-09-03 22:32:32 CEST
+Starting Scraper - Local time is 2026-09-04 00:59:59 CEST
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
   Fetching Yelmo madrid...
   Fetching Yelmo barcelona...
-Yelmo scraped: found 824 VOSE sessions.
+Yelmo scraped: found 817 VOSE sessions.
 Scraping Cine Albéniz...
 Stopping Cine Albéniz scrape after 5 consecutive empty days.
-Cine Albéniz scraped: found 62 VOSE sessions.
+Cine Albéniz scraped: found 53 VOSE sessions.
 Scraping Kinépolis Granada & Nevada...
-Kinépolis Granada & Nevada: Scraped 168 VOSE sessions.
+Kinépolis Granada & Nevada: Scraped 159 VOSE sessions.
 Scraping Cines Renoir...
-Cines Renoir: Scraped 552 VOSE sessions.
+Cines Renoir: Scraped 487 VOSE sessions.
 Scraping Cines Golem...
 Cines Golem Madrid: Scraped 54 VOSE sessions.
-Loaded 741 Cinesa showtimes from cache.
+Loaded 743 Cinesa showtimes from cache.
 Scraping Ocine Serrallo...
 Error scraping Ocine Serrallo: Expecting value: line 1 column 1 (char 0)
 Ocine Serrallo: Scraped 0 sessions.
@@ -25,14 +25,16 @@ Scraping mk2 Cinesur...
   mk2 Cinesur Málaga Nostrum: found 29 sessions.
 mk2 Cinesur scraped: found 74 VOSE sessions.
 original language not found for 1 movies in Albéniz chain
-original language not found for 7 movies in Cinesa chain
+original language not found for 8 movies in Cinesa chain
 original language not found for 29 movies in Cinesur chain
+original language not found for 1 movies in Golem chain
 original language not found for 1 movies in Renoir chain
-Successfully generated api/v1/showtimes.json with 2477 listings.
-Appended 2 new showings to new_showtimes.json
+Updated movie_title_translations.json
+Successfully generated api/v1/showtimes.json with 2388 listings.
+Appended 9 new showings to new_showtimes.json
 
 Resolving missing movie title translations...
-Found 33 movies without original names.
+Found 34 movies without original names.
 No TMDB_API_KEY detected. Using keyless TMDB scraper and Wikidata fallbacks.
 
 Searching for: '20 Años del MET en cines - Grabado MET 26-27'
@@ -110,6 +112,9 @@ Searching for: 'Preestreno a ciegas 13 agosto 2026'
 Searching for: 'RASHOMON [WILDER CINEMA]'
   -> Could not resolve original name for 'RASHOMON [WILDER CINEMA]'
 
+Searching for: 'Resident Evil'
+  -> Found via TMDB Web: 'Resident Evil'
+
 Searching for: 'Sia 2016 Coachella'
   -> Could not resolve original name for 'Sia 2016 Coachella'
 
@@ -134,9 +139,9 @@ Searching for: 'WHAT A FEELING [CINE CON ORGULLO RENOIR]'
 Searching for: 'es GHOST: 2 Big To Rig'
   -> Could not resolve original name for 'es GHOST: 2 Big To Rig'
 
-No translations were updated.
+Successfully updated 1 translation(s) in movie_title_translations.json.
 
 === Cinesa Scraper Logs (Portugal VPN) ===
 Scraping Cinesa (Madrid & Barcelona)...
-Cinesa: Found 39 business dates with showtimes: ['2026-09-03', '2026-09-04', '2026-09-05', '2026-09-06', '2026-09-07', '2026-09-08', '2026-09-09', '2026-09-10', '2026-09-11', '2026-09-12', '2026-09-13', '2026-09-14', '2026-09-15', '2026-09-16', '2026-09-17', '2026-09-18', '2026-09-19', '2026-09-20', '2026-09-25', '2026-09-26', '2026-09-27', '2026-09-28', '2026-09-29', '2026-09-30', '2026-10-01', '2026-10-03', '2026-10-07', '2026-10-10', '2026-10-27', '2026-11-10', '2026-11-19', '2026-12-01', '2027-01-21', '2027-02-23', '2027-03-18', '2027-04-22', '2027-05-05', '2027-05-25', '2027-06-17']
-Cinesa (Madrid & Barcelona): Scraped 741 VOSE sessions.
+Cinesa: Found 38 business dates with showtimes: ['2026-09-04', '2026-09-05', '2026-09-06', '2026-09-07', '2026-09-08', '2026-09-09', '2026-09-10', '2026-09-11', '2026-09-12', '2026-09-13', '2026-09-14', '2026-09-15', '2026-09-16', '2026-09-17', '2026-09-18', '2026-09-19', '2026-09-20', '2026-09-25', '2026-09-26', '2026-09-27', '2026-09-28', '2026-09-29', '2026-09-30', '2026-10-01', '2026-10-03', '2026-10-07', '2026-10-10', '2026-10-27', '2026-11-10', '2026-11-19', '2026-12-01', '2027-01-21', '2027-02-23', '2027-03-18', '2027-04-22', '2027-05-05', '2027-05-25', '2027-06-17']
+Cinesa (Madrid & Barcelona): Scraped 743 VOSE sessions.
