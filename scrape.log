@@ -1,19 +1,19 @@
-Starting Scraper - Local time is 2026-09-04 22:18:51 CEST
+Starting Scraper - Local time is 2026-09-05 00:48:10 CEST
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
   Fetching Yelmo madrid...
   Fetching Yelmo barcelona...
-Yelmo scraped: found 824 VOSE sessions.
+Yelmo scraped: found 814 VOSE sessions.
 Scraping Cine Albéniz...
 Stopping Cine Albéniz scrape after 5 consecutive empty days.
-Cine Albéniz scraped: found 53 VOSE sessions.
+Cine Albéniz scraped: found 46 VOSE sessions.
 Scraping Kinépolis Granada & Nevada...
-Kinépolis Granada & Nevada: Scraped 181 VOSE sessions.
+Kinépolis Granada & Nevada: Scraped 174 VOSE sessions.
 Scraping Cines Renoir...
-Cines Renoir: Scraped 485 VOSE sessions.
+Cines Renoir: Scraped 414 VOSE sessions.
 Scraping Cines Golem...
 Cines Golem Madrid: Scraped 45 VOSE sessions.
-Loaded 686 Cinesa showtimes from cache.
+Loaded 677 Cinesa showtimes from cache.
 Scraping Ocine Serrallo...
 Error scraping Ocine Serrallo: Expecting value: line 1 column 1 (char 0)
 Ocine Serrallo: Scraped 0 sessions.
@@ -29,7 +29,7 @@ original language not found for 7 movies in Cinesa chain
 original language not found for 29 movies in Cinesur chain
 original language not found for 1 movies in Golem chain
 original language not found for 1 movies in Renoir chain
-Successfully generated api/v1/showtimes.json with 2347 listings.
+Successfully generated api/v1/showtimes.json with 2243 listings.
 No new showings found.
 
 Resolving missing movie title translations...
@@ -139,5 +139,6 @@ No translations were updated.
 
 === Cinesa Scraper Logs (Portugal VPN) ===
 Scraping Cinesa (Madrid & Barcelona)...
-Cinesa: Found 38 business dates with showtimes: ['2026-09-04', '2026-09-05', '2026-09-06', '2026-09-07', '2026-09-08', '2026-09-09', '2026-09-10', '2026-09-11', '2026-09-12', '2026-09-13', '2026-09-14', '2026-09-15', '2026-09-16', '2026-09-17', '2026-09-18', '2026-09-19', '2026-09-20', '2026-09-25', '2026-09-26', '2026-09-27', '2026-09-28', '2026-09-29', '2026-09-30', '2026-10-01', '2026-10-03', '2026-10-07', '2026-10-10', '2026-10-27', '2026-11-10', '2026-11-19', '2026-12-01', '2027-01-21', '2027-02-23', '2027-03-18', '2027-04-22', '2027-05-05', '2027-05-25', '2027-06-17']
-Cinesa (Madrid & Barcelona): Scraped 686 VOSE sessions.
+Cinesa: Found 37 business dates with showtimes: ['2026-09-05', '2026-09-06', '2026-09-07', '2026-09-08', '2026-09-09', '2026-09-10', '2026-09-11', '2026-09-12', '2026-09-13', '2026-09-14', '2026-09-15', '2026-09-16', '2026-09-17', '2026-09-18', '2026-09-19', '2026-09-20', '2026-09-25', '2026-09-26', '2026-09-27', '2026-09-28', '2026-09-29', '2026-09-30', '2026-10-01', '2026-10-03', '2026-10-07', '2026-10-10', '2026-10-27', '2026-11-10', '2026-11-19', '2026-12-01', '2027-01-21', '2027-02-23', '2027-03-18', '2027-04-22', '2027-05-05', '2027-05-25', '2027-06-17']
+Error fetching Cinesa showtimes for 2026-09-16: HTTPSConnectionPool(host='vwc.cinesa.es', port=443): Read timed out. (read timeout=15)
+Cinesa (Madrid & Barcelona): Scraped 677 VOSE sessions.
