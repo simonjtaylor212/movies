@@ -331,19 +331,6 @@
     "format": "2D",
     "language": "FRANCÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "original_language": "French",
-    "time": "16:10",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=41692",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-09-01 02:24:11"
-  },
-  {
-    "cinema": "Cine Yelmo Vialia Málaga",
-    "date": "2026-09-05",
-    "movie": "Jim Queen",
-    "format": "2D",
-    "language": "FRANCÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "French",
     "time": "18:00",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=41691",
     "projection_type": "Movie",
@@ -362,19 +349,6 @@
     "projection_type": "Música y conciertos",
     "movie_title_language": "ES",
     "date_added": "2026-08-24 14:46:31"
-  },
-  {
-    "cinema": "Cine Yelmo Vialia Málaga",
-    "date": "2026-09-05",
-    "movie": "Spider-Man: Brand New Day",
-    "format": "2D",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "17:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=41672",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-09-01 02:24:11"
   },
   {
     "cinema": "Cine Yelmo Vialia Málaga",
@@ -1618,32 +1592,6 @@
     "format": "2D",
     "language": "CATALÁN SUBTITULADO EN ESPAÑOL (VOSE)",
     "original_language": "Catalan",
-    "time": "14:50",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=35326",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-09-01 20:10:26"
-  },
-  {
-    "cinema": "Cine Yelmo Ideal",
-    "date": "2026-09-05",
-    "movie": "Cronos",
-    "format": "2D",
-    "language": "CATALÁN SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "Catalan",
-    "time": "17:20",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=34134",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-08-18 23:23:15"
-  },
-  {
-    "cinema": "Cine Yelmo Ideal",
-    "date": "2026-09-05",
-    "movie": "Cronos",
-    "format": "2D",
-    "language": "CATALÁN SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "Catalan",
     "time": "19:50",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=34133",
     "projection_type": "Movie",
@@ -1659,19 +1607,6 @@
     "original_language": "Catalan",
     "time": "22:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=34132",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-09-01 20:10:26"
-  },
-  {
-    "cinema": "Cine Yelmo Ideal",
-    "date": "2026-09-05",
-    "movie": "Jim Queen",
-    "format": "2D",
-    "language": "FRANCÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "French",
-    "time": "16:10",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=35359",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-09-01 20:10:26"
@@ -1735,32 +1670,6 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "original_language": "English",
-    "time": "15:10",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=35370",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-09-01 20:10:26"
-  },
-  {
-    "cinema": "Cine Yelmo Ideal",
-    "date": "2026-09-05",
-    "movie": "La Constelación del Perro",
-    "format": "2D",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "17:40",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=35371",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-09-01 20:10:26"
-  },
-  {
-    "cinema": "Cine Yelmo Ideal",
-    "date": "2026-09-05",
-    "movie": "La Constelación del Perro",
-    "format": "2D",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
     "time": "20:10",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=35372",
     "projection_type": "Movie",
@@ -1802,19 +1711,6 @@
     "original_language": "English",
     "time": "20:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=35374",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-09-01 20:10:26"
-  },
-  {
-    "cinema": "Cine Yelmo Ideal",
-    "date": "2026-09-05",
-    "movie": "Insidious: Fuera del más allá",
-    "format": "2D",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "16:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=35378",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-09-01 20:10:26"
@@ -1878,19 +1774,6 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "original_language": "English",
-    "time": "16:10",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=35340",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-09-01 20:10:26"
-  },
-  {
-    "cinema": "Cine Yelmo Ideal",
-    "date": "2026-09-05",
-    "movie": "Spider-Man: Brand New Day",
-    "format": "2D",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
     "time": "19:10",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=35337",
     "projection_type": "Movie",
@@ -1917,19 +1800,6 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "original_language": "English",
-    "time": "15:50",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=35330",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-09-01 20:10:26"
-  },
-  {
-    "cinema": "Cine Yelmo Ideal",
-    "date": "2026-09-05",
-    "movie": "La Odisea",
-    "format": "2D",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
     "time": "18:20",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=35344",
     "projection_type": "Movie",
@@ -1945,19 +1815,6 @@
     "original_language": "English",
     "time": "21:40",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=35345",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-09-01 20:10:26"
-  },
-  {
-    "cinema": "Cine Yelmo Ideal",
-    "date": "2026-09-05",
-    "movie": "Obsession",
-    "format": "2D",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "15:40",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=35375",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-09-01 20:10:26"
@@ -5761,19 +5618,6 @@
   {
     "cinema": "Cine Yelmo Palafox Luxury",
     "date": "2026-09-05",
-    "movie": "Una Noche al Año",
-    "format": "LUX",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "16:50",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=24674",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-08-31 22:40:06"
-  },
-  {
-    "cinema": "Cine Yelmo Palafox Luxury",
-    "date": "2026-09-05",
     "movie": "La Constelación del Perro",
     "format": "LUX",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
@@ -5793,19 +5637,6 @@
     "original_language": "English",
     "time": "21:05",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=24664",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-08-31 22:40:06"
-  },
-  {
-    "cinema": "Cine Yelmo Palafox Luxury",
-    "date": "2026-09-05",
-    "movie": "El final de Oak Street",
-    "format": "LUX",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "16:00",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=24676",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-08-31 22:40:06"
@@ -5845,19 +5676,6 @@
     "original_language": "English",
     "time": "21:50",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=24672",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-08-31 22:40:06"
-  },
-  {
-    "cinema": "Cine Yelmo Palafox Luxury",
-    "date": "2026-09-05",
-    "movie": "La Odisea",
-    "format": "LUX",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "17:40",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=24669",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-08-31 22:40:06"
@@ -9998,6 +9816,19 @@
   },
   {
     "cinema": "Cine Yelmo Westfield La Maquinista",
+    "date": "2026-09-19",
+    "movie": "20 Años del MET en cines: Una celebración",
+    "format": "CA PREMIUM",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "19:00",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1350&showtimeVistaId=40730",
+    "projection_type": "Ópera",
+    "movie_title_language": "ES",
+    "date_added": "2026-09-05 19:09:25"
+  },
+  {
+    "cinema": "Cine Yelmo Westfield La Maquinista",
     "date": "2026-09-22",
     "movie": "Resident Evil",
     "format": "ATMOS",
@@ -10116,6 +9947,19 @@
   {
     "cinema": "Cine Yelmo Westfield La Maquinista",
     "date": "2026-10-03",
+    "movie": "COSÌ FAN TUTTE (Mozart) - MET LIVE 26-27",
+    "format": "CA PREMIUM",
+    "language": "ITALIANO SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "Italian",
+    "time": "19:00",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1350&showtimeVistaId=40731",
+    "projection_type": "Ópera",
+    "movie_title_language": "ES",
+    "date_added": "2026-09-05 19:09:25"
+  },
+  {
+    "cinema": "Cine Yelmo Westfield La Maquinista",
+    "date": "2026-10-03",
     "movie": "Linkin Park: Unshatter",
     "format": "PREMIUM",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
@@ -10167,6 +10011,45 @@
   },
   {
     "cinema": "Cine Yelmo Westfield La Maquinista",
+    "date": "2026-10-17",
+    "movie": "MACBETH (Verdi) - MET LIVE 26-27",
+    "format": "CA PREMIUM",
+    "language": "ITALIANO SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "Italian",
+    "time": "19:00",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1350&showtimeVistaId=40732",
+    "projection_type": "Ópera",
+    "movie_title_language": "ES",
+    "date_added": "2026-09-05 19:09:25"
+  },
+  {
+    "cinema": "Cine Yelmo Westfield La Maquinista",
+    "date": "2026-11-14",
+    "movie": "CARMEN (Bizet) - REPOSICIÓN MET 26-27",
+    "format": "CA PREMIUM",
+    "language": "FRANCÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "French",
+    "time": "19:00",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1350&showtimeVistaId=40733",
+    "projection_type": "Ópera",
+    "movie_title_language": "ES",
+    "date_added": "2026-09-05 19:09:25"
+  },
+  {
+    "cinema": "Cine Yelmo Westfield La Maquinista",
+    "date": "2026-12-05",
+    "movie": "SAMSON ET DALILA (Saint-Saëns) - MET LIVE 26-27",
+    "format": "CA PREMIUM",
+    "language": "FRANCÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "French",
+    "time": "18:00",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1350&showtimeVistaId=40734",
+    "projection_type": "Ópera",
+    "movie_title_language": "ES",
+    "date_added": "2026-09-05 19:09:25"
+  },
+  {
+    "cinema": "Cine Yelmo Westfield La Maquinista",
     "date": "2027-01-08",
     "movie": "SIMON BOCCANEGRA - Teatro Real 26-27",
     "format": "CA PREMIUM",
@@ -10177,6 +10060,19 @@
     "projection_type": "Teatro",
     "movie_title_language": "ES",
     "date_added": "2026-08-31 22:40:06"
+  },
+  {
+    "cinema": "Cine Yelmo Westfield La Maquinista",
+    "date": "2027-01-23",
+    "movie": "LA FANCIULLA DEL WEST (Puccini) - MET LIVE 26-27",
+    "format": "CA PREMIUM",
+    "language": "ITALIANO SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "Italian",
+    "time": "19:00",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1350&showtimeVistaId=40735",
+    "projection_type": "Ópera",
+    "movie_title_language": "ES",
+    "date_added": "2026-09-05 19:09:25"
   },
   {
     "cinema": "Cine Yelmo Westfield La Maquinista",
@@ -10931,19 +10827,6 @@
     "projection_type": "Movie",
     "movie_title_language": "OR",
     "date_added": "2026-09-03 12:43:40"
-  },
-  {
-    "cinema": "mk2 Cinesur Miramar",
-    "date": "2026-09-05",
-    "movie": "La Odisea",
-    "format": "2D",
-    "language": "Original con subtítulos (VOSE)",
-    "original_language": "English",
-    "time": "17:00",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/143014/la-odisea?mode=widget&change=0&ref=750&forceproxy=1",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-09-01 20:10:26"
   },
   {
     "cinema": "mk2 Cinesur Miramar",
@@ -12213,11 +12096,11 @@
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
-    "time": "19:00",
+    "time": "19:30",
     "booking_url": "https://kinepolis.es/direct-vista-redirect/170639/0/KGRAN/0",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-09-04 17:48:14"
+    "date_added": "2026-09-05 19:09:25"
   },
   {
     "cinema": "Kinépolis Granada",
@@ -12226,11 +12109,11 @@
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
-    "time": "21:15",
+    "time": "21:30",
     "booking_url": "https://kinepolis.es/direct-vista-redirect/170640/0/KGRAN/0",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-09-04 17:48:14"
+    "date_added": "2026-09-05 19:09:25"
   },
   {
     "cinema": "Kinépolis Granada",
@@ -12239,11 +12122,11 @@
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
-    "time": "21:15",
+    "time": "21:30",
     "booking_url": "https://kinepolis.es/direct-vista-redirect/170641/0/KGRAN/0",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-09-04 17:48:14"
+    "date_added": "2026-09-05 19:09:25"
   },
   {
     "cinema": "Kinépolis Granada",
@@ -12252,11 +12135,11 @@
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
-    "time": "19:00",
+    "time": "19:30",
     "booking_url": "https://kinepolis.es/direct-vista-redirect/170642/0/KGRAN/0",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-09-04 17:48:14"
+    "date_added": "2026-09-05 19:09:25"
   },
   {
     "cinema": "Kinépolis Granada",
@@ -12265,11 +12148,11 @@
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
-    "time": "19:00",
+    "time": "19:30",
     "booking_url": "https://kinepolis.es/direct-vista-redirect/170651/0/KGRAN/0",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-09-04 17:48:14"
+    "date_added": "2026-09-05 19:09:25"
   },
   {
     "cinema": "Kinépolis Granada",
@@ -12278,11 +12161,11 @@
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
-    "time": "21:15",
+    "time": "21:30",
     "booking_url": "https://kinepolis.es/direct-vista-redirect/170652/0/KGRAN/0",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-09-04 17:48:14"
+    "date_added": "2026-09-05 19:09:25"
   },
   {
     "cinema": "Kinépolis Madrid Diversia",
@@ -14103,6 +13986,58 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-09-01 20:10:26"
+  },
+  {
+    "cinema": "Kinépolis Granada Nevada",
+    "date": "2026-09-19",
+    "movie": "Resident Evil",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "12:15",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/101928/0/KNEVA/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-09-05 19:09:25"
+  },
+  {
+    "cinema": "Kinépolis Granada Nevada",
+    "date": "2026-09-19",
+    "movie": "Resident Evil",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "14:10",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/101929/0/KNEVA/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-09-05 19:09:25"
+  },
+  {
+    "cinema": "Kinépolis Granada Nevada",
+    "date": "2026-09-20",
+    "movie": "Resident Evil",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "12:20",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/101930/0/KNEVA/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-09-05 19:09:25"
+  },
+  {
+    "cinema": "Kinépolis Granada Nevada",
+    "date": "2026-09-20",
+    "movie": "Resident Evil",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "14:15",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/101931/0/KNEVA/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-09-05 19:09:25"
   },
   {
     "cinema": "Ocine Serrallo",
@@ -19506,19 +19441,6 @@
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "Catalan",
-    "time": "17:00",
-    "booking_url": "https://www.golem.es/golem/urlcheck.php?idCine=8&perfCode=99569&eventCode=105007",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-09-02 15:15:50"
-  },
-  {
-    "cinema": "Cines Golem Madrid",
-    "date": "2026-09-05",
-    "movie": "Cronos",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "Catalan",
     "time": "19:30",
     "booking_url": "https://www.golem.es/golem/urlcheck.php?idCine=8&perfCode=99568&eventCode=105007",
     "projection_type": "Movie",
@@ -19545,19 +19467,6 @@
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "",
-    "time": "17:15",
-    "booking_url": "https://www.golem.es/golem/urlcheck.php?idCine=8&perfCode=99563&eventCode=104957",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-09-02 15:15:50"
-  },
-  {
-    "cinema": "Cines Golem Madrid",
-    "date": "2026-09-05",
-    "movie": "PROMETIDO EL CIELO",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "",
     "time": "22:15",
     "booking_url": "https://www.golem.es/golem/urlcheck.php?idCine=8&perfCode=99561&eventCode=104957",
     "projection_type": "Movie",
@@ -19573,19 +19482,6 @@
     "original_language": "English",
     "time": "19:45",
     "booking_url": "https://www.golem.es/golem/urlcheck.php?idCine=8&perfCode=99562&eventCode=113197",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-09-02 15:15:50"
-  },
-  {
-    "cinema": "Cines Golem Madrid",
-    "date": "2026-09-05",
-    "movie": "VIVIR LA TIERRA",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "Chinese",
-    "time": "19:00",
-    "booking_url": "https://www.golem.es/golem/urlcheck.php?idCine=8&perfCode=99557&eventCode=111093",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-09-02 15:15:50"
