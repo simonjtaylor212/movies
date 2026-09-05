@@ -666534,5 +666534,70 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-09-04 17:48:14"
+  },
+  {
+    "cinema": "Cine Yelmo La Vaguada",
+    "date": "2026-09-08",
+    "movie": "Spider-Man: Brand New Day",
+    "format": "2D",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "12:15",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1360&showtimeVistaId=20377",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-09-05 16:38:14"
+  },
+  {
+    "cinema": "Kinépolis Madrid Diversia",
+    "date": "2026-09-07",
+    "movie": "Spider-Man: Brand New Day",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "17:10",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/133530/0/KALCO/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-09-05 16:38:14"
+  },
+  {
+    "cinema": "Kinépolis Madrid Diversia",
+    "date": "2026-09-08",
+    "movie": "Spider-Man: Brand New Day",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "17:10",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/133543/0/KALCO/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-09-05 16:38:14"
+  },
+  {
+    "cinema": "Kinépolis Madrid Diversia",
+    "date": "2026-09-10",
+    "movie": "Spider-Man: Brand New Day",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "17:10",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/133571/0/KALCO/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-09-05 16:38:14"
+  },
+  {
+    "cinema": "Kinépolis Madrid Diversia",
+    "date": "2026-09-09",
+    "movie": "Spider-Man: Brand New Day",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "17:10",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/133599/0/KALCO/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-09-05 16:38:14"
   }
 ]
