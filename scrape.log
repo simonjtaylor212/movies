@@ -1,4 +1,4 @@
-Starting Scraper - Local time is 2026-09-06 00:38:59 CEST
+Starting Scraper - Local time is 2026-09-06 05:02:10 CEST
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
   Fetching Yelmo madrid...
@@ -17,7 +17,7 @@ Scraping Cinesa (Madrid & Barcelona)...
 Error: Cinesa home returned status 403
 Error: Could not retrieve Cinesa authentication token.
 Warning: cinesa scraper returned 0 showings. Using fallback data.
-Recovered 677 cinesa showings from previous run.
+Recovered 579 cinesa showings from previous run.
 Scraping Ocine Serrallo...
 Error scraping Ocine Serrallo: Expecting value: line 1 column 1 (char 0)
 Ocine Serrallo: Scraped 0 sessions.
@@ -29,7 +29,7 @@ Scraping mk2 Cinesur...
   mk2 Cinesur Málaga Nostrum: found 29 sessions.
 mk2 Cinesur scraped: found 69 VOSE sessions.
 original language not found for 1 movies in Albéniz chain
-original language not found for 7 movies in Cinesa chain
+original language not found for 6 movies in Cinesa chain
 original language not found for 29 movies in Cinesur chain
 original language not found for 1 movies in Golem chain
 original language not found for 1 movies in Renoir chain
