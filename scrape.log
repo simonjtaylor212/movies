@@ -1,18 +1,18 @@
-Starting Scraper - Local time is 2026-09-08 22:45:10 CEST
+Starting Scraper - Local time is 2026-09-09 01:12:13 CEST
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
   Fetching Yelmo madrid...
   Fetching Yelmo barcelona...
-Yelmo scraped: found 977 VOSE sessions.
+Yelmo scraped: found 956 VOSE sessions.
 Scraping Cine Albéniz...
 Stopping Cine Albéniz scrape after 5 consecutive empty days.
-Cine Albéniz scraped: found 77 VOSE sessions.
+Cine Albéniz scraped: found 70 VOSE sessions.
 Scraping Kinépolis Granada & Nevada...
-Kinépolis Granada & Nevada: Scraped 249 VOSE sessions.
+Kinépolis Granada & Nevada: Scraped 270 VOSE sessions.
 Scraping Cines Renoir...
-Cines Renoir: Scraped 686 VOSE sessions.
+Cines Renoir: Scraped 622 VOSE sessions.
 Scraping Cines Golem...
-Cines Golem Madrid: Scraped 49 VOSE sessions.
+Cines Golem Madrid: Scraped 56 VOSE sessions.
 Scraping Cinesa (Madrid & Barcelona)...
 Error: Cinesa home returned status 403
 Error: Could not retrieve Cinesa authentication token.
@@ -33,12 +33,11 @@ original language not found for 6 movies in Cinesa chain
 original language not found for 29 movies in Cinesur chain
 original language not found for 1 movies in Golem chain
 original language not found for 1 movies in Renoir chain
-Updated movie_title_translations.json
-Successfully generated api/v1/showtimes.json with 2636 listings.
-Appended 375 new showings to new_showtimes.json
+Successfully generated api/v1/showtimes.json with 2519 listings.
+Appended 36 new showings to new_showtimes.json
 
 Resolving missing movie title translations...
-Found 37 movies without original names.
+Found 35 movies without original names.
 No TMDB_API_KEY detected. Using keyless TMDB scraper and Wikidata fallbacks.
 
 Searching for: '20 Años del MET en cines - Grabado MET 26-27'
@@ -64,9 +63,6 @@ Searching for: 'CUENTOS DE TOKIO [WILDER CINEMA]'
 
 Searching for: 'DIRTY DANCING [WILDER CINEMA]'
   -> Could not resolve original name for 'DIRTY DANCING [WILDER CINEMA]'
-
-Searching for: 'Detective Conan: El ángel caído de la...'
-  -> Found via TMDB Web: '名探偵コナン ハイウェイの堕天使'
 
 Searching for: 'EL ACTIVISTA [CINE CON ORGULLO RENOIR]'
   -> Could not resolve original name for 'EL ACTIVISTA [CINE CON ORGULLO RENOIR]'
@@ -113,9 +109,6 @@ Searching for: 'La casa del bosque 2'
 Searching for: 'MALAS CALLES [WILDER CINEMA]'
   -> Could not resolve original name for 'MALAS CALLES [WILDER CINEMA]'
 
-Searching for: 'MOTHER S BABY (LA SEMILLA)'
-  -> Found via TMDB Web: 'Mother's Baby'
-
 Searching for: 'PARIS, TEXAS [WILDER CINEMA]'
   -> Could not resolve original name for 'PARIS, TEXAS [WILDER CINEMA]'
 
@@ -152,4 +145,4 @@ Searching for: 'WHAT A FEELING [CINE CON ORGULLO RENOIR]'
 Searching for: 'es GHOST: 2 Big To Rig'
   -> Could not resolve original name for 'es GHOST: 2 Big To Rig'
 
-Successfully updated 2 translation(s) in movie_title_translations.json.
+No translations were updated.
