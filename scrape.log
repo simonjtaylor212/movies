@@ -1,21 +1,23 @@
-Starting Scraper - Local time is 2026-09-08 18:01:31 CEST
+Starting Scraper - Local time is 2026-09-08 22:45:10 CEST
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
   Fetching Yelmo madrid...
   Fetching Yelmo barcelona...
-Yelmo scraped: found 1007 VOSE sessions.
+Yelmo scraped: found 977 VOSE sessions.
 Scraping Cine Albéniz...
 Stopping Cine Albéniz scrape after 5 consecutive empty days.
 Cine Albéniz scraped: found 77 VOSE sessions.
 Scraping Kinépolis Granada & Nevada...
-Kinépolis Granada & Nevada: Scraped 152 VOSE sessions.
+Kinépolis Granada & Nevada: Scraped 249 VOSE sessions.
 Scraping Cines Renoir...
-Cines Renoir: Scraped 462 VOSE sessions.
+Cines Renoir: Scraped 686 VOSE sessions.
 Scraping Cines Golem...
-Cines Golem Madrid: Scraped 22 VOSE sessions.
+Cines Golem Madrid: Scraped 49 VOSE sessions.
 Scraping Cinesa (Madrid & Barcelona)...
-Cinesa: Found 37 business dates with showtimes: ['2026-09-08', '2026-09-09', '2026-09-10', '2026-09-11', '2026-09-12', '2026-09-13', '2026-09-14', '2026-09-15', '2026-09-16', '2026-09-17', '2026-09-18', '2026-09-19', '2026-09-20', '2026-09-25', '2026-09-26', '2026-09-27', '2026-09-28', '2026-09-29', '2026-09-30', '2026-10-01', '2026-10-03', '2026-10-07', '2026-10-10', '2026-10-12', '2026-10-14', '2026-10-17', '2026-10-27', '2026-11-10', '2026-11-19', '2026-12-01', '2027-01-21', '2027-02-23', '2027-03-18', '2027-04-22', '2027-05-05', '2027-05-25', '2027-06-17']
-Cinesa (Madrid & Barcelona): Scraped 535 VOSE sessions.
+Error: Cinesa home returned status 403
+Error: Could not retrieve Cinesa authentication token.
+Warning: cinesa scraper returned 0 showings. Using fallback data.
+Recovered 535 cinesa showings from previous run.
 Scraping Ocine Serrallo...
 Error scraping Ocine Serrallo: Expecting value: line 1 column 1 (char 0)
 Ocine Serrallo: Scraped 0 sessions.
@@ -32,11 +34,11 @@ original language not found for 29 movies in Cinesur chain
 original language not found for 1 movies in Golem chain
 original language not found for 1 movies in Renoir chain
 Updated movie_title_translations.json
-Successfully generated api/v1/showtimes.json with 2318 listings.
-Appended 497 new showings to new_showtimes.json
+Successfully generated api/v1/showtimes.json with 2636 listings.
+Appended 375 new showings to new_showtimes.json
 
 Resolving missing movie title translations...
-Found 36 movies without original names.
+Found 37 movies without original names.
 No TMDB_API_KEY detected. Using keyless TMDB scraper and Wikidata fallbacks.
 
 Searching for: '20 Años del MET en cines - Grabado MET 26-27'
@@ -60,11 +62,11 @@ Searching for: 'CUENTA CONMIGO [WILDER CINEMA]'
 Searching for: 'CUENTOS DE TOKIO [WILDER CINEMA]'
   -> Could not resolve original name for 'CUENTOS DE TOKIO [WILDER CINEMA]'
 
-Searching for: 'DETECTIU CONAN: L´ÀNGEL CAIGUT'
-  -> Found via TMDB Web: '名探偵コナン ハイウェイの堕天使'
-
 Searching for: 'DIRTY DANCING [WILDER CINEMA]'
   -> Could not resolve original name for 'DIRTY DANCING [WILDER CINEMA]'
+
+Searching for: 'Detective Conan: El ángel caído de la...'
+  -> Found via TMDB Web: '名探偵コナン ハイウェイの堕天使'
 
 Searching for: 'EL ACTIVISTA [CINE CON ORGULLO RENOIR]'
   -> Could not resolve original name for 'EL ACTIVISTA [CINE CON ORGULLO RENOIR]'
@@ -111,6 +113,9 @@ Searching for: 'La casa del bosque 2'
 Searching for: 'MALAS CALLES [WILDER CINEMA]'
   -> Could not resolve original name for 'MALAS CALLES [WILDER CINEMA]'
 
+Searching for: 'MOTHER S BABY (LA SEMILLA)'
+  -> Found via TMDB Web: 'Mother's Baby'
+
 Searching for: 'PARIS, TEXAS [WILDER CINEMA]'
   -> Could not resolve original name for 'PARIS, TEXAS [WILDER CINEMA]'
 
@@ -147,4 +152,4 @@ Searching for: 'WHAT A FEELING [CINE CON ORGULLO RENOIR]'
 Searching for: 'es GHOST: 2 Big To Rig'
   -> Could not resolve original name for 'es GHOST: 2 Big To Rig'
 
-Successfully updated 1 translation(s) in movie_title_translations.json.
+Successfully updated 2 translation(s) in movie_title_translations.json.
