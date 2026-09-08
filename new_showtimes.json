@@ -670850,5 +670850,18 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-09-08 01:17:29"
+  },
+  {
+    "cinema": "Cine Yelmo Westfield La Maquinista",
+    "date": "2026-09-13",
+    "movie": "Prácticamente magia 2",
+    "format": "XE",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "11:45",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1350&showtimeVistaId=45307",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-09-08 05:10:03"
   }
 ]
