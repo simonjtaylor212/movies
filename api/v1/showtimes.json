@@ -11545,6 +11545,58 @@
   },
   {
     "cinema": "Cine Yelmo Baricentro",
+    "date": "2026-09-11",
+    "movie": "Detective Conan: El ángel caído de la carretera",
+    "format": "2D",
+    "language": "CATALÁN SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "Catalan",
+    "time": "19:00",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=781&showtimeVistaId=25389",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-09-09 12:47:59"
+  },
+  {
+    "cinema": "Cine Yelmo Baricentro",
+    "date": "2026-09-12",
+    "movie": "Detective Conan: El ángel caído de la carretera",
+    "format": "2D",
+    "language": "CATALÁN SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "Catalan",
+    "time": "19:00",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=781&showtimeVistaId=25348",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-09-09 12:47:59"
+  },
+  {
+    "cinema": "Cine Yelmo Baricentro",
+    "date": "2026-09-13",
+    "movie": "Detective Conan: El ángel caído de la carretera",
+    "format": "2D",
+    "language": "CATALÁN SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "Catalan",
+    "time": "19:00",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=781&showtimeVistaId=25366",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-09-09 12:47:59"
+  },
+  {
+    "cinema": "Cine Yelmo Baricentro",
+    "date": "2026-09-14",
+    "movie": "Detective Conan: El ángel caído de la carretera",
+    "format": "2D",
+    "language": "CATALÁN SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "Catalan",
+    "time": "19:00",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=781&showtimeVistaId=25408",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-09-09 12:47:59"
+  },
+  {
+    "cinema": "Cine Yelmo Baricentro",
     "date": "2026-09-15",
     "movie": "Prácticamente magia 2",
     "format": "2D",
@@ -11555,6 +11607,45 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-08-14 03:50:07"
+  },
+  {
+    "cinema": "Cine Yelmo Baricentro",
+    "date": "2026-09-15",
+    "movie": "Detective Conan: El ángel caído de la carretera",
+    "format": "2D",
+    "language": "CATALÁN SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "Catalan",
+    "time": "19:00",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=781&showtimeVistaId=25411",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-09-09 12:47:59"
+  },
+  {
+    "cinema": "Cine Yelmo Baricentro",
+    "date": "2026-09-16",
+    "movie": "Detective Conan: El ángel caído de la carretera",
+    "format": "2D",
+    "language": "CATALÁN SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "Catalan",
+    "time": "19:00",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=781&showtimeVistaId=25444",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-09-09 12:47:59"
+  },
+  {
+    "cinema": "Cine Yelmo Baricentro",
+    "date": "2026-09-17",
+    "movie": "Detective Conan: El ángel caído de la carretera",
+    "format": "2D",
+    "language": "CATALÁN SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "Catalan",
+    "time": "19:00",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=781&showtimeVistaId=25463",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-09-09 12:47:59"
   },
   {
     "cinema": "Cine Yelmo Baricentro",
@@ -11685,6 +11776,19 @@
     "projection_type": "Música y conciertos",
     "movie_title_language": "ES",
     "date_added": "2026-08-10 20:56:02"
+  },
+  {
+    "cinema": "Cine Yelmo Baricentro",
+    "date": "2026-12-15",
+    "movie": "Dune: Parte Tres",
+    "format": "2D",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "20:30",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=781&showtimeVistaId=25178",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-09-09 12:47:59"
   },
   {
     "cinema": "Cine Yelmo Westfield La Maquinista",
@@ -14402,6 +14506,19 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-07-29 18:21:34"
+  },
+  {
+    "cinema": "mk2 Cinesur Málaga Nostrum",
+    "date": "2026-12-15",
+    "movie": "Dune: Parte Tres",
+    "format": "2D",
+    "language": "Original con subtítulos (VOSE)",
+    "original_language": "English",
+    "time": "20:00",
+    "booking_url": "https://cine.entradas.com/cine/malaga/cinesur-malaga-nostrum/evento/129417/dune-parte-tres?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-09-09 12:47:59"
   },
   {
     "cinema": "mk2 Cinesur Málaga Nostrum",
@@ -21491,19 +21608,6 @@
   {
     "cinema": "Cines Renoir Floridablanca",
     "date": "2026-09-12",
-    "movie": "FORASTERA",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "Catalan",
-    "time": "19:50",
-    "booking_url": "https://www.pillalas.com/pase/1086743/",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-09-07 21:00:18"
-  },
-  {
-    "cinema": "Cines Renoir Floridablanca",
-    "date": "2026-09-12",
     "movie": "La Constelación del Perro",
     "format": "2D",
     "language": "V.O.S.E.",
@@ -24344,19 +24448,6 @@
     "original_language": "Catalan",
     "time": "17:55",
     "booking_url": "https://www.pillalas.com/pase/1086938/",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-09-08 18:01:31"
-  },
-  {
-    "cinema": "Cines Renoir Plaza de España",
-    "date": "2026-09-16",
-    "movie": "FORASTERA",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "Catalan",
-    "time": "19:50",
-    "booking_url": "https://www.pillalas.com/pase/1086940/",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-09-08 18:01:31"

@@ -1,16 +1,16 @@
-Starting Scraper - Local time is 2026-09-09 05:12:01 CEST
+Starting Scraper - Local time is 2026-09-09 12:47:59 CEST
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
   Fetching Yelmo madrid...
   Fetching Yelmo barcelona...
-Yelmo scraped: found 956 VOSE sessions.
+Yelmo scraped: found 964 VOSE sessions.
 Scraping Cine Albéniz...
 Stopping Cine Albéniz scrape after 5 consecutive empty days.
 Cine Albéniz scraped: found 70 VOSE sessions.
 Scraping Kinépolis Granada & Nevada...
 Kinépolis Granada & Nevada: Scraped 270 VOSE sessions.
 Scraping Cines Renoir...
-Cines Renoir: Scraped 622 VOSE sessions.
+Cines Renoir: Scraped 620 VOSE sessions.
 Scraping Cines Golem...
 Cines Golem Madrid: Scraped 56 VOSE sessions.
 Scraping Cinesa (Madrid & Barcelona)...
@@ -26,18 +26,19 @@ Recovered 1 ocine showings from previous run.
 Scraping mk2 Cinesur...
   mk2 Cinesur Miramar: found 55 sessions.
   mk2 Cinesur El Ingenio: found 0 sessions.
-  mk2 Cinesur Málaga Nostrum: found 29 sessions.
-mk2 Cinesur scraped: found 84 VOSE sessions.
+  mk2 Cinesur Málaga Nostrum: found 30 sessions.
+mk2 Cinesur scraped: found 85 VOSE sessions.
 original language not found for 1 movies in Albéniz chain
 original language not found for 6 movies in Cinesa chain
 original language not found for 29 movies in Cinesur chain
 original language not found for 1 movies in Golem chain
 original language not found for 1 movies in Renoir chain
-Successfully generated api/v1/showtimes.json with 2541 listings.
-Appended 22 new showings to new_showtimes.json
+Updated movie_title_translations.json
+Successfully generated api/v1/showtimes.json with 2548 listings.
+Appended 9 new showings to new_showtimes.json
 
 Resolving missing movie title translations...
-Found 35 movies without original names.
+Found 36 movies without original names.
 No TMDB_API_KEY detected. Using keyless TMDB scraper and Wikidata fallbacks.
 
 Searching for: '20 Años del MET en cines - Grabado MET 26-27'
@@ -63,6 +64,9 @@ Searching for: 'CUENTOS DE TOKIO [WILDER CINEMA]'
 
 Searching for: 'DIRTY DANCING [WILDER CINEMA]'
   -> Could not resolve original name for 'DIRTY DANCING [WILDER CINEMA]'
+
+Searching for: 'Dune: Parte Tres'
+  -> Found via TMDB Web: 'Dune: Part Three'
 
 Searching for: 'EL ACTIVISTA [CINE CON ORGULLO RENOIR]'
   -> Could not resolve original name for 'EL ACTIVISTA [CINE CON ORGULLO RENOIR]'
@@ -145,4 +149,4 @@ Searching for: 'WHAT A FEELING [CINE CON ORGULLO RENOIR]'
 Searching for: 'es GHOST: 2 Big To Rig'
   -> Could not resolve original name for 'es GHOST: 2 Big To Rig'
 
-No translations were updated.
+Successfully updated 1 translation(s) in movie_title_translations.json.
