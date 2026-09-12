@@ -1,4 +1,4 @@
-Starting Scraper - Local time is 2026-09-12 05:13:29 CEST
+Starting Scraper - Local time is 2026-09-12 12:08:11 CEST
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
   Fetching Yelmo madrid...
@@ -12,7 +12,6 @@ Kinépolis Granada & Nevada: Scraped 246 VOSE sessions.
 Scraping Cines Renoir...
 Cines Renoir: Scraped 412 VOSE sessions.
 Scraping Cines Golem...
-Error scraping Cines Golem Madrid for date 2026-09-19: HTTPSConnectionPool(host='www.golem.es', port=443): Max retries exceeded with url: /golem/golem-madrid/20260919 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))
 Cines Golem Madrid: Scraped 42 VOSE sessions.
 Scraping Cinesa (Madrid & Barcelona)...
 Error: Cinesa home returned status 403
@@ -25,15 +24,15 @@ Ocine Serrallo: Scraped 0 sessions.
 Warning: ocine scraper returned 0 showings. Using fallback data.
 Recovered 1 ocine showings from previous run.
 Scraping mk2 Cinesur...
-  mk2 Cinesur Miramar: found 50 sessions.
+  mk2 Cinesur Miramar: found 49 sessions.
   mk2 Cinesur El Ingenio: found 1 sessions.
   mk2 Cinesur Málaga Nostrum: found 30 sessions.
-mk2 Cinesur scraped: found 81 VOSE sessions.
+mk2 Cinesur scraped: found 80 VOSE sessions.
 original language not found for 5 movies in Cinesa chain
 original language not found for 29 movies in Cinesur chain
 original language not found for 2 movies in Golem chain
-Successfully generated api/v1/showtimes.json with 2404 listings.
-Appended 1 new showings to new_showtimes.json
+Successfully generated api/v1/showtimes.json with 2403 listings.
+No new showings found.
 
 Resolving missing movie title translations...
 Found 35 movies without original names.
