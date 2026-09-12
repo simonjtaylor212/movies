@@ -5695,6 +5695,19 @@
   },
   {
     "cinema": "Cine Yelmo La Vaguada",
+    "date": "2026-09-29",
+    "movie": "En el corazón de la bestia",
+    "format": "2D",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "19:45",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1360&showtimeVistaId=20829",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-09-12 05:13:29"
+  },
+  {
+    "cinema": "Cine Yelmo La Vaguada",
     "date": "2026-09-30",
     "movie": "Vengadores: Endgame Encore",
     "format": "2D",
