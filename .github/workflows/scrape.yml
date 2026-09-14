@@ -92,8 +92,18 @@ jobs:
       if: always()
       run: |
         if [ -f SCRAPER_ALERT ]; then
-          echo "::error::One or more scrapers failed and returned 0 showings. Used cached fallback data."
-          echo "The following scrapers triggered the fallback:"
-          cat SCRAPER_ALERT
+          FAILED_SCRAPERS=$(tr '\n' ' ' < SCRAPER_ALERT | xargs | sed 's/ /, /g')
+          echo "::error::The following scraper(s) failed and used cached fallback data: $FAILED_SCRAPERS"
+          if [ -n "$GITHUB_STEP_SUMMARY" ]; then
+            echo "### ⚠️ Scraper Fallback Alert" >> "$GITHUB_STEP_SUMMARY"
+            echo "The following scrapers failed and returned 0 showings:" >> "$GITHUB_STEP_SUMMARY"
+          fi
+          while IFS= read -r line || [ -n "$line" ]; do
+            [ -z "$line" ] && continue
+            echo "::error title=Scraper Failed::$line scraper failed or returned 0 showtimes"
+            if [ -n "$GITHUB_STEP_SUMMARY" ]; then
+              echo "- **$line**" >> "$GITHUB_STEP_SUMMARY"
+            fi
+          done < SCRAPER_ALERT
           exit 1
         fi
