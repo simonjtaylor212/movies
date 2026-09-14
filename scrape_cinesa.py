@@ -2,7 +2,9 @@ import requests
 from bs4 import BeautifulSoup
 import re
 import json
+import os
 from datetime import datetime
+from playwright.sync_api import sync_playwright
 
 headers = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
@@ -37,21 +39,58 @@ def get_token():
     url = "https://www.cinesa.es/"
     try:
         r = requests.get(url, headers=headers, timeout=15)
-        if r.status_code != 200:
-            print(f"Error: Cinesa home returned status {r.status_code}")
-            return None
-        soup = BeautifulSoup(r.text, "html.parser")
-        for script in soup.find_all("script"):
-            content = script.string or ""
-            if "initialData" in content:
-                match = re.search(r'initialData\s*=\s*(\{.*?\});', content, re.DOTALL)
-                if not match:
-                    match = re.search(r'initialData\s*=\s*(\{.*\})', content, re.DOTALL)
-                if match:
-                    data = json.loads(match.group(1))
-                    return data.get('api', {}).get('authToken')
+        if r.status_code == 200:
+            soup = BeautifulSoup(r.text, "html.parser")
+            for script in soup.find_all("script"):
+                content = script.string or ""
+                if "initialData" in content:
+                    match = re.search(r'initialData\s*=\s*(\{.*?\});', content, re.DOTALL)
+                    if not match:
+                        match = re.search(r'initialData\s*=\s*(\{.*\})', content, re.DOTALL)
+                    if match:
+                        data = json.loads(match.group(1))
+                        token = data.get('api', {}).get('authToken')
+                        if token:
+                            return token
     except Exception as e:
-        print(f"Error fetching Cinesa auth token: {e}")
+        print(f"requests token fetch failed: {e}")
+
+    # Fallback to Playwright browser navigation
+    print("Attempting Cinesa auth token extraction via Playwright...")
+    try:
+        headless_env = os.environ.get("CINESA_HEADLESS", "true").lower() == "true"
+        with sync_playwright() as p:
+            browser = p.chromium.launch(
+                headless=headless_env,
+                args=["--disable-blink-features=AutomationControlled", "--no-sandbox"]
+            )
+            context = browser.new_context(
+                user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+                viewport={"width": 1280, "height": 720}
+            )
+            context.add_init_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
+            page = context.new_page()
+
+            page.goto("https://www.cinesa.es/", timeout=30000)
+            page.wait_for_timeout(3000)
+
+            content = page.content()
+            browser.close()
+
+            script_tags = re.findall(r'<script[^>]*>(.*?)</script>', content, re.DOTALL)
+            for script in script_tags:
+                if "initialData" in script:
+                    match = re.search(r'initialData\s*=\s*(\{.*?\});', script, re.DOTALL)
+                    if not match:
+                        match = re.search(r'initialData\s*=\s*(\{.*\})', script, re.DOTALL)
+                    if match:
+                        data = json.loads(match.group(1))
+                        token = data.get('api', {}).get('authToken')
+                        if token:
+                            return token
+    except Exception as e:
+        print(f"Error fetching Cinesa auth token via Playwright: {e}")
+
     return None
 
 def scrape_cinesa():
