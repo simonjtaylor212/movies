@@ -1,36 +1,34 @@
-Starting Scraper - Local time is 2026-09-15 18:18:47 CEST
+Starting Scraper - Local time is 2026-09-15 22:53:32 CEST
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
   Fetching Yelmo madrid...
   Fetching Yelmo barcelona...
-Yelmo scraped: found 1020 VOSE sessions.
+Yelmo scraped: found 1001 VOSE sessions.
 Scraping Cine Albéniz...
 Stopping Cine Albéniz scrape after 5 consecutive empty days.
 Cine Albéniz scraped: found 22 VOSE sessions.
 Scraping Kinépolis Granada & Nevada...
-Kinépolis Granada & Nevada: Scraped 178 VOSE sessions.
+Kinépolis Granada & Nevada: Scraped 308 VOSE sessions.
 Scraping Cines Renoir...
 Cines Renoir: Scraped 714 VOSE sessions.
 Scraping Cines Golem...
-Cines Golem Madrid: Scraped 19 VOSE sessions.
+Cines Golem Madrid: Scraped 14 VOSE sessions.
 Scraping Cinesa (Madrid & Barcelona)...
-Attempting Cinesa auth token extraction via Playwright...
-Error: Could not retrieve Cinesa authentication token.
-Warning: cinesa scraper returned 0 showings. Using fallback data.
-Recovered 409 cinesa showings from previous run.
+Cinesa: Found 38 business dates with showtimes: ['2026-09-16', '2026-09-17', '2026-09-18', '2026-09-19', '2026-09-20', '2026-09-21', '2026-09-22', '2026-09-23', '2026-09-24', '2026-09-25', '2026-09-26', '2026-09-27', '2026-09-28', '2026-09-29', '2026-09-30', '2026-10-01', '2026-10-03', '2026-10-07', '2026-10-10', '2026-10-12', '2026-10-14', '2026-10-16', '2026-10-17', '2026-10-18', '2026-10-25', '2026-10-27', '2026-10-31', '2026-11-10', '2026-11-19', '2026-12-01', '2026-12-15', '2027-01-21', '2027-02-23', '2027-03-18', '2027-04-22', '2027-05-05', '2027-05-25', '2027-06-17']
+Cinesa (Madrid & Barcelona): Scraped 988 VOSE sessions.
 Scraping Ocine Serrallo...
-Ocine Serrallo: Scraped 1 sessions.
+Ocine Serrallo: Scraped 2 sessions.
 Scraping mk2 Cinesur...
-  mk2 Cinesur Miramar: found 38 sessions.
+  mk2 Cinesur Miramar: found 76 sessions.
   mk2 Cinesur El Ingenio: found 1 sessions.
-  mk2 Cinesur Málaga Nostrum: found 31 sessions.
-mk2 Cinesur scraped: found 70 VOSE sessions.
-original language not found for 5 movies in Cinesa chain
-original language not found for 29 movies in Cinesur chain
+  mk2 Cinesur Málaga Nostrum: found 30 sessions.
+mk2 Cinesur scraped: found 107 VOSE sessions.
+original language not found for 7 movies in Cinesa chain
+original language not found for 28 movies in Cinesur chain
 original language not found for 2 movies in Golem chain
 Updated movie_title_translations.json
-Successfully generated api/v1/showtimes.json with 2433 listings.
-Appended 447 new showings to new_showtimes.json
+Successfully generated api/v1/showtimes.json with 3156 listings.
+Appended 880 new showings to new_showtimes.json
 
 Resolving missing movie title translations...
 Found 38 movies without original names.
@@ -105,9 +103,6 @@ Searching for: 'La casa del bosque 2'
 Searching for: 'MALAS CALLES [WILDER CINEMA]'
   -> Could not resolve original name for 'MALAS CALLES [WILDER CINEMA]'
 
-Searching for: 'MIS QUERIDÍSIMOS PADRES'
-  -> Found via TMDB Web: 'Chers parents'
-
 Searching for: 'PARIS, TEXAS [WILDER CINEMA]'
   -> Could not resolve original name for 'PARIS, TEXAS [WILDER CINEMA]'
 
@@ -120,8 +115,11 @@ Searching for: 'Preestreno a ciegas 17 septiembre 2026'
 Searching for: 'RASHOMON [WILDER CINEMA]'
   -> Could not resolve original name for 'RASHOMON [WILDER CINEMA]'
 
-Searching for: 'SUS HIJOS'
-  -> Found via TMDB Web: '& Sons'
+Searching for: 'SE ABRE LA VEDA 2'
+  -> Found via TMDB Web: 'Chasse gardée 2'
+
+Searching for: 'SECRET FLASHBACK (21 septiembre)'
+  -> Found via TMDB Web: 'Secret Flashback'
 
 Searching for: 'Sia 2016 Coachella'
   -> Could not resolve original name for 'Sia 2016 Coachella'
