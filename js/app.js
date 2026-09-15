@@ -48,20 +48,21 @@ function saveState() {
 
 function loadState() {
     const saved = localStorage.getItem(STORAGE_KEY);
-    if (!saved) return;
-    try {
-        const parsed = JSON.parse(saved);
-        if (parsed.selectedDateStr !== undefined) STATE.selectedDateStr = parsed.selectedDateStr;
-        if (parsed.selectedCity !== undefined) STATE.selectedCity = parsed.selectedCity;
-        if (parsed.selectedChain !== undefined) STATE.selectedChain = parsed.selectedChain;
-        if (parsed.selectedCinemas !== undefined) STATE.selectedCinemas = parsed.selectedCinemas;
-        if (parsed.selectedLanguages !== undefined) STATE.selectedLanguages = parsed.selectedLanguages;
-        if (parsed.searchQuery !== undefined) STATE.searchQuery = parsed.searchQuery;
-        if (parsed.viewMode !== undefined) STATE.viewMode = parsed.viewMode;
-        if (parsed.onlyMovies !== undefined) STATE.onlyMovies = parsed.onlyMovies;
-        if (parsed.expandedMovies !== undefined) STATE.expandedMovies = parsed.expandedMovies;
-    } catch (e) {
-        console.error('Error loading state from localStorage:', e);
+    if (saved) {
+        try {
+            const parsed = JSON.parse(saved);
+            if (parsed.selectedDateStr !== undefined) STATE.selectedDateStr = parsed.selectedDateStr;
+            if (parsed.selectedCity !== undefined) STATE.selectedCity = parsed.selectedCity;
+            if (parsed.selectedChain !== undefined) STATE.selectedChain = parsed.selectedChain;
+            if (parsed.selectedCinemas !== undefined) STATE.selectedCinemas = parsed.selectedCinemas;
+            if (parsed.selectedLanguages !== undefined) STATE.selectedLanguages = parsed.selectedLanguages;
+            if (parsed.searchQuery !== undefined) STATE.searchQuery = parsed.searchQuery;
+            if (parsed.viewMode !== undefined) STATE.viewMode = parsed.viewMode;
+            if (parsed.onlyMovies !== undefined) STATE.onlyMovies = parsed.onlyMovies;
+            if (parsed.expandedMovies !== undefined) STATE.expandedMovies = parsed.expandedMovies;
+        } catch (e) {
+            console.error('Error loading state from localStorage:', e);
+        }
     }
 
     const savedSession = sessionStorage.getItem(SESSION_KEY);

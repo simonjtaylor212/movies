@@ -40,18 +40,29 @@ def get_token():
     try:
         r = requests.get(url, headers=headers, timeout=15)
         if r.status_code == 200:
+            # 1. Direct regex match on response text for authToken
+            m = re.search(r'"authToken"\s*:\s*"([^"]+)"', r.text)
+            if m:
+                return m.group(1)
+
             soup = BeautifulSoup(r.text, "html.parser")
             for script in soup.find_all("script"):
                 content = script.string or ""
-                if "initialData" in content:
+                if "authToken" in content or "initialData" in content:
+                    m = re.search(r'"authToken"\s*:\s*"([^"]+)"', content)
+                    if m:
+                        return m.group(1)
                     match = re.search(r'initialData\s*=\s*(\{.*?\});', content, re.DOTALL)
                     if not match:
                         match = re.search(r'initialData\s*=\s*(\{.*\})', content, re.DOTALL)
                     if match:
-                        data = json.loads(match.group(1))
-                        token = data.get('api', {}).get('authToken')
-                        if token:
-                            return token
+                        try:
+                            data = json.loads(match.group(1))
+                            token = data.get('api', {}).get('authToken')
+                            if token:
+                                return token
+                        except Exception:
+                            pass
     except Exception as e:
         print(f"requests token fetch failed: {e}")
 
@@ -62,32 +73,83 @@ def get_token():
         with sync_playwright() as p:
             browser = p.chromium.launch(
                 headless=headless_env,
-                args=["--disable-blink-features=AutomationControlled", "--no-sandbox"]
+                args=["--disable-blink-features=AutomationControlled", "--no-sandbox", "--disable-dev-shm-usage"]
             )
             context = browser.new_context(
                 user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-                viewport={"width": 1280, "height": 720}
+                viewport={"width": 1280, "height": 720},
+                locale="es-ES"
             )
             context.add_init_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
             page = context.new_page()
 
-            page.goto("https://www.cinesa.es/", timeout=30000)
-            page.wait_for_timeout(3000)
+            captured_token = None
+
+            def handle_request(request):
+                nonlocal captured_token
+                auth_header = request.headers.get("authorization", "")
+                if "Bearer " in auth_header:
+                    token = auth_header.split("Bearer ")[-1].strip()
+                    if token:
+                        captured_token = token
+
+            page.on("request", handle_request)
+
+            try:
+                page.goto("https://www.cinesa.es/", timeout=30000, wait_until="domcontentloaded")
+                page.wait_for_timeout(3000)
+            except Exception as goto_err:
+                print(f"Playwright goto warning: {goto_err}")
+
+            if captured_token:
+                browser.close()
+                return captured_token
+
+            # Try evaluating window objects directly
+            try:
+                eval_token = page.evaluate("""() => {
+                    if (window.initialData && window.initialData.api && window.initialData.api.authToken) {
+                        return window.initialData.api.authToken;
+                    }
+                    for (let key in window) {
+                        try {
+                            if (window[key] && window[key].api && window[key].api.authToken) {
+                                return window[key].api.authToken;
+                            }
+                        } catch(e){}
+                    }
+                    return null;
+                }""")
+                if eval_token:
+                    browser.close()
+                    return eval_token
+            except Exception:
+                pass
 
             content = page.content()
             browser.close()
 
+            m = re.search(r'"authToken"\s*:\s*"([^"]+)"', content)
+            if m:
+                return m.group(1)
+
             script_tags = re.findall(r'<script[^>]*>(.*?)</script>', content, re.DOTALL)
             for script in script_tags:
-                if "initialData" in script:
+                if "initialData" in script or "authToken" in script:
+                    m = re.search(r'"authToken"\s*:\s*"([^"]+)"', script)
+                    if m:
+                        return m.group(1)
                     match = re.search(r'initialData\s*=\s*(\{.*?\});', script, re.DOTALL)
                     if not match:
                         match = re.search(r'initialData\s*=\s*(\{.*\})', script, re.DOTALL)
                     if match:
-                        data = json.loads(match.group(1))
-                        token = data.get('api', {}).get('authToken')
-                        if token:
-                            return token
+                        try:
+                            data = json.loads(match.group(1))
+                            token = data.get('api', {}).get('authToken')
+                            if token:
+                                return token
+                        except Exception:
+                            pass
     except Exception as e:
         print(f"Error fetching Cinesa auth token via Playwright: {e}")
 
