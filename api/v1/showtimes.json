@@ -27,6 +27,32 @@
   },
   {
     "cinema": "Cine Yelmo Rincón de la Victoria",
+    "date": "2026-09-22",
+    "movie": "Tiempo de victoria",
+    "format": "2D",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "19:25",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=791&showtimeVistaId=26185",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-09-16 05:26:12"
+  },
+  {
+    "cinema": "Cine Yelmo Rincón de la Victoria",
+    "date": "2026-09-22",
+    "movie": "Prácticamente magia 2",
+    "format": "2D",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "22:25",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=791&showtimeVistaId=26180",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-09-16 05:26:12"
+  },
+  {
+    "cinema": "Cine Yelmo Rincón de la Victoria",
     "date": "2026-09-25",
     "movie": "Vengadores: Endgame Encore",
     "format": "2D",
