@@ -1,4 +1,4 @@
-Starting Scraper - Local time is 2026-09-17 01:32:49 CEST
+Starting Scraper - Local time is 2026-09-17 05:31:58 CEST
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
   Fetching Yelmo madrid...
@@ -17,7 +17,7 @@ Scraping Cinesa (Madrid & Barcelona)...
 Attempting Cinesa auth token extraction via Playwright...
 Error: Could not retrieve Cinesa authentication token.
 Warning: cinesa scraper returned 0 showings. Using fallback data.
-Recovered 963 cinesa showings from previous run.
+Recovered 898 cinesa showings from previous run.
 Scraping Ocine Serrallo...
 Ocine Serrallo: Scraped 2 sessions.
 Scraping mk2 Cinesur...
@@ -28,11 +28,12 @@ mk2 Cinesur scraped: found 105 VOSE sessions.
 original language not found for 7 movies in Cinesa chain
 original language not found for 28 movies in Cinesur chain
 original language not found for 2 movies in Golem chain
+Updated movie_title_translations.json
 Successfully generated api/v1/showtimes.json with 2960 listings.
-Appended 5 new showings to new_showtimes.json
+Appended 24 new showings to new_showtimes.json
 
 Resolving missing movie title translations...
-Found 36 movies without original names.
+Found 37 movies without original names.
 No TMDB_API_KEY detected. Using keyless TMDB scraper and Wikidata fallbacks.
 
 Searching for: '20 Años del MET en cines - Grabado MET 26-27'
@@ -46,6 +47,9 @@ Searching for: 'AMERICAN PSYCHO [WILDER CINEMA]'
 
 Searching for: 'Assassination Classroom: El tiempo que compartimos'
   -> Could not resolve original name for 'Assassination Classroom: El tiempo que compartimos'
+
+Searching for: 'BTS WORLD TOUR ARIRANG: BUENOS AIRES LIVE VIEWING'
+  -> Found via TMDB Web: 'BTS WORLD TOUR 'ARIRANG' IN BUENOS AIRES: LIVE VIEWING'
 
 Searching for: 'CALL ME BY YOUR NAME [WILDER CINEMA]'
   -> Could not resolve original name for 'CALL ME BY YOUR NAME [WILDER CINEMA]'
@@ -143,4 +147,4 @@ Searching for: 'WHAT A FEELING [CINE CON ORGULLO RENOIR]'
 Searching for: 'es GHOST: 2 Big To Rig'
   -> Could not resolve original name for 'es GHOST: 2 Big To Rig'
 
-No translations were updated.
+Successfully updated 1 translation(s) in movie_title_translations.json.
