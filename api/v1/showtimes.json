@@ -14683,11 +14683,11 @@
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
-    "time": "19:15",
+    "time": "19:30",
     "booking_url": "https://kinepolis.es/direct-vista-redirect/133923/0/KALCO/0",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-09-11 12:39:23"
+    "date_added": "2026-09-18 12:37:09"
   },
   {
     "cinema": "Kinépolis Madrid Diversia",
@@ -14696,11 +14696,11 @@
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
-    "time": "19:15",
+    "time": "19:30",
     "booking_url": "https://kinepolis.es/direct-vista-redirect/133932/0/KALCO/0",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-09-11 12:39:23"
+    "date_added": "2026-09-18 12:37:09"
   },
   {
     "cinema": "Kinépolis Madrid Diversia",
@@ -14709,11 +14709,11 @@
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
-    "time": "19:15",
+    "time": "19:30",
     "booking_url": "https://kinepolis.es/direct-vista-redirect/133933/0/KALCO/0",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-09-11 12:39:23"
+    "date_added": "2026-09-18 12:37:09"
   },
   {
     "cinema": "Kinépolis Madrid Diversia",
@@ -17498,17 +17498,43 @@
     "date_added": "2026-09-15 22:53:32"
   },
   {
-    "cinema": "Kinépolis Granada Nevada",
-    "date": "2026-09-20",
-    "movie": "Tiempo de victoria",
+    "cinema": "Kinépolis Madrid Diversia",
+    "date": "2026-09-25",
+    "movie": "En el corazón de la bestia",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
-    "time": "15:40",
-    "booking_url": "https://kinepolis.es/direct-vista-redirect/102392/0/KNEVA/0",
+    "time": "19:15",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/133923/0/KALCO/0",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-09-15 22:53:32"
+    "date_added": "2026-09-11 12:39:23"
+  },
+  {
+    "cinema": "Kinépolis Madrid Diversia",
+    "date": "2026-09-26",
+    "movie": "En el corazón de la bestia",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "19:15",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/133932/0/KALCO/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-09-11 12:39:23"
+  },
+  {
+    "cinema": "Kinépolis Madrid Diversia",
+    "date": "2026-09-27",
+    "movie": "En el corazón de la bestia",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "19:15",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/133933/0/KALCO/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-09-11 12:39:23"
   },
   {
     "cinema": "Ocine Serrallo",
