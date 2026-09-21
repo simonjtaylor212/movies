@@ -20390,11 +20390,11 @@
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
-    "time": "22:20",
+    "time": "22:15",
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=031-99019",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-09-17 22:58:26"
+    "date_added": "2026-09-21 05:26:14"
   },
   {
     "cinema": "Cinesa Diagonal Mar",
@@ -21153,12 +21153,12 @@
   {
     "cinema": "Cinesa Manoteras",
     "date": "2026-09-24",
-    "movie": "Operación Teherán",
+    "movie": "Resident Evil",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
     "time": "19:30",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-111262",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-111260",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-09-15 22:53:32"
@@ -21166,12 +21166,12 @@
   {
     "cinema": "Cinesa Manoteras",
     "date": "2026-09-24",
-    "movie": "Resident Evil",
+    "movie": "Operación Teherán",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
     "time": "19:30",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-111260",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-111262",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-09-15 22:53:32"
