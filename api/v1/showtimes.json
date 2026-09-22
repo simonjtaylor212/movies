@@ -13794,32 +13794,6 @@
   },
   {
     "cinema": "Kinépolis Granada Nevada",
-    "date": "2026-09-26",
-    "movie": "En el corazón de la bestia",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "13:20",
-    "booking_url": "https://kinepolis.es/direct-vista-redirect/102306/0/KNEVA/0",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-09-11 12:39:23"
-  },
-  {
-    "cinema": "Kinépolis Granada Nevada",
-    "date": "2026-09-27",
-    "movie": "En el corazón de la bestia",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "13:20",
-    "booking_url": "https://kinepolis.es/direct-vista-redirect/102307/0/KNEVA/0",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-09-11 22:28:56"
-  },
-  {
-    "cinema": "Kinépolis Granada Nevada",
     "date": "2026-09-22",
     "movie": "Resident Evil",
     "format": "2D",
@@ -13921,6 +13895,32 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-09-16 12:52:57"
+  },
+  {
+    "cinema": "Kinépolis Granada Nevada",
+    "date": "2026-09-26",
+    "movie": "En el corazón de la bestia",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "13:20",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/102306/0/KNEVA/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-09-11 12:39:23"
+  },
+  {
+    "cinema": "Kinépolis Granada Nevada",
+    "date": "2026-09-27",
+    "movie": "En el corazón de la bestia",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "13:20",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/102307/0/KNEVA/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-09-11 22:28:56"
   },
   {
     "cinema": "Ocine Serrallo",
