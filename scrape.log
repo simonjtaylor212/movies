@@ -1,4 +1,4 @@
-Starting Scraper - Local time is 2026-09-22 13:00:08 CEST
+Starting Scraper - Local time is 2026-09-22 18:19:23 CEST
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
   Fetching Yelmo madrid...
@@ -8,31 +8,32 @@ Scraping Cine Albéniz...
 Stopping Cine Albéniz scrape after 5 consecutive empty days.
 Cine Albéniz scraped: found 23 VOSE sessions.
 Scraping Kinépolis Granada & Nevada...
-Kinépolis Granada & Nevada: Scraped 183 VOSE sessions.
+Kinépolis Granada & Nevada: Scraped 197 VOSE sessions.
 Scraping Cines Renoir...
-Cines Renoir: Scraped 316 VOSE sessions.
+Cines Renoir: Scraped 495 VOSE sessions.
 Scraping Cines Golem...
-Cines Golem Madrid: Scraped 15 VOSE sessions.
+Cines Golem Madrid: Scraped 14 VOSE sessions.
 Scraping Cinesa (Madrid & Barcelona)...
 Attempting Cinesa auth token extraction via Playwright...
 Error: Could not retrieve Cinesa authentication token.
 Warning: cinesa scraper returned 0 showings. Using fallback data.
 Recovered 407 cinesa showings from previous run.
 Scraping Ocine Serrallo...
-Ocine Serrallo: Scraped 1 sessions.
+Ocine Serrallo: Scraped 2 sessions.
 Scraping mk2 Cinesur...
-  mk2 Cinesur Miramar: found 43 sessions.
+  mk2 Cinesur Miramar: found 83 sessions.
   mk2 Cinesur El Ingenio: found 1 sessions.
-  mk2 Cinesur Málaga Nostrum: found 28 sessions.
-mk2 Cinesur scraped: found 72 VOSE sessions.
+  mk2 Cinesur Málaga Nostrum: found 30 sessions.
+mk2 Cinesur scraped: found 114 VOSE sessions.
 original language not found for 2 movies in Cinesa chain
-original language not found for 27 movies in Cinesur chain
+original language not found for 28 movies in Cinesur chain
 original language not found for 1 movies in Golem chain
-Successfully generated api/v1/showtimes.json with 1810 listings.
-No new showings found.
+Updated movie_title_translations.json
+Successfully generated api/v1/showtimes.json with 2045 listings.
+Appended 240 new showings to new_showtimes.json
 
 Resolving missing movie title translations...
-Found 36 movies without original names.
+Found 38 movies without original names.
 No TMDB_API_KEY detected. Using keyless TMDB scraper and Wikidata fallbacks.
 
 Searching for: '20 Años del MET en cines - Grabado MET 26-27'
@@ -67,6 +68,9 @@ Searching for: 'EL VIAJE DE CHIHIRO [WILDER CINEMA]'
 
 Searching for: 'ENCUENTROS EN LA TERCERA FASE [WILDER CINEMA]'
   -> Could not resolve original name for 'ENCUENTROS EN LA TERCERA FASE [WILDER CINEMA]'
+
+Searching for: 'Fall 2: Deadpoint'
+  -> Found via TMDB Web: 'Fall 2: Deadpoint'
 
 Searching for: 'Harry Potter y La Piedra Filosofal 25th Aniv)'
   -> Could not resolve original name for 'Harry Potter y La Piedra Filosofal 25th Aniv)'
@@ -131,6 +135,9 @@ Searching for: 'The Fast & The Furious 25 niversario'
 Searching for: 'VIAJE AL PAÍS DE LOS BLANCOS [PROYECTO VIRIDIANA]'
   -> Could not resolve original name for 'VIAJE AL PAÍS DE LOS BLANCOS [PROYECTO VIRIDIANA]'
 
+Searching for: 'Vengadores: Endgame - Reestreno'
+  -> Found via TMDB Web: 'Avengers: Endgame'
+
 Searching for: 'Vengadores: Endgame Encore Extended'
   -> Could not resolve original name for 'Vengadores: Endgame Encore Extended'
 
@@ -143,4 +150,4 @@ Searching for: 'WHAT A FEELING [CINE CON ORGULLO RENOIR]'
 Searching for: 'es GHOST: 2 Big To Rig'
   -> Could not resolve original name for 'es GHOST: 2 Big To Rig'
 
-No translations were updated.
+Successfully updated 2 translation(s) in movie_title_translations.json.
