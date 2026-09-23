@@ -1,4 +1,4 @@
-Starting Scraper - Local time is 2026-09-23 01:30:09 CEST
+Starting Scraper - Local time is 2026-09-23 05:26:22 CEST
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
   Fetching Yelmo madrid...
@@ -14,8 +14,10 @@ Cines Renoir: Scraped 500 VOSE sessions.
 Scraping Cines Golem...
 Cines Golem Madrid: Scraped 20 VOSE sessions.
 Scraping Cinesa (Madrid & Barcelona)...
-Cinesa: Found 38 business dates with showtimes: ['2026-09-23', '2026-09-24', '2026-09-25', '2026-09-26', '2026-09-27', '2026-09-28', '2026-09-29', '2026-09-30', '2026-10-01', '2026-10-02', '2026-10-03', '2026-10-04', '2026-10-05', '2026-10-07', '2026-10-10', '2026-10-12', '2026-10-14', '2026-10-16', '2026-10-17', '2026-10-18', '2026-10-25', '2026-10-27', '2026-10-29', '2026-10-31', '2026-11-10', '2026-11-14', '2026-11-19', '2026-11-20', '2026-11-22', '2026-12-01', '2026-12-15', '2027-01-21', '2027-02-23', '2027-03-18', '2027-04-22', '2027-05-05', '2027-05-25', '2027-06-17']
-Cinesa (Madrid & Barcelona): Scraped 843 VOSE sessions.
+Attempting Cinesa auth token extraction via Playwright...
+Error: Could not retrieve Cinesa authentication token.
+Warning: cinesa scraper returned 0 showings. Using fallback data.
+Recovered 843 cinesa showings from previous run.
 Scraping Ocine Serrallo...
 Ocine Serrallo: Scraped 2 sessions.
 Scraping mk2 Cinesur...
@@ -26,12 +28,11 @@ mk2 Cinesur scraped: found 111 VOSE sessions.
 original language not found for 6 movies in Cinesa chain
 original language not found for 27 movies in Cinesur chain
 original language not found for 1 movies in Golem chain
-Updated movie_title_translations.json
 Successfully generated api/v1/showtimes.json with 2417 listings.
-Appended 527 new showings to new_showtimes.json
+No new showings found.
 
 Resolving missing movie title translations...
-Found 38 movies without original names.
+Found 37 movies without original names.
 No TMDB_API_KEY detected. Using keyless TMDB scraper and Wikidata fallbacks.
 
 Searching for: '20 Años del MET en cines - Grabado MET 26-27'
@@ -44,7 +45,7 @@ Searching for: 'AMERICAN PSYCHO [WILDER CINEMA]'
   -> Could not resolve original name for 'AMERICAN PSYCHO [WILDER CINEMA]'
 
 Searching for: 'Assassination Classroom: El tiempo que compartimos'
-  -> Could not resolve original name for 'Assassination Classroom: El tiempo que compartimos'
+  -> Found via TMDB Web: '劇場版「暗殺教室」みんなの時間'
 
 Searching for: 'CALL ME BY YOUR NAME [WILDER CINEMA]'
   -> Could not resolve original name for 'CALL ME BY YOUR NAME [WILDER CINEMA]'
@@ -57,9 +58,6 @@ Searching for: 'CUENTOS DE TOKIO [WILDER CINEMA]'
 
 Searching for: 'DIRTY DANCING [WILDER CINEMA]'
   -> Could not resolve original name for 'DIRTY DANCING [WILDER CINEMA]'
-
-Searching for: 'Digger'
-  -> Found via TMDB Web: 'Digger'
 
 Searching for: 'EL ACTIVISTA [CINE CON ORGULLO RENOIR]'
   -> Could not resolve original name for 'EL ACTIVISTA [CINE CON ORGULLO RENOIR]'
