@@ -1,16 +1,16 @@
-Starting Scraper - Local time is 2026-09-23 05:26:22 CEST
+Starting Scraper - Local time is 2026-09-23 12:48:50 CEST
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
   Fetching Yelmo madrid...
   Fetching Yelmo barcelona...
-Yelmo scraped: found 686 VOSE sessions.
+Yelmo scraped: found 770 VOSE sessions.
 Scraping Cine Albéniz...
 Stopping Cine Albéniz scrape after 5 consecutive empty days.
-Cine Albéniz scraped: found 15 VOSE sessions.
+Cine Albéniz scraped: found 57 VOSE sessions.
 Scraping Kinépolis Granada & Nevada...
-Kinépolis Granada & Nevada: Scraped 240 VOSE sessions.
+Kinépolis Granada & Nevada: Scraped 237 VOSE sessions.
 Scraping Cines Renoir...
-Cines Renoir: Scraped 500 VOSE sessions.
+Cines Renoir: Scraped 528 VOSE sessions.
 Scraping Cines Golem...
 Cines Golem Madrid: Scraped 20 VOSE sessions.
 Scraping Cinesa (Madrid & Barcelona)...
@@ -25,14 +25,14 @@ Scraping mk2 Cinesur...
   mk2 Cinesur El Ingenio: found 1 sessions.
   mk2 Cinesur Málaga Nostrum: found 29 sessions.
 mk2 Cinesur scraped: found 111 VOSE sessions.
-original language not found for 6 movies in Cinesa chain
+original language not found for 5 movies in Cinesa chain
 original language not found for 27 movies in Cinesur chain
 original language not found for 1 movies in Golem chain
-Successfully generated api/v1/showtimes.json with 2417 listings.
-No new showings found.
+Successfully generated api/v1/showtimes.json with 2568 listings.
+Appended 180 new showings to new_showtimes.json
 
 Resolving missing movie title translations...
-Found 37 movies without original names.
+Found 36 movies without original names.
 No TMDB_API_KEY detected. Using keyless TMDB scraper and Wikidata fallbacks.
 
 Searching for: '20 Años del MET en cines - Grabado MET 26-27'
@@ -43,9 +43,6 @@ Searching for: 'AFTERSUN [WILDER CINEMA]'
 
 Searching for: 'AMERICAN PSYCHO [WILDER CINEMA]'
   -> Could not resolve original name for 'AMERICAN PSYCHO [WILDER CINEMA]'
-
-Searching for: 'Assassination Classroom: El tiempo que compartimos'
-  -> Found via TMDB Web: '劇場版「暗殺教室」みんなの時間'
 
 Searching for: 'CALL ME BY YOUR NAME [WILDER CINEMA]'
   -> Could not resolve original name for 'CALL ME BY YOUR NAME [WILDER CINEMA]'
@@ -146,4 +143,4 @@ Searching for: 'WHAT A FEELING [CINE CON ORGULLO RENOIR]'
 Searching for: 'es GHOST: 2 Big To Rig'
   -> Could not resolve original name for 'es GHOST: 2 Big To Rig'
 
-Successfully updated 1 translation(s) in movie_title_translations.json.
+No translations were updated.
