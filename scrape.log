@@ -1,37 +1,39 @@
-Starting Scraper - Local time is 2026-09-23 18:09:18 CEST
+Starting Scraper - Local time is 2026-09-23 23:07:00 CEST
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
   Fetching Yelmo madrid...
   Fetching Yelmo barcelona...
-Yelmo scraped: found 795 VOSE sessions.
+Yelmo scraped: found 785 VOSE sessions.
 Scraping Cine Albéniz...
 Stopping Cine Albéniz scrape after 5 consecutive empty days.
 Cine Albéniz scraped: found 57 VOSE sessions.
 Scraping Kinépolis Granada & Nevada...
-Kinépolis Granada & Nevada: Scraped 259 VOSE sessions.
+Kinépolis Granada & Nevada: Scraped 250 VOSE sessions.
 Scraping Cines Renoir...
 Cines Renoir: Scraped 528 VOSE sessions.
 Scraping Cines Golem...
-Cines Golem Madrid: Scraped 20 VOSE sessions.
+Cines Golem Madrid: Scraped 16 VOSE sessions.
 Scraping Cinesa (Madrid & Barcelona)...
-Cinesa: Found 40 business dates with showtimes: ['2026-09-23', '2026-09-24', '2026-09-25', '2026-09-26', '2026-09-27', '2026-09-28', '2026-09-29', '2026-09-30', '2026-10-01', '2026-10-02', '2026-10-03', '2026-10-04', '2026-10-05', '2026-10-06', '2026-10-07', '2026-10-08', '2026-10-10', '2026-10-12', '2026-10-14', '2026-10-16', '2026-10-17', '2026-10-18', '2026-10-25', '2026-10-27', '2026-10-29', '2026-10-31', '2026-11-10', '2026-11-14', '2026-11-19', '2026-11-20', '2026-11-22', '2026-12-01', '2026-12-15', '2027-01-21', '2027-02-23', '2027-03-18', '2027-04-22', '2027-05-05', '2027-05-25', '2027-06-17']
-Cinesa (Madrid & Barcelona): Scraped 832 VOSE sessions.
+Attempting Cinesa auth token extraction via Playwright...
+Error: Could not retrieve Cinesa authentication token.
+Warning: cinesa scraper returned 0 showings. Using fallback data.
+Recovered 832 cinesa showings from previous run.
 Scraping Ocine Serrallo...
 Ocine Serrallo: Scraped 2 sessions.
 Scraping mk2 Cinesur...
-  mk2 Cinesur Miramar: found 77 sessions.
+  mk2 Cinesur Miramar: found 76 sessions.
   mk2 Cinesur El Ingenio: found 1 sessions.
   mk2 Cinesur Málaga Nostrum: found 29 sessions.
-mk2 Cinesur scraped: found 107 VOSE sessions.
+mk2 Cinesur scraped: found 106 VOSE sessions.
 original language not found for 6 movies in Cinesa chain
 original language not found for 27 movies in Cinesur chain
 original language not found for 1 movies in Golem chain
 Updated movie_title_translations.json
-Successfully generated api/v1/showtimes.json with 2600 listings.
-Appended 73 new showings to new_showtimes.json
+Successfully generated api/v1/showtimes.json with 2576 listings.
+Appended 27 new showings to new_showtimes.json
 
 Resolving missing movie title translations...
-Found 38 movies without original names.
+Found 37 movies without original names.
 No TMDB_API_KEY detected. Using keyless TMDB scraper and Wikidata fallbacks.
 
 Searching for: '20 Años del MET en cines - Grabado MET 26-27'
@@ -103,6 +105,9 @@ Searching for: 'La casa del bosque 2'
 Searching for: 'MALAS CALLES [WILDER CINEMA]'
   -> Could not resolve original name for 'MALAS CALLES [WILDER CINEMA]'
 
+Searching for: 'Ozzy & Black Sabbath: Back To The Beginning'
+  -> Found via TMDB Web: 'Back to the Beginning: Ozzy's Final Bow'
+
 Searching for: 'PARIS, TEXAS [WILDER CINEMA]'
   -> Could not resolve original name for 'PARIS, TEXAS [WILDER CINEMA]'
 
@@ -112,14 +117,8 @@ Searching for: 'Preestreno a ciegas 13 agosto 2026'
 Searching for: 'Preestreno a ciegas 17 septiembre 2026'
   -> Could not resolve original name for 'Preestreno a ciegas 17 septiembre 2026'
 
-Searching for: 'RAMMSTEIN - LIVE IN MEXICO CITY'
-  -> Found via TMDB Web: 'Rammstein - ZEIT'
-
 Searching for: 'RASHOMON [WILDER CINEMA]'
   -> Could not resolve original name for 'RASHOMON [WILDER CINEMA]'
-
-Searching for: 'SECRET FLASHBACK (5 Octubre)'
-  -> Found via TMDB Web: 'Secret Flashback'
 
 Searching for: 'Sia 2016 Coachella'
   -> Could not resolve original name for 'Sia 2016 Coachella'
@@ -148,4 +147,4 @@ Searching for: 'WHAT A FEELING [CINE CON ORGULLO RENOIR]'
 Searching for: 'es GHOST: 2 Big To Rig'
   -> Could not resolve original name for 'es GHOST: 2 Big To Rig'
 
-Successfully updated 2 translation(s) in movie_title_translations.json.
+Successfully updated 1 translation(s) in movie_title_translations.json.
