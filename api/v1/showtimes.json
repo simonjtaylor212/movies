@@ -1826,11 +1826,11 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "original_language": "English",
-    "time": "22:50",
+    "time": "22:40",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=36273",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-09-21 21:52:30"
+    "date_added": "2026-09-25 13:13:02"
   },
   {
     "cinema": "Cine Yelmo Ideal",
@@ -2073,11 +2073,11 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "original_language": "English",
-    "time": "15:45",
+    "time": "15:35",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=36203",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-09-21 21:52:30"
+    "date_added": "2026-09-25 13:13:02"
   },
   {
     "cinema": "Cine Yelmo Ideal",
@@ -15498,19 +15498,6 @@
   {
     "cinema": "Cines Renoir Princesa",
     "date": "2026-09-26",
-    "movie": "La Odisea",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "21:30",
-    "booking_url": "https://www.pillalas.com/pase/1089121/",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-09-22 18:19:23"
-  },
-  {
-    "cinema": "Cines Renoir Princesa",
-    "date": "2026-09-26",
     "movie": "MIS QUERIDÍSIMOS PADRES",
     "format": "2D",
     "language": "V.O.S.E.",
@@ -16219,19 +16206,6 @@
     "original_language": "English",
     "time": "19:00",
     "booking_url": "https://www.pillalas.com/pase/1089010/",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-09-22 18:19:23"
-  },
-  {
-    "cinema": "Cines Renoir Princesa",
-    "date": "2026-09-27",
-    "movie": "La Odisea",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "21:30",
-    "booking_url": "https://www.pillalas.com/pase/1089135/",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-09-22 18:19:23"
@@ -16954,19 +16928,6 @@
   {
     "cinema": "Cines Renoir Princesa",
     "date": "2026-09-28",
-    "movie": "La Odisea",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "21:30",
-    "booking_url": "https://www.pillalas.com/pase/1089149/",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-09-22 18:19:23"
-  },
-  {
-    "cinema": "Cines Renoir Princesa",
-    "date": "2026-09-28",
     "movie": "MIS QUERIDÍSIMOS PADRES",
     "format": "2D",
     "language": "V.O.S.E.",
@@ -17682,19 +17643,6 @@
   {
     "cinema": "Cines Renoir Princesa",
     "date": "2026-09-29",
-    "movie": "La Odisea",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "21:30",
-    "booking_url": "https://www.pillalas.com/pase/1089162/",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-09-22 18:19:23"
-  },
-  {
-    "cinema": "Cines Renoir Princesa",
-    "date": "2026-09-29",
     "movie": "MIS QUERIDÍSIMOS PADRES",
     "format": "2D",
     "language": "V.O.S.E.",
@@ -18364,19 +18312,6 @@
     "original_language": "English",
     "time": "19:00",
     "booking_url": "https://www.pillalas.com/pase/1089031/",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-09-22 18:19:23"
-  },
-  {
-    "cinema": "Cines Renoir Princesa",
-    "date": "2026-09-30",
-    "movie": "La Odisea",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "21:30",
-    "booking_url": "https://www.pillalas.com/pase/1089176/",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-09-22 18:19:23"
@@ -19079,19 +19014,6 @@
     "original_language": "English",
     "time": "19:00",
     "booking_url": "https://www.pillalas.com/pase/1089038/",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-09-22 18:19:23"
-  },
-  {
-    "cinema": "Cines Renoir Princesa",
-    "date": "2026-10-01",
-    "movie": "La Odisea",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "21:30",
-    "booking_url": "https://www.pillalas.com/pase/1089189/",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-09-22 18:19:23"
