@@ -15667,19 +15667,6 @@
   {
     "cinema": "Cinesa Las Rozas",
     "date": "2026-09-27",
-    "movie": "Vengadores: Endgame",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "16:45",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=034-118297",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-09-23 01:30:09"
-  },
-  {
-    "cinema": "Cinesa Las Rozas",
-    "date": "2026-09-27",
     "movie": "Spider-Man: Brand New Day",
     "format": "2D",
     "language": "V.O.S.E.",
@@ -15712,19 +15699,6 @@
     "original_language": "English",
     "time": "18:10",
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=034-118307",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-09-23 01:30:09"
-  },
-  {
-    "cinema": "Cinesa Las Rozas",
-    "date": "2026-09-27",
-    "movie": "Prácticamente magia 2",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "20:30",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=034-118323",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-09-23 01:30:09"
@@ -15780,6 +15754,19 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-09-23 01:30:09"
+  },
+  {
+    "cinema": "Cinesa La Gavia",
+    "date": "2026-09-27",
+    "movie": "La Odisea",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "21:15",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=048-54120",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-09-27 05:47:31"
   },
   {
     "cinema": "Cinesa Méndez Álvaro",
@@ -20074,12 +20061,12 @@
   {
     "cinema": "Cinesa Manoteras",
     "date": "2026-10-01",
-    "movie": "Bad Apples",
+    "movie": "Tiempo de victoria",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
     "time": "22:10",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-111733",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-111731",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-09-23 01:30:09"
@@ -20087,12 +20074,12 @@
   {
     "cinema": "Cinesa Manoteras",
     "date": "2026-10-01",
-    "movie": "Tiempo de victoria",
+    "movie": "Bad Apples",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
     "time": "22:10",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-111731",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-111733",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-09-23 01:30:09"
