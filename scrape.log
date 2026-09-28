@@ -1,18 +1,28 @@
-Starting Scraper - Local time is 2026-09-28 05:46:49 CEST
+Starting Scraper - Local time is 2026-09-28 14:58:50 CEST
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
   Fetching Yelmo madrid...
   Fetching Yelmo barcelona...
-Yelmo scraped: found 540 VOSE sessions.
+Yelmo scraped: found 539 VOSE sessions.
 Scraping Cine Albéniz...
 Stopping Cine Albéniz scrape after 5 consecutive empty days.
 Cine Albéniz scraped: found 24 VOSE sessions.
 Scraping Kinépolis Granada & Nevada...
-Kinépolis Granada & Nevada: Scraped 147 VOSE sessions.
+Kinépolis Granada & Nevada: Scraped 146 VOSE sessions.
 Scraping Cines Renoir...
 Cines Renoir: Scraped 213 VOSE sessions.
 Scraping Cines Golem...
-Cines Golem Madrid: Scraped 8 VOSE sessions.
+Error scraping Cines Golem Madrid for date 2026-09-28: HTTPSConnectionPool(host='www.golem.es', port=443): Read timed out. (read timeout=15)
+Error scraping Cines Golem Madrid for date 2026-09-29: HTTPSConnectionPool(host='www.golem.es', port=443): Read timed out. (read timeout=15)
+Error scraping Cines Golem Madrid for date 2026-09-30: HTTPSConnectionPool(host='www.golem.es', port=443): Read timed out. (read timeout=15)
+Error scraping Cines Golem Madrid for date 2026-10-01: HTTPSConnectionPool(host='www.golem.es', port=443): Read timed out. (read timeout=15)
+Error scraping Cines Golem Madrid for date 2026-10-02: HTTPSConnectionPool(host='www.golem.es', port=443): Read timed out. (read timeout=15)
+Error scraping Cines Golem Madrid for date 2026-10-03: HTTPSConnectionPool(host='www.golem.es', port=443): Read timed out. (read timeout=15)
+Error scraping Cines Golem Madrid for date 2026-10-04: HTTPSConnectionPool(host='www.golem.es', port=443): Read timed out. (read timeout=15)
+Error scraping Cines Golem Madrid for date 2026-10-05: HTTPSConnectionPool(host='www.golem.es', port=443): Read timed out. (read timeout=15)
+Cines Golem Madrid: Scraped 0 VOSE sessions.
+Warning: golem scraper returned 0 showings. Using fallback data.
+Recovered 8 golem showings from previous run.
 Scraping Cinesa (Madrid & Barcelona)...
 Attempting Cinesa auth token extraction via Playwright...
 Error: Could not retrieve Cinesa authentication token.
@@ -28,7 +38,7 @@ mk2 Cinesur scraped: found 69 VOSE sessions.
 original language not found for 5 movies in Cinesa chain
 original language not found for 25 movies in Cinesur chain
 original language not found for 2 movies in Golem chain
-Successfully generated api/v1/showtimes.json with 1415 listings.
+Successfully generated api/v1/showtimes.json with 1413 listings.
 No new showings found.
 
 Resolving missing movie title translations...
