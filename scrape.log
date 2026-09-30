@@ -1,4 +1,4 @@
-Starting Scraper - Local time is 2026-09-30 02:04:35 CEST
+Starting Scraper - Local time is 2026-09-30 11:20:19 CEST
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
   Fetching Yelmo madrid...
@@ -8,7 +8,7 @@ Scraping Cine Albéniz...
 Stopping Cine Albéniz scrape after 5 consecutive empty days.
 Cine Albéniz scraped: found 12 VOSE sessions.
 Scraping Kinépolis Granada & Nevada...
-Kinépolis Granada & Nevada: Scraped 201 VOSE sessions.
+Kinépolis Granada & Nevada: Scraped 206 VOSE sessions.
 Scraping Cines Renoir...
 Cines Renoir: Scraped 440 VOSE sessions.
 Scraping Cines Golem...
@@ -17,22 +17,24 @@ Scraping Cinesa (Madrid & Barcelona)...
 Attempting Cinesa auth token extraction via Playwright...
 Error: Could not retrieve Cinesa authentication token.
 Warning: cinesa scraper returned 0 showings. Using fallback data.
-Recovered 323 cinesa showings from previous run.
+Recovered 263 cinesa showings from previous run.
 Scraping Ocine Serrallo...
 Ocine Serrallo: Scraped 1 sessions.
 Scraping mk2 Cinesur...
   mk2 Cinesur Miramar: found 80 sessions.
   mk2 Cinesur El Ingenio: found 2 sessions.
-  mk2 Cinesur Málaga Nostrum: found 38 sessions.
-mk2 Cinesur scraped: found 120 VOSE sessions.
+  mk2 Cinesur Málaga Nostrum: found 37 sessions.
+mk2 Cinesur scraped: found 119 VOSE sessions.
 original language not found for 5 movies in Cinesa chain
 original language not found for 24 movies in Cinesur chain
 original language not found for 2 movies in Golem chain
-Successfully generated api/v1/showtimes.json with 1824 listings.
-Appended 64 new showings to new_showtimes.json
+original language not found for 1 movies in Kinépolis chain
+Updated movie_title_translations.json
+Successfully generated api/v1/showtimes.json with 1828 listings.
+Appended 5 new showings to new_showtimes.json
 
 Resolving missing movie title translations...
-Found 37 movies without original names.
+Found 38 movies without original names.
 No TMDB_API_KEY detected. Using keyless TMDB scraper and Wikidata fallbacks.
 
 Searching for: '20 Años del MET en cines - Grabado MET 26-27'
@@ -52,6 +54,9 @@ Searching for: 'CUENTA CONMIGO [WILDER CINEMA]'
 
 Searching for: 'CUENTOS DE TOKIO [WILDER CINEMA]'
   -> Could not resolve original name for 'CUENTOS DE TOKIO [WILDER CINEMA]'
+
+Searching for: 'Concert: Rammstein: Live in Mexico City'
+  -> Could not resolve original name for 'Concert: Rammstein: Live in Mexico City'
 
 Searching for: 'DIRTY DANCING [WILDER CINEMA]'
   -> Could not resolve original name for 'DIRTY DANCING [WILDER CINEMA]'
