@@ -4283,19 +4283,6 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "original_language": "English",
-    "time": "12:25",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1360&showtimeVistaId=21300",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-09-23 18:09:18"
-  },
-  {
-    "cinema": "Cine Yelmo La Vaguada",
-    "date": "2026-10-01",
-    "movie": "Vengadores: Endgame Encore",
-    "format": "2D",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
     "time": "18:50",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1360&showtimeVistaId=20219",
     "projection_type": "Movie",
@@ -5024,11 +5011,11 @@
     "format": "LUX",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "original_language": "English",
-    "time": "21:30",
+    "time": "21:35",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=25241",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-09-23 18:09:18"
+    "date_added": "2026-10-01 14:29:27"
   },
   {
     "cinema": "Cine Yelmo Palafox Luxury",
@@ -5055,6 +5042,32 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-09-23 18:09:18"
+  },
+  {
+    "cinema": "Cine Yelmo Palafox Luxury",
+    "date": "2026-10-01",
+    "movie": "Spider-Man: Brand New Day",
+    "format": "LUX",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "17:50",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=25373",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-01 14:29:27"
+  },
+  {
+    "cinema": "Cine Yelmo Palafox Luxury",
+    "date": "2026-10-01",
+    "movie": "La Odisea",
+    "format": "LUX",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "21:15",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=25372",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-01 14:29:27"
   },
   {
     "cinema": "Cine Yelmo Palafox Luxury",
@@ -6472,6 +6485,19 @@
     "projection_type": "Teatro",
     "movie_title_language": "ES",
     "date_added": "2026-08-31 22:40:06"
+  },
+  {
+    "cinema": "Cine Yelmo Plaza Norte 2",
+    "date": "2026-10-13",
+    "movie": "La otra madre",
+    "format": "2D",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "20:15",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=813&showtimeVistaId=58304",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-01 14:29:27"
   },
   {
     "cinema": "Cine Yelmo Plaza Norte 2",
@@ -9345,6 +9371,32 @@
     "projection_type": "Movie",
     "movie_title_language": "OR",
     "date_added": "2026-09-23 12:48:50"
+  },
+  {
+    "cinema": "Cine Albéniz",
+    "date": "2026-10-02",
+    "movie": "Persiguiendo a Amy",
+    "format": "2D",
+    "language": "Inglés | V.O.S.E.",
+    "original_language": "English",
+    "time": "22:00",
+    "booking_url": "https://www.unientradas.es/es/recinto/FC-03",
+    "projection_type": "Movie",
+    "movie_title_language": "OR",
+    "date_added": "2026-10-01 14:29:27"
+  },
+  {
+    "cinema": "Cine Albéniz",
+    "date": "2026-10-03",
+    "movie": "El señor de los anillos: La comunidad del anillo",
+    "format": "2D",
+    "language": "Inglés | V.O.S.E.",
+    "original_language": "English",
+    "time": "18:00",
+    "booking_url": "https://www.unientradas.es/es/recinto/FC-03",
+    "projection_type": "Movie",
+    "movie_title_language": "OR",
+    "date_added": "2026-10-01 14:29:27"
   },
   {
     "cinema": "mk2 Cinesur Miramar",
