@@ -1,9 +1,9 @@
-Starting Scraper - Local time is 2026-10-01 14:29:27 CEST
+Starting Scraper - Local time is 2026-10-01 22:07:06 CEST
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
   Fetching Yelmo madrid...
   Fetching Yelmo barcelona...
-Yelmo scraped: found 715 VOSE sessions.
+Yelmo scraped: found 719 VOSE sessions.
 Scraping Cine Albéniz...
 Stopping Cine Albéniz scrape after 5 consecutive empty days.
 Cine Albéniz scraped: found 8 VOSE sessions.
@@ -12,7 +12,7 @@ Kinépolis Granada & Nevada: Scraped 215 VOSE sessions.
 Scraping Cines Renoir...
 Cines Renoir: Scraped 386 VOSE sessions.
 Scraping Cines Golem...
-Cines Golem Madrid: Scraped 44 VOSE sessions.
+Cines Golem Madrid: Scraped 41 VOSE sessions.
 Scraping Cinesa (Madrid & Barcelona)...
 Attempting Cinesa auth token extraction via Playwright...
 Error: Could not retrieve Cinesa authentication token.
@@ -21,20 +21,19 @@ Recovered 717 cinesa showings from previous run.
 Scraping Ocine Serrallo...
 Ocine Serrallo: Scraped 2 sessions.
 Scraping mk2 Cinesur...
-  mk2 Cinesur Miramar: found 74 sessions.
+  mk2 Cinesur Miramar: found 72 sessions.
   mk2 Cinesur El Ingenio: found 2 sessions.
-  mk2 Cinesur Málaga Nostrum: found 38 sessions.
-mk2 Cinesur scraped: found 114 VOSE sessions.
-original language not found for 9 movies in Cinesa chain
-original language not found for 24 movies in Cinesur chain
+  mk2 Cinesur Málaga Nostrum: found 37 sessions.
+mk2 Cinesur scraped: found 111 VOSE sessions.
+original language not found for 8 movies in Cinesa chain
+original language not found for 23 movies in Cinesur chain
 original language not found for 2 movies in Golem chain
-original language not found for 1 movies in Kinépolis chain
-Updated movie_title_translations.json
-Successfully generated api/v1/showtimes.json with 2201 listings.
-Appended 6 new showings to new_showtimes.json
+original language not found for 2 movies in Kinépolis chain
+Successfully generated api/v1/showtimes.json with 2199 listings.
+Appended 45 new showings to new_showtimes.json
 
 Resolving missing movie title translations...
-Found 41 movies without original names.
+Found 38 movies without original names.
 No TMDB_API_KEY detected. Using keyless TMDB scraper and Wikidata fallbacks.
 
 Searching for: '20 Años del MET en cines - Grabado MET 26-27'
@@ -69,12 +68,6 @@ Searching for: 'EL VIAJE DE CHIHIRO [WILDER CINEMA]'
 
 Searching for: 'ENCUENTROS EN LA TERCERA FASE [WILDER CINEMA]'
   -> Could not resolve original name for 'ENCUENTROS EN LA TERCERA FASE [WILDER CINEMA]'
-
-Searching for: 'ENHYPEN WORLD TOUR 'BLOOD SAGA' - HYBE CINESFES'
-  -> Found via TMDB Web: 'ENHYPEN WORLD TOUR 'BLOOD SAGA''
-
-Searching for: 'ENHYPEN WORLD TOUR BLOOD SAGA'
-  -> Found via TMDB Web: 'ENHYPEN WORLD TOUR 'BLOOD SAGA''
 
 Searching for: 'HYBE CHEERING PARTY'
   -> Could not resolve original name for 'HYBE CHEERING PARTY'
@@ -114,9 +107,6 @@ Searching for: 'La casa del bosque 1'
 
 Searching for: 'La casa del bosque 2'
   -> Could not resolve original name for 'La casa del bosque 2'
-
-Searching for: 'La otra madre'
-  -> Found via TMDB Web: 'Other Mommy'
 
 Searching for: 'MALAS CALLES [WILDER CINEMA]'
   -> Could not resolve original name for 'MALAS CALLES [WILDER CINEMA]'
@@ -160,4 +150,4 @@ Searching for: 'WHAT A FEELING [CINE CON ORGULLO RENOIR]'
 Searching for: 'es GHOST: 2 Big To Rig'
   -> Could not resolve original name for 'es GHOST: 2 Big To Rig'
 
-Successfully updated 3 translation(s) in movie_title_translations.json.
+No translations were updated.
