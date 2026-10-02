@@ -1,21 +1,23 @@
-Starting Scraper - Local time is 2026-10-02 02:31:42 CEST
+Starting Scraper - Local time is 2026-10-02 11:23:22 CEST
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
   Fetching Yelmo madrid...
   Fetching Yelmo barcelona...
-Yelmo scraped: found 725 VOSE sessions.
+Yelmo scraped: found 727 VOSE sessions.
 Scraping Cine Albéniz...
 Stopping Cine Albéniz scrape after 5 consecutive empty days.
 Cine Albéniz scraped: found 2 VOSE sessions.
 Scraping Kinépolis Granada & Nevada...
-Kinépolis Granada & Nevada: Scraped 221 VOSE sessions.
+Kinépolis Granada & Nevada: Scraped 225 VOSE sessions.
 Scraping Cines Renoir...
 Cines Renoir: Scraped 335 VOSE sessions.
 Scraping Cines Golem...
 Cines Golem Madrid: Scraped 41 VOSE sessions.
 Scraping Cinesa (Madrid & Barcelona)...
-Cinesa: Found 39 business dates with showtimes: ['2026-10-02', '2026-10-03', '2026-10-04', '2026-10-05', '2026-10-06', '2026-10-07', '2026-10-08', '2026-10-09', '2026-10-10', '2026-10-11', '2026-10-12', '2026-10-13', '2026-10-14', '2026-10-15', '2026-10-16', '2026-10-17', '2026-10-18', '2026-10-24', '2026-10-25', '2026-10-26', '2026-10-27', '2026-10-28', '2026-10-29', '2026-10-30', '2026-10-31', '2026-11-10', '2026-11-14', '2026-11-19', '2026-11-20', '2026-11-22', '2026-12-01', '2026-12-15', '2027-01-21', '2027-02-23', '2027-03-18', '2027-04-22', '2027-05-05', '2027-05-25', '2027-06-17']
-Cinesa (Madrid & Barcelona): Scraped 660 VOSE sessions.
+Attempting Cinesa auth token extraction via Playwright...
+Error: Could not retrieve Cinesa authentication token.
+Warning: cinesa scraper returned 0 showings. Using fallback data.
+Recovered 660 cinesa showings from previous run.
 Scraping Ocine Serrallo...
 Ocine Serrallo: Scraped 1 sessions.
 Scraping mk2 Cinesur...
@@ -28,11 +30,11 @@ original language not found for 23 movies in Cinesur chain
 original language not found for 2 movies in Golem chain
 original language not found for 2 movies in Kinépolis chain
 Updated movie_title_translations.json
-Successfully generated api/v1/showtimes.json with 2095 listings.
-Appended 93 new showings to new_showtimes.json
+Successfully generated api/v1/showtimes.json with 2101 listings.
+Appended 6 new showings to new_showtimes.json
 
 Resolving missing movie title translations...
-Found 41 movies without original names.
+Found 39 movies without original names.
 No TMDB_API_KEY detected. Using keyless TMDB scraper and Wikidata fallbacks.
 
 Searching for: '20 Años del MET en cines - Grabado MET 26-27'
@@ -68,9 +70,6 @@ Searching for: 'EL VIAJE DE CHIHIRO [WILDER CINEMA]'
 Searching for: 'ENCUENTROS EN LA TERCERA FASE [WILDER CINEMA]'
   -> Could not resolve original name for 'ENCUENTROS EN LA TERCERA FASE [WILDER CINEMA]'
 
-Searching for: 'ENHYPEN 'BLOOD SAGA' - HYBE CINESFEST'
-  -> Found via TMDB Web: 'ENHYPEN WORLD TOUR 'BLOOD SAGA''
-
 Searching for: 'HYBE CHEERING PARTY'
   -> Could not resolve original name for 'HYBE CHEERING PARTY'
 
@@ -81,7 +80,7 @@ Searching for: 'Harry Potter y la Piedra Filosofal 25 Aniversario'
   -> Could not resolve original name for 'Harry Potter y la Piedra Filosofal 25 Aniversario'
 
 Searching for: 'IU CONCERT : THE WINNING (2026)'
-  -> Could not resolve original name for 'IU CONCERT : THE WINNING (2026)'
+  -> Found via TMDB Web: '아이유 콘서트 : 더 위닝'
 
 Searching for: 'LA GRAN BELLEZA [WILDER CINEMA]'
   -> Could not resolve original name for 'LA GRAN BELLEZA [WILDER CINEMA]'
@@ -116,6 +115,9 @@ Searching for: 'MALAS CALLES [WILDER CINEMA]'
 Searching for: 'PARIS, TEXAS [WILDER CINEMA]'
   -> Could not resolve original name for 'PARIS, TEXAS [WILDER CINEMA]'
 
+Searching for: 'Pavarotti, live in Central Park'
+  -> Could not resolve original name for 'Pavarotti, live in Central Park'
+
 Searching for: 'Preestreno a ciegas 13 agosto 2026'
   -> Could not resolve original name for 'Preestreno a ciegas 13 agosto 2026'
 
@@ -128,14 +130,8 @@ Searching for: 'RASHOMON [WILDER CINEMA]'
 Searching for: 'Sia 2016 Coachella'
   -> Could not resolve original name for 'Sia 2016 Coachella'
 
-Searching for: 'Street Fighter'
-  -> Found via TMDB Web: 'Street Fighter'
-
 Searching for: 'TIEMPO DE VICTORIA [PROYECTO VIRIDIANA]'
   -> Could not resolve original name for 'TIEMPO DE VICTORIA [PROYECTO VIRIDIANA]'
-
-Searching for: 'TXT 'ACT : TOMORROW' - HYBE CINEFEST'
-  -> Found via TMDB Web: 'TOMORROW X TOGETHER WORLD TOUR 'ACT:PROMISE''
 
 Searching for: 'The Fast & The Furious 25 aniversario'
   -> Could not resolve original name for 'The Fast & The Furious 25 aniversario'
@@ -158,4 +154,4 @@ Searching for: 'WHAT A FEELING [CINE CON ORGULLO RENOIR]'
 Searching for: 'es GHOST: 2 Big To Rig'
   -> Could not resolve original name for 'es GHOST: 2 Big To Rig'
 
-Successfully updated 3 translation(s) in movie_title_translations.json.
+Successfully updated 1 translation(s) in movie_title_translations.json.

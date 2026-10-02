@@ -7255,6 +7255,19 @@
   },
   {
     "cinema": "Cine Yelmo Plenilunio",
+    "date": "2026-10-13",
+    "movie": "La otra madre",
+    "format": "2D",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "20:05",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=805&showtimeVistaId=44183",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-02 11:23:22"
+  },
+  {
+    "cinema": "Cine Yelmo Plenilunio",
     "date": "2026-10-24",
     "movie": "TOMORROW X TOGETHER WORLD TOUR ACT : TOMORROW",
     "format": "2D",
@@ -8877,6 +8890,19 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-09-10 22:27:00"
+  },
+  {
+    "cinema": "Cine Yelmo Westfield La Maquinista",
+    "date": "2026-10-13",
+    "movie": "La otra madre",
+    "format": "XE",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "20:05",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1350&showtimeVistaId=46469",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-02 11:23:22"
   },
   {
     "cinema": "Cine Yelmo Westfield La Maquinista",
@@ -11609,6 +11635,32 @@
     "date_added": "2026-10-02 02:31:42"
   },
   {
+    "cinema": "Kinépolis Granada",
+    "date": "2026-11-19",
+    "movie": "Pavarotti, live in Central Park",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "Italian",
+    "time": "19:30",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/172241/0/KGRAN/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-02 11:23:22"
+  },
+  {
+    "cinema": "Kinépolis Granada",
+    "date": "2026-11-22",
+    "movie": "Pavarotti, live in Central Park",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "Italian",
+    "time": "16:00",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/172242/0/KGRAN/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-02 11:23:22"
+  },
+  {
     "cinema": "Kinépolis Madrid Diversia",
     "date": "2026-12-15",
     "movie": "Dune: Parte Tres",
@@ -13557,6 +13609,32 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-10-02 02:31:42"
+  },
+  {
+    "cinema": "Kinépolis Madrid Ciudad de la Imagen",
+    "date": "2026-11-19",
+    "movie": "Pavarotti, live in Central Park",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "Italian",
+    "time": "19:30",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/221705/0/KMAD/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-02 11:23:22"
+  },
+  {
+    "cinema": "Kinépolis Madrid Ciudad de la Imagen",
+    "date": "2026-11-22",
+    "movie": "Pavarotti, live in Central Park",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "Italian",
+    "time": "16:00",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/221706/0/KMAD/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-02 11:23:22"
   },
   {
     "cinema": "Kinépolis Granada Nevada",
