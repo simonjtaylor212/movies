@@ -9288,19 +9288,6 @@
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "original_language": "English",
-    "time": "11:55",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/144181/digger?mode=widget&change=0&ref=750&forceproxy=1",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-09-29 21:47:36"
-  },
-  {
-    "cinema": "mk2 Cinesur Miramar",
-    "date": "2026-10-03",
-    "movie": "Digger",
-    "format": "2D",
-    "language": "Original con subtítulos (VOSE)",
-    "original_language": "English",
     "time": "19:00",
     "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/144159/digger?mode=widget&change=0&ref=750&forceproxy=1",
     "projection_type": "Movie",
@@ -9316,19 +9303,6 @@
     "original_language": "English",
     "time": "16:30",
     "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/144158/verity-la-sombra-de-un-engano?mode=widget&change=0&ref=750&forceproxy=1",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-09-29 21:47:36"
-  },
-  {
-    "cinema": "mk2 Cinesur Miramar",
-    "date": "2026-10-03",
-    "movie": "Vengadores: Endgame - Reestreno",
-    "format": "2D",
-    "language": "Original con subtítulos (VOSE)",
-    "original_language": "",
-    "time": "11:45",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/144176/vengadores-endgame-infinity-vision?mode=widget&change=0&ref=750&forceproxy=1",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-09-29 21:47:36"
@@ -10151,19 +10125,6 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-09-09 17:57:13"
-  },
-  {
-    "cinema": "mk2 Cinesur Málaga Nostrum",
-    "date": "2026-10-03",
-    "movie": "Vengadores: Endgame - Reestreno",
-    "format": "2D",
-    "language": "Original con subtítulos (VOSE)",
-    "original_language": "",
-    "time": "11:50",
-    "booking_url": "https://cine.entradas.com/cine/malaga/cinesur-malaga-nostrum/evento/130028/vengadores-endgame?mode=widget&change=0&ref=750&forceproxy=1",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-09-29 21:47:36"
   },
   {
     "cinema": "mk2 Cinesur Málaga Nostrum",
