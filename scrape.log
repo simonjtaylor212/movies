@@ -1,36 +1,34 @@
-Starting Scraper - Local time is 2026-10-02 23:51:04 CEST
+Starting Scraper - Local time is 2026-10-03 05:53:15 CEST
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
   Fetching Yelmo madrid...
   Fetching Yelmo barcelona...
-Yelmo scraped: found 720 VOSE sessions.
+Yelmo scraped: found 713 VOSE sessions.
 Scraping Cine Albéniz...
 Stopping Cine Albéniz scrape after 5 consecutive empty days.
-Cine Albéniz scraped: found 2 VOSE sessions.
+Cine Albéniz scraped: found 1 VOSE sessions.
 Scraping Kinépolis Granada & Nevada...
-Kinépolis Granada & Nevada: Scraped 209 VOSE sessions.
+Kinépolis Granada & Nevada: Scraped 199 VOSE sessions.
 Scraping Cines Renoir...
-Cines Renoir: Scraped 335 VOSE sessions.
+Cines Renoir: Scraped 287 VOSE sessions.
 Scraping Cines Golem...
 Cines Golem Madrid: Scraped 34 VOSE sessions.
 Scraping Cinesa (Madrid & Barcelona)...
-Attempting Cinesa auth token extraction via Playwright...
-Error: Could not retrieve Cinesa authentication token.
-Warning: cinesa scraper returned 0 showings. Using fallback data.
-Recovered 660 cinesa showings from previous run.
+Cinesa: Found 36 business dates with showtimes: ['2026-10-03', '2026-10-04', '2026-10-05', '2026-10-06', '2026-10-07', '2026-10-08', '2026-10-09', '2026-10-10', '2026-10-11', '2026-10-12', '2026-10-13', '2026-10-14', '2026-10-15', '2026-10-16', '2026-10-17', '2026-10-18', '2026-10-24', '2026-10-25', '2026-10-26', '2026-10-27', '2026-10-28', '2026-10-29', '2026-10-30', '2026-10-31', '2026-11-10', '2026-11-14', '2026-11-19', '2026-12-01', '2026-12-15', '2027-01-21', '2027-02-23', '2027-03-18', '2027-04-22', '2027-05-05', '2027-05-25', '2027-06-17']
+Cinesa (Madrid & Barcelona): Scraped 609 VOSE sessions.
 Scraping Ocine Serrallo...
 Ocine Serrallo: Scraped 1 sessions.
 Scraping mk2 Cinesur...
   mk2 Cinesur Miramar: found 65 sessions.
   mk2 Cinesur El Ingenio: found 2 sessions.
-  mk2 Cinesur Málaga Nostrum: found 35 sessions.
-mk2 Cinesur scraped: found 102 VOSE sessions.
-original language not found for 8 movies in Cinesa chain
+  mk2 Cinesur Málaga Nostrum: found 34 sessions.
+mk2 Cinesur scraped: found 101 VOSE sessions.
+original language not found for 7 movies in Cinesa chain
 original language not found for 23 movies in Cinesur chain
 original language not found for 2 movies in Golem chain
 original language not found for 2 movies in Kinépolis chain
-Successfully generated api/v1/showtimes.json with 2063 listings.
-No new showings found.
+Successfully generated api/v1/showtimes.json with 1945 listings.
+Appended 21 new showings to new_showtimes.json
 
 Resolving missing movie title translations...
 Found 38 movies without original names.
