@@ -1,9 +1,9 @@
-Starting Scraper - Local time is 2026-10-04 06:24:46 CEST
+Starting Scraper - Local time is 2026-10-04 13:49:18 CEST
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
   Fetching Yelmo madrid...
   Fetching Yelmo barcelona...
-Yelmo scraped: found 646 VOSE sessions.
+Yelmo scraped: found 642 VOSE sessions.
 Scraping Cine Albéniz...
 Stopping Cine Albéniz scrape after 5 consecutive empty days.
 Cine Albéniz scraped: found 0 VOSE sessions.
@@ -23,15 +23,15 @@ Recovered 519 cinesa showings from previous run.
 Scraping Ocine Serrallo...
 Ocine Serrallo: Scraped 1 sessions.
 Scraping mk2 Cinesur...
-  mk2 Cinesur Miramar: found 57 sessions.
+  mk2 Cinesur Miramar: found 55 sessions.
   mk2 Cinesur El Ingenio: found 2 sessions.
-  mk2 Cinesur Málaga Nostrum: found 33 sessions.
-mk2 Cinesur scraped: found 92 VOSE sessions.
+  mk2 Cinesur Málaga Nostrum: found 32 sessions.
+mk2 Cinesur scraped: found 89 VOSE sessions.
 original language not found for 7 movies in Cinesa chain
 original language not found for 23 movies in Cinesur chain
 original language not found for 2 movies in Golem chain
 original language not found for 2 movies in Kinépolis chain
-Successfully generated api/v1/showtimes.json with 1687 listings.
+Successfully generated api/v1/showtimes.json with 1680 listings.
 No new showings found.
 
 Resolving missing movie title translations...
