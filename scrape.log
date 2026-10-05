@@ -1,40 +1,42 @@
-Starting Scraper - Local time is 2026-10-05 15:40:19 CEST
+Starting Scraper - Local time is 2026-10-05 23:49:54 CEST
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
   Fetching Yelmo madrid...
   Fetching Yelmo barcelona...
-Yelmo scraped: found 587 VOSE sessions.
+Yelmo scraped: found 681 VOSE sessions.
 Scraping Cine Albéniz...
 Stopping Cine Albéniz scrape after 5 consecutive empty days.
 Cine Albéniz scraped: found 0 VOSE sessions.
 Warning: albeniz scraper returned 0 showings. Using fallback data.
 Recovered 0 albeniz showings from previous run.
 Scraping Kinépolis Granada & Nevada...
-Kinépolis Granada & Nevada: Scraped 131 VOSE sessions.
+Kinépolis Granada & Nevada: Scraped 127 VOSE sessions.
 Scraping Cines Renoir...
-Cines Renoir: Scraped 185 VOSE sessions.
+Cines Renoir: Scraped 262 VOSE sessions.
 Scraping Cines Golem...
-Cines Golem Madrid: Scraped 20 VOSE sessions.
+Cines Golem Madrid: Scraped 15 VOSE sessions.
 Scraping Cinesa (Madrid & Barcelona)...
-Cinesa: Found 36 business dates with showtimes: ['2026-10-05', '2026-10-06', '2026-10-07', '2026-10-08', '2026-10-09', '2026-10-10', '2026-10-11', '2026-10-12', '2026-10-13', '2026-10-14', '2026-10-15', '2026-10-16', '2026-10-17', '2026-10-18', '2026-10-19', '2026-10-24', '2026-10-25', '2026-10-26', '2026-10-27', '2026-10-28', '2026-10-29', '2026-10-30', '2026-10-31', '2026-11-02', '2026-11-10', '2026-11-14', '2026-11-19', '2026-12-01', '2026-12-15', '2027-01-21', '2027-02-23', '2027-03-18', '2027-04-22', '2027-05-05', '2027-05-25', '2027-06-17']
-Cinesa (Madrid & Barcelona): Scraped 446 VOSE sessions.
+Attempting Cinesa auth token extraction via Playwright...
+Error: Could not retrieve Cinesa authentication token.
+Warning: cinesa scraper returned 0 showings. Using fallback data.
+Recovered 446 cinesa showings from previous run.
 Scraping Ocine Serrallo...
 Ocine Serrallo: Scraped 1 sessions.
 Scraping mk2 Cinesur...
-  mk2 Cinesur Miramar: found 48 sessions.
-  mk2 Cinesur El Ingenio: found 2 sessions.
-  mk2 Cinesur Málaga Nostrum: found 30 sessions.
-mk2 Cinesur scraped: found 80 VOSE sessions.
+  mk2 Cinesur Miramar: found 42 sessions.
+  mk2 Cinesur El Ingenio: found 1 sessions.
+  mk2 Cinesur Málaga Nostrum: found 28 sessions.
+mk2 Cinesur scraped: found 71 VOSE sessions.
 original language not found for 8 movies in Cinesa chain
 original language not found for 22 movies in Cinesur chain
 original language not found for 1 movies in Golem chain
 original language not found for 2 movies in Kinépolis chain
 Updated movie_title_translations.json
-Successfully generated api/v1/showtimes.json with 1450 listings.
-Appended 12 new showings to new_showtimes.json
+Successfully generated api/v1/showtimes.json with 1603 listings.
+Appended 221 new showings to new_showtimes.json
 
 Resolving missing movie title translations...
-Found 39 movies without original names.
+Found 44 movies without original names.
 No TMDB_API_KEY detected. Using keyless TMDB scraper and Wikidata fallbacks.
 
 Searching for: '20 Años del MET en cines - Grabado MET 26-27'
@@ -81,6 +83,10 @@ Searching for: 'ENCUENTROS EN LA TERCERA FASE [WILDER CINEMA]'
     (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=ENCUENTROS%20EN%20LA%20TERCERA%20FASE%20%5BWILDER%20CINEMA%5D)
   -> Could not resolve original name for 'ENCUENTROS EN LA TERCERA FASE [WILDER CINEMA]'
 
+Searching for: 'El precio de la red'
+    (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=El%20precio%20de%20la%20red)
+  -> Could not resolve original name for 'El precio de la red'
+
 Searching for: 'HYBE CHEERING PARTY'
     (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=HYBE%20CHEERING%20PARTY)
   -> Could not resolve original name for 'HYBE CHEERING PARTY'
@@ -104,6 +110,10 @@ Searching for: 'LA MUERTE DE ROBIN HOOD [WILDER CINEMA]'
 Searching for: 'LA PRINCESA PROMETIDA [WILDER CINEMA]'
     (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=LA%20PRINCESA%20PROMETIDA%20%5BWILDER%20CINEMA%5D)
   -> Could not resolve original name for 'LA PRINCESA PROMETIDA [WILDER CINEMA]'
+
+Searching for: 'LA VIDA DE UNA MUJER'
+    (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=LA%20VIDA%20DE%20UNA%20MUJER)
+  -> Found via Wikidata: 'La vida de una mujer'
 
 Searching for: 'LADRÓN DE BICICLETAS [WILDER CINEMA]'
     (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=LADR%C3%93N%20DE%20BICICLETAS%20%5BWILDER%20CINEMA%5D)
@@ -133,6 +143,10 @@ Searching for: 'MALAS CALLES [WILDER CINEMA]'
     (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=MALAS%20CALLES%20%5BWILDER%20CINEMA%5D)
   -> Could not resolve original name for 'MALAS CALLES [WILDER CINEMA]'
 
+Searching for: 'NAZA'
+    (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=NAZA)
+  -> Found via Wikidata: 'Naza'
+
 Searching for: 'PARIS, TEXAS [WILDER CINEMA]'
     (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=PARIS%2C%20TEXAS%20%5BWILDER%20CINEMA%5D)
   -> Could not resolve original name for 'PARIS, TEXAS [WILDER CINEMA]'
@@ -161,13 +175,16 @@ Searching for: 'SECRET FLASHBACK (2 Noviembre 2026)'
     (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=SECRET%20FLASHBACK)
   -> Could not resolve original name for 'SECRET FLASHBACK (2 Noviembre 2026)'
 
+Searching for: 'SU PROPIO INFIERNO'
+    (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=SU%20PROPIO%20INFIERNO)
+  -> Found via Wikidata: 'All Fall Down'
+
 Searching for: 'Sia 2016 Coachella'
     (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=Sia%202016%20Coachella)
   -> Could not resolve original name for 'Sia 2016 Coachella'
 
 Searching for: 'TIEMPO DE VICTORIA [PROYECTO VIRIDIANA]'
     (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=TIEMPO%20DE%20VICTORIA%20%5BPROYECTO%20VIRIDIANA%5D)
-    (Wikidata API warning: HTTPSConnectionPool(host='www.wikidata.org', port=443): Read timed out. (read timeout=10))
   -> Could not resolve original name for 'TIEMPO DE VICTORIA [PROYECTO VIRIDIANA]'
 
 Searching for: 'The Fast & The Furious 25 aniversario'
@@ -186,6 +203,10 @@ Searching for: 'Vengadores: Doomsday'
     (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=Vengadores%3A%20Doomsday)
   -> Could not resolve original name for 'Vengadores: Doomsday'
 
+Searching for: 'Vengadores: Doomsday (Infinity Vision)'
+    (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=Vengadores%3A%20Doomsday)
+  -> Could not resolve original name for 'Vengadores: Doomsday (Infinity Vision)'
+
 Searching for: 'WHAT A FEELING [CINE CON ORGULLO RENOIR]'
     (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=WHAT%20A%20FEELING%20%5BCINE%20CON%20ORGULLO%20RENOIR%5D)
   -> Could not resolve original name for 'WHAT A FEELING [CINE CON ORGULLO RENOIR]'
@@ -194,4 +215,4 @@ Searching for: 'es GHOST: 2 Big To Rig'
     (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=es%20GHOST%3A%202%20Big%20To%20Rig)
   -> Could not resolve original name for 'es GHOST: 2 Big To Rig'
 
-No translations were updated.
+Successfully updated 3 translation(s) in movie_title_translations.json.
