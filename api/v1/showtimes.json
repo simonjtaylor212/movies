@@ -3342,32 +3342,6 @@
   },
   {
     "cinema": "Cine Yelmo La Vaguada",
-    "date": "2026-10-05",
-    "movie": "Digger",
-    "format": "2D",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "14:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1360&showtimeVistaId=21475",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-09-29 21:47:36"
-  },
-  {
-    "cinema": "Cine Yelmo La Vaguada",
-    "date": "2026-10-05",
-    "movie": "Verity. La sombra de un engaño",
-    "format": "2D",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "12:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1360&showtimeVistaId=21477",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-09-29 21:47:36"
-  },
-  {
-    "cinema": "Cine Yelmo La Vaguada",
     "date": "2026-10-06",
     "movie": "Digger",
     "format": "2D",
@@ -4067,6 +4041,19 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-09-09 22:27:35"
+  },
+  {
+    "cinema": "Cine Yelmo Islazul",
+    "date": "2026-12-22",
+    "movie": "Vengadores: Doomsday",
+    "format": "2D",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "16:35",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=804&showtimeVistaId=39411",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-05 15:40:19"
   },
   {
     "cinema": "Cine Yelmo Palafox Luxury",
@@ -11498,19 +11485,6 @@
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
-    "time": "20:15",
-    "booking_url": "https://www.pillalas.com/pase/1089811/",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-09-28 23:04:40"
-  },
-  {
-    "cinema": "Cines Renoir Floridablanca",
-    "date": "2026-10-06",
-    "movie": "Bad Apples",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
     "time": "22:45",
     "booking_url": "https://www.pillalas.com/pase/1089928/",
     "projection_type": "Movie",
@@ -11591,19 +11565,6 @@
     "original_language": "English",
     "time": "15:50",
     "booking_url": "https://www.pillalas.com/pase/1089900/",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-09-28 23:04:40"
-  },
-  {
-    "cinema": "Cines Renoir Floridablanca",
-    "date": "2026-10-06",
-    "movie": "Tiempo de victoria",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "18:20",
-    "booking_url": "https://www.pillalas.com/pase/1089809/",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-09-28 23:04:40"
@@ -13921,6 +13882,19 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-09-23 18:09:18"
+  },
+  {
+    "cinema": "Cinesa LUXE Oasiz",
+    "date": "2026-10-05",
+    "movie": "SECRET FLASHBACK (5 Octubre)",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "",
+    "time": "21:00",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=138-74294",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-05 15:40:19"
   },
   {
     "cinema": "Cinesa LUXE Oasiz",
@@ -16705,6 +16679,58 @@
     "date_added": "2026-09-30 19:43:09"
   },
   {
+    "cinema": "Cinesa Diagonal",
+    "date": "2026-10-08",
+    "movie": "Verity. La sombra de un engaño",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "21:30",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=012-55285",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-05 15:40:19"
+  },
+  {
+    "cinema": "Cinesa Diagonal",
+    "date": "2026-10-08",
+    "movie": "En el corazón de la bestia",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "22:00",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=012-55290",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-05 15:40:19"
+  },
+  {
+    "cinema": "Cinesa Diagonal",
+    "date": "2026-10-08",
+    "movie": "Digger",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "22:15",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=012-55293",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-05 15:40:19"
+  },
+  {
+    "cinema": "Cinesa Diagonal",
+    "date": "2026-10-08",
+    "movie": "Resident Evil",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "22:30",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=012-55296",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-05 15:40:19"
+  },
+  {
     "cinema": "Cinesa SOM Multiespai",
     "date": "2026-10-08",
     "movie": "Digger",
@@ -17069,6 +17095,19 @@
     "date_added": "2026-10-03 05:53:15"
   },
   {
+    "cinema": "Cinesa Méndez Álvaro",
+    "date": "2026-10-11",
+    "movie": "La otra madre",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "22:30",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=123-92635",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-05 15:40:19"
+  },
+  {
     "cinema": "Cinesa Manoteras",
     "date": "2026-10-11",
     "movie": "La otra madre",
@@ -17132,6 +17171,19 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-09-10 00:56:47"
+  },
+  {
+    "cinema": "Cinesa Méndez Álvaro",
+    "date": "2026-10-12",
+    "movie": "La otra madre",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "18:00",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=123-92636",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-05 15:40:19"
   },
   {
     "cinema": "Cinesa Méndez Álvaro",
@@ -17639,6 +17691,32 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-10-02 02:31:42"
+  },
+  {
+    "cinema": "Cinesa Diagonal Mar",
+    "date": "2026-10-19",
+    "movie": "SECRET FLASHBACK (19 Octubre)",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "",
+    "time": "20:20",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=032-52736",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-05 15:40:19"
+  },
+  {
+    "cinema": "Cinesa LUXE Barnasud",
+    "date": "2026-10-19",
+    "movie": "SECRET FLASHBACK (19 Octubre)",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "",
+    "time": "21:20",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=040-34699",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-05 15:40:19"
   },
   {
     "cinema": "Cinesa Méndez Álvaro",
@@ -18471,6 +18549,32 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-10-02 02:31:42"
+  },
+  {
+    "cinema": "Cinesa Méndez Álvaro",
+    "date": "2026-11-02",
+    "movie": "SECRET FLASHBACK (2 Noviembre 2026)",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "",
+    "time": "19:45",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=123-92613",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-05 15:40:19"
+  },
+  {
+    "cinema": "Cinesa Nassica",
+    "date": "2026-11-02",
+    "movie": "SECRET FLASHBACK (2 Noviembre 2026)",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "",
+    "time": "19:45",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=125-108884",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-05 15:40:19"
   },
   {
     "cinema": "Cinesa LUXE Loranca",

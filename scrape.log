@@ -1,9 +1,9 @@
-Starting Scraper - Local time is 2026-10-05 06:10:38 CEST
+Starting Scraper - Local time is 2026-10-05 15:40:19 CEST
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
   Fetching Yelmo madrid...
   Fetching Yelmo barcelona...
-Yelmo scraped: found 588 VOSE sessions.
+Yelmo scraped: found 587 VOSE sessions.
 Scraping Cine Albéniz...
 Stopping Cine Albéniz scrape after 5 consecutive empty days.
 Cine Albéniz scraped: found 0 VOSE sessions.
@@ -12,14 +12,12 @@ Recovered 0 albeniz showings from previous run.
 Scraping Kinépolis Granada & Nevada...
 Kinépolis Granada & Nevada: Scraped 131 VOSE sessions.
 Scraping Cines Renoir...
-Cines Renoir: Scraped 187 VOSE sessions.
+Cines Renoir: Scraped 185 VOSE sessions.
 Scraping Cines Golem...
 Cines Golem Madrid: Scraped 20 VOSE sessions.
 Scraping Cinesa (Madrid & Barcelona)...
-Attempting Cinesa auth token extraction via Playwright...
-Error: Could not retrieve Cinesa authentication token.
-Warning: cinesa scraper returned 0 showings. Using fallback data.
-Recovered 435 cinesa showings from previous run.
+Cinesa: Found 36 business dates with showtimes: ['2026-10-05', '2026-10-06', '2026-10-07', '2026-10-08', '2026-10-09', '2026-10-10', '2026-10-11', '2026-10-12', '2026-10-13', '2026-10-14', '2026-10-15', '2026-10-16', '2026-10-17', '2026-10-18', '2026-10-19', '2026-10-24', '2026-10-25', '2026-10-26', '2026-10-27', '2026-10-28', '2026-10-29', '2026-10-30', '2026-10-31', '2026-11-02', '2026-11-10', '2026-11-14', '2026-11-19', '2026-12-01', '2026-12-15', '2027-01-21', '2027-02-23', '2027-03-18', '2027-04-22', '2027-05-05', '2027-05-25', '2027-06-17']
+Cinesa (Madrid & Barcelona): Scraped 446 VOSE sessions.
 Scraping Ocine Serrallo...
 Ocine Serrallo: Scraped 1 sessions.
 Scraping mk2 Cinesur...
@@ -27,15 +25,16 @@ Scraping mk2 Cinesur...
   mk2 Cinesur El Ingenio: found 2 sessions.
   mk2 Cinesur Málaga Nostrum: found 30 sessions.
 mk2 Cinesur scraped: found 80 VOSE sessions.
-original language not found for 6 movies in Cinesa chain
+original language not found for 8 movies in Cinesa chain
 original language not found for 22 movies in Cinesur chain
 original language not found for 1 movies in Golem chain
 original language not found for 2 movies in Kinépolis chain
-Successfully generated api/v1/showtimes.json with 1442 listings.
-No new showings found.
+Updated movie_title_translations.json
+Successfully generated api/v1/showtimes.json with 1450 listings.
+Appended 12 new showings to new_showtimes.json
 
 Resolving missing movie title translations...
-Found 36 movies without original names.
+Found 39 movies without original names.
 No TMDB_API_KEY detected. Using keyless TMDB scraper and Wikidata fallbacks.
 
 Searching for: '20 Años del MET en cines - Grabado MET 26-27'
@@ -154,12 +153,21 @@ Searching for: 'RASHOMON [WILDER CINEMA]'
     (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=RASHOMON%20%5BWILDER%20CINEMA%5D)
   -> Could not resolve original name for 'RASHOMON [WILDER CINEMA]'
 
+Searching for: 'SECRET FLASHBACK (19 Octubre)'
+    (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=SECRET%20FLASHBACK)
+  -> Could not resolve original name for 'SECRET FLASHBACK (19 Octubre)'
+
+Searching for: 'SECRET FLASHBACK (2 Noviembre 2026)'
+    (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=SECRET%20FLASHBACK)
+  -> Could not resolve original name for 'SECRET FLASHBACK (2 Noviembre 2026)'
+
 Searching for: 'Sia 2016 Coachella'
     (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=Sia%202016%20Coachella)
   -> Could not resolve original name for 'Sia 2016 Coachella'
 
 Searching for: 'TIEMPO DE VICTORIA [PROYECTO VIRIDIANA]'
     (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=TIEMPO%20DE%20VICTORIA%20%5BPROYECTO%20VIRIDIANA%5D)
+    (Wikidata API warning: HTTPSConnectionPool(host='www.wikidata.org', port=443): Read timed out. (read timeout=10))
   -> Could not resolve original name for 'TIEMPO DE VICTORIA [PROYECTO VIRIDIANA]'
 
 Searching for: 'The Fast & The Furious 25 aniversario'
@@ -173,6 +181,10 @@ Searching for: 'The Fast & The Furious 25 niversario'
 Searching for: 'VIAJE AL PAÍS DE LOS BLANCOS [PROYECTO VIRIDIANA]'
     (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=VIAJE%20AL%20PA%C3%8DS%20DE%20LOS%20BLANCOS%20%5BPROYECTO%20VIRIDIANA%5D)
   -> Could not resolve original name for 'VIAJE AL PAÍS DE LOS BLANCOS [PROYECTO VIRIDIANA]'
+
+Searching for: 'Vengadores: Doomsday'
+    (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=Vengadores%3A%20Doomsday)
+  -> Could not resolve original name for 'Vengadores: Doomsday'
 
 Searching for: 'WHAT A FEELING [CINE CON ORGULLO RENOIR]'
     (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=WHAT%20A%20FEELING%20%5BCINE%20CON%20ORGULLO%20RENOIR%5D)
