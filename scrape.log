@@ -1,20 +1,20 @@
-Starting Scraper - Local time is 2026-10-06 14:47:35 CEST
+Starting Scraper - Local time is 2026-10-06 21:58:50 CEST
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
   Fetching Yelmo madrid...
   Fetching Yelmo barcelona...
-Yelmo scraped: found 957 VOSE sessions.
+Yelmo scraped: found 1004 VOSE sessions.
 Scraping Cine Albéniz...
 Stopping Cine Albéniz scrape after 5 consecutive empty days.
 Cine Albéniz scraped: found 0 VOSE sessions.
 Warning: albeniz scraper returned 0 showings. Using fallback data.
 Recovered 0 albeniz showings from previous run.
 Scraping Kinépolis Granada & Nevada...
-Kinépolis Granada & Nevada: Scraped 157 VOSE sessions.
+Kinépolis Granada & Nevada: Scraped 244 VOSE sessions.
 Scraping Cines Renoir...
-Cines Renoir: Scraped 227 VOSE sessions.
+Cines Renoir: Scraped 493 VOSE sessions.
 Scraping Cines Golem...
-Cines Golem Madrid: Scraped 15 VOSE sessions.
+Cines Golem Madrid: Scraped 11 VOSE sessions.
 Scraping Cinesa (Madrid & Barcelona)...
 Attempting Cinesa auth token extraction via Playwright...
 Error: Could not retrieve Cinesa authentication token.
@@ -23,19 +23,20 @@ Recovered 354 cinesa showings from previous run.
 Scraping Ocine Serrallo...
 Ocine Serrallo: Scraped 1 sessions.
 Scraping mk2 Cinesur...
-  mk2 Cinesur Miramar: found 65 sessions.
+  mk2 Cinesur Miramar: found 70 sessions.
   mk2 Cinesur El Ingenio: found 23 sessions.
-  mk2 Cinesur Málaga Nostrum: found 51 sessions.
-mk2 Cinesur scraped: found 139 VOSE sessions.
+  mk2 Cinesur Málaga Nostrum: found 48 sessions.
+mk2 Cinesur scraped: found 141 VOSE sessions.
 original language not found for 7 movies in Cinesa chain
-original language not found for 22 movies in Cinesur chain
+original language not found for 21 movies in Cinesur chain
 original language not found for 1 movies in Golem chain
 original language not found for 2 movies in Kinépolis chain
-Successfully generated api/v1/showtimes.json with 1850 listings.
-Appended 24 new showings to new_showtimes.json
+Updated movie_title_translations.json
+Successfully generated api/v1/showtimes.json with 2248 listings.
+Appended 485 new showings to new_showtimes.json
 
 Resolving missing movie title translations...
-Found 41 movies without original names.
+Found 42 movies without original names.
 No TMDB_API_KEY detected. Using keyless TMDB scraper and Wikidata fallbacks.
 
 Searching for: '20 Años del MET en cines - Grabado MET 26-27'
@@ -126,6 +127,10 @@ Searching for: 'La Nuit de la Glisse 2026: THE CALL'
     (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=La%20Nuit%20de%20la%20Glisse%202026%3A%20THE%20CALL)
   -> Could not resolve original name for 'La Nuit de la Glisse 2026: THE CALL'
 
+Searching for: 'La bola negra'
+    (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=La%20bola%20negra)
+  -> Found via Wikidata: 'La bola negra'
+
 Searching for: 'La casa del bosque 1'
     (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=La%20casa%20del%20bosque%201)
   -> Could not resolve original name for 'La casa del bosque 1'
@@ -202,4 +207,4 @@ Searching for: 'es GHOST: 2 Big To Rig'
     (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=es%20GHOST%3A%202%20Big%20To%20Rig)
   -> Could not resolve original name for 'es GHOST: 2 Big To Rig'
 
-No translations were updated.
+Successfully updated 1 translation(s) in movie_title_translations.json.
