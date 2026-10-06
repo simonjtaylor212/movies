@@ -6112,19 +6112,6 @@
   {
     "cinema": "Cine Yelmo La Vaguada",
     "date": "2026-10-06",
-    "movie": "Verity. La sombra de un engaño",
-    "format": "2D",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "12:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1360&showtimeVistaId=21513",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-09-29 21:47:36"
-  },
-  {
-    "cinema": "Cine Yelmo La Vaguada",
-    "date": "2026-10-06",
     "movie": "En el corazón de la bestia",
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
@@ -6277,6 +6264,97 @@
     "projection_type": "Música y conciertos",
     "movie_title_language": "ES",
     "date_added": "2026-09-16 22:53:59"
+  },
+  {
+    "cinema": "Cine Yelmo La Vaguada",
+    "date": "2026-11-03",
+    "movie": "Godzilla Minus Zero",
+    "format": "2D",
+    "language": "JAPONÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "Japanese",
+    "time": "19:45",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1360&showtimeVistaId=21685",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-06 14:47:35"
+  },
+  {
+    "cinema": "Cine Yelmo La Vaguada",
+    "date": "2026-11-06",
+    "movie": "Godzilla Minus Zero",
+    "format": "2D",
+    "language": "JAPONÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "Japanese",
+    "time": "17:15",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1360&showtimeVistaId=21686",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-06 14:47:35"
+  },
+  {
+    "cinema": "Cine Yelmo La Vaguada",
+    "date": "2026-11-06",
+    "movie": "Godzilla Minus Zero",
+    "format": "2D",
+    "language": "JAPONÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "Japanese",
+    "time": "20:00",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1360&showtimeVistaId=21687",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-06 14:47:35"
+  },
+  {
+    "cinema": "Cine Yelmo La Vaguada",
+    "date": "2026-11-07",
+    "movie": "Godzilla Minus Zero",
+    "format": "2D",
+    "language": "JAPONÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "Japanese",
+    "time": "17:15",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1360&showtimeVistaId=21689",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-06 14:47:35"
+  },
+  {
+    "cinema": "Cine Yelmo La Vaguada",
+    "date": "2026-11-07",
+    "movie": "Godzilla Minus Zero",
+    "format": "2D",
+    "language": "JAPONÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "Japanese",
+    "time": "20:00",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1360&showtimeVistaId=21688",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-06 14:47:35"
+  },
+  {
+    "cinema": "Cine Yelmo La Vaguada",
+    "date": "2026-11-08",
+    "movie": "Godzilla Minus Zero",
+    "format": "2D",
+    "language": "JAPONÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "Japanese",
+    "time": "17:15",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1360&showtimeVistaId=21690",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-06 14:47:35"
+  },
+  {
+    "cinema": "Cine Yelmo La Vaguada",
+    "date": "2026-11-08",
+    "movie": "Godzilla Minus Zero",
+    "format": "2D",
+    "language": "JAPONÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "Japanese",
+    "time": "20:00",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1360&showtimeVistaId=21691",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-06 14:47:35"
   },
   {
     "cinema": "Cine Yelmo La Vaguada",
@@ -8932,29 +9010,16 @@
   },
   {
     "cinema": "Cine Yelmo Plaza Norte 2",
-    "date": "2026-10-12",
-    "movie": "El precio de la red",
-    "format": "LUX",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "17:10",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=813&showtimeVistaId=58508",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-10-05 23:49:54"
-  },
-  {
-    "cinema": "Cine Yelmo Plaza Norte 2",
     "date": "2026-10-13",
     "movie": "La otra madre",
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "original_language": "English",
-    "time": "20:05",
+    "time": "20:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=813&showtimeVistaId=58304",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-10-05 23:49:54"
+    "date_added": "2026-10-06 14:47:35"
   },
   {
     "cinema": "Cine Yelmo Plaza Norte 2",
@@ -9002,11 +9067,11 @@
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "original_language": "English",
-    "time": "22:20",
+    "time": "21:50",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=813&showtimeVistaId=58580",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-10-05 23:49:54"
+    "date_added": "2026-10-06 14:47:35"
   },
   {
     "cinema": "Cine Yelmo Plaza Norte 2",
@@ -9023,32 +9088,6 @@
   },
   {
     "cinema": "Cine Yelmo Plaza Norte 2",
-    "date": "2026-10-14",
-    "movie": "El precio de la red",
-    "format": "LUX",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "17:15",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=813&showtimeVistaId=58626",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-10-05 23:49:54"
-  },
-  {
-    "cinema": "Cine Yelmo Plaza Norte 2",
-    "date": "2026-10-15",
-    "movie": "El precio de la red",
-    "format": "LUX",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "17:15",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=813&showtimeVistaId=58648",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-10-05 23:49:54"
-  },
-  {
-    "cinema": "Cine Yelmo Plaza Norte 2",
     "date": "2026-10-17",
     "movie": "MACBETH (Verdi) - MET LIVE 26-27",
     "format": "CA",
@@ -9059,6 +9098,19 @@
     "projection_type": "Ópera",
     "movie_title_language": "ES",
     "date_added": "2026-06-27 18:05:07"
+  },
+  {
+    "cinema": "Cine Yelmo Plaza Norte 2",
+    "date": "2026-11-03",
+    "movie": "Godzilla Minus Zero",
+    "format": "2D",
+    "language": "JAPONÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "Japanese",
+    "time": "19:45",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=813&showtimeVistaId=58326",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-06 14:47:35"
   },
   {
     "cinema": "Cine Yelmo Plaza Norte 2",
@@ -10216,6 +10268,71 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-09-09 17:57:13"
+  },
+  {
+    "cinema": "Cine Yelmo Plenilunio",
+    "date": "2026-12-17",
+    "movie": "Vengadores: Doomsday",
+    "format": "PREMIUM",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "16:45",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=805&showtimeVistaId=44214",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-06 14:47:35"
+  },
+  {
+    "cinema": "Cine Yelmo Plenilunio",
+    "date": "2026-12-17",
+    "movie": "Vengadores: Doomsday",
+    "format": "PREMIUM",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "20:00",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=805&showtimeVistaId=44215",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-06 14:47:35"
+  },
+  {
+    "cinema": "Cine Yelmo Plenilunio",
+    "date": "2026-12-18",
+    "movie": "Vengadores: Doomsday",
+    "format": "PREMIUM",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "20:00",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=805&showtimeVistaId=44216",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-06 14:47:35"
+  },
+  {
+    "cinema": "Cine Yelmo Plenilunio",
+    "date": "2026-12-19",
+    "movie": "Vengadores: Doomsday",
+    "format": "PREMIUM",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "20:00",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=805&showtimeVistaId=44231",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-06 14:47:35"
+  },
+  {
+    "cinema": "Cine Yelmo Plenilunio",
+    "date": "2026-12-20",
+    "movie": "Vengadores: Doomsday",
+    "format": "PREMIUM",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "20:00",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=805&showtimeVistaId=44238",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-06 14:47:35"
   },
   {
     "cinema": "Cine Yelmo Rivas H2O",
@@ -11896,6 +12013,19 @@
   },
   {
     "cinema": "Cine Yelmo Westfield La Maquinista",
+    "date": "2026-11-03",
+    "movie": "Godzilla Minus Zero",
+    "format": "PREMIUM",
+    "language": "JAPONÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "Japanese",
+    "time": "19:45",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1350&showtimeVistaId=46624",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-06 14:47:35"
+  },
+  {
+    "cinema": "Cine Yelmo Westfield La Maquinista",
     "date": "2026-11-04",
     "movie": "RAMMSTEIN - LIVE IN MEXICO CITY",
     "format": "CA PREMIUM",
@@ -11958,6 +12088,58 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-09-10 22:27:00"
+  },
+  {
+    "cinema": "Cine Yelmo Westfield La Maquinista",
+    "date": "2026-12-17",
+    "movie": "Vengadores: Doomsday (Infinity Vision)",
+    "format": "PREMIUM",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "20:00",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1350&showtimeVistaId=46582",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-06 14:47:35"
+  },
+  {
+    "cinema": "Cine Yelmo Westfield La Maquinista",
+    "date": "2026-12-18",
+    "movie": "Vengadores: Doomsday (Infinity Vision)",
+    "format": "PREMIUM",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "20:00",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1350&showtimeVistaId=46585",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-06 14:47:35"
+  },
+  {
+    "cinema": "Cine Yelmo Westfield La Maquinista",
+    "date": "2026-12-19",
+    "movie": "Vengadores: Doomsday (Infinity Vision)",
+    "format": "PREMIUM",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "20:00",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1350&showtimeVistaId=46609",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-06 14:47:35"
+  },
+  {
+    "cinema": "Cine Yelmo Westfield La Maquinista",
+    "date": "2026-12-20",
+    "movie": "Vengadores: Doomsday (Infinity Vision)",
+    "format": "PREMIUM",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "20:00",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1350&showtimeVistaId=46618",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-06 14:47:35"
   },
   {
     "cinema": "Cine Yelmo Westfield La Maquinista",
@@ -12798,19 +12980,6 @@
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "original_language": "English",
-    "time": "15:50",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/144383/vengadores-doomsday-infinity-vision?mode=widget&change=0&ref=750&forceproxy=1",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-10-06 06:59:16"
-  },
-  {
-    "cinema": "mk2 Cinesur Miramar",
-    "date": "2026-12-17",
-    "movie": "Vengadores: Doomsday",
-    "format": "2D",
-    "language": "Original con subtítulos (VOSE)",
-    "original_language": "English",
     "time": "19:00",
     "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/144391/vengadores-doomsday?mode=widget&change=0&ref=750&forceproxy=1",
     "projection_type": "Movie",
@@ -12833,6 +13002,19 @@
   {
     "cinema": "mk2 Cinesur Miramar",
     "date": "2026-12-17",
+    "movie": "Vengadores: Doomsday",
+    "format": "2D",
+    "language": "Original con subtítulos (VOSE)",
+    "original_language": "English",
+    "time": "15:50",
+    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/144383/vengadores-doomsday-infinity-vision?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-06 06:59:16"
+  },
+  {
+    "cinema": "mk2 Cinesur Miramar",
+    "date": "2026-12-17",
     "movie": "Gremlins",
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
@@ -12842,19 +13024,6 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-08-15 03:08:39"
-  },
-  {
-    "cinema": "mk2 Cinesur Miramar",
-    "date": "2026-12-18",
-    "movie": "Vengadores: Doomsday",
-    "format": "2D",
-    "language": "Original con subtítulos (VOSE)",
-    "original_language": "English",
-    "time": "15:50",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/144395/vengadores-doomsday-infinity-vision?mode=widget&change=0&ref=750&forceproxy=1",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-10-06 06:59:16"
   },
   {
     "cinema": "mk2 Cinesur Miramar",
@@ -12884,26 +13053,13 @@
   },
   {
     "cinema": "mk2 Cinesur Miramar",
-    "date": "2026-12-19",
-    "movie": "Vengadores: Doomsday",
-    "format": "2D",
-    "language": "Original con subtítulos (VOSE)",
-    "original_language": "English",
-    "time": "12:00",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/144413/vengadores-doomsday-infinity-vision?mode=widget&change=0&ref=750&forceproxy=1",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-10-06 06:59:16"
-  },
-  {
-    "cinema": "mk2 Cinesur Miramar",
-    "date": "2026-12-19",
+    "date": "2026-12-18",
     "movie": "Vengadores: Doomsday",
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "original_language": "English",
     "time": "15:50",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/144405/vengadores-doomsday-infinity-vision?mode=widget&change=0&ref=750&forceproxy=1",
+    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/144395/vengadores-doomsday-infinity-vision?mode=widget&change=0&ref=750&forceproxy=1",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-10-06 06:59:16"
@@ -12936,26 +13092,26 @@
   },
   {
     "cinema": "mk2 Cinesur Miramar",
-    "date": "2026-12-20",
+    "date": "2026-12-19",
     "movie": "Vengadores: Doomsday",
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "original_language": "English",
     "time": "12:00",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/144417/vengadores-doomsday-infinity-vision?mode=widget&change=0&ref=750&forceproxy=1",
+    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/144413/vengadores-doomsday-infinity-vision?mode=widget&change=0&ref=750&forceproxy=1",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-10-06 06:59:16"
   },
   {
     "cinema": "mk2 Cinesur Miramar",
-    "date": "2026-12-20",
+    "date": "2026-12-19",
     "movie": "Vengadores: Doomsday",
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "original_language": "English",
     "time": "15:50",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/144418/vengadores-doomsday-infinity-vision?mode=widget&change=0&ref=750&forceproxy=1",
+    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/144405/vengadores-doomsday-infinity-vision?mode=widget&change=0&ref=750&forceproxy=1",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-10-06 06:59:16"
@@ -12988,13 +13144,26 @@
   },
   {
     "cinema": "mk2 Cinesur Miramar",
-    "date": "2026-12-21",
+    "date": "2026-12-20",
+    "movie": "Vengadores: Doomsday",
+    "format": "2D",
+    "language": "Original con subtítulos (VOSE)",
+    "original_language": "English",
+    "time": "12:00",
+    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/144417/vengadores-doomsday-infinity-vision?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-06 06:59:16"
+  },
+  {
+    "cinema": "mk2 Cinesur Miramar",
+    "date": "2026-12-20",
     "movie": "Vengadores: Doomsday",
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "original_language": "English",
     "time": "15:50",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/144429/vengadores-doomsday-infinity-vision?mode=widget&change=0&ref=750&forceproxy=1",
+    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/144418/vengadores-doomsday-infinity-vision?mode=widget&change=0&ref=750&forceproxy=1",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-10-06 06:59:16"
@@ -13027,13 +13196,13 @@
   },
   {
     "cinema": "mk2 Cinesur Miramar",
-    "date": "2026-12-22",
+    "date": "2026-12-21",
     "movie": "Vengadores: Doomsday",
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "original_language": "English",
     "time": "15:50",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/144439/vengadores-doomsday-infinity-vision?mode=widget&change=0&ref=750&forceproxy=1",
+    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/144429/vengadores-doomsday-infinity-vision?mode=widget&change=0&ref=750&forceproxy=1",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-10-06 06:59:16"
@@ -13066,13 +13235,13 @@
   },
   {
     "cinema": "mk2 Cinesur Miramar",
-    "date": "2026-12-23",
+    "date": "2026-12-22",
     "movie": "Vengadores: Doomsday",
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "original_language": "English",
     "time": "15:50",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/144449/vengadores-doomsday-infinity-vision?mode=widget&change=0&ref=750&forceproxy=1",
+    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/144439/vengadores-doomsday-infinity-vision?mode=widget&change=0&ref=750&forceproxy=1",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-10-06 06:59:16"
@@ -13104,6 +13273,19 @@
     "date_added": "2026-10-06 06:59:16"
   },
   {
+    "cinema": "mk2 Cinesur Miramar",
+    "date": "2026-12-23",
+    "movie": "Vengadores: Doomsday",
+    "format": "2D",
+    "language": "Original con subtítulos (VOSE)",
+    "original_language": "English",
+    "time": "15:50",
+    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/144449/vengadores-doomsday-infinity-vision?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-06 06:59:16"
+  },
+  {
     "cinema": "mk2 Cinesur El Ingenio",
     "date": "2026-12-15",
     "movie": "Dune: Parte Tres",
@@ -13124,7 +13306,7 @@
     "language": "Original con subtítulos (VOSE)",
     "original_language": "English",
     "time": "15:45",
-    "booking_url": "https://cine.entradas.com/cine/velez-malaga/cinesur-el-ingenio/evento/125242/vengadores-doomsday-infinity-vision?mode=widget&change=0&ref=750&forceproxy=1",
+    "booking_url": "https://cine.entradas.com/cine/velez-malaga/cinesur-el-ingenio/evento/125266/vengadores-doomsday?mode=widget&change=0&ref=750&forceproxy=1",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-10-06 06:59:16"
@@ -13137,7 +13319,7 @@
     "language": "Original con subtítulos (VOSE)",
     "original_language": "English",
     "time": "19:00",
-    "booking_url": "https://cine.entradas.com/cine/velez-malaga/cinesur-el-ingenio/evento/125243/vengadores-doomsday-infinity-vision?mode=widget&change=0&ref=750&forceproxy=1",
+    "booking_url": "https://cine.entradas.com/cine/velez-malaga/cinesur-el-ingenio/evento/125267/vengadores-doomsday?mode=widget&change=0&ref=750&forceproxy=1",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-10-06 06:59:16"
@@ -13150,7 +13332,7 @@
     "language": "Original con subtítulos (VOSE)",
     "original_language": "English",
     "time": "22:15",
-    "booking_url": "https://cine.entradas.com/cine/velez-malaga/cinesur-el-ingenio/evento/125244/vengadores-doomsday-infinity-vision?mode=widget&change=0&ref=750&forceproxy=1",
+    "booking_url": "https://cine.entradas.com/cine/velez-malaga/cinesur-el-ingenio/evento/125339/vengadores-doomsday?mode=widget&change=0&ref=750&forceproxy=1",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-10-06 06:59:16"
@@ -13163,7 +13345,7 @@
     "language": "Original con subtítulos (VOSE)",
     "original_language": "English",
     "time": "15:45",
-    "booking_url": "https://cine.entradas.com/cine/velez-malaga/cinesur-el-ingenio/evento/125245/vengadores-doomsday-infinity-vision?mode=widget&change=0&ref=750&forceproxy=1",
+    "booking_url": "https://cine.entradas.com/cine/velez-malaga/cinesur-el-ingenio/evento/125269/vengadores-doomsday?mode=widget&change=0&ref=750&forceproxy=1",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-10-06 06:59:16"
@@ -13176,7 +13358,7 @@
     "language": "Original con subtítulos (VOSE)",
     "original_language": "English",
     "time": "19:00",
-    "booking_url": "https://cine.entradas.com/cine/velez-malaga/cinesur-el-ingenio/evento/125246/vengadores-doomsday-infinity-vision?mode=widget&change=0&ref=750&forceproxy=1",
+    "booking_url": "https://cine.entradas.com/cine/velez-malaga/cinesur-el-ingenio/evento/125270/vengadores-doomsday?mode=widget&change=0&ref=750&forceproxy=1",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-10-06 06:59:16"
@@ -13189,7 +13371,7 @@
     "language": "Original con subtítulos (VOSE)",
     "original_language": "English",
     "time": "22:15",
-    "booking_url": "https://cine.entradas.com/cine/velez-malaga/cinesur-el-ingenio/evento/125247/vengadores-doomsday-infinity-vision?mode=widget&change=0&ref=750&forceproxy=1",
+    "booking_url": "https://cine.entradas.com/cine/velez-malaga/cinesur-el-ingenio/evento/125285/vengadores-doomsday?mode=widget&change=0&ref=750&forceproxy=1",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-10-06 06:59:16"
@@ -13201,11 +13383,11 @@
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "original_language": "English",
-    "time": "14:45",
-    "booking_url": "https://cine.entradas.com/cine/velez-malaga/cinesur-el-ingenio/evento/125255/vengadores-doomsday-infinity-vision?mode=widget&change=0&ref=750&forceproxy=1",
+    "time": "15:45",
+    "booking_url": "https://cine.entradas.com/cine/velez-malaga/cinesur-el-ingenio/evento/125277/vengadores-doomsday?mode=widget&change=0&ref=750&forceproxy=1",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-10-06 06:59:16"
+    "date_added": "2026-10-06 14:47:35"
   },
   {
     "cinema": "mk2 Cinesur El Ingenio",
@@ -13214,11 +13396,11 @@
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "original_language": "English",
-    "time": "18:00",
-    "booking_url": "https://cine.entradas.com/cine/velez-malaga/cinesur-el-ingenio/evento/125256/vengadores-doomsday-infinity-vision?mode=widget&change=0&ref=750&forceproxy=1",
+    "time": "19:00",
+    "booking_url": "https://cine.entradas.com/cine/velez-malaga/cinesur-el-ingenio/evento/125278/vengadores-doomsday?mode=widget&change=0&ref=750&forceproxy=1",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-10-06 06:59:16"
+    "date_added": "2026-10-06 14:47:35"
   },
   {
     "cinema": "mk2 Cinesur El Ingenio",
@@ -13227,11 +13409,11 @@
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "original_language": "English",
-    "time": "21:15",
-    "booking_url": "https://cine.entradas.com/cine/velez-malaga/cinesur-el-ingenio/evento/125257/vengadores-doomsday-infinity-vision?mode=widget&change=0&ref=750&forceproxy=1",
+    "time": "22:15",
+    "booking_url": "https://cine.entradas.com/cine/velez-malaga/cinesur-el-ingenio/evento/125286/vengadores-doomsday?mode=widget&change=0&ref=750&forceproxy=1",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-10-06 06:59:16"
+    "date_added": "2026-10-06 14:47:35"
   },
   {
     "cinema": "mk2 Cinesur El Ingenio",
@@ -13240,11 +13422,11 @@
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "original_language": "English",
-    "time": "12:15",
-    "booking_url": "https://cine.entradas.com/cine/velez-malaga/cinesur-el-ingenio/evento/125276/vengadores-doomsday-infinity-vision?mode=widget&change=0&ref=750&forceproxy=1",
+    "time": "11:50",
+    "booking_url": "https://cine.entradas.com/cine/velez-malaga/cinesur-el-ingenio/evento/125337/vengadores-doomsday?mode=widget&change=0&ref=750&forceproxy=1",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-10-06 06:59:16"
+    "date_added": "2026-10-06 14:47:35"
   },
   {
     "cinema": "mk2 Cinesur El Ingenio",
@@ -13254,7 +13436,7 @@
     "language": "Original con subtítulos (VOSE)",
     "original_language": "English",
     "time": "15:45",
-    "booking_url": "https://cine.entradas.com/cine/velez-malaga/cinesur-el-ingenio/evento/125265/vengadores-doomsday-infinity-vision?mode=widget&change=0&ref=750&forceproxy=1",
+    "booking_url": "https://cine.entradas.com/cine/velez-malaga/cinesur-el-ingenio/evento/125287/vengadores-doomsday?mode=widget&change=0&ref=750&forceproxy=1",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-10-06 06:59:16"
@@ -13267,7 +13449,7 @@
     "language": "Original con subtítulos (VOSE)",
     "original_language": "English",
     "time": "19:00",
-    "booking_url": "https://cine.entradas.com/cine/velez-malaga/cinesur-el-ingenio/evento/125269/vengadores-doomsday-infinity-vision?mode=widget&change=0&ref=750&forceproxy=1",
+    "booking_url": "https://cine.entradas.com/cine/velez-malaga/cinesur-el-ingenio/evento/125288/vengadores-doomsday?mode=widget&change=0&ref=750&forceproxy=1",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-10-06 06:59:16"
@@ -13280,7 +13462,7 @@
     "language": "Original con subtítulos (VOSE)",
     "original_language": "English",
     "time": "22:15",
-    "booking_url": "https://cine.entradas.com/cine/velez-malaga/cinesur-el-ingenio/evento/125273/vengadores-doomsday-infinity-vision?mode=widget&change=0&ref=750&forceproxy=1",
+    "booking_url": "https://cine.entradas.com/cine/velez-malaga/cinesur-el-ingenio/evento/125289/vengadores-doomsday?mode=widget&change=0&ref=750&forceproxy=1",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-10-06 06:59:16"
@@ -13293,7 +13475,7 @@
     "language": "Original con subtítulos (VOSE)",
     "original_language": "English",
     "time": "15:45",
-    "booking_url": "https://cine.entradas.com/cine/velez-malaga/cinesur-el-ingenio/evento/125277/vengadores-doomsday-infinity-vision?mode=widget&change=0&ref=750&forceproxy=1",
+    "booking_url": "https://cine.entradas.com/cine/velez-malaga/cinesur-el-ingenio/evento/125297/vengadores-doomsday?mode=widget&change=0&ref=750&forceproxy=1",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-10-06 06:59:16"
@@ -13306,7 +13488,7 @@
     "language": "Original con subtítulos (VOSE)",
     "original_language": "English",
     "time": "19:00",
-    "booking_url": "https://cine.entradas.com/cine/velez-malaga/cinesur-el-ingenio/evento/125278/vengadores-doomsday-infinity-vision?mode=widget&change=0&ref=750&forceproxy=1",
+    "booking_url": "https://cine.entradas.com/cine/velez-malaga/cinesur-el-ingenio/evento/125298/vengadores-doomsday?mode=widget&change=0&ref=750&forceproxy=1",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-10-06 06:59:16"
@@ -13319,7 +13501,7 @@
     "language": "Original con subtítulos (VOSE)",
     "original_language": "English",
     "time": "22:15",
-    "booking_url": "https://cine.entradas.com/cine/velez-malaga/cinesur-el-ingenio/evento/125279/vengadores-doomsday-infinity-vision?mode=widget&change=0&ref=750&forceproxy=1",
+    "booking_url": "https://cine.entradas.com/cine/velez-malaga/cinesur-el-ingenio/evento/125299/vengadores-doomsday?mode=widget&change=0&ref=750&forceproxy=1",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-10-06 06:59:16"
@@ -13332,7 +13514,7 @@
     "language": "Original con subtítulos (VOSE)",
     "original_language": "English",
     "time": "15:45",
-    "booking_url": "https://cine.entradas.com/cine/velez-malaga/cinesur-el-ingenio/evento/125287/vengadores-doomsday-infinity-vision?mode=widget&change=0&ref=750&forceproxy=1",
+    "booking_url": "https://cine.entradas.com/cine/velez-malaga/cinesur-el-ingenio/evento/125307/vengadores-doomsday?mode=widget&change=0&ref=750&forceproxy=1",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-10-06 06:59:16"
@@ -13345,7 +13527,7 @@
     "language": "Original con subtítulos (VOSE)",
     "original_language": "English",
     "time": "19:00",
-    "booking_url": "https://cine.entradas.com/cine/velez-malaga/cinesur-el-ingenio/evento/125288/vengadores-doomsday-infinity-vision?mode=widget&change=0&ref=750&forceproxy=1",
+    "booking_url": "https://cine.entradas.com/cine/velez-malaga/cinesur-el-ingenio/evento/125308/vengadores-doomsday?mode=widget&change=0&ref=750&forceproxy=1",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-10-06 06:59:16"
@@ -13358,7 +13540,7 @@
     "language": "Original con subtítulos (VOSE)",
     "original_language": "English",
     "time": "22:15",
-    "booking_url": "https://cine.entradas.com/cine/velez-malaga/cinesur-el-ingenio/evento/125289/vengadores-doomsday-infinity-vision?mode=widget&change=0&ref=750&forceproxy=1",
+    "booking_url": "https://cine.entradas.com/cine/velez-malaga/cinesur-el-ingenio/evento/125309/vengadores-doomsday?mode=widget&change=0&ref=750&forceproxy=1",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-10-06 06:59:16"
@@ -13371,7 +13553,7 @@
     "language": "Original con subtítulos (VOSE)",
     "original_language": "English",
     "time": "15:45",
-    "booking_url": "https://cine.entradas.com/cine/velez-malaga/cinesur-el-ingenio/evento/125297/vengadores-doomsday-infinity-vision?mode=widget&change=0&ref=750&forceproxy=1",
+    "booking_url": "https://cine.entradas.com/cine/velez-malaga/cinesur-el-ingenio/evento/125317/vengadores-doomsday?mode=widget&change=0&ref=750&forceproxy=1",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-10-06 06:59:16"
@@ -13384,7 +13566,7 @@
     "language": "Original con subtítulos (VOSE)",
     "original_language": "English",
     "time": "19:00",
-    "booking_url": "https://cine.entradas.com/cine/velez-malaga/cinesur-el-ingenio/evento/125298/vengadores-doomsday-infinity-vision?mode=widget&change=0&ref=750&forceproxy=1",
+    "booking_url": "https://cine.entradas.com/cine/velez-malaga/cinesur-el-ingenio/evento/125318/vengadores-doomsday?mode=widget&change=0&ref=750&forceproxy=1",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-10-06 06:59:16"
@@ -13397,46 +13579,7 @@
     "language": "Original con subtítulos (VOSE)",
     "original_language": "English",
     "time": "22:15",
-    "booking_url": "https://cine.entradas.com/cine/velez-malaga/cinesur-el-ingenio/evento/125299/vengadores-doomsday-infinity-vision?mode=widget&change=0&ref=750&forceproxy=1",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-10-06 06:59:16"
-  },
-  {
-    "cinema": "mk2 Cinesur El Ingenio",
-    "date": "2026-12-24",
-    "movie": "Vengadores: Doomsday",
-    "format": "2D",
-    "language": "Original con subtítulos (VOSE)",
-    "original_language": "English",
-    "time": "15:45",
-    "booking_url": "https://cine.entradas.com/cine/velez-malaga/cinesur-el-ingenio/evento/125307/vengadores-doomsday-infinity-vision?mode=widget&change=0&ref=750&forceproxy=1",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-10-06 06:59:16"
-  },
-  {
-    "cinema": "mk2 Cinesur El Ingenio",
-    "date": "2026-12-24",
-    "movie": "Vengadores: Doomsday",
-    "format": "2D",
-    "language": "Original con subtítulos (VOSE)",
-    "original_language": "English",
-    "time": "19:00",
-    "booking_url": "https://cine.entradas.com/cine/velez-malaga/cinesur-el-ingenio/evento/125308/vengadores-doomsday-infinity-vision?mode=widget&change=0&ref=750&forceproxy=1",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-10-06 06:59:16"
-  },
-  {
-    "cinema": "mk2 Cinesur El Ingenio",
-    "date": "2026-12-24",
-    "movie": "Vengadores: Doomsday",
-    "format": "2D",
-    "language": "Original con subtítulos (VOSE)",
-    "original_language": "English",
-    "time": "22:15",
-    "booking_url": "https://cine.entradas.com/cine/velez-malaga/cinesur-el-ingenio/evento/125309/vengadores-doomsday-infinity-vision?mode=widget&change=0&ref=750&forceproxy=1",
+    "booking_url": "https://cine.entradas.com/cine/velez-malaga/cinesur-el-ingenio/evento/125319/vengadores-doomsday?mode=widget&change=0&ref=750&forceproxy=1",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-10-06 06:59:16"
