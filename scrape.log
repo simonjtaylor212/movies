@@ -1,40 +1,38 @@
-Starting Scraper - Local time is 2026-10-07 11:50:45 CEST
+Starting Scraper - Local time is 2026-10-07 20:29:19 CEST
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
   Fetching Yelmo madrid...
   Fetching Yelmo barcelona...
-Yelmo scraped: found 961 VOSE sessions.
+Yelmo scraped: found 1008 VOSE sessions.
 Scraping Cine Albéniz...
 Stopping Cine Albéniz scrape after 5 consecutive empty days.
 Cine Albéniz scraped: found 0 VOSE sessions.
 Warning: albeniz scraper returned 0 showings. Using fallback data.
 Recovered 0 albeniz showings from previous run.
 Scraping Kinépolis Granada & Nevada...
-Kinépolis Granada & Nevada: Scraped 306 VOSE sessions.
+Kinépolis Granada & Nevada: Scraped 314 VOSE sessions.
 Scraping Cines Renoir...
 Cines Renoir: Scraped 452 VOSE sessions.
 Scraping Cines Golem...
-Cines Golem Madrid: Scraped 58 VOSE sessions.
+Cines Golem Madrid: Scraped 55 VOSE sessions.
 Scraping Cinesa (Madrid & Barcelona)...
 Attempting Cinesa auth token extraction via Playwright...
 Error: Could not retrieve Cinesa authentication token.
 Warning: cinesa scraper returned 0 showings. Using fallback data.
 Recovered 286 cinesa showings from previous run.
 Scraping Ocine Serrallo...
-Ocine Serrallo: Scraped 1 sessions.
+Ocine Serrallo: Scraped 2 sessions.
 Scraping mk2 Cinesur...
-  mk2 Cinesur Miramar: found 94 sessions.
-Error fetching Cinesur el-ingenio-velez-malaga: HTTPSConnectionPool(host='mk2cines.es', port=443): Read timed out. (read timeout=15)
-  mk2 Cinesur El Ingenio: found 0 sessions.
-Error fetching Cinesur malaga-nostrum-malaga: HTTPSConnectionPool(host='mk2cines.es', port=443): Max retries exceeded with url: /es/malaga-nostrum-malaga/vose (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))
-  mk2 Cinesur Málaga Nostrum: found 0 sessions.
-mk2 Cinesur scraped: found 94 VOSE sessions.
+  mk2 Cinesur Miramar: found 96 sessions.
+  mk2 Cinesur El Ingenio: found 24 sessions.
+  mk2 Cinesur Málaga Nostrum: found 54 sessions.
+mk2 Cinesur scraped: found 174 VOSE sessions.
 original language not found for 7 movies in Cinesa chain
 original language not found for 21 movies in Cinesur chain
 original language not found for 1 movies in Golem chain
 original language not found for 2 movies in Kinépolis chain
-Successfully generated api/v1/showtimes.json with 2158 listings.
-No new showings found.
+Successfully generated api/v1/showtimes.json with 2291 listings.
+Appended 150 new showings to new_showtimes.json
 
 Resolving missing movie title translations...
 Found 41 movies without original names.
