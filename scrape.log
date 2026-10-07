@@ -1,4 +1,4 @@
-Starting Scraper - Local time is 2026-10-07 02:22:15 CEST
+Starting Scraper - Local time is 2026-10-07 11:50:45 CEST
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
   Fetching Yelmo madrid...
@@ -10,7 +10,7 @@ Cine Albéniz scraped: found 0 VOSE sessions.
 Warning: albeniz scraper returned 0 showings. Using fallback data.
 Recovered 0 albeniz showings from previous run.
 Scraping Kinépolis Granada & Nevada...
-Kinépolis Granada & Nevada: Scraped 307 VOSE sessions.
+Kinépolis Granada & Nevada: Scraped 306 VOSE sessions.
 Scraping Cines Renoir...
 Cines Renoir: Scraped 452 VOSE sessions.
 Scraping Cines Golem...
@@ -19,24 +19,25 @@ Scraping Cinesa (Madrid & Barcelona)...
 Attempting Cinesa auth token extraction via Playwright...
 Error: Could not retrieve Cinesa authentication token.
 Warning: cinesa scraper returned 0 showings. Using fallback data.
-Recovered 354 cinesa showings from previous run.
+Recovered 286 cinesa showings from previous run.
 Scraping Ocine Serrallo...
 Ocine Serrallo: Scraped 1 sessions.
 Scraping mk2 Cinesur...
-  mk2 Cinesur Miramar: found 95 sessions.
-  mk2 Cinesur El Ingenio: found 23 sessions.
-  mk2 Cinesur Málaga Nostrum: found 48 sessions.
-mk2 Cinesur scraped: found 166 VOSE sessions.
+  mk2 Cinesur Miramar: found 94 sessions.
+Error fetching Cinesur el-ingenio-velez-malaga: HTTPSConnectionPool(host='mk2cines.es', port=443): Read timed out. (read timeout=15)
+  mk2 Cinesur El Ingenio: found 0 sessions.
+Error fetching Cinesur malaga-nostrum-malaga: HTTPSConnectionPool(host='mk2cines.es', port=443): Max retries exceeded with url: /es/malaga-nostrum-malaga/vose (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))
+  mk2 Cinesur Málaga Nostrum: found 0 sessions.
+mk2 Cinesur scraped: found 94 VOSE sessions.
 original language not found for 7 movies in Cinesa chain
 original language not found for 21 movies in Cinesur chain
 original language not found for 1 movies in Golem chain
 original language not found for 2 movies in Kinépolis chain
-Updated movie_title_translations.json
-Successfully generated api/v1/showtimes.json with 2231 listings.
-Appended 155 new showings to new_showtimes.json
+Successfully generated api/v1/showtimes.json with 2158 listings.
+No new showings found.
 
 Resolving missing movie title translations...
-Found 42 movies without original names.
+Found 41 movies without original names.
 No TMDB_API_KEY detected. Using keyless TMDB scraper and Wikidata fallbacks.
 
 Searching for: '20 Años del MET en cines - Grabado MET 26-27'
@@ -62,10 +63,6 @@ Searching for: 'CUENTA CONMIGO [WILDER CINEMA]'
 Searching for: 'CUENTOS DE TOKIO [WILDER CINEMA]'
     (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=CUENTOS%20DE%20TOKIO%20%5BWILDER%20CINEMA%5D)
   -> Could not resolve original name for 'CUENTOS DE TOKIO [WILDER CINEMA]'
-
-Searching for: 'Clayface'
-    (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=Clayface)
-  -> Found via Wikidata: 'Clayface'
 
 Searching for: 'Concert: Rammstein: Live in Mexico City'
     (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=Concert%3A%20Rammstein%3A%20Live%20in%20Mexico%20City)
@@ -207,4 +204,4 @@ Searching for: 'es GHOST: 2 Big To Rig'
     (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=es%20GHOST%3A%202%20Big%20To%20Rig)
   -> Could not resolve original name for 'es GHOST: 2 Big To Rig'
 
-Successfully updated 1 translation(s) in movie_title_translations.json.
+No translations were updated.
