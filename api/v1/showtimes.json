@@ -17023,19 +17023,6 @@
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
-    "time": "14:30",
-    "booking_url": "https://kinepolis.es/direct-vista-redirect/222513/0/KMAD/0",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-10-06 06:59:16"
-  },
-  {
-    "cinema": "Kinépolis Madrid Ciudad de la Imagen",
-    "date": "2026-12-17",
-    "movie": "Vengadores: Doomsday",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
     "time": "21:15",
     "booking_url": "https://kinepolis.es/direct-vista-redirect/222514/0/KMAD/0",
     "projection_type": "Movie",
@@ -18822,6 +18809,19 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-10-07 02:22:15"
+  },
+  {
+    "cinema": "Kinépolis Madrid Ciudad de la Imagen",
+    "date": "2026-12-17",
+    "movie": "Vengadores: Doomsday",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "14:30",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/222513/0/KMAD/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-06 06:59:16"
   },
   {
     "cinema": "Ocine Serrallo",
