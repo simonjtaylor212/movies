@@ -1,18 +1,18 @@
-Starting Scraper - Local time is 2026-10-09 12:04:56 CEST
+Starting Scraper - Local time is 2026-10-09 19:59:31 CEST
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
   Fetching Yelmo madrid...
   Fetching Yelmo barcelona...
-Yelmo scraped: found 937 VOSE sessions.
+Yelmo scraped: found 959 VOSE sessions.
 Scraping Cine Albéniz...
 Stopping Cine Albéniz scrape after 5 consecutive empty days.
 Cine Albéniz scraped: found 50 VOSE sessions.
 Scraping Kinépolis Granada & Nevada...
-Kinépolis Granada & Nevada: Scraped 284 VOSE sessions.
+Kinépolis Granada & Nevada: Scraped 286 VOSE sessions.
 Scraping Cines Renoir...
 Cines Renoir: Scraped 362 VOSE sessions.
 Scraping Cines Golem...
-Cines Golem Madrid: Scraped 55 VOSE sessions.
+Cines Golem Madrid: Scraped 50 VOSE sessions.
 Scraping Cinesa (Madrid & Barcelona)...
 Attempting Cinesa auth token extraction via Playwright...
 Error: Could not retrieve Cinesa authentication token.
@@ -21,19 +21,20 @@ Recovered 149 cinesa showings from previous run.
 Scraping Ocine Serrallo...
 Ocine Serrallo: Scraped 1 sessions.
 Scraping mk2 Cinesur...
-  mk2 Cinesur Miramar: found 87 sessions.
+  mk2 Cinesur Miramar: found 84 sessions.
   mk2 Cinesur El Ingenio: found 24 sessions.
-  mk2 Cinesur Málaga Nostrum: found 50 sessions.
-mk2 Cinesur scraped: found 161 VOSE sessions.
+  mk2 Cinesur Málaga Nostrum: found 49 sessions.
+mk2 Cinesur scraped: found 157 VOSE sessions.
 original language not found for 5 movies in Cinesa chain
 original language not found for 18 movies in Cinesur chain
 original language not found for 1 movies in Golem chain
 original language not found for 2 movies in Kinépolis chain
-Successfully generated api/v1/showtimes.json with 1999 listings.
-Appended 50 new showings to new_showtimes.json
+Updated movie_title_translations.json
+Successfully generated api/v1/showtimes.json with 2014 listings.
+Appended 41 new showings to new_showtimes.json
 
 Resolving missing movie title translations...
-Found 41 movies without original names.
+Found 43 movies without original names.
 No TMDB_API_KEY detected. Using keyless TMDB scraper and Wikidata fallbacks.
 
 Searching for: '20 Años del MET en cines - Grabado MET 26-27'
@@ -67,6 +68,10 @@ Searching for: 'Concert: Rammstein: Live in Mexico City'
 Searching for: 'DIRTY DANCING [WILDER CINEMA]'
     (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=DIRTY%20DANCING%20%5BWILDER%20CINEMA%5D)
   -> Could not resolve original name for 'DIRTY DANCING [WILDER CINEMA]'
+
+Searching for: 'Diversión Navideña con Peppa: La Experiencia'
+    (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=Diversi%C3%B3n%20Navide%C3%B1a%20con%20Peppa%3A%20La%20Experiencia)
+  -> Could not resolve original name for 'Diversión Navideña con Peppa: La Experiencia'
 
 Searching for: 'EL ACTIVISTA [CINE CON ORGULLO RENOIR]'
     (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=EL%20ACTIVISTA%20%5BCINE%20CON%20ORGULLO%20RENOIR%5D)
@@ -196,8 +201,12 @@ Searching for: 'WHAT A FEELING [CINE CON ORGULLO RENOIR]'
     (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=WHAT%20A%20FEELING%20%5BCINE%20CON%20ORGULLO%20RENOIR%5D)
   -> Could not resolve original name for 'WHAT A FEELING [CINE CON ORGULLO RENOIR]'
 
+Searching for: 'Whalefall'
+    (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=Whalefall)
+  -> Found via Wikidata: 'Whalefall'
+
 Searching for: 'es GHOST: 2 Big To Rig'
     (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=es%20GHOST%3A%202%20Big%20To%20Rig)
   -> Could not resolve original name for 'es GHOST: 2 Big To Rig'
 
-No translations were updated.
+Successfully updated 1 translation(s) in movie_title_translations.json.
