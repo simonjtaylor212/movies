@@ -1,41 +1,42 @@
-Starting Scraper - Local time is 2026-10-08 20:27:03 CEST
+Starting Scraper - Local time is 2026-10-09 02:59:17 CEST
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
   Fetching Yelmo madrid...
   Fetching Yelmo barcelona...
-Yelmo scraped: found 967 VOSE sessions.
+Yelmo scraped: found 937 VOSE sessions.
 Scraping Cine Albéniz...
 Stopping Cine Albéniz scrape after 5 consecutive empty days.
 Cine Albéniz scraped: found 0 VOSE sessions.
 Warning: albeniz scraper returned 0 showings. Using fallback data.
 Recovered 0 albeniz showings from previous run.
 Scraping Kinépolis Granada & Nevada...
-Kinépolis Granada & Nevada: Scraped 299 VOSE sessions.
+Kinépolis Granada & Nevada: Scraped 285 VOSE sessions.
 Scraping Cines Renoir...
-Cines Renoir: Scraped 406 VOSE sessions.
+Cines Renoir: Scraped 362 VOSE sessions.
 Scraping Cines Golem...
-Cines Golem Madrid: Scraped 57 VOSE sessions.
+Cines Golem Madrid: Scraped 55 VOSE sessions.
 Scraping Cinesa (Madrid & Barcelona)...
 Attempting Cinesa auth token extraction via Playwright...
 Error: Could not retrieve Cinesa authentication token.
 Warning: cinesa scraper returned 0 showings. Using fallback data.
 Recovered 217 cinesa showings from previous run.
 Scraping Ocine Serrallo...
-Ocine Serrallo: Scraped 2 sessions.
+Ocine Serrallo: Scraped 1 sessions.
 Scraping mk2 Cinesur...
-  mk2 Cinesur Miramar: found 89 sessions.
+  mk2 Cinesur Miramar: found 87 sessions.
   mk2 Cinesur El Ingenio: found 24 sessions.
-  mk2 Cinesur Málaga Nostrum: found 51 sessions.
-mk2 Cinesur scraped: found 164 VOSE sessions.
+  mk2 Cinesur Málaga Nostrum: found 50 sessions.
+mk2 Cinesur scraped: found 161 VOSE sessions.
 original language not found for 7 movies in Cinesa chain
-original language not found for 19 movies in Cinesur chain
+original language not found for 18 movies in Cinesur chain
 original language not found for 1 movies in Golem chain
 original language not found for 2 movies in Kinépolis chain
-Successfully generated api/v1/showtimes.json with 2112 listings.
-Appended 6 new showings to new_showtimes.json
+Updated movie_title_translations.json
+Successfully generated api/v1/showtimes.json with 1950 listings.
+Appended 7 new showings to new_showtimes.json
 
 Resolving missing movie title translations...
-Found 41 movies without original names.
+Found 44 movies without original names.
 No TMDB_API_KEY detected. Using keyless TMDB scraper and Wikidata fallbacks.
 
 Searching for: '20 Años del MET en cines - Grabado MET 26-27'
@@ -81,6 +82,10 @@ Searching for: 'EL VIAJE DE CHIHIRO [WILDER CINEMA]'
 Searching for: 'ENCUENTROS EN LA TERCERA FASE [WILDER CINEMA]'
     (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=ENCUENTROS%20EN%20LA%20TERCERA%20FASE%20%5BWILDER%20CINEMA%5D)
   -> Could not resolve original name for 'ENCUENTROS EN LA TERCERA FASE [WILDER CINEMA]'
+
+Searching for: 'El Resplandor - Versión Extendida'
+    (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=El%20Resplandor)
+  -> Found via Wikidata: 'The Shining'
 
 Searching for: 'El precio de la red'
     (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=El%20precio%20de%20la%20red)
@@ -134,6 +139,10 @@ Searching for: 'La casa del bosque 2'
     (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=La%20casa%20del%20bosque%202)
   -> Could not resolve original name for 'La casa del bosque 2'
 
+Searching for: 'Los Cazafantasmas'
+    (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=Los%20Cazafantasmas)
+  -> Found via Wikidata: 'Ghostbusters'
+
 Searching for: 'MALAS CALLES [WILDER CINEMA]'
     (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=MALAS%20CALLES%20%5BWILDER%20CINEMA%5D)
   -> Could not resolve original name for 'MALAS CALLES [WILDER CINEMA]'
@@ -145,6 +154,10 @@ Searching for: 'PARIS, TEXAS [WILDER CINEMA]'
 Searching for: 'Pavarotti, live in Central Park'
     (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=Pavarotti%2C%20live%20in%20Central%20Park)
   -> Could not resolve original name for 'Pavarotti, live in Central Park'
+
+Searching for: 'Pesadilla antes de Navidad'
+    (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=Pesadilla%20antes%20de%20Navidad)
+  -> Found via Wikidata: 'The Nightmare Before Christmas'
 
 Searching for: 'Preestreno a ciegas 13 agosto 2026'
     (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=Preestreno%20a%20ciegas%2013%20agosto%202026)
@@ -202,4 +215,4 @@ Searching for: 'es GHOST: 2 Big To Rig'
     (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=es%20GHOST%3A%202%20Big%20To%20Rig)
   -> Could not resolve original name for 'es GHOST: 2 Big To Rig'
 
-No translations were updated.
+Successfully updated 3 translation(s) in movie_title_translations.json.
