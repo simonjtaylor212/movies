@@ -6853,51 +6853,12 @@
   {
     "cinema": "Cine Yelmo Palafox Luxury",
     "date": "2026-10-10",
-    "movie": "Vengadores: Endgame Encore",
-    "format": "LUX",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "12:00",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=25498",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-10-05 23:49:54"
-  },
-  {
-    "cinema": "Cine Yelmo Palafox Luxury",
-    "date": "2026-10-10",
     "movie": "En el corazón de la bestia",
     "format": "LUX",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "original_language": "English",
     "time": "21:15",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=25480",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-10-05 23:49:54"
-  },
-  {
-    "cinema": "Cine Yelmo Palafox Luxury",
-    "date": "2026-10-10",
-    "movie": "Coyote vs. Acme",
-    "format": "LUX",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "12:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=25497",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-10-05 23:49:54"
-  },
-  {
-    "cinema": "Cine Yelmo Palafox Luxury",
-    "date": "2026-10-10",
-    "movie": "Spider-Man: Brand New Day",
-    "format": "LUX",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "12:50",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=25502",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-10-05 23:49:54"
@@ -7057,6 +7018,19 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-10-05 23:49:54"
+  },
+  {
+    "cinema": "Cine Yelmo Palafox Luxury",
+    "date": "2026-10-11",
+    "movie": "Coyote vs. Acme",
+    "format": "LUX",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "12:30",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=25471",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-10 13:56:55"
   },
   {
     "cinema": "Cine Yelmo Palafox Luxury",
@@ -12566,19 +12540,6 @@
     "original_language": "English",
     "time": "22:20",
     "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/144654/la-otra-madre?mode=widget&change=0&ref=750&forceproxy=1",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-10-06 21:58:50"
-  },
-  {
-    "cinema": "mk2 Cinesur Miramar",
-    "date": "2026-10-10",
-    "movie": "El precio de la red",
-    "format": "2D",
-    "language": "Original con subtítulos (VOSE)",
-    "original_language": "English",
-    "time": "12:10",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/144693/el-precio-de-la-red?mode=widget&change=0&ref=750&forceproxy=1",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-10-06 21:58:50"
