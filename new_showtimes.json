@@ -796469,5 +796469,31 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-10-10 23:11:27"
+  },
+  {
+    "cinema": "Cine Yelmo TresAguas",
+    "date": "2026-10-12",
+    "movie": "Always Lalisa",
+    "format": "2D",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "20:00",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=795&showtimeVistaId=36198",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-11 06:08:02"
+  },
+  {
+    "cinema": "Cine Yelmo TresAguas",
+    "date": "2026-10-14",
+    "movie": "Always Lalisa",
+    "format": "2D",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "20:00",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=795&showtimeVistaId=36199",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-11 06:08:02"
   }
 ]
