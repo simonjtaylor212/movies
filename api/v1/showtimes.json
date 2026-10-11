@@ -314,51 +314,12 @@
   {
     "cinema": "Cine Yelmo Vialia Málaga",
     "date": "2026-10-11",
-    "movie": "La otra madre",
-    "format": "2D",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "12:45",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=43258",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-10-07 20:29:19"
-  },
-  {
-    "cinema": "Cine Yelmo Vialia Málaga",
-    "date": "2026-10-11",
-    "movie": "El precio de la red",
-    "format": "2D",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "12:25",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=43259",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-10-07 20:29:19"
-  },
-  {
-    "cinema": "Cine Yelmo Vialia Málaga",
-    "date": "2026-10-11",
     "movie": "El precio de la red",
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "original_language": "English",
     "time": "18:45",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=43222",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-10-07 20:29:19"
-  },
-  {
-    "cinema": "Cine Yelmo Vialia Málaga",
-    "date": "2026-10-11",
-    "movie": "Verity. La sombra de un engaño",
-    "format": "2D",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "12:00",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=43253",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-10-07 20:29:19"
@@ -6268,19 +6229,6 @@
   {
     "cinema": "Cine Yelmo Palafox Luxury",
     "date": "2026-10-11",
-    "movie": "Vengadores: Endgame Encore",
-    "format": "LUX",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "12:00",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=25470",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-10-05 23:49:54"
-  },
-  {
-    "cinema": "Cine Yelmo Palafox Luxury",
-    "date": "2026-10-11",
     "movie": "En el corazón de la bestia",
     "format": "LUX",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
@@ -6290,19 +6238,6 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-10-05 23:49:54"
-  },
-  {
-    "cinema": "Cine Yelmo Palafox Luxury",
-    "date": "2026-10-11",
-    "movie": "Coyote vs. Acme",
-    "format": "LUX",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "12:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=25471",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-10-10 13:56:55"
   },
   {
     "cinema": "Cine Yelmo Palafox Luxury",
@@ -8477,19 +8412,6 @@
   },
   {
     "cinema": "Cine Yelmo Plenilunio",
-    "date": "2026-10-11",
-    "movie": "El precio de la red",
-    "format": "2D",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "12:25",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=805&showtimeVistaId=44255",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-10-06 21:58:50"
-  },
-  {
-    "cinema": "Cine Yelmo Plenilunio",
     "date": "2026-10-12",
     "movie": "El precio de la red",
     "format": "2D",
@@ -9254,19 +9176,6 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-10-05 23:49:54"
-  },
-  {
-    "cinema": "Cine Yelmo TresAguas",
-    "date": "2026-10-11",
-    "movie": "El precio de la red",
-    "format": "2D",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "12:20",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=795&showtimeVistaId=36961",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-10-06 21:58:50"
   },
   {
     "cinema": "Cine Yelmo TresAguas",
@@ -11604,19 +11513,6 @@
     "original_language": "English",
     "time": "22:20",
     "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/144788/la-otra-madre?mode=widget&change=0&ref=750&forceproxy=1",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-10-07 02:22:15"
-  },
-  {
-    "cinema": "mk2 Cinesur Miramar",
-    "date": "2026-10-11",
-    "movie": "El precio de la red",
-    "format": "2D",
-    "language": "Original con subtítulos (VOSE)",
-    "original_language": "English",
-    "time": "12:10",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/144789/el-precio-de-la-red?mode=widget&change=0&ref=750&forceproxy=1",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-10-07 02:22:15"
