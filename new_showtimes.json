@@ -796508,5 +796508,57 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-10-12 12:15:35"
+  },
+  {
+    "cinema": "Kinépolis Madrid Diversia",
+    "date": "2026-10-15",
+    "movie": "El precio de la red",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "22:30",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/135311/0/KALCO/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-13 12:07:17"
+  },
+  {
+    "cinema": "Kinépolis Madrid Ciudad de la Imagen",
+    "date": "2026-10-16",
+    "movie": "Street Fighter",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "20:00",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/221674/0/KMAD/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-13 12:07:17"
+  },
+  {
+    "cinema": "Kinépolis Madrid Ciudad de la Imagen",
+    "date": "2026-10-17",
+    "movie": "Street Fighter",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "20:00",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/221682/0/KMAD/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-13 12:07:17"
+  },
+  {
+    "cinema": "Kinépolis Madrid Ciudad de la Imagen",
+    "date": "2026-10-18",
+    "movie": "Street Fighter",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "20:00",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/221690/0/KMAD/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-13 12:07:17"
   }
 ]
