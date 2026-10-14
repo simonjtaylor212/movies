@@ -1,18 +1,18 @@
-Starting Scraper - Local time is 2026-10-14 21:11:12 CEST
+Starting Scraper - Local time is 2026-10-15 01:42:25 CEST
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
   Fetching Yelmo madrid...
   Fetching Yelmo barcelona...
-Yelmo scraped: found 787 VOSE sessions.
+Yelmo scraped: found 757 VOSE sessions.
 Scraping Cine Albéniz...
 Stopping Cine Albéniz scrape after 5 consecutive empty days.
-Cine Albéniz scraped: found 68 VOSE sessions.
+Cine Albéniz scraped: found 61 VOSE sessions.
 Scraping Kinépolis Granada & Nevada...
-Kinépolis Granada & Nevada: Scraped 236 VOSE sessions.
+Kinépolis Granada & Nevada: Scraped 221 VOSE sessions.
 Scraping Cines Renoir...
-Cines Renoir: Scraped 515 VOSE sessions.
+Cines Renoir: Scraped 462 VOSE sessions.
 Scraping Cines Golem...
-Cines Golem Madrid: Scraped 39 VOSE sessions.
+Cines Golem Madrid: Scraped 42 VOSE sessions.
 Scraping Cinesa (Madrid & Barcelona)...
 Attempting Cinesa auth token extraction via Playwright...
 Error: Could not retrieve Cinesa authentication token.
@@ -21,17 +21,17 @@ Recovered 660 cinesa showings from previous run.
 Scraping Ocine Serrallo...
 Ocine Serrallo: Scraped 2 sessions.
 Scraping mk2 Cinesur...
-  mk2 Cinesur Miramar: found 79 sessions.
+  mk2 Cinesur Miramar: found 76 sessions.
   mk2 Cinesur El Ingenio: found 23 sessions.
   mk2 Cinesur Málaga Nostrum: found 40 sessions.
-mk2 Cinesur scraped: found 142 VOSE sessions.
+mk2 Cinesur scraped: found 139 VOSE sessions.
 original language not found for 1 movies in Albéniz chain
 original language not found for 7 movies in Cinesa chain
 original language not found for 17 movies in Cinesur chain
 original language not found for 1 movies in Golem chain
 original language not found for 2 movies in Kinépolis chain
-Successfully generated api/v1/showtimes.json with 2449 listings.
-Appended 44 new showings to new_showtimes.json
+Successfully generated api/v1/showtimes.json with 2258 listings.
+Appended 9 new showings to new_showtimes.json
 
 Resolving missing movie title translations...
 Found 45 movies without original names.
