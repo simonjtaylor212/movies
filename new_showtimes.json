@@ -807077,5 +807077,18 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-10-15 01:42:25"
+  },
+  {
+    "cinema": "Kinépolis Madrid Ciudad de la Imagen",
+    "date": "2026-10-15",
+    "movie": "La vida es bella",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "Italian",
+    "time": "19:00",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/214625/0/KMAD/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-15 12:54:05"
   }
 ]
