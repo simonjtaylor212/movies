@@ -821832,5 +821832,31 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-10-15 22:57:19"
+  },
+  {
+    "cinema": "Cine Yelmo Planetocio",
+    "date": "2026-10-20",
+    "movie": "Whalefall",
+    "format": "2D",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "22:35",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=788&showtimeVistaId=33438",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-16 01:35:33"
+  },
+  {
+    "cinema": "Cine Yelmo Planetocio",
+    "date": "2026-10-20",
+    "movie": "Street Fighter",
+    "format": "2D",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "22:30",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=788&showtimeVistaId=33439",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-16 01:35:33"
   }
 ]
