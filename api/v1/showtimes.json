@@ -13481,6 +13481,45 @@
     "date_added": "2026-10-14 02:09:08"
   },
   {
+    "cinema": "Kinépolis Madrid Ciudad de la Imagen",
+    "date": "2026-11-06",
+    "movie": "Godzilla Minus Zero",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "Japanese",
+    "time": "18:45",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/223155/0/KMAD/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-16 12:45:00"
+  },
+  {
+    "cinema": "Kinépolis Madrid Ciudad de la Imagen",
+    "date": "2026-11-07",
+    "movie": "Godzilla Minus Zero",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "Japanese",
+    "time": "18:45",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/223157/0/KMAD/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-16 12:45:00"
+  },
+  {
+    "cinema": "Kinépolis Madrid Ciudad de la Imagen",
+    "date": "2026-11-08",
+    "movie": "Godzilla Minus Zero",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "Japanese",
+    "time": "18:45",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/223158/0/KMAD/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-16 12:45:00"
+  },
+  {
     "cinema": "Kinépolis Granada Nevada",
     "date": "2026-12-15",
     "movie": "Dune: Parte Tres",
