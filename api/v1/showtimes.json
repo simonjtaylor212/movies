@@ -1,19 +1,6 @@
 [
   {
     "cinema": "Cine Yelmo Rincón de la Victoria",
-    "date": "2026-10-17",
-    "movie": "MACBETH (Verdi) - MET LIVE 26-27",
-    "format": "CA",
-    "language": "ITALIANO SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "Italian",
-    "time": "19:00",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=791&showtimeVistaId=22601",
-    "projection_type": "Ópera",
-    "movie_title_language": "ES",
-    "date_added": "2026-09-19 12:21:22"
-  },
-  {
-    "cinema": "Cine Yelmo Rincón de la Victoria",
     "date": "2026-10-20",
     "movie": "La Invitación",
     "format": "2D",
@@ -281,19 +268,6 @@
     "original_language": "German",
     "time": "18:00",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=791&showtimeVistaId=22609",
-    "projection_type": "Ópera",
-    "movie_title_language": "ES",
-    "date_added": "2026-09-19 12:21:22"
-  },
-  {
-    "cinema": "Cine Yelmo Vialia Málaga",
-    "date": "2026-10-17",
-    "movie": "MACBETH (Verdi) - MET LIVE 26-27",
-    "format": "CA",
-    "language": "ITALIANO SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "Italian",
-    "time": "19:00",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=807&showtimeVistaId=37117",
     "projection_type": "Ópera",
     "movie_title_language": "ES",
     "date_added": "2026-09-19 12:21:22"
@@ -1068,19 +1042,6 @@
   {
     "cinema": "Cine Yelmo Plaza Mayor",
     "date": "2026-10-17",
-    "movie": "MACBETH (Verdi) - MET LIVE 26-27",
-    "format": "CA",
-    "language": "ITALIANO SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "Italian",
-    "time": "19:00",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=790&showtimeVistaId=38563",
-    "projection_type": "Ópera",
-    "movie_title_language": "ES",
-    "date_added": "2026-09-19 12:21:22"
-  },
-  {
-    "cinema": "Cine Yelmo Plaza Mayor",
-    "date": "2026-10-17",
     "movie": "Always Lalisa",
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
@@ -1530,19 +1491,6 @@
     "time": "19:00",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=31040",
     "projection_type": "Ópera",
-    "movie_title_language": "ES",
-    "date_added": "2026-10-15 18:21:24"
-  },
-  {
-    "cinema": "Cine Yelmo Ideal",
-    "date": "2026-10-17",
-    "movie": "Street Fighter",
-    "format": "2D",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "12:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=780&showtimeVistaId=36696",
-    "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-10-15 18:21:24"
   },
@@ -2887,19 +2835,6 @@
   },
   {
     "cinema": "Cine Yelmo La Vaguada",
-    "date": "2026-10-17",
-    "movie": "MACBETH (Verdi) - MET LIVE 26-27",
-    "format": "CA",
-    "language": "ITALIANO SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "Italian",
-    "time": "19:00",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1360&showtimeVistaId=16098",
-    "projection_type": "Ópera",
-    "movie_title_language": "ES",
-    "date_added": "2026-10-15 18:21:24"
-  },
-  {
-    "cinema": "Cine Yelmo La Vaguada",
     "date": "2026-10-18",
     "movie": "La Invitación",
     "format": "2D",
@@ -3368,19 +3303,6 @@
   },
   {
     "cinema": "Cine Yelmo Islazul",
-    "date": "2026-10-17",
-    "movie": "Super Mario Galaxy: La película",
-    "format": "2D",
-    "language": "ESPAÑOL SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "Spanish",
-    "time": "16:00",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=804&showtimeVistaId=38678",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-10-15 18:21:24"
-  },
-  {
-    "cinema": "Cine Yelmo Islazul",
     "date": "2026-10-18",
     "movie": "Super Mario Galaxy: La película",
     "format": "2D",
@@ -3672,6 +3594,19 @@
     "format": "CA",
     "language": "COREANO SUBTITULADO EN INGLÉS (VOSI)",
     "original_language": "English",
+    "time": "13:00",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=804&showtimeVistaId=40016",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-17 19:50:32"
+  },
+  {
+    "cinema": "Cine Yelmo Islazul",
+    "date": "2026-11-07",
+    "movie": "Stray Kids World Tour <RUN IT> LIVE VIEWING",
+    "format": "CA",
+    "language": "COREANO SUBTITULADO EN INGLÉS (VOSI)",
+    "original_language": "English",
     "time": "17:15",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=804&showtimeVistaId=39999",
     "projection_type": "Movie",
@@ -3854,19 +3789,6 @@
     "format": "LUX",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "original_language": "English",
-    "time": "17:55",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=25647",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-10-15 18:21:24"
-  },
-  {
-    "cinema": "Cine Yelmo Palafox Luxury",
-    "date": "2026-10-17",
-    "movie": "La otra madre",
-    "format": "LUX",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
     "time": "22:50",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=25648",
     "projection_type": "Movie",
@@ -3882,19 +3804,6 @@
     "original_language": "English",
     "time": "21:50",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=25653",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-10-15 18:21:24"
-  },
-  {
-    "cinema": "Cine Yelmo Palafox Luxury",
-    "date": "2026-10-17",
-    "movie": "Verity. La sombra de un engaño",
-    "format": "LUX",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "16:15",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=25650",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-10-15 18:21:24"
@@ -3928,38 +3837,12 @@
   {
     "cinema": "Cine Yelmo Palafox Luxury",
     "date": "2026-10-17",
-    "movie": "Digger",
-    "format": "LUX",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "17:25",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=25654",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-10-15 18:21:24"
-  },
-  {
-    "cinema": "Cine Yelmo Palafox Luxury",
-    "date": "2026-10-17",
     "movie": "En el corazón de la bestia",
     "format": "LUX",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
     "original_language": "English",
     "time": "20:05",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=25649",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-10-15 18:21:24"
-  },
-  {
-    "cinema": "Cine Yelmo Palafox Luxury",
-    "date": "2026-10-17",
-    "movie": "Resident Evil",
-    "format": "LUX",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "15:55",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=25655",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-10-15 18:21:24"
@@ -5293,19 +5176,6 @@
   {
     "cinema": "Cine Yelmo Premium Parque Corredor",
     "date": "2026-10-20",
-    "movie": "La Invitación",
-    "format": "PREMIUM",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "22:25",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1321&showtimeVistaId=27283",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-10-15 18:21:24"
-  },
-  {
-    "cinema": "Cine Yelmo Premium Parque Corredor",
-    "date": "2026-10-20",
     "movie": "Street Fighter",
     "format": "XE",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
@@ -5469,19 +5339,6 @@
     "time": "20:00",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1321&showtimeVistaId=26981",
     "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-10-15 18:21:24"
-  },
-  {
-    "cinema": "Cine Yelmo Plaza Norte 2",
-    "date": "2026-10-17",
-    "movie": "MACBETH (Verdi) - MET LIVE 26-27",
-    "format": "CA",
-    "language": "ITALIANO SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "Italian",
-    "time": "19:00",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=813&showtimeVistaId=50548",
-    "projection_type": "Ópera",
     "movie_title_language": "ES",
     "date_added": "2026-10-15 18:21:24"
   },
@@ -5884,19 +5741,6 @@
     "original_language": "German",
     "time": "18:00",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=813&showtimeVistaId=50557",
-    "projection_type": "Ópera",
-    "movie_title_language": "ES",
-    "date_added": "2026-10-15 18:21:24"
-  },
-  {
-    "cinema": "Cine Yelmo Planetocio",
-    "date": "2026-10-17",
-    "movie": "MACBETH (Verdi) - MET LIVE 26-27",
-    "format": "CA",
-    "language": "ITALIANO SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "Italian",
-    "time": "19:00",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=788&showtimeVistaId=28375",
     "projection_type": "Ópera",
     "movie_title_language": "ES",
     "date_added": "2026-10-15 18:21:24"
@@ -7022,19 +6866,6 @@
   {
     "cinema": "Cine Yelmo TresAguas",
     "date": "2026-10-17",
-    "movie": "MACBETH (Verdi) - MET LIVE 26-27",
-    "format": "CA",
-    "language": "ITALIANO SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "Italian",
-    "time": "19:00",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=795&showtimeVistaId=32286",
-    "projection_type": "Ópera",
-    "movie_title_language": "ES",
-    "date_added": "2026-10-15 18:21:24"
-  },
-  {
-    "cinema": "Cine Yelmo TresAguas",
-    "date": "2026-10-17",
     "movie": "Always Lalisa",
     "format": "2D",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
@@ -7369,19 +7200,6 @@
     "projection_type": "Ópera",
     "movie_title_language": "ES",
     "date_added": "2026-10-15 18:21:24"
-  },
-  {
-    "cinema": "Cine Yelmo Premium Castelldefels",
-    "date": "2026-10-17",
-    "movie": "MACBETH (Verdi) - MET LIVE 26-27",
-    "format": "CA PREMIUM",
-    "language": "ITALIANO SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "Italian",
-    "time": "19:00",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=814&showtimeVistaId=25525",
-    "projection_type": "Ópera",
-    "movie_title_language": "ES",
-    "date_added": "2026-09-10 22:27:00"
   },
   {
     "cinema": "Cine Yelmo Premium Castelldefels",
@@ -7915,19 +7733,6 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-10-05 23:49:54"
-  },
-  {
-    "cinema": "Cine Yelmo Westfield La Maquinista",
-    "date": "2026-10-17",
-    "movie": "MACBETH (Verdi) - MET LIVE 26-27",
-    "format": "CA PREMIUM",
-    "language": "ITALIANO SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "Italian",
-    "time": "19:00",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1350&showtimeVistaId=40732",
-    "projection_type": "Ópera",
-    "movie_title_language": "ES",
-    "date_added": "2026-09-10 22:27:00"
   },
   {
     "cinema": "Cine Yelmo Westfield La Maquinista",
@@ -17769,32 +17574,6 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-10-13 20:54:02"
-  },
-  {
-    "cinema": "Cines Golem Madrid",
-    "date": "2026-10-17",
-    "movie": "Kakeru",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "Japanese",
-    "time": "19:00",
-    "booking_url": "https://www.golem.es/golem/urlcheck.php?idCine=8&perfCode=100246&eventCode=115072",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-10-14 16:20:34"
-  },
-  {
-    "cinema": "Cines Golem Madrid",
-    "date": "2026-10-17",
-    "movie": "LA VIDA DE UNA MUJER",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "French",
-    "time": "18:15",
-    "booking_url": "https://www.golem.es/golem/urlcheck.php?idCine=8&perfCode=100252&eventCode=113783",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-10-14 16:20:34"
   },
   {
     "cinema": "Cines Golem Madrid",

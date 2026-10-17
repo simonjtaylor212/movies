@@ -822092,5 +822092,18 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-10-17 16:59:44"
+  },
+  {
+    "cinema": "Cine Yelmo Islazul",
+    "date": "2026-11-07",
+    "movie": "Stray Kids World Tour <RUN IT> LIVE VIEWING",
+    "format": "CA",
+    "language": "COREANO SUBTITULADO EN INGLÉS (VOSI)",
+    "original_language": "English",
+    "time": "13:00",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=804&showtimeVistaId=40016",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-17 19:50:32"
   }
 ]
