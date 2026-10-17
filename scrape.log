@@ -1,18 +1,18 @@
-Starting Scraper - Local time is 2026-10-17 12:10:50 CEST
+Starting Scraper - Local time is 2026-10-17 16:59:44 CEST
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
   Fetching Yelmo madrid...
   Fetching Yelmo barcelona...
-Yelmo scraped: found 674 VOSE sessions.
+Yelmo scraped: found 668 VOSE sessions.
 Scraping Cine Albéniz...
 Stopping Cine Albéniz scrape after 5 consecutive empty days.
 Cine Albéniz scraped: found 46 VOSE sessions.
 Scraping Kinépolis Granada & Nevada...
-Kinépolis Granada & Nevada: Scraped 179 VOSE sessions.
+Kinépolis Granada & Nevada: Scraped 177 VOSE sessions.
 Scraping Cines Renoir...
-Cines Renoir: Scraped 353 VOSE sessions.
+Cines Renoir: Scraped 352 VOSE sessions.
 Scraping Cines Golem...
-Cines Golem Madrid: Scraped 30 VOSE sessions.
+Cines Golem Madrid: Scraped 29 VOSE sessions.
 Scraping Cinesa (Madrid & Barcelona)...
 Attempting Cinesa auth token extraction via Playwright...
 Error: Could not retrieve Cinesa authentication token.
@@ -21,17 +21,17 @@ Recovered 1026 cinesa showings from previous run.
 Scraping Ocine Serrallo...
 Ocine Serrallo: Scraped 1 sessions.
 Scraping mk2 Cinesur...
-  mk2 Cinesur Miramar: found 64 sessions.
+  mk2 Cinesur Miramar: found 60 sessions.
   mk2 Cinesur El Ingenio: found 23 sessions.
   mk2 Cinesur Málaga Nostrum: found 40 sessions.
-mk2 Cinesur scraped: found 127 VOSE sessions.
+mk2 Cinesur scraped: found 123 VOSE sessions.
 original language not found for 1 movies in Albéniz chain
 original language not found for 11 movies in Cinesa chain
 original language not found for 16 movies in Cinesur chain
 original language not found for 2 movies in Kinépolis chain
 original language not found for 1 movies in Renoir chain
-Successfully generated api/v1/showtimes.json with 2436 listings.
-No new showings found.
+Successfully generated api/v1/showtimes.json with 2422 listings.
+Appended 1 new showings to new_showtimes.json
 
 Resolving missing movie title translations...
 Found 47 movies without original names.

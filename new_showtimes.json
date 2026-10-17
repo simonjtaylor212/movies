@@ -822079,5 +822079,18 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-10-16 22:31:58"
+  },
+  {
+    "cinema": "Cine Yelmo TresAguas",
+    "date": "2026-11-07",
+    "movie": "Stray Kids World Tour <RUN IT> LIVE VIEWING",
+    "format": "CA",
+    "language": "COREANO SUBTITULADO EN INGLÉS (VOSI)",
+    "original_language": "English",
+    "time": "13:05",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=795&showtimeVistaId=37340",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-17 16:59:44"
   }
 ]
