@@ -15158,6 +15158,19 @@
     "date_added": "2026-10-15 22:57:19"
   },
   {
+    "cinema": "Cinesa LUXE Equinoccio",
+    "date": "2026-10-19",
+    "movie": "SECRET FLASHBACK (19 Octubre)",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "",
+    "time": "22:30",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=026-66556",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-19 05:21:29"
+  },
+  {
     "cinema": "Cinesa Príncipe Pío",
     "date": "2026-10-19",
     "movie": "En el corazón de la bestia",
@@ -15254,7 +15267,7 @@
     "movie": "Coyote vs. Acme",
     "format": "2D",
     "language": "V.O.S.E.",
-    "original_language": "English",
+    "original_language": "",
     "time": "21:00",
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=034-120397",
     "projection_type": "Movie",
@@ -15546,6 +15559,19 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-10-15 22:57:19"
+  },
+  {
+    "cinema": "Cinesa Manoteras",
+    "date": "2026-10-19",
+    "movie": "La Invitación",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "21:00",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-113519",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-19 05:21:29"
   },
   {
     "cinema": "Cinesa Manoteras",
@@ -16255,7 +16281,7 @@
     "movie": "Coyote vs. Acme",
     "format": "2D",
     "language": "V.O.S.E.",
-    "original_language": "English",
+    "original_language": "",
     "time": "21:00",
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=034-120474",
     "projection_type": "Movie",
@@ -16512,6 +16538,19 @@
   {
     "cinema": "Cinesa Manoteras",
     "date": "2026-10-20",
+    "movie": "La Invitación",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "21:00",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-113520",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-19 05:21:29"
+  },
+  {
+    "cinema": "Cinesa Manoteras",
+    "date": "2026-10-20",
     "movie": "Spider-Man: Brand New Day",
     "format": "2D",
     "language": "V.O.S.E.",
@@ -16525,12 +16564,12 @@
   {
     "cinema": "Cinesa Manoteras",
     "date": "2026-10-20",
-    "movie": "El precio de la red",
+    "movie": "KEN RUSSELL'S THE DEVILS",
     "format": "2D",
     "language": "V.O.S.E.",
-    "original_language": "English",
+    "original_language": "",
     "time": "22:05",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-113207",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-113209",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-10-15 22:57:19"
@@ -16538,12 +16577,12 @@
   {
     "cinema": "Cinesa Manoteras",
     "date": "2026-10-20",
-    "movie": "KEN RUSSELL'S THE DEVILS",
+    "movie": "El precio de la red",
     "format": "2D",
     "language": "V.O.S.E.",
-    "original_language": "",
+    "original_language": "English",
     "time": "22:05",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-113209",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-113207",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-10-15 22:57:19"
@@ -17113,7 +17152,7 @@
     "movie": "Coyote vs. Acme",
     "format": "2D",
     "language": "V.O.S.E.",
-    "original_language": "English",
+    "original_language": "",
     "time": "21:00",
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=034-120549",
     "projection_type": "Movie",
@@ -17366,6 +17405,19 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-10-15 22:57:19"
+  },
+  {
+    "cinema": "Cinesa Manoteras",
+    "date": "2026-10-21",
+    "movie": "La Invitación",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "21:00",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-113521",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-19 05:21:29"
   },
   {
     "cinema": "Cinesa Manoteras",
@@ -17799,12 +17851,12 @@
   {
     "cinema": "Cinesa Proyecciones",
     "date": "2026-10-22",
-    "movie": "Whalefall",
+    "movie": "En el corazón de la bestia",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
     "time": "22:45",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=018-43880",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=018-43883",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-10-15 22:57:19"
@@ -17812,12 +17864,12 @@
   {
     "cinema": "Cinesa Proyecciones",
     "date": "2026-10-22",
-    "movie": "En el corazón de la bestia",
+    "movie": "Whalefall",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
     "time": "22:45",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=018-43883",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=018-43880",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-10-15 22:57:19"
@@ -17860,6 +17912,19 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-10-15 22:57:19"
+  },
+  {
+    "cinema": "Cinesa LUXE Equinoccio",
+    "date": "2026-10-22",
+    "movie": "La Invitación",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "18:55",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=026-66841",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-19 05:21:29"
   },
   {
     "cinema": "Cinesa Las Rozas",
@@ -17919,7 +17984,7 @@
     "movie": "Coyote vs. Acme",
     "format": "2D",
     "language": "V.O.S.E.",
-    "original_language": "English",
+    "original_language": "",
     "time": "21:30",
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=034-120618",
     "projection_type": "Movie",
@@ -20919,19 +20984,6 @@
   {
     "cinema": "Cinesa SOM Multiespai",
     "date": "2026-10-30",
-    "movie": "ENHYPEN 'BLOOD SAGA' - HYBE CINESFEST",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "",
-    "time": "15:45",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=017-60699",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-10-02 02:31:42"
-  },
-  {
-    "cinema": "Cinesa SOM Multiespai",
-    "date": "2026-10-30",
     "movie": "HYBE CHEERING PARTY",
     "format": "3D",
     "language": "V.O.S.E.",
@@ -20941,6 +20993,19 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-09-30 19:43:09"
+  },
+  {
+    "cinema": "Cinesa SOM Multiespai",
+    "date": "2026-10-30",
+    "movie": "ENHYPEN 'BLOOD SAGA' - HYBE CINESFEST",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "",
+    "time": "15:45",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=017-60699",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-02 02:31:42"
   },
   {
     "cinema": "Cinesa Las Rozas",
@@ -21034,6 +21099,19 @@
     "date_added": "2026-10-02 02:31:42"
   },
   {
+    "cinema": "Cinesa LUXE Loranca",
+    "date": "2026-11-02",
+    "movie": "SECRET FLASHBACK (2 Noviembre )",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "",
+    "time": "20:45",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=001-58534",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-19 05:21:29"
+  },
+  {
     "cinema": "Cinesa Parquesur",
     "date": "2026-11-02",
     "movie": "SECRET FLASHBACK (2 Noviembre )",
@@ -21045,6 +21123,110 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-10-15 22:57:19"
+  },
+  {
+    "cinema": "Cinesa Las Rosas",
+    "date": "2026-11-02",
+    "movie": "SECRET FLASHBACK (2 Noviembre )",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "",
+    "time": "19:45",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=015-44729",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-19 05:21:29"
+  },
+  {
+    "cinema": "Cinesa Proyecciones",
+    "date": "2026-11-02",
+    "movie": "SECRET FLASHBACK (2 Noviembre )",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "",
+    "time": "19:45",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=018-43363",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-19 05:21:29"
+  },
+  {
+    "cinema": "Cinesa LUXE Intu Xanadú",
+    "date": "2026-11-02",
+    "movie": "SECRET FLASHBACK (2 Noviembre )",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "",
+    "time": "19:45",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=019-79396",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-19 05:21:29"
+  },
+  {
+    "cinema": "Cinesa LUXE La Moraleja",
+    "date": "2026-11-02",
+    "movie": "SECRET FLASHBACK (2 Noviembre )",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "",
+    "time": "19:45",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=025-45692",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-19 05:21:29"
+  },
+  {
+    "cinema": "Cinesa LUXE Equinoccio",
+    "date": "2026-11-02",
+    "movie": "SECRET FLASHBACK (2 Noviembre )",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "",
+    "time": "19:45",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=026-66122",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-19 05:21:29"
+  },
+  {
+    "cinema": "Cinesa Príncipe Pío",
+    "date": "2026-11-02",
+    "movie": "SECRET FLASHBACK (2 Noviembre )",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "",
+    "time": "19:45",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=027-50302",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-19 05:21:29"
+  },
+  {
+    "cinema": "Cinesa Las Rozas",
+    "date": "2026-11-02",
+    "movie": "SECRET FLASHBACK (2 Noviembre )",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "",
+    "time": "19:45",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=034-119284",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-19 05:21:29"
+  },
+  {
+    "cinema": "Cinesa La Gavia",
+    "date": "2026-11-02",
+    "movie": "SECRET FLASHBACK (2 Noviembre )",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "",
+    "time": "19:45",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=048-54344",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-19 05:21:29"
   },
   {
     "cinema": "Cinesa Méndez Álvaro",
@@ -21060,6 +21242,19 @@
     "date_added": "2026-10-15 22:57:19"
   },
   {
+    "cinema": "Cinesa Manoteras",
+    "date": "2026-11-02",
+    "movie": "SECRET FLASHBACK (2 Noviembre )",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "",
+    "time": "19:45",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=124-112316",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-19 05:21:29"
+  },
+  {
     "cinema": "Cinesa Nassica",
     "date": "2026-11-02",
     "movie": "SECRET FLASHBACK (2 Noviembre )",
@@ -21071,6 +21266,97 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-10-15 22:57:19"
+  },
+  {
+    "cinema": "Cinesa LUXE Oasiz",
+    "date": "2026-11-02",
+    "movie": "SECRET FLASHBACK (2 Noviembre )",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "",
+    "time": "19:45",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=138-74171",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-19 05:21:29"
+  },
+  {
+    "cinema": "Cinesa LUXE La Farga",
+    "date": "2026-11-02",
+    "movie": "SECRET FLASHBACK (2 Noviembre )",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "",
+    "time": "19:45",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=010-37997",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-19 05:21:29"
+  },
+  {
+    "cinema": "Cinesa Diagonal",
+    "date": "2026-11-02",
+    "movie": "SECRET FLASHBACK (2 Noviembre )",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "",
+    "time": "19:45",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=012-55359",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-19 05:21:29"
+  },
+  {
+    "cinema": "Cinesa SOM Multiespai",
+    "date": "2026-11-02",
+    "movie": "SECRET FLASHBACK (2 Noviembre )",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "",
+    "time": "19:45",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=017-60749",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-19 05:21:29"
+  },
+  {
+    "cinema": "Cinesa LUXE Parc Vallès",
+    "date": "2026-11-02",
+    "movie": "SECRET FLASHBACK (2 Noviembre )",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "",
+    "time": "19:45",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=031-100192",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-19 05:21:29"
+  },
+  {
+    "cinema": "Cinesa Diagonal Mar",
+    "date": "2026-11-02",
+    "movie": "SECRET FLASHBACK (2 Noviembre )",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "",
+    "time": "19:45",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=032-58991",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-19 05:21:29"
+  },
+  {
+    "cinema": "Cinesa LUXE Barnasud",
+    "date": "2026-11-02",
+    "movie": "SECRET FLASHBACK (2 Noviembre )",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "",
+    "time": "19:45",
+    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=040-38106",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-19 05:21:29"
   },
   {
     "cinema": "Cinesa LUXE Loranca",
@@ -22808,19 +23094,6 @@
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
-    "time": "12:15",
-    "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=019-79461",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-10-10 23:11:27"
-  },
-  {
-    "cinema": "Cinesa LUXE Intu Xanadú",
-    "date": "2026-12-18",
-    "movie": "Vengadores: Doomsday",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
     "time": "21:15",
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=019-79440",
     "projection_type": "Movie",
@@ -23978,11 +24251,11 @@
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
-    "time": "16:15",
+    "time": "16:10",
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=027-50328",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-10-10 23:11:27"
+    "date_added": "2026-10-19 05:21:29"
   },
   {
     "cinema": "Cinesa Príncipe Pío",
@@ -24537,11 +24810,11 @@
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
-    "time": "16:15",
+    "time": "16:10",
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=027-50345",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-10-10 23:11:27"
+    "date_added": "2026-10-19 05:21:29"
   },
   {
     "cinema": "Cinesa Príncipe Pío",
@@ -24992,11 +25265,11 @@
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
-    "time": "16:15",
+    "time": "16:10",
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=027-50352",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-10-10 23:11:27"
+    "date_added": "2026-10-19 05:21:29"
   },
   {
     "cinema": "Cinesa Príncipe Pío",
@@ -25460,11 +25733,11 @@
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
-    "time": "16:15",
+    "time": "16:10",
     "booking_url": "https://www.cinesa.es/compra/butacas/?showtimeId=027-50353",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-10-10 23:11:27"
+    "date_added": "2026-10-19 05:21:29"
   },
   {
     "cinema": "Cinesa Príncipe Pío",
