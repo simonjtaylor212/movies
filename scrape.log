@@ -1,18 +1,18 @@
-Starting Scraper - Local time is 2026-10-19 14:12:02 CEST
+Starting Scraper - Local time is 2026-10-19 22:22:38 CEST
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
   Fetching Yelmo madrid...
   Fetching Yelmo barcelona...
-Yelmo scraped: found 610 VOSE sessions.
+Yelmo scraped: found 742 VOSE sessions.
 Scraping Cine Albéniz...
 Stopping Cine Albéniz scrape after 5 consecutive empty days.
 Cine Albéniz scraped: found 30 VOSE sessions.
 Scraping Kinépolis Granada & Nevada...
 Kinépolis Granada & Nevada: Scraped 139 VOSE sessions.
 Scraping Cines Renoir...
-Cines Renoir: Scraped 235 VOSE sessions.
+Cines Renoir: Scraped 329 VOSE sessions.
 Scraping Cines Golem...
-Cines Golem Madrid: Scraped 20 VOSE sessions.
+Cines Golem Madrid: Scraped 15 VOSE sessions.
 Scraping Cinesa (Madrid & Barcelona)...
 Attempting Cinesa auth token extraction via Playwright...
 Error: Could not retrieve Cinesa authentication token.
@@ -21,20 +21,21 @@ Recovered 859 cinesa showings from previous run.
 Scraping Ocine Serrallo...
 Ocine Serrallo: Scraped 1 sessions.
 Scraping mk2 Cinesur...
-  mk2 Cinesur Miramar: found 52 sessions.
+  mk2 Cinesur Miramar: found 48 sessions.
   mk2 Cinesur El Ingenio: found 23 sessions.
   mk2 Cinesur Málaga Nostrum: found 37 sessions.
-mk2 Cinesur scraped: found 112 VOSE sessions.
+mk2 Cinesur scraped: found 108 VOSE sessions.
 original language not found for 1 movies in Albéniz chain
-original language not found for 11 movies in Cinesa chain
+original language not found for 9 movies in Cinesa chain
 original language not found for 15 movies in Cinesur chain
 original language not found for 2 movies in Kinépolis chain
 original language not found for 1 movies in Renoir chain
-Successfully generated api/v1/showtimes.json with 2006 listings.
-No new showings found.
+Updated movie_title_translations.json
+Successfully generated api/v1/showtimes.json with 2223 listings.
+Appended 247 new showings to new_showtimes.json
 
 Resolving missing movie title translations...
-Found 47 movies without original names.
+Found 51 movies without original names.
 No TMDB_API_KEY detected. Using keyless TMDB scraper and Wikidata fallbacks.
 
 Searching for: '20 Años del MET en cines - Grabado MET 26-27'
@@ -48,6 +49,10 @@ Searching for: 'AFTERSUN [WILDER CINEMA]'
 Searching for: 'AMERICAN PSYCHO [WILDER CINEMA]'
     (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=AMERICAN%20PSYCHO%20%5BWILDER%20CINEMA%5D)
   -> Could not resolve original name for 'AMERICAN PSYCHO [WILDER CINEMA]'
+
+Searching for: 'BLUE HERON'
+    (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=BLUE%20HERON)
+  -> Found via Wikidata: 'Blue Heron'
 
 Searching for: 'CALL ME BY YOUR NAME [WILDER CINEMA]'
     (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=CALL%20ME%20BY%20YOUR%20NAME%20%5BWILDER%20CINEMA%5D)
@@ -177,6 +182,10 @@ Searching for: 'SECRET FLASHBACK (2 Noviembre 2026)'
     (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=SECRET%20FLASHBACK)
   -> Could not resolve original name for 'SECRET FLASHBACK (2 Noviembre 2026)'
 
+Searching for: 'Sentido y sensibilidad'
+    (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=Sentido%20y%20sensibilidad)
+  -> Found via Wikidata: 'Sense and Sensibility'
+
 Searching for: 'Sia 2016 Coachella'
     (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=Sia%202016%20Coachella)
   -> Could not resolve original name for 'Sia 2016 Coachella'
@@ -221,8 +230,16 @@ Searching for: 'WHAT A FEELING [CINE CON ORGULLO RENOIR]'
     (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=WHAT%20A%20FEELING%20%5BCINE%20CON%20ORGULLO%20RENOIR%5D)
   -> Could not resolve original name for 'WHAT A FEELING [CINE CON ORGULLO RENOIR]'
 
+Searching for: 'WILDWOOD'
+    (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=WILDWOOD)
+  -> Found via Wikidata: 'Wildwood'
+
+Searching for: 'Wildwood: El bosque salvaje'
+    (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=Wildwood%3A%20El%20bosque%20salvaje)
+  -> Could not resolve original name for 'Wildwood: El bosque salvaje'
+
 Searching for: 'es GHOST: 2 Big To Rig'
     (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=es%20GHOST%3A%202%20Big%20To%20Rig)
   -> Could not resolve original name for 'es GHOST: 2 Big To Rig'
 
-No translations were updated.
+Successfully updated 3 translation(s) in movie_title_translations.json.
