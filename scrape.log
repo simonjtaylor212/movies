@@ -1,18 +1,18 @@
-Starting Scraper - Local time is 2026-10-20 10:12:29 CEST
+Starting Scraper - Local time is 2026-10-20 16:07:13 CEST
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
   Fetching Yelmo madrid...
   Fetching Yelmo barcelona...
-Yelmo scraped: found 750 VOSE sessions.
+Yelmo scraped: found 803 VOSE sessions.
 Scraping Cine Albéniz...
 Stopping Cine Albéniz scrape after 5 consecutive empty days.
 Cine Albéniz scraped: found 22 VOSE sessions.
 Scraping Kinépolis Granada & Nevada...
 Kinépolis Granada & Nevada: Scraped 161 VOSE sessions.
 Scraping Cines Renoir...
-Cines Renoir: Scraped 280 VOSE sessions.
+Cines Renoir: Scraped 323 VOSE sessions.
 Scraping Cines Golem...
-Cines Golem Madrid: Scraped 15 VOSE sessions.
+Cines Golem Madrid: Scraped 16 VOSE sessions.
 Scraping Cinesa (Madrid & Barcelona)...
 Attempting Cinesa auth token extraction via Playwright...
 Error: Could not retrieve Cinesa authentication token.
@@ -21,20 +21,22 @@ Recovered 773 cinesa showings from previous run.
 Scraping Ocine Serrallo...
 Ocine Serrallo: Scraped 1 sessions.
 Scraping mk2 Cinesur...
-  mk2 Cinesur Miramar: found 52 sessions.
+  mk2 Cinesur Miramar: found 50 sessions.
   mk2 Cinesur El Ingenio: found 23 sessions.
   mk2 Cinesur Málaga Nostrum: found 37 sessions.
-mk2 Cinesur scraped: found 112 VOSE sessions.
+mk2 Cinesur scraped: found 110 VOSE sessions.
 original language not found for 1 movies in Albéniz chain
 original language not found for 8 movies in Cinesa chain
 original language not found for 15 movies in Cinesur chain
+original language not found for 1 movies in Golem chain
 original language not found for 2 movies in Kinépolis chain
 original language not found for 1 movies in Renoir chain
-Successfully generated api/v1/showtimes.json with 2114 listings.
-Appended 49 new showings to new_showtimes.json
+Updated movie_title_translations.json
+Successfully generated api/v1/showtimes.json with 2209 listings.
+Appended 112 new showings to new_showtimes.json
 
 Resolving missing movie title translations...
-Found 48 movies without original names.
+Found 49 movies without original names.
 No TMDB_API_KEY detected. Using keyless TMDB scraper and Wikidata fallbacks.
 
 Searching for: '20 Años del MET en cines - Grabado MET 26-27'
@@ -165,6 +167,10 @@ Searching for: 'RASHOMON [WILDER CINEMA]'
     (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=RASHOMON%20%5BWILDER%20CINEMA%5D)
   -> Could not resolve original name for 'RASHOMON [WILDER CINEMA]'
 
+Searching for: 'Rose'
+    (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=Rose)
+  -> Found via Wikidata: 'Rose'
+
 Searching for: 'SECRET FLASHBACK (19 Octubre)'
     (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=SECRET%20FLASHBACK)
   -> Could not resolve original name for 'SECRET FLASHBACK (19 Octubre)'
@@ -229,4 +235,4 @@ Searching for: 'es GHOST: 2 Big To Rig'
     (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=es%20GHOST%3A%202%20Big%20To%20Rig)
   -> Could not resolve original name for 'es GHOST: 2 Big To Rig'
 
-No translations were updated.
+Successfully updated 1 translation(s) in movie_title_translations.json.
