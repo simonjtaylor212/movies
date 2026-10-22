@@ -3355,19 +3355,6 @@
   },
   {
     "cinema": "Cine Yelmo La Vaguada",
-    "date": "2026-10-22",
-    "movie": "La Invitación",
-    "format": "2D",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "13:00",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1360&showtimeVistaId=22225",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-10-15 18:21:24"
-  },
-  {
-    "cinema": "Cine Yelmo La Vaguada",
     "date": "2026-10-23",
     "movie": "Wildwood: El bosque salvaje",
     "format": "2D",
@@ -4617,6 +4604,19 @@
   {
     "cinema": "Cine Yelmo Palafox Luxury",
     "date": "2026-10-22",
+    "movie": "Street Fighter",
+    "format": "LUX",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "22:45",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=25964",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-22 18:40:16"
+  },
+  {
+    "cinema": "Cine Yelmo Palafox Luxury",
+    "date": "2026-10-22",
     "movie": "La Invitación",
     "format": "LUX",
     "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
@@ -4636,32 +4636,6 @@
     "original_language": "English",
     "time": "22:30",
     "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=25764",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-10-15 18:21:24"
-  },
-  {
-    "cinema": "Cine Yelmo Palafox Luxury",
-    "date": "2026-10-22",
-    "movie": "El precio de la red",
-    "format": "LUX",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "16:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=25761",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-10-15 18:21:24"
-  },
-  {
-    "cinema": "Cine Yelmo Palafox Luxury",
-    "date": "2026-10-22",
-    "movie": "Verity. La sombra de un engaño",
-    "format": "LUX",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "16:00",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=25768",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-10-15 18:21:24"
@@ -5419,6 +5393,32 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-10-20 16:07:13"
+  },
+  {
+    "cinema": "Cine Yelmo Palafox Luxury",
+    "date": "2026-10-27",
+    "movie": "Clayface",
+    "format": "LUX",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "22:15",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=25936",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-22 18:40:16"
+  },
+  {
+    "cinema": "Cine Yelmo Palafox Luxury",
+    "date": "2026-10-27",
+    "movie": "La Invitación",
+    "format": "LUX",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "22:35",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=25931",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-22 18:40:16"
   },
   {
     "cinema": "Cine Yelmo Palafox Luxury",
@@ -8516,32 +8516,6 @@
   },
   {
     "cinema": "Cine Yelmo Premium Castelldefels",
-    "date": "2026-10-29",
-    "movie": "Street Fighter",
-    "format": "PREMIUM",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "16:00",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=814&showtimeVistaId=30167",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-10-22 13:24:41"
-  },
-  {
-    "cinema": "Cine Yelmo Premium Castelldefels",
-    "date": "2026-10-29",
-    "movie": "Street Fighter",
-    "format": "PREMIUM",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "16:00",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=814&showtimeVistaId=30186",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-10-22 13:24:41"
-  },
-  {
-    "cinema": "Cine Yelmo Premium Castelldefels",
     "date": "2026-10-31",
     "movie": "BTS WORLD TOUR ARIRANG IN SAO PAULO: LIVE VIEWING",
     "format": "CA PREMIUM",
@@ -9072,19 +9046,6 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-10-05 23:49:54"
-  },
-  {
-    "cinema": "Cine Yelmo Westfield La Maquinista",
-    "date": "2026-10-22",
-    "movie": "El precio de la red",
-    "format": "XE",
-    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
-    "original_language": "English",
-    "time": "16:00",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1350&showtimeVistaId=47100",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-10-14 21:11:12"
   },
   {
     "cinema": "Cine Yelmo Westfield La Maquinista",
@@ -9839,32 +9800,6 @@
     "projection_type": "Ópera",
     "movie_title_language": "ES",
     "date_added": "2026-09-10 22:27:00"
-  },
-  {
-    "cinema": "Cine Yelmo Premium Sant Cugat",
-    "date": "2026-10-25",
-    "movie": "BTS WORLD TOUR ARIRANG: BUENOS AIRES LIVE VIEWING",
-    "format": "CA PREMIUM",
-    "language": "COREANO SUBTITULADO EN INGLÉS (VOSI)",
-    "original_language": "English",
-    "time": "14:45",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=784&showtimeVistaId=24580",
-    "projection_type": "Música y conciertos",
-    "movie_title_language": "ES",
-    "date_added": "2026-09-17 22:58:26"
-  },
-  {
-    "cinema": "Cine Yelmo Premium Sant Cugat",
-    "date": "2026-10-25",
-    "movie": "BTS WORLD TOUR ARIRANG: BUENOS AIRES LIVE VIEWING",
-    "format": "CA PREMIUM",
-    "language": "COREANO SUBTITULADO EN INGLÉS (VOSI)",
-    "original_language": "English",
-    "time": "18:30",
-    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=784&showtimeVistaId=24581",
-    "projection_type": "Música y conciertos",
-    "movie_title_language": "ES",
-    "date_added": "2026-09-17 22:58:26"
   },
   {
     "cinema": "Cine Yelmo Premium Sant Cugat",
@@ -10753,51 +10688,12 @@
   {
     "cinema": "mk2 Cinesur Miramar",
     "date": "2026-10-22",
-    "movie": "La Invitación",
-    "format": "2D",
-    "language": "Original con subtítulos (VOSE)",
-    "original_language": "English",
-    "time": "15:50",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/145379/la-invitacion?mode=widget&change=0&ref=750&forceproxy=1",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-10-20 10:12:29"
-  },
-  {
-    "cinema": "mk2 Cinesur Miramar",
-    "date": "2026-10-22",
-    "movie": "Whalefall",
-    "format": "2D",
-    "language": "Original con subtítulos (VOSE)",
-    "original_language": "English",
-    "time": "16:00",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/145358/whalefall?mode=widget&change=0&ref=750&forceproxy=1",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-10-20 10:12:29"
-  },
-  {
-    "cinema": "mk2 Cinesur Miramar",
-    "date": "2026-10-22",
     "movie": "La otra madre",
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "original_language": "English",
     "time": "22:20",
     "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/145374/la-otra-madre?mode=widget&change=0&ref=750&forceproxy=1",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-10-20 10:12:29"
-  },
-  {
-    "cinema": "mk2 Cinesur Miramar",
-    "date": "2026-10-22",
-    "movie": "NAZA",
-    "format": "2D",
-    "language": "Original con subtítulos (VOSE)",
-    "original_language": "English",
-    "time": "16:25",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/145362/naza?mode=widget&change=0&ref=750&forceproxy=1",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-10-20 10:12:29"
@@ -11724,6 +11620,19 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-10-21 05:24:18"
+  },
+  {
+    "cinema": "mk2 Cinesur El Ingenio",
+    "date": "2026-10-27",
+    "movie": "La bola negra",
+    "format": "2D",
+    "language": "Original con subtítulos (VOSE)",
+    "original_language": "",
+    "time": "17:20",
+    "booking_url": "https://cine.entradas.com/cine/velez-malaga/cinesur-el-ingenio/evento/126082/la-bola-negra-ocap?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-22 18:40:16"
   },
   {
     "cinema": "mk2 Cinesur El Ingenio",
@@ -21066,34 +20975,8 @@
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "Japanese",
-    "time": "16:30",
-    "booking_url": "https://www.golem.es/golem/urlcheck.php?idCine=8&perfCode=100327&eventCode=115072",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-10-15 01:42:25"
-  },
-  {
-    "cinema": "Cines Golem Madrid",
-    "date": "2026-10-22",
-    "movie": "Kakeru",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "Japanese",
     "time": "19:00",
     "booking_url": "https://www.golem.es/golem/urlcheck.php?idCine=8&perfCode=100326&eventCode=115072",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-10-15 01:42:25"
-  },
-  {
-    "cinema": "Cines Golem Madrid",
-    "date": "2026-10-22",
-    "movie": "LA VIDA DE UNA MUJER",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "French",
-    "time": "18:15",
-    "booking_url": "https://www.golem.es/golem/urlcheck.php?idCine=8&perfCode=100332&eventCode=113783",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-10-15 01:42:25"

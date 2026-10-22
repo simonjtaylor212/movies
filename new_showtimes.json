@@ -834832,5 +834832,57 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-10-22 13:24:41"
+  },
+  {
+    "cinema": "Cine Yelmo Palafox Luxury",
+    "date": "2026-10-22",
+    "movie": "Street Fighter",
+    "format": "LUX",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "22:45",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=25964",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-22 18:40:16"
+  },
+  {
+    "cinema": "Cine Yelmo Palafox Luxury",
+    "date": "2026-10-27",
+    "movie": "Clayface",
+    "format": "LUX",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "22:15",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=25936",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-22 18:40:16"
+  },
+  {
+    "cinema": "Cine Yelmo Palafox Luxury",
+    "date": "2026-10-27",
+    "movie": "La Invitación",
+    "format": "LUX",
+    "language": "INGLÉS SUBTITULADO EN ESPAÑOL (VOSE)",
+    "original_language": "English",
+    "time": "22:35",
+    "booking_url": "https://compra.yelmocines.es/?cinemaVistaId=1310&showtimeVistaId=25931",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-22 18:40:16"
+  },
+  {
+    "cinema": "mk2 Cinesur El Ingenio",
+    "date": "2026-10-27",
+    "movie": "La bola negra",
+    "format": "2D",
+    "language": "Original con subtítulos (VOSE)",
+    "original_language": "",
+    "time": "17:20",
+    "booking_url": "https://cine.entradas.com/cine/velez-malaga/cinesur-el-ingenio/evento/126082/la-bola-negra-ocap?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-22 18:40:16"
   }
 ]
