@@ -1,30 +1,23 @@
-Starting Scraper - Local time is 2026-10-22 05:23:33 CEST
+Starting Scraper - Local time is 2026-10-22 13:24:41 CEST
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
   Fetching Yelmo madrid...
   Fetching Yelmo barcelona...
-Yelmo scraped: found 771 VOSE sessions.
+Yelmo scraped: found 772 VOSE sessions.
 Scraping Cine Albéniz...
-Error fetching Albéniz for 2026-10-22: HTTPSConnectionPool(host='cinealbeniz.com', port=443): Max retries exceeded with url: /cartelera/dia/2026-10-22 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))
-Error fetching Albéniz for 2026-10-23: HTTPSConnectionPool(host='cinealbeniz.com', port=443): Max retries exceeded with url: /cartelera/dia/2026-10-23 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))
-Error fetching Albéniz for 2026-10-24: HTTPSConnectionPool(host='cinealbeniz.com', port=443): Max retries exceeded with url: /cartelera/dia/2026-10-24 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))
-Error fetching Albéniz for 2026-10-25: HTTPSConnectionPool(host='cinealbeniz.com', port=443): Max retries exceeded with url: /cartelera/dia/2026-10-25 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))
-Error fetching Albéniz for 2026-10-26: HTTPSConnectionPool(host='cinealbeniz.com', port=443): Max retries exceeded with url: /cartelera/dia/2026-10-26 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016)')))
 Stopping Cine Albéniz scrape after 5 consecutive empty days.
-Cine Albéniz scraped: found 0 VOSE sessions.
-Warning: albeniz scraper returned 0 showings. Using fallback data.
-Recovered 14 albeniz showings from previous run.
+Cine Albéniz scraped: found 55 VOSE sessions.
 Scraping Kinépolis Granada & Nevada...
 Kinépolis Granada & Nevada: Scraped 196 VOSE sessions.
 Scraping Cines Renoir...
-Cines Renoir: Scraped 462 VOSE sessions.
+Cines Renoir: Scraped 460 VOSE sessions.
 Scraping Cines Golem...
 Cines Golem Madrid: Scraped 52 VOSE sessions.
 Scraping Cinesa (Madrid & Barcelona)...
 Attempting Cinesa auth token extraction via Playwright...
 Error: Could not retrieve Cinesa authentication token.
 Warning: cinesa scraper returned 0 showings. Using fallback data.
-Recovered 705 cinesa showings from previous run.
+Recovered 639 cinesa showings from previous run.
 Scraping Ocine Serrallo...
 Ocine Serrallo: Scraped 2 sessions.
 Scraping mk2 Cinesur...
@@ -33,13 +26,13 @@ Scraping mk2 Cinesur...
   mk2 Cinesur Málaga Nostrum: found 37 sessions.
 mk2 Cinesur scraped: found 135 VOSE sessions.
 original language not found for 1 movies in Albéniz chain
-original language not found for 8 movies in Cinesa chain
+original language not found for 7 movies in Cinesa chain
 original language not found for 15 movies in Cinesur chain
-original language not found for 2 movies in Golem chain
+original language not found for 1 movies in Golem chain
 original language not found for 2 movies in Kinépolis chain
 original language not found for 1 movies in Renoir chain
-Successfully generated api/v1/showtimes.json with 2263 listings.
-Appended 12 new showings to new_showtimes.json
+Successfully generated api/v1/showtimes.json with 2311 listings.
+Appended 51 new showings to new_showtimes.json
 
 Resolving missing movie title translations...
 Found 49 movies without original names.
