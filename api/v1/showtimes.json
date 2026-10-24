@@ -9817,51 +9817,12 @@
   {
     "cinema": "mk2 Cinesur Miramar",
     "date": "2026-10-24",
-    "movie": "Sentido y sensibilidad",
-    "format": "2D",
-    "language": "Original con subtítulos (VOSE)",
-    "original_language": "English",
-    "time": "16:00",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/145471/sentido-y-sensibilidad?mode=widget&change=0&ref=750&forceproxy=1",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-10-21 05:24:18"
-  },
-  {
-    "cinema": "mk2 Cinesur Miramar",
-    "date": "2026-10-24",
     "movie": "Clayface",
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "original_language": "English",
     "time": "22:30",
     "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/145467/clayface?mode=widget&change=0&ref=750&forceproxy=1",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-10-21 05:24:18"
-  },
-  {
-    "cinema": "mk2 Cinesur Miramar",
-    "date": "2026-10-24",
-    "movie": "La Invitación",
-    "format": "2D",
-    "language": "Original con subtítulos (VOSE)",
-    "original_language": "English",
-    "time": "12:25",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/145506/la-invitacion?mode=widget&change=0&ref=750&forceproxy=1",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-10-21 05:24:18"
-  },
-  {
-    "cinema": "mk2 Cinesur Miramar",
-    "date": "2026-10-24",
-    "movie": "La Invitación",
-    "format": "2D",
-    "language": "Original con subtítulos (VOSE)",
-    "original_language": "English",
-    "time": "15:50",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/145487/la-invitacion?mode=widget&change=0&ref=750&forceproxy=1",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-10-21 05:24:18"
@@ -13950,19 +13911,6 @@
   },
   {
     "cinema": "Kinépolis Granada Nevada",
-    "date": "2026-10-24",
-    "movie": "Clayface",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "12:35",
-    "booking_url": "https://kinepolis.es/direct-vista-redirect/103388/0/KNEVA/0",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-10-19 22:22:38"
-  },
-  {
-    "cinema": "Kinépolis Granada Nevada",
     "date": "2026-11-07",
     "movie": "Stray Kids World Tour <RUN IT>",
     "format": "2D",
@@ -14038,19 +13986,6 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-10-20 10:12:29"
-  },
-  {
-    "cinema": "Kinépolis Granada Nevada",
-    "date": "2026-10-24",
-    "movie": "Street Fighter",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "13:10",
-    "booking_url": "https://kinepolis.es/direct-vista-redirect/103935/0/KNEVA/0",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-10-20 20:55:04"
   },
   {
     "cinema": "Kinépolis Granada Nevada",
@@ -18559,19 +18494,6 @@
     "original_language": "French",
     "time": "22:15",
     "booking_url": "https://www.golem.es/golem/urlcheck.php?idCine=8&perfCode=100390&eventCode=116263",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-10-21 01:38:05"
-  },
-  {
-    "cinema": "Cines Golem Madrid",
-    "date": "2026-10-24",
-    "movie": "Kakeru",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "Japanese",
-    "time": "16:30",
-    "booking_url": "https://www.golem.es/golem/urlcheck.php?idCine=8&perfCode=100382&eventCode=115072",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-10-21 01:38:05"
