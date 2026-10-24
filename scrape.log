@@ -1,4 +1,4 @@
-Starting Scraper - Local time is 2026-10-23 23:14:18 CEST
+Starting Scraper - Local time is 2026-10-24 05:23:16 CEST
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
 Yelmo malaga returned status code 403
@@ -11,11 +11,11 @@ Warning: yelmo scraper returned 0 showings. Using fallback data.
 Recovered 737 yelmo showings from previous run.
 Scraping Cine Albéniz...
 Stopping Cine Albéniz scrape after 5 consecutive empty days.
-Cine Albéniz scraped: found 49 VOSE sessions.
+Cine Albéniz scraped: found 41 VOSE sessions.
 Scraping Kinépolis Granada & Nevada...
-Kinépolis Granada & Nevada: Scraped 210 VOSE sessions.
+Kinépolis Granada & Nevada: Scraped 201 VOSE sessions.
 Scraping Cines Renoir...
-Cines Renoir: Scraped 402 VOSE sessions.
+Cines Renoir: Scraped 342 VOSE sessions.
 Scraping Cines Golem...
 Cines Golem Madrid: Scraped 40 VOSE sessions.
 Scraping Cinesa (Madrid & Barcelona)...
@@ -34,7 +34,7 @@ original language not found for 6 movies in Cinesa chain
 original language not found for 15 movies in Cinesur chain
 original language not found for 1 movies in Golem chain
 original language not found for 2 movies in Kinépolis chain
-Successfully generated api/v1/showtimes.json with 2146 listings.
+Successfully generated api/v1/showtimes.json with 2040 listings.
 No new showings found.
 
 Resolving missing movie title translations...
