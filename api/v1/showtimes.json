@@ -9180,38 +9180,12 @@
   {
     "cinema": "mk2 Cinesur Miramar",
     "date": "2026-10-25",
-    "movie": "Sentido y sensibilidad",
-    "format": "2D",
-    "language": "Original con subtítulos (VOSE)",
-    "original_language": "English",
-    "time": "16:00",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/145520/sentido-y-sensibilidad?mode=widget&change=0&ref=750&forceproxy=1",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-10-21 05:24:18"
-  },
-  {
-    "cinema": "mk2 Cinesur Miramar",
-    "date": "2026-10-25",
     "movie": "Clayface",
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "original_language": "English",
     "time": "22:30",
     "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/145515/clayface?mode=widget&change=0&ref=750&forceproxy=1",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-10-21 05:24:18"
-  },
-  {
-    "cinema": "mk2 Cinesur Miramar",
-    "date": "2026-10-25",
-    "movie": "La Invitación",
-    "format": "2D",
-    "language": "Original con subtítulos (VOSE)",
-    "original_language": "English",
-    "time": "15:50",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/145540/la-invitacion?mode=widget&change=0&ref=750&forceproxy=1",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-10-21 05:24:18"
@@ -13118,19 +13092,6 @@
   },
   {
     "cinema": "Kinépolis Granada Nevada",
-    "date": "2026-10-25",
-    "movie": "Clayface",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "12:35",
-    "booking_url": "https://kinepolis.es/direct-vista-redirect/103389/0/KNEVA/0",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-10-19 22:22:38"
-  },
-  {
-    "cinema": "Kinépolis Granada Nevada",
     "date": "2026-12-20",
     "movie": "Dune: Parte Tres",
     "format": "2D",
@@ -16895,19 +16856,6 @@
     "original_language": "French",
     "time": "22:15",
     "booking_url": "https://www.golem.es/golem/urlcheck.php?idCine=8&perfCode=100406&eventCode=116263",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-10-21 01:38:05"
-  },
-  {
-    "cinema": "Cines Golem Madrid",
-    "date": "2026-10-25",
-    "movie": "Kakeru",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "Japanese",
-    "time": "16:30",
-    "booking_url": "https://www.golem.es/golem/urlcheck.php?idCine=8&perfCode=100398&eventCode=115072",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-10-21 01:38:05"
