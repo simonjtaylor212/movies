@@ -1,4 +1,4 @@
-Starting Scraper - Local time is 2026-10-25 00:54:22 CEST
+Starting Scraper - Local time is 2026-10-25 04:18:20 CET
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
 Yelmo malaga returned status code 403
@@ -8,7 +8,7 @@ Yelmo madrid returned status code 403
 Yelmo barcelona returned status code 403
 Yelmo scraped: found 0 VOSE sessions.
 Warning: yelmo scraper returned 0 showings. Using fallback data.
-Recovered 714 yelmo showings from previous run.
+Recovered 673 yelmo showings from previous run.
 Scraping Cine Albéniz...
 Stopping Cine Albéniz scrape after 5 consecutive empty days.
 Cine Albéniz scraped: found 33 VOSE sessions.
@@ -22,7 +22,7 @@ Scraping Cinesa (Madrid & Barcelona)...
 Attempting Cinesa auth token extraction via Playwright...
 Error: Could not retrieve Cinesa authentication token.
 Warning: cinesa scraper returned 0 showings. Using fallback data.
-Recovered 1257 cinesa showings from previous run.
+Recovered 1253 cinesa showings from previous run.
 Scraping Ocine Serrallo...
 Ocine Serrallo: Scraped 1 sessions.
 Scraping mk2 Cinesur...
