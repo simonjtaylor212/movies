@@ -844439,5 +844439,31 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-10-24 22:15:42"
+  },
+  {
+    "cinema": "Kinépolis Madrid Ciudad de la Imagen",
+    "date": "2026-11-01",
+    "movie": "Leviticus",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "16:30",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/223698/0/KMAD/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-26 13:41:20"
+  },
+  {
+    "cinema": "Kinépolis Madrid Ciudad de la Imagen",
+    "date": "2026-11-01",
+    "movie": "Wicker",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "19:00",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/223696/0/KMAD/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-26 13:41:20"
   }
 ]
