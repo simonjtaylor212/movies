@@ -1,4 +1,4 @@
-Starting Scraper - Local time is 2026-10-26 13:41:20 CET
+Starting Scraper - Local time is 2026-10-26 21:18:52 CET
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
 Yelmo malaga returned status code 403
@@ -13,34 +13,32 @@ Scraping Cine Albéniz...
 Stopping Cine Albéniz scrape after 5 consecutive empty days.
 Cine Albéniz scraped: found 25 VOSE sessions.
 Scraping Kinépolis Granada & Nevada...
-Kinépolis Granada & Nevada: Scraped 178 VOSE sessions.
+Kinépolis Granada & Nevada: Scraped 174 VOSE sessions.
 Scraping Cines Renoir...
-Cines Renoir: Scraped 222 VOSE sessions.
+Cines Renoir: Scraped 328 VOSE sessions.
 Scraping Cines Golem...
-Cines Golem Madrid: Scraped 26 VOSE sessions.
+Cines Golem Madrid: Scraped 21 VOSE sessions.
 Scraping Cinesa (Madrid & Barcelona)...
 Attempting Cinesa auth token extraction via Playwright...
 Error: Could not retrieve Cinesa authentication token.
 Warning: cinesa scraper returned 0 showings. Using fallback data.
 Recovered 1140 cinesa showings from previous run.
 Scraping Ocine Serrallo...
-Error: Could not retrieve Ocine sessions payload
-Warning: ocine scraper returned 0 showings. Using fallback data.
-Recovered 1 ocine showings from previous run.
+Ocine Serrallo: Scraped 1 sessions.
 Scraping mk2 Cinesur...
-  mk2 Cinesur Miramar: found 57 sessions.
+  mk2 Cinesur Miramar: found 55 sessions.
   mk2 Cinesur El Ingenio: found 23 sessions.
   mk2 Cinesur Málaga Nostrum: found 37 sessions.
-mk2 Cinesur scraped: found 117 VOSE sessions.
+mk2 Cinesur scraped: found 115 VOSE sessions.
 original language not found for 10 movies in Cinesa chain
 original language not found for 14 movies in Cinesur chain
-original language not found for 1 movies in Golem chain
 original language not found for 2 movies in Kinépolis chain
-Successfully generated api/v1/showtimes.json with 2310 listings.
-Appended 2 new showings to new_showtimes.json
+Updated movie_title_translations.json
+Successfully generated api/v1/showtimes.json with 2405 listings.
+Appended 109 new showings to new_showtimes.json
 
 Resolving missing movie title translations...
-Found 50 movies without original names.
+Found 52 movies without original names.
 No TMDB_API_KEY detected. Using keyless TMDB scraper and Wikidata fallbacks.
 
 Searching for: '20 Años del MET en cines - Grabado MET 26-27'
@@ -94,6 +92,10 @@ Searching for: 'EL VIAJE DE CHIHIRO [WILDER CINEMA]'
 Searching for: 'ENCUENTROS EN LA TERCERA FASE [WILDER CINEMA]'
     (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=ENCUENTROS%20EN%20LA%20TERCERA%20FASE%20%5BWILDER%20CINEMA%5D)
   -> Could not resolve original name for 'ENCUENTROS EN LA TERCERA FASE [WILDER CINEMA]'
+
+Searching for: 'ESTA SOLEDAD'
+    (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=ESTA%20SOLEDAD)
+  -> Found via Wikidata: 'This Solitude'
 
 Searching for: 'El precio de la red'
     (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=El%20precio%20de%20la%20red)
@@ -207,6 +209,10 @@ Searching for: 'TIEMPO DE VICTORIA [PROYECTO VIRIDIANA]'
     (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=TIEMPO%20DE%20VICTORIA%20%5BPROYECTO%20VIRIDIANA%5D)
   -> Could not resolve original name for 'TIEMPO DE VICTORIA [PROYECTO VIRIDIANA]'
 
+Searching for: 'TIEMPOS DE ILUSIÓN'
+    (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=TIEMPOS%20DE%20ILUSI%C3%93N)
+  -> Could not resolve original name for 'TIEMPOS DE ILUSIÓN'
+
 Searching for: 'The Fast & The Furious 25 aniversario'
     (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=The%20Fast%20%26%20The%20Furious%2025%20aniversario)
   -> Could not resolve original name for 'The Fast & The Furious 25 aniversario'
@@ -243,4 +249,4 @@ Searching for: 'es GHOST: 2 Big To Rig'
     (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=es%20GHOST%3A%202%20Big%20To%20Rig)
   -> Could not resolve original name for 'es GHOST: 2 Big To Rig'
 
-No translations were updated.
+Successfully updated 1 translation(s) in movie_title_translations.json.
