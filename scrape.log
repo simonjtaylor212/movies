@@ -1,4 +1,4 @@
-Starting Scraper - Local time is 2026-10-27 16:18:10 CET
+Starting Scraper - Local time is 2026-10-27 22:50:23 CET
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
 Yelmo malaga returned status code 403
@@ -13,11 +13,11 @@ Scraping Cine Albéniz...
 Stopping Cine Albéniz scrape after 5 consecutive empty days.
 Cine Albéniz scraped: found 17 VOSE sessions.
 Scraping Kinépolis Granada & Nevada...
-Kinépolis Granada & Nevada: Scraped 171 VOSE sessions.
+Kinépolis Granada & Nevada: Scraped 195 VOSE sessions.
 Scraping Cines Renoir...
-Cines Renoir: Scraped 511 VOSE sessions.
+Cines Renoir: Scraped 614 VOSE sessions.
 Scraping Cines Golem...
-Cines Golem Madrid: Scraped 19 VOSE sessions.
+Cines Golem Madrid: Scraped 42 VOSE sessions.
 Scraping Cinesa (Madrid & Barcelona)...
 Attempting Cinesa auth token extraction via Playwright...
 Error: Could not retrieve Cinesa authentication token.
@@ -26,15 +26,15 @@ Recovered 1018 cinesa showings from previous run.
 Scraping Ocine Serrallo...
 Ocine Serrallo: Scraped 2 sessions.
 Scraping mk2 Cinesur...
-  mk2 Cinesur Miramar: found 52 sessions.
+  mk2 Cinesur Miramar: found 50 sessions.
   mk2 Cinesur El Ingenio: found 23 sessions.
-  mk2 Cinesur Málaga Nostrum: found 37 sessions.
-mk2 Cinesur scraped: found 112 VOSE sessions.
+  mk2 Cinesur Málaga Nostrum: found 35 sessions.
+mk2 Cinesur scraped: found 108 VOSE sessions.
 original language not found for 10 movies in Cinesa chain
-original language not found for 14 movies in Cinesur chain
+original language not found for 13 movies in Cinesur chain
 original language not found for 2 movies in Kinépolis chain
-Successfully generated api/v1/showtimes.json with 2425 listings.
-Appended 235 new showings to new_showtimes.json
+Successfully generated api/v1/showtimes.json with 2571 listings.
+Appended 163 new showings to new_showtimes.json
 
 Resolving missing movie title translations...
 Found 51 movies without original names.
@@ -98,7 +98,7 @@ Searching for: 'El precio de la red'
 
 Searching for: 'HYBE CHEERING PARTY'
     (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=HYBE%20CHEERING%20PARTY)
-  -> Could not resolve original name for 'HYBE CHEERING PARTY'
+  -> Found via Wikidata: 'Hybe Cheering Party'
 
 Searching for: 'Harry Potter y La Piedra Filosofal 25th Aniv)'
     (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=Harry%20Potter%20y%20La%20Piedra%20Filosofal%2025th%20Aniv%29)
@@ -244,4 +244,4 @@ Searching for: 'es GHOST: 2 Big To Rig'
     (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=es%20GHOST%3A%202%20Big%20To%20Rig)
   -> Could not resolve original name for 'es GHOST: 2 Big To Rig'
 
-No translations were updated.
+Successfully updated 1 translation(s) in movie_title_translations.json.
