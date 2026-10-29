@@ -853448,5 +853448,44 @@
     "projection_type": "Movie",
     "movie_title_language": "OR",
     "date_added": "2026-10-29 10:22:32"
+  },
+  {
+    "cinema": "Kinépolis Granada",
+    "date": "2026-11-07",
+    "movie": "Stray Kids World Tour <RUN IT>",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "13:00",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/174256/0/KGRAN/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-29 19:02:51"
+  },
+  {
+    "cinema": "Kinépolis Granada",
+    "date": "2026-11-07",
+    "movie": "Stray Kids World Tour <RUN IT>",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "17:15",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/174257/0/KGRAN/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-29 19:02:51"
+  },
+  {
+    "cinema": "Cines Renoir Floridablanca",
+    "date": "2026-11-01",
+    "movie": "BLUE HERON",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "22:30",
+    "booking_url": "https://www.pillalas.com/pase/1095040/",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-29 19:02:51"
   }
 ]
