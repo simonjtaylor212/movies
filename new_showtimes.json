@@ -853487,5 +853487,44 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-10-29 19:02:51"
+  },
+  {
+    "cinema": "Kinépolis Granada",
+    "date": "2026-11-06",
+    "movie": "El Gato con Sombrero",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "16:45",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/173893/0/KGRAN/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-30 01:37:25"
+  },
+  {
+    "cinema": "Kinépolis Granada",
+    "date": "2026-11-08",
+    "movie": "El Gato con Sombrero",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "16:45",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/173905/0/KGRAN/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-30 01:37:25"
+  },
+  {
+    "cinema": "Cines Renoir Plaza de España",
+    "date": "2026-11-05",
+    "movie": "TIEMPOS DE ILUSIÓN",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "French",
+    "time": "22:15",
+    "booking_url": "https://www.pillalas.com/pase/1095042/",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-30 01:37:25"
   }
 ]
