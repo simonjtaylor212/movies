@@ -6787,45 +6787,6 @@
   },
   {
     "cinema": "mk2 Cinesur Miramar",
-    "date": "2026-10-30",
-    "movie": "Hope",
-    "format": "2D",
-    "language": "Original con subtítulos (VOSE)",
-    "original_language": "Korean",
-    "time": "22:10",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/145756/hope?mode=widget&change=0&ref=750&forceproxy=1",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-10-28 05:05:52"
-  },
-  {
-    "cinema": "mk2 Cinesur Miramar",
-    "date": "2026-10-30",
-    "movie": "Wicker",
-    "format": "2D",
-    "language": "Original con subtítulos (VOSE)",
-    "original_language": "English",
-    "time": "19:15",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/145783/wicker?mode=widget&change=0&ref=750&forceproxy=1",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-10-28 05:05:52"
-  },
-  {
-    "cinema": "mk2 Cinesur Miramar",
-    "date": "2026-10-30",
-    "movie": "Clayface",
-    "format": "2D",
-    "language": "Original con subtítulos (VOSE)",
-    "original_language": "English",
-    "time": "21:30",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/145784/clayface?mode=widget&change=0&ref=750&forceproxy=1",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-10-28 05:05:52"
-  },
-  {
-    "cinema": "mk2 Cinesur Miramar",
     "date": "2026-10-31",
     "movie": "Hope",
     "format": "2D",
@@ -7967,19 +7928,6 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-10-21 05:24:18"
-  },
-  {
-    "cinema": "mk2 Cinesur El Ingenio",
-    "date": "2026-10-30",
-    "movie": "Hope",
-    "format": "2D",
-    "language": "Original con subtítulos (VOSE)",
-    "original_language": "Korean",
-    "time": "22:00",
-    "booking_url": "https://cine.entradas.com/cine/velez-malaga/cinesur-el-ingenio/evento/126099/hope?mode=widget&change=0&ref=750&forceproxy=1",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-10-28 21:05:16"
   },
   {
     "cinema": "mk2 Cinesur El Ingenio",
@@ -10648,19 +10596,6 @@
   },
   {
     "cinema": "Kinépolis Madrid Ciudad de la Imagen",
-    "date": "2026-10-30",
-    "movie": "Hope",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "Korean",
-    "time": "16:50",
-    "booking_url": "https://kinepolis.es/direct-vista-redirect/223672/0/KMAD/0",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-10-23 13:03:21"
-  },
-  {
-    "cinema": "Kinépolis Madrid Ciudad de la Imagen",
     "date": "2026-11-07",
     "movie": "El Gato con Sombrero",
     "format": "2D",
@@ -10804,19 +10739,6 @@
   },
   {
     "cinema": "Kinépolis Madrid Ciudad de la Imagen",
-    "date": "2026-10-30",
-    "movie": "Leviticus",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "16:30",
-    "booking_url": "https://kinepolis.es/direct-vista-redirect/223940/0/KMAD/0",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-10-26 21:18:52"
-  },
-  {
-    "cinema": "Kinépolis Madrid Ciudad de la Imagen",
     "date": "2026-11-02",
     "movie": "Hope",
     "format": "2D",
@@ -10853,32 +10775,6 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-10-26 21:18:52"
-  },
-  {
-    "cinema": "Kinépolis Madrid Ciudad de la Imagen",
-    "date": "2026-10-30",
-    "movie": "Sentido y sensibilidad",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "16:30",
-    "booking_url": "https://kinepolis.es/direct-vista-redirect/223937/0/KMAD/0",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-10-27 22:50:23"
-  },
-  {
-    "cinema": "Kinépolis Madrid Ciudad de la Imagen",
-    "date": "2026-10-30",
-    "movie": "WILDWOOD",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "16:45",
-    "booking_url": "https://kinepolis.es/direct-vista-redirect/223947/0/KMAD/0",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-10-27 22:50:23"
   },
   {
     "cinema": "Kinépolis Madrid Ciudad de la Imagen",
@@ -12465,19 +12361,6 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-10-26 21:18:52"
-  },
-  {
-    "cinema": "Cines Renoir Floridablanca",
-    "date": "2026-10-30",
-    "movie": "WILDWOOD",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "17:45",
-    "booking_url": "https://www.pillalas.com/pase/1094208/",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-10-27 16:18:10"
   },
   {
     "cinema": "Cines Renoir Floridablanca",
@@ -17457,45 +17340,6 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-10-27 01:26:57"
-  },
-  {
-    "cinema": "Cines Golem Madrid",
-    "date": "2026-10-30",
-    "movie": "Hope",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "Korean",
-    "time": "20:30",
-    "booking_url": "https://www.golem.es/golem/urlcheck.php?idCine=8&perfCode=100488&eventCode=115746",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-10-27 22:50:23"
-  },
-  {
-    "cinema": "Cines Golem Madrid",
-    "date": "2026-10-30",
-    "movie": "Los niños están bien",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "French",
-    "time": "22:15",
-    "booking_url": "https://www.golem.es/golem/urlcheck.php?idCine=8&perfCode=100489&eventCode=116263",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-10-27 22:50:23"
-  },
-  {
-    "cinema": "Cines Golem Madrid",
-    "date": "2026-10-30",
-    "movie": "NAZA",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "22:00",
-    "booking_url": "https://www.golem.es/golem/urlcheck.php?idCine=8&perfCode=100492&eventCode=115052",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-10-27 22:50:23"
   },
   {
     "cinema": "Cines Golem Madrid",
