@@ -1,4 +1,4 @@
-Starting Scraper - Local time is 2026-10-30 01:37:25 CET
+Starting Scraper - Local time is 2026-10-30 10:37:42 CET
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
 Error fetching Yelmo malaga: Expecting value: line 1 column 1 (char 0)
@@ -8,12 +8,12 @@ Error fetching Yelmo madrid: Expecting value: line 1 column 1 (char 0)
 Error fetching Yelmo barcelona: Expecting value: line 1 column 1 (char 0)
 Yelmo scraped: found 0 VOSE sessions.
 Warning: yelmo scraper returned 0 showings. Using fallback data.
-Recovered 483 yelmo showings from previous run.
+Recovered 460 yelmo showings from previous run.
 Scraping Cine Albéniz...
 Stopping Cine Albéniz scrape after 5 consecutive empty days.
 Cine Albéniz scraped: found 62 VOSE sessions.
 Scraping Kinépolis Granada & Nevada...
-Kinépolis Granada & Nevada: Scraped 214 VOSE sessions.
+Kinépolis Granada & Nevada: Scraped 208 VOSE sessions.
 Scraping Cines Renoir...
 Cines Renoir: Scraped 449 VOSE sessions.
 Scraping Cines Golem...
@@ -22,19 +22,20 @@ Scraping Cinesa (Madrid & Barcelona)...
 Attempting Cinesa auth token extraction via Playwright...
 Error: Could not retrieve Cinesa authentication token.
 Warning: cinesa scraper returned 0 showings. Using fallback data.
-Recovered 805 cinesa showings from previous run.
+Recovered 698 cinesa showings from previous run.
 Scraping Ocine Serrallo...
 Ocine Serrallo: Scraped 1 sessions.
 Scraping mk2 Cinesur...
   mk2 Cinesur Miramar: found 92 sessions.
-  mk2 Cinesur El Ingenio: found 29 sessions.
+  mk2 Cinesur El Ingenio: found 32 sessions.
   mk2 Cinesur Málaga Nostrum: found 35 sessions.
-mk2 Cinesur scraped: found 156 VOSE sessions.
-original language not found for 10 movies in Cinesa chain
+mk2 Cinesur scraped: found 159 VOSE sessions.
+original language not found for 5 movies in Cinesa chain
 original language not found for 14 movies in Cinesur chain
 original language not found for 2 movies in Golem chain
 original language not found for 2 movies in Kinépolis chain
-Successfully generated api/v1/showtimes.json with 2083 listings.
+original language not found for 1 movies in Ocine chain
+Successfully generated api/v1/showtimes.json with 2080 listings.
 Appended 3 new showings to new_showtimes.json
 
 Resolving missing movie title translations...

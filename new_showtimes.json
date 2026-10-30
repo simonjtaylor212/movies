@@ -853526,5 +853526,44 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-10-30 01:37:25"
+  },
+  {
+    "cinema": "mk2 Cinesur El Ingenio",
+    "date": "2026-11-04",
+    "movie": "Hope",
+    "format": "2D",
+    "language": "Original con subtítulos (VOSE)",
+    "original_language": "Korean",
+    "time": "22:00",
+    "booking_url": "https://cine.entradas.com/cine/velez-malaga/cinesur-el-ingenio/evento/126276/hope?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-30 10:37:42"
+  },
+  {
+    "cinema": "mk2 Cinesur El Ingenio",
+    "date": "2026-11-05",
+    "movie": "Hope",
+    "format": "2D",
+    "language": "Original con subtítulos (VOSE)",
+    "original_language": "Korean",
+    "time": "22:00",
+    "booking_url": "https://cine.entradas.com/cine/velez-malaga/cinesur-el-ingenio/evento/126306/hope?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-30 10:37:42"
+  },
+  {
+    "cinema": "mk2 Cinesur El Ingenio",
+    "date": "2026-11-05",
+    "movie": "Sentido y sensibilidad",
+    "format": "2D",
+    "language": "Original con subtítulos (VOSE)",
+    "original_language": "English",
+    "time": "17:15",
+    "booking_url": "https://cine.entradas.com/cine/velez-malaga/cinesur-el-ingenio/evento/126319/sentido-y-sensibilidad?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-30 10:37:42"
   }
 ]
