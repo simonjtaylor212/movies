@@ -6826,19 +6826,6 @@
   },
   {
     "cinema": "mk2 Cinesur Miramar",
-    "date": "2026-10-30",
-    "movie": "Sentido y sensibilidad",
-    "format": "2D",
-    "language": "Original con subtítulos (VOSE)",
-    "original_language": "English",
-    "time": "16:30",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/145782/sentido-y-sensibilidad?mode=widget&change=0&ref=750&forceproxy=1",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-10-28 05:05:52"
-  },
-  {
-    "cinema": "mk2 Cinesur Miramar",
     "date": "2026-10-31",
     "movie": "Hope",
     "format": "2D",
@@ -9542,6 +9529,45 @@
     "date_added": "2026-10-29 19:02:51"
   },
   {
+    "cinema": "Kinépolis Granada",
+    "date": "2026-11-13",
+    "movie": "Scrooge y los fantasmas de la Navidad",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "19:00",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/174267/0/KGRAN/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-30 18:43:52"
+  },
+  {
+    "cinema": "Kinépolis Granada",
+    "date": "2026-11-14",
+    "movie": "Scrooge y los fantasmas de la Navidad",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "19:00",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/174271/0/KGRAN/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-30 18:43:52"
+  },
+  {
+    "cinema": "Kinépolis Granada",
+    "date": "2026-11-15",
+    "movie": "Scrooge y los fantasmas de la Navidad",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "19:00",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/174275/0/KGRAN/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-30 18:43:52"
+  },
+  {
     "cinema": "Kinépolis Madrid Diversia",
     "date": "2026-12-15",
     "movie": "Dune: Parte Tres",
@@ -9826,6 +9852,19 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-10-28 05:05:52"
+  },
+  {
+    "cinema": "Kinépolis Madrid Diversia",
+    "date": "2026-12-17",
+    "movie": "Vengadores: Doomsday",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "16:30",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/136401/0/KALCO/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-30 18:43:52"
   },
   {
     "cinema": "Kinépolis Madrid Ciudad de la Imagen",
@@ -11555,6 +11594,32 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-10-28 21:05:16"
+  },
+  {
+    "cinema": "Kinépolis Granada Nevada",
+    "date": "2026-11-14",
+    "movie": "Scrooge y los fantasmas de la Navidad",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "13:10",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/104336/0/KNEVA/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-30 18:43:52"
+  },
+  {
+    "cinema": "Kinépolis Granada Nevada",
+    "date": "2026-11-15",
+    "movie": "Scrooge y los fantasmas de la Navidad",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "13:10",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/104337/0/KNEVA/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-30 18:43:52"
   },
   {
     "cinema": "Ocine Serrallo",
@@ -13921,19 +13986,6 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-10-27 16:18:10"
-  },
-  {
-    "cinema": "Cines Renoir Floridablanca",
-    "date": "2026-11-01",
-    "movie": "BLUE HERON",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "22:30",
-    "booking_url": "https://www.pillalas.com/pase/1095040/",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-10-29 19:02:51"
   },
   {
     "cinema": "Cines Renoir Floridablanca",
@@ -17413,19 +17465,6 @@
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "Korean",
-    "time": "17:00",
-    "booking_url": "https://www.golem.es/golem/urlcheck.php?idCine=8&perfCode=100487&eventCode=115746",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-10-27 22:50:23"
-  },
-  {
-    "cinema": "Cines Golem Madrid",
-    "date": "2026-10-30",
-    "movie": "Hope",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "Korean",
     "time": "20:30",
     "booking_url": "https://www.golem.es/golem/urlcheck.php?idCine=8&perfCode=100488&eventCode=115746",
     "projection_type": "Movie",
@@ -17448,38 +17487,12 @@
   {
     "cinema": "Cines Golem Madrid",
     "date": "2026-10-30",
-    "movie": "LA VIDA DE UNA MUJER",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "",
-    "time": "18:15",
-    "booking_url": "https://www.golem.es/golem/urlcheck.php?idCine=8&perfCode=100490&eventCode=113783",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-10-27 22:50:23"
-  },
-  {
-    "cinema": "Cines Golem Madrid",
-    "date": "2026-10-30",
     "movie": "NAZA",
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
     "time": "22:00",
     "booking_url": "https://www.golem.es/golem/urlcheck.php?idCine=8&perfCode=100492&eventCode=115052",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-10-27 22:50:23"
-  },
-  {
-    "cinema": "Cines Golem Madrid",
-    "date": "2026-10-30",
-    "movie": "Digger",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "16:15",
-    "booking_url": "https://www.golem.es/golem/urlcheck.php?idCine=8&perfCode=100553&eventCode=105052",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-10-27 22:50:23"

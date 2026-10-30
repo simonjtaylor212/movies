@@ -853565,5 +853565,83 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-10-30 10:37:42"
+  },
+  {
+    "cinema": "Kinépolis Granada",
+    "date": "2026-11-13",
+    "movie": "Scrooge y los fantasmas de la Navidad",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "19:00",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/174267/0/KGRAN/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-30 18:43:52"
+  },
+  {
+    "cinema": "Kinépolis Granada",
+    "date": "2026-11-14",
+    "movie": "Scrooge y los fantasmas de la Navidad",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "19:00",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/174271/0/KGRAN/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-30 18:43:52"
+  },
+  {
+    "cinema": "Kinépolis Granada",
+    "date": "2026-11-15",
+    "movie": "Scrooge y los fantasmas de la Navidad",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "19:00",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/174275/0/KGRAN/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-30 18:43:52"
+  },
+  {
+    "cinema": "Kinépolis Madrid Diversia",
+    "date": "2026-12-17",
+    "movie": "Vengadores: Doomsday",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "16:30",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/136401/0/KALCO/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-30 18:43:52"
+  },
+  {
+    "cinema": "Kinépolis Granada Nevada",
+    "date": "2026-11-14",
+    "movie": "Scrooge y los fantasmas de la Navidad",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "13:10",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/104336/0/KNEVA/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-30 18:43:52"
+  },
+  {
+    "cinema": "Kinépolis Granada Nevada",
+    "date": "2026-11-15",
+    "movie": "Scrooge y los fantasmas de la Navidad",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "13:10",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/104337/0/KNEVA/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-10-30 18:43:52"
   }
 ]
