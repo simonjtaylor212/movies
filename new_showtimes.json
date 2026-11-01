@@ -854137,5 +854137,70 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-11-01 13:42:33"
+  },
+  {
+    "cinema": "Kinépolis Madrid Ciudad de la Imagen",
+    "date": "2027-01-01",
+    "movie": "Vengadores: Doomsday",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "18:35",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/224297/0/KMAD/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-11-01 20:22:35"
+  },
+  {
+    "cinema": "Kinépolis Madrid Ciudad de la Imagen",
+    "date": "2027-01-01",
+    "movie": "Vengadores: Doomsday",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "21:15",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/224300/0/KMAD/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-11-01 20:22:35"
+  },
+  {
+    "cinema": "Kinépolis Madrid Ciudad de la Imagen",
+    "date": "2027-01-01",
+    "movie": "Vengadores: Doomsday",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "22:00",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/224303/0/KMAD/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-11-01 20:22:35"
+  },
+  {
+    "cinema": "Kinépolis Madrid Ciudad de la Imagen",
+    "date": "2027-01-02",
+    "movie": "Vengadores: Doomsday",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "22:15",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/224322/0/KMAD/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-11-01 20:22:35"
+  },
+  {
+    "cinema": "Kinépolis Madrid Ciudad de la Imagen",
+    "date": "2027-01-03",
+    "movie": "Vengadores: Doomsday",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "22:15",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/224323/0/KMAD/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-11-01 20:22:35"
   }
 ]
