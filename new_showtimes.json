@@ -854202,5 +854202,31 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-11-01 20:22:35"
+  },
+  {
+    "cinema": "Kinépolis Granada",
+    "date": "2026-11-08",
+    "movie": "El Gato con Sombrero",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "16:00",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/173905/0/KGRAN/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-11-03 14:40:07"
+  },
+  {
+    "cinema": "Cines Renoir Princesa",
+    "date": "2026-11-05",
+    "movie": "Sentido y sensibilidad",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "18:35",
+    "booking_url": "https://www.pillalas.com/pase/1095049/",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-11-03 14:40:07"
   }
 ]

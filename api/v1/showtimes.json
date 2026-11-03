@@ -7832,11 +7832,11 @@
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "English",
-    "time": "16:45",
+    "time": "16:00",
     "booking_url": "https://kinepolis.es/direct-vista-redirect/173905/0/KGRAN/0",
     "projection_type": "Movie",
     "movie_title_language": "ES",
-    "date_added": "2026-10-30 01:37:25"
+    "date_added": "2026-11-03 14:40:07"
   },
   {
     "cinema": "Kinépolis Granada",
@@ -7928,32 +7928,6 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-10-28 21:05:16"
-  },
-  {
-    "cinema": "Kinépolis Granada",
-    "date": "2026-11-07",
-    "movie": "Stray Kids World Tour <RUN IT>",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "13:00",
-    "booking_url": "https://kinepolis.es/direct-vista-redirect/174256/0/KGRAN/0",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-10-29 19:02:51"
-  },
-  {
-    "cinema": "Kinépolis Granada",
-    "date": "2026-11-07",
-    "movie": "Stray Kids World Tour <RUN IT>",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "17:15",
-    "booking_url": "https://kinepolis.es/direct-vista-redirect/174257/0/KGRAN/0",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-10-29 19:02:51"
   },
   {
     "cinema": "Kinépolis Granada",
@@ -9335,19 +9309,6 @@
   },
   {
     "cinema": "Kinépolis Madrid Ciudad de la Imagen",
-    "date": "2026-11-07",
-    "movie": "El Gato con Sombrero",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "19:00",
-    "booking_url": "https://kinepolis.es/direct-vista-redirect/223635/0/KMAD/0",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-10-23 13:03:21"
-  },
-  {
-    "cinema": "Kinépolis Madrid Ciudad de la Imagen",
     "date": "2026-11-08",
     "movie": "El Gato con Sombrero",
     "format": "2D",
@@ -9361,19 +9322,6 @@
   },
   {
     "cinema": "Kinépolis Madrid Ciudad de la Imagen",
-    "date": "2026-11-08",
-    "movie": "El Gato con Sombrero",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "19:00",
-    "booking_url": "https://kinepolis.es/direct-vista-redirect/223640/0/KMAD/0",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-10-23 13:03:21"
-  },
-  {
-    "cinema": "Kinépolis Madrid Ciudad de la Imagen",
     "date": "2026-11-06",
     "movie": "El Gato con Sombrero",
     "format": "2D",
@@ -9381,19 +9329,6 @@
     "original_language": "English",
     "time": "16:30",
     "booking_url": "https://kinepolis.es/direct-vista-redirect/223644/0/KMAD/0",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-10-23 13:03:21"
-  },
-  {
-    "cinema": "Kinépolis Madrid Ciudad de la Imagen",
-    "date": "2026-11-06",
-    "movie": "El Gato con Sombrero",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "19:00",
-    "booking_url": "https://kinepolis.es/direct-vista-redirect/223645/0/KMAD/0",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-10-23 13:03:21"
@@ -12005,19 +11940,6 @@
     "format": "2D",
     "language": "V.O.S.E.",
     "original_language": "French",
-    "time": "20:20",
-    "booking_url": "https://www.pillalas.com/pase/1094694/",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-10-27 22:50:23"
-  },
-  {
-    "cinema": "Cines Renoir Plaza de España",
-    "date": "2026-11-05",
-    "movie": "TIEMPOS DE ILUSIÓN",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "French",
     "time": "22:15",
     "booking_url": "https://www.pillalas.com/pase/1095042/",
     "projection_type": "Movie",
@@ -12205,6 +12127,19 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-10-27 16:18:10"
+  },
+  {
+    "cinema": "Cines Renoir Princesa",
+    "date": "2026-11-05",
+    "movie": "Sentido y sensibilidad",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "18:35",
+    "booking_url": "https://www.pillalas.com/pase/1095049/",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-11-03 14:40:07"
   },
   {
     "cinema": "Cines Renoir Princesa",
