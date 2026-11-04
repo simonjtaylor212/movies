@@ -1,23 +1,23 @@
-Starting Scraper - Local time is 2026-11-03 21:47:30 CET
+Starting Scraper - Local time is 2026-11-04 02:02:38 CET
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
-Error fetching Yelmo malaga: Expecting value: line 1 column 1 (char 0)
+Yelmo malaga returned status code 403
   Fetching Yelmo madrid...
-Error fetching Yelmo madrid: Expecting value: line 1 column 1 (char 0)
+Yelmo madrid returned status code 403
   Fetching Yelmo barcelona...
-Error fetching Yelmo barcelona: Expecting value: line 1 column 1 (char 0)
+Yelmo barcelona returned status code 403
 Yelmo scraped: found 0 VOSE sessions.
 Warning: yelmo scraper returned 0 showings. Using fallback data.
 Recovered 407 yelmo showings from previous run.
 Scraping Cine Albéniz...
 Stopping Cine Albéniz scrape after 5 consecutive empty days.
-Cine Albéniz scraped: found 26 VOSE sessions.
+Cine Albéniz scraped: found 17 VOSE sessions.
 Scraping Kinépolis Granada & Nevada...
-Kinépolis Granada & Nevada: Scraped 252 VOSE sessions.
+Kinépolis Granada & Nevada: Scraped 247 VOSE sessions.
 Scraping Cines Renoir...
-Cines Renoir: Scraped 551 VOSE sessions.
+Cines Renoir: Scraped 487 VOSE sessions.
 Scraping Cines Golem...
-Cines Golem Madrid: Scraped 15 VOSE sessions.
+Cines Golem Madrid: Scraped 55 VOSE sessions.
 Scraping Cinesa (Madrid & Barcelona)...
 Attempting Cinesa auth token extraction via Playwright...
 Error: Could not retrieve Cinesa authentication token.
@@ -26,21 +26,20 @@ Recovered 646 cinesa showings from previous run.
 Scraping Ocine Serrallo...
 Ocine Serrallo: Scraped 1 sessions.
 Scraping mk2 Cinesur...
-  mk2 Cinesur Miramar: found 67 sessions.
-  mk2 Cinesur El Ingenio: found 29 sessions.
+  mk2 Cinesur Miramar: found 66 sessions.
+  mk2 Cinesur El Ingenio: found 28 sessions.
   mk2 Cinesur Málaga Nostrum: found 35 sessions.
-mk2 Cinesur scraped: found 131 VOSE sessions.
+mk2 Cinesur scraped: found 129 VOSE sessions.
 original language not found for 1 movies in Cinesa chain
 original language not found for 15 movies in Cinesur chain
 original language not found for 2 movies in Golem chain
 original language not found for 3 movies in Kinépolis chain
 original language not found for 1 movies in Ocine chain
-Updated movie_title_translations.json
-Successfully generated api/v1/showtimes.json with 2029 listings.
-Appended 417 new showings to new_showtimes.json
+Successfully generated api/v1/showtimes.json with 1959 listings.
+Appended 42 new showings to new_showtimes.json
 
 Resolving missing movie title translations...
-Found 61 movies without original names.
+Found 57 movies without original names.
 No TMDB_API_KEY detected. Using keyless TMDB scraper and Wikidata fallbacks.
 
 Searching for: '20 Años del MET en cines - Grabado MET 26-27'
@@ -107,10 +106,6 @@ Searching for: 'El precio de la red'
     (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=El%20precio%20de%20la%20red)
   -> Could not resolve original name for 'El precio de la red'
 
-Searching for: 'George Michael: The Faith Tour'
-    (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=George%20Michael%3A%20The%20Faith%20Tour)
-  -> Found via Wikidata: 'George Michael: The Faith Tour'
-
 Searching for: 'Harry Potter y La Piedra Filosofal 25th Aniv)'
     (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=Harry%20Potter%20y%20La%20Piedra%20Filosofal%2025th%20Aniv%29)
   -> Could not resolve original name for 'Harry Potter y La Piedra Filosofal 25th Aniv)'
@@ -163,10 +158,6 @@ Searching for: 'La casa del bosque 2'
     (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=La%20casa%20del%20bosque%202)
   -> Could not resolve original name for 'La casa del bosque 2'
 
-Searching for: 'Los Miserables'
-    (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=Los%20Miserables)
-  -> Found via Wikidata: 'Les Misérables'
-
 Searching for: 'Los juegos del hambre: Amanecer en la cosecha'
     (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=Los%20juegos%20del%20hambre%3A%20Amanecer%20en%20la%20cosecha)
   -> Could not resolve original name for 'Los juegos del hambre: Amanecer en la cosecha'
@@ -206,14 +197,6 @@ Searching for: 'Preestreno a ciegas 17 septiembre 2026'
 Searching for: 'RASHOMON [WILDER CINEMA]'
     (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=RASHOMON%20%5BWILDER%20CINEMA%5D)
   -> Could not resolve original name for 'RASHOMON [WILDER CINEMA]'
-
-Searching for: 'Ramayana'
-    (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=Ramayana)
-  -> Found via Wikidata: 'रामायण'
-
-Searching for: 'SACAMANTECAS'
-    (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=SACAMANTECAS)
-  -> Found via Wikidata: 'Sacamantecas'
 
 Searching for: 'SECRET FLASHBACK (19 Octubre)'
     (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=SECRET%20FLASHBACK)
@@ -287,4 +270,4 @@ Searching for: 'es GHOST: 2 Big To Rig'
     (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=es%20GHOST%3A%202%20Big%20To%20Rig)
   -> Could not resolve original name for 'es GHOST: 2 Big To Rig'
 
-Successfully updated 4 translation(s) in movie_title_translations.json.
+No translations were updated.
