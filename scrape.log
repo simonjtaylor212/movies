@@ -1,4 +1,4 @@
-Starting Scraper - Local time is 2026-11-04 11:29:50 CET
+Starting Scraper - Local time is 2026-11-04 20:29:38 CET
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
 Error fetching Yelmo malaga: Expecting value: line 1 column 1 (char 0)
@@ -13,11 +13,11 @@ Scraping Cine Albéniz...
 Stopping Cine Albéniz scrape after 5 consecutive empty days.
 Cine Albéniz scraped: found 17 VOSE sessions.
 Scraping Kinépolis Granada & Nevada...
-Kinépolis Granada & Nevada: Scraped 247 VOSE sessions.
+Kinépolis Granada & Nevada: Scraped 258 VOSE sessions.
 Scraping Cines Renoir...
-Cines Renoir: Scraped 533 VOSE sessions.
+Cines Renoir: Scraped 534 VOSE sessions.
 Scraping Cines Golem...
-Cines Golem Madrid: Scraped 55 VOSE sessions.
+Cines Golem Madrid: Scraped 51 VOSE sessions.
 Scraping Cinesa (Madrid & Barcelona)...
 Attempting Cinesa auth token extraction via Playwright...
 Error: Could not retrieve Cinesa authentication token.
@@ -26,17 +26,17 @@ Recovered 632 cinesa showings from previous run.
 Scraping Ocine Serrallo...
 Ocine Serrallo: Scraped 1 sessions.
 Scraping mk2 Cinesur...
-  mk2 Cinesur Miramar: found 86 sessions.
-  mk2 Cinesur El Ingenio: found 28 sessions.
+  mk2 Cinesur Miramar: found 84 sessions.
+  mk2 Cinesur El Ingenio: found 29 sessions.
   mk2 Cinesur Málaga Nostrum: found 33 sessions.
-mk2 Cinesur scraped: found 147 VOSE sessions.
+mk2 Cinesur scraped: found 146 VOSE sessions.
 original language not found for 1 movies in Cinesa chain
 original language not found for 15 movies in Cinesur chain
 original language not found for 2 movies in Golem chain
 original language not found for 3 movies in Kinépolis chain
 original language not found for 1 movies in Ocine chain
-Successfully generated api/v1/showtimes.json with 2023 listings.
-Appended 68 new showings to new_showtimes.json
+Successfully generated api/v1/showtimes.json with 2030 listings.
+Appended 14 new showings to new_showtimes.json
 
 Resolving missing movie title translations...
 Found 57 movies without original names.
@@ -260,7 +260,7 @@ Searching for: 'WHAT A FEELING [CINE CON ORGULLO RENOIR]'
 
 Searching for: 'Wildwood: El bosque salvaje'
     (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=Wildwood%3A%20El%20bosque%20salvaje)
-  -> Could not resolve original name for 'Wildwood: El bosque salvaje'
+  -> Found via Wikidata: 'Wildwood'
 
 Searching for: 'XXVII Ciclo de cine foro: La historia de Souleymane'
     (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=XXVII%20Ciclo%20de%20cine%20foro%3A%20La%20historia%20de%20Souleymane)
@@ -270,4 +270,4 @@ Searching for: 'es GHOST: 2 Big To Rig'
     (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=es%20GHOST%3A%202%20Big%20To%20Rig)
   -> Could not resolve original name for 'es GHOST: 2 Big To Rig'
 
-No translations were updated.
+Successfully updated 1 translation(s) in movie_title_translations.json.
