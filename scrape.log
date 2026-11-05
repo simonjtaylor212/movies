@@ -1,4 +1,4 @@
-Starting Scraper - Local time is 2026-11-05 02:18:16 CET
+Starting Scraper - Local time is 2026-11-05 11:22:24 CET
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
 Error fetching Yelmo malaga: Expecting value: line 1 column 1 (char 0)
@@ -8,7 +8,7 @@ Error fetching Yelmo madrid: Expecting value: line 1 column 1 (char 0)
 Error fetching Yelmo barcelona: Expecting value: line 1 column 1 (char 0)
 Yelmo scraped: found 0 VOSE sessions.
 Warning: yelmo scraper returned 0 showings. Using fallback data.
-Recovered 391 yelmo showings from previous run.
+Recovered 386 yelmo showings from previous run.
 Scraping Cine Albéniz...
 Stopping Cine Albéniz scrape after 5 consecutive empty days.
 Cine Albéniz scraped: found 8 VOSE sessions.
@@ -36,7 +36,7 @@ original language not found for 2 movies in Golem chain
 original language not found for 3 movies in Kinépolis chain
 original language not found for 1 movies in Ocine chain
 Successfully generated api/v1/showtimes.json with 1943 listings.
-Appended 7 new showings to new_showtimes.json
+No new showings found.
 
 Resolving missing movie title translations...
 Found 56 movies without original names.
