@@ -861898,5 +861898,57 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-11-06 02:22:44"
+  },
+  {
+    "cinema": "mk2 Cinesur Miramar",
+    "date": "2026-11-06",
+    "movie": "George Michael: The Faith Tour",
+    "format": "2D",
+    "language": "Original con subtítulos (VOSE)",
+    "original_language": "English",
+    "time": "21:30",
+    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/146321/george-michael-the-faith-tour?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-11-06 11:24:42"
+  },
+  {
+    "cinema": "mk2 Cinesur Miramar",
+    "date": "2026-11-07",
+    "movie": "George Michael: The Faith Tour",
+    "format": "2D",
+    "language": "Original con subtítulos (VOSE)",
+    "original_language": "English",
+    "time": "21:30",
+    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/146322/george-michael-the-faith-tour?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-11-06 11:24:42"
+  },
+  {
+    "cinema": "mk2 Cinesur Miramar",
+    "date": "2026-11-08",
+    "movie": "George Michael: The Faith Tour",
+    "format": "2D",
+    "language": "Original con subtítulos (VOSE)",
+    "original_language": "English",
+    "time": "21:30",
+    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/146323/george-michael-the-faith-tour?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-11-06 11:24:42"
+  },
+  {
+    "cinema": "mk2 Cinesur Miramar",
+    "date": "2026-11-11",
+    "movie": "George Michael: The Faith Tour",
+    "format": "2D",
+    "language": "Original con subtítulos (VOSE)",
+    "original_language": "English",
+    "time": "21:30",
+    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/146324/george-michael-the-faith-tour?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-11-06 11:24:42"
   }
 ]
