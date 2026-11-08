@@ -4387,34 +4387,8 @@
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
     "original_language": "English",
-    "time": "12:20",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/146143/el-gato-con-sombrero?mode=widget&change=0&ref=750&forceproxy=1",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-11-04 11:29:50"
-  },
-  {
-    "cinema": "mk2 Cinesur Miramar",
-    "date": "2026-11-08",
-    "movie": "El Gato con Sombrero",
-    "format": "2D",
-    "language": "Original con subtítulos (VOSE)",
-    "original_language": "English",
     "time": "16:00",
     "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/146158/el-gato-con-sombrero?mode=widget&change=0&ref=750&forceproxy=1",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-11-04 11:29:50"
-  },
-  {
-    "cinema": "mk2 Cinesur Miramar",
-    "date": "2026-11-08",
-    "movie": "Los Miserables",
-    "format": "2D",
-    "language": "Original con subtítulos (VOSE)",
-    "original_language": "French",
-    "time": "11:50",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/146145/los-miserables?mode=widget&change=0&ref=750&forceproxy=1",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-11-04 11:29:50"
@@ -5328,19 +5302,6 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-11-04 11:29:50"
-  },
-  {
-    "cinema": "mk2 Cinesur El Ingenio",
-    "date": "2026-11-08",
-    "movie": "El Gato con Sombrero",
-    "format": "2D",
-    "language": "Original con subtítulos (VOSE)",
-    "original_language": "English",
-    "time": "12:00",
-    "booking_url": "https://cine.entradas.com/cine/velez-malaga/cinesur-el-ingenio/evento/126416/el-gato-con-sombrero?mode=widget&change=0&ref=750&forceproxy=1",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-11-04 20:29:38"
   },
   {
     "cinema": "mk2 Cinesur El Ingenio",
