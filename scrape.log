@@ -1,4 +1,4 @@
-Starting Scraper - Local time is 2026-11-08 20:20:09 CET
+Starting Scraper - Local time is 2026-11-09 01:32:53 CET
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
 Error fetching Yelmo malaga: Expecting value: line 1 column 1 (char 0)
@@ -10,21 +10,21 @@ Yelmo scraped: found 0 VOSE sessions.
 Warning: yelmo scraper returned 0 showings. Using fallback data.
 Recovered 314 yelmo showings from previous run.
 Scraping Cine Albéniz...
-Albéniz returned status code 403 for 2026-11-08
 Albéniz returned status code 403 for 2026-11-09
 Albéniz returned status code 403 for 2026-11-10
 Albéniz returned status code 403 for 2026-11-11
 Albéniz returned status code 403 for 2026-11-12
+Albéniz returned status code 403 for 2026-11-13
 Stopping Cine Albéniz scrape after 5 consecutive empty days.
 Cine Albéniz scraped: found 0 VOSE sessions.
 Warning: albeniz scraper returned 0 showings. Using fallback data.
 Recovered 23 albeniz showings from previous run.
 Scraping Kinépolis Granada & Nevada...
-Kinépolis Granada & Nevada: Scraped 221 VOSE sessions.
+Kinépolis Granada & Nevada: Scraped 208 VOSE sessions.
 Scraping Cines Renoir...
-Cines Renoir: Scraped 294 VOSE sessions.
+Cines Renoir: Scraped 233 VOSE sessions.
 Scraping Cines Golem...
-Cines Golem Madrid: Scraped 30 VOSE sessions.
+Cines Golem Madrid: Scraped 28 VOSE sessions.
 Scraping Cinesa (Madrid & Barcelona)...
 Attempting Cinesa auth token extraction via Playwright...
 Error: Could not retrieve Cinesa authentication token.
@@ -35,15 +35,15 @@ Ocine Serrallo: Scraped 0 sessions.
 Warning: ocine scraper returned 0 showings. Using fallback data.
 Recovered 0 ocine showings from previous run.
 Scraping mk2 Cinesur...
-  mk2 Cinesur Miramar: found 69 sessions.
+  mk2 Cinesur Miramar: found 68 sessions.
   mk2 Cinesur El Ingenio: found 25 sessions.
   mk2 Cinesur Málaga Nostrum: found 33 sessions.
-mk2 Cinesur scraped: found 127 VOSE sessions.
+mk2 Cinesur scraped: found 126 VOSE sessions.
 original language not found for 13 movies in Cinesa chain
 original language not found for 14 movies in Cinesur chain
 original language not found for 1 movies in Golem chain
 original language not found for 2 movies in Kinépolis chain
-Successfully generated api/v1/showtimes.json with 2475 listings.
+Successfully generated api/v1/showtimes.json with 2241 listings.
 No new showings found.
 
 Resolving missing movie title translations...
