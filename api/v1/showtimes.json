@@ -4045,19 +4045,6 @@
   {
     "cinema": "mk2 Cinesur Miramar",
     "date": "2026-11-10",
-    "movie": "Los Miserables",
-    "format": "2D",
-    "language": "Original con subtítulos (VOSE)",
-    "original_language": "French",
-    "time": "15:45",
-    "booking_url": "https://cine.entradas.com/cine/fuengirola/cinesur-miramar-fuengirola-3d/evento/146222/los-miserables?mode=widget&change=0&ref=750&forceproxy=1",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-11-04 11:29:50"
-  },
-  {
-    "cinema": "mk2 Cinesur Miramar",
-    "date": "2026-11-10",
     "movie": "Centauros del desierto",
     "format": "2D",
     "language": "Original con subtítulos (VOSE)",
@@ -6644,19 +6631,6 @@
   },
   {
     "cinema": "Kinépolis Madrid Diversia",
-    "date": "2027-01-01",
-    "movie": "Vengadores: Doomsday",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "17:30",
-    "booking_url": "https://kinepolis.es/direct-vista-redirect/136574/0/KALCO/0",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-11-01 13:42:33"
-  },
-  {
-    "cinema": "Kinépolis Madrid Diversia",
     "date": "2027-01-03",
     "movie": "Vengadores: Doomsday",
     "format": "2D",
@@ -6680,6 +6654,19 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-11-05 20:30:57"
+  },
+  {
+    "cinema": "Kinépolis Madrid Diversia",
+    "date": "2026-11-20",
+    "movie": "Los juegos del hambre:Amanecer en la cose",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "19:30",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/136992/0/KALCO/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-11-10 15:47:15"
   },
   {
     "cinema": "Kinépolis Madrid Ciudad de la Imagen",
@@ -8253,6 +8240,19 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-11-06 02:22:44"
+  },
+  {
+    "cinema": "Kinépolis Madrid Diversia",
+    "date": "2027-01-01",
+    "movie": "Vengadores: Doomsday",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "17:30",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/136574/0/KALCO/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-11-01 13:42:33"
   },
   {
     "cinema": "Cines Renoir Plaza de España",
@@ -10580,71 +10580,6 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-11-04 02:02:38"
-  },
-  {
-    "cinema": "Cines Golem Madrid",
-    "date": "2026-11-11",
-    "movie": "SACAMANTECAS",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "Spanish",
-    "time": "16:10",
-    "booking_url": "https://www.golem.es/golem/urlcheck.php?idCine=8&perfCode=100678&eventCode=116768",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-11-06 19:54:55"
-  },
-  {
-    "cinema": "Cines Golem Madrid",
-    "date": "2026-11-11",
-    "movie": "SACAMANTECAS",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "Spanish",
-    "time": "18:15",
-    "booking_url": "https://www.golem.es/golem/urlcheck.php?idCine=8&perfCode=100677&eventCode=116768",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-11-06 19:54:55"
-  },
-  {
-    "cinema": "Cines Golem Madrid",
-    "date": "2026-11-11",
-    "movie": "SACAMANTECAS",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "Spanish",
-    "time": "20:15",
-    "booking_url": "https://www.golem.es/golem/urlcheck.php?idCine=8&perfCode=100676&eventCode=116768",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-11-06 19:54:55"
-  },
-  {
-    "cinema": "Cines Golem Madrid",
-    "date": "2026-11-11",
-    "movie": "LA VIDA DE UNA MUJER",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "",
-    "time": "18:00",
-    "booking_url": "https://www.golem.es/golem/urlcheck.php?idCine=8&perfCode=100666&eventCode=113783",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-11-06 19:54:55"
-  },
-  {
-    "cinema": "Cines Golem Madrid",
-    "date": "2026-11-11",
-    "movie": "Digger",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "16:15",
-    "booking_url": "https://www.golem.es/golem/urlcheck.php?idCine=8&perfCode=100674&eventCode=105052",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-11-06 19:54:55"
   },
   {
     "cinema": "Cines Golem Madrid",
