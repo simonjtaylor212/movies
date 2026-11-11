@@ -1,4 +1,4 @@
-Starting Scraper - Local time is 2026-11-10 22:12:07 CET
+Starting Scraper - Local time is 2026-11-11 05:48:00 CET
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
 Error fetching Yelmo malaga: Expecting value: line 1 column 1 (char 0)
@@ -10,21 +10,21 @@ Yelmo scraped: found 0 VOSE sessions.
 Warning: yelmo scraper returned 0 showings. Using fallback data.
 Recovered 299 yelmo showings from previous run.
 Scraping Cine Albéniz...
-Albéniz returned status code 404 for 2026-11-10
 Albéniz returned status code 404 for 2026-11-11
 Albéniz returned status code 404 for 2026-11-12
 Albéniz returned status code 404 for 2026-11-13
 Albéniz returned status code 404 for 2026-11-14
+Albéniz returned status code 404 for 2026-11-15
 Stopping Cine Albéniz scrape after 5 consecutive empty days.
 Cine Albéniz scraped: found 0 VOSE sessions.
 Warning: albeniz scraper returned 0 showings. Using fallback data.
 Recovered 11 albeniz showings from previous run.
 Scraping Kinépolis Granada & Nevada...
-Kinépolis Granada & Nevada: Scraped 250 VOSE sessions.
+Kinépolis Granada & Nevada: Scraped 278 VOSE sessions.
 Scraping Cines Renoir...
-Cines Renoir: Scraped 607 VOSE sessions.
+Cines Renoir: Scraped 583 VOSE sessions.
 Scraping Cines Golem...
-Cines Golem Madrid: Scraped 11 VOSE sessions.
+Cines Golem Madrid: Scraped 42 VOSE sessions.
 Scraping Cinesa (Madrid & Barcelona)...
 Attempting Cinesa auth token extraction via Playwright...
 Error: Could not retrieve Cinesa authentication token.
@@ -40,13 +40,12 @@ mk2 Cinesur scraped: found 164 VOSE sessions.
 original language not found for 12 movies in Cinesa chain
 original language not found for 13 movies in Cinesur chain
 original language not found for 2 movies in Golem chain
-original language not found for 2 movies in Kinépolis chain
-Updated movie_title_translations.json
-Successfully generated api/v1/showtimes.json with 2552 listings.
-Appended 532 new showings to new_showtimes.json
+original language not found for 1 movies in Kinépolis chain
+Successfully generated api/v1/showtimes.json with 2492 listings.
+Appended 103 new showings to new_showtimes.json
 
 Resolving missing movie title translations...
-Found 70 movies without original names.
+Found 67 movies without original names.
 No TMDB_API_KEY detected. Using keyless TMDB scraper and Wikidata fallbacks.
 
 Searching for: '20 Años del MET en cines - Grabado MET 26-27'
@@ -152,10 +151,6 @@ Searching for: 'LA MUERTE DE ROBIN HOOD [WILDER CINEMA]'
 Searching for: 'LA PRINCESA PROMETIDA [WILDER CINEMA]'
     (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=LA%20PRINCESA%20PROMETIDA%20%5BWILDER%20CINEMA%5D)
   -> Could not resolve original name for 'LA PRINCESA PROMETIDA [WILDER CINEMA]'
-
-Searching for: 'LA VIOLINISTA'
-    (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=LA%20VIOLINISTA)
-  -> Found via Wikidata: 'The Violinist'
 
 Searching for: 'LADRÓN DE BICICLETAS [WILDER CINEMA]'
     (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=LADR%C3%93N%20DE%20BICICLETAS%20%5BWILDER%20CINEMA%5D)
@@ -293,10 +288,6 @@ Searching for: 'VIAJE AL PAÍS DE LOS BLANCOS [PROYECTO VIRIDIANA]'
     (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=VIAJE%20AL%20PA%C3%8DS%20DE%20LOS%20BLANCOS%20%5BPROYECTO%20VIRIDIANA%5D)
   -> Could not resolve original name for 'VIAJE AL PAÍS DE LOS BLANCOS [PROYECTO VIRIDIANA]'
 
-Searching for: 'VICTORIAN PSYCHO'
-    (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=VICTORIAN%20PSYCHO)
-  -> Found via Wikidata: 'Victorian Psycho'
-
 Searching for: 'VOSEThe Devils'
     (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=VOSEThe%20Devils)
   -> Could not resolve original name for 'VOSEThe Devils'
@@ -317,10 +308,6 @@ Searching for: 'Washington. El origen de un líder'
     (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=Washington.%20El%20origen%20de%20un%20l%C3%ADder)
   -> Could not resolve original name for 'Washington. El origen de un líder'
 
-Searching for: 'Wild Horse Nine'
-    (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=Wild%20Horse%20Nine)
-  -> Found via Wikidata: 'Wild Horse Nine'
-
 Searching for: 'XXVII Ciclo de cine foro: La historia de Souleymane'
     (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=XXVII%20Ciclo%20de%20cine%20foro%3A%20La%20historia%20de%20Souleymane)
   -> Could not resolve original name for 'XXVII Ciclo de cine foro: La historia de Souleymane'
@@ -329,4 +316,4 @@ Searching for: 'es GHOST: 2 Big To Rig'
     (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=es%20GHOST%3A%202%20Big%20To%20Rig)
   -> Could not resolve original name for 'es GHOST: 2 Big To Rig'
 
-Successfully updated 3 translation(s) in movie_title_translations.json.
+No translations were updated.
