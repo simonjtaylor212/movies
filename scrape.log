@@ -1,4 +1,4 @@
-Starting Scraper - Local time is 2026-11-11 05:48:00 CET
+Starting Scraper - Local time is 2026-11-11 14:36:16 CET
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
 Error fetching Yelmo malaga: Expecting value: line 1 column 1 (char 0)
@@ -18,31 +18,31 @@ Albéniz returned status code 404 for 2026-11-15
 Stopping Cine Albéniz scrape after 5 consecutive empty days.
 Cine Albéniz scraped: found 0 VOSE sessions.
 Warning: albeniz scraper returned 0 showings. Using fallback data.
-Recovered 11 albeniz showings from previous run.
+Recovered 6 albeniz showings from previous run.
 Scraping Kinépolis Granada & Nevada...
-Kinépolis Granada & Nevada: Scraped 278 VOSE sessions.
+Kinépolis Granada & Nevada: Scraped 265 VOSE sessions.
 Scraping Cines Renoir...
-Cines Renoir: Scraped 583 VOSE sessions.
+Cines Renoir: Scraped 597 VOSE sessions.
 Scraping Cines Golem...
 Cines Golem Madrid: Scraped 42 VOSE sessions.
 Scraping Cinesa (Madrid & Barcelona)...
 Attempting Cinesa auth token extraction via Playwright...
 Error: Could not retrieve Cinesa authentication token.
 Warning: cinesa scraper returned 0 showings. Using fallback data.
-Recovered 1209 cinesa showings from previous run.
+Recovered 1119 cinesa showings from previous run.
 Scraping Ocine Serrallo...
 Ocine Serrallo: Scraped 1 sessions.
 Scraping mk2 Cinesur...
   mk2 Cinesur Miramar: found 99 sessions.
   mk2 Cinesur El Ingenio: found 32 sessions.
-  mk2 Cinesur Málaga Nostrum: found 33 sessions.
-mk2 Cinesur scraped: found 164 VOSE sessions.
+  mk2 Cinesur Málaga Nostrum: found 31 sessions.
+mk2 Cinesur scraped: found 162 VOSE sessions.
 original language not found for 12 movies in Cinesa chain
 original language not found for 13 movies in Cinesur chain
 original language not found for 2 movies in Golem chain
 original language not found for 1 movies in Kinépolis chain
-Successfully generated api/v1/showtimes.json with 2492 listings.
-Appended 103 new showings to new_showtimes.json
+Successfully generated api/v1/showtimes.json with 2491 listings.
+Appended 16 new showings to new_showtimes.json
 
 Resolving missing movie title translations...
 Found 67 movies without original names.
