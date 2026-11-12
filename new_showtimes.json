@@ -883491,5 +883491,31 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-11-12 06:50:18"
+  },
+  {
+    "cinema": "Kinépolis Granada",
+    "date": "2026-11-15",
+    "movie": "Wild Horse Nine",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "22:15",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/175428/0/KGRAN/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-11-12 15:39:43"
+  },
+  {
+    "cinema": "Kinépolis Madrid Diversia",
+    "date": "2026-11-13",
+    "movie": "Wild Horse Nine",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "22:10",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/136876/0/KALCO/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-11-12 15:39:43"
   }
 ]
