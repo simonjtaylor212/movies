@@ -883413,5 +883413,83 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-11-11 22:44:30"
+  },
+  {
+    "cinema": "Cines Golem Madrid",
+    "date": "2026-11-19",
+    "movie": "QueerCineMad: Taiga",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "",
+    "time": "22:00",
+    "booking_url": "https://www.golem.es/golem/urlcheck.php?idCine=8&perfCode=100724&eventCode=116932",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-11-12 06:50:18"
+  },
+  {
+    "cinema": "Cines Golem Madrid",
+    "date": "2026-11-19",
+    "movie": "Wild Horse Nine",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "17:00",
+    "booking_url": "https://www.golem.es/golem/urlcheck.php?idCine=8&perfCode=100824&eventCode=112974",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-11-12 06:50:18"
+  },
+  {
+    "cinema": "Cines Golem Madrid",
+    "date": "2026-11-19",
+    "movie": "Wild Horse Nine",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "19:30",
+    "booking_url": "https://www.golem.es/golem/urlcheck.php?idCine=8&perfCode=100830&eventCode=112974",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-11-12 06:50:18"
+  },
+  {
+    "cinema": "Cines Golem Madrid",
+    "date": "2026-11-19",
+    "movie": "Wild Horse Nine",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "22:00",
+    "booking_url": "https://www.golem.es/golem/urlcheck.php?idCine=8&perfCode=100831&eventCode=112974",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-11-12 06:50:18"
+  },
+  {
+    "cinema": "Cines Golem Madrid",
+    "date": "2026-11-19",
+    "movie": "SACAMANTECAS",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "Spanish",
+    "time": "16:30",
+    "booking_url": "https://www.golem.es/golem/urlcheck.php?idCine=8&perfCode=100832&eventCode=116768",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-11-12 06:50:18"
+  },
+  {
+    "cinema": "Cines Golem Madrid",
+    "date": "2026-11-19",
+    "movie": "SACAMANTECAS",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "Spanish",
+    "time": "20:15",
+    "booking_url": "https://www.golem.es/golem/urlcheck.php?idCine=8&perfCode=100836&eventCode=116768",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-11-12 06:50:18"
   }
 ]
