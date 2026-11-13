@@ -884128,5 +884128,70 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-11-13 14:57:40"
+  },
+  {
+    "cinema": "mk2 Cinesur El Ingenio",
+    "date": "2026-11-17",
+    "movie": "Scrooge y los fantasmas de la Navidad",
+    "format": "2D",
+    "language": "Original con subtítulos (VOSE)",
+    "original_language": "English",
+    "time": "16:30",
+    "booking_url": "https://cine.entradas.com/cine/velez-malaga/cinesur-el-ingenio/evento/126635/scrooge-y-los-fantasmas-de-la-navidad?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-11-13 22:11:23"
+  },
+  {
+    "cinema": "mk2 Cinesur El Ingenio",
+    "date": "2026-11-17",
+    "movie": "Wild Horse Nine",
+    "format": "2D",
+    "language": "Original con subtítulos (VOSE)",
+    "original_language": "English",
+    "time": "20:15",
+    "booking_url": "https://cine.entradas.com/cine/velez-malaga/cinesur-el-ingenio/evento/126702/wild-horse-nine?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-11-13 22:11:23"
+  },
+  {
+    "cinema": "mk2 Cinesur El Ingenio",
+    "date": "2026-11-18",
+    "movie": "Scrooge y los fantasmas de la Navidad",
+    "format": "2D",
+    "language": "Original con subtítulos (VOSE)",
+    "original_language": "English",
+    "time": "16:30",
+    "booking_url": "https://cine.entradas.com/cine/velez-malaga/cinesur-el-ingenio/evento/126660/scrooge-y-los-fantasmas-de-la-navidad?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-11-13 22:11:23"
+  },
+  {
+    "cinema": "mk2 Cinesur El Ingenio",
+    "date": "2026-11-19",
+    "movie": "Scrooge y los fantasmas de la Navidad",
+    "format": "2D",
+    "language": "Original con subtítulos (VOSE)",
+    "original_language": "English",
+    "time": "16:30",
+    "booking_url": "https://cine.entradas.com/cine/velez-malaga/cinesur-el-ingenio/evento/126686/scrooge-y-los-fantasmas-de-la-navidad?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-11-13 22:11:23"
+  },
+  {
+    "cinema": "mk2 Cinesur El Ingenio",
+    "date": "2026-11-19",
+    "movie": "Wild Horse Nine",
+    "format": "2D",
+    "language": "Original con subtítulos (VOSE)",
+    "original_language": "English",
+    "time": "20:15",
+    "booking_url": "https://cine.entradas.com/cine/velez-malaga/cinesur-el-ingenio/evento/126703/wild-horse-nine?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-11-13 22:11:23"
   }
 ]
