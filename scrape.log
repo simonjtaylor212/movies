@@ -1,30 +1,30 @@
-Starting Scraper - Local time is 2026-11-12 22:44:03 CET
+Starting Scraper - Local time is 2026-11-13 06:10:50 CET
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
-Error fetching Yelmo malaga: Expecting value: line 1 column 1 (char 0)
+Yelmo malaga returned status code 403
   Fetching Yelmo madrid...
-Error fetching Yelmo madrid: Expecting value: line 1 column 1 (char 0)
+Yelmo madrid returned status code 403
   Fetching Yelmo barcelona...
-Error fetching Yelmo barcelona: Expecting value: line 1 column 1 (char 0)
+Yelmo barcelona returned status code 403
 Yelmo scraped: found 0 VOSE sessions.
 Warning: yelmo scraper returned 0 showings. Using fallback data.
 Recovered 299 yelmo showings from previous run.
 Scraping Cine Albéniz...
-Albéniz returned status code 404 for 2026-11-12
 Albéniz returned status code 404 for 2026-11-13
 Albéniz returned status code 404 for 2026-11-14
 Albéniz returned status code 404 for 2026-11-15
 Albéniz returned status code 404 for 2026-11-16
+Albéniz returned status code 404 for 2026-11-17
 Stopping Cine Albéniz scrape after 5 consecutive empty days.
 Cine Albéniz scraped: found 0 VOSE sessions.
 Warning: albeniz scraper returned 0 showings. Using fallback data.
 Recovered 0 albeniz showings from previous run.
 Scraping Kinépolis Granada & Nevada...
-Kinépolis Granada & Nevada: Scraped 290 VOSE sessions.
+Kinépolis Granada & Nevada: Scraped 296 VOSE sessions.
 Scraping Cines Renoir...
-Cines Renoir: Scraped 531 VOSE sessions.
+Cines Renoir: Scraped 478 VOSE sessions.
 Scraping Cines Golem...
-Cines Golem Madrid: Scraped 30 VOSE sessions.
+Cines Golem Madrid: Scraped 31 VOSE sessions.
 Scraping Cinesa (Madrid & Barcelona)...
 Attempting Cinesa auth token extraction via Playwright...
 Error: Could not retrieve Cinesa authentication token.
@@ -39,11 +39,10 @@ Scraping mk2 Cinesur...
 mk2 Cinesur scraped: found 155 VOSE sessions.
 original language not found for 12 movies in Cinesa chain
 original language not found for 13 movies in Cinesur chain
-original language not found for 1 movies in Golem chain
-original language not found for 1 movies in Kinépolis chain
+original language not found for 2 movies in Golem chain
 Updated movie_title_translations.json
-Successfully generated api/v1/showtimes.json with 2327 listings.
-Appended 23 new showings to new_showtimes.json
+Successfully generated api/v1/showtimes.json with 2184 listings.
+Appended 13 new showings to new_showtimes.json
 
 Resolving missing movie title translations...
 Found 70 movies without original names.
@@ -60,6 +59,10 @@ Searching for: 'AFTERSUN [WILDER CINEMA]'
 Searching for: 'AMERICAN PSYCHO [WILDER CINEMA]'
     (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=AMERICAN%20PSYCHO%20%5BWILDER%20CINEMA%5D)
   -> Could not resolve original name for 'AMERICAN PSYCHO [WILDER CINEMA]'
+
+Searching for: 'Ahora los suegros son ellos'
+    (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=Ahora%20los%20suegros%20son%20ellos)
+  -> Could not resolve original name for 'Ahora los suegros son ellos'
 
 Searching for: 'BTS World Tour 'Arirang' in Jakarta'
     (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=BTS%20World%20Tour%20%27Arirang%27%20in%20Jakarta)
@@ -80,10 +83,6 @@ Searching for: 'CUENTA CONMIGO [WILDER CINEMA]'
 Searching for: 'CUENTOS DE TOKIO [WILDER CINEMA]'
     (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=CUENTOS%20DE%20TOKIO%20%5BWILDER%20CINEMA%5D)
   -> Could not resolve original name for 'CUENTOS DE TOKIO [WILDER CINEMA]'
-
-Searching for: 'Club Kid'
-    (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=Club%20Kid)
-  -> Found via Wikidata: 'Club Kid'
 
 Searching for: 'Concert: Rammstein: Live in Mexico City'
     (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=Concert%3A%20Rammstein%3A%20Live%20in%20Mexico%20City)
@@ -140,10 +139,6 @@ Searching for: 'Harry Potter y La Piedra Filosofal 25th Aniv)'
 Searching for: 'Harry Potter y la Piedra Filosofal 25 Aniversario'
     (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=Harry%20Potter%20y%20la%20Piedra%20Filosofal%2025%20Aniversario)
   -> Could not resolve original name for 'Harry Potter y la Piedra Filosofal 25 Aniversario'
-
-Searching for: 'Hechizo: Bienvenidos a Hexe'
-    (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=Hechizo%3A%20Bienvenidos%20a%20Hexe)
-  -> Found via Wikidata: 'Hexed'
 
 Searching for: 'KEN RUSSELL'S THE DEVILS'
     (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=KEN%20RUSSELL%27S%20THE%20DEVILS)
@@ -232,6 +227,10 @@ Searching for: 'Preestreno a ciegas 13 agosto 2026'
 Searching for: 'Preestreno a ciegas 17 septiembre 2026'
     (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=Preestreno%20a%20ciegas%2017%20septiembre%202026)
   -> Could not resolve original name for 'Preestreno a ciegas 17 septiembre 2026'
+
+Searching for: 'QueerCineMad: Camp'
+    (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=QueerCineMad%3A%20Camp)
+  -> Could not resolve original name for 'QueerCineMad: Camp'
 
 Searching for: 'QueerCineMad: Taiga'
     (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=QueerCineMad%3A%20Taiga)
@@ -329,4 +328,4 @@ Searching for: 'es GHOST: 2 Big To Rig'
     (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=es%20GHOST%3A%202%20Big%20To%20Rig)
   -> Could not resolve original name for 'es GHOST: 2 Big To Rig'
 
-Successfully updated 2 translation(s) in movie_title_translations.json.
+No translations were updated.
