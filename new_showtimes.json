@@ -884193,5 +884193,18 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-11-13 22:11:23"
+  },
+  {
+    "cinema": "Cines Golem Madrid",
+    "date": "2026-11-21",
+    "movie": "QueerCineMad: Something You Should Know About Me",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "",
+    "time": "20:00",
+    "booking_url": "https://www.golem.es/golem/urlcheck.php?idCine=8&perfCode=100719&eventCode=116934",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-11-14 06:00:19"
   }
 ]

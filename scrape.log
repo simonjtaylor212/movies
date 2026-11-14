@@ -1,4 +1,4 @@
-Starting Scraper - Local time is 2026-11-13 22:11:23 CET
+Starting Scraper - Local time is 2026-11-14 06:00:19 CET
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
 Yelmo malaga returned status code 403
@@ -10,19 +10,19 @@ Yelmo scraped: found 0 VOSE sessions.
 Warning: yelmo scraper returned 0 showings. Using fallback data.
 Recovered 299 yelmo showings from previous run.
 Scraping Cine Albéniz...
-Albéniz returned status code 404 for 2026-11-13
 Albéniz returned status code 404 for 2026-11-14
 Albéniz returned status code 404 for 2026-11-15
 Albéniz returned status code 404 for 2026-11-16
 Albéniz returned status code 404 for 2026-11-17
+Albéniz returned status code 404 for 2026-11-18
 Stopping Cine Albéniz scrape after 5 consecutive empty days.
 Cine Albéniz scraped: found 0 VOSE sessions.
 Warning: albeniz scraper returned 0 showings. Using fallback data.
 Recovered 0 albeniz showings from previous run.
 Scraping Kinépolis Granada & Nevada...
-Kinépolis Granada & Nevada: Scraped 291 VOSE sessions.
+Kinépolis Granada & Nevada: Scraped 281 VOSE sessions.
 Scraping Cines Renoir...
-Cines Renoir: Scraped 478 VOSE sessions.
+Cines Renoir: Scraped 408 VOSE sessions.
 Scraping Cines Golem...
 Cines Golem Madrid: Scraped 37 VOSE sessions.
 Scraping Cinesa (Madrid & Barcelona)...
@@ -39,12 +39,13 @@ Scraping mk2 Cinesur...
 mk2 Cinesur scraped: found 154 VOSE sessions.
 original language not found for 8 movies in Cinesa chain
 original language not found for 13 movies in Cinesur chain
-original language not found for 3 movies in Golem chain
-Successfully generated api/v1/showtimes.json with 2184 listings.
-Appended 5 new showings to new_showtimes.json
+original language not found for 4 movies in Golem chain
+Updated movie_title_translations.json
+Successfully generated api/v1/showtimes.json with 2079 listings.
+Appended 1 new showings to new_showtimes.json
 
 Resolving missing movie title translations...
-Found 70 movies without original names.
+Found 71 movies without original names.
 No TMDB_API_KEY detected. Using keyless TMDB scraper and Wikidata fallbacks.
 
 Searching for: '20 Años del MET en cines - Grabado MET 26-27'
@@ -230,6 +231,10 @@ Searching for: 'Preestreno a ciegas 17 septiembre 2026'
 Searching for: 'QueerCineMad: Camp'
     (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=QueerCineMad%3A%20Camp)
   -> Could not resolve original name for 'QueerCineMad: Camp'
+
+Searching for: 'QueerCineMad: Something You Should Know About Me'
+    (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=QueerCineMad%3A%20Something%20You%20Should%20Know%20About%20Me)
+  -> Could not resolve original name for 'QueerCineMad: Something You Should Know About Me'
 
 Searching for: 'QueerCineMad: Taiga'
     (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=QueerCineMad%3A%20Taiga)
