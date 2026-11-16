@@ -884232,5 +884232,31 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-11-15 19:29:55"
+  },
+  {
+    "cinema": "Kinépolis Madrid Diversia",
+    "date": "2026-11-22",
+    "movie": "Los juegos del hambre:Amanecer en la cose",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "19:30",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/137055/0/KALCO/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-11-16 11:39:47"
+  },
+  {
+    "cinema": "Cines Golem Madrid",
+    "date": "2026-11-22",
+    "movie": "Rose",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "",
+    "time": "19:00",
+    "booking_url": "https://www.golem.es/golem/urlcheck.php?idCine=8&perfCode=100845&eventCode=116223",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-11-16 11:39:47"
   }
 ]
