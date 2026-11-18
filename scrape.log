@@ -1,4 +1,4 @@
-Starting Scraper - Local time is 2026-11-17 19:09:45 CET
+Starting Scraper - Local time is 2026-11-18 20:59:48 CET
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
 Yelmo malaga returned status code 403
@@ -10,21 +10,21 @@ Yelmo scraped: found 0 VOSE sessions.
 Warning: yelmo scraper returned 0 showings. Using fallback data.
 Recovered 287 yelmo showings from previous run.
 Scraping Cine Albéniz...
-Albéniz returned status code 404 for 2026-11-17
 Albéniz returned status code 404 for 2026-11-18
 Albéniz returned status code 404 for 2026-11-19
 Albéniz returned status code 404 for 2026-11-20
 Albéniz returned status code 404 for 2026-11-21
+Albéniz returned status code 404 for 2026-11-22
 Stopping Cine Albéniz scrape after 5 consecutive empty days.
 Cine Albéniz scraped: found 0 VOSE sessions.
 Warning: albeniz scraper returned 0 showings. Using fallback data.
 Recovered 0 albeniz showings from previous run.
 Scraping Kinépolis Granada & Nevada...
-Kinépolis Granada & Nevada: Scraped 248 VOSE sessions.
+Kinépolis Granada & Nevada: Scraped 306 VOSE sessions.
 Scraping Cines Renoir...
-Cines Renoir: Scraped 473 VOSE sessions.
+Cines Renoir: Scraped 507 VOSE sessions.
 Scraping Cines Golem...
-Cines Golem Madrid: Scraped 19 VOSE sessions.
+Cines Golem Madrid: Scraped 61 VOSE sessions.
 Scraping Cinesa (Madrid & Barcelona)...
 Attempting Cinesa auth token extraction via Playwright...
 Error: Could not retrieve Cinesa authentication token.
@@ -33,16 +33,17 @@ Recovered 832 cinesa showings from previous run.
 Scraping Ocine Serrallo...
 Ocine Serrallo: Scraped 2 sessions.
 Scraping mk2 Cinesur...
-  mk2 Cinesur Miramar: found 119 sessions.
-  mk2 Cinesur El Ingenio: found 32 sessions.
+  mk2 Cinesur Miramar: found 113 sessions.
+  mk2 Cinesur El Ingenio: found 31 sessions.
   mk2 Cinesur Málaga Nostrum: found 29 sessions.
-mk2 Cinesur scraped: found 180 VOSE sessions.
+mk2 Cinesur scraped: found 173 VOSE sessions.
 original language not found for 5 movies in Cinesa chain
 original language not found for 12 movies in Cinesur chain
-original language not found for 5 movies in Golem chain
+original language not found for 4 movies in Golem chain
+original language not found for 1 movies in Kinépolis chain
 Updated movie_title_translations.json
-Successfully generated api/v1/showtimes.json with 2041 listings.
-Appended 269 new showings to new_showtimes.json
+Successfully generated api/v1/showtimes.json with 2168 listings.
+Appended 227 new showings to new_showtimes.json
 
 Resolving missing movie title translations...
 Found 74 movies without original names.
@@ -144,10 +145,6 @@ Searching for: 'Harry Potter y la Piedra Filosofal 25 Aniversario'
     (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=Harry%20Potter%20y%20la%20Piedra%20Filosofal%2025%20Aniversario)
   -> Could not resolve original name for 'Harry Potter y la Piedra Filosofal 25 Aniversario'
 
-Searching for: 'IRON BOY'
-    (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=IRON%20BOY)
-  -> Found via Wikidata: 'Le Corset'
-
 Searching for: 'KEN RUSSELL'S THE DEVILS'
     (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=KEN%20RUSSELL%27S%20THE%20DEVILS)
   -> Could not resolve original name for 'KEN RUSSELL'S THE DEVILS'
@@ -215,6 +212,10 @@ Searching for: 'Los niños están bien'
 Searching for: 'MALAS CALLES [WILDER CINEMA]'
     (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=MALAS%20CALLES%20%5BWILDER%20CINEMA%5D)
   -> Could not resolve original name for 'MALAS CALLES [WILDER CINEMA]'
+
+Searching for: 'Ooh la la! Quién lo hubiera pensado?'
+    (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=Ooh%20la%20la%21%20Qui%C3%A9n%20lo%20hubiera%20pensado%3F)
+  -> Could not resolve original name for 'Ooh la la! Quién lo hubiera pensado?'
 
 Searching for: 'PARIS, TEXAS [WILDER CINEMA]'
     (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=PARIS%2C%20TEXAS%20%5BWILDER%20CINEMA%5D)
@@ -344,4 +345,4 @@ Searching for: 'es GHOST: 2 Big To Rig'
     (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=es%20GHOST%3A%202%20Big%20To%20Rig)
   -> Could not resolve original name for 'es GHOST: 2 Big To Rig'
 
-Successfully updated 1 translation(s) in movie_title_translations.json.
+No translations were updated.
