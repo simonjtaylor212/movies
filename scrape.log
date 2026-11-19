@@ -1,4 +1,4 @@
-Starting Scraper - Local time is 2026-11-18 20:59:48 CET
+Starting Scraper - Local time is 2026-11-19 03:16:33 CET
 Scraping Cine Yelmo...
   Fetching Yelmo malaga...
 Yelmo malaga returned status code 403
@@ -10,21 +10,21 @@ Yelmo scraped: found 0 VOSE sessions.
 Warning: yelmo scraper returned 0 showings. Using fallback data.
 Recovered 287 yelmo showings from previous run.
 Scraping Cine Albéniz...
-Albéniz returned status code 404 for 2026-11-18
 Albéniz returned status code 404 for 2026-11-19
 Albéniz returned status code 404 for 2026-11-20
 Albéniz returned status code 404 for 2026-11-21
 Albéniz returned status code 404 for 2026-11-22
+Albéniz returned status code 404 for 2026-11-23
 Stopping Cine Albéniz scrape after 5 consecutive empty days.
 Cine Albéniz scraped: found 0 VOSE sessions.
 Warning: albeniz scraper returned 0 showings. Using fallback data.
 Recovered 0 albeniz showings from previous run.
 Scraping Kinépolis Granada & Nevada...
-Kinépolis Granada & Nevada: Scraped 306 VOSE sessions.
+Kinépolis Granada & Nevada: Scraped 297 VOSE sessions.
 Scraping Cines Renoir...
-Cines Renoir: Scraped 507 VOSE sessions.
+Cines Renoir: Scraped 436 VOSE sessions.
 Scraping Cines Golem...
-Cines Golem Madrid: Scraped 61 VOSE sessions.
+Cines Golem Madrid: Scraped 68 VOSE sessions.
 Scraping Cinesa (Madrid & Barcelona)...
 Attempting Cinesa auth token extraction via Playwright...
 Error: Could not retrieve Cinesa authentication token.
@@ -33,20 +33,20 @@ Recovered 832 cinesa showings from previous run.
 Scraping Ocine Serrallo...
 Ocine Serrallo: Scraped 2 sessions.
 Scraping mk2 Cinesur...
-  mk2 Cinesur Miramar: found 113 sessions.
+  mk2 Cinesur Miramar: found 111 sessions.
   mk2 Cinesur El Ingenio: found 31 sessions.
   mk2 Cinesur Málaga Nostrum: found 29 sessions.
-mk2 Cinesur scraped: found 173 VOSE sessions.
+mk2 Cinesur scraped: found 171 VOSE sessions.
 original language not found for 5 movies in Cinesa chain
 original language not found for 12 movies in Cinesur chain
-original language not found for 4 movies in Golem chain
+original language not found for 5 movies in Golem chain
 original language not found for 1 movies in Kinépolis chain
 Updated movie_title_translations.json
-Successfully generated api/v1/showtimes.json with 2168 listings.
-Appended 227 new showings to new_showtimes.json
+Successfully generated api/v1/showtimes.json with 2093 listings.
+Appended 8 new showings to new_showtimes.json
 
 Resolving missing movie title translations...
-Found 74 movies without original names.
+Found 75 movies without original names.
 No TMDB_API_KEY detected. Using keyless TMDB scraper and Wikidata fallbacks.
 
 Searching for: '20 Años del MET en cines - Grabado MET 26-27'
@@ -237,6 +237,10 @@ Searching for: 'Preestreno a ciegas 17 septiembre 2026'
     (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=Preestreno%20a%20ciegas%2017%20septiembre%202026)
   -> Could not resolve original name for 'Preestreno a ciegas 17 septiembre 2026'
 
+Searching for: 'Puedes verlo todo'
+    (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=Puedes%20verlo%20todo)
+  -> Found via Wikidata: 'You Can See Everything'
+
 Searching for: 'QueerCineMad: Camp'
     (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=QueerCineMad%3A%20Camp)
   -> Could not resolve original name for 'QueerCineMad: Camp'
@@ -345,4 +349,4 @@ Searching for: 'es GHOST: 2 Big To Rig'
     (TMDB Scraper warning: 403 Client Error: Forbidden for url: https://www.themoviedb.org/search?query=es%20GHOST%3A%202%20Big%20To%20Rig)
   -> Could not resolve original name for 'es GHOST: 2 Big To Rig'
 
-No translations were updated.
+Successfully updated 1 translation(s) in movie_title_translations.json.
