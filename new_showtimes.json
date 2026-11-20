@@ -891785,5 +891785,18 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-11-20 11:56:02"
+  },
+  {
+    "cinema": "Kinépolis Granada",
+    "date": "2026-11-20",
+    "movie": "Los juegos del hambre:Amanecer en la cose",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "22:10",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/176091/0/KGRAN/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-11-20 20:38:15"
   }
 ]
