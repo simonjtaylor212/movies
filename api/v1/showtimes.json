@@ -13665,6 +13665,19 @@
   {
     "cinema": "Cines Renoir Retiro",
     "date": "2026-11-25",
+    "movie": "FATHERLAND",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "German",
+    "time": "20:30",
+    "booking_url": "https://www.pillalas.com/pase/madrid/renoir-retiro/fatherland/1098095/",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-11-20 11:56:02"
+  },
+  {
+    "cinema": "Cines Renoir Retiro",
+    "date": "2026-11-25",
     "movie": "La Invitación",
     "format": "2D",
     "language": "V.O.S.E.",
@@ -13674,6 +13687,19 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-11-17 19:09:45"
+  },
+  {
+    "cinema": "Cines Renoir Retiro",
+    "date": "2026-11-25",
+    "movie": "La Invitación",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "17:45",
+    "booking_url": "https://www.pillalas.com/pase/madrid/renoir-retiro/la-invitacion/1098094/",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-11-20 11:56:02"
   },
   {
     "cinema": "Cines Renoir Retiro",
@@ -13697,32 +13723,6 @@
     "original_language": "English",
     "time": "18:15",
     "booking_url": "https://www.pillalas.com/pase/madrid/renoir-retiro/wild-horse-nine/1097335/",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-11-17 19:09:45"
-  },
-  {
-    "cinema": "Cines Renoir Retiro",
-    "date": "2026-11-25",
-    "movie": "Wild Horse Nine",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "20:30",
-    "booking_url": "https://www.pillalas.com/pase/madrid/renoir-retiro/wild-horse-nine/1097337/",
-    "projection_type": "Movie",
-    "movie_title_language": "ES",
-    "date_added": "2026-11-17 19:09:45"
-  },
-  {
-    "cinema": "Cines Renoir Retiro",
-    "date": "2026-11-25",
-    "movie": "Wild Horse Nine",
-    "format": "2D",
-    "language": "V.O.S.E.",
-    "original_language": "English",
-    "time": "22:45",
-    "booking_url": "https://www.pillalas.com/pase/madrid/renoir-retiro/wild-horse-nine/1097339/",
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-11-17 19:09:45"

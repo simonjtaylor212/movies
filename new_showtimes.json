@@ -891759,5 +891759,31 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-11-19 03:16:33"
+  },
+  {
+    "cinema": "Cines Renoir Retiro",
+    "date": "2026-11-25",
+    "movie": "FATHERLAND",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "German",
+    "time": "20:30",
+    "booking_url": "https://www.pillalas.com/pase/madrid/renoir-retiro/fatherland/1098095/",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-11-20 11:56:02"
+  },
+  {
+    "cinema": "Cines Renoir Retiro",
+    "date": "2026-11-25",
+    "movie": "La Invitación",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "17:45",
+    "booking_url": "https://www.pillalas.com/pase/madrid/renoir-retiro/la-invitacion/1098094/",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-11-20 11:56:02"
   }
 ]
