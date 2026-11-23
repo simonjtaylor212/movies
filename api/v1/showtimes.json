@@ -4642,6 +4642,45 @@
   },
   {
     "cinema": "mk2 Cinesur El Ingenio",
+    "date": "2026-11-24",
+    "movie": "Los juegos del hambre: Amanecer en la cosecha",
+    "format": "2D",
+    "language": "Original con subtítulos (VOSE)",
+    "original_language": "English",
+    "time": "20:25",
+    "booking_url": "https://cine.entradas.com/cine/velez-malaga/cinesur-el-ingenio/evento/126805/los-juegos-del-hambre-amanecer-en-la-cosecha?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-11-23 12:49:25"
+  },
+  {
+    "cinema": "mk2 Cinesur El Ingenio",
+    "date": "2026-11-25",
+    "movie": "Los juegos del hambre: Amanecer en la cosecha",
+    "format": "2D",
+    "language": "Original con subtítulos (VOSE)",
+    "original_language": "English",
+    "time": "20:25",
+    "booking_url": "https://cine.entradas.com/cine/velez-malaga/cinesur-el-ingenio/evento/126824/los-juegos-del-hambre-amanecer-en-la-cosecha?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-11-23 12:49:25"
+  },
+  {
+    "cinema": "mk2 Cinesur El Ingenio",
+    "date": "2026-11-26",
+    "movie": "Los juegos del hambre: Amanecer en la cosecha",
+    "format": "2D",
+    "language": "Original con subtítulos (VOSE)",
+    "original_language": "English",
+    "time": "20:25",
+    "booking_url": "https://cine.entradas.com/cine/velez-malaga/cinesur-el-ingenio/evento/126847/los-juegos-del-hambre-amanecer-en-la-cosecha?mode=widget&change=0&ref=750&forceproxy=1",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-11-23 12:49:25"
+  },
+  {
+    "cinema": "mk2 Cinesur El Ingenio",
     "date": "2026-12-15",
     "movie": "Dune: Parte Tres",
     "format": "2D",
@@ -7538,6 +7577,32 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-11-18 20:59:48"
+  },
+  {
+    "cinema": "Kinépolis Madrid Ciudad de la Imagen",
+    "date": "2026-11-29",
+    "movie": "Las Nuevas Desventuras de Cliff Booth",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "22:00",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/225532/0/KMAD/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-11-23 12:49:25"
+  },
+  {
+    "cinema": "Kinépolis Madrid Ciudad de la Imagen",
+    "date": "2026-12-01",
+    "movie": "Las Nuevas Desventuras de Cliff Booth",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "17:30",
+    "booking_url": "https://kinepolis.es/direct-vista-redirect/225533/0/KMAD/0",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-11-23 12:49:25"
   },
   {
     "cinema": "Kinépolis Granada Nevada",
@@ -10775,6 +10840,32 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-11-17 19:09:45"
+  },
+  {
+    "cinema": "Cines Renoir Princesa",
+    "date": "2026-12-01",
+    "movie": "FANNY Y ALEXANDER [WILDER CINEMA]",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "German",
+    "time": "20:00",
+    "booking_url": "https://www.pillalas.com/pase/madrid/cines-princesa/fanny-y-alexander-wilder-cinema/1098099/",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-11-23 12:49:25"
+  },
+  {
+    "cinema": "Cines Renoir Floridablanca",
+    "date": "2026-12-01",
+    "movie": "FANNY Y ALEXANDER [WILDER CINEMA]",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "German",
+    "time": "20:00",
+    "booking_url": "https://www.pillalas.com/pase/barcelona/renoir-floridablanca/fanny-y-alexander-wilder-cinema/1098107/",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-11-23 12:49:25"
   },
   {
     "cinema": "Cines Golem Madrid",
