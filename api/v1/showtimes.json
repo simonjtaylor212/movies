@@ -10688,6 +10688,19 @@
   {
     "cinema": "Cines Renoir Floridablanca",
     "date": "2026-11-26",
+    "movie": "EL 47",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "Catalan",
+    "time": "11:00",
+    "booking_url": "https://www.pillalas.com/pase/barcelona/renoir-floridablanca/el-47/1099196/",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-11-26 12:54:53"
+  },
+  {
+    "cinema": "Cines Renoir Floridablanca",
+    "date": "2026-11-26",
     "movie": "La Invitación",
     "format": "2D",
     "language": "V.O.S.E.",
