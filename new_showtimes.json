@@ -911181,5 +911181,18 @@
     "projection_type": "Movie",
     "movie_title_language": "ES",
     "date_added": "2026-11-27 17:11:13"
+  },
+  {
+    "cinema": "Cines Renoir Princesa",
+    "date": "2026-11-29",
+    "movie": "ADOLESCENCIA SEXO Y MUERTE EN CAMPAMENTO MIASMA",
+    "format": "2D",
+    "language": "V.O.S.E.",
+    "original_language": "English",
+    "time": "22:30",
+    "booking_url": "https://www.pillalas.com/pase/madrid/cines-princesa/adolescencia-sexo-y-muerte-en-campamento-miasma/1099204/",
+    "projection_type": "Movie",
+    "movie_title_language": "ES",
+    "date_added": "2026-11-28 02:06:51"
   }
 ]
